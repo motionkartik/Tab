@@ -1,0 +1,255 @@
+/* ===== Top-level link buttons ===== */
+.link-button-item {
+    justify-content: center;
+}
+
+.link-button-widget > .grid-stack-item-content {
+    background: var(--link-button-bg, var(--card-bg));
+}
+
+.link-button-shell {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    min-height: 100%;
+    height: 100%;
+}
+
+.link-button-anchor,
+.link-button-button {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem 1.15rem;
+    text-decoration: none;
+    color: var(--link-color);
+    border-radius: inherit;
+    box-sizing: border-box;
+    transition:
+        transform var(--hover-speed) ease,
+        background-color var(--hover-speed) ease,
+        color var(--hover-speed) ease;
+}
+
+.link-button-button {
+    border: 0;
+    background: transparent;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+}
+
+.link-button-anchor:hover,
+.link-button-button:hover {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-color);
+}
+
+body.hover-motion-disabled .link-button-anchor:hover,
+body.hover-motion-disabled .link-button-button:hover {
+    transform: none;
+}
+
+.link-button-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+.link-button-icon svg,
+.link-button-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Default action glyphs on a top-level button: clipboard, launcher and routine
+   are all "special" links, so their default glyph is pinned to the accent color
+   in every theme (a per-widget color override still wins). fill:currentColor
+   lets the fill-less default SVG paths pick up that color (custom icons never
+   get these classes, so they keep their own colors). */
+.link-button-icon.clipboard-type-icon,
+.link-button-icon.launcher-type-icon {
+    color: var(--icon-override, var(--accent-color, var(--link-color)));
+}
+.link-button-icon.clipboard-type-icon,
+.link-button-icon.clipboard-type-icon svg,
+.link-button-icon.clipboard-type-icon path,
+.link-button-icon.launcher-type-icon,
+.link-button-icon.launcher-type-icon svg,
+.link-button-icon.launcher-type-icon path {
+    fill: currentColor;
+}
+
+.link-button-text {
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: var(--link-button-font-size, clamp(0.95rem, 1vw, 1.05rem));
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+}
+
+.link-button-controls {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    display: flex;
+    gap: 0.25rem;
+}
+
+/* The full-cover .tile-drag-surface (1x1 tiles + icon links) is also a
+   .group-drag-handle, but it must stay invisible — it only arms on long-press.
+   Exclude it here or hovering the square lights the whole face as a handle. */
+.link-button-shell:hover .group-drag-handle:not(.tile-drag-surface),
+.link-button-shell:hover .group-menu-btn {
+    display: flex;
+    opacity: 0.55;
+}
+
+.link-button-shell:hover .group-drag-handle:not(.tile-drag-surface):hover,
+.link-button-shell:hover .group-menu-btn:hover {
+    opacity: 1;
+}
+
+.link-button-item.link-broken .link-button-text::after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background: #e53e3e;
+    vertical-align: middle;
+    opacity: 0.85;
+}
+
+/* ── Tile: an icon link with a card background — square, icon only ───────── */
+/* The 1x8 grid cell is almost never exactly square (row height is fixed,
+   column width follows the viewport), so the card chrome moves off the cell
+   wrapper onto the item itself, sized to the largest 1:1 square that fits
+   the cell (container units), centered in the leftover space. */
+.grid-stack-item-content:has(> .link-button-tile) {
+    container-type: size;
+    display: flex;
+    /* Pin the square to the cell's top-left corner so its edges sit exactly
+       on the column/row lines like every other widget — centering it would
+       drift it off the grid whenever the cell has slack. */
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+.link-button-item.link-button-tile {
+    /* Exactly one column wide, 1:1 — the height follows the column width so
+       the card always spans its column edge-to-edge (20px grid gaps), never
+       a centered smaller square. */
+    width: 100cqw;
+    aspect-ratio: 1 / 1;
+    height: auto;
+}
+.link-button-item.link-button-tile {
+    background: var(--link-button-bg, var(--card-bg));
+    border: 1px solid var(--card-border-color);
+    box-shadow: var(--card-shadow);
+    border-radius: var(--border-radius);
+    transition:
+        border-color var(--hover-speed) ease,
+        box-shadow var(--hover-speed) ease;
+}
+
+/* Mirror the card hover chrome the cell wrapper normally provides (the
+   translateY lift still comes from the wrapper's :has(> .item):hover rule). */
+.link-button-item.link-button-tile:hover {
+    border-color: var(--card-hover-border-color);
+    box-shadow: var(--card-hover-shadow);
+}
+
+.link-button-tile .link-button-anchor,
+.link-button-tile .link-button-button {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+/* Breathing room inside the enlarged 1×1 card. */
+.link-button-tile:not(.link-button-tile-2) .link-button-anchor,
+.link-button-tile:not(.link-button-tile-2) .link-button-button {
+    padding: 10px;
+}
+.link-button-tile .link-button-icon {
+    width: 28px;
+    height: 28px;
+}
+.link-button-tile-2 .link-button-icon {
+    width: 44px;
+    height: 44px;
+}
+/* The large tile has room for its name: one centered line under the icon,
+   ellipsized when it overflows (the tooltip still carries the full name). */
+.link-button-tile-2 .link-button-anchor,
+.link-button-tile-2 .link-button-button {
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+.link-button-tile-2 .link-button-text {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+/* Large tile hover controls: hug the right edge to stay off the icon —
+   options in the very top-right corner, drag handle centered vertically
+   (the container spans the edge; the menu is pinned out of the flow). */
+.link-button-tile-2 .link-button-controls {
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.link-button-tile-2 .link-button-controls .group-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* The 1×1 tile never shows its name: at one column wide a caption is
+   unreadable, so it's icon-only by design — the tooltip carries the name,
+   and the large tile (tile2) is the "square with a caption" option. */
+.link-button-tile:not(.link-button-tile-2) .link-button-text {
+    display: none;
+}
+/* tile2's in-card caption mirrors the glyph's accent tint on action tiles
+   so label and icon share one colour. */
+.link-button-tile .link-button-icon.clipboard-type-icon ~ .link-button-text,
+.link-button-tile .link-button-icon.launcher-type-icon ~ .link-button-text {
+    color: var(--icon-override, var(--accent-color, var(--link-color)));
+}
+/* Long-press drag surface for 1-column squares (icon links + tiles): a
+   full-cover .group-drag-handle that only becomes interactive while a
+   long-press has armed it (link-button-renderer toggles pointer-events). */
+.tile-drag-surface {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    cursor: grab;
+}
+.link-button-item.tile-drag-armed {
+    transform: scale(0.92);
+    transition: transform 0.12s ease;
+    cursor: grabbing;
+}

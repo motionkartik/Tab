@@ -1,0 +1,697 @@
+/* ===== Settings Drawer Layout ===== */
+.settings-modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: stretch;
+    pointer-events: none;
+}
+
+.settings-modal-backdrop.active {
+    display: flex;
+}
+
+.settings-modal {
+    background: var(--smodal-bg, var(--panel-bg));
+    color: var(--panel-text);
+    font-family: Manrope, system-ui, sans-serif;
+    border-radius: 0;
+    border-left: 1px solid var(--panel-border);
+    width: 460px;
+    max-width: 92vw;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: var(--smodal-shadow, var(--panel-shadow));
+    display: flex;
+    flex-direction: column;
+    animation: drawerSlideIn 0.28s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    pointer-events: auto;
+}
+
+@keyframes drawerSlideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.settings-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--smodal-separator, var(--panel-separator));
+}
+
+.settings-modal-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--smodal-text, var(--panel-text));
+}
+
+.settings-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.75rem;
+    color: var(--smodal-close, var(--panel-close));
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    transition: color 0.2s ease;
+    height: auto;
+    text-transform: none;
+}
+
+.settings-modal-close:hover {
+    color: var(--smodal-close-hover, var(--panel-close-hover));
+    background: none;
+}
+
+#settings-modal button,
+#settings-modal input,
+#settings-modal select,
+#settings-modal textarea {
+    font-family: inherit;
+}
+
+.settings-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.35rem;
+    padding: 0.6rem 0.75rem;
+    background: var(--smodal-tabs-bg, var(--panel-bg));
+    border-bottom: 1px solid var(--smodal-separator, var(--panel-separator));
+    flex-shrink: 0;
+}
+
+.settings-tab {
+    padding: 0.4rem 0.75rem;
+    background: transparent;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--smodal-tab, var(--panel-tab));
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.settings-tab:hover {
+    background: var(--smodal-tab-hover-bg, var(--panel-hover-bg));
+    color: var(--smodal-tab-hover-color, inherit);
+}
+
+.settings-tab.active {
+    background: var(--smodal-active-bg, var(--panel-active-bg));
+    color: var(--smodal-active-text, var(--panel-active-text));
+}
+
+.settings-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+/* Drawer scrollbars */
+.settings-content::-webkit-scrollbar,
+.theme-editor-sections::-webkit-scrollbar {
+    width: 5px;
+}
+.settings-content::-webkit-scrollbar-track,
+.theme-editor-sections::-webkit-scrollbar-track {
+    background: transparent;
+}
+.settings-content::-webkit-scrollbar-thumb,
+.theme-editor-sections::-webkit-scrollbar-thumb {
+    background: var(--panel-scrollbar);
+    border-radius: 3px;
+}
+.settings-content::-webkit-scrollbar-thumb:hover,
+.theme-editor-sections::-webkit-scrollbar-thumb:hover {
+    background: var(--panel-scrollbar-hover);
+}
+
+.settings-panel {
+    display: none;
+}
+
+.settings-panel.active {
+    display: block;
+}
+
+.settings-section {
+    margin-bottom: 0;
+}
+
+.settings-section:last-child {
+    margin-bottom: 0;
+}
+
+#settings-general {
+    gap: 0;
+}
+
+#settings-general.active {
+    display: grid;
+}
+
+#settings-general .settings-section {
+    margin-bottom: 0;
+}
+
+/* Identical heading rendering across every settings tab */
+.settings-panel .settings-section > h3 {
+    padding: 0 0.1rem;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+}
+
+#settings-general .settings-title-row {
+    gap: 0.5rem;
+}
+
+#settings-general .settings-title-row .settings-help-trigger {
+    margin-left: auto;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: transparent;
+    color: var(--overlay-icon-color, var(--icon-color, #98a2b3));
+}
+
+#settings-general .settings-title-row .settings-help-trigger:hover,
+#settings-general .settings-title-row .settings-help-trigger:focus-visible,
+#settings-general
+    .settings-title-row
+    .settings-help-trigger[aria-expanded="true"] {
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    color: var(--accent-color, #4a7bff);
+    transform: none;
+    box-shadow: none;
+}
+
+#settings-general .settings-group-card {
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 18px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    overflow: hidden;
+}
+
+#settings-general .settings-group-card > * + *,
+#settings-general .settings-suboptions,
+#settings-general .settings-suboptions > * + * {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+#settings-general .settings-group-card-form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+#settings-general .settings-group-card-form > * + * {
+    border-top: none;
+}
+
+#settings-general .settings-card-description {
+    margin: 0;
+    padding: 0.9rem 1rem;
+}
+
+#settings-general .settings-group-card-form .settings-card-description {
+    padding: 0;
+}
+
+#settings-general .settings-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0.85rem 1rem 1rem;
+}
+
+
+
+#settings-general .settings-inline-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#settings-general .settings-group-card select {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#settings-general .settings-field-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+}
+
+#settings-general .settings-optional-text {
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.settings-collapsible-list {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.settings-collapsible-item {
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 18px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    overflow: hidden;
+}
+
+.settings-collapsible-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.35rem;
+}
+
+.settings-collapsible-trigger {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 45px;
+    padding: 0 0.8rem;
+    border: none;
+    background: transparent;
+    color: var(--overlay-text, #101828);
+    cursor: pointer;
+    text-align: left;
+    font: inherit;
+}
+
+.settings-collapsible-spacer {
+    flex: 1 1 auto;
+}
+
+.settings-collapsible-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.4rem;
+    border-radius: 999px;
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.05));
+    color: var(--overlay-muted-text, #667085);
+    font-size: 0.76rem;
+    font-weight: 700;
+}
+
+.settings-collapsible-chevron {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    color: var(--overlay-icon-color, #98a2b3);
+    transition: transform 0.18s ease;
+}
+
+.settings-collapsible-chevron svg {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+}
+
+.settings-collapsible-help {
+    flex: 0 0 auto;
+}
+
+.settings-collapsible-content {
+    display: none;
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+.settings-collapsible-item.is-open .settings-collapsible-content {
+    display: block;
+}
+
+.settings-collapsible-item.is-open .settings-collapsible-chevron {
+    transform: rotate(180deg);
+}
+
+.settings-surface-card {
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 18px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    overflow: hidden;
+}
+
+.settings-surface-card > * + * {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+#settings-layout .settings-layout-control-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 45px;
+    padding: 0 1rem;
+}
+
+#settings-layout .settings-layout-control-row label {
+    flex: 1 1 auto;
+    min-width: 0;
+    color: var(--overlay-text, #101828);
+    font-size: 0.95rem;
+    line-height: 1.35;
+}
+
+#settings-layout .settings-layout-control-row select {
+    margin-left: auto;
+    min-width: 148px;
+    max-width: 50%;
+    height: 40px;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+}
+
+#settings-layout .settings-layout-link-row {
+    padding: 0.75rem 1rem 0.85rem;
+}
+
+#settings-layout .settings-layout-theme-card select {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#settings-layout .settings-layout-card-body {
+    padding: 0.95rem 1rem 1rem;
+}
+
+#settings-layout .settings-layout-card-description {
+    margin: 0 0 0.85rem;
+}
+
+#settings-spaces .settings-section-meta {
+    margin-left: auto;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--overlay-muted-text, #667085);
+}
+
+#settings-spaces .settings-title-row .settings-help-trigger {
+    margin-left: 0.15rem;
+}
+
+#settings-spaces .settings-spaces-card-block {
+    padding: 1rem;
+}
+
+#settings-spaces .settings-spaces-import-card > * + * {
+    border-top: none;
+}
+
+#settings-spaces .settings-spaces-card-description {
+    margin: 0 0 0.85rem;
+}
+
+#settings-spaces .settings-spaces-import-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#settings-spaces .settings-spaces-import-row input {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#settings-spaces .settings-spaces-managed-card {
+    padding: 0;
+}
+
+#settings-spaces .settings-spaces-pro-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    margin: 0.6rem 0.15rem 0;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--border-color, rgba(127, 127, 127, 0.25));
+    border-radius: var(--border-radius, 10px);
+    background: var(--card-hover-bg, rgba(127, 127, 127, 0.06));
+    font-size: 0.82rem;
+    line-height: 1.45;
+    color: var(--text-secondary, rgba(127, 127, 127, 0.95));
+}
+
+/* `display: flex` above would override the `hidden` attribute, so restore it. */
+#settings-spaces .settings-spaces-pro-note[hidden] {
+    display: none;
+}
+
+#settings-spaces .settings-spaces-pro-note-badge {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.12rem 0.4rem;
+    border-radius: 999px;
+    background: var(--accent-color, #6c5ce7);
+    color: #fff;
+    white-space: nowrap;
+}
+
+#settings-spaces .settings-spaces-managed-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.95rem 1rem;
+}
+
+#settings-spaces .settings-spaces-managed-copy {
+    min-width: 0;
+}
+
+#settings-spaces .settings-spaces-managed-description {
+    margin: 0.15rem 0 0;
+}
+
+#settings-spaces .settings-spaces-managed-subscribe {
+    padding: 0.95rem 1rem 1rem;
+}
+
+#settings-spaces
+    .settings-spaces-managed-subscribe
+    .settings-spaces-managed-title {
+    margin-bottom: 0.75rem;
+}
+
+#settings-spaces #managed-board-list {
+    margin-top: 0.75rem;
+}
+
+#settings-data .settings-data-card {
+    padding: 0;
+}
+
+#settings-data .settings-data-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.95rem 1rem;
+}
+
+#settings-data .settings-data-row-stack {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#settings-data .settings-data-copy {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+#settings-data .settings-data-description {
+    margin: 0.15rem 0 0;
+}
+
+#settings-data .settings-data-btn {
+    flex: 0 0 auto;
+    min-width: 0;
+}
+
+#settings-data .settings-data-inline-row,
+#settings-data .bookmarks-import-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+#settings-data .bookmarks-import-section select,
+#settings-data .settings-data-inline-row select {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 40px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+}
+
+#settings-data .settings-data-file-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+#settings-data .settings-data-session-card {
+    padding: 1rem;
+}
+
+#settings-data .settings-data-session-card > * + * {
+    border-top: none;
+}
+
+#settings-data .settings-data-session-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(74, 123, 255, 0.14);
+    border-radius: 14px;
+    background: rgba(74, 123, 255, 0.06);
+    margin-bottom: 0.85rem;
+}
+
+#settings-data .settings-data-session-summary-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid rgba(74, 123, 255, 0.16);
+    border-radius: 12px;
+    background: rgba(74, 123, 255, 0.08);
+    color: #4a7bff;
+    flex: 0 0 auto;
+}
+
+#settings-data .settings-data-session-summary-icon svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    display: block;
+}
+
+#settings-data .settings-data-session-summary-copy {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+#settings-data .settings-data-session-summary-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--overlay-text, #101828);
+}
+
+#settings-data .settings-data-session-meta {
+    margin: 0.15rem 0 0;
+    font-size: 0.82rem;
+}
+
+#settings-data .settings-data-session-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) repeat(2, minmax(0, 0.7fr));
+    gap: 0.5rem;
+    margin-top: 0;
+}
+
+#settings-data .settings-data-session-actions .settings-btn,
+#settings-data .settings-data-session-actions .settings-btn-secondary {
+    justify-content: center;
+}
+
+#settings-layout .settings-design-background-section {
+    margin-bottom: 3rem;
+}
+
+/* Reset button mounted inline next to the "Background" heading. */
+.settings-design-background-actions {
+    margin-left: auto;
+}
+
+.settings-design-background-actions .settings-btn-secondary {
+    width: auto;
+    margin: 0;
+}
+
+/* "Copy from workspace" card sits right under the theme card — match the gap
+   used between the background collapsible cards. */
+#copy-from-workspace-card {
+    margin-top: 0.9rem;
+}
+
+#settings-layout .settings-design-background-host {
+    display: grid;
+    gap: 1rem;
+}
+
+/* Uniform 2rem spacing above every settings section heading (all tabs) */
+.settings-panel .settings-section > h3 {
+    margin-top: 2rem;
+}
+
+/* No top margin on the first heading of a panel. The License tab renders its
+   first section inside #settings-license-dynamic, so cover that case too. */
+.settings-panel > .settings-section:first-child > h3,
+.settings-panel > #settings-license-dynamic > .settings-section:first-child > h3 {
+    margin-top: 0;
+}
+
+#settings-modal .settings-panel:not(#settings-general) .settings-section h3 {
+    color: var(--panel-section-title);
+}

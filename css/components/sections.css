@@ -1,0 +1,1159 @@
+/* sections.css — two grid zones + top-level section elements (heading/text/divider)
+   Sections adapt to the active theme: BARE sits on the page background (clock/tab
+   colors), PANEL gets its own card (group-card colors). */
+
+/* ── Grid zones ───────────────────────────────────────────────────────────── */
+.grid-zone {
+    position: relative;
+    border-radius: 14px;
+    /* Always keep a drop area: an empty grid collapses to zero height, leaving
+       nothing to drop a widget onto (e.g. moving a zone onto an empty board). */
+    min-height: 50px;
+    transition:
+        background 0.16s ease,
+        box-shadow 0.16s ease,
+        opacity 0.16s ease;
+}
+/* Hide the top bar when unused, but reveal it (as a 50px drop target) while a
+   widget is being dragged so a shortcut can land in an empty top bar. */
+.grid-zone-top:empty {
+    display: none;
+}
+body.is-dragging .grid-zone-top:empty {
+    display: block;
+}
+
+/* Synthetic landing placeholder: a Sortable link tile dragged over the board
+   draws no GridStack placeholder (different drag system), so grid-renderer
+   positions this box where the tile would promote to an icon Shortcut. */
+.rt-drop-placeholder {
+    position: fixed;
+    z-index: 9000;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 14%,
+        transparent
+    );
+    border: 2px dashed var(--accent-color, #4a7bff);
+}
+.grid-zone-top + .grid-zone-main {
+    margin-top: 0.25rem;
+}
+
+/* ── Drag affordance: reveal & label the two zones while arranging ──────────
+   Tints use --clock-color (dark on light themes, light on dark/glass) so the
+   fill darkens light themes and lightens dark ones automatically. Accent marks
+   a valid drop target for the element being dragged. */
+body.is-dragging .grid-zone {
+    background: color-mix(in srgb, var(--clock-color) 5%, transparent);
+    box-shadow: inset 0 0 0 1.5px
+        color-mix(in srgb, var(--clock-color) 14%, transparent);
+}
+body.is-dragging .grid-zone::after {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.28rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 4;
+    /* A fixed dark pill so the hint reads on every theme (a theme-tinted label
+       was invisible where --clock-color is white on a bright glass background). */
+    background: rgba(17, 24, 39, 0.66);
+    color: #fff;
+}
+body.is-dragging .grid-zone-top::after {
+    content: "Shortcuts";
+}
+body.is-dragging .grid-zone-main::after {
+    content: "Free layout";
+}
+
+/* Reveal the (possibly empty) shortcuts bar as a drop target while dragging one */
+body.dragging-shortcut .grid-zone-top {
+    display: block !important;
+    min-height: 64px;
+}
+
+/* Highlight valid drop targets in accent. Shortcut → both zones; block → board. */
+body.dragging-shortcut .grid-zone,
+body.dragging-block .grid-zone-main {
+    background: color-mix(in srgb, var(--accent-color) 10%, transparent);
+    box-shadow: inset 0 0 0 2px
+        color-mix(in srgb, var(--accent-color) 42%, transparent);
+}
+body.dragging-shortcut .grid-zone::after,
+body.dragging-block .grid-zone-main::after {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+/* A block (group/section) can't go in the bar — dim it and say so. */
+body.dragging-block .grid-zone-top {
+    opacity: 0.45;
+}
+body.dragging-block .grid-zone-top::after {
+    content: "Shortcuts only";
+}
+
+/* ── Section widget shell ───────────────────────────────────────────────────
+   The grid item itself is chrome-less; the section paints its own surface. */
+.section-widget .grid-stack-item-content {
+    /* A section is NOT a card. Force-strip every card chrome that group/theme
+       rules apply to .item wrappers (background, border, shadow, and crucially
+       the glass-theme backdrop-filter that otherwise frosts the area behind a
+       bare title). !important is needed to beat themed `:has(> .item)` rules. */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    transform: none !important;
+    padding: 0;
+    overflow: visible;
+}
+.section-widget .grid-stack-item-content:hover {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    transform: none !important;
+}
+
+.section-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: visible; /* override .item{overflow:hidden} so the toolbar isn't clipped */
+    border-radius: var(--section-panel-radius, var(--border-radius, 10px));
+    transition:
+        background var(--hover-speed) ease,
+        border-color var(--hover-speed) ease,
+        box-shadow var(--hover-speed) ease;
+}
+
+/* Alignment */
+.section-align-left {
+    text-align: left;
+    align-items: flex-start;
+}
+.section-align-center {
+    text-align: center;
+    align-items: center;
+}
+.section-align-right {
+    text-align: right;
+    align-items: flex-end;
+}
+
+/* ── Heading ───────────────────────────────────────────────────────────────── */
+.section-title {
+    width: 100%;
+    margin: 0;
+    color: var(--section-title-color, var(--clock-color, #1a1a1a));
+    font-weight: var(--section-title-weight, var(--header-font-weight, 700));
+    font-size: var(--section-title-size, 1.7rem);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    word-break: break-word;
+    outline: none;
+    cursor: default;
+}
+.section-level-h1 .section-title {
+    font-size: calc(var(--section-title-size) * 1.35);
+    letter-spacing: -0.02em;
+}
+.section-level-h2 .section-title {
+    font-size: var(--section-title-size);
+}
+.section-level-h3 .section-title {
+    font-size: calc(var(--section-title-size) * 0.72);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.85;
+}
+
+/* ── Text ──────────────────────────────────────────────────────────────────── */
+.section-body {
+    width: 100%;
+    margin: 0;
+    color: var(--section-text-color, var(--tab-color, #555));
+    font-size: var(--section-text-size, 1rem);
+    line-height: 1.65;
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-y: auto;
+    max-height: 100%;
+    outline: none;
+    cursor: default;
+}
+
+/* ── Inline markdown (bold / italic / inline code) ─────────────────────────── */
+.section-body strong,
+.callout-body strong,
+.steps-list strong {
+    font-weight: 700;
+}
+.section-body em,
+.callout-body em,
+.steps-list em {
+    font-style: italic;
+}
+.section-body code,
+.callout-body code,
+.steps-list code {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        monospace;
+    font-size: 0.88em;
+    padding: 0.1em 0.36em;
+    border-radius: 5px;
+    background: color-mix(in srgb, var(--clock-color) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--clock-color) 14%, transparent);
+}
+
+/* ── Panel surface (own card, like a group) ────────────────────────────────── */
+.section-surface-panel {
+    background: var(--section-panel-bg, var(--card-bg, #fff));
+    border: 1px solid
+        var(--section-panel-border, var(--card-border-color, rgba(0, 0, 0, 0.1)));
+    box-shadow: var(--section-panel-shadow, var(--card-shadow, none));
+    padding: var(--section-panel-padding, var(--card-padding, 1rem));
+    /* Harmless on opaque-card themes; frosts the panel on glass themes so it
+       matches group cards (which carry their own backdrop-filter). */
+    backdrop-filter: blur(12px) saturate(115%);
+    -webkit-backdrop-filter: blur(12px) saturate(115%);
+}
+.section-surface-panel .section-title {
+    color: var(--section-panel-title-color, var(--header-color, #333));
+    text-shadow: none;
+}
+.section-surface-panel .section-body {
+    color: var(--section-panel-text-color, var(--link-color, #555));
+    text-shadow: none;
+}
+
+/* ── Divider ───────────────────────────────────────────────────────────────── */
+.section-divider {
+    justify-content: center;
+}
+.section-line {
+    width: 100%;
+    height: 0;
+    border-top: var(--divider-thickness, 1px) solid
+        var(--section-divider-color, var(--card-border-color, rgba(0, 0, 0, 0.14)));
+}
+.section-surface-panel.section-divider {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* ── Step heading (numbered section title) ─────────────────────────────────── */
+.section-stepheader {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.85rem;
+}
+.section-stepheader.section-align-center {
+    justify-content: center;
+}
+.section-stepheader.section-align-right {
+    justify-content: flex-end;
+}
+.stepheader-num {
+    flex-shrink: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1;
+    background: var(
+        --step-badge-bg,
+        color-mix(in srgb, var(--accent-color, #4f4536) 18%, transparent)
+    );
+    color: var(--step-badge-num, var(--accent-color, #4f4536));
+    outline: none;
+}
+.stepheader-title {
+    min-width: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--section-title-color, var(--clock-color, #1a1a1a));
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    word-break: break-word;
+    outline: none;
+}
+.stepheader-title:empty::before {
+    content: attr(data-placeholder);
+    color: currentColor;
+    opacity: 0.4;
+}
+
+/* ── Arrow (directional flow cue — bolder than a divider) ──────────────────── */
+.section-arrow {
+    align-items: center;
+    justify-content: center;
+    /* Deliberately heavier than --section-divider-color so arrows read as flow
+       markers, not separators. */
+    color: var(
+        --arrow-color,
+        color-mix(in srgb, var(--clock-color) 55%, transparent)
+    );
+}
+/* Fill the widget so the arrow scales when the element is resized on the grid. */
+.arrow-glyph {
+    width: 100%;
+    height: 100%;
+    /* As a column-flex child of .section-content (which is overflow:visible),
+       the default min-height:auto would let the square SVG size to its width and
+       overflow a short/wide cell downward, stretching the page. Pin it to the
+       cell height and clip any aspect-ratio overshoot. */
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.12s ease;
+}
+/* Never let the arrow glyph exceed its cell; preserveAspectRatio letterboxes it. */
+.arrow-glyph svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-arrow.arrow-dir-up .arrow-glyph {
+    transform: rotate(180deg);
+}
+.section-arrow.arrow-dir-up-right .arrow-glyph {
+    transform: rotate(-135deg);
+}
+.section-arrow.arrow-dir-right .arrow-glyph {
+    transform: rotate(-90deg);
+}
+.section-arrow.arrow-dir-down-right .arrow-glyph {
+    transform: rotate(-45deg);
+}
+.section-arrow.arrow-dir-down-left .arrow-glyph {
+    transform: rotate(45deg);
+}
+.section-arrow.arrow-dir-left .arrow-glyph {
+    transform: rotate(90deg);
+}
+.section-arrow.arrow-dir-up-left .arrow-glyph {
+    transform: rotate(135deg);
+}
+
+/* ── Inline editing — read as prose, not a form field ──────────────────────── */
+.section-title[contenteditable="true"],
+.section-body[contenteditable="true"],
+.callout-body[contenteditable="true"],
+.code-body[contenteditable="true"] {
+    cursor: text;
+    border-radius: 6px;
+    transition: background var(--hover-speed) ease;
+}
+.section-title[contenteditable="true"]:focus,
+.section-body[contenteditable="true"]:focus,
+.callout-body[contenteditable="true"]:focus,
+.code-body[contenteditable="true"]:focus {
+    background: color-mix(in srgb, var(--section-accent, var(--accent-color,#4f4536)) 9%, transparent);
+    box-shadow: 0 0 0 1px
+        color-mix(in srgb, var(--section-accent, var(--accent-color,#4f4536)) 22%, transparent);
+}
+.section-title:empty::before,
+.section-body:empty::before,
+.callout-body:empty::before,
+.code-body:empty::before {
+    content: attr(data-placeholder);
+    color: currentColor;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+/* ── Edit controls (hover toolbar) ─────────────────────────────────────────── */
+.section-controls {
+    position: absolute;
+    top: -0.6rem;
+    right: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.2rem;
+    border-radius: 9px;
+    background: var(--section-panel-bg, var(--card-bg, #fff));
+    border: 1px solid var(--section-panel-border, var(--card-border-color, rgba(0,0,0,0.1)));
+    box-shadow: var(--card-shadow, 0 4px 14px rgba(0, 0, 0, 0.12));
+    opacity: 0;
+    transform: translateY(-3px) scale(0.96);
+    transform-origin: top right;
+    transition:
+        opacity 0.16s ease,
+        transform 0.16s ease;
+    pointer-events: none;
+    z-index: 6;
+}
+.section-widget:hover .section-controls,
+.section-content:focus-within .section-controls {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+}
+
+.section-ctrl-btn,
+.section-drag-handle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--section-panel-text-color, var(--link-color, #555));
+    cursor: pointer;
+    transition:
+        background 0.14s ease,
+        color 0.14s ease;
+}
+.section-ctrl-btn:hover,
+.section-drag-handle:hover {
+    background: color-mix(in srgb, var(--section-accent, var(--accent-color,#4f4536)) 14%, transparent);
+    color: var(--section-panel-title-color, var(--header-color, #333));
+}
+.section-ctrl-text {
+    width: auto;
+    min-width: 26px;
+    padding: 0 0.4rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.section-drag-handle {
+    cursor: grab;
+}
+.section-drag-handle:active {
+    cursor: grabbing;
+}
+
+/* ── Callout / admonition ──────────────────────────────────────────────────
+   A tinted panel with a semantic accent stripe + icon. --callout-color is set
+   per variant; defaults live in variables.css and the theme editor can override. */
+.section-callout {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.7rem;
+    padding: 0.85rem 1rem;
+    border-radius: var(--section-panel-radius, var(--border-radius, 10px));
+    /* DEFAULT (light themes): a soft, even tint over the surface + accent stripe.
+       The dark/glass themes override this with the Claude Design recipe below. */
+    background:
+        linear-gradient(
+            0deg,
+            color-mix(in srgb, var(--callout-color) var(--callout-tint, 16%), transparent),
+            color-mix(in srgb, var(--callout-color) var(--callout-tint, 16%), transparent)
+        ),
+        var(--callout-surface, var(--card-bg, #fff));
+    border: 1px solid color-mix(in srgb, var(--callout-color) 30%, transparent);
+    border-left: 3px solid var(--callout-color);
+}
+.callout-info {
+    --callout-color: var(--callout-info, #3b82f6);
+    --callout-text: var(--ct-info, var(--section-panel-text-color, #444));
+}
+.callout-tip {
+    --callout-color: var(--callout-tip, #8b5cf6);
+    --callout-text: var(--ct-tip, var(--section-panel-text-color, #444));
+}
+.callout-warning {
+    --callout-color: var(--callout-warning, #f59e0b);
+    --callout-text: var(--ct-warning, var(--section-panel-text-color, #444));
+}
+.callout-success {
+    --callout-color: var(--callout-success, #22c55e);
+    --callout-text: var(--ct-success, var(--section-panel-text-color, #444));
+}
+.callout-error {
+    --callout-color: var(--callout-error, #e5484d);
+    --callout-text: var(--ct-error, var(--section-panel-text-color, #444));
+}
+.callout-icon {
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--callout-color);
+    margin-top: 1px;
+}
+.callout-body {
+    flex: 1;
+    min-width: 0;
+    color: var(--callout-text, var(--section-panel-text-color, var(--link-color, #444)));
+    font-size: var(--section-text-size, 1rem);
+    line-height: 1.55;
+    white-space: pre-wrap;
+    word-break: break-word;
+    outline: none;
+}
+
+/* ── Claude Design callout recipe — scoped to DARK / GLASS themes ──────────────
+   Crisp left accent that fades out by 160px (not a wash) + a 3px inset stripe +
+   an accent icon badge (white glyph) + per-type text tint (--ct-*). Light themes
+   keep the soft full-tint look above; this only applies where it was designed. */
+:is(
+        body.ui-midnight,
+        body.ui-dark,
+        body.ui-luxury,
+        body.ui-ocean,
+        body.ui-aurora-glass
+    )
+    .section-callout {
+    align-items: center;
+    padding: 0.7rem 0.85rem;
+    border-radius: 12px;
+    background:
+        linear-gradient(
+            90deg,
+            color-mix(in srgb, var(--callout-color) var(--callout-tint, 20%), transparent) 0%,
+            transparent 160px
+        ),
+        var(--callout-surface, var(--card-bg, #fff));
+    border: 1px solid
+        var(
+            --callout-border,
+            color-mix(in srgb, var(--callout-color) 30%, transparent)
+        );
+    border-left: none;
+    box-shadow:
+        inset 3px 0 0 var(--callout-color),
+        inset 0 1px 0 var(--callout-highlight, transparent);
+}
+:is(
+        body.ui-midnight,
+        body.ui-dark,
+        body.ui-luxury,
+        body.ui-ocean,
+        body.ui-aurora-glass
+    )
+    .callout-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    margin-top: 0;
+    background: var(--callout-color);
+    color: #fff;
+    box-shadow: 0 2px 7px
+        color-mix(in srgb, var(--callout-color) 45%, transparent);
+}
+:is(
+        body.ui-midnight,
+        body.ui-dark,
+        body.ui-luxury,
+        body.ui-ocean,
+        body.ui-aurora-glass
+    )
+    .callout-icon svg {
+    width: 14px;
+    height: 14px;
+}
+:is(
+        body.ui-midnight,
+        body.ui-dark,
+        body.ui-luxury,
+        body.ui-ocean,
+        body.ui-aurora-glass
+    )
+    .callout-body {
+    font-weight: 600;
+    line-height: 1.5;
+}
+/* Aurora glass: frost the callout surface (the recipe's glass look). */
+body.ui-aurora-glass .section-callout {
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+}
+
+/* ── Code block ────────────────────────────────────────────────────────────── */
+.section-code {
+    justify-content: flex-start;
+    padding: 0;
+    border-radius: var(--section-panel-radius, var(--border-radius, 10px));
+    background: var(--code-bg, #1b1e2b);
+    border: 1px solid color-mix(in srgb, #ffffff 12%, transparent);
+    /* clip the code body (below) instead of the whole block, so the floating
+       controls can sit above the top border like other sections */
+    overflow: visible;
+}
+/* Toolbar (drag/+/delete) goes top-LEFT so it never covers the copy button. */
+.section-code .section-controls {
+    left: 0.25rem;
+    right: auto;
+    transform-origin: top left;
+}
+.code-body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: inherit;
+    padding: 0.85rem 1rem;
+    margin: 0;
+    font-family:
+        ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
+        monospace;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    color: var(--code-text, #e7e9f2);
+    white-space: pre;
+    overflow: auto;
+    outline: none;
+    tab-size: 2;
+}
+.code-body[contenteditable="true"]:focus {
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: none;
+}
+.code-body:empty::before {
+    color: var(--code-text, #e7e9f2);
+    opacity: 0.45;
+}
+.code-copy-btn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    opacity: 0;
+    transition:
+        opacity 0.15s ease,
+        color 0.15s ease;
+    z-index: 4;
+}
+.section-code:hover .code-copy-btn {
+    opacity: 0.9;
+}
+.code-copy-btn:hover {
+    color: #fff;
+}
+.code-copy-btn.copied {
+    opacity: 1;
+    color: #4ade80;
+}
+
+/* ── Divider thickness slider (in the hover toolbar) ───────────────────────── */
+.section-thickness-slider {
+    width: 72px;
+    height: 18px;
+    margin: 0 0.2rem;
+    accent-color: var(--accent-color, #4f4536);
+    cursor: pointer;
+}
+
+/* ── Steps (numbered list) ─────────────────────────────────────────────────── */
+.section-steps {
+    justify-content: flex-start;
+}
+.steps-list {
+    list-style: none;
+    counter-reset: step;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: var(--section-text-color, var(--tab-color, #555));
+    font-size: var(--section-text-size, 1rem);
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    outline: none;
+}
+.steps-list li {
+    counter-increment: step;
+    position: relative;
+    list-style: none;
+    padding-left: 2.4rem;
+    margin-bottom: 0.55rem;
+    line-height: 1.5;
+    min-height: 1.7rem;
+}
+.steps-list li:last-child {
+    margin-bottom: 0;
+}
+.steps-list li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.7rem;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background: var(
+        --step-badge-bg,
+        color-mix(in srgb, var(--accent-color, #4f4536) 18%, transparent)
+    );
+    color: var(--step-badge-num, var(--accent-color, #4f4536));
+    text-shadow: none;
+}
+
+
+/* ── Image ─────────────────────────────────────────────────────────────────── */
+.section-image {
+    padding: 0;
+    justify-content: center;
+}
+.section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: var(--img-fit, cover);
+    display: block;
+    border-radius: var(--section-panel-radius, var(--border-radius, 10px));
+}
+.image-empty {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border: 1px dashed color-mix(in srgb, var(--clock-color) 28%, transparent);
+    border-radius: var(--section-panel-radius, var(--border-radius, 10px));
+    background: color-mix(in srgb, var(--clock-color) 4%, transparent);
+}
+.image-url-input,
+.avatar-url-input {
+    flex: 1;
+    max-width: 340px;
+    padding: 0.5rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    background: var(--input-bg, #fff);
+    color: var(--input-color, inherit);
+    font-size: 0.9rem;
+    outline: none;
+}
+.image-url-input.invalid,
+.avatar-url-input.invalid {
+    border-color: #e5484d;
+}
+.image-url-btn {
+    padding: 0.5rem 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: var(--accent-color, #4f4536);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+/* ── Profile ───────────────────────────────────────────────────────────────── */
+.section-profile {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; /* sit at the left edge, not centered */
+    gap: 1rem;
+}
+.section-profile.section-align-center {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.section-profile.section-align-right {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.profile-avatar {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--clock-color) 8%, transparent);
+    transition: box-shadow 0.15s ease;
+}
+.profile-avatar svg,
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.profile-avatar.editable {
+    cursor: pointer;
+}
+.profile-avatar.editable:hover {
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4f4536) 35%, transparent);
+}
+.profile-info {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+.profile-name {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--section-title-color, var(--clock-color, #222));
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    outline: none;
+    word-break: break-word;
+}
+.profile-bio {
+    color: var(--section-text-color, var(--tab-color, #666));
+    font-size: 0.92rem;
+    line-height: 1.5;
+    text-shadow: var(--section-bare-shadow, var(--clock-shadow, none));
+    outline: none;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.profile-name:empty::before,
+.profile-bio:empty::before {
+    content: attr(data-placeholder);
+    color: currentColor;
+    opacity: 0.4;
+}
+
+/* Avatar preset picker */
+.avatar-picker {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    z-index: 10;
+    width: 280px;
+    padding: 0.6rem;
+    border-radius: 12px;
+    background: var(--section-panel-bg, var(--card-bg, #fff));
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.12));
+    box-shadow: var(--card-shadow, 0 12px 32px rgba(0, 0, 0, 0.25));
+}
+.avatar-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.4rem;
+}
+.avatar-opt {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    background: transparent;
+}
+.avatar-opt:hover {
+    border-color: var(--accent-color, #4f4536);
+}
+.avatar-opt svg {
+    width: 100%;
+    height: 100%;
+}
+.avatar-url-input {
+    margin-top: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+}
+
+/* ── Link card (thumbnail + title + description + link) ─────────────────────── */
+.section-linkcard {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0.55rem;
+}
+.linkcard-thumb {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--clock-color) 7%, transparent);
+}
+.linkcard-thumb .section-img {
+    height: 100%;
+    border-radius: 8px;
+}
+.linkcard-thumb .image-empty {
+    height: 100%;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.linkcard-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+}
+.linkcard-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: var(--section-panel-title-color, var(--header-color, #333));
+    outline: none;
+    word-break: break-word;
+}
+.linkcard-desc {
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--section-panel-text-color, var(--link-color, #555));
+    outline: none;
+    word-break: break-word;
+}
+.linkcard-title:empty::before,
+.linkcard-desc:empty::before {
+    content: attr(data-placeholder);
+    color: currentColor;
+    opacity: 0.4;
+}
+.linkcard-url-row {
+    margin-top: 0.25rem;
+}
+.linkcard-url-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    background: var(--input-bg, #fff);
+    color: var(--input-color, inherit);
+    font-size: 0.82rem;
+    outline: none;
+}
+.linkcard-url-input.invalid {
+    border-color: #e5484d;
+}
+.linkcard-host {
+    font-size: 0.8rem;
+    opacity: 0.65;
+    color: var(--section-panel-text-color, var(--link-color, #555));
+}
+.linkcard-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ── Link card: clickable + favicon/host meta + edit-pencil ─────────────────── */
+.linkcard-clickable {
+    cursor: pointer;
+}
+.linkcard-link-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-width: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--section-panel-title-color, var(--header-color, #333));
+    opacity: 1;
+}
+.linkcard-favicon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+span.linkcard-favicon {
+    object-fit: none;
+}
+.linkcard-link-meta .linkcard-host {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.linkcard-url-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+    min-width: 0;
+}
+.linkcard-url-row .section-ctrl-btn {
+    position: static;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+.linkcard-url-row .section-ctrl-btn:hover {
+    opacity: 1;
+}
+
+/* ── Avatar: camera badge so it's clearly clickable ────────────────────────── */
+.profile-avatar.editable {
+    position: relative;
+}
+.profile-avatar.editable::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid var(--section-panel-bg, var(--card-bg, #fff));
+    background-color: var(--accent-color, #4f4536);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M2 4.5h2L5 3h2l1 1.5h2v6H2z'/%3E%3Ccircle cx='6' cy='7' r='1.6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+}
+
+/* ── Steps / fit / +/- toolbar text buttons ────────────────────────────────── */
+.section-steps .section-ctrl-btn {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* ── File card ─────────────────────────────────────────────────────────────── */
+.section-file {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    min-height: 56px;
+    padding: 0.7rem 0.85rem;
+}
+.section-file.file-card {
+    cursor: pointer;
+}
+.file-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    color: var(--file-color, #64748b);
+    background: color-mix(in srgb, var(--file-color, #64748b) 14%, transparent);
+}
+.file-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.file-name {
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--section-panel-title-color, var(--header-color, #333));
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.file-name:empty::before {
+    content: attr(data-placeholder);
+    color: currentColor;
+    opacity: 0.4;
+}
+.file-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.74rem;
+    color: var(--section-panel-text-color, var(--link-color, #666));
+}
+.file-kind-label {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--file-color, #64748b);
+}
+.file-host {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+.file-url-row:empty {
+    display: none;
+}
+.file-url-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    background: var(--input-bg, #fff);
+    color: var(--input-color, inherit);
+    font-size: 0.82rem;
+    outline: none;
+}
+.file-url-input.invalid {
+    border-color: #e5484d;
+}
+.file-open-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    color: var(--section-panel-text-color, var(--link-color, #888));
+    opacity: 0.6;
+}
+.file-link {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ── Toolbar edit toggle (active state) ─────────────────────────────────────── */
+.section-ctrl-edit.active {
+    background: var(--accent-color, #4f4536);
+    color: #fff;
+    opacity: 1;
+}
+/* While a card is in edit mode it's no longer a click-to-open target. */
+.section-linkcard.section-editing,
+.section-file.section-editing {
+    cursor: default;
+}

@@ -1,0 +1,37 @@
+/* ============================================================
+   THEME: Nordic  (body.ui-nordic)
+   ============================================================ */
+
+body.ui-nordic {
+    background-attachment: fixed;
+}
+
+body.ui-nordic .title-container {
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--header-divider-color);
+}
+
+body.ui-nordic .todo-group-inline-input {
+    border-color: #e4dccd;
+    background: #ffffff;
+    color: #3c352a;
+}
+
+body.ui-nordic .todo-group-inline-input:focus {
+    border-color: rgba(192, 105, 74, 0.52);
+    box-shadow: 0 0 0 3px rgba(192, 105, 74, 0.14);
+}
+
+body.ui-light .link-button-icon img,
+body.ui-nordic .link-button-icon img {
+    filter: saturate(0.55) contrast(0.96);
+    transition: filter var(--hover-speed) ease;
+}
+
+body.ui-light .link-button-anchor:hover .link-button-icon img,
+body.ui-light .link-button-button:hover .link-button-icon img,
+body.ui-nordic .link-button-anchor:hover .link-button-icon img,
+body.ui-nordic .link-button-button:hover .link-button-icon img {
+    filter: saturate(1) contrast(1);
+}

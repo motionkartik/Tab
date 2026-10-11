@@ -1,0 +1,494 @@
+/* ===== Sync Diff Modal ===== */
+
+.sync-diff-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.sync-diff-modal {
+    background: var(--modal-bg, #fff);
+    border-radius: var(--border-radius);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 600px;
+    max-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: var(--overlay-text, var(--link-color));
+}
+
+/* Header */
+.sync-diff-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 1rem 1.125rem 0.875rem;
+    border-bottom: 1px solid var(--card-border-color);
+    flex-shrink: 0;
+}
+
+.sync-diff-head-main {
+    min-width: 0;
+}
+
+.sync-diff-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--overlay-text, var(--link-color));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sync-diff-sub {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+.sync-diff-sub-arrow {
+    color: var(--accent-color);
+}
+
+.sync-diff-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--icon-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+    flex-shrink: 0;
+}
+
+.sync-diff-close:hover {
+    background: rgba(128, 128, 128, 0.12);
+    color: var(--overlay-text, var(--link-color));
+}
+
+/* Summary chips */
+.sync-diff-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem 1.125rem;
+    border-bottom: 1px solid var(--card-border-color);
+    flex-shrink: 0;
+}
+
+.sync-diff-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid transparent;
+}
+
+.sync-diff-chip-num {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.78rem;
+}
+
+.sync-diff-chip-add {
+    color: color-mix(in srgb, var(--callout-success) 78%, #000 22%);
+    background: color-mix(in srgb, var(--callout-success) 14%, transparent);
+    border-color: color-mix(in srgb, var(--callout-success) 28%, transparent);
+}
+
+.sync-diff-chip-change {
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+    background: color-mix(in srgb, var(--callout-warning) 14%, transparent);
+    border-color: color-mix(in srgb, var(--callout-warning) 30%, transparent);
+}
+
+.sync-diff-chip-remove {
+    color: color-mix(in srgb, var(--danger-color) 82%, #000 18%);
+    background: color-mix(in srgb, var(--danger-color) 11%, transparent);
+    border-color: color-mix(in srgb, var(--danger-color) 26%, transparent);
+}
+
+/* Scrollable body */
+.sync-diff-body {
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    padding: 0.5rem 0.875rem 0.875rem;
+}
+
+/* Identical state */
+.sync-diff-identical {
+    padding: 2rem 1.25rem;
+    text-align: center;
+    font-size: 0.8375rem;
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+/* Workspace block */
+.sync-diff-ws {
+    margin-top: 0.5rem;
+}
+
+.sync-diff-ws-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--overlay-text, var(--link-color));
+    padding: 0.5rem 0.375rem 0.25rem;
+}
+
+.sync-diff-ws-label span {
+    color: var(--overlay-muted-text, var(--icon-color));
+    font-weight: 700;
+    opacity: 0.7;
+    margin-left: 0.2rem;
+}
+
+/* Section headers (Added / Changed / Removed) */
+.sync-diff-section-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 0.375rem 0.375rem;
+}
+
+.sync-diff-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex: none;
+}
+
+.sync-diff-section-title {
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
+.sync-diff-section-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 0.05rem 0.45rem;
+}
+
+.sync-diff-section-head-add .sync-diff-dot { background: var(--callout-success); }
+.sync-diff-section-head-add .sync-diff-section-title { color: color-mix(in srgb, var(--callout-success) 78%, #000 22%); }
+.sync-diff-section-head-add .sync-diff-section-count {
+    color: color-mix(in srgb, var(--callout-success) 78%, #000 22%);
+    background: color-mix(in srgb, var(--callout-success) 14%, transparent);
+}
+
+.sync-diff-section-head-change .sync-diff-dot { background: var(--callout-warning); }
+.sync-diff-section-head-change .sync-diff-section-title { color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%); }
+.sync-diff-section-head-change .sync-diff-section-count {
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+    background: color-mix(in srgb, var(--callout-warning) 14%, transparent);
+}
+
+.sync-diff-section-head-remove .sync-diff-dot { background: var(--danger-color); }
+.sync-diff-section-head-remove .sync-diff-section-title { color: color-mix(in srgb, var(--danger-color) 82%, #000 18%); }
+.sync-diff-section-head-remove .sync-diff-section-count {
+    color: color-mix(in srgb, var(--danger-color) 82%, #000 18%);
+    background: color-mix(in srgb, var(--danger-color) 11%, transparent);
+}
+
+/* Diff rows */
+.sync-diff-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 0.7rem;
+    margin-bottom: 0.35rem;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.12s;
+}
+
+.sync-diff-row:hover {
+    filter: brightness(1.04);
+}
+
+.sync-diff-rail {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+}
+
+.sync-diff-glyph {
+    flex: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.sync-diff-row-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.sync-diff-row-name {
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: var(--overlay-text, var(--link-color));
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sync-diff-row-sub {
+    font-size: 0.72rem;
+    color: var(--overlay-muted-text, var(--icon-color));
+    margin-top: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Row tints per change type */
+.sync-diff-row-add {
+    background: color-mix(in srgb, var(--callout-success) 8%, transparent);
+}
+.sync-diff-row-add .sync-diff-rail { background: var(--callout-success); }
+.sync-diff-row-add .sync-diff-glyph {
+    background: color-mix(in srgb, var(--callout-success) 18%, transparent);
+    color: color-mix(in srgb, var(--callout-success) 78%, #000 22%);
+}
+
+.sync-diff-row-change {
+    background: color-mix(in srgb, var(--callout-warning) 9%, transparent);
+}
+.sync-diff-row-change .sync-diff-rail { background: var(--callout-warning); }
+.sync-diff-row-change .sync-diff-glyph {
+    background: color-mix(in srgb, var(--callout-warning) 18%, transparent);
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+}
+
+.sync-diff-row-remove {
+    background: color-mix(in srgb, var(--danger-color) 6%, transparent);
+}
+.sync-diff-row-remove .sync-diff-rail { background: var(--danger-color); }
+.sync-diff-row-remove .sync-diff-glyph {
+    background: color-mix(in srgb, var(--danger-color) 13%, transparent);
+    color: color-mix(in srgb, var(--danger-color) 82%, #000 18%);
+}
+
+/* Meta pills */
+.sync-diff-pill {
+    flex: none;
+    font-size: 0.72rem;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 0.3rem 0.6rem;
+    white-space: nowrap;
+}
+
+.sync-diff-pill-kind {
+    font-weight: 600;
+}
+
+.sync-diff-pill-add {
+    color: color-mix(in srgb, var(--callout-success) 78%, #000 22%);
+    background: color-mix(in srgb, var(--callout-success) 16%, transparent);
+}
+.sync-diff-pill-change {
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+    background: color-mix(in srgb, var(--callout-warning) 16%, transparent);
+}
+.sync-diff-pill-remove {
+    color: color-mix(in srgb, var(--danger-color) 82%, #000 18%);
+    background: color-mix(in srgb, var(--danger-color) 10%, transparent);
+}
+
+/* Changed-group count block: now → after */
+.sync-diff-count-block {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.sync-diff-count-col {
+    text-align: center;
+}
+
+.sync-diff-count-cap {
+    display: block;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+.sync-diff-count-cap-after {
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+}
+
+.sync-diff-count-num {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.sync-diff-count-from {
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+.sync-diff-count-to {
+    color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%);
+}
+
+.sync-diff-count-arrow {
+    color: var(--callout-warning);
+    flex: none;
+}
+
+/* Whole-workspace add/remove banner */
+.sync-diff-ws-banner .sync-diff-row-name {
+    font-size: 0.84rem;
+}
+
+/* Unchanged notes */
+.sync-diff-unchanged-note {
+    font-size: 0.72rem;
+    color: var(--overlay-muted-text, var(--icon-color));
+    padding: 0.4rem 0.5rem;
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+}
+
+.sync-diff-unchanged-note .sync-diff-ws-name {
+    font-weight: 700;
+    color: var(--overlay-text, var(--link-color));
+}
+
+.sync-diff-unchanged-inline {
+    padding-left: 0.7rem;
+    opacity: 0.85;
+}
+
+.sync-diff-ws-quiet {
+    border-top: 1px dashed var(--card-border-color);
+    padding-top: 0.25rem;
+}
+
+/* Footer */
+.sync-diff-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.875rem 1.125rem;
+    border-top: 1px solid var(--card-border-color);
+    flex-shrink: 0;
+}
+
+.sync-diff-footer-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex: none;
+    margin-left: auto;
+}
+
+.sync-diff-recap {
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--overlay-muted-text, var(--icon-color));
+    min-width: 0;
+}
+
+.sync-diff-recap-add { color: color-mix(in srgb, var(--callout-success) 78%, #000 22%); }
+.sync-diff-recap-change { color: color-mix(in srgb, var(--callout-warning) 80%, #000 20%); }
+.sync-diff-recap-remove { color: color-mix(in srgb, var(--danger-color) 82%, #000 18%); }
+
+/* ===== Version history inline view ===== */
+
+.sync-history-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.sync-history-title {
+    font-size: 0.825rem;
+    font-weight: 500;
+    color: var(--link-color);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sync-version-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    margin-bottom: 0.5rem;
+}
+
+.sync-version-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.6rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--border-radius);
+    background: rgba(128, 128, 128, 0.04);
+}
+
+.sync-version-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.sync-version-time {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--link-color);
+}
+
+.sync-version-date {
+    font-size: 0.7rem;
+    color: var(--icon-color);
+}
+
+.sync-version-empty {
+    font-size: 0.8125rem;
+    color: var(--icon-color);
+    line-height: 1.5;
+    padding: 0.25rem 0;
+}

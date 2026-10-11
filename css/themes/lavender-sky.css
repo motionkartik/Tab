@@ -1,0 +1,11 @@
+/* ============================================================
+   THEME: Lavender Sky  (body.ui-lavender-sky)
+   ============================================================ */
+
+body.ui-lavender-sky {
+    background-attachment: fixed;
+}
+/* Tasks/Notes chip separator: white hint border on a near-white pill — darken. */
+body.ui-lavender-sky .web-search-form #notes-hero-slot {
+    border-left-color: rgba(16, 24, 40, 0.14);
+}

@@ -1,0 +1,26 @@
+
+
+body.ui-dark .item ul::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body.ui-dark #settings-modal select {
+    background: #1e2124;
+    color: #ddd;
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+body.ui-dark #settings-modal select:focus {
+    background: #2a2d31;
+    border-color: #f5a524;
+    box-shadow: 0 0 0 3px rgba(245, 165, 36, 0.15);
+}
+
+body.ui-dark #settings-modal select option {
+    background: #1e2124;
+    color: #ddd;
+}
+
+body.ui-dark .gradient-option {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}

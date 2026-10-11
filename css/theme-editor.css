@@ -1,0 +1,656 @@
+/* theme-editor.css — Theme editor styles inside Layout / Design */
+
+/* Theme editor panel is displayed as a subsection of Layout / Design */
+#settings-theme-editor {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    margin: 1.5rem -1.5rem 0;
+    border-top: none;
+    padding: 0;
+}
+
+#settings-theme-editor.active {
+    display: flex;
+}
+
+/* Top-level section labels ("Your Themes", "Customize Theme") */
+.theme-editor-top-label {
+    padding: 0.45rem 1.5rem;
+    flex-shrink: 0;
+    color: var(--te-heading);
+}
+
+/* The "Theme Editor" heading (the only inline top-label) follows the saved-
+   themes strip — give it clearer separation from the section above. */
+.theme-editor-top-label.settings-title-row-inline {
+    margin-top: 3rem;
+}
+
+#settings-theme-editor .theme-editor-top-label .settings-help-trigger {
+    margin-left: 0.15rem;
+}
+
+#settings-theme-editor .settings-reset .theme-editor-top-label {
+    margin: 0 0 0.75rem;
+}
+
+#settings-theme-editor .theme-editor-custom-css-heading {
+    margin-top: 0.5rem;
+}
+
+/* Saved themes strip */
+.theme-editor-saved-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 1.5rem;
+    border-bottom: none;
+    flex-shrink: 0;
+    min-height: 2.2rem;
+}
+
+.theme-editor-saved-empty {
+    font-size: 0.75rem;
+    color: var(--te-hint);
+    font-style: italic;
+}
+
+/* Deactivate current saved theme */
+.theme-editor-saved-deactivate {
+    margin-right: 0.35rem;
+    font-weight: 700;
+}
+
+.theme-editor-saved-deactivate:not(:disabled) {
+    border-color: color-mix(in srgb, var(--accent-color) 38%, transparent);
+    background: color-mix(in srgb, var(--accent-color) 10%, transparent);
+    color: var(--accent-color);
+}
+
+.theme-editor-saved-deactivate:not(:disabled):hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+}
+
+.theme-editor-saved-deactivate:disabled {
+    opacity: 0.55;
+    cursor: default;
+}
+
+/* Saved theme chip — single button with inline delete square */
+.theme-editor-saved-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--te-chip-bg);
+    border: 1px solid var(--te-chip-border);
+    border-radius: 20px;
+    padding: 0.2rem 0.45rem 0.2rem 0.6rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition:
+        background 0.15s,
+        border-color 0.15s,
+        color 0.15s;
+}
+
+.theme-editor-saved-chip.active {
+    background: color-mix(in srgb, var(--accent-color) 14%, transparent);
+    border-color: var(--accent-color);
+}
+
+.theme-editor-chip-name {
+    font-weight: 700;
+    color: var(--te-chip-name);
+    line-height: 1.4;
+}
+
+.theme-editor-saved-chip.active .theme-editor-chip-name {
+    color: var(--accent-color);
+}
+
+.theme-editor-chip-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    background: var(--te-chip-delete-bg);
+    font-size: 0.7rem;
+    color: var(--te-chip-delete);
+    opacity: 0.7;
+    transition:
+        opacity 0.15s,
+        background 0.12s,
+        color 0.12s;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.theme-editor-saved-chip:hover .theme-editor-chip-delete {
+    opacity: 1;
+}
+
+.theme-editor-saved-chip:hover {
+    background: #7c3aed;
+    border-color: #7c3aed;
+}
+
+.theme-editor-saved-chip:hover .theme-editor-chip-name {
+    color: #fff;
+}
+
+.theme-editor-saved-chip:hover .theme-editor-chip-delete {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.theme-editor-chip-delete:hover {
+    background: rgba(220, 38, 38, 0.85) !important;
+    color: #fff !important;
+}
+
+/* Alpha slider for color controls */
+.theme-editor-alpha-slider {
+    flex: 1;
+    height: 4px;
+    accent-color: #a070ff;
+    cursor: pointer;
+    min-width: 40px;
+}
+
+.theme-editor-alpha-label {
+    font-size: 0.7rem;
+    color: var(--te-hint);
+    font-family: monospace;
+    min-width: 2.5rem;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.theme-editor-modified-badge {
+    font-size: 0.72rem;
+    color: #a070ff;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Theme editor sections now flow within the Layout / Design drawer scroll */
+.theme-editor-sections {
+    overflow: visible;
+    padding: 0 1.5rem;
+    display: grid;
+    gap: 0.9rem;
+}
+
+.theme-editor-group-header {
+    display: none;
+}
+
+/* Sub-headers within groups (Group Header, Item Types, Page, etc.) */
+.theme-editor-sub-header {
+    font-size: 0.62rem;
+    color: var(--te-section);
+    background: none;
+    padding: 0.28rem 1.5rem;
+    margin: 0 -0.6rem 0 -1.5rem;
+    border-top: 1px solid var(--te-section-border);
+    border-bottom: 1px solid var(--te-section-border);
+}
+
+/* Hint text inside .theme-editor-top-label (e.g. "— injected on this theme") */
+.theme-editor-top-label-hint {
+    font-size: 0.65rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--te-hint);
+    opacity: 0.85;
+}
+
+.theme-editor-accordion-item {
+    margin: 0;
+}
+
+.theme-editor-collapsible-content {
+    padding: 0.2rem 0 1rem;
+}
+
+.theme-editor-collapsible-content .theme-editor-sub-header {
+    margin: 0;
+    padding: 0.6rem 1rem 0.35rem;
+    border: none;
+    background: none;
+    color: var(--te-section);
+}
+
+/* Sections */
+.theme-editor-section {
+    margin-bottom: 0;
+}
+
+/* Rows */
+.theme-editor-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--te-row-divider);
+}
+
+.theme-editor-row:last-child {
+    border-bottom: none;
+}
+
+.theme-editor-label {
+    font-size: 0.8rem;
+    color: var(--te-label);
+    flex: 0 0 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.theme-editor-controls {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 0;
+}
+
+/* Modified dot */
+.theme-editor-modified-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #a070ff;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.theme-editor-modified-dot.visible {
+    opacity: 1;
+}
+
+/* Reset button */
+.theme-editor-var-reset {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #bbb;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: color 0.1s;
+}
+
+.theme-editor-var-reset:hover {
+    color: #a070ff;
+}
+
+/* Color swatch */
+.theme-editor-color-swatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition:
+        transform 0.1s,
+        border-color 0.1s;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-editor-color-swatch:hover {
+    transform: scale(1.1);
+}
+
+/* Color input (native color picker as swatch) */
+input[type="color"].theme-editor-color-input {
+    width: 36px;
+    height: 28px;
+    border-radius: 4px;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    flex-shrink: 0;
+    background: var(--panel-input-bg);
+}
+
+.theme-editor-color-value {
+    font-size: 0.75rem;
+    color: #888;
+    font-family: monospace;
+    width: 70px;
+    flex-shrink: 0;
+}
+
+/* Range slider */
+.theme-editor-range-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.theme-editor-range-wrap input[type="range"] {
+    flex: 1;
+    height: 4px;
+    accent-color: #a070ff;
+    cursor: pointer;
+    min-width: 60px;
+}
+
+.theme-editor-range-value {
+    font-size: 0.75rem;
+    color: var(--te-rangeval);
+    font-family: monospace;
+    white-space: nowrap;
+    min-width: 3.5rem;
+    text-align: right;
+}
+
+/* Text input */
+.theme-editor-text-input {
+    flex: 1;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid var(--panel-input-border);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: var(--panel-text);
+    background: var(--panel-input-bg);
+    min-width: 0;
+    font-family: monospace;
+}
+
+.theme-editor-text-input:focus {
+    outline: none;
+    border-color: var(--accent-color, #a070ff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #a070ff) 18%, transparent);
+}
+
+.theme-editor-text-input[aria-invalid="true"] {
+    border-color: rgba(220, 38, 38, 0.55);
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.08);
+}
+
+/* Select */
+.theme-editor-select {
+    flex: 1;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid var(--panel-input-border);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: var(--panel-text);
+    background: var(--panel-input-bg);
+    cursor: pointer;
+    min-width: 0;
+}
+
+.theme-editor-select:focus {
+    outline: none;
+    border-color: var(--accent-color, #a070ff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #a070ff) 18%, transparent);
+}
+
+/* Shadow elevation control: preset dropdown + a live preview chip so the
+   chosen depth is visible at a glance. */
+.theme-editor-shadow-select {
+    flex: 1 1 auto;
+}
+
+.theme-editor-shadow-preview {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    background: var(--panel-input-bg);
+    border: 1px solid var(--panel-input-border);
+}
+
+/* Design-tab cards (Custom CSS, Theme actions) — match the settings surface
+   card look so these blocks read as their own panels like the other sections. */
+.theme-editor-card {
+    margin: 1.1rem 1.5rem 0;
+    padding: 0.9rem 1rem 1rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 18px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+}
+
+/* Inside a card the panel chrome padding/min-height is redundant. */
+.theme-editor-card .theme-editor-top-label {
+    margin: 0 0 0.6rem;
+    padding: 0;
+    min-height: 0;
+}
+
+/* Custom CSS collapsible card — aligns with the accordion items above it. */
+.theme-editor-custom-css-card {
+    margin: 0.9rem 1.5rem 0;
+}
+
+/* Custom CSS section (textarea lives inside the collapsible content). */
+.theme-editor-custom-css-section {
+    padding: 0.8rem;
+    flex-shrink: 0;
+}
+
+.theme-custom-css-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.45rem 0.5rem;
+    font-family: monospace;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--panel-text);
+    background: var(--panel-input-bg);
+    border: 1px solid var(--panel-input-border);
+    border-radius: 5px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.theme-custom-css-textarea:focus {
+    border-color: var(--accent-color, #a070ff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #a070ff) 18%, transparent);
+}
+
+.theme-custom-css-label {
+    color: var(--te-label);
+}
+
+/* Actions bar */
+.theme-editor-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0;
+    border-top: none;
+    flex-shrink: 0;
+}
+
+.theme-editor-actions-row {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.theme-editor-actions-row button,
+.theme-editor-import-label {
+    flex: 1;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid var(--panel-input-border);
+    background: var(--panel-input-bg);
+    color: var(--panel-value);
+    transition:
+        background 0.15s,
+        color 0.15s,
+        border-color 0.15s;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.theme-editor-actions-row button:hover,
+.theme-editor-import-label:hover {
+    background: var(--panel-hover-bg);
+    border-color: var(--panel-input-border);
+    color: var(--panel-text);
+}
+
+/* ─── Theme Save Dialog ──────────────────────────────────────────────────── */
+.theme-save-dialog-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-save-dialog-box {
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 22px 24px;
+    width: 340px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: var(--panel-shadow);
+}
+
+.theme-save-dialog-title {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--panel-text);
+}
+
+.theme-save-name-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--panel-input-border);
+    background: var(--panel-input-bg);
+    color: var(--panel-text);
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.theme-save-name-input:focus {
+    border-color: var(--accent-color, #a070ff);
+}
+
+.theme-save-existing-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
+.theme-save-existing-list:empty {
+    display: none;
+}
+
+.theme-save-existing-chip {
+    padding: 3px 11px;
+    border-radius: 99px;
+    border: 1px solid var(--chip-border);
+    background: var(--chip-bg);
+    color: var(--chip-color);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition:
+        background 0.15s,
+        border-color 0.15s,
+        color 0.15s;
+    white-space: nowrap;
+}
+
+.theme-save-existing-chip:hover,
+.theme-save-existing-chip.selected {
+    background: var(--accent-color, #a070ff);
+    border-color: var(--accent-color, #a070ff);
+    color: #fff;
+}
+
+.theme-save-overwrite-hint {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #f59e0b;
+}
+
+.theme-save-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 2px;
+}
+
+.theme-save-dialog-btn {
+    padding: 7px 16px;
+    border-radius: 12px;
+    border: none;
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.theme-save-dialog-btn-cancel {
+    background: var(--btn-secondary-bg);
+    color: var(--btn-secondary-text);
+}
+
+.theme-save-dialog-btn-cancel:hover {
+    background: color-mix(
+        in srgb,
+        var(--btn-secondary-bg) 88%,
+        var(--btn-secondary-text)
+    );
+    color: var(--btn-secondary-text);
+}
+
+.theme-save-dialog-btn-ok {
+    background: var(--accent-color, #a070ff);
+    color: #fff;
+}
+
+.theme-save-dialog-btn-ok:hover {
+    filter: brightness(1.1);
+}

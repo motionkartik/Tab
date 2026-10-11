@@ -1,0 +1,156 @@
+/* ============================================================
+   THEME: Aurora Glass  (body.ui-aurora-glass)
+   ============================================================ */
+
+body.ui-aurora-glass {
+    background-attachment: fixed;
+}
+
+body.ui-aurora-glass .grid-stack-item-content:has(> .item),
+body.ui-aurora-glass .link-button-widget > .grid-stack-item-content {
+    backdrop-filter: blur(20px) saturate(145%);
+    -webkit-backdrop-filter: blur(20px) saturate(145%);
+}
+
+body.ui-aurora-glass .grid-stack-item-content:has(> .item):hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.18);
+}
+
+body.ui-aurora-glass .web-search-form {
+    backdrop-filter: blur(18px) saturate(150%);
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+body.ui-aurora-glass .todo-group-inline-input {
+    border-radius: 10px;
+    background: #ffffff;
+    color: #1e3a5f;
+    border-color: rgba(255, 255, 255, 0.52);
+}
+
+body.ui-aurora-glass .todo-group-inline-input:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.22);
+}
+
+body.ui-aurora-glass .todo-group-inline-cancel-btn {
+    border-radius: 10px;
+}
+
+body.ui-aurora-glass .todo-group-clear-btn {
+    border-color: rgba(255, 255, 255, 0.28);
+    background: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.96);
+}
+
+body.ui-aurora-glass .todo-group-clear-btn:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #1e3a5f;
+}
+
+body.ui-aurora-glass .todo-group-add-task-btn,
+body.ui-aurora-glass .todo-group-clear-btn {
+    border-radius: 10px;
+}
+
+body.ui-aurora-glass .empty-secondary-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.ui-aurora-glass .empty-secondary-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* accent (#7ca8f5) is too light to read on the light glass panel — use a deeper blue */
+body.ui-aurora-glass .theme-editor-saved-deactivate:not(:disabled) {
+    border-color: rgba(58, 111, 212, 0.4);
+    background: rgba(58, 111, 212, 0.1);
+    color: #3a6fd4;
+}
+body.ui-aurora-glass .theme-editor-saved-deactivate:not(:disabled):hover {
+    background: #3a6fd4;
+    border-color: #3a6fd4;
+    color: #ffffff;
+}
+
+/* drawers/modals are near-white in this glass theme, so the white --btn-primary-bg
+   would vanish — redefine it to a readable blue locally for primary buttons inside them */
+body.ui-aurora-glass .settings-button--primary,
+body.ui-aurora-glass .settings-btn,
+body.ui-aurora-glass .csync-action-btn,
+body.ui-aurora-glass .share-copy-btn,
+body.ui-aurora-glass .shared-board-copy-btn,
+body.ui-aurora-glass .mbm-btn-primary,
+body.ui-aurora-glass .passphrase-modal-btn-ok {
+    --btn-primary-bg: #3a6fd4;
+    --btn-primary-text: #ffffff;
+}
+
+/* routine composer primary action — the accent bg vanishes on glass panels */
+body.ui-aurora-glass .routine-composer-add {
+    background: #3a6fd4;
+    border-color: #3a6fd4;
+    color: #ffffff;
+}
+
+/* nested-row connector line is too faint on the light drawer panel */
+body.ui-aurora-glass #settings-general .settings-control-row-nested::before {
+    background: rgba(100, 116, 139, 0.45);
+}
+
+/* this theme's --border-radius is 16px (glass) — keep settings tabs aligned with other themes */
+body.ui-aurora-glass .settings-tab {
+    border-radius: 8px;
+}
+
+/* secondary buttons are white-on-white here (--btn-secondary-text is #fff) on the
+   near-white modal panels — give them dark text and a visible outline */
+body.ui-aurora-glass .shared-board-ghost-btn,
+body.ui-aurora-glass .shared-board-menu-btn,
+body.ui-aurora-glass .csync-action-btn-ghost,
+body.ui-aurora-glass .csync-menu-btn,
+body.ui-aurora-glass .csync-pager-btn,
+body.ui-aurora-glass .routine-add-step-btn,
+body.ui-aurora-glass .routine-add-existing-btn,
+body.ui-aurora-glass .routine-composer-cancel,
+body.ui-aurora-glass .routine-composer-browse,
+body.ui-aurora-glass .routine-picker-item-add {
+    color: #1e3a5f;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(30, 58, 95, 0.28);
+}
+body.ui-aurora-glass .shared-board-ghost-btn:hover:not(:disabled),
+body.ui-aurora-glass .shared-board-menu-btn:hover:not(:disabled),
+body.ui-aurora-glass .csync-action-btn-ghost:hover:not(:disabled),
+body.ui-aurora-glass .csync-menu-btn:hover:not(:disabled),
+body.ui-aurora-glass .csync-pager-btn:hover:not(:disabled),
+body.ui-aurora-glass .routine-add-step-btn:hover,
+body.ui-aurora-glass .routine-add-existing-btn:hover,
+body.ui-aurora-glass .routine-composer-cancel:hover,
+body.ui-aurora-glass .routine-composer-browse:hover,
+body.ui-aurora-glass .routine-picker-item:hover .routine-picker-item-add {
+    background: rgba(30, 58, 95, 0.08);
+    color: #1e3a5f;
+}
+
+/* File element: the default slate (#64748b) is unreadable on the glass
+   background, so use the theme's white-on-glass treatment. */
+body.ui-aurora-glass .file-icon {
+    color: rgba(255, 255, 255, 0.96);
+    background: rgba(255, 255, 255, 0.16);
+}
+body.ui-aurora-glass .file-kind-label {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* Tasks/Notes chips inside the search bar: the accent-colored text is too
+ * dim on the glass pill — go white like the theme's other glass labels. */
+body.ui-aurora-glass .web-search-form #notes-hero-slot .header-action-btn {
+    color: rgba(255, 255, 255, 0.96);
+}

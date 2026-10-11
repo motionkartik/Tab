@@ -1,0 +1,114 @@
+.bmi-dialog {
+    --bmi-accent: #5c77c8;
+    box-sizing: border-box;
+    width: min(1100px, calc(100vw - 40px));
+    max-width: none;
+    max-height: calc(100dvh - 40px);
+    padding: 0;
+    margin: auto;
+    border: 1px solid var(--panel-border);
+    border-radius: 20px;
+    background: var(--panel-bg);
+    color: var(--panel-text);
+    box-shadow: 0 28px 80px #0005;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.bmi-dialog::backdrop { background: #18213266; backdrop-filter: blur(4px); }
+.bmi-dialog[open] { display: flex; flex-direction: column; }
+.bmi-dialog * { box-sizing: border-box; }
+.bmi-dialog button, .bmi-dialog select { font: inherit; color: inherit; cursor: pointer; }
+.bmi-dialog button { border: 0; background: transparent; padding: 7px 10px; border-radius: 8px; }
+.bmi-dialog button:hover:not(:disabled) { background: var(--panel-hover-bg); }
+.bmi-dialog :focus-visible { outline: 2px solid var(--bmi-accent); outline-offset: 2px; }
+.bmi-dialog :disabled { opacity: .45; cursor: default; }
+.bmi-header { display: flex; justify-content: space-between; gap: 20px; padding: 22px 26px 18px; border-bottom: 1px solid var(--panel-border); }
+.bmi-header h2 { font-size: 21px; margin: 0 0 3px; color: inherit; }
+.bmi-header p { margin: 0; color: var(--panel-tab); font-size: 13px; }
+.bmi-header .bmi-icon-button { font-size: 26px; align-self: start; line-height: 1; }
+.bmi-body { display: grid; grid-template-columns: minmax(240px, 36%) minmax(0, 1fr); min-height: 0; height: min(550px, 60dvh); }
+.bmi-source { overflow: auto; padding-bottom: 18px; border-inline-end: 1px solid var(--panel-border); }
+.bmi-selection { display: flex; gap: 5px; padding: 8px 12px; border-bottom: 1px solid var(--panel-border); }
+.bmi-selection button { font-size: 12px; color: var(--bmi-accent); }
+#bmi-tree { padding-block: 8px; }
+.bmi-tree-row { display: flex; align-items: center; min-height: 38px; gap: 8px; padding-inline-end: 16px; }
+.bmi-tree-row:hover { background: var(--panel-hover-bg); }
+.bmi-tree-label { display: flex; align-items: center; gap: 9px; min-width: 0; flex: 1; cursor: pointer; }
+.bmi-tree-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+.bmi-tree-label .bmi-tree-name { font-weight: 600; }
+.bmi-tree-row input[type="checkbox"] {
+    appearance: none;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border: 1.5px solid var(--panel-input-border, #c5cad6);
+    border-radius: 5px;
+    background: var(--panel-input-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 12px;
+    cursor: pointer;
+}
+.bmi-tree-row input:checked, .bmi-tree-row input:indeterminate {
+    border-color: var(--bmi-accent);
+    background-color: var(--bmi-accent);
+}
+.bmi-tree-row input:checked {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E");
+}
+.bmi-tree-row input:indeterminate {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M6 12h12'/%3E%3C/svg%3E");
+}
+.bmi-link-row input[type="checkbox"] { width: 16px; height: 16px; border-radius: 4px; background-size: 11px 11px; }
+.bmi-svg { width: 14px; height: 14px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.bmi-svg-folder { width: 15px; height: 15px; fill: #dfe5f4; stroke: #6b82c9; stroke-width: 1.8; }
+.bmi-svg-bookmark { width: 15px; height: 15px; stroke: #c28a2c; stroke-width: 2; }
+.bmi-svg-close { width: 18px; height: 18px; stroke-width: 2; }
+.bmi-tree-row .bmi-expand { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 22px; height: 26px; padding: 0; color: var(--panel-tab); }
+.bmi-expand .bmi-svg { width: 13px; height: 13px; transition: transform .15s; }
+.bmi-expand[aria-expanded="true"] .bmi-svg { transform: rotate(90deg); }
+@media (forced-colors: active) {
+    .bmi-tree-row input[type="checkbox"] { appearance: auto; background-image: none; }
+}
+.bmi-count { margin-inline-start: auto; color: var(--panel-tab); font-size: 11px; white-space: nowrap; }
+.bmi-link-row { cursor: pointer; }
+.bmi-preview { overflow: auto; padding: 18px 20px; background: var(--panel-hover-bg); }
+.bmi-preview-header { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 16px; }
+.bmi-preview-header > span { text-transform: uppercase; font-size: 10px; color: var(--panel-tab); letter-spacing: .08em; }
+#bmi-tabs { display: flex; flex-wrap: wrap; gap: 3px; border-radius: 10px; background: var(--panel-bg); padding: 4px; }
+#bmi-tabs .bmi-tab { font-size: 12px; font-weight: 600; }
+#bmi-tabs .bmi-tab[aria-selected="true"] { background: var(--bmi-accent); color: white; }
+.bmi-tab-count { margin-inline-start: 6px; font-weight: 400; opacity: .8; }
+#bmi-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.bmi-preview-empty { grid-column: 1/-1; padding: 60px 20px; text-align: center; color: var(--panel-tab); }
+.bmi-card { background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 15px; padding: 14px; box-shadow: 0 7px 16px #0000000d; min-width: 0; }
+.bmi-card-header { display: flex; align-items: center; gap: 4px; }
+.bmi-card h3 { margin: 0; flex: 1; min-width: 0; overflow-wrap: anywhere; font-size: 13px; color: inherit; }
+.bmi-card .bmi-icon-button { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; padding: 0; color: var(--panel-tab); }
+.bmi-card-icons { display: flex; gap: 5px; margin: 12px 0; align-items: center; }
+.bmi-favicon { position: relative; display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 8px; background: var(--panel-hover-bg); border: 1px solid var(--panel-border); font-size: 11px; color: var(--panel-tab); overflow: hidden; }
+.bmi-favicon img { position: absolute; width: 18px; height: 18px; background: var(--panel-hover-bg); }
+.bmi-link-row .bmi-favicon { width: 18px; height: 18px; border-radius: 4px; }
+.bmi-link-row .bmi-favicon img { width: 16px; height: 16px; }
+.bmi-more { font-size: 11px; color: var(--panel-tab); }
+.bmi-card-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 5px; border-top: 1px solid var(--panel-border); padding-top: 9px; font-size: 11px; color: var(--panel-tab); }
+.bmi-destination { max-width: 100%; background: var(--panel-input-bg); border: 1px solid var(--panel-input-border); border-radius: 6px; padding: 4px; }
+#bmi-message { flex-shrink: 0; padding: 0 24px; margin: 0; font-size: 12px; color: var(--panel-text); }
+#bmi-message:not(:empty) { padding-block: 10px; border-top: 1px solid var(--panel-border); }
+.bmi-footer { display: flex; flex-shrink: 0; align-items: center; justify-content: space-between; gap: 16px; padding: 15px 22px; border-top: 1px solid var(--panel-border); }
+.bmi-footer small { display: block; font-size: 11px; color: var(--panel-tab); margin-top: 3px; }
+#bmi-summary { font-size: 12px; }
+.bmi-footer-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.bmi-dialog .bmi-primary, .bmi-dialog .bmi-primary:hover:not(:disabled) { background: var(--bmi-accent); color: #fff; padding: 10px 16px; font-weight: 600; }
+@media (max-width: 700px) {
+    .bmi-dialog { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); }
+    .bmi-header { padding: 16px; }
+    .bmi-body { display: flex; flex-direction: column; height: auto; max-height: 60dvh; overflow: auto; flex-shrink: 1; }
+    .bmi-source { min-height: 160px; max-height: 30dvh; flex-shrink: 0; border-bottom: 1px solid var(--panel-border); }
+    .bmi-preview { overflow: visible; padding: 14px; }
+    .bmi-footer { padding: 12px; flex-wrap: wrap; gap: 10px; }
+    .bmi-footer-actions { margin-inline-start: auto; }
+}
+@media (max-width: 420px) { #bmi-cards { grid-template-columns: 1fr; } }

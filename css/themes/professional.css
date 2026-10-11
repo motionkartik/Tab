@@ -1,0 +1,7 @@
+
+
+body.ui-professional .web-search-form:focus-within {
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, var(--accent-color) 14%, transparent),
+        0 3px 8px rgba(16, 24, 40, 0.05);
+}

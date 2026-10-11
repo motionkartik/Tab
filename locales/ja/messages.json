@@ -1,0 +1,6002 @@
+{
+    "action_add_workspace_title": {
+        "message": "ワークスペースを追加"
+    },
+    "action_new_group_aria": {
+        "message": "グループを追加"
+    },
+    "action_new_group_label": {
+        "message": "新規"
+    },
+    "action_new_group_title": {
+        "message": "新しいグループ"
+    },
+    "action_settings_aria": {
+        "message": "設定を開く"
+    },
+    "action_settings_label": {
+        "message": "設定"
+    },
+    "action_settings_title": {
+        "message": "設定"
+    },
+    "ae0_blocked_launcher": {
+        "message": "安全でないランチャーの起動先をブロックしました"
+    },
+    "ae0_blocked_link": {
+        "message": "安全でないリンクをブロックしました"
+    },
+    "ae0_copied": {
+        "message": "コピーしました！"
+    },
+    "ae0_copy_failed": {
+        "message": "コピーに失敗しました"
+    },
+    "ae0_done_partial": {
+        "message": "完了 — $2件中 $1件を実行（$3件をスキップ）"
+    },
+    "ae0_done_step": {
+        "message": "完了 — $1ステップ"
+    },
+    "ae0_done_steps": {
+        "message": "完了 — $1ステップ"
+    },
+    "ae0_launch_failed": {
+        "message": "起動に失敗しました"
+    },
+    "ae0_no_steps": {
+        "message": "このルーティンにはまだステップがありません"
+    },
+    "ae0_routine_default": {
+        "message": "ルーティン"
+    },
+    "ae0_starting_step": {
+        "message": "$1ステップを開始中…"
+    },
+    "ae0_starting_steps": {
+        "message": "$1ステップを開始中…"
+    },
+    "ae0_step_n": {
+        "message": "ステップ $1"
+    },
+    "ae0_step_progress": {
+        "message": "ステップ $1/$2：$3"
+    },
+    "agrad_amber_dark": {
+        "message": "アンバーダーク"
+    },
+    "agrad_amber_haze": {
+        "message": "アンバーヘイズ"
+    },
+    "agrad_amber_mist": {
+        "message": "アンバーミスト"
+    },
+    "agrad_arctic_rays": {
+        "message": "アークティックレイ"
+    },
+    "agrad_cherry_dark": {
+        "message": "チェリーダーク"
+    },
+    "agrad_crystal_tide": {
+        "message": "クリスタルタイド"
+    },
+    "agrad_deep_tide": {
+        "message": "ディープタイド"
+    },
+    "agrad_dusk_glow": {
+        "message": "ダスクグロウ"
+    },
+    "agrad_ember_glow": {
+        "message": "エンバーグロウ"
+    },
+    "agrad_emerald_dusk": {
+        "message": "エメラルドダスク"
+    },
+    "agrad_lavender_rays": {
+        "message": "ラベンダーレイ"
+    },
+    "agrad_midnight_indigo": {
+        "message": "ミッドナイトインディゴ"
+    },
+    "agrad_ocean_bloom": {
+        "message": "オーシャンブルーム"
+    },
+    "agrad_ocean_curves": {
+        "message": "オーシャンカーブ"
+    },
+    "agrad_rose_dawn": {
+        "message": "ローズドーン"
+    },
+    "agrad_velvet_dream": {
+        "message": "ベルベットドリーム"
+    },
+    "agrad_violet_night": {
+        "message": "バイオレットナイト"
+    },
+    "bg_context_menu_add": {
+        "message": "ReadyTab に追加"
+    },
+    "c29_custom": {
+        "message": "カスタム"
+    },
+    "c29_invalid_css": {
+        "message": "無効なCSS値です。最後の有効な値に戻しました。"
+    },
+    "c29_opacity": {
+        "message": "不透明度"
+    },
+    "c29_reset_to_default": {
+        "message": "テーマの既定値にリセット"
+    },
+    "c29_theme_default_opt": {
+        "message": "テーマの既定値"
+    },
+    "cl2_layout_compacted": {
+        "message": "レイアウトを整理しました"
+    },
+    "cl2_nothing_to_arrange": {
+        "message": "整理する項目がありません"
+    },
+    "cnt_btn_add_link": {
+        "message": "リンクを追加"
+    },
+    "cnt_btn_add_link_button": {
+        "message": "リンクボタンを追加"
+    },
+    "cnt_btn_cancel": {
+        "message": "キャンセル"
+    },
+    "cnt_error_loading": {
+        "message": "コンテンツの読み込みに失敗しました。もう一度お試しください。"
+    },
+    "cnt_label_button_text": {
+        "message": "ボタンのテキスト"
+    },
+    "cnt_label_group": {
+        "message": "グループ"
+    },
+    "cnt_label_link_name": {
+        "message": "リンク名"
+    },
+    "cnt_label_url": {
+        "message": "URL"
+    },
+    "cnt_label_workspace": {
+        "message": "ワークスペース"
+    },
+    "cnt_modal_title": {
+        "message": "ReadyTab に追加"
+    },
+    "cnt_no_groups": {
+        "message": "利用できるグループがありません"
+    },
+    "cnt_placeholder_link_name": {
+        "message": "リンク名を入力"
+    },
+    "cnt_placeholder_url": {
+        "message": "URL を入力"
+    },
+    "cnt_tab_group_link": {
+        "message": "グループリンク"
+    },
+    "cnt_tab_link_button": {
+        "message": "リンクボタン"
+    },
+    "cnt_workspace_default": {
+        "message": "スタート"
+    },
+    "csm1_action_failed": {
+        "message": "クラウド同期の操作に失敗しました：$1"
+    },
+    "csm1_autopull_failed": {
+        "message": "自動プルに失敗しました：$1"
+    },
+    "csm1_autosync_failed": {
+        "message": "自動同期に失敗しました：$1"
+    },
+    "csm1_close": {
+        "message": "閉じる"
+    },
+    "csm1_cloud_dashboard_fallback": {
+        "message": "クラウドダッシュボード"
+    },
+    "csm1_cloud_updated": {
+        "message": "クラウドダッシュボードを更新しました"
+    },
+    "csm1_confirm_pull": {
+        "message": "プルを確認"
+    },
+    "csm1_label_cloud": {
+        "message": "☁ クラウド"
+    },
+    "csm1_label_local": {
+        "message": "💻 ローカル"
+    },
+    "csm1_looks_good": {
+        "message": "問題ありません"
+    },
+    "csm1_missing_protected_warning": {
+        "message": "この$1は保護ワークスペースのバックアップ対応より前のものです。ReadyTabは「$3」のワークスペースタブ$2を復元しましたが、保護されたコンテンツは含まれていません。$4"
+    },
+    "csm1_msg_overwrite": {
+        "message": "ローカルのダッシュボードに未同期の変更があり、有効なクラウドダッシュボードは別の場所で更新されました。差分を確認してクラウド版をプルするか、ローカルの状態でクラウドを上書きしてください。"
+    },
+    "csm1_msg_pull": {
+        "message": "有効なクラウドダッシュボードはローカルのコピーより新しいです。差分を確認するか、クラウド版をこのデバイスにプルしてください。"
+    },
+    "csm1_not_now": {
+        "message": "後で"
+    },
+    "csm1_overwrite_cloud": {
+        "message": "クラウドを上書き"
+    },
+    "csm1_overwrite_cloud_confirm": {
+        "message": "クラウドを上書き"
+    },
+    "csm1_overwrite_title": {
+        "message": "「$1」を上書き"
+    },
+    "csm1_pull_cloud": {
+        "message": "クラウドをプル"
+    },
+    "csm1_pull_title": {
+        "message": "「$1」をプル"
+    },
+    "csm1_pulled_newer": {
+        "message": "新しいクラウドの状態をプルしました"
+    },
+    "csm1_recovery_repush": {
+        "message": "不足したデータを復旧するには、元のデバイスから再度プッシュしてください。"
+    },
+    "csm1_resolve": {
+        "message": "解決"
+    },
+    "csm1_review": {
+        "message": "確認"
+    },
+    "csm1_review_diff": {
+        "message": "差分を確認"
+    },
+    "csm1_review_title": {
+        "message": "「$1」を確認"
+    },
+    "csm1_source_label_cloud_snapshot": {
+        "message": "クラウドスナップショット"
+    },
+    "csm1_source_label_snapshot": {
+        "message": "スナップショット"
+    },
+    "csm1_title_cloud_changed": {
+        "message": "別のデバイスでクラウドが変更されました"
+    },
+    "csm1_title_newer_cloud": {
+        "message": "新しいクラウドの状態が利用可能です"
+    },
+    "dth10_enter_share_code": {
+        "message": "共有コードを入力してください。"
+    },
+    "dth10_fetching": {
+        "message": "取得中…"
+    },
+    "dth10_import": {
+        "message": "インポート"
+    },
+    "dth10_import_failed": {
+        "message": "インポートに失敗しました：$1"
+    },
+    "dth10_import_success": {
+        "message": "インポートに成功しました！"
+    },
+    "dth10_locked_excluded": {
+        "message": "注意：$1件のロックされたワークスペースはエクスポートから除外されました：$2。\n含めたい場合は先にロックを解除してください。"
+    },
+    "dth10_no_bookmarks": {
+        "message": "このフォルダーにはブックマークがありません。"
+    },
+    "dth10_no_valid_workspaces": {
+        "message": "このファイルには有効なワークスペースが含まれていません。"
+    },
+    "dth10_read_failed": {
+        "message": "インポートファイルの読み込みに失敗しました。"
+    },
+    "dth10_replace_confirm": {
+        "message": "現在のすべてのワークスペースデータが置き換えられます。続行しますか？"
+    },
+    "dth10_select_bookmark_folder": {
+        "message": "ブックマークフォルダーを選択してください。"
+    },
+    "dth10_select_folder": {
+        "message": "フォルダーを選択…"
+    },
+    "dth10_untitled": {
+        "message": "無題"
+    },
+    "ega3_add_clipboard": {
+        "message": "クリップボードを追加"
+    },
+    "ega3_add_launcher": {
+        "message": "ランチャーを追加"
+    },
+    "ega3_add_link": {
+        "message": "リンクを追加"
+    },
+    "ega3_cancel": {
+        "message": "キャンセル"
+    },
+    "ega3_folder_empty": {
+        "message": "このフォルダーにはブックマークがありません。"
+    },
+    "ega3_folder_read_error": {
+        "message": "そのフォルダーを読み込めませんでした。"
+    },
+    "ega3_import": {
+        "message": "インポート"
+    },
+    "ega3_import_bm": {
+        "message": "ブックマークからインポート"
+    },
+    "ega3_import_desc_prefix": {
+        "message": "ブックマークフォルダーのリンクを次に追加します："
+    },
+    "ega3_importing": {
+        "message": "インポート中…"
+    },
+    "ega3_load_error": {
+        "message": "ブックマークを読み込めませんでした"
+    },
+    "ega3_loading_folders": {
+        "message": "フォルダーを読み込み中…"
+    },
+    "ega3_select_folder": {
+        "message": "フォルダーを選択…"
+    },
+    "ega3_untitled": {
+        "message": "無題"
+    },
+    "grp_already_used_icons": {
+        "message": "使用済みのアイコン"
+    },
+    "grp_avatar_url_label": {
+        "message": "アバター画像のURL"
+    },
+    "grp_back": {
+        "message": "← 戻る"
+    },
+    "grp_bg_color_label": {
+        "message": "背景色"
+    },
+    "grp_browse": {
+        "message": "参照…"
+    },
+    "grp_browse_title": {
+        "message": "参照…"
+    },
+    "grp_choose_type": {
+        "message": "要素の種類を選択"
+    },
+    "grp_choose_type_hint": {
+        "message": "追加したい要素の種類を選んでから、次のステップで詳細を設定します。"
+    },
+    "grp_clear_icon": {
+        "message": "アイコンをクリア"
+    },
+    "grp_clear_icon_title": {
+        "message": "アイコンをクリア"
+    },
+    "grp_clipboard_content_label": {
+        "message": "コピーする内容"
+    },
+    "grp_clipboard_content_ph": {
+        "message": "クリックしたときにクリップボードへコピーされるテキスト"
+    },
+    "grp_color": {
+        "message": "色"
+    },
+    "grp_content_label": {
+        "message": "内容"
+    },
+    "grp_content_ph": {
+        "message": "内容を入力"
+    },
+    "grp_element_type": {
+        "message": "要素の種類"
+    },
+    "grp_ex_cursor": {
+        "message": "フォルダーをCursorで開く"
+    },
+    "grp_ex_discord": {
+        "message": "Discordを開く"
+    },
+    "grp_ex_obsidian": {
+        "message": "Obsidianのvaultを開く"
+    },
+    "grp_ex_spotify": {
+        "message": "Spotifyを開く"
+    },
+    "grp_ex_steam": {
+        "message": "Steamのゲームを起動（App IDで指定）"
+    },
+    "grp_ex_teams": {
+        "message": "Microsoft Teamsを開く"
+    },
+    "grp_ex_vscode": {
+        "message": "フォルダーをVS Codeで開く"
+    },
+    "grp_ex_windows": {
+        "message": "Windowsのディスプレイ設定"
+    },
+    "grp_examples": {
+        "message": "例"
+    },
+    "grp_fa_brands": {
+        "message": "ブランド"
+    },
+    "grp_fa_regular": {
+        "message": "レギュラー"
+    },
+    "grp_fa_solid": {
+        "message": "ソリッド"
+    },
+    "grp_file_url_label": {
+        "message": "ファイルのURL"
+    },
+    "grp_font_size_label": {
+        "message": "フォントサイズ"
+    },
+    "grp_general": {
+        "message": "一般"
+    },
+    "grp_icon_color_label": {
+        "message": "アイコンの色"
+    },
+    "grp_icon_size_label": {
+        "message": "アイコンのサイズ"
+    },
+    "grp_icon_title": {
+        "message": "アイコン"
+    },
+    "grp_image_url_label": {
+        "message": "画像のURL"
+    },
+    "grp_launcher_kind_app": {
+        "message": "アプリ — URI／プロトコル"
+    },
+    "grp_launcher_kind_file": {
+        "message": "ファイル"
+    },
+    "grp_launcher_kind_folder": {
+        "message": "フォルダー"
+    },
+    "grp_launcher_kind_label": {
+        "message": "種類"
+    },
+    "grp_launcher_kind_ps": {
+        "message": "コマンド／スクリプト"
+    },
+    "grp_launcher_target_label": {
+        "message": "対象URI"
+    },
+    "grp_linkcard_hint": {
+        "message": "タイトル、説明、プレビュー画像を自動的に取得します。"
+    },
+    "grp_linkcard_url_label": {
+        "message": "リンクのURL"
+    },
+    "grp_name_label": {
+        "message": "グループ名"
+    },
+    "grp_name_ph": {
+        "message": "グループ名"
+    },
+    "grp_no_icon": {
+        "message": "まだアイコンが選択されていません！"
+    },
+    "grp_opt_callout": {
+        "message": "コールアウト"
+    },
+    "grp_opt_clipboard": {
+        "message": "クリップボードボタン"
+    },
+    "grp_opt_code": {
+        "message": "コードブロック"
+    },
+    "grp_opt_divider": {
+        "message": "区切り線"
+    },
+    "grp_opt_file": {
+        "message": "ファイル"
+    },
+    "grp_opt_group": {
+        "message": "グループ"
+    },
+    "grp_opt_heading": {
+        "message": "見出し"
+    },
+    "grp_opt_image": {
+        "message": "画像"
+    },
+    "grp_opt_launcher": {
+        "message": "ランチャーボタン"
+    },
+    "grp_opt_linkcard": {
+        "message": "リンクカード"
+    },
+    "grp_opt_profile": {
+        "message": "プロフィール"
+    },
+    "grp_opt_routine": {
+        "message": "ルーティン"
+    },
+    "grp_opt_shortcut": {
+        "message": "ショートカット"
+    },
+    "grp_opt_stepheading": {
+        "message": "ステップ見出し"
+    },
+    "grp_opt_steps": {
+        "message": "ステップ"
+    },
+    "grp_opt_text": {
+        "message": "テキスト"
+    },
+    "grp_opt_todolist": {
+        "message": "To-doリスト"
+    },
+    "grp_optional": {
+        "message": "（任意）"
+    },
+    "grp_preset_avatars": {
+        "message": "プリセットアバター"
+    },
+    "grp_routine_steps_label": {
+        "message": "ステップ"
+    },
+    "grp_save": {
+        "message": "グループを保存"
+    },
+    "grp_search_icons_ph": {
+        "message": "アイコンを検索…"
+    },
+    "grp_selected_label": {
+        "message": "選択中："
+    },
+    "grp_show_terminal": {
+        "message": "ターミナルウィンドウを表示"
+    },
+    "grp_strip_svg": {
+        "message": "SVGからfill／strokeの色を除去"
+    },
+    "grp_title_add": {
+        "message": "グループを追加"
+    },
+    "grp_type_locked_hint": {
+        "message": "要素の種類は作成後に変更できません。"
+    },
+    "grp_url_label": {
+        "message": "URL"
+    },
+    "grp_display_label": {
+        "message": "表示"
+    },
+    "grp_display_standard": {
+        "message": "標準ボタン"
+    },
+    "grp_display_icon": {
+        "message": "アイコンのみ"
+    },
+    "grp_display_show_label": {
+        "message": "アイコンの下にラベルを表示"
+    },
+    "gse21_accent_color": {
+        "message": "アクセントカラー"
+    },
+    "gse21_alpha_percent": {
+        "message": "$1%"
+    },
+    "gse21_background": {
+        "message": "背景"
+    },
+    "gse21_border_color": {
+        "message": "枠線の色"
+    },
+    "gse21_card": {
+        "message": "カード"
+    },
+    "gse21_clear_override": {
+        "message": "上書きをクリア"
+    },
+    "gse21_group_header": {
+        "message": "グループヘッダー"
+    },
+    "gse21_group_style_title": {
+        "message": "グループスタイル"
+    },
+    "gse21_icon_color": {
+        "message": "アイコンの色"
+    },
+    "gse21_links": {
+        "message": "リンク"
+    },
+    "gse21_none": {
+        "message": "なし"
+    },
+    "gse21_other": {
+        "message": "その他"
+    },
+    "gse21_reset_all": {
+        "message": "すべての上書きをリセット"
+    },
+    "gse21_shadow": {
+        "message": "影"
+    },
+    "gse21_text_color": {
+        "message": "文字色"
+    },
+    "gwr4_add_item": {
+        "message": "項目を追加"
+    },
+    "gwr4_add_item_title": {
+        "message": "$1を追加"
+    },
+    "gwr4_add_task_aria": {
+        "message": "$1にタスクを追加"
+    },
+    "gwr4_add_task_btn": {
+        "message": "タスクを追加"
+    },
+    "gwr4_add_task_or_section": {
+        "message": "タスクまたはセクションを追加"
+    },
+    "gwr4_close_add_task": {
+        "message": "タスク入力を閉じる"
+    },
+    "gwr4_collapse": {
+        "message": "折りたたむ"
+    },
+    "gwr4_confirm_delete_all_tasks": {
+        "message": "「$2」からすべての$1件のタスクを削除しますか？"
+    },
+    "gwr4_confirm_delete_group": {
+        "message": "グループ「$1」を削除しますか？"
+    },
+    "gwr4_copy_suffix": {
+        "message": "$1（コピー）"
+    },
+    "gwr4_copy_suffix_n": {
+        "message": "$1（コピー $2）"
+    },
+    "gwr4_delete_all_tasks": {
+        "message": "すべてのタスクを削除"
+    },
+    "gwr4_group_deleted": {
+        "message": "「$1」を削除しました"
+    },
+    "gwr4_group_options": {
+        "message": "グループのオプション"
+    },
+    "gwr4_menu_copy_style": {
+        "message": "スタイルをコピー"
+    },
+    "gwr4_menu_delete": {
+        "message": "削除"
+    },
+    "gwr4_menu_duplicate": {
+        "message": "複製"
+    },
+    "gwr4_menu_edit": {
+        "message": "編集"
+    },
+    "gwr4_menu_move_workspace": {
+        "message": "ワークスペースへ移動"
+    },
+    "gwr4_menu_open_all": {
+        "message": "すべてのリンクを新しいタブで開く"
+    },
+    "gwr4_menu_paste_style": {
+        "message": "スタイルを貼り付け"
+    },
+    "gwr4_menu_style": {
+        "message": "スタイル"
+    },
+    "gwr4_no_icon_chosen": {
+        "message": "まだアイコンが選択されていません！"
+    },
+    "gwr4_no_valid_links": {
+        "message": "「$1」に有効なリンクが見つかりませんでした。"
+    },
+    "gwr4_todo_placeholder": {
+        "message": "何をする必要がありますか？"
+    },
+    "gwr4_type_clipboard": {
+        "message": "クリップボード"
+    },
+    "gwr4_type_divider": {
+        "message": "区切り線"
+    },
+    "gwr4_type_header": {
+        "message": "ヘッダー"
+    },
+    "gwr4_type_item_fallback": {
+        "message": "項目"
+    },
+    "gwr4_type_launcher": {
+        "message": "ランチャー"
+    },
+    "gwr4_type_link": {
+        "message": "リンク"
+    },
+    "gwr4_type_note": {
+        "message": "ノート"
+    },
+    "gwr4_type_routine": {
+        "message": "ルーティン"
+    },
+    "gwr4_type_text": {
+        "message": "テキスト"
+    },
+    "gwr4_type_todo": {
+        "message": "To-do"
+    },
+    "hdr_auto_favicon": {
+        "message": "リンク保存時にファビコンを自動取得"
+    },
+    "hdr_current_tab": {
+        "message": "現在のタブ"
+    },
+    "hdr_design": {
+        "message": "デザイン"
+    },
+    "hdr_empty_add_group": {
+        "message": "＋ グループを追加"
+    },
+    "hdr_empty_add_links": {
+        "message": "リンクを追加"
+    },
+    "hdr_empty_add_shortcut": {
+        "message": "ショートカットを追加"
+    },
+    "hdr_empty_desc": {
+        "message": "新しいグループ、インポートしたブックマーク、またはグループや人気サイトのスターター候補でダッシュボードをセットアップしましょう。"
+    },
+    "hdr_empty_import_bookmarks": {
+        "message": "ブックマークをインポート"
+    },
+    "hdr_empty_start_suggestions": {
+        "message": "候補から始める"
+    },
+    "hdr_empty_suggestions_desc": {
+        "message": "アイコン付きで間隔を詰めたクイック追加のプレビューボタン。"
+    },
+    "hdr_empty_suggestions_title": {
+        "message": "人気サイトの候補"
+    },
+    "hdr_empty_title": {
+        "message": "このワークスペースは空です"
+    },
+    "hdr_essentials_desc": {
+        "message": "設定の中でも特に重要なオプションの概要です。新しいタブをすぐにパーソナライズできます。"
+    },
+    "hdr_essentials_title": {
+        "message": "基本設定をセットアップ"
+    },
+    "hdr_general": {
+        "message": "一般"
+    },
+    "hdr_header_actions_aria": {
+        "message": "ヘッダーの操作"
+    },
+    "hdr_logo_avatar": {
+        "message": "ロゴ／アバター"
+    },
+    "hdr_logo_desc": {
+        "message": "ダッシュボードの任意のヘッダーブランディング。"
+    },
+    "hdr_new_tab": {
+        "message": "新しいタブ"
+    },
+    "hdr_open_links_in": {
+        "message": "リンクを開く場所"
+    },
+    "hdr_pro_desc": {
+        "message": "デバイス間の暗号化された自動同期をアンロックし、Accountタブから直接、共有ボードを公開・管理できます。"
+    },
+    "hdr_pro_explore": {
+        "message": "AccountでProを見る"
+    },
+    "hdr_pro_eyebrow": {
+        "message": "ReadyTab Pro"
+    },
+    "hdr_pro_list_1": {
+        "message": "有効なクラウドダッシュボードを自動同期"
+    },
+    "hdr_pro_list_2": {
+        "message": "新しいクラウドの変更を自動的にプル"
+    },
+    "hdr_pro_list_3": {
+        "message": "共有ボードを公開・管理"
+    },
+    "hdr_pro_title": {
+        "message": "自動同期と共有ボード"
+    },
+    "hdr_remove": {
+        "message": "削除"
+    },
+    "hdr_show_clock": {
+        "message": "ヘッダーに時計を表示"
+    },
+    "hdr_show_search_bar": {
+        "message": "検索バーを表示"
+    },
+    "hdr_spotlight_search": {
+        "message": "スポットライト検索"
+    },
+    "hdr_theme": {
+        "message": "テーマ"
+    },
+    "hdr_upload": {
+        "message": "アップロード"
+    },
+    "hdr_workspace_default_tab": {
+        "message": "スタート"
+    },
+    "help_apply_from_workspace_body": {
+        "message": "別のワークスペースの外観設定を現在のワークスペースにコピーします。複数のワークスペースで同じテーマ・背景・デザイン構成を、手作業で作り直すことなく共有したい場合に便利です。"
+    },
+    "help_apply_from_workspace_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_apply_from_workspace_title": {
+        "message": "ワークスペースからコピー"
+    },
+    "help_background_custom_css_body": {
+        "message": "この入力欄はワークスペースの背景の値専用です。グラデーション、画像 URL、background の一括指定など、有効な CSS の背景の値を使用できます。ページ全体に CSS を注入するものではなく、現在のワークスペースの背景にのみ影響します。"
+    },
+    "help_background_custom_css_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_background_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_bookmarks_body": {
+        "message": "ブラウザのブックマークフォルダーを ReadyTab の新しいグループとしてインポートします。既存のブックマークコレクションを、リンクを一つずつ作り直すことなくダッシュボードのグループに変えたいときに便利です。"
+    },
+    "help_bookmarks_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_bookmarks_title": {
+        "message": "ブックマークからインポート"
+    },
+    "help_clock_body": {
+        "message": "時計は新しいタブページのヘッダー領域に表示されます。表示・非表示の切り替え、24時間表示と12時間表示の切り替え、秒や日付を表示するかどうかを選択できます。"
+    },
+    "help_clock_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_clock_title": {
+        "message": "時計"
+    },
+    "help_cloud_sync_automation_body": {
+        "message": "自動同期は、ローカルの変更後に ReadyTab が選択した遅延時間だけアイドル状態になると、アクティブなクラウドダッシュボードを更新します。自動プルは新しいクラウドのスナップショットを自動的に適用することもできますが、ローカルのダッシュボードに未同期の変更がない場合に限られます。ローカルとクラウドの両方が変更されている場合、ReadyTab は上書きする前に確認します。"
+    },
+    "help_cloud_sync_automation_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_cloud_sync_automation_title": {
+        "message": "クラウド同期の自動化"
+    },
+    "help_cloud_sync_body": {
+        "message": "クラウド同期は、暗号化したワークスペースのスナップショットを ReadyTab アカウントに保存します。「プッシュ」で現在のローカルの状態をアップロードし、「プル」でローカルの状態をクラウドのスナップショットで置き換え、用途ごとに別々のダッシュボードを管理できます。"
+    },
+    "help_cloud_sync_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_cloud_sync_title": {
+        "message": "クラウド同期"
+    },
+    "help_companion_body": {
+        "message": "コンパニオンアプリは、ブラウザ拡張機能だけでは扱えないローカルファイル・アプリ・デスクトップのワークフローと ReadyTab を連携させるのに役立ちます。オペレーティングシステムやローカルツールとより緊密に統合したいときに使用してください。"
+    },
+    "help_companion_link": {
+        "message": "コンパニオンのセットアップガイドを開く"
+    },
+    "help_companion_title": {
+        "message": "コンパニオンアプリ"
+    },
+    "help_design_custom_css_body": {
+        "message": "この Custom CSS の入力欄は、現在のワークスペースページ全体に CSS を注入します。組み込みのテーマコントロールを超える高度なスタイル設定に使用してください。「背景 > Custom CSS」とは異なり、背景の値に限定されません。"
+    },
+    "help_design_custom_css_link": {
+        "message": "テーマエディターのドキュメントを読む"
+    },
+    "help_design_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_design_reset_default_body": {
+        "message": "「既定に戻す」は、現在のワークスペースを組み込みの見た目まで完全に戻します。エディターでのカスタマイズと Custom CSS をクリアし、ベーステーマを Simple に戻し、追加の外観トグル（タブの下線、説明文、ホバー時のモーション）をリセットします。選択したベーステーマを保持したままの軽いリセットが必要な場合は、テーマ操作カードの「テーマをリセット」を使用してください。どちらも保存済みのテーマプリセットは削除しません。"
+    },
+    "help_design_reset_default_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_design_reset_default_title": {
+        "message": "既定に戻す"
+    },
+    "help_import_from_code_body": {
+        "message": "共有されたワークスペースのローカルコピーを、共有コードをここに貼り付けてインポートします。インポートしたワークスペースは編集可能な自分専用のコピーになるため、元のソースで後から変更が加えられても自動的に上書きされることはありません。"
+    },
+    "help_import_from_code_link": {
+        "message": "スペースのドキュメントを開く"
+    },
+    "help_import_from_code_title": {
+        "message": "コードからインポート"
+    },
+    "help_link_behavior_body": {
+        "message": "保存したリンクを開くときの既定の対象を選択します。「現在のタブ」ではアクティブなタブ内で移動し、「新しいタブ」ではリンクを別のタブで開きます。この設定はダッシュボード全体で使われる既定の動作を制御します。"
+    },
+    "help_link_behavior_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_link_behavior_title": {
+        "message": "リンクの動作"
+    },
+    "help_link_health_body": {
+        "message": "有効にすると、ReadyTab は保存済みの HTTP および HTTPS リンクを定期的にチェックし、到達できないものを赤いインジケーターで示します。この機能は明示的にオンにするまで無効のままです。"
+    },
+    "help_link_health_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_link_health_title": {
+        "message": "リンクの健全性チェック"
+    },
+    "help_logo_body": {
+        "message": "ヘッダーに表示するカスタムロゴをアップロードできます。ReadyTab は画像の縦横比を保ちつつ、ロゴの下端がワークスペースのタブときれいにそろうよう配置します。後からロゴを削除したり、表示サイズを変更したりすることもできます。"
+    },
+    "help_logo_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_logo_title": {
+        "message": "ロゴ"
+    },
+    "help_managed_boards_body": {
+        "message": "管理ボードは、チームや代理店が公開する読み取り専用のワークスペースです。ボードトークンで購読すると、そのワークスペースを編集可能なローカルのスペースと混在させることなく最新の状態に保てます。"
+    },
+    "help_managed_boards_link": {
+        "message": "管理ボードのドキュメントを読む"
+    },
+    "help_managed_boards_title": {
+        "message": "管理ボード"
+    },
+    "help_save_current_window_body": {
+        "message": "現在のブラウザウィンドウの対応タブを取り込み、新しいリンクグループとして保存します。作業中のタブのセットをダッシュボード上に恒久的に残したいときに便利です。"
+    },
+    "help_save_current_window_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_save_current_window_title": {
+        "message": "現在のウィンドウをグループとして保存"
+    },
+    "help_saved_themes_body": {
+        "message": "保存済みテーマは再利用できるデザインのプリセットです。ベーステーマとエディターでのカスタマイズをまとめて保存するため、同じ見た目を後から現在のワークスペースに一から作り直すことなくすばやく適用できます。"
+    },
+    "help_saved_themes_link": {
+        "message": "テーマエディターのドキュメントを読む"
+    },
+    "help_saved_themes_title": {
+        "message": "保存済みテーマ"
+    },
+    "help_session_recovery_body": {
+        "message": "ReadyTab は直近のブラウザセッションの対応タブについて、軽量なローカルスナップショットを保持するため、後で確認したり復元したりできます。ウィンドウをうっかり閉じてしまった場合の保険として、または直近の作業セッションを再度開きたいときに使用してください。"
+    },
+    "help_session_recovery_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_session_recovery_title": {
+        "message": "セッションの復元"
+    },
+    "help_spaces_body": {
+        "message": "ドラッグ＆ドロップでスペースを並べ替えて、ページ上部に表示されるタブの順序を調整できます。既定のスペースは常に先頭に固定され、それ以外は作業スタイルに合わせて並べ替えられます。また、各行の操作を使って、スペースの名前変更、保護、共有、削除も必要に応じて行えます。"
+    },
+    "help_spaces_link": {
+        "message": "スペースのドキュメントを開く"
+    },
+    "help_spaces_title": {
+        "message": "スペース"
+    },
+    "help_spotlight_search_body": {
+        "message": "Spotlight 検索を使うと、キーボードから保存済みのリンクをすばやく見つけられます。新しいタブページ以外でも有効にでき、検索結果にグループ名を含めて、大きなダッシュボードでも操作しやすくすることもできます。"
+    },
+    "help_spotlight_search_link": {
+        "message": "Spotlight のドキュメントを開く"
+    },
+    "help_spotlight_search_title": {
+        "message": "Spotlight 検索"
+    },
+    "help_theme_actions_body": {
+        "message": "「テーマを保存」は現在の見た目を再利用できる保存済みテーマとして保存します。「テーマをリセット」はこのワークスペースのエディターでのカスタマイズと Custom CSS を破棄しますが、選択したベーステーマは保持します。「エクスポート」と「インポート」は保存済みテーマを JSON ファイルとして出し入れします。ベーステーマも Simple に戻す完全なリセットが必要な場合は、下の「既定に戻す」を使用してください。"
+    },
+    "help_theme_actions_link": {
+        "message": "テーマエディターのドキュメントを読む"
+    },
+    "help_theme_actions_title": {
+        "message": "テーマ操作"
+    },
+    "help_theme_body": {
+        "message": "テーマを変更すると、現在のワークスペースがそのテーマの既定の見た目（既定の背景を含む）に更新されます。ReadyTab は一時的な「元に戻す」操作を保持するため、必要に応じて以前のテーマ・背景・デザインのカスタマイズを復元できます。"
+    },
+    "help_theme_editor_body": {
+        "message": "テーマエディターでは、テーマのトークンを細かく調整したり、再利用できる名前付きテーマを保存したり、ワークスペースごとのカスタマイズを保持したりできます。デザインの Custom CSS セクションは、背景の値のみを設定する「背景 > Custom CSS」とは異なり、現在のワークスペースページ全体に CSS を注入します。"
+    },
+    "help_theme_editor_link": {
+        "message": "テーマエディターのドキュメントを読む"
+    },
+    "help_theme_editor_title": {
+        "message": "テーマエディター"
+    },
+    "help_theme_link": {
+        "message": "設定のドキュメントを読む"
+    },
+    "help_theme_title": {
+        "message": "テーマ"
+    },
+    "help_web_search_body": {
+        "message": "検索バーをヘッダーに直接表示します。まず保存済みのアイテムを検索し、ウェブ検索はここで明示的に選択しない限りブラウザーの既定の検索エンジンを使用します。検索結果を現在のページに表示するか、新しいタブで開くかも設定できます。"
+    },
+    "help_web_search_link": {
+        "message": "設定のドキュメントを開く"
+    },
+    "help_web_search_title": {
+        "message": "検索バー"
+    },
+    "ieuh11_add_clipboard": {
+        "message": "クリップボードを追加"
+    },
+    "ieuh11_add_divider": {
+        "message": "区切り線を追加"
+    },
+    "ieuh11_add_header": {
+        "message": "ヘッダーを追加"
+    },
+    "ieuh11_add_item": {
+        "message": "項目を追加"
+    },
+    "ieuh11_add_launcher": {
+        "message": "ランチャーを追加"
+    },
+    "ieuh11_add_link": {
+        "message": "リンクを追加"
+    },
+    "ieuh11_add_note": {
+        "message": "ノートを追加"
+    },
+    "ieuh11_add_text": {
+        "message": "テキストを追加"
+    },
+    "ieuh11_add_todo": {
+        "message": "To-doを追加"
+    },
+    "ieuh11_divider_color": {
+        "message": "区切り線の色"
+    },
+    "ieuh11_icon_color": {
+        "message": "アイコンの色"
+    },
+    "ieuh11_label_name": {
+        "message": "名前"
+    },
+    "ieuh11_label_task": {
+        "message": "タスク"
+    },
+    "ieuh11_label_title": {
+        "message": "タイトル"
+    },
+    "ieuh11_launcher_command": {
+        "message": "コマンド"
+    },
+    "ieuh11_launcher_path": {
+        "message": "パス"
+    },
+    "ieuh11_launcher_target_uri": {
+        "message": "対象URI"
+    },
+    "ieuh11_ph_label": {
+        "message": "ラベル"
+    },
+    "ieuh11_ph_name": {
+        "message": "名前"
+    },
+    "ieuh11_ph_section_title": {
+        "message": "セクションのタイトル"
+    },
+    "ieuh11_ph_task": {
+        "message": "タスク"
+    },
+    "ieuh11_ph_text_content": {
+        "message": "テキストの内容"
+    },
+    "ieuh11_picker_failed": {
+        "message": "ピッカーを開けませんでした — コンパニオンアプリはインストールされていますか？\n\n設定 → Account → コンパニオンアプリ で状態を確認してください。"
+    },
+    "ip22_enter_url_first": {
+        "message": "先にURLを入力してください。"
+    },
+    "ip22_failed_load_icons": {
+        "message": "アイコンの読み込みに失敗しました。"
+    },
+    "ip22_invalid_url": {
+        "message": "無効なURLです。"
+    },
+    "ip22_loading_icons": {
+        "message": "アイコンを読み込み中…"
+    },
+    "ip22_no_icon_chosen": {
+        "message": "まだアイコンが選択されていません！"
+    },
+    "ip22_use_this_icon": {
+        "message": "このアイコンを使う"
+    },
+    "language_label": {
+        "message": "インターフェースの言語"
+    },
+    "language_section": {
+        "message": "言語"
+    },
+    "lbr5_content_copied": {
+        "message": "内容をコピーしました"
+    },
+    "lbr5_convert_to_group": {
+        "message": "グループ内の$1に変換"
+    },
+    "lbr5_copy_content": {
+        "message": "内容をコピー"
+    },
+    "lbr5_copy_failed": {
+        "message": "コピーに失敗しました"
+    },
+    "lbr5_copy_suffix": {
+        "message": "$1（コピー）"
+    },
+    "lbr5_copy_suffix_n": {
+        "message": "$1（コピー $2）"
+    },
+    "lbr5_copy_target": {
+        "message": "対象をコピー"
+    },
+    "lbr5_copy_url": {
+        "message": "URLをコピー"
+    },
+    "lbr5_copy_urls": {
+        "message": "URLをコピー"
+    },
+    "lbr5_delete": {
+        "message": "削除"
+    },
+    "lbr5_delete_confirm": {
+        "message": "$1「$2」を削除しますか？"
+    },
+    "lbr5_duplicate": {
+        "message": "複製"
+    },
+    "lbr5_edit": {
+        "message": "編集"
+    },
+    "lbr5_label_clipboard_button": {
+        "message": "クリップボードボタン"
+    },
+    "lbr5_label_launcher_button": {
+        "message": "ランチャーボタン"
+    },
+    "lbr5_label_link_button": {
+        "message": "リンクボタン"
+    },
+    "lbr5_label_routine": {
+        "message": "ルーティン"
+    },
+    "lbr5_move_to_workspace": {
+        "message": "ワークスペースへ移動"
+    },
+    "lbr5_step_many": {
+        "message": "$1ステップ"
+    },
+    "lbr5_step_one": {
+        "message": "$1ステップ"
+    },
+    "lbr5_target_copied": {
+        "message": "対象をコピーしました"
+    },
+    "lbr5_type_clipboard": {
+        "message": "クリップボード"
+    },
+    "lbr5_type_launcher": {
+        "message": "ランチャー"
+    },
+    "lbr5_type_link": {
+        "message": "リンク"
+    },
+    "lbr5_url_copied": {
+        "message": "URLをコピーしました"
+    },
+    "lbr5_urls_copied": {
+        "message": "URLをコピーしました"
+    },
+    "lbr5_widget_cap": {
+        "message": "ウィジェット"
+    },
+    "lbr5_widget_deleted": {
+        "message": "「$1」を削除しました"
+    },
+    "lbr5_widget_fallback": {
+        "message": "ウィジェット"
+    },
+    "lbr5_widget_options": {
+        "message": "$1のオプション"
+    },
+    "lir6_convert_to": {
+        "message": "$1ボタンに変換"
+    },
+    "lir6_copy_failed": {
+        "message": "コピーに失敗しました"
+    },
+    "lir6_copy_style": {
+        "message": "スタイルをコピー"
+    },
+    "lir6_copy_title": {
+        "message": "タイトルをコピー"
+    },
+    "lir6_copy_url": {
+        "message": "URLをコピー"
+    },
+    "lir6_delete": {
+        "message": "削除"
+    },
+    "lir6_duplicate": {
+        "message": "複製"
+    },
+    "lir6_edit": {
+        "message": "編集"
+    },
+    "lir6_edit_type": {
+        "message": "$1を編集"
+    },
+    "lir6_item_deleted": {
+        "message": "項目を削除しました"
+    },
+    "lir6_item_fallback": {
+        "message": "項目"
+    },
+    "lir6_more_options": {
+        "message": "その他のオプション"
+    },
+    "lir6_no_icon": {
+        "message": "まだアイコンが選択されていません！"
+    },
+    "lir6_step_count_one": {
+        "message": "$1ステップ"
+    },
+    "lir6_step_count_other": {
+        "message": "$1ステップ"
+    },
+    "lir6_style_applied": {
+        "message": "スタイルを適用しました"
+    },
+    "lir6_title_copied": {
+        "message": "タイトルをコピーしました"
+    },
+    "lir6_todo_mark_complete": {
+        "message": "To-doを完了にする"
+    },
+    "lir6_todo_mark_incomplete": {
+        "message": "To-doを未完了にする"
+    },
+    "lir6_type_clipboard": {
+        "message": "クリップボード"
+    },
+    "lir6_type_divider": {
+        "message": "区切り線"
+    },
+    "lir6_type_header": {
+        "message": "ヘッダー"
+    },
+    "lir6_type_launcher": {
+        "message": "ランチャー"
+    },
+    "lir6_type_link": {
+        "message": "リンク"
+    },
+    "lir6_type_note": {
+        "message": "ノート"
+    },
+    "lir6_type_routine": {
+        "message": "ルーティン"
+    },
+    "lir6_type_text": {
+        "message": "テキスト"
+    },
+    "lir6_type_todo": {
+        "message": "To-do"
+    },
+    "lir6_update_item": {
+        "message": "項目を更新"
+    },
+    "lir6_url_copied": {
+        "message": "URLをコピーしました"
+    },
+    "lnk_add_link": {
+        "message": "リンクを追加"
+    },
+    "lnk_align_center": {
+        "message": "中央"
+    },
+    "lnk_align_left": {
+        "message": "左"
+    },
+    "lnk_align_right": {
+        "message": "右"
+    },
+    "lnk_alignment": {
+        "message": "配置"
+    },
+    "lnk_autofetch_desc": {
+        "message": "リンク追加時にサイトのファビコンを自動的に使用します。"
+    },
+    "lnk_autofetch_title": {
+        "message": "アイコンを自動取得"
+    },
+    "lnk_browse_btn": {
+        "message": "参照…"
+    },
+    "lnk_browse_title": {
+        "message": "参照…"
+    },
+    "lnk_cat_brands": {
+        "message": "ブランド"
+    },
+    "lnk_cat_regular": {
+        "message": "レギュラー"
+    },
+    "lnk_cat_solid": {
+        "message": "ソリッド"
+    },
+    "lnk_clear_icon_btn": {
+        "message": "アイコンをクリア"
+    },
+    "lnk_clear_icon_title": {
+        "message": "アイコンをクリア"
+    },
+    "lnk_clipboard_content_label": {
+        "message": "コピーする内容"
+    },
+    "lnk_clipboard_content_ph": {
+        "message": "クリック時にクリップボードへコピーされるテキスト"
+    },
+    "lnk_color": {
+        "message": "色"
+    },
+    "lnk_desc_label": {
+        "message": "説明"
+    },
+    "lnk_desc_optional": {
+        "message": "（任意）"
+    },
+    "lnk_desc_ph": {
+        "message": "リンク名の下に表示される短いサブタイトル"
+    },
+    "lnk_drawer_title": {
+        "message": "項目を追加"
+    },
+    "lnk_ex_cursor": {
+        "message": "フォルダーを Cursor で開く"
+    },
+    "lnk_ex_discord": {
+        "message": "Discord を開く"
+    },
+    "lnk_ex_mssettings": {
+        "message": "Windows のディスプレイ設定"
+    },
+    "lnk_ex_obsidian": {
+        "message": "Obsidian のボールトを開く"
+    },
+    "lnk_ex_spotify": {
+        "message": "Spotify を開く"
+    },
+    "lnk_ex_steam": {
+        "message": "Steam のゲームを起動（App ID で指定）"
+    },
+    "lnk_ex_teams": {
+        "message": "Microsoft Teams を開く"
+    },
+    "lnk_ex_vscode": {
+        "message": "フォルダーを VS Code で開く"
+    },
+    "lnk_examples": {
+        "message": "例"
+    },
+    "lnk_general": {
+        "message": "全般"
+    },
+    "lnk_icon": {
+        "message": "アイコン"
+    },
+    "lnk_icon_color": {
+        "message": "アイコンの色"
+    },
+    "lnk_icon_search_ph": {
+        "message": "アイコンを検索…"
+    },
+    "lnk_launcher_kind_app": {
+        "message": "アプリ — URI / プロトコル"
+    },
+    "lnk_launcher_kind_file": {
+        "message": "ファイル"
+    },
+    "lnk_launcher_kind_folder": {
+        "message": "フォルダー"
+    },
+    "lnk_launcher_kind_label": {
+        "message": "種類"
+    },
+    "lnk_launcher_kind_ps": {
+        "message": "コマンド / スクリプト"
+    },
+    "lnk_launcher_target_label": {
+        "message": "対象 URI"
+    },
+    "lnk_name_label": {
+        "message": "名前"
+    },
+    "lnk_name_ph": {
+        "message": "名前"
+    },
+    "lnk_no_icon": {
+        "message": "アイコンが選択されていません。"
+    },
+    "lnk_open_in_label": {
+        "message": "開く場所"
+    },
+    "lnk_reset_overrides": {
+        "message": "すべての上書きをリセット"
+    },
+    "lnk_selected": {
+        "message": "選択中："
+    },
+    "lnk_separator_lines": {
+        "message": "区切り線"
+    },
+    "lnk_show_terminal": {
+        "message": "ターミナルウィンドウを表示"
+    },
+    "lnk_steps_label": {
+        "message": "ステップ"
+    },
+    "lnk_strip_colors": {
+        "message": "SVG から fill / stroke の色を除去"
+    },
+    "lnk_style_bold": {
+        "message": "太字"
+    },
+    "lnk_style_italic": {
+        "message": "斜体"
+    },
+    "lnk_style_label": {
+        "message": "スタイル"
+    },
+    "lnk_style_normal": {
+        "message": "標準"
+    },
+    "lnk_target_blank": {
+        "message": "新しいタブ"
+    },
+    "lnk_target_global": {
+        "message": "全体設定を使用"
+    },
+    "lnk_target_self": {
+        "message": "同じタブ"
+    },
+    "lnk_text_color": {
+        "message": "文字色"
+    },
+    "lnk_todo_completed": {
+        "message": "タスクを完了にする"
+    },
+    "lnk_url_label": {
+        "message": "URL"
+    },
+    "lnk_used_icons": {
+        "message": "使用済みのアイコン"
+    },
+    "mbmm23_action_failed": {
+        "message": "$1に失敗しました：$2"
+    },
+    "mbmm23_board_revoked": {
+        "message": "ボードを無効化しました"
+    },
+    "mbmm23_change": {
+        "message": "変更"
+    },
+    "mbmm23_change_pw_prompt": {
+        "message": "管理ボード「$1」の新しいパスワードを入力してください："
+    },
+    "mbmm23_changing": {
+        "message": "変更中…"
+    },
+    "mbmm23_close": {
+        "message": "閉じる"
+    },
+    "mbmm23_close_modal": {
+        "message": "ボード管理モーダルを閉じる"
+    },
+    "mbmm23_copy": {
+        "message": "コピー"
+    },
+    "mbmm23_copy_failed": {
+        "message": "コピーに失敗しました"
+    },
+    "mbmm23_copy_token": {
+        "message": "トークンをコピー"
+    },
+    "mbmm23_current": {
+        "message": "現在"
+    },
+    "mbmm23_delete_perm": {
+        "message": "完全に削除"
+    },
+    "mbmm23_delete_perm_confirm": {
+        "message": "無効化されたボード「$1」を完全に削除しますか？この操作は取り消せません。"
+    },
+    "mbmm23_deleting": {
+        "message": "削除中…"
+    },
+    "mbmm23_earlier_snapshot": {
+        "message": "以前のスナップショット"
+    },
+    "mbmm23_enable_again": {
+        "message": "ボードを再度有効化"
+    },
+    "mbmm23_enabling": {
+        "message": "有効化中…"
+    },
+    "mbmm23_history_desc": {
+        "message": "バージョンを復元するとローカルにソースが再作成されます。公開済みのボードは上書きされません。"
+    },
+    "mbmm23_import_token": {
+        "message": "トークンをインポート"
+    },
+    "mbmm23_in_sync_text": {
+        "message": "ローカルのソースは公開済みのボードと一致しています。更新を公開できます。"
+    },
+    "mbmm23_latest_snapshot": {
+        "message": "最新のスナップショット"
+    },
+    "mbmm23_load_history": {
+        "message": "履歴を読み込む"
+    },
+    "mbmm23_loading": {
+        "message": "読み込み中…"
+    },
+    "mbmm23_locked": {
+        "message": "ロック中"
+    },
+    "mbmm23_manage_board": {
+        "message": "ボードを管理"
+    },
+    "mbmm23_managed_board": {
+        "message": "管理ボード"
+    },
+    "mbmm23_missing_text": {
+        "message": "ソースがローカルに復元されるまで更新を公開できません。まず復元すると「今すぐ更新」が利用可能になります。"
+    },
+    "mbmm23_more_pw_actions": {
+        "message": "その他のパスワード操作"
+    },
+    "mbmm23_n_saved": {
+        "message": "$1 件保存済み"
+    },
+    "mbmm23_none_saved": {
+        "message": "保存済みなし"
+    },
+    "mbmm23_not_supported": {
+        "message": "非対応"
+    },
+    "mbmm23_open_board": {
+        "message": "ボードを開く"
+    },
+    "mbmm23_password_copied": {
+        "message": "パスワードをコピーしました。"
+    },
+    "mbmm23_password_protected": {
+        "message": "パスワード保護済み"
+    },
+    "mbmm23_pw_none": {
+        "message": "パスワードなし — トークンを持つ全員が購読できます。"
+    },
+    "mbmm23_pw_saved_this_device": {
+        "message": "保存された作成者パスワードはこのデバイスでのみ利用できます。"
+    },
+    "mbmm23_pw_set_replace_only": {
+        "message": "このボードに設定済み — ここでは表示できず、置き換えのみ可能です。"
+    },
+    "mbmm23_pw_updates_unavailable": {
+        "message": "このボードではパスワードの更新はできません。"
+    },
+    "mbmm23_ready_to_publish": {
+        "message": "公開の準備完了"
+    },
+    "mbmm23_remove_password": {
+        "message": "パスワードを削除"
+    },
+    "mbmm23_remove_pw_confirm": {
+        "message": "管理ボード「$1」からパスワードを削除しますか？"
+    },
+    "mbmm23_removing": {
+        "message": "削除中…"
+    },
+    "mbmm23_restore_as_source": {
+        "message": "ソースとして復元"
+    },
+    "mbmm23_restore_desc": {
+        "message": "復元するとローカルにソースが再作成されます。公開済みのボードはそのまま維持されます。"
+    },
+    "mbmm23_open_source": {
+        "message": "ソースを開く"
+    },
+    "mbmm23_restore_source_locally": {
+        "message": "ソースをローカルに復元"
+    },
+    "mbmm23_restoring": {
+        "message": "復元中…"
+    },
+    "mbmm23_retry": {
+        "message": "再試行"
+    },
+    "mbmm23_reveal": {
+        "message": "表示"
+    },
+    "mbmm23_revealing": {
+        "message": "表示中…"
+    },
+    "mbmm23_revoke": {
+        "message": "無効化"
+    },
+    "mbmm23_revoke_confirm": {
+        "message": "このボードを無効化しますか？バックエンドの無効化ポリシーに基づいて購読者はアクセスできなくなります。"
+    },
+    "mbmm23_revoke_desc": {
+        "message": "バックエンドのポリシーに従って購読者のアクセスを削除します。ローカルのソースには影響しません。"
+    },
+    "mbmm23_revoke_this_board": {
+        "message": "このボードを無効化"
+    },
+    "mbmm23_revoked_text": {
+        "message": "購読者はアクセスできなくなりました。再度有効化するか、完全に削除してください。"
+    },
+    "mbmm23_revoking": {
+        "message": "無効化中…"
+    },
+    "mbmm23_saved_password": {
+        "message": "保存されたパスワード"
+    },
+    "mbmm23_set_password": {
+        "message": "パスワードを設定"
+    },
+    "mbmm23_set_pw_prompt": {
+        "message": "管理ボード「$1」のパスワードを設定してください："
+    },
+    "mbmm23_setting": {
+        "message": "設定中…"
+    },
+    "mbmm23_source_in_sync": {
+        "message": "ソースは同期済み"
+    },
+    "mbmm23_source_missing": {
+        "message": "このデバイスにソースがありません"
+    },
+    "mbmm23_subscribe_other_device": {
+        "message": "別のデバイスで購読"
+    },
+    "mbmm23_token_copied": {
+        "message": "トークンをコピーしました。"
+    },
+    "mbmm23_token_hint": {
+        "message": "設定 → スペース → 共有 → 接続ボード → ボードに参加"
+    },
+    "mbmm23_unavailable": {
+        "message": "利用不可"
+    },
+    "mbmm23_unknown_error": {
+        "message": "不明なエラー"
+    },
+    "mbmm23_update_now": {
+        "message": "今すぐ更新"
+    },
+    "mbmm23_updating": {
+        "message": "更新中…"
+    },
+    "mbmm23_version_history": {
+        "message": "バージョン履歴"
+    },
+    "mbu24_already_subscribed": {
+        "message": "このボードはすでに購読済みです。"
+    },
+    "mbu24_already_up_to_date": {
+        "message": "すでに最新です。"
+    },
+    "mbu24_badge_ready": {
+        "message": "準備完了"
+    },
+    "mbu24_badge_revoked": {
+        "message": "無効化済み"
+    },
+    "mbu24_badge_source_missing": {
+        "message": "ソースなし"
+    },
+    "mbu24_board_active_again": {
+        "message": "ボード「$1」は再び有効になりました。"
+    },
+    "mbu24_board_count": {
+        "message": "$1 $2"
+    },
+    "mbu24_board_created": {
+        "message": "ボードを作成しました！トークン：$1"
+    },
+    "mbu24_board_deleted_permanently": {
+        "message": "ボード「$1」を完全に削除しました。"
+    },
+    "mbu24_board_revoked": {
+        "message": "ボードを無効化しました。"
+    },
+    "mbu24_board_revoked_removed": {
+        "message": "ボード「$1」は無効化され、削除されました。"
+    },
+    "mbu24_board_revoked_removed_short": {
+        "message": "ボード「$1」を無効化して削除しました。"
+    },
+    "mbu24_board_updated": {
+        "message": "ボードを更新しました。"
+    },
+    "mbu24_board_updated_subscribers": {
+        "message": "ボードを更新しました。購読者には次回の同期時に変更が反映されます。"
+    },
+    "mbu24_by": {
+        "message": "作成者"
+    },
+    "mbu24_close": {
+        "message": "閉じる"
+    },
+    "mbu24_close_modal_aria": {
+        "message": "管理ボードモーダルを閉じる"
+    },
+    "mbu24_could_not_load": {
+        "message": "ボードを読み込めませんでした：$1"
+    },
+    "mbu24_create_board": {
+        "message": "ボードを作成"
+    },
+    "mbu24_create_form_desc": {
+        "message": "選択したワークスペースを読み取り専用のボードとして公開します。更新はそのソースワークスペースに固定されます。"
+    },
+    "mbu24_create_new_board": {
+        "message": "新しいボードを作成"
+    },
+    "mbu24_creating": {
+        "message": "作成中…"
+    },
+    "mbu24_creator_password_prompt": {
+        "message": "管理ボード「$1」のパスワードを入力してください："
+    },
+    "mbu24_delete": {
+        "message": "削除"
+    },
+    "mbu24_delete_revoked_confirm": {
+        "message": "無効化されたボード「$1」を完全に削除しますか？この操作は取り消せません。"
+    },
+    "mbu24_diff_local_source": {
+        "message": "💻 ローカルのソース"
+    },
+    "mbu24_diff_publish_update": {
+        "message": "更新を公開"
+    },
+    "mbu24_diff_published_board": {
+        "message": "☁ 公開済みのボード"
+    },
+    "mbu24_diff_update_title": {
+        "message": "「$1」を更新"
+    },
+    "mbu24_explain_revoked": {
+        "message": "無効化されたボードは更新できません。再度公開するにはこのボードの無効化を解除するか、完全に削除してください。"
+    },
+    "mbu24_explain_source_mismatch": {
+        "message": "元のソースワークスペースがこのローカルワークスペースと一致しなくなりました。更新する前にソースをローカルに復元してください。"
+    },
+    "mbu24_failed_generic": {
+        "message": "失敗：$1"
+    },
+    "mbu24_failed_open_manage": {
+        "message": "ボード管理を開けませんでした：$1"
+    },
+    "mbu24_failed_to_subscribe": {
+        "message": "購読に失敗しました。"
+    },
+    "mbu24_historical_version": {
+        "message": "過去のバージョン"
+    },
+    "mbu24_history_load_failed": {
+        "message": "このボードのバージョン履歴を読み込めませんでした。"
+    },
+    "mbu24_label_revoke": {
+        "message": "無効化"
+    },
+    "mbu24_label_revoked": {
+        "message": "無効化済み"
+    },
+    "mbu24_loading_boards": {
+        "message": "ボードを読み込み中…"
+    },
+    "mbu24_manage": {
+        "message": "管理"
+    },
+    "mbu24_managed_board_fallback": {
+        "message": "管理ボード"
+    },
+    "mbu24_managed_boards_subtitle": {
+        "message": "他のユーザーが購読できるように公開する読み取り専用のボードです。"
+    },
+    "mbu24_managed_boards_title": {
+        "message": "管理ボード"
+    },
+    "mbu24_name_required": {
+        "message": "ボード名と代理店名は必須です。"
+    },
+    "mbu24_next": {
+        "message": "次へ"
+    },
+    "mbu24_no_boards_match": {
+        "message": "「$1」に一致するボードはありません。"
+    },
+    "mbu24_no_boards_yet": {
+        "message": "ボードがまだありません — 下で作成してください。"
+    },
+    "mbu24_pager_info": {
+        "message": "$2 ページ中 $1 ページ · $3 件のボード"
+    },
+    "mbu24_password_changed": {
+        "message": "ボードのパスワードを変更しました。"
+    },
+    "mbu24_password_changed_prompt": {
+        "message": "「$1」のパスワードが変更されました。同期を続けるには新しいパスワードを入力してください:"
+    },
+    "mbu24_password_needed": {
+        "message": "このボードを同期するには新しいパスワードが必要です。"
+    },
+    "mbu24_password_removed": {
+        "message": "ボードのパスワードを削除しました。"
+    },
+    "mbu24_password_set": {
+        "message": "ボードのパスワードを設定しました。"
+    },
+    "mbu24_password_unavailable": {
+        "message": "パスワードは設定されていますが、このデバイスでは表示できません。新しいパスワードに置き換えることができます。"
+    },
+    "mbu24_ph_author_team": {
+        "message": "作成者 / チーム名"
+    },
+    "mbu24_ph_board_name": {
+        "message": "ボード名"
+    },
+    "mbu24_ph_password_optional": {
+        "message": "パスワード（任意）"
+    },
+    "mbu24_prev": {
+        "message": "前へ"
+    },
+    "mbu24_publish_update_confirm": {
+        "message": "この更新を「$1」に公開しますか？\n\n以前：$2 グループ / $3 項目\n現在：$4 グループ / $5 項目\n\n購読者には次回の同期時に変更が反映されます。"
+    },
+    "mbu24_remove": {
+        "message": "削除"
+    },
+    "mbu24_remove_subscription_confirm": {
+        "message": "「$1」の購読を解除しますか？"
+    },
+    "mbu24_requires_pro": {
+        "message": "代理店ボードには Pro ライセンスが必要です。"
+    },
+    "mbu24_restored_historical_toast": {
+        "message": "「$1」の過去のバージョンをローカルに復元しました。準備ができたら再度公開してください。"
+    },
+    "mbu24_restored_label_suffix": {
+        "message": "$1 を復元"
+    },
+    "mbu24_restored_source_suffix": {
+        "message": "ソースを復元"
+    },
+    "mbu24_restored_source_toast": {
+        "message": "「$1」のソースワークスペースを復元しました。"
+    },
+    "mbu24_revoke_board_confirm": {
+        "message": "このボードを無効化しますか？バックエンドの無効化ポリシーに基づいて購読者はアクセスできなくなります。"
+    },
+    "mbu24_search_boards_aria": {
+        "message": "名前でボードを検索"
+    },
+    "mbu24_search_boards_ph": {
+        "message": "名前でボードを検索…"
+    },
+    "mbu24_source_label": {
+        "message": "ソース："
+    },
+    "mbu24_source_missing_lc": {
+        "message": "ソースなし"
+    },
+    "mbu24_source_prefix": {
+        "message": "ソース：$1"
+    },
+    "mbu24_start_workspace": {
+        "message": "スタート"
+    },
+    "mbu24_status_ready": {
+        "message": "$1 から更新する準備ができました。"
+    },
+    "mbu24_status_restore_safe": {
+        "message": "安全に更新できるようにソースをローカルに復元してください。"
+    },
+    "mbu24_status_revoked": {
+        "message": "ボードを無効化しました — 無効化ポリシーに基づいて、購読者はアクセスできなくなったか、次回の同期時にアクセスできなくなります。"
+    },
+    "mbu24_status_source_missing_restore": {
+        "message": "ソースがありません — 更新する前にローカルに復元してください。"
+    },
+    "mbu24_subscribe": {
+        "message": "購読"
+    },
+    "mbu24_subscribe_password_prompt": {
+        "message": "このボードはパスワードで保護されています。パスワードを入力してください："
+    },
+    "mbu24_subscribed_to": {
+        "message": "「$1」を購読しました。"
+    },
+    "mbu24_subscription_removed": {
+        "message": "購読を解除しました。"
+    },
+    "mbu24_sync_failed": {
+        "message": "同期に失敗しました：$1"
+    },
+    "mbu24_sync_now": {
+        "message": "今すぐ同期"
+    },
+    "mbu24_unrevoke": {
+        "message": "無効化を解除"
+    },
+    "mbu24_update": {
+        "message": "更新"
+    },
+    "mbu24_update_failed": {
+        "message": "更新に失敗しました：$1"
+    },
+    "modala_recover_prompt_dismiss": {
+        "message": "閉じる"
+    },
+    "modala_recover_prompt_restore": {
+        "message": "復元"
+    },
+    "modala_recover_prompt_title": {
+        "message": "前回のセッションを復元しますか？"
+    },
+    "modala_recover_prompt_view": {
+        "message": "表示"
+    },
+    "modala_recover_view_clear": {
+        "message": "スナップショットを消去"
+    },
+    "modala_recover_view_close": {
+        "message": "閉じる"
+    },
+    "modala_recover_view_meta": {
+        "message": "スナップショットは利用できません。"
+    },
+    "modala_recover_view_restore": {
+        "message": "前回のセッションを復元"
+    },
+    "modala_recover_view_title": {
+        "message": "前回のセッションのスナップショット"
+    },
+    "modala_savewin_cancel": {
+        "message": "キャンセル"
+    },
+    "modala_savewin_confirm": {
+        "message": "グループを保存"
+    },
+    "modala_savewin_desc": {
+        "message": "現在のブラウザウィンドウの対応するタブを、新しい編集可能なグループとして保存します。"
+    },
+    "modala_savewin_groupname": {
+        "message": "グループ名"
+    },
+    "modala_savewin_groupname_ph": {
+        "message": "現在のウィンドウ"
+    },
+    "modala_savewin_loading": {
+        "message": "現在のウィンドウのタブを読み込み中…"
+    },
+    "modala_savewin_skipdup": {
+        "message": "このワークスペースにすでに保存されている重複した URL をスキップ"
+    },
+    "modala_savewin_title": {
+        "message": "現在のウィンドウをグループとして保存"
+    },
+    "modala_savewin_workspace": {
+        "message": "対象のワークスペース"
+    },
+    "modala_starter_apply": {
+        "message": "選択したグループを追加"
+    },
+    "modala_starter_desc": {
+        "message": "スターターグループと人気のショートカットを選んで、最初のダッシュボードをすばやく作成できます。作成後もすべて編集可能です。"
+    },
+    "modala_starter_skip": {
+        "message": "後で"
+    },
+    "modala_starter_title": {
+        "message": "スターターの提案"
+    },
+    "modalb_applytheme_cancel": {
+        "message": "キャンセル"
+    },
+    "modalb_applytheme_desc_post": {
+        "message": "」を使用するか選択してください："
+    },
+    "modalb_applytheme_desc_pre": {
+        "message": "どのワークスペースで「"
+    },
+    "modalb_applytheme_ok": {
+        "message": "適用"
+    },
+    "modalb_applytheme_selectall": {
+        "message": "すべて選択"
+    },
+    "modalb_applytheme_title": {
+        "message": "テーマをワークスペースに適用"
+    },
+    "modalb_convert_cancel": {
+        "message": "キャンセル"
+    },
+    "modalb_convert_desc_post": {
+        "message": "」をこのワークスペースのグループに移動します。"
+    },
+    "modalb_convert_desc_pre": {
+        "message": "「"
+    },
+    "modalb_convert_label": {
+        "message": "グループを検索"
+    },
+    "modalb_convert_list_aria": {
+        "message": "利用可能なグループ"
+    },
+    "modalb_convert_ok": {
+        "message": "変換"
+    },
+    "modalb_convert_search_ph": {
+        "message": "グループを検索…"
+    },
+    "modalb_convert_title": {
+        "message": "グループ項目に変換"
+    },
+    "modalb_movegroup_cancel": {
+        "message": "キャンセル"
+    },
+    "modalb_movegroup_desc_post": {
+        "message": "」の移動先："
+    },
+    "modalb_movegroup_desc_pre": {
+        "message": "「"
+    },
+    "modalb_movegroup_ok": {
+        "message": "移動"
+    },
+    "modalb_movegroup_title": {
+        "message": "グループを移動"
+    },
+    "modalb_passphrase_cancel": {
+        "message": "キャンセル"
+    },
+    "modalb_passphrase_confirm_ph": {
+        "message": "パスフレーズを確認"
+    },
+    "modalb_passphrase_desc": {
+        "message": "このワークスペースのロックを解除するにはパスフレーズを入力してください。"
+    },
+    "modalb_passphrase_ph": {
+        "message": "パスフレーズ"
+    },
+    "modalb_passphrase_title": {
+        "message": "保護されたワークスペース"
+    },
+    "modalb_passphrase_unlock": {
+        "message": "ロックを解除"
+    },
+    "nta30_delete_confirm": {
+        "message": "この保存済みテーマを削除しますか？"
+    },
+    "p31_alert_import_failed": {
+        "message": "インポートに失敗しました：$1"
+    },
+    "p31_alert_import_success": {
+        "message": "テーマを正常にインポートしました！"
+    },
+    "p31_btn_save_failed": {
+        "message": "保存に失敗しました！"
+    },
+    "p31_btn_save_theme": {
+        "message": "テーマを保存"
+    },
+    "p31_btn_saved": {
+        "message": "保存しました ✓"
+    },
+    "p31_confirm_import_custom_css": {
+        "message": "このファイルにはカスタムCSSが含まれています。カスタムCSSはページの動作を変える可能性があります。自分でエクスポートしたファイルの場合のみ保持してください。\n\nカスタムCSSを保持しますか？"
+    },
+    "p31_confirm_reset_theme": {
+        "message": "現在のワークスペースのテーマのカスタマイズをすべてリセットしますか？"
+    },
+    "p31_default_theme_name": {
+        "message": "マイテーマ"
+    },
+    "p31_prompt_save_theme_as": {
+        "message": "テーマを次の名前で保存："
+    },
+    "pbp25_aria_public_board_link": {
+        "message": "公開ボードのリンク"
+    },
+    "pbp25_board_published": {
+        "message": "ボードを公開しました！"
+    },
+    "pbp25_cancel": {
+        "message": "キャンセル"
+    },
+    "pbp25_clipboard_count_notice": {
+        "message": "このワークスペースには $1 個のクリップボード$2が含まれています。クリップボードの内容は共有スナップショットの一部となり、リンクを持つ全員に表示されます。"
+    },
+    "pbp25_close": {
+        "message": "閉じる"
+    },
+    "pbp25_copied": {
+        "message": "コピーしました！"
+    },
+    "pbp25_copy": {
+        "message": "コピー"
+    },
+    "pbp25_could_not_publish": {
+        "message": "ボードを公開できませんでした：$1\n\nこの状態が続く場合、共有サービスに接続できない可能性があります。"
+    },
+    "pbp25_could_not_recover_content": {
+        "message": "このデバイスではこのボードの内容を復元できませんでした。"
+    },
+    "pbp25_could_not_update": {
+        "message": "ボードを更新できませんでした：$1"
+    },
+    "pbp25_dialog_desc_publish": {
+        "message": "このワークスペースの固定されたスナップショットへの公開の読み取り専用リンクを作成します。リンクを持つ全員が閲覧でき、拡張機能は不要です。以降の編集は公開されたコピーに反映されません。"
+    },
+    "pbp25_dialog_desc_update": {
+        "message": "公開されたスナップショットを、このワークスペースの現在の状態に置き換えます。既存の公開リンクは変わらず、閲覧者にはすぐに更新が反映されます。"
+    },
+    "pbp25_dialog_title_publish": {
+        "message": "公開ボードを公開"
+    },
+    "pbp25_dialog_title_update": {
+        "message": "公開ボードを更新"
+    },
+    "pbp25_done": {
+        "message": "完了"
+    },
+    "pbp25_encrypting_uploading": {
+        "message": "ボードを暗号化してアップロードしています。"
+    },
+    "pbp25_expiry_30_days": {
+        "message": "デフォルトでは、永久保存にしない限りリンクは 30 日で期限切れになります。設定 → スペース → 公開ボードから管理できます。"
+    },
+    "pbp25_imported_board": {
+        "message": "インポートしたボード"
+    },
+    "pbp25_imported_edit_then_update": {
+        "message": "インポート済み — 編集してから「更新」で変更を公開してください。"
+    },
+    "pbp25_include_clipboard": {
+        "message": "公開ボードにクリップボードの項目 / 内容を含める"
+    },
+    "pbp25_item_plural": {
+        "message": "項目"
+    },
+    "pbp25_item_singular": {
+        "message": "項目"
+    },
+    "pbp25_keep_until_delete": {
+        "message": "削除するまで保持（期限切れなし）"
+    },
+    "pbp25_label_description": {
+        "message": "説明"
+    },
+    "pbp25_label_title": {
+        "message": "タイトル"
+    },
+    "pbp25_label_title_desc_on_board": {
+        "message": "ボード上のタイトルと説明"
+    },
+    "pbp25_launcher_css_stripped": {
+        "message": "ランチャーボタンとカスタム CSS は公開コピーから除去されます。"
+    },
+    "pbp25_link_expiry_same": {
+        "message": "リンクとその有効期限は変わりません。"
+    },
+    "pbp25_open_link": {
+        "message": "リンクを開く"
+    },
+    "pbp25_option_hidden": {
+        "message": "非表示"
+    },
+    "pbp25_option_show_centered": {
+        "message": "表示 — 中央揃え"
+    },
+    "pbp25_option_show_left": {
+        "message": "表示 — 左揃え"
+    },
+    "pbp25_optional": {
+        "message": "（任意）"
+    },
+    "pbp25_protected_cannot_publish": {
+        "message": "保護されたワークスペースは公開できません。"
+    },
+    "pbp25_protected_cannot_publish_unprotect": {
+        "message": "保護されたワークスペースは公開できません。公開して共有したい場合は、まず保護を解除してください。"
+    },
+    "pbp25_public_board_link_copied": {
+        "message": "公開ボードのリンクをコピーしました。"
+    },
+    "pbp25_public_board_updated": {
+        "message": "公開ボードを更新しました。"
+    },
+    "pbp25_publish": {
+        "message": "公開"
+    },
+    "pbp25_publishing": {
+        "message": "公開中…"
+    },
+    "pbp25_secret_in_link_hint": {
+        "message": "ボードを復号するために必要なシークレットはリンクの一部です — URL 全体をまとめて保管してください。設定 → スペース → 共有ボードからいつでも再度開いたり、コピーしたり、取り消したりできます。"
+    },
+    "pbp25_share_link_readonly": {
+        "message": "このリンクを誰とでも共有できます — どのブラウザでもボードの読み取り専用ビューが開きます。"
+    },
+    "pbp25_space_not_on_device_import": {
+        "message": "このボードが公開されたスペースはこのデバイスにありません。\n\n公開されたボードのコピーをインポートして編集し、変更でリンクを更新しますか？"
+    },
+    "pbp25_update": {
+        "message": "更新"
+    },
+    "pbp25_workspace_empty_add_groups": {
+        "message": "このワークスペースは空です — 公開する前にグループを追加してください。"
+    },
+    "pm7_cancel_title": {
+        "message": "ペイントモードをキャンセル"
+    },
+    "pm7_pill_group": {
+        "message": "グループヘッダーをクリックしてスタイルを適用"
+    },
+    "pm7_pill_link": {
+        "message": "リンクをクリックしてスタイルを適用"
+    },
+    "rse12_add_from_board": {
+        "message": "ボードから追加…"
+    },
+    "rse12_add_step_btn": {
+        "message": "+ ステップを追加"
+    },
+    "rse12_app_placeholder": {
+        "message": "例：spotify:  または  vscode://"
+    },
+    "rse12_browse_btn": {
+        "message": "参照…"
+    },
+    "rse12_cancel": {
+        "message": "キャンセル"
+    },
+    "rse12_clipboard_placeholder": {
+        "message": "コピーするテキスト"
+    },
+    "rse12_close_aria": {
+        "message": "閉じる"
+    },
+    "rse12_companion_note": {
+        "message": "このステップを実行するにはコンパニオンアプリのインストールが必要です。"
+    },
+    "rse12_composer_add": {
+        "message": "ステップを追加"
+    },
+    "rse12_delay_placeholder": {
+        "message": "秒"
+    },
+    "rse12_empty_steps": {
+        "message": "まだステップがありません。追加してルーティンを作成してください。"
+    },
+    "rse12_file_placeholder": {
+        "message": "C:\\path\\to\\file.pdf （コンパニオンアプリが必要）"
+    },
+    "rse12_folder_placeholder": {
+        "message": "C:\\path\\to\\folder （コンパニオンアプリが必要）"
+    },
+    "rse12_kind_app_label": {
+        "message": "アプリを起動"
+    },
+    "rse12_kind_app_tag": {
+        "message": "アプリ"
+    },
+    "rse12_kind_clipboard_label": {
+        "message": "クリップボードにコピー"
+    },
+    "rse12_kind_clipboard_tag": {
+        "message": "コピー"
+    },
+    "rse12_kind_delay_label": {
+        "message": "待機"
+    },
+    "rse12_kind_delay_tag": {
+        "message": "待機"
+    },
+    "rse12_kind_file_label": {
+        "message": "ファイルを開く"
+    },
+    "rse12_kind_file_tag": {
+        "message": "ファイル"
+    },
+    "rse12_kind_folder_label": {
+        "message": "フォルダーを開く"
+    },
+    "rse12_kind_folder_tag": {
+        "message": "フォルダー"
+    },
+    "rse12_kind_url_label": {
+        "message": "URLを開く"
+    },
+    "rse12_kind_url_tag": {
+        "message": "URL"
+    },
+    "rse12_kind_workspace_label": {
+        "message": "ワークスペースを切り替え"
+    },
+    "rse12_kind_workspace_tag": {
+        "message": "スペース"
+    },
+    "rse12_label_clipboard": {
+        "message": "クリップボード"
+    },
+    "rse12_label_copy": {
+        "message": "コピー"
+    },
+    "rse12_label_group": {
+        "message": "グループ"
+    },
+    "rse12_picker_add": {
+        "message": "追加"
+    },
+    "rse12_picker_added": {
+        "message": "追加しました ✓"
+    },
+    "rse12_picker_alert": {
+        "message": "ピッカーを開けませんでした — コンパニオンアプリはインストールされていますか？\n\n設定 → アカウント → コンパニオンアプリで状態を確認してください。"
+    },
+    "rse12_picker_no_matches": {
+        "message": "一致するものがありません。"
+    },
+    "rse12_picker_none": {
+        "message": "リンク、ランチャー、クリップボードの項目が見つかりません。"
+    },
+    "rse12_picker_search": {
+        "message": "リンク、ランチャー、クリップボードを検索…"
+    },
+    "rse12_picker_title": {
+        "message": "ボードからステップを追加"
+    },
+    "rse12_remove_step_aria": {
+        "message": "ステップを削除"
+    },
+    "rse12_stagger_label": {
+        "message": "ステップ間の待機時間（秒）"
+    },
+    "rse12_sub_clipboard": {
+        "message": "$1 · クリップボード"
+    },
+    "rse12_sub_group": {
+        "message": "$1 · $2"
+    },
+    "rse12_sub_launcher": {
+        "message": "$1 · ランチャー"
+    },
+    "rse12_sub_shortcut": {
+        "message": "$1 · ショートカット"
+    },
+    "rse12_summary_copy": {
+        "message": "コピー"
+    },
+    "rse12_summary_copy_text": {
+        "message": "「$1」をコピー"
+    },
+    "rse12_summary_launch_app": {
+        "message": "アプリを起動"
+    },
+    "rse12_summary_launch_target": {
+        "message": "$1 を起動"
+    },
+    "rse12_summary_open_file": {
+        "message": "ファイルを開く"
+    },
+    "rse12_summary_open_file_name": {
+        "message": "ファイル $1 を開く"
+    },
+    "rse12_summary_open_folder": {
+        "message": "フォルダーを開く"
+    },
+    "rse12_summary_open_folder_name": {
+        "message": "フォルダー $1 を開く"
+    },
+    "rse12_summary_open_host": {
+        "message": "$1 を開く"
+    },
+    "rse12_summary_open_url": {
+        "message": "URL を開く"
+    },
+    "rse12_summary_step": {
+        "message": "ステップ"
+    },
+    "rse12_summary_switch_to": {
+        "message": "$1 に切り替え"
+    },
+    "rse12_summary_switch_workspace": {
+        "message": "ワークスペースを切り替え"
+    },
+    "rse12_summary_wait": {
+        "message": "$1 秒待機"
+    },
+    "rse12_tag_step_fallback": {
+        "message": "ステップ"
+    },
+    "rse12_ws_default": {
+        "message": "デフォルト"
+    },
+    "s28_add": {
+        "message": "追加"
+    },
+    "s28_add_to_group": {
+        "message": "グループに追加"
+    },
+    "s28_added_to": {
+        "message": "「$1」に追加しました"
+    },
+    "s28_cancel": {
+        "message": "キャンセル"
+    },
+    "s28_created_and_added": {
+        "message": "「$1」を作成してリンクを追加しました"
+    },
+    "s28_group_exists": {
+        "message": "グループ「$1」はすでに存在します"
+    },
+    "s28_group_not_found": {
+        "message": "グループ「$1」が見つかりませんでした"
+    },
+    "s28_hint_close": {
+        "message": "閉じる"
+    },
+    "s28_hint_navigate": {
+        "message": "移動"
+    },
+    "s28_hint_open": {
+        "message": "開く"
+    },
+    "s28_label_group": {
+        "message": "グループ"
+    },
+    "s28_label_title": {
+        "message": "タイトル"
+    },
+    "s28_new_group_name_label": {
+        "message": "新しいグループ名"
+    },
+    "s28_new_group_option": {
+        "message": "+ 新しいグループ…"
+    },
+    "s28_new_group_placeholder": {
+        "message": "一意のグループ名を入力"
+    },
+    "s28_no_matches": {
+        "message": "「$1」に一致するものがありません"
+    },
+    "s28_search_placeholder": {
+        "message": "リンク、ランチャー、ブックマークを検索…"
+    },
+    "s28_search_web_for": {
+        "message": "「$1」をウェブで検索"
+    },
+    "sbh15_default_workspace": {
+        "message": "スタート"
+    },
+    "sbh15_image_too_large": {
+        "message": "画像が大きすぎます（$1 MB）。最大サイズは 2 MB です。"
+    },
+    "sbh15_quota_exceeded": {
+        "message": "背景を保存できませんでした: ストレージ容量を超過しました。より小さい画像（1 MB未満）をお試しください。"
+    },
+    "sbh15_section_fallback": {
+        "message": "セクション"
+    },
+    "sbh15_select_workspace": {
+        "message": "ワークスペースを選択…"
+    },
+    "sbm27_action_failed": {
+        "message": "操作に失敗しました"
+    },
+    "sbm27_close": {
+        "message": "閉じる"
+    },
+    "sbm27_code": {
+        "message": "コード"
+    },
+    "sbm27_codes": {
+        "message": "コード"
+    },
+    "sbm27_confirm_delete_public_body": {
+        "message": "リンクを持つすべての人が公開ボードにアクセスできなくなります。"
+    },
+    "sbm27_confirm_delete_public_title": {
+        "message": "公開リンクを削除"
+    },
+    "sbm27_confirm_delete_share_body": {
+        "message": "これにより、このコードでの今後のインポートができなくなります。すでにボードをインポートした人はコピーを保持します。"
+    },
+    "sbm27_confirm_delete_share_title": {
+        "message": "共有コードを削除"
+    },
+    "sbm27_confirm_for_name": {
+        "message": "「$1」を"
+    },
+    "sbm27_copy_code": {
+        "message": "コードをコピー"
+    },
+    "sbm27_copy_full_import_code": {
+        "message": "完全なインポートコードをコピー"
+    },
+    "sbm27_copy_link": {
+        "message": "リンクをコピー"
+    },
+    "sbm27_copy_public_link": {
+        "message": "公開リンクをコピー"
+    },
+    "sbm27_copying": {
+        "message": "コピー中…"
+    },
+    "sbm27_created": {
+        "message": "作成日 $1"
+    },
+    "sbm27_delete_code": {
+        "message": "コードを削除"
+    },
+    "sbm27_delete_link": {
+        "message": "リンクを削除"
+    },
+    "sbm27_deleting": {
+        "message": "削除中…"
+    },
+    "sbm27_expired": {
+        "message": "期限切れ"
+    },
+    "sbm27_expires_dash": {
+        "message": "有効期限 —"
+    },
+    "sbm27_expires_date": {
+        "message": "有効期限 $1"
+    },
+    "sbm27_expires_in_days": {
+        "message": "あと$1日で期限切れ"
+    },
+    "sbm27_expires_today": {
+        "message": "本日期限切れ"
+    },
+    "sbm27_extend_30_days": {
+        "message": "30日延長"
+    },
+    "sbm27_extending": {
+        "message": "延長中…"
+    },
+    "sbm27_full_code_unavailable": {
+        "message": "このデバイスでは完全なコードを利用できません。"
+    },
+    "sbm27_full_code_unavailable_title": {
+        "message": "このデバイスでは完全なコードを利用できません"
+    },
+    "sbm27_group": {
+        "message": "グループ"
+    },
+    "sbm27_groups": {
+        "message": "グループ"
+    },
+    "sbm27_link": {
+        "message": "リンク"
+    },
+    "sbm27_links": {
+        "message": "リンク"
+    },
+    "sbm27_load_error_generic": {
+        "message": "共有ボードまたは公開ボードを読み込めませんでした。もう一度お試しください。"
+    },
+    "sbm27_more_actions": {
+        "message": "その他の操作"
+    },
+    "sbm27_never_expires": {
+        "message": "無期限"
+    },
+    "sbm27_next": {
+        "message": "次へ"
+    },
+    "sbm27_no_match": {
+        "message": "「$1」に一致するボードはありません。"
+    },
+    "sbm27_no_name_set": {
+        "message": "名前が設定されていません"
+    },
+    "sbm27_open": {
+        "message": "開く"
+    },
+    "sbm27_opening": {
+        "message": "開いています…"
+    },
+    "sbm27_pager_info": {
+        "message": "$2ページ中$1ページ · $3件のボード"
+    },
+    "sbm27_prev": {
+        "message": "前へ"
+    },
+    "sbm27_public_board_link_copied": {
+        "message": "公開ボードのリンクをコピーしました。"
+    },
+    "sbm27_public_link_deleted": {
+        "message": "公開リンクを削除しました。"
+    },
+    "sbm27_public_link_extended": {
+        "message": "公開リンクを30日延長しました。"
+    },
+    "sbm27_public_link_unavailable": {
+        "message": "このデバイスでは公開リンクを利用できません。"
+    },
+    "sbm27_public_link_unavailable_title": {
+        "message": "このデバイスでは公開リンクを利用できません"
+    },
+    "sbm27_published_close": {
+        "message": "公開済みボードのモーダルを閉じる"
+    },
+    "sbm27_published_empty_help": {
+        "message": "ワークスペースを公開の読み取り専用リンクとして公開すれば、拡張機能なしで誰とでも共有できます。"
+    },
+    "sbm27_published_empty_title": {
+        "message": "まだ公開済みボードはありません。"
+    },
+    "sbm27_published_error": {
+        "message": "公開済みボードを読み込めませんでした。"
+    },
+    "sbm27_published_loading": {
+        "message": "公開済みボードを読み込んでいます…"
+    },
+    "sbm27_published_subtitle": {
+        "message": "誰でも開ける公開の読み取り専用リンク。"
+    },
+    "sbm27_published_title": {
+        "message": "公開済みボード"
+    },
+    "sbm27_search_aria": {
+        "message": "コードまたは名前でボードを検索"
+    },
+    "sbm27_search_placeholder": {
+        "message": "コードまたは名前で検索…"
+    },
+    "sbm27_share_code_copied": {
+        "message": "共有コードをコピーしました。"
+    },
+    "sbm27_share_code_deleted": {
+        "message": "共有コードを削除しました。"
+    },
+    "sbm27_share_code_extended": {
+        "message": "共有コードを30日延長しました。"
+    },
+    "sbm27_shared_close": {
+        "message": "共有ボードのモーダルを閉じる"
+    },
+    "sbm27_shared_empty_help": {
+        "message": "ワークスペースを共有すると、他の人が自分用のコピーをインポートできる一時的なインポートコードを作成できます。"
+    },
+    "sbm27_shared_empty_title": {
+        "message": "まだ共有ボードはありません。"
+    },
+    "sbm27_shared_error": {
+        "message": "共有ボードを読み込めませんでした。"
+    },
+    "sbm27_shared_loading": {
+        "message": "共有ボードを読み込んでいます…"
+    },
+    "sbm27_shared_subtitle": {
+        "message": "共有コードを使うと、他の人がボードの独立したコピーをインポートできます。その後の変更は同期されません。"
+    },
+    "sbm27_shared_title": {
+        "message": "共有ボード"
+    },
+    "sbm27_try_again": {
+        "message": "再試行"
+    },
+    "sbm27_unnamed": {
+        "message": "名称未設定"
+    },
+    "sbm27_update_code": {
+        "message": "コードを更新"
+    },
+    "sbm27_update_public_title": {
+        "message": "公開済みのスナップショットを現在のボードに置き換えます（リンクは同じ）"
+    },
+    "sbm27_update_share_title": {
+        "message": "このワークスペースを同じコードに再スナップショットします（新規インポートのみ対象）"
+    },
+    "sbm27_update_snapshot": {
+        "message": "スナップショットを更新"
+    },
+    "sbm27_updating": {
+        "message": "更新中…"
+    },
+    "scwh13_choose_workspace": {
+        "message": "先に対象のワークスペースを選択してください。"
+    },
+    "scwh13_default_group_name": {
+        "message": "現在のウィンドウ"
+    },
+    "scwh13_default_workspace_name": {
+        "message": "スタート"
+    },
+    "scwh13_duplicates_skipped": {
+        "message": "$1 件の重複した$2スキップされます。"
+    },
+    "scwh13_enter_group_name": {
+        "message": "グループ名を入力してください。"
+    },
+    "scwh13_group_name_exists": {
+        "message": "その名前のグループは選択したワークスペースに既に存在します。"
+    },
+    "scwh13_items_saved_order": {
+        "message": "$1 $2はタブの順序で保存されます。"
+    },
+    "scwh13_loading_tabs": {
+        "message": "現在のウィンドウのタブを読み込み中…"
+    },
+    "scwh13_no_supported_tabs": {
+        "message": "このウィンドウには保存できる対応タブがありません。"
+    },
+    "scwh13_no_tabs_left": {
+        "message": "現在のオプションで保存できる対応タブが残っていません。"
+    },
+    "scwh13_read_tabs_error": {
+        "message": "現在のウィンドウのタブを読み取れませんでした: $1"
+    },
+    "scwh13_save_error_fallback": {
+        "message": "現在のウィンドウをグループとして保存できませんでした。"
+    },
+    "scwh13_save_group": {
+        "message": "グループを保存"
+    },
+    "scwh13_saved_to_workspace": {
+        "message": "$1 $2を $4 の「$3」に保存しました。"
+    },
+    "scwh13_saving": {
+        "message": "保存中…"
+    },
+    "scwh13_supported_found": {
+        "message": "現在のウィンドウで $1 件の対応$2が見つかりました。"
+    },
+    "scwh13_unsupported_ignored": {
+        "message": "$1 件の内部または非対応の$2無視されます。"
+    },
+    "scwh13_untitled_tab": {
+        "message": "無題のタブ"
+    },
+    "search_type_bookmark": {
+        "message": "ブックマーク"
+    },
+    "search_type_clipboard": {
+        "message": "クリップボード"
+    },
+    "search_type_launcher": {
+        "message": "ランチャー"
+    },
+    "search_type_link": {
+        "message": "リンク"
+    },
+    "setacct_autopull_meta": {
+        "message": "ローカルのダッシュボードに未同期の変更がない場合、より新しいクラウドの状態を適用します。"
+    },
+    "setacct_autopull_title": {
+        "message": "新しいクラウドの状態を自動プル"
+    },
+    "setacct_autosync_intro": {
+        "message": "自動同期は上で選択したアクティブなクラウドダッシュボードに適用されます。"
+    },
+    "setacct_autosync_row_meta": {
+        "message": "ローカルの変更をアクティブなダッシュボードに自動的にプッシュします。"
+    },
+    "setacct_autosync_row_title": {
+        "message": "クラウドへ自動同期"
+    },
+    "setacct_autosync_title": {
+        "message": "自動同期 ✦"
+    },
+    "setacct_companion_guide_link": {
+        "message": "コンパニオンのセットアップガイド ↗"
+    },
+    "setacct_companion_help_aria": {
+        "message": "コンパニオンアプリについてのヘルプ"
+    },
+    "setacct_companion_help_title": {
+        "message": "コンパニオンアプリについてのヘルプ"
+    },
+    "setacct_companion_retry_aria": {
+        "message": "コンパニオンの状態確認を再試行"
+    },
+    "setacct_companion_retry_title": {
+        "message": "再試行"
+    },
+    "setacct_companion_status_meta": {
+        "message": "フォルダ、ファイル、コマンドランチャーに必要です。"
+    },
+    "setacct_companion_status_title": {
+        "message": "デスクトップコンパニオンの状態"
+    },
+    "setacct_companion_title": {
+        "message": "コンパニオンアプリ"
+    },
+    "setacct_delay_1m": {
+        "message": "1分"
+    },
+    "setacct_delay_2m": {
+        "message": "2分"
+    },
+    "setacct_delay_30s": {
+        "message": "30秒"
+    },
+    "setacct_delay_5m": {
+        "message": "5分"
+    },
+    "setacct_poll_10m": {
+        "message": "10分"
+    },
+    "setacct_poll_1m": {
+        "message": "1分"
+    },
+    "setacct_poll_3m": {
+        "message": "3分"
+    },
+    "setacct_poll_5m": {
+        "message": "5分"
+    },
+    "setacct_poll_meta": {
+        "message": "変更をクラウドに問い合わせる頻度。"
+    },
+    "setacct_poll_title": {
+        "message": "更新を確認"
+    },
+    "setacct_syncdelay_meta": {
+        "message": "ローカルの変更後、プッシュするまで待機します。"
+    },
+    "setacct_syncdelay_title": {
+        "message": "同期の遅延"
+    },
+    "setbg_advanced_heading": {
+        "message": "高度なグラデーション"
+    },
+    "setbg_anim_aurora_borealis": {
+        "message": "オーロラ"
+    },
+    "setbg_anim_aurora_dream": {
+        "message": "オーロラドリーム"
+    },
+    "setbg_anim_gentle_breeze": {
+        "message": "そよ風"
+    },
+    "setbg_anim_gentle_prism": {
+        "message": "ジェントルプリズム"
+    },
+    "setbg_anim_liquid_motion": {
+        "message": "リキッドモーション"
+    },
+    "setbg_anim_ocean_wave": {
+        "message": "オーシャンウェーブ"
+    },
+    "setbg_anim_prism_light": {
+        "message": "プリズムライト"
+    },
+    "setbg_anim_shimmer": {
+        "message": "シマー"
+    },
+    "setbg_anim_sunset_flow": {
+        "message": "サンセットフロー"
+    },
+    "setbg_animated_heading": {
+        "message": "アニメーション背景"
+    },
+    "setbg_custom_css_apply": {
+        "message": "適用"
+    },
+    "setbg_custom_css_heading": {
+        "message": "カスタムCSS"
+    },
+    "setbg_custom_css_help_aria": {
+        "message": "カスタムCSSについてのヘルプ"
+    },
+    "setbg_custom_css_help_title": {
+        "message": "カスタムCSSについてのヘルプ"
+    },
+    "setbg_custom_css_placeholder": {
+        "message": "有効なCSSの背景値、例:\nradial-gradient(circle, #ff6b6b, #4ecdc4)\nurl('https://...') center/cover"
+    },
+    "setbg_custom_image_heading": {
+        "message": "カスタム画像"
+    },
+    "setbg_gradient_heading": {
+        "message": "グラデーション背景"
+    },
+    "setbg_reset": {
+        "message": "デフォルトにリセット"
+    },
+    "setbg_solid_heading": {
+        "message": "単色"
+    },
+    "setbg_solid_pick_label": {
+        "message": "背景色を選択"
+    },
+    "setbg_theme_dark": {
+        "message": "デフォルトダーク"
+    },
+    "setbg_theme_dark_title": {
+        "message": "デフォルトダーク"
+    },
+    "setbg_theme_defaults_heading": {
+        "message": "テーマのデフォルト"
+    },
+    "setbg_theme_lavender_sky": {
+        "message": "ラベンダースカイ"
+    },
+    "setbg_theme_lavender_sky_title": {
+        "message": "ラベンダースカイ"
+    },
+    "setbg_theme_light": {
+        "message": "デフォルトライト"
+    },
+    "setbg_theme_light_title": {
+        "message": "デフォルトライト"
+    },
+    "setbg_theme_luxury": {
+        "message": "ラグジュアリー"
+    },
+    "setbg_theme_luxury_title": {
+        "message": "ラグジュアリー"
+    },
+    "setbg_theme_midnight": {
+        "message": "ミッドナイト"
+    },
+    "setbg_theme_midnight_title": {
+        "message": "ミッドナイト"
+    },
+    "setbg_theme_nordic": {
+        "message": "ノルディック"
+    },
+    "setbg_theme_nordic_title": {
+        "message": "ノルディック"
+    },
+    "setbg_theme_ocean": {
+        "message": "オーシャン"
+    },
+    "setbg_theme_ocean_title": {
+        "message": "オーシャン"
+    },
+    "setbg_theme_pastel_sunset": {
+        "message": "パステルサンセット"
+    },
+    "setbg_theme_pastel_sunset_title": {
+        "message": "パステルサンセット"
+    },
+    "setbg_theme_professional": {
+        "message": "プロフェッショナル"
+    },
+    "setbg_theme_professional_title": {
+        "message": "プロフェッショナル"
+    },
+    "setbg_theme_sakura": {
+        "message": "サクラ"
+    },
+    "setbg_theme_sakura_title": {
+        "message": "サクラ"
+    },
+    "setbg_theme_simple": {
+        "message": "シンプル（デフォルト）"
+    },
+    "setbg_theme_simple_title": {
+        "message": "シンプル（デフォルト）"
+    },
+    "setbg_upload": {
+        "message": "アップロード"
+    },
+    "setbg_tabs_aria": {
+        "message": "背景の種類"
+    },
+    "setbg_tab_themes": {
+        "message": "テーマ"
+    },
+    "setbg_tab_animated": {
+        "message": "アニメーション"
+    },
+    "setbg_tab_gradients": {
+        "message": "グラデーション"
+    },
+    "setbg_tab_solid": {
+        "message": "単色"
+    },
+    "setbg_tab_image": {
+        "message": "画像"
+    },
+    "setbg_tab_css": {
+        "message": "CSS"
+    },
+    "setbg_scene_wave": {
+        "message": "ウェーブ"
+    },
+    "setbg_scene_waves": {
+        "message": "ウェーブス"
+    },
+    "setbg_scene_swell": {
+        "message": "うねり"
+    },
+    "setbg_scene_constellation": {
+        "message": "星座"
+    },
+    "setbg_scene_grid": {
+        "message": "グリッド"
+    },
+    "setbg_scene_drift": {
+        "message": "泡"
+    },
+    "setbg_scene_leaves": {
+        "message": "木の葉"
+    },
+    "setbg_scene_maple": {
+        "message": "カエデ"
+    },
+    "setbg_scene_snow": {
+        "message": "雪"
+    },
+    "setbg_scene_rain": {
+        "message": "雨"
+    },
+    "setbg_scene_tint": {
+        "message": "色合い"
+    },
+    "setbg_scene_tint_custom": {
+        "message": "カスタムの色合い"
+    },
+    "setbg_scene_tint_teal": {
+        "message": "ティール"
+    },
+    "setbg_scene_tint_coral": {
+        "message": "コーラル"
+    },
+    "setbg_scene_tint_moss": {
+        "message": "モス"
+    },
+    "setbg_scene_tint_indigo": {
+        "message": "インディゴ"
+    },
+    "setbg_scene_tint_magenta": {
+        "message": "マゼンタ"
+    },
+    "setbg_scene_tint_amber": {
+        "message": "アンバー"
+    },
+    "setbg_scene_variant": {
+        "message": "外観"
+    },
+    "setbg_scene_variant_system": {
+        "message": "システム"
+    },
+    "setbg_scene_variant_dark": {
+        "message": "ダーク"
+    },
+    "setbg_scene_variant_light": {
+        "message": "ライト"
+    },
+    "setbg_solid_sand": {
+        "message": "サンド"
+    },
+    "setbg_solid_sage": {
+        "message": "セージ"
+    },
+    "setbg_solid_slate": {
+        "message": "スレート"
+    },
+    "setbg_solid_terracotta": {
+        "message": "テラコッタ"
+    },
+    "setbg_solid_ink": {
+        "message": "インク"
+    },
+    "setbg_solid_blush": {
+        "message": "ブラッシュ"
+    },
+    "setbg_solid_custom": {
+        "message": "カスタム"
+    },
+    "setbg_name_custom_color": {
+        "message": "カスタムカラー"
+    },
+    "setbg_name_custom_image": {
+        "message": "カスタム画像"
+    },
+    "setbg_name_custom_css": {
+        "message": "カスタム CSS"
+    },
+    "setbg_name_gradient": {
+        "message": "グラデーション"
+    },
+    "setbg_image_drop": {
+        "message": "画像をドロップするか、ファイルを選択"
+    },
+    "setdata_backup": {
+        "message": "バックアップ"
+    },
+    "setdata_bookmarks_help_aria": {
+        "message": "ブックマークからのインポートについてのヘルプ"
+    },
+    "setdata_bookmarks_help_title": {
+        "message": "ブックマークからのインポートについてのヘルプ"
+    },
+    "setdata_bring_links": {
+        "message": "リンクを取り込む"
+    },
+    "setdata_choose_file": {
+        "message": "ファイルを選択"
+    },
+    "setdata_clear_btn": {
+        "message": "クリア"
+    },
+    "setdata_export_btn": {
+        "message": "エクスポート"
+    },
+    "setdata_export_desc": {
+        "message": "ワークスペースと設定を1つのJSONファイルに"
+    },
+    "setdata_export_title": {
+        "message": "ダッシュボードをエクスポート"
+    },
+    "setdata_from_bookmark_folder": {
+        "message": "ブックマークフォルダから"
+    },
+    "setdata_import_bookmarks_btn": {
+        "message": "インポート"
+    },
+    "setdata_import_desc": {
+        "message": "現在のデータを置き換えます"
+    },
+    "setdata_import_title": {
+        "message": "ダッシュボードをインポート"
+    },
+    "setdata_no_snapshot": {
+        "message": "スナップショットはまだ保存されていません"
+    },
+    "setdata_restore_btn": {
+        "message": "復元"
+    },
+    "setdata_save_window_btn": {
+        "message": "保存"
+    },
+    "setdata_save_window_desc": {
+        "message": "開いているタブをグループとして取り込む"
+    },
+    "setdata_save_window_title": {
+        "message": "現在のウィンドウを保存"
+    },
+    "setdata_select_folder": {
+        "message": "フォルダを選択…"
+    },
+    "setdata_session_help_aria": {
+        "message": "セッション復元についてのヘルプ"
+    },
+    "setdata_session_help_title": {
+        "message": "セッション復元についてのヘルプ"
+    },
+    "setdata_session_recovery": {
+        "message": "セッション復元"
+    },
+    "setdata_snapshot_meta": {
+        "message": "スナップショット · スナップショットはまだありません"
+    },
+    "setdata_view_btn": {
+        "message": "表示"
+    },
+    "setg_favicons_autofetch": {
+        "message": "リンク保存時にファビコンを自動取得"
+    },
+    "setg_favicons_get_all": {
+        "message": "すべてのリンクのファビコンを取得"
+    },
+    "setg_favicons_remove_all": {
+        "message": "すべてのアイコンを削除（このワークスペース）"
+    },
+    "setg_favicons_title": {
+        "message": "ファビコン"
+    },
+    "setg_greeting_show": {
+        "message": "ヘッダーに挨拶を表示"
+    },
+    "setg_greeting_title": {
+        "message": "挨拶"
+    },
+    "setg_groups_autogrow": {
+        "message": "アイテム追加時にグループを自動拡大"
+    },
+    "setg_groups_title": {
+        "message": "グループ"
+    },
+    "setg_link_health_check": {
+        "message": "保存したリンクを自動的にチェック"
+    },
+    "setg_link_health_help_aria": {
+        "message": "リンクヘルスについてのヘルプ"
+    },
+    "setg_link_health_help_title": {
+        "message": "リンクヘルスについてのヘルプ"
+    },
+    "setg_link_health_title": {
+        "message": "リンクヘルス ✦"
+    },
+    "setg_logo_desc": {
+        "message": "ロゴはアスペクト比を維持し、下端がワークスペースタブと揃うように配置されます。"
+    },
+    "setg_logo_help_aria": {
+        "message": "ロゴについてのヘルプ"
+    },
+    "setg_logo_help_title": {
+        "message": "ロゴについてのヘルプ"
+    },
+    "setg_logo_remove": {
+        "message": "削除"
+    },
+    "setg_logo_size": {
+        "message": "ロゴのサイズ"
+    },
+    "setg_logo_size_big": {
+        "message": "大 — 最大120px"
+    },
+    "setg_logo_size_middle": {
+        "message": "中 — 最大80px"
+    },
+    "setg_logo_size_small": {
+        "message": "小 — 最大40px"
+    },
+    "setg_logo_title": {
+        "message": "ロゴ"
+    },
+    "setg_logo_upload": {
+        "message": "ロゴをアップロード"
+    },
+    "setg_overlay_title": {
+        "message": "他のページのオーバーレイ"
+    },
+    "setg_searchbar_engine": {
+        "message": "エンジン"
+    },
+    "setg_searchbar_engine_bing": {
+        "message": "Bing"
+    },
+    "setg_searchbar_engine_brave": {
+        "message": "Brave"
+    },
+    "setg_searchbar_engine_browser": {
+        "message": "ブラウザーの既定"
+    },
+    "setg_searchbar_engine_duckduckgo": {
+        "message": "DuckDuckGo"
+    },
+    "setg_searchbar_engine_google": {
+        "message": "Google"
+    },
+    "setg_searchbar_engine_yahoo": {
+        "message": "Yahoo"
+    },
+    "setg_searchbar_help_aria": {
+        "message": "検索バーについてのヘルプ"
+    },
+    "setg_searchbar_help_title": {
+        "message": "検索バーについてのヘルプ"
+    },
+    "setg_searchbar_newtab": {
+        "message": "結果を新しいタブで開く"
+    },
+    "setg_searchbar_show": {
+        "message": "検索バーを表示"
+    },
+    "setg_tasks_title": {
+        "message": "タスク"
+    },
+    "setg_tasks_badge": {
+        "message": "タスクボタンに残りタスク数を表示"
+    },
+    "setg_tasks_notifications": {
+        "message": "Task reminder notifications"
+    },
+    "setg_tasks_notif_blocked": {
+        "message": "Blocked by the browser. Allow notifications for this extension to receive task reminders."
+    },
+    "setg_searchbar_title": {
+        "message": "検索バー"
+    },
+    "setg_session_desc": {
+        "message": "保存されたセッションがある場合に、起動時にReadyTabが復元インフォボックスを表示するかどうかを制御します。"
+    },
+    "setg_session_show": {
+        "message": "起動時に復元インフォボックスを表示"
+    },
+    "setg_session_title": {
+        "message": "セッション復元"
+    },
+    "setg_show_date": {
+        "message": "日付を表示"
+    },
+    "setg_spotlight_all_pages": {
+        "message": "すべてのページで有効化"
+    },
+    "setg_spotlight_appearance": {
+        "message": "外観"
+    },
+    "setg_spotlight_gesture": {
+        "message": "マウスジェスチャーで開く"
+    },
+    "setg_spotlight_group_name": {
+        "message": "グループ名で検索"
+    },
+    "setg_spotlight_help_aria": {
+        "message": "スポットライト検索についてのヘルプ"
+    },
+    "setg_spotlight_help_title": {
+        "message": "スポットライト検索についてのヘルプ"
+    },
+    "setg_spotlight_matching_tabs": {
+        "message": "一致する開いているタブを結果に表示"
+    },
+    "setg_spotlight_shortcuts": {
+        "message": "ショートカットを表示"
+    },
+    "setg_spotlight_tabs": {
+        "message": "タブリボンを表示"
+    },
+    "setg_spotlight_tabs_domain": {
+        "message": "タブをドメインごとにグループ化"
+    },
+    "setg_spotlight_tabs_orientation": {
+        "message": "リボンのレイアウト"
+    },
+    "setg_spotlight_tabs_orientation_left": {
+        "message": "左（縦方向）"
+    },
+    "setg_spotlight_tabs_orientation_top": {
+        "message": "上（横方向）"
+    },
+    "setg_spotlight_theme_dark": {
+        "message": "ダーク"
+    },
+    "setg_spotlight_theme_light": {
+        "message": "ライト"
+    },
+    "setg_spotlight_title": {
+        "message": "スポットライト検索"
+    },
+    "setg_tab_ribbon_title": {
+        "message": "タブリボン"
+    },
+    "setlay_apply_btn": {
+        "message": "適用"
+    },
+    "setlay_apply_to_other": {
+        "message": "他のワークスペースに適用..."
+    },
+    "setlay_autoarrange_desc": {
+        "message": "すべてのグループを上方向に詰めて隙間をなくし、内容が見切れているグループを拡大します。"
+    },
+    "setlay_autoarrange_title": {
+        "message": "レイアウトを自動整列"
+    },
+    "setlay_background_title": {
+        "message": "背景"
+    },
+    "setlay_compact_btn": {
+        "message": "コンパクトレイアウト"
+    },
+    "setlay_copy_from_ws_desc": {
+        "message": "別のワークスペースから背景とテーマをこのワークスペースにコピーします。"
+    },
+    "setlay_copy_from_ws_help_aria": {
+        "message": "ワークスペースからコピーについてのヘルプ"
+    },
+    "setlay_copy_from_ws_help_title": {
+        "message": "ワークスペースからコピーについてのヘルプ"
+    },
+    "setlay_copy_from_ws_title": {
+        "message": "ワークスペースからコピー"
+    },
+    "setlay_current_theme_label": {
+        "message": "現在のテーマ"
+    },
+    "setlay_headsup_label": {
+        "message": "注意:"
+    },
+    "setlay_headsup_text": {
+        "message": "これは背景だけでなく、ワークスペースのテーマもコピーします。"
+    },
+    "setlay_theme_aurora": {
+        "message": "オーロラグラス"
+    },
+    "setlay_theme_dark": {
+        "message": "ダーク"
+    },
+    "setlay_theme_frost": {
+        "message": "フロスト"
+    },
+    "setlay_theme_help_aria": {
+        "message": "テーマについてのヘルプ"
+    },
+    "setlay_theme_help_title": {
+        "message": "テーマについてのヘルプ"
+    },
+    "setlay_theme_lavender": {
+        "message": "ラベンダースカイ"
+    },
+    "setlay_theme_light": {
+        "message": "ライト"
+    },
+    "setlay_theme_luxury": {
+        "message": "ラグジュアリー"
+    },
+    "setlay_theme_midnight": {
+        "message": "ミッドナイト"
+    },
+    "setlay_theme_nordic": {
+        "message": "ノルディック"
+    },
+    "setlay_theme_ocean": {
+        "message": "オーシャン"
+    },
+    "setlay_theme_pastel": {
+        "message": "パステルサンセット"
+    },
+    "setlay_theme_professional": {
+        "message": "プロフェッショナル"
+    },
+    "setlay_theme_sakura": {
+        "message": "サクラ"
+    },
+    "setlay_theme_simple": {
+        "message": "シンプル（デフォルト）"
+    },
+    "setlay_theme_title": {
+        "message": "テーマ"
+    },
+    "setspc_board_token_placeholder": {
+        "message": "ボードトークン"
+    },
+    "setspc_drag_reorder": {
+        "message": "ドラッグして並べ替え"
+    },
+    "setspc_help_import_aria": {
+        "message": "コードからのインポートについてのヘルプ"
+    },
+    "setspc_help_import_title": {
+        "message": "コードからのインポートについてのヘルプ"
+    },
+    "setspc_help_managed_aria": {
+        "message": "管理ボードについてのヘルプ"
+    },
+    "setspc_help_managed_title": {
+        "message": "管理ボードについてのヘルプ"
+    },
+    "setspc_help_spaces_aria": {
+        "message": "スペースについてのヘルプ"
+    },
+    "setspc_help_spaces_title": {
+        "message": "スペースについてのヘルプ"
+    },
+    "setspc_import_btn": {
+        "message": "インポート"
+    },
+    "setspc_import_desc": {
+        "message": "共有コードを貼り付けて、共有されたワークスペースのコピーをインポートします。"
+    },
+    "setspc_import_from_code": {
+        "message": "コードからインポート"
+    },
+    "setspc_import_placeholder": {
+        "message": "例: A3X9KZ.4F2A9C7D1E5B"
+    },
+    "setspc_managed_boards_desc": {
+        "message": "他のユーザーが購読できるボード。既定では読み取り専用で、共有編集キーがあれば編集できます。"
+    },
+    "setspc_managed_boards_row": {
+        "message": "管理ボード"
+    },
+    "setspc_managed_boards_title": {
+        "message": "管理ボード ✦"
+    },
+    "setspc_managed_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_pro_badge": {
+        "message": "✦ Pro"
+    },
+    "setspc_pro_note": {
+        "message": "コードによるワークスペースの共有とボードのオンライン公開はPro機能です。共有されたワークスペースのインポートは常に無料です。"
+    },
+    "setspc_published_boards": {
+        "message": "公開済みボード"
+    },
+    "setspc_published_boards_desc": {
+        "message": "あなたが作成した公開読み取り専用リンク"
+    },
+    "setspc_published_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_rename_cancel": {
+        "message": "キャンセル"
+    },
+    "setspc_rename_error": {
+        "message": "スペース名を入力してください。"
+    },
+    "setspc_rename_placeholder": {
+        "message": "スペース名を入力"
+    },
+    "setspc_rename_save": {
+        "message": "保存"
+    },
+    "setspc_rename_title": {
+        "message": "スペース名を変更"
+    },
+    "setspc_shared_boards": {
+        "message": "共有ボード"
+    },
+    "setspc_shared_boards_desc": {
+        "message": "共有コードを使うと、他の人がボードの独立したコピーをインポートできます。その後の変更は同期されません。"
+    },
+    "setspc_shared_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_subscribe_btn": {
+        "message": "購読"
+    },
+    "setspc_subscribe_title": {
+        "message": "ボードを購読"
+    },
+    "setspc_workspaces": {
+        "message": "ワークスペース"
+    },
+    "settings_clock": {
+        "message": "時計"
+    },
+    "settings_clock_12h": {
+        "message": "12h (AM/PM)"
+    },
+    "settings_clock_format": {
+        "message": "フォーマット"
+    },
+    "settings_clock_help": {
+        "message": "時計についてのヘルプ"
+    },
+    "settings_help_about": {
+        "message": "$1 について"
+    },
+    "settings_help_this_setting": {
+        "message": "この設定"
+    },
+    "settings_link_behavior": {
+        "message": "リンクの動作"
+    },
+    "settings_link_behavior_help": {
+        "message": "リンクの動作についてのヘルプ"
+    },
+    "settings_link_current_tab": {
+        "message": "現在のタブ"
+    },
+    "settings_link_new_tab": {
+        "message": "新しいタブ"
+    },
+    "settings_open_links_in": {
+        "message": "リンクを開く場所"
+    },
+    "settings_show_clock": {
+        "message": "ヘッダーに時計を表示"
+    },
+    "settings_show_seconds": {
+        "message": "秒を表示"
+    },
+    "settings_tab_account": {
+        "message": "アカウント"
+    },
+    "settings_tab_data": {
+        "message": "データ"
+    },
+    "settings_tab_design": {
+        "message": "デザイン"
+    },
+    "settings_tab_general": {
+        "message": "一般"
+    },
+    "settings_tab_spaces": {
+        "message": "スペース"
+    },
+    "settings_title": {
+        "message": "設定"
+    },
+    "sgh_sync_applies": {
+        "message": "自動同期は、アカウントで選択されたアクティブなクラウドダッシュボードに適用されます。"
+    },
+    "sgh_sync_choose_dashboard": {
+        "message": "アカウントでクラウドダッシュボードを選択または作成してください。自動同期は常にそこでアクティブなダッシュボードに適用されます。"
+    },
+    "sgh_sync_connect_pro": {
+        "message": "自動クラウド同期を実行する前に、アカウントで Pro アカウントを接続してください。"
+    },
+    "sgh_sync_needs_pro": {
+        "message": "クラウドダッシュボードを自動的に同期するには ReadyTab Pro が必要です。"
+    },
+    "sgh_sync_uses": {
+        "message": "自動同期は、アカウントで選択されたアクティブなクラウドダッシュボードを使用します。"
+    },
+    "shadow_glow": {
+        "message": "グロウ"
+    },
+    "shadow_medium": {
+        "message": "中"
+    },
+    "shadow_none": {
+        "message": "なし"
+    },
+    "shadow_strong": {
+        "message": "強"
+    },
+    "shadow_subtle": {
+        "message": "控えめ（紙）"
+    },
+    "sl26_activate": {
+        "message": "有効化"
+    },
+    "sl26_activating": {
+        "message": "有効化中…"
+    },
+    "sl26_active": {
+        "message": "有効"
+    },
+    "sl26_active_dashboard": {
+        "message": "アクティブなダッシュボード"
+    },
+    "sl26_back": {
+        "message": "戻る"
+    },
+    "sl26_backup_sync_desc": {
+        "message": "ワークスペースをバックアップし、デバイス間で同期します。ボードデータはブラウザを離れる前に暗号化されます。"
+    },
+    "sl26_close": {
+        "message": "閉じる"
+    },
+    "sl26_cloud": {
+        "message": "クラウド"
+    },
+    "sl26_cloud_dashboards": {
+        "message": "クラウドダッシュボード"
+    },
+    "sl26_cloud_sync": {
+        "message": "クラウド同期"
+    },
+    "sl26_confirm_delete_dashboard": {
+        "message": "このクラウドダッシュボードを削除しますか？この操作は取り消せません。"
+    },
+    "sl26_confirm_pull": {
+        "message": "プルを確認"
+    },
+    "sl26_confirm_update": {
+        "message": "更新を確認"
+    },
+    "sl26_connect_cloud_sync": {
+        "message": "クラウド同期に接続"
+    },
+    "sl26_connect_to_cloud": {
+        "message": "クラウドに接続"
+    },
+    "sl26_connecting": {
+        "message": "接続中…"
+    },
+    "sl26_copied": {
+        "message": "コピーしました！"
+    },
+    "sl26_copy_key": {
+        "message": "キーをコピー"
+    },
+    "sl26_copy_key_aria": {
+        "message": "ライセンスキーをコピー"
+    },
+    "sl26_dashboard_name_placeholder": {
+        "message": "ダッシュボード名…"
+    },
+    "sl26_days_ago": {
+        "message": "$1日前"
+    },
+    "sl26_deactivates_pro": {
+        "message": "このデバイスからライセンスと有料機能を削除します。"
+    },
+    "sl26_delete_dashboard": {
+        "message": "ダッシュボードを削除"
+    },
+    "sl26_enter_dashboard_name": {
+        "message": "ダッシュボード名を入力してください。"
+    },
+    "sl26_get_pro": {
+        "message": "プランを比較"
+    },
+    "sl26_have_license_key": {
+        "message": "すでにライセンスキーをお持ちですか？"
+    },
+    "sl26_hours_ago": {
+        "message": "$1時間前"
+    },
+    "sl26_just_now": {
+        "message": "たった今"
+    },
+    "sl26_latest_snapshot": {
+        "message": "最新のスナップショット"
+    },
+    "sl26_license": {
+        "message": "ライセンス"
+    },
+    "sl26_license_key": {
+        "message": "ライセンスキー"
+    },
+    "sl26_loading": {
+        "message": "読み込み中…"
+    },
+    "sl26_local": {
+        "message": "ローカル"
+    },
+    "sl26_manage": {
+        "message": "管理"
+    },
+    "sl26_min_ago": {
+        "message": "$1分前"
+    },
+    "sl26_missing_protected_warning": {
+        "message": "この$1は保護ワークスペースのバックアップ対応より前のものです。ReadyTabは「$3」のワークスペースタブ$2を復元しましたが、保護された内容は含まれていませんでした。$4"
+    },
+    "sl26_more_actions": {
+        "message": "その他の操作"
+    },
+    "sl26_my_dashboard": {
+        "message": "マイダッシュボード"
+    },
+    "sl26_next": {
+        "message": "次へ"
+    },
+    "sl26_no_dashboards_yet": {
+        "message": "クラウドダッシュボードはまだありません。以下で現在のワークスペースをプッシュして最初のものを作成してください。"
+    },
+    "sl26_no_versions_yet": {
+        "message": "保存されたバージョンはまだありません。バージョンはダッシュボードを更新するたびに自動的に作成されます（最大5件まで保持）。"
+    },
+    "sl26_not_synced": {
+        "message": "未同期"
+    },
+    "sl26_page_of": {
+        "message": "$2 ページ中 $1 ページ"
+    },
+    "sl26_plan_annual": {
+        "message": "年間ライセンス"
+    },
+    "sl26_plan_annual_expires": {
+        "message": "年間ライセンス · $1 に期限切れ"
+    },
+    "sl26_plan_lifetime": {
+        "message": "永久ライセンス"
+    },
+    "sl26_preview_pull_local": {
+        "message": "変更をプレビューしてローカルにプル"
+    },
+    "sl26_preview_restore": {
+        "message": "プレビューして復元"
+    },
+    "sl26_preview_update_cloud": {
+        "message": "変更をプレビューしてクラウドを更新"
+    },
+    "sl26_previous": {
+        "message": "前へ"
+    },
+    "sl26_change_title": {
+        "message": "ライセンスを変更する前に"
+    },
+    "sl26_change_warning": {
+        "message": "このライセンスを削除するとクラウドへのアクセスが切断されます。別のキーでは、このキーのクラウドダッシュボード、設定、履歴にアクセスできません。これらは古いキーに紐づいたままで、転送されません。ローカルワークスペースはこのデバイスに残ります。"
+    },
+    "sl26_change_backup": {
+        "message": "続行する前に、設定 → データで現在のデータをJSONとしてエクスポートしてください。"
+    },
+    "sl26_change_export_scope": {
+        "message": "このエクスポートには現在のローカルワークスペースが含まれます。保存済みのすべてのクラウドダッシュボードや履歴は含まれません。保護されたワークスペースは先にロックを解除してください。ロック中のものは除外されます。"
+    },
+    "sl26_change_publishing": {
+        "message": "このライセンスで共有、公開、ホストしたボードの管理にもアクセスできなくなります。"
+    },
+    "sl26_change_continue": {
+        "message": "別のライセンスを有効化"
+    },
+    "sl26_change_export": {
+        "message": "現在のデータをJSONでエクスポート"
+    },
+    "sl26_sync_only": {
+        "message": "同期のみ"
+    },
+    "sl26_included": {
+        "message": "含まれる"
+    },
+    "sl26_not_included": {
+        "message": "含まれない"
+    },
+    "sl26_sharing_publishing_hosting": {
+        "message": "共有・公開・チームボードのホスティング"
+    },
+    "sl26_pro_active": {
+        "message": "Pro 有効"
+    },
+    "sl26_pro_upsell_desc": {
+        "message": "Freeではローカルワークスペースを無制限に使えます。クラウド同期にはSync、同期・共有・公開・チームボードのホスティングにはFullを選択してください。"
+    },
+    "sl26_pull": {
+        "message": "プル"
+    },
+    "sl26_pull_named": {
+        "message": "「$1」をプル"
+    },
+    "sl26_pulling": {
+        "message": "プル中…"
+    },
+    "sl26_push_as_new": {
+        "message": "新規としてプッシュ"
+    },
+    "sl26_push_new_dashboard": {
+        "message": "新しいダッシュボードをプッシュ"
+    },
+    "sl26_push_new_dashboard_desc": {
+        "message": "現在のワークスペースを新しいクラウドダッシュボードとして保存します。"
+    },
+    "sl26_pushed_new_dashboard": {
+        "message": "新しいクラウドダッシュボードにプッシュしました"
+    },
+    "sl26_pushing": {
+        "message": "プッシュ中…"
+    },
+    "sl26_recovery_repush": {
+        "message": "元のデバイスから再プッシュして、欠落したデータを回復してください。"
+    },
+    "sl26_recovery_restore_newer": {
+        "message": "より新しいスナップショットを復元するか、元のデバイスから再プッシュして、欠落したデータを回復してください。"
+    },
+    "sl26_remove": {
+        "message": "削除"
+    },
+    "sl26_remove_license": {
+        "message": "ライセンスを削除"
+    },
+    "sl26_removing": {
+        "message": "削除中…"
+    },
+    "sl26_restore_this_version": {
+        "message": "このバージョンを復元"
+    },
+    "sl26_restore_version_of": {
+        "message": "「$1」のバージョンを復元"
+    },
+    "sl26_restored_version": {
+        "message": "復元されたバージョン"
+    },
+    "sl26_restoring": {
+        "message": "復元中…"
+    },
+    "sl26_show_hide": {
+        "message": "表示 / 非表示"
+    },
+    "sl26_show_hide_key_aria": {
+        "message": "ライセンスキーを表示または非表示"
+    },
+    "sl26_snapshot": {
+        "message": "スナップショット"
+    },
+    "sl26_something_wrong": {
+        "message": "問題が発生しました。"
+    },
+    "sl26_synced_ago": {
+        "message": "$1 に同期"
+    },
+    "sl26_update": {
+        "message": "更新"
+    },
+    "sl26_update_named": {
+        "message": "「$1」を更新"
+    },
+    "sl26_version": {
+        "message": "バージョン"
+    },
+    "sl26_version_history": {
+        "message": "バージョン履歴"
+    },
+    "sl26_workspaces_backed_up": {
+        "message": "ワークスペースはバックアップされ、デバイス間で同期されます。ボードデータはブラウザを離れる前に暗号化されます。"
+    },
+    "slh16_added_favicons": {
+        "message": "$1 件のリンク$2にファビコンを追加しました"
+    },
+    "slh16_could_not_fetch_favicons": {
+        "message": "ファビコンを取得できませんでした"
+    },
+    "slh16_could_not_remove_icons": {
+        "message": "アイコンを削除できませんでした"
+    },
+    "slh16_favicon_overwrite_confirm": {
+        "message": "すでに設定されているアイコンも置き換えますか？\n\nOK – すべてのリンクのファビコンを再取得（既存のアイコンを上書き）\nキャンセル – アイコンがないリンクにのみファビコンを追加"
+    },
+    "slh16_fetching_favicons": {
+        "message": "ファビコンを取得中…"
+    },
+    "slh16_no_icons_to_remove": {
+        "message": "このワークスペースに削除するアイコンはありません"
+    },
+    "slh16_no_links_with_url": {
+        "message": "URLを持つリンクが見つかりませんでした"
+    },
+    "slh16_no_links_without_icon": {
+        "message": "アイコンのないリンクが見つかりませんでした"
+    },
+    "slh16_remove_all_icons_confirm": {
+        "message": "現在のワークスペースのリンクからすべてのアイコンを削除しますか？\n\nこれはアクティブなワークスペースにのみ影響し、取り消せません。"
+    },
+    "slh16_removed_icons": {
+        "message": "$1 件のアイコン$2を削除しました"
+    },
+    "slh16_removing_icons": {
+        "message": "アイコンを削除中…"
+    },
+    "slh16_revert": {
+        "message": "元に戻す"
+    },
+    "slh16_theme_changed": {
+        "message": "テーマを $1 に変更しました"
+    },
+    "slh16_updated_favicons": {
+        "message": "$1 件のリンク$2のファビコンを更新しました"
+    },
+    "smh17_checking": {
+        "message": "確認中…"
+    },
+    "smh17_connected": {
+        "message": "接続済み"
+    },
+    "smh17_connected_version": {
+        "message": "接続済み (v$1)"
+    },
+    "smh17_err_generic": {
+        "message": "エラー: $1"
+    },
+    "smh17_err_host_crashed": {
+        "message": "ホストがクラッシュしました — host.ps1 のエラーを確認してください"
+    },
+    "smh17_err_id_mismatch": {
+        "message": "拡張機能IDが一致しません — 正しい -ProductionId または -DevId を指定して install.ps1 を再実行してください"
+    },
+    "smh17_err_not_found": {
+        "message": "見つかりません — install.ps1 を実行してChromeを再起動してください"
+    },
+    "smh17_no_error_msg": {
+        "message": "（エラーメッセージが返されませんでした）"
+    },
+    "smh17_not_installed": {
+        "message": "未インストール"
+    },
+    "spc_add_link": {
+        "message": "リンクを追加"
+    },
+    "spc_add_link_button": {
+        "message": "リンクボタンを追加"
+    },
+    "spc_btn_add": {
+        "message": "追加"
+    },
+    "spc_err_add_link_button": {
+        "message": "ページをリンクボタンとして追加できませんでした。"
+    },
+    "spc_err_add_to_group": {
+        "message": "ページをそのグループに追加できませんでした。"
+    },
+    "spc_err_create_group": {
+        "message": "新しいグループを作成できませんでした。"
+    },
+    "spc_err_enter_new_group": {
+        "message": "新しいグループ名を入力してください。"
+    },
+    "spc_err_group_exists": {
+        "message": "グループ「$1」はすでに存在します。"
+    },
+    "spc_footer_add": {
+        "message": "追加"
+    },
+    "spc_footer_close": {
+        "message": "閉じる"
+    },
+    "spc_footer_navigate": {
+        "message": "移動"
+    },
+    "spc_footer_next_field": {
+        "message": "次の項目"
+    },
+    "spc_footer_open": {
+        "message": "開く"
+    },
+    "spc_label_group": {
+        "message": "グループ"
+    },
+    "spc_label_new_group": {
+        "message": "新しいグループ名"
+    },
+    "spc_label_title": {
+        "message": "タイトル"
+    },
+    "spc_label_workspace": {
+        "message": "ワークスペース"
+    },
+    "spc_new_group_option": {
+        "message": "+ 新しいグループ…"
+    },
+    "spc_no_results": {
+        "message": "「$1」に一致する結果がありません"
+    },
+    "spc_placeholder_new_group": {
+        "message": "重複しないグループ名を入力"
+    },
+    "spc_placeholder_page_title": {
+        "message": "ページタイトル"
+    },
+    "spc_search_placeholder": {
+        "message": "リンクを検索…"
+    },
+    "spc_search_web": {
+        "message": "「$1」をウェブで検索"
+    },
+    "spc_tab_current": {
+        "message": "現在"
+    },
+    "spc_tab_group_link": {
+        "message": "グループリンク"
+    },
+    "spc_tab_link_button": {
+        "message": "リンクボタン"
+    },
+    "spc_tab_open_label": {
+        "message": "開いているタブ"
+    },
+    "spc_tab_search": {
+        "message": "検索"
+    },
+    "spc_tab_switch": {
+        "message": "切り替え"
+    },
+    "spc_tab_close": {
+        "message": "タブを閉じる"
+    },
+    "spc_tabs_domain_other": {
+        "message": "その他のタブ"
+    },
+    "spc_tabs_heading": {
+        "message": "開いているタブ"
+    },
+    "spc_tabs_hint": {
+        "message": "カードをクリックで切り替え"
+    },
+    "spc_tabs_matching": {
+        "message": "一致する開いているタブ"
+    },
+    "spc_type_link": {
+        "message": "リンク"
+    },
+    "spotlight_hint_title": {
+        "message": "保存したリンクを検索"
+    },
+    "sr8_add": {
+        "message": "追加"
+    },
+    "sr8_add_step": {
+        "message": "ステップを追加"
+    },
+    "sr8_alignment": {
+        "message": "配置"
+    },
+    "sr8_arrow_direction": {
+        "message": "矢印の向き"
+    },
+    "sr8_callout_type": {
+        "message": "コールアウトの種類"
+    },
+    "sr8_change_avatar": {
+        "message": "アバターを変更"
+    },
+    "sr8_change_image": {
+        "message": "画像を変更"
+    },
+    "sr8_change_thumbnail": {
+        "message": "サムネイルを変更"
+    },
+    "sr8_copy": {
+        "message": "コピー"
+    },
+    "sr8_delete": {
+        "message": "削除"
+    },
+    "sr8_delete_element_confirm": {
+        "message": "この要素を削除しますか？"
+    },
+    "sr8_done": {
+        "message": "完了"
+    },
+    "sr8_drag_to_move": {
+        "message": "ドラッグして移動"
+    },
+    "sr8_edit": {
+        "message": "編集"
+    },
+    "sr8_file_type": {
+        "message": "ファイルの種類"
+    },
+    "sr8_fit": {
+        "message": "フィット"
+    },
+    "sr8_heading_level": {
+        "message": "見出しレベル"
+    },
+    "sr8_or_paste_image_url": {
+        "message": "…または画像URLを貼り付け"
+    },
+    "sr8_panel_background": {
+        "message": "パネルの背景"
+    },
+    "sr8_paste_image_url": {
+        "message": "画像URLを貼り付け (https://…)"
+    },
+    "sr8_ph_callout_text": {
+        "message": "コールアウトのテキスト…"
+    },
+    "sr8_ph_code": {
+        "message": "コード…"
+    },
+    "sr8_ph_description": {
+        "message": "説明"
+    },
+    "sr8_ph_file_name": {
+        "message": "ファイル名"
+    },
+    "sr8_ph_file_url": {
+        "message": "ファイルURL (https://…)"
+    },
+    "sr8_ph_heading": {
+        "message": "見出し"
+    },
+    "sr8_ph_link_url": {
+        "message": "リンクURL (https://…)"
+    },
+    "sr8_ph_name": {
+        "message": "名前"
+    },
+    "sr8_ph_short_bio": {
+        "message": "短い自己紹介"
+    },
+    "sr8_ph_step_title": {
+        "message": "ステップのタイトル"
+    },
+    "sr8_ph_title": {
+        "message": "タイトル"
+    },
+    "sr8_ph_write_text": {
+        "message": "テキストを入力…"
+    },
+    "sr8_remove_last_step": {
+        "message": "最後のステップを削除"
+    },
+    "sr8_thickness": {
+        "message": "太さ"
+    },
+    "srh14_card_meta": {
+        "message": "スナップショット · $1"
+    },
+    "srh14_card_ready": {
+        "message": "$1 $2 を復元できます"
+    },
+    "srh14_confirm_clear": {
+        "message": "保存された前回セッションのスナップショットを消去しますか？"
+    },
+    "srh14_last_updated": {
+        "message": "最終更新: $1"
+    },
+    "srh14_no_snapshot_saved": {
+        "message": "スナップショットはまだ保存されていません"
+    },
+    "srh14_no_snapshot_yet": {
+        "message": "スナップショットはまだありません"
+    },
+    "srh14_no_supported_tabs": {
+        "message": "現在、ローカルスナップショットにサポート対象のタブは保存されていません。"
+    },
+    "srh14_no_tabs_to_restore": {
+        "message": "復元できるタブがありません"
+    },
+    "srh14_prompt_no_supported": {
+        "message": "ReadyTab はローカルスナップショットを見つけましたが、現在サポート対象のタブは含まれていません。"
+    },
+    "srh14_restored": {
+        "message": "$1 $2 を復元しました。"
+    },
+    "srh14_summary_ready": {
+        "message": "$3 $4 にわたる $1 $2 を確認または復元できます。"
+    },
+    "srh14_unknown": {
+        "message": "不明"
+    },
+    "srh14_untitled_tab": {
+        "message": "無題のタブ"
+    },
+    "srh14_view_empty": {
+        "message": "現在のスナップショットには保存されたタブがありません。"
+    },
+    "srh14_window_title": {
+        "message": "ウィンドウ $1 · $2 $3"
+    },
+    "ss32_apply_title": {
+        "message": "「$1」を適用 ($2)"
+    },
+    "ss32_deactivate_btn": {
+        "message": "保存したテーマを無効化"
+    },
+    "ss32_deactivate_title_active": {
+        "message": "アクティブな保存済みテーマを無効化し、選択したベーステーマを復元します"
+    },
+    "ss32_deactivate_title_none": {
+        "message": "現在アクティブな保存済みテーマはありません"
+    },
+    "ss32_delete_title": {
+        "message": "削除"
+    },
+    "ss32_empty": {
+        "message": "保存済みのテーマはまだありません"
+    },
+    "ssh18_aria_reorder": {
+        "message": "$1 を並べ替え"
+    },
+    "ssh18_aria_stays_first": {
+        "message": "$1 は先頭のままです"
+    },
+    "ssh18_badge_current": {
+        "message": "現在"
+    },
+    "ssh18_badge_first": {
+        "message": "先頭"
+    },
+    "ssh18_badge_managed": {
+        "message": "管理対象"
+    },
+    "ssh18_badge_readonly": {
+        "message": "読み取り専用"
+    },
+    "ssh18_clear_board": {
+        "message": "ボードをクリア"
+    },
+    "ssh18_default_start_name": {
+        "message": "スタート"
+    },
+    "ssh18_default_stays_first": {
+        "message": "デフォルトのワークスペースは先頭のままです"
+    },
+    "ssh18_drag_to_reorder": {
+        "message": "ドラッグして並べ替え"
+    },
+    "ssh18_err_enter_name": {
+        "message": "スペース名を入力してください。"
+    },
+    "ssh18_err_invalid_name": {
+        "message": "有効なスペース名を入力してください。"
+    },
+    "ssh18_err_managed_no_rename": {
+        "message": "管理対象のスペースは名前を変更できません。"
+    },
+    "ssh18_err_name_exists": {
+        "message": "その名前のスペースは既に存在します。"
+    },
+    "ssh18_err_no_space": {
+        "message": "スペースが選択されていません。"
+    },
+    "ssh18_subtitle_default": {
+        "message": "デフォルト • 常に先頭"
+    },
+    "ssh18_subtitle_managed": {
+        "message": "$1 • 管理対象ボード • 読み取り専用"
+    },
+    "ssh18_title_workspaces": {
+        "message": "ワークスペース"
+    },
+    "ssh19_add_n_items": {
+        "message": "$1 個のアイテムを追加"
+    },
+    "ssh19_add_n_links": {
+        "message": "$1 個のリンクを追加"
+    },
+    "ssh19_add_one_item": {
+        "message": "1 個のアイテムを追加"
+    },
+    "ssh19_add_one_link": {
+        "message": "1 個のリンクを追加"
+    },
+    "ssh19_alert_select_one": {
+        "message": "少なくとも1つの候補を選択してください。"
+    },
+    "ssh19_group_devtools_desc": {
+        "message": "ドキュメント、リポジトリ、ユーティリティ、開発を助けるツール。"
+    },
+    "ssh19_group_devtools_name": {
+        "message": "開発 / ツール"
+    },
+    "ssh19_group_finance_desc": {
+        "message": "銀行、予算管理、請求、お金関連のダッシュボード。"
+    },
+    "ssh19_group_finance_name": {
+        "message": "ファイナンス"
+    },
+    "ssh19_group_personal_desc": {
+        "message": "自宅、用事、いつも手元に置きたい日常のリンク。"
+    },
+    "ssh19_group_personal_name": {
+        "message": "プライベート"
+    },
+    "ssh19_group_reading_desc": {
+        "message": "記事、保存した参考資料、後で読み返したいもの。"
+    },
+    "ssh19_group_reading_name": {
+        "message": "読み物"
+    },
+    "ssh19_group_shopping_desc": {
+        "message": "ウィッシュリスト、よく使うストア、比較検討中のもの。"
+    },
+    "ssh19_group_shopping_name": {
+        "message": "ショッピング"
+    },
+    "ssh19_group_social_desc": {
+        "message": "コミュニティ、メッセージ、チェックしているネットワーク。"
+    },
+    "ssh19_group_social_name": {
+        "message": "ソーシャル"
+    },
+    "ssh19_group_work_desc": {
+        "message": "プロジェクト、優先事項、日中に何度も見返すリンク。"
+    },
+    "ssh19_group_work_name": {
+        "message": "仕事"
+    },
+    "ssh19_section_groups_desc": {
+        "message": "よく整理するものに、すぐ埋められるセクションを作成します。"
+    },
+    "ssh19_section_groups_title": {
+        "message": "スターターグループ"
+    },
+    "ssh19_section_sites_desc": {
+        "message": "アイコン付きの一般的なリンク先へのショートカットを追加します。"
+    },
+    "ssh19_section_sites_title": {
+        "message": "人気のウェブサイト"
+    },
+    "ssh19_select_site": {
+        "message": "$1 を選択"
+    },
+    "themed_accent_color": {
+        "message": "アクセントカラー"
+    },
+    "themed_accent_hover_color": {
+        "message": "アクセントのホバーカラー"
+    },
+    "themed_active_tab_bg": {
+        "message": "アクティブタブの背景"
+    },
+    "themed_active_tab_text": {
+        "message": "アクティブタブの文字"
+    },
+    "themed_border_color": {
+        "message": "枠線の色"
+    },
+    "themed_border_radius": {
+        "message": "角の丸み"
+    },
+    "themed_button_hover_background": {
+        "message": "ボタンのホバー背景"
+    },
+    "themed_button_hover_text": {
+        "message": "ボタンのホバー文字"
+    },
+    "themed_button_idle_color": {
+        "message": "ボタンの通常色"
+    },
+    "themed_card_background": {
+        "message": "背景"
+    },
+    "themed_clock_color": {
+        "message": "時計の色"
+    },
+    "themed_clock_shadow": {
+        "message": "時計の影"
+    },
+    "themed_clock_size": {
+        "message": "時計のサイズ"
+    },
+    "themed_collapse_btn_background": {
+        "message": "折りたたみボタンの背景"
+    },
+    "themed_collapse_btn_icon_color": {
+        "message": "折りたたみボタンのアイコン色"
+    },
+    "themed_custom_css_placeholder": {
+        "message": "このワークスペース用のカスタムCSS:\n.item { }\n.link-name { font-style: italic; }"
+    },
+    "themed_custom_css_title": {
+        "message": "カスタムCSS"
+    },
+    "themed_danger_color": {
+        "message": "危険色"
+    },
+    "themed_date_opacity": {
+        "message": "日付の不透明度"
+    },
+    "themed_enable_slide_movement": {
+        "message": "カード/リンクのスライド移動を有効化"
+    },
+    "themed_export": {
+        "message": "エクスポート"
+    },
+    "themed_greeting_color": {
+        "message": "あいさつの色"
+    },
+    "themed_greeting_opacity": {
+        "message": "あいさつの不透明度"
+    },
+    "themed_group_card": {
+        "message": "カード"
+    },
+    "themed_group_links": {
+        "message": "リンク"
+    },
+    "themed_group_other": {
+        "message": "その他"
+    },
+    "themed_group_spacing": {
+        "message": "グループの間隔"
+    },
+    "themed_header_background": {
+        "message": "背景"
+    },
+    "themed_header_divider": {
+        "message": "ヘッダーの区切り線"
+    },
+    "themed_header_font_size": {
+        "message": "フォントサイズ"
+    },
+    "themed_header_font_weight": {
+        "message": "フォントの太さ"
+    },
+    "themed_header_text_color": {
+        "message": "文字色"
+    },
+    "themed_header_text_transform": {
+        "message": "テキスト変換"
+    },
+    "themed_help_custom_css": {
+        "message": "デザインのカスタムCSSについてのヘルプ"
+    },
+    "themed_help_reset_default": {
+        "message": "デフォルトに戻すについてのヘルプ"
+    },
+    "themed_help_saved_themes": {
+        "message": "保存済みテーマについてのヘルプ"
+    },
+    "themed_help_theme_actions": {
+        "message": "テーマ操作についてのヘルプ"
+    },
+    "themed_help_theme_editor": {
+        "message": "テーマエディターについてのヘルプ"
+    },
+    "themed_hover_border": {
+        "message": "ホバー時の枠線"
+    },
+    "themed_hover_movement": {
+        "message": "ホバー時の動き"
+    },
+    "themed_hover_shadow": {
+        "message": "ホバー時の影"
+    },
+    "themed_hover_speed": {
+        "message": "ホバー速度"
+    },
+    "themed_icon_color": {
+        "message": "アイコンの色"
+    },
+    "themed_import": {
+        "message": "インポート"
+    },
+    "themed_item_divider": {
+        "message": "アイテムの区切り線"
+    },
+    "themed_item_header_line": {
+        "message": "ヘッダーの線"
+    },
+    "themed_item_header_text": {
+        "message": "ヘッダーの文字"
+    },
+    "themed_letter_spacing": {
+        "message": "文字間隔"
+    },
+    "themed_link_descriptions": {
+        "message": "リンクの説明"
+    },
+    "themed_link_font_size": {
+        "message": "フォントサイズ"
+    },
+    "themed_link_font_weight": {
+        "message": "フォントの太さ"
+    },
+    "themed_link_hover_background": {
+        "message": "ホバー背景"
+    },
+    "themed_link_hover_text_color": {
+        "message": "ホバー文字色"
+    },
+    "themed_link_text_color": {
+        "message": "文字色"
+    },
+    "themed_new_button_background": {
+        "message": "新規ボタンの背景"
+    },
+    "themed_new_button_shadow": {
+        "message": "新規ボタンの影"
+    },
+    "themed_new_button_text": {
+        "message": "新規ボタンの文字"
+    },
+    "themed_no_saved_themes": {
+        "message": "保存済みのテーマはまだありません"
+    },
+    "themed_note_text": {
+        "message": "メモの文字"
+    },
+    "themed_reset_theme": {
+        "message": "テーマをリセット"
+    },
+    "themed_reset_to_default_btn": {
+        "message": "デフォルトに戻す"
+    },
+    "themed_reset_to_default_title": {
+        "message": "デフォルトに戻す"
+    },
+    "themed_save_theme": {
+        "message": "テーマを保存"
+    },
+    "themed_saved_themes": {
+        "message": "保存済みテーマ"
+    },
+    "themed_search_background": {
+        "message": "検索の背景"
+    },
+    "themed_search_border": {
+        "message": "検索の枠線"
+    },
+    "themed_search_placeholder": {
+        "message": "検索のプレースホルダー"
+    },
+    "themed_search_shadow": {
+        "message": "検索の影"
+    },
+    "themed_settings_button_background": {
+        "message": "設定ボタンの背景"
+    },
+    "themed_settings_button_shadow": {
+        "message": "設定ボタンの影"
+    },
+    "themed_shadow": {
+        "message": "影"
+    },
+    "themed_shortcut_background": {
+        "message": "ショートカットの背景"
+    },
+    "themed_show_description": {
+        "message": "リンク名の下に説明を表示"
+    },
+    "themed_sub_group_header": {
+        "message": "グループヘッダー"
+    },
+    "themed_sub_interface": {
+        "message": "インターフェース"
+    },
+    "themed_sub_item_types": {
+        "message": "アイテムの種類"
+    },
+    "themed_sub_spacing": {
+        "message": "間隔"
+    },
+    "themed_sub_top_bar_buttons": {
+        "message": "トップバーのボタン"
+    },
+    "themed_sub_workspace_tabs": {
+        "message": "ワークスペースタブ"
+    },
+    "themed_tab_background": {
+        "message": "タブの背景"
+    },
+    "themed_tab_font_size": {
+        "message": "フォントサイズ"
+    },
+    "themed_tab_font_weight": {
+        "message": "フォントの太さ"
+    },
+    "themed_tab_radius": {
+        "message": "タブの角の丸み"
+    },
+    "themed_tab_style": {
+        "message": "タブのスタイル"
+    },
+    "themed_tab_text": {
+        "message": "タブの文字"
+    },
+    "themed_tab_text_transform": {
+        "message": "テキスト変換"
+    },
+    "themed_tabs_container_bg": {
+        "message": "タブコンテナの背景"
+    },
+    "themed_tabs_container_border": {
+        "message": "タブコンテナの枠線"
+    },
+    "themed_tabs_container_shadow": {
+        "message": "タブコンテナの影"
+    },
+    "themed_theme_actions": {
+        "message": "テーマ操作"
+    },
+    "themed_theme_editor": {
+        "message": "テーマエディター"
+    },
+    "themed_underline_style": {
+        "message": "下線スタイル (Material UI)"
+    },
+    "themed_unsaved": {
+        "message": "● 未保存"
+    },
+    "u33_no_icon_chosen": {
+        "message": "アイコンがまだ選択されていません"
+    },
+    "wa37_clear_board_confirm": {
+        "message": "「$1」のボードをクリアしますか？ スペース自体は残りますが、グループ、ショートカット、その他の要素などボード上のすべてが削除されます。"
+    },
+    "wa37_delete_ws_confirm": {
+        "message": "ワークスペース「$1」を削除しますか？ この操作は元に戻せません。"
+    },
+    "wa37_delete_ws_managed": {
+        "message": "ワークスペース「$1」を削除しますか？ このワークスペースは $2 個の管理対象ボード$3のソースです。削除してもそれらのボードは無効になりませんが、ソースをローカルに復元するまで更新はブロックされたままになります。"
+    },
+    "wa37_incorrect_passphrase": {
+        "message": "パスフレーズが正しくないか、データを復号できませんでした。"
+    },
+    "wa37_managed_no_clear": {
+        "message": "管理対象のスペースはクリアできません。"
+    },
+    "wa37_no_delete_default": {
+        "message": "デフォルトのワークスペースは削除できません"
+    },
+    "wa37_no_other_ws": {
+        "message": "他に利用できるワークスペースがありません。まず1つ作成してください。"
+    },
+    "wa37_passphrase_desc": {
+        "message": "「$1」のロックを解除するパスフレーズを入力してください。"
+    },
+    "wa37_protected_locked_switch": {
+        "message": "この保護されたスペースはロックされています。まず切り替えてロックを解除してください。"
+    },
+    "wa37_protected_ws_title": {
+        "message": "保護されたワークスペース"
+    },
+    "wa37_start": {
+        "message": "スタート"
+    },
+    "wa37_ws_exists": {
+        "message": "ワークスペース「$1」は既に存在します"
+    },
+    "wa37_ws_locked_switch": {
+        "message": "このワークスペースはロックされています。まず切り替えてロックを解除してください。"
+    },
+    "web_search_enter_hint": {
+        "message": "Enter"
+    },
+    "web_search_placeholder": {
+        "message": "アイテムやウェブを検索…"
+    },
+    "wih20_add_element": {
+        "message": "要素を追加"
+    },
+    "wih20_add_item": {
+        "message": "アイテムを追加"
+    },
+    "wih20_add_link": {
+        "message": "リンクを追加"
+    },
+    "wih20_add_x": {
+        "message": "$1 を追加"
+    },
+    "wih20_added_x": {
+        "message": "$1 を追加しました"
+    },
+    "wih20_adds_immediately": {
+        "message": "すぐに追加されます"
+    },
+    "wih20_alert_could_not_find_group_to_update": {
+        "message": "更新するグループが見つかりませんでした"
+    },
+    "wih20_alert_could_not_find_x_to_update": {
+        "message": "更新する $1 が見つかりませんでした"
+    },
+    "wih20_alert_fill_required": {
+        "message": "すべての必須項目を入力してください"
+    },
+    "wih20_alert_group_already_exists": {
+        "message": "グループは既に存在します"
+    },
+    "wih20_alert_launcher_target": {
+        "message": "ランチャーのターゲットを入力してください"
+    },
+    "wih20_alert_picker_no_companion": {
+        "message": "ピッカーを開けませんでした — コンパニオンアプリはインストールされていますか？\n\n状態は 設定 → アカウント → コンパニオンアプリ で確認してください。"
+    },
+    "wih20_alert_please_enter_x": {
+        "message": "$1 を入力してください"
+    },
+    "wih20_alert_valid_avatar_url": {
+        "message": "有効なアバター画像URLを入力してください"
+    },
+    "wih20_alert_valid_file_url": {
+        "message": "有効なファイルURLを入力してください"
+    },
+    "wih20_alert_valid_image_url": {
+        "message": "有効な画像URLを入力してください"
+    },
+    "wih20_alert_valid_link_url": {
+        "message": "有効なリンクURLを入力してください"
+    },
+    "wih20_alert_valid_link_url_scheme": {
+        "message": "有効なリンクURLを入力してください (http:// または https://)"
+    },
+    "wih20_alert_x_already_exists": {
+        "message": "$1 は既に存在します"
+    },
+    "wih20_can_contain": {
+        "message": "含めることができるもの"
+    },
+    "wih20_cat_actions": {
+        "message": "アクション"
+    },
+    "wih20_cat_containers": {
+        "message": "コンテナ"
+    },
+    "wih20_cat_media": {
+        "message": "メディア / ビジュアル"
+    },
+    "wih20_cat_steps": {
+        "message": "ステップ"
+    },
+    "wih20_cat_structure": {
+        "message": "構造"
+    },
+    "wih20_cat_text": {
+        "message": "テキスト"
+    },
+    "wih20_choose_target_group": {
+        "message": "まず対象のグループを選択してください。"
+    },
+    "wih20_converted_button": {
+        "message": "変換済みボタン"
+    },
+    "wih20_edit_x": {
+        "message": "$1 を編集"
+    },
+    "wih20_fetching_preview": {
+        "message": "プレビューを取得中…"
+    },
+    "wih20_field_button_text": {
+        "message": "ボタンのテキスト"
+    },
+    "wih20_field_callout_text": {
+        "message": "コールアウトのテキスト"
+    },
+    "wih20_field_code": {
+        "message": "コード"
+    },
+    "wih20_field_first_step": {
+        "message": "最初のステップ"
+    },
+    "wih20_field_group_name": {
+        "message": "グループ名"
+    },
+    "wih20_field_heading_text": {
+        "message": "見出しのテキスト"
+    },
+    "wih20_field_label_optional": {
+        "message": "ラベル（任意）"
+    },
+    "wih20_field_text": {
+        "message": "テキスト"
+    },
+    "wih20_label_arrow": {
+        "message": "矢印"
+    },
+    "wih20_label_callout": {
+        "message": "コールアウト"
+    },
+    "wih20_label_code_block": {
+        "message": "コードブロック"
+    },
+    "wih20_label_divider": {
+        "message": "区切り線"
+    },
+    "wih20_label_file": {
+        "message": "ファイル"
+    },
+    "wih20_label_heading": {
+        "message": "見出し"
+    },
+    "wih20_label_image": {
+        "message": "画像"
+    },
+    "wih20_label_link_card": {
+        "message": "リンクカード"
+    },
+    "wih20_label_profile_avatar": {
+        "message": "プロフィール / アバター"
+    },
+    "wih20_label_step_heading": {
+        "message": "ステップ見出し"
+    },
+    "wih20_label_steps": {
+        "message": "ステップ"
+    },
+    "wih20_label_text": {
+        "message": "テキスト"
+    },
+    "wih20_launcher_label_command": {
+        "message": "コマンド"
+    },
+    "wih20_launcher_label_path": {
+        "message": "パス"
+    },
+    "wih20_launcher_label_target_uri": {
+        "message": "ターゲットURI"
+    },
+    "wih20_name": {
+        "message": "名前"
+    },
+    "wih20_name_button_text": {
+        "message": "ボタンのテキスト"
+    },
+    "wih20_name_group_name": {
+        "message": "グループ名"
+    },
+    "wih20_no_icon_chosen": {
+        "message": "アイコンがまだ選択されていません！"
+    },
+    "wih20_no_matching_groups": {
+        "message": "一致するグループが見つかりません。"
+    },
+    "wih20_no_standard_groups": {
+        "message": "このワークスペースには利用できる標準グループがまだありません。"
+    },
+    "wih20_opt_callout_desc": {
+        "message": "メモや重要なヒントを強調します。"
+    },
+    "wih20_opt_callout_label": {
+        "message": "コールアウト"
+    },
+    "wih20_opt_clipboard_desc": {
+        "message": "ワンクリックでテキストをコピーします。"
+    },
+    "wih20_opt_clipboard_label": {
+        "message": "クリップボードボタン"
+    },
+    "wih20_opt_code_desc": {
+        "message": "コードやコマンドを書式付きで表示します。"
+    },
+    "wih20_opt_code_label": {
+        "message": "コードブロック"
+    },
+    "wih20_opt_divider_desc": {
+        "message": "水平線でコンテンツを区切ります。"
+    },
+    "wih20_opt_divider_label": {
+        "message": "区切り線"
+    },
+    "wih20_opt_file_desc": {
+        "message": "ファイル形式のリソースカードを表示します。"
+    },
+    "wih20_opt_file_label": {
+        "message": "ファイル"
+    },
+    "wih20_opt_group_desc": {
+        "message": "複数のアイテムを収められるカードです。"
+    },
+    "wih20_opt_group_label": {
+        "message": "グループ"
+    },
+    "wih20_opt_header_desc": {
+        "message": "セクション用の大きな見出しテキストです。"
+    },
+    "wih20_opt_header_label": {
+        "message": "見出し"
+    },
+    "wih20_opt_image_desc": {
+        "message": "ビジュアルな画像カードを追加します。"
+    },
+    "wih20_opt_image_label": {
+        "message": "画像"
+    },
+    "wih20_opt_launcher_desc": {
+        "message": "アプリ、ファイル、フォルダー、またはコマンドを開きます。"
+    },
+    "wih20_opt_launcher_label": {
+        "message": "ランチャーボタン"
+    },
+    "wih20_opt_linkcard_desc": {
+        "message": "1つのリンクをより充実した形でプレビューします。"
+    },
+    "wih20_opt_linkcard_label": {
+        "message": "リンクカード"
+    },
+    "wih20_opt_profile_desc": {
+        "message": "コンパクトなプロフィール概要を表示します。"
+    },
+    "wih20_opt_profile_label": {
+        "message": "プロフィール"
+    },
+    "wih20_opt_routine_desc": {
+        "message": "ワンクリックで複数のアクションを実行します。"
+    },
+    "wih20_opt_routine_label": {
+        "message": "ルーティン"
+    },
+    "wih20_opt_shortcut_desc": {
+        "message": "トップレベルのボタンからリンクを開きます。"
+    },
+    "wih20_opt_iconlink_label": {
+        "message": "アイコンリンク"
+    },
+    "wih20_opt_iconlink_desc": {
+        "message": "リンクを開く大きなアイコン。下にラベルを表示できます"
+    },
+    "wih20_opt_shortcut_label": {
+        "message": "ショートカット"
+    },
+    "wih20_opt_stepheader_desc": {
+        "message": "ガイド付きステップ用の番号付き見出しです。"
+    },
+    "wih20_opt_stepheader_label": {
+        "message": "ステップ見出し"
+    },
+    "wih20_opt_steps_desc": {
+        "message": "番号付きのステップリストです。"
+    },
+    "wih20_opt_steps_label": {
+        "message": "ステップ"
+    },
+    "wih20_opt_text_desc": {
+        "message": "段落または補足のテキストブロックです。"
+    },
+    "wih20_opt_text_label": {
+        "message": "テキスト"
+    },
+    "wih20_opt_todo_desc": {
+        "message": "チェックして消せるタスクのチェックリストです。"
+    },
+    "wih20_opt_todo_label": {
+        "message": "To-Doリスト"
+    },
+    "wih20_ph_important_shortcut": {
+        "message": "重要なショートカット"
+    },
+    "wih20_ph_write_code": {
+        "message": "コードを入力"
+    },
+    "wih20_ph_write_text": {
+        "message": "テキストを入力"
+    },
+    "wih20_preset_avatar_n": {
+        "message": "プリセットアバター $1"
+    },
+    "wih20_save_x": {
+        "message": "$1 を保存"
+    },
+    "wih20_step_count": {
+        "message": "$1 ステップ$2"
+    },
+    "wih20_sup_clipboard": {
+        "message": "クリップボード"
+    },
+    "wih20_sup_dividers": {
+        "message": "区切り線"
+    },
+    "wih20_sup_headings": {
+        "message": "見出し"
+    },
+    "wih20_sup_launchers": {
+        "message": "ランチャー"
+    },
+    "wih20_sup_links": {
+        "message": "リンク"
+    },
+    "wih20_sup_tasks": {
+        "message": "タスク"
+    },
+    "wih20_sup_text": {
+        "message": "テキスト"
+    },
+    "wih20_untitled_group": {
+        "message": "無題のグループ"
+    },
+    "wma38_default_workspace_name": {
+        "message": "スタート"
+    },
+    "wma38_label_delete": {
+        "message": "削除"
+    },
+    "wma38_label_protect": {
+        "message": "保護"
+    },
+    "wma38_label_protect_pro": {
+        "message": "保護 ✦"
+    },
+    "wma38_label_publish_public_board": {
+        "message": "公開ボードを公開"
+    },
+    "wma38_label_publish_public_board_pro": {
+        "message": "公開ボードを公開 ✦"
+    },
+    "wma38_label_remove_subscription": {
+        "message": "購読を解除"
+    },
+    "wma38_label_rename": {
+        "message": "名前を変更"
+    },
+    "wma38_label_share_workspace": {
+        "message": "ワークスペースを共有"
+    },
+    "wma38_label_share_workspace_pro": {
+        "message": "ワークスペースを共有 ✦"
+    },
+    "wma38_label_unprotect": {
+        "message": "保護を解除"
+    },
+    "wma38_remove_subscription_confirm": {
+        "message": "「$1」の購読を解除しますか？ 後で再購読できます。"
+    },
+    "wma38_rename_prompt": {
+        "message": "ワークスペースの名前を変更:"
+    },
+    "wma38_share_unavailable": {
+        "message": "現在このワークスペースは共有できません。"
+    },
+    "wp39_btn_protect": {
+        "message": "保護"
+    },
+    "wp39_btn_unlock": {
+        "message": "ロック解除"
+    },
+    "wp39_decrypt_fail": {
+        "message": "パスフレーズが正しくないか、復号できませんでした: $1"
+    },
+    "wp39_default_desc": {
+        "message": "このワークスペースのロックを解除するパスフレーズを入力してください。"
+    },
+    "wp39_default_title": {
+        "message": "保護されたワークスペース"
+    },
+    "wp39_err_empty": {
+        "message": "パスフレーズは空にできません。"
+    },
+    "wp39_err_min_length": {
+        "message": "パスフレーズは4文字以上で入力してください。"
+    },
+    "wp39_err_mismatch": {
+        "message": "パスフレーズが一致しません。"
+    },
+    "wp39_protect_desc": {
+        "message": "「$1」を保護するパスフレーズを設定してください。ページを再読み込みした後、このワークスペースを開くたびに必要になります。"
+    },
+    "wp39_protect_fail": {
+        "message": "ワークスペースの保護に失敗しました: $1"
+    },
+    "wp39_protect_title": {
+        "message": "ワークスペースを保護"
+    },
+    "wp39_unprotect_desc": {
+        "message": "「$1」の保護を解除するには、現在のパスフレーズを入力してください。"
+    },
+    "wp39_unprotect_title": {
+        "message": "ワークスペースの保護を解除"
+    },
+    "ws34_no_matches": {
+        "message": "「$1」に一致するものはありません"
+    },
+    "ws34_results_header": {
+        "message": "結果"
+    },
+    "ws34_search_web_for": {
+        "message": "ウェブで「$1」を検索"
+    },
+    "ws36_cancel": {
+        "message": "キャンセル"
+    },
+    "ws36_close": {
+        "message": "閉じる"
+    },
+    "ws36_code_updated": {
+        "message": "共有コードを更新しました。"
+    },
+    "ws36_copied": {
+        "message": "コピーしました！"
+    },
+    "ws36_copy": {
+        "message": "コピー"
+    },
+    "ws36_create_code_btn": {
+        "message": "コードを作成"
+    },
+    "ws36_create_fail": {
+        "message": "共有コードを作成できませんでした: $1"
+    },
+    "ws36_hint_expires": {
+        "message": "このコードは $1 に期限切れになります。設定 → スペース → 共有ボード から管理できます。"
+    },
+    "ws36_hint_never": {
+        "message": "このコードは期限切れになりません。設定 → スペース → 共有ボード から管理できます。"
+    },
+    "ws36_import_btn": {
+        "message": "インポート"
+    },
+    "ws36_import_replace_hint": {
+        "message": "この名前のワークスペースが既に存在する場合は置き換えられます。"
+    },
+    "ws36_import_title": {
+        "message": "共有ワークスペースをインポート"
+    },
+    "ws36_imported_toast": {
+        "message": "インポートしました — 編集してから「更新」でコードを更新してください。"
+    },
+    "ws36_name": {
+        "message": "名前"
+    },
+    "ws36_name_placeholder": {
+        "message": "例: デザインチーム向けのオンボーディングリンク"
+    },
+    "ws36_never_expire_checkbox": {
+        "message": "削除するまで保持（期限なし）"
+    },
+    "ws36_no_data": {
+        "message": "共有するワークスペースのデータがありません。"
+    },
+    "ws36_optional": {
+        "message": "（任意）"
+    },
+    "ws36_recover_fail": {
+        "message": "このデバイスではこのコードの内容を復元できませんでした。"
+    },
+    "ws36_reimport_confirm": {
+        "message": "このコードの共有元スペースはこのデバイスにありません。\n\n編集できるようにコピーをインポートし、変更内容でコードを更新しますか？"
+    },
+    "ws36_share_code_aria": {
+        "message": "共有コード"
+    },
+    "ws36_share_dialog_create_desc": {
+        "message": "他の人がこのワークスペースのコピーをインポートするために使えるコードを作成します。"
+    },
+    "ws36_share_dialog_create_hint": {
+        "message": "名前を付けておくと、後で 設定 → スペース → 共有ボード でコードを識別しやすくなります。デフォルトではコードは30日で期限切れになります。"
+    },
+    "ws36_share_dialog_create_title": {
+        "message": "ワークスペースを共有"
+    },
+    "ws36_share_dialog_update_desc": {
+        "message": "このコードのスナップショットを、ワークスペースの現在の状態に置き換えます。コード自体は変わりません。"
+    },
+    "ws36_share_dialog_update_hint": {
+        "message": "ご注意: 既にこのコードをインポートした人は自分のコピーを保持します — <b>新規</b>のインポートのみが更新版を取得します。"
+    },
+    "ws36_share_dialog_update_title": {
+        "message": "共有コードを更新"
+    },
+    "ws36_shared_desc": {
+        "message": "このコードを持つ人は誰でも、このワークスペースのコピーを自分の ReadyTab にインポートできます。"
+    },
+    "ws36_shared_title": {
+        "message": "ワークスペースを共有しました！"
+    },
+    "ws36_update_code_btn": {
+        "message": "コードを更新"
+    },
+    "ws36_update_fail": {
+        "message": "コードを更新できませんでした: $1"
+    },
+    "ws36_workspace_name": {
+        "message": "ワークスペース名"
+    },
+    "wtu40_add_workspace": {
+        "message": "ワークスペースを追加"
+    },
+    "wtu40_create_more_spaces_pro": {
+        "message": "Pro で $1 個を超えるスペースを作成"
+    },
+    "wtu40_enter_workspace_name": {
+        "message": "ワークスペース名を入力:"
+    },
+    "wtu40_managed_board_readonly": {
+        "message": "管理対象ボード — 読み取り専用"
+    },
+    "wtu40_more": {
+        "message": "もっと見る"
+    },
+    "wtu40_pro": {
+        "message": "Pro"
+    },
+    "wtu40_start": {
+        "message": "スタート"
+    },
+    "sdm1_kind_group": {
+        "message": "グループ"
+    },
+    "sdm1_kind_todo_list": {
+        "message": "To-doリスト"
+    },
+    "sdm1_kind_shortcut": {
+        "message": "ショートカット"
+    },
+    "sdm1_kind_clipboard_button": {
+        "message": "クリップボードボタン"
+    },
+    "sdm1_kind_launcher": {
+        "message": "ランチャー"
+    },
+    "sdm1_kind_routine": {
+        "message": "ルーティン"
+    },
+    "sdm1_kind_heading": {
+        "message": "見出し"
+    },
+    "sdm1_kind_step_heading": {
+        "message": "ステップ見出し"
+    },
+    "sdm1_kind_text": {
+        "message": "テキスト"
+    },
+    "sdm1_kind_divider": {
+        "message": "区切り線"
+    },
+    "sdm1_kind_arrow": {
+        "message": "矢印"
+    },
+    "sdm1_kind_callout": {
+        "message": "コールアウト"
+    },
+    "sdm1_kind_code_block": {
+        "message": "コードブロック"
+    },
+    "sdm1_kind_steps": {
+        "message": "ステップ"
+    },
+    "sdm1_kind_image": {
+        "message": "画像"
+    },
+    "sdm1_kind_profile": {
+        "message": "プロフィール"
+    },
+    "sdm1_kind_link_card": {
+        "message": "リンクカード"
+    },
+    "sdm1_kind_file": {
+        "message": "ファイル"
+    },
+    "sdm1_kind_note": {
+        "message": "ノート"
+    },
+    "sdm1_kind_task_list": {
+        "message": "タスクリスト"
+    },
+    "sdm1_untitled_group": {
+        "message": "無題のグループ"
+    },
+    "sdm1_untitled_note": {
+        "message": "無題のノート"
+    },
+    "sdm1_untitled_list": {
+        "message": "無題のリスト"
+    },
+    "sdm1_notes_label": {
+        "message": "ノート"
+    },
+    "sdm1_tasks_label": {
+        "message": "タスク"
+    },
+    "sdm1_protected_name": {
+        "message": "$1（保護済み）"
+    },
+    "sdm1_protected_preview": {
+        "message": "ロック中 — 内容は表示されません"
+    },
+    "sdm1_done_ratio": {
+        "message": "$1/$2 完了"
+    },
+    "sdm1_step_one": {
+        "message": "$1 ステップ"
+    },
+    "sdm1_step_many": {
+        "message": "$1 ステップ"
+    },
+    "sdm1_element_one": {
+        "message": "$1 個の要素"
+    },
+    "sdm1_element_many": {
+        "message": "$1 個の要素"
+    },
+    "sdm1_item_one": {
+        "message": "$1 件"
+    },
+    "sdm1_item_many": {
+        "message": "$1 件"
+    },
+    "sdm1_task_one": {
+        "message": "$1 件のタスク"
+    },
+    "sdm1_task_many": {
+        "message": "$1 件のタスク"
+    },
+    "sdm1_target_fallback": {
+        "message": "対象"
+    },
+    "sdm1_close": {
+        "message": "閉じる"
+    },
+    "sdm1_cancel": {
+        "message": "キャンセル"
+    },
+    "sdm1_identical": {
+        "message": "差分はありません — 両方のバージョンは同一です。"
+    },
+    "sdm1_chip_added": {
+        "message": "追加"
+    },
+    "sdm1_chip_changed": {
+        "message": "変更"
+    },
+    "sdm1_chip_removed": {
+        "message": "削除"
+    },
+    "sdm1_ws_tag": {
+        "message": "ワークスペース"
+    },
+    "sdm1_ws_new": {
+        "message": "新しいワークスペース — $1 に追加されます"
+    },
+    "sdm1_ws_only_in": {
+        "message": "$1 のみに存在 — 削除されます"
+    },
+    "sdm1_ws_entire": {
+        "message": "ワークスペース全体"
+    },
+    "sdm1_ws_unchanged": {
+        "message": "$1、変更なし"
+    },
+    "sdm1_unchanged_inline": {
+        "message": "$1 変更なし"
+    },
+    "sdm1_sec_added": {
+        "message": "$1 に追加"
+    },
+    "sdm1_sec_changed": {
+        "message": "変更"
+    },
+    "sdm1_sec_removed": {
+        "message": "$1 から削除"
+    },
+    "sdm1_row_new": {
+        "message": "新規の$1 — $2 にはまだありません"
+    },
+    "sdm1_row_only_in": {
+        "message": "$1 のみに存在 — 削除されます"
+    },
+    "sdm1_row_count_differs": {
+        "message": "$1 に存在 — 項目数が異なります"
+    },
+    "sdm1_row_contents_edited": {
+        "message": "$1 に存在 — 内容が編集されています"
+    },
+    "sdm1_row_task_count_differs": {
+        "message": "$1 に存在 — タスク数が異なります"
+    },
+    "sdm1_row_tasks_edited": {
+        "message": "$1 に存在 — タスクが編集されています"
+    },
+    "sdm1_row_edited_preview": {
+        "message": "$1 を編集 — $2"
+    },
+    "sdm1_row_edited": {
+        "message": "$1 を編集"
+    },
+    "sdm1_pill_edited": {
+        "message": "編集済み"
+    },
+    "sdm1_count_now": {
+        "message": "現在"
+    },
+    "sdm1_count_after": {
+        "message": "更新後"
+    },
+    "language_auto": {
+        "message": "自動（ブラウザーの言語）"
+    },
+    "grp_display_tile": {
+        "message": "タイル"
+    },
+    "wih20_opt_tile_label": {
+        "message": "タイル"
+    },
+    "wih20_opt_tile_desc": {
+        "message": "カード背景付きの正方形アイコンボタン。"
+    },
+    "grp_display_tile2": {
+        "message": "大きいタイル"
+    },
+    "wih20_opt_tile2_label": {
+        "message": "大きいタイル"
+    },
+    "wih20_opt_tile2_desc": {
+        "message": "2列幅の正方形アイコンボタン。"
+    },
+    "lbr5_turn_into": {
+        "message": "$1に変換"
+    },
+    "grp_choose_style": {
+        "message": "スタイルを選択"
+    },
+    "grp_choose_style_hint": {
+        "message": "見た目を選びます。後で要素のメニューから変更できます。"
+    },
+    "wih20_opt_link_label": {
+        "message": "リンク"
+    },
+    "wih20_opt_link_desc": {
+        "message": "ウェブサイトやURLを開きます。"
+    },
+    "wih20_style_fam_buttons": {
+        "message": "ボタン"
+    },
+    "wih20_style_fam_tiles": {
+        "message": "タイル"
+    },
+    "wih20_style_standard_desc": {
+        "message": "アイコンとラベル付きの横幅いっぱいのボタン。"
+    },
+    "wih20_style_icon_desc": {
+        "message": "ラベル任意の素のアイコン。"
+    },
+    "wih20_style_tile_desc": {
+        "message": "1列幅の正方形アイコンカード。"
+    },
+    "wih20_style_tile2_desc": {
+        "message": "ラベル付き2列幅の正方形アイコンカード。"
+    },
+    "sbe_invalid_key": {
+        "message": "Enter the complete edit key supplied by the board owner."
+    },
+    "sbe_subscribe_first": {
+        "message": "Subscribe to this board before entering its edit key."
+    },
+    "sbe_latest": {
+        "message": "Latest shared version"
+    },
+    "sbe_yours": {
+        "message": "Your changes"
+    },
+    "sbe_review": {
+        "message": "Review conflict"
+    },
+    "sbe_replace": {
+        "message": "Replace with my reviewed version"
+    },
+    "sbe_discard_confirm": {
+        "message": "Discard your unsaved changes and use the latest shared version?"
+    },
+    "sbe_status_checking": {
+        "message": "Checking editing access…"
+    },
+    "sbe_status_unsaved": {
+        "message": "Shared board · Unsaved changes"
+    },
+    "sbe_status_saving": {
+        "message": "Shared board · Saving…"
+    },
+    "sbe_status_saved": {
+        "message": "Shared board · Saved"
+    },
+    "sbe_status_conflict": {
+        "message": "This board changed elsewhere. Review before saving."
+    },
+    "sbe_status_error": {
+        "message": "Changes are unsaved. Try saving again."
+    },
+    "sbe_status_denied": {
+        "message": "Editing access is unavailable. Export any unsaved changes before leaving."
+    },
+    "sbe_use_latest": {
+        "message": "Use latest version"
+    },
+    "sbe_save": {
+        "message": "Save changes"
+    },
+    "sbe_export": {
+        "message": "Export my changes"
+    },
+    "sbe_enter_key": {
+        "message": "Enter edit key"
+    },
+    "sbe_key_prompt": {
+        "message": "Enter the shared edit key from the board owner:"
+    },
+    "sbe_connected": {
+        "message": "Shared board editing enabled."
+    },
+    "sbe_edit_key": {
+        "message": "Shared edit key"
+    },
+    "sbe_key_help": {
+        "message": "Send this same edit key to everyone who should edit the board, together with the read token and any board password. Keep your license key private. Replacing the edit key removes access for everyone using the old key."
+    },
+    "sbe_read_token": {
+        "message": "Read token"
+    },
+    "sbe_rotate_key": {
+        "message": "Replace edit key"
+    },
+    "sbe_generate_key": {
+        "message": "Generate edit key"
+    },
+    "sbe_rotate_confirm": {
+        "message": "Replace the shared edit key? Everyone using the old key will need the new one."
+    },
+    "sbe_key_generated": {
+        "message": "Key created. Copy it and send the same key to your editors."
+    },
+    "sbe_copy_key": {
+        "message": "Copy edit key"
+    },
+    "sbe_copied": {
+        "message": "Copied."
+    },
+    "sbe_open_board": {
+        "message": "Open shared board"
+    },
+    "sbe_generate_first": {
+        "message": "Generate an edit key first."
+    },
+    "sbe_disable": {
+        "message": "Disable editing"
+    },
+    "sbe_disable_confirm": {
+        "message": "Disable editing for everyone using the shared key?"
+    },
+    "sbe_disabled": {
+        "message": "Shared-key editing is disabled."
+    },
+    "sbe_close": {
+        "message": "Close"
+    },
+    "sbe_editor": {
+        "message": "Shared board · Editor"
+    },
+    "bmi_title": {
+        "message": "ブックマークをインポート"
+    },
+    "bmi_description": {
+        "message": "左側でフォルダーを選び、ワークスペース上でグループの配置と順序を決めます。"
+    },
+    "bmi_from_browser": {
+        "message": "ブラウザーのブックマークから"
+    },
+    "bmi_choose": {
+        "message": "ブックマークを選択"
+    },
+    "bmi_close": {
+        "message": "閉じる"
+    },
+    "bmi_select_all": {
+        "message": "すべて選択"
+    },
+    "bmi_clear": {
+        "message": "選択を解除"
+    },
+    "bmi_preview": {
+        "message": "プレビュー"
+    },
+    "bmi_workspaces": {
+        "message": "ワークスペース"
+    },
+    "bmi_cancel": {
+        "message": "キャンセル"
+    },
+    "bmi_import": {
+        "message": "インポートしてダッシュボードを開く"
+    },
+    "bmi_trust": {
+        "message": "ReadyTabにリンクをコピーします。ブラウザーのブックマークは変更されません。"
+    },
+    "bmi_loading": {
+        "message": "ブラウザーのブックマークを読み込み中…"
+    },
+    "bmi_quick_links": {
+        "message": "クイックリンク"
+    },
+    "bmi_skipped": {
+        "message": "未対応のブックマークURLを$1件スキップしました。"
+    },
+    "bmi_no_destination": {
+        "message": "インポートする前に、ローカルワークスペースを作成するかロックを解除してください。"
+    },
+    "bmi_read_failed": {
+        "message": "ブラウザーのブックマークを読み取れませんでした。"
+    },
+    "bmi_read_retry": {
+        "message": "ブックマークへのアクセスを確認し、このウィンドウを開き直してください。"
+    },
+    "bmi_empty": {
+        "message": "インポートできるブックマークがありません。先にブラウザーでブックマークを保存してください。"
+    },
+    "bmi_collapse": {
+        "message": "$1を折りたたむ"
+    },
+    "bmi_expand": {
+        "message": "$1を展開"
+    },
+    "bmi_preview_empty": {
+        "message": "このワークスペースにはまだグループがありません。フォルダーを選ぶか、グループをここに移動してください。"
+    },
+    "bmi_earlier": {
+        "message": "$1を前に移動"
+    },
+    "bmi_later": {
+        "message": "$1を後ろに移動"
+    },
+    "bmi_links": {
+        "message": "$1件のリンク"
+    },
+    "bmi_destination": {
+        "message": "$1のインポート先"
+    },
+    "bmi_summary": {
+        "message": "$2個のワークスペースに$1個のグループ · $3件のリンク"
+    },
+    "bmi_importing": {
+        "message": "ブックマークをインポート中…"
+    },
+    "bmi_save_failed": {
+        "message": "インポートを保存できませんでした。空き容量とワークスペースへのアクセスを確認して、再試行してください。選択は保持されています。"
+    },
+    "bmi_done": {
+        "message": "$1件のブックマークを$2個のグループにインポートしました。"
+    },
+    "bmi_layout_failed": {
+        "message": "ブックマークはインポートされましたが、レイアウトを保存できませんでした。コンパクトレイアウトで配置してください。"
+    },
+    "start_layout_failed": {
+        "message": "サイトは追加されましたが、レイアウトを保存できませんでした。コンパクトレイアウトで配置してください。"
+    },
+    "start_title": {
+        "message": "最初のボードを作りましょう"
+    },
+    "start_workspace_title": {
+        "message": "このワークスペースを充実させましょう"
+    },
+    "start_intro": {
+        "message": "始め方を選びましょう。何かを追加するとボードが開きます。"
+    },
+    "start_recommended": {
+        "message": "おすすめ"
+    },
+    "start_checking": {
+        "message": "ブックマークを確認中…"
+    },
+    "start_choose": {
+        "message": "フォルダーを選択"
+    },
+    "start_sites": {
+        "message": "人気のサイト"
+    },
+    "start_sites_desc": {
+        "message": "18の定番サイトから選び、ショートカットやグループに追加します。"
+    },
+    "start_browse": {
+        "message": "サイトを見る"
+    },
+    "start_blank": {
+        "message": "空の状態から始める"
+    },
+    "start_blank_desc": {
+        "message": "空のグループを作成して、好きな内容を追加しましょう。"
+    },
+    "start_add_group": {
+        "message": "グループを追加"
+    },
+    "start_picker_desc": {
+        "message": "追加先を選んでからサイトを選択します。もう一度押すと解除できます。"
+    },
+    "start_destination": {
+        "message": "サイトの追加先"
+    },
+    "start_live": {
+        "message": "ライブ"
+    },
+    "start_live_desc": {
+        "message": "変更はすぐにページに反映されます。"
+    },
+    "start_all_settings": {
+        "message": "すべての設定 →"
+    },
+    "start_plans_desc": {
+        "message": "自分の端末間で使うならSync、共有ボードの公開・管理もするならFullを選びましょう。"
+    },
+    "start_sync_benefit": {
+        "message": "Sync：端末間の暗号化同期"
+    },
+    "start_full_benefit": {
+        "message": "Full：同期、公開、共有ボード"
+    },
+    "start_free_benefit": {
+        "message": "無料：ローカルワークスペース数は無制限"
+    },
+    "start_undo_failed": {
+        "message": "元に戻せませんでした。追加先のワークスペースが利用可能で、ロック解除されているか確認してください。"
+    },
+    "start_undo": {
+        "message": "元に戻す"
+    },
+    "start_bookmarks_failed": {
+        "message": "ブックマークを確認できませんでした。フォルダーを選択して再試行してください。"
+    },
+    "start_bookmarks_found": {
+        "message": "ブラウザー内の$2個のフォルダーに$1件のブックマークが見つかりました。フォルダーはグループになります。"
+    },
+    "start_no_bookmarks": {
+        "message": "ブックマークがありません。設定からいつでもインポートできます。"
+    },
+    "start_nothing": {
+        "message": "インポートする項目なし"
+    },
+    "start_shortcuts": {
+        "message": "ショートカット"
+    },
+    "start_favorites": {
+        "message": "お気に入り"
+    },
+    "start_new_group": {
+        "message": "+ 新しいグループ"
+    },
+    "start_group_number": {
+        "message": "グループ $1"
+    },
+    "start_selection": {
+        "message": "ショートカット $1件 · グループ内リンク $2件"
+    },
+    "start_add_sites": {
+        "message": "$1件のサイトを追加"
+    },
+    "start_empty_group": {
+        "message": "新しいグループ"
+    },
+    "start_added": {
+        "message": "ボードの準備ができました。"
+    },
+    "start_back": {
+        "message": "戻る"
+    },
+    "sbe_live_help": {
+        "message": "キーを作成すると共有ボードが開きます。変更は自動保存され、ボードを開いている間は他の人の変更が30秒ごとに反映されます。競合する変更は確認が必要です。共同作業にはこの共有タブを使用してください。復元したソースは別のローカルコピーです。"
+    },
+    "sbe_status_offline": {
+        "message": "共有ボード · 接続が切れました。自動的に再試行します…"
+    },
+    "sharing_title": {
+        "message": "共有"
+    },
+    "sharing_subtitle": {
+        "message": "ボードを共有するか、受け取ったボードをインポート"
+    },
+    "sharing_codes": {
+        "message": "共有コード"
+    },
+    "sharing_links": {
+        "message": "公開リンク"
+    },
+    "sharing_live": {
+        "message": "接続ボード"
+    },
+    "sharing_new_code": {
+        "message": "新しいコード"
+    },
+    "sharing_new_link": {
+        "message": "新しい公開リンク"
+    },
+    "sharing_new_live": {
+        "message": "新しい接続ボード"
+    },
+    "sharing_import": {
+        "message": "コードをインポート"
+    },
+    "sharing_join": {
+        "message": "ボードに参加"
+    },
+    "sharing_source": {
+        "message": "元のワークスペース"
+    },
+    "sharing_joined": {
+        "message": "参加中のボード"
+    },
+    "sharing_settings_description": {
+        "message": "共有コード、公開リンク、接続ボード"
+    },
+    "sharing_codes_description": {
+        "message": "受信者は編集可能なコピーをReadyTabにインポートします。その後の変更は同期されません。"
+    },
+    "sharing_links_description": {
+        "message": "リンクを知っている人は拡張機能なしでブラウザーから閲覧できます。更新するには変更を公開してください。"
+    },
+    "sharing_live_description": {
+        "message": "購読者はReadyTabに接続ボードを受け取ります。編集を許可するまでは読み取り専用です。接続ボードの編集は同期されますが、別のソースへの変更は公開が必要です。"
+    },
+    "sharing_join_description": {
+        "message": "ボードのトークンと、所有者から提供された場合はパスワードを入力してください。"
+    },
+    "sharing_publish_required": {
+        "message": "共有の作成と管理にはFullが必要です。コピーのインポートとボードへの参加は無料です。"
+    },
+    "sharing_no_source": {
+        "message": "共有する保護されていないローカルワークスペースを選択してください。"
+    },
+    "sbe_edit_keys": {
+        "message": "編集キー"
+    },
+    "sbe_key_name": {
+        "message": "キー名"
+    },
+    "sbe_add_key": {
+        "message": "キーを追加"
+    },
+    "sbe_rename_key": {
+        "message": "名前を変更"
+    },
+    "sbe_revoke_key": {
+        "message": "無効化"
+    },
+    "sbe_replace_named_confirm": {
+        "message": "「$1」を置き換えますか？現在のキーは使えなくなります。他のキーには影響しません。"
+    },
+    "sbe_revoke_named_confirm": {
+        "message": "「$1」を無効にしますか？このキーを使う全員が編集できなくなります。"
+    },
+    "sbe_key_other_device": {
+        "message": "このキーはこのデバイスに保存されていません。置き換えて新しいキーを取得してください。"
+    },
+    "sbe_named_help": {
+        "message": "個人やグループ用の名前付きキーを作成できます。キーごとに置き換えや無効化が可能です。キーを持つ人は編集できます。無効化しても閲覧権限は残ります。"
+    },
+    "sbe_status_recovered": {
+        "message": "未送信の変更を復元しました。保存前に確認してください。"
+    },
+    "sbe_draft_error": {
+        "message": "復元用データをローカルに保存できませんでした。このタブを開いたまま変更をエクスポートしてください。"
+    },
+    "sbe_discard_draft": {
+        "message": "未送信の変更を破棄"
+    },
+    "sbe_unfinished_text": {
+        "message": "未完成のテキスト"
+    },
+    "sbe_discard_text": {
+        "message": "このテキストを破棄"
+    },
+    "sbe_saved_locally": {
+        "message": "このデバイスに保存済み。共有待ちです。"
+    },
+    "sbe_incorrect_password": {
+        "message": "ボードのパスワードが違います。もう一度お試しください。"
+    },
+    "bmi_choose_file": {
+        "message": "Choose bookmark file…"
+    },
+    "bmi_choose_file_hint": {
+        "message": "Export bookmarks from your browser as HTML, then choose the file to preview it here."
+    },
+    "bmi_from_file": {
+        "message": "Bookmark file"
+    },
+    "ega3_choose_file_hint": {
+        "message": "Choose a bookmark HTML export first."
+    },
+    "greet_night": {
+        "message": "おやすみなさい"
+    },
+    "greet_morning": {
+        "message": "おはようございます"
+    },
+    "greet_afternoon": {
+        "message": "こんにちは"
+    },
+    "greet_evening": {
+        "message": "こんばんは"
+    },
+    "greet_night_name": {
+        "message": "おやすみなさい、$1"
+    },
+    "greet_morning_name": {
+        "message": "おはようございます、$1"
+    },
+    "greet_afternoon_name": {
+        "message": "こんにちは、$1"
+    },
+    "greet_evening_name": {
+        "message": "こんばんは、$1"
+    },
+    "setg_greeting_name_label": {
+        "message": "名前"
+    },
+    "setg_greeting_name_ph": {
+        "message": "例：アレックス"
+    },
+    "clock_toggle_format_title": {
+        "message": "クリックで12時間/24時間表示を切替"
+    },
+    "setg_favicons_remote": {
+        "message": "Webからファビコンを読み込む"
+    },
+    "setg_favicons_remote_desc": {
+        "message": "オフの場合、リンクは文字アバターで表示され、アイコンのリクエストは送信されません。"
+    },
+    "ip22_cat_custom": {
+        "message": "カスタム"
+    },
+    "ip22_custom_url_ph": {
+        "message": "SVGまたはPNGのリンクを貼り付け…"
+    },
+    "ip22_custom_use": {
+        "message": "アイコンを使う"
+    },
+    "ip22_custom_invalid": {
+        "message": "有効な画像リンクを入力（http/https）"
+    },
+    "ip22_custom_failed": {
+        "message": "画像を読み込めませんでした"
+    }
+}

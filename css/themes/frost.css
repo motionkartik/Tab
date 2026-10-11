@@ -1,0 +1,64 @@
+/* ============================================================
+   THEME: Frost  (body.ui-frost)
+   ============================================================ */
+
+body.ui-frost {
+    background-attachment: fixed;
+}
+
+body.ui-frost .grid-stack-item-content:has(> .item) {
+    backdrop-filter: blur(22px) saturate(118%) brightness(1.08);
+    -webkit-backdrop-filter: blur(22px) saturate(118%) brightness(1.08);
+}
+
+body.ui-frost .grid-stack-item-content:has(> .item):hover {
+    transform: translateY(-3px);
+    background: linear-gradient(
+        150deg,
+        rgba(255, 255, 255, 0.98),
+        rgba(238, 246, 255, 0.82)
+    );
+}
+
+body.ui-frost .web-search-form {
+    backdrop-filter: blur(22px) saturate(118%) brightness(1.08);
+    -webkit-backdrop-filter: blur(22px) saturate(118%) brightness(1.08);
+}
+
+body.ui-frost .todo-group-add-task-btn,
+body.ui-frost .todo-group-clear-btn {
+    border-radius: 10px;
+}
+
+/* Frost's --border-radius is 16px (for cards), which makes the small settings
+   tabs over-rounded vs other themes — pin them to the standard 10px. */
+body.ui-frost .settings-tab {
+    border-radius: 10px;
+}
+
+body.ui-frost .empty-secondary-btn {
+    background: rgba(255, 255, 255, 0.96);
+    border-color: rgba(15, 40, 90, 0.06);
+    color: #64748b;
+}
+
+body.ui-frost .empty-secondary-btn:hover {
+    background: linear-gradient(
+        150deg,
+        rgba(255, 255, 255, 0.98),
+        rgba(238, 246, 255, 0.82)
+    );
+    border-color: rgba(37, 99, 235, 0.18);
+    color: #1e293b;
+}
+
+/* Tasks/Notes chip separator: the white hint border vanishes on the near-white
+ * frost pill — use a dark hairline instead. */
+body.ui-frost .web-search-form #notes-hero-slot {
+    border-left-color: rgba(16, 24, 40, 0.16);
+}
+/* The chips inherit the theme's whitish settings-button border, invisible on
+ * the pill — trace them in frost's blue instead. */
+body.ui-frost .web-search-form #notes-hero-slot .header-action-btn {
+    border-color: rgba(37, 99, 235, 0.28);
+}

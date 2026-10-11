@@ -1,0 +1,58 @@
+@import url("css/variables.css");
+@import url("css/base.css");
+@import url("css/workspace.css");
+@import url("css/empty-workspace.css");
+@import url("css/spotlight.css");
+@import url("css/modals/workspace-modals.css");
+@import url("css/modals/board-sharing.css");
+@import url("css/modals/bookmark-import.css");
+
+/* Component styles - split for maintainability */
+@import url("css/components/floating-actions.css");
+@import url("css/components/group-shell.css");
+@import url("css/components/group-controls.css");
+@import url("css/components/link-item-core.css");
+@import url("css/components/link-button.css");
+@import url("css/components/routines.css");
+@import url("css/components/item-types.css");
+@import url("css/components/sections.css");
+@import url("css/components/icon-picker.css");
+@import url("css/components/link-editor-extras.css");
+@import url("css/components/settings-utilities.css");
+@import url("css/components/feedback-and-sortable.css");
+
+/* Modal styles - split by type */
+@import url("css/modals/base/backdrop.css");
+@import url("css/modals/settings-drawer/layout.css");
+@import url("css/modals/settings-drawer/background.css");
+@import url("css/modals/settings-drawer/forms.css");
+@import url("css/modals/group-modal.css");
+@import url("css/modals/link-drawer.css");
+@import url("css/modals/group-style-editor.css");
+@import url("css/modals/legacy/icon-chooser.css");
+
+@import url("css/modals/license-tab.css");
+@import url("css/modals/cloud-sync-modal.css");
+@import url("css/modals/upgrade-modal.css");
+@import url("css/modals/sync-diff.css");
+@import url("css/modals/notes-theme.css");
+@import url("css/modals/notes-modal.css");
+@import url("css/modals/todo-theme.css");
+@import url("css/modals/todo-modal.css");
+@import url("css/theme-editor.css");
+@import url("css/themes.css");
+@import url("css/animations.css");
+@import url("css/mobile.css");
+
+/* ===== Letter avatars (favicon fallback / privacy mode) ===== */
+.letter-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    user-select: none;
+}

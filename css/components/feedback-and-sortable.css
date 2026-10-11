@@ -1,0 +1,138 @@
+/* ===== Undo Toast ===== */
+#toast-container {
+    position: fixed;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+.undo-toast,
+.app-toast {
+    background: #1e1e1e;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition:
+        transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+        opacity 0.2s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.undo-toast.visible,
+.app-toast.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.undo-toast-label {
+    font-size: 0.875rem;
+}
+
+.undo-toast-btn {
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 0.2rem 0.65rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 600;
+    transition: background 0.15s;
+    white-space: nowrap;
+}
+
+.undo-toast-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.undo-toast-close {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.72);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0;
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition:
+        color 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.undo-toast-close:hover {
+    color: white;
+}
+
+.undo-toast.undo-toast-error,
+.app-toast.undo-toast-error {
+    background: #7f1d1d;
+}
+
+/* ===== Link Style Section in Link Modal ===== */
+.link-style-section {
+    margin-top: 0.5rem;
+}
+
+.link-style-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+}
+
+.link-style-row input[type="color"] {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+    background: none;
+    flex-shrink: 0;
+}
+
+.link-style-row input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+.link-style-row input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+/* ===== SortableJS Styles ===== */
+.sortable-ghost {
+    opacity: 0.4;
+    background: rgba(128, 128, 128, 0.1);
+    border: 2px dashed rgba(128, 128, 128, 0.4);
+}
+
+.sortable-chosen {
+    cursor: grabbing;
+}
+
+.sortable-drag {
+    cursor: grabbing;
+    opacity: 0.9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

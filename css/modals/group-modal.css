@@ -1,0 +1,771 @@
+/* ===== Group Drawer Specifics ===== */
+
+#group #group-close {
+    position: static;
+    top: auto;
+    right: auto;
+    width: auto;
+    height: auto !important;
+    padding: 0;
+    fill: currentColor !important;
+    border-radius: 0;
+    background: none;
+}
+
+#group #group-close:hover {
+    background: none;
+    fill: currentColor !important;
+}
+
+#group .group-drawer-icon-collapsible {
+    margin: 0;
+}
+
+#group .group-drawer-icon-collapsible .settings-collapsible-header {
+    padding: 0.2rem 0.2rem 0.2rem 0.35rem;
+}
+
+#group .group-drawer-icon-collapsible .settings-collapsible-content {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+#group .group-drawer-icon-collapsible-content .add-drawer-card-body {
+    padding: 1rem;
+}
+
+#group #group-favicon-preview {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 24px;
+    font-size: 0.82rem;
+}
+
+#group .group-launcher-examples {
+    margin-top: 0.25rem;
+}
+
+#group .group-launcher-examples summary {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: var(--overlay-muted-text, #667085);
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.1rem 0;
+}
+
+#group .group-launcher-examples summary::-webkit-details-marker {
+    display: none;
+}
+
+#group .group-launcher-examples summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.15s ease;
+    font-size: 0.7rem;
+}
+
+#group .group-launcher-examples[open] summary::before {
+    transform: rotate(90deg);
+}
+
+#group .launcher-examples-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.65rem;
+}
+
+#group .group-launcher-example-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+    padding: 0.55rem 0.7rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 10px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    color: var(--overlay-text, #101828);
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    cursor: pointer;
+    text-align: left;
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#group .group-launcher-example-item:hover {
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    border-color: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 30%,
+        var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+    );
+    transform: translateY(-1px);
+}
+
+#group .group-launcher-example-item code {
+    font-size: 0.78rem;
+    color: var(--accent-color, var(--overlay-text, #101828));
+    font-family: monospace;
+}
+
+#group .group-launcher-example-item span {
+    font-size: 0.74rem;
+    color: var(--overlay-muted-text, #667085);
+}
+
+#group .group-drawer-avatar-grid {
+    grid-template-columns: repeat(5, 44px);
+    gap: 0.45rem;
+}
+
+#group .group-drawer-avatar-grid .avatar-opt.selected {
+    border-color: var(--accent-color, #4a7bff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 18%, transparent);
+}
+
+/* Each step shows only under its own data-step value. */
+#group[data-step="picker"] #group-drawer-style-step,
+#group[data-step="picker"] #group-drawer-form-step,
+#group[data-step="picker"] .group-drawer-actions {
+    display: none;
+}
+
+#group[data-step="style"] #group-drawer-type-step,
+#group[data-step="style"] #group-drawer-form-step,
+#group[data-step="style"] .group-drawer-actions {
+    display: none;
+}
+
+#group[data-step="form"] #group-drawer-type-step,
+#group[data-step="form"] #group-drawer-style-step {
+    display: none;
+}
+
+/* The style step shares the picker's copy/grid styling but keeps a back
+   header like the form step. */
+#group #group-drawer-style-step {
+    display: grid;
+    gap: 1.25rem;
+}
+
+#group .group-drawer-actions {
+    justify-content: flex-end;
+}
+
+#group .group-drawer-step,
+#group #group-drawer-form-step,
+#group #group-drawer-form-step .settings-section,
+#group #group-drawer-form-step .settings-surface-card,
+#group #group-drawer-form-step .settings-collapsible-item {
+    min-width: 0;
+}
+
+#group #group-drawer-form-step {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#group .group-drawer-form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0;
+}
+
+#group #group-drawer-form-step .settings-section > h3 {
+    padding: 0 0.1rem;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+}
+
+#group .group-selected-type-label {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    color: var(--overlay-text, #101828);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#group .group-element-type-field--internal {
+    display: none;
+}
+
+#group .group-type-picker-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+#group .group-type-picker-copy h3 {
+    margin: 0;
+}
+
+#group #group-type-picker-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 0.8rem;
+}
+
+#group .group-type-picker-category {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+#group .group-type-picker-category-title {
+    margin: 0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--overlay-muted-text, #667085);
+}
+
+#group .group-type-picker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+#group .group-type-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.65rem;
+    min-height: 138px;
+    padding: 0.9rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 14px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    color: var(--overlay-text, #101828);
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    text-align: left;
+    cursor: pointer;
+    transition:
+        transform 0.18s ease,
+        border-color 0.18s ease,
+        box-shadow 0.18s ease,
+        background 0.18s ease;
+}
+
+#group .group-type-card--featured {
+    grid-column: 1 / -1;
+    min-height: 150px;
+}
+
+#group .group-type-card:hover {
+    transform: translateY(-1px);
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    border-color: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 26%,
+        var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+    );
+}
+
+#group .group-type-card:focus-visible {
+    outline: none;
+    border-color: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 60%,
+        var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+    );
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 18%, transparent);
+}
+
+#group .group-type-card.selected {
+    border-color: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 52%,
+        var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+    );
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+}
+
+#group .group-type-card-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+#group .group-type-card-description {
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--overlay-muted-text, #667085);
+}
+
+#group .group-type-card-meta-badge {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    min-height: 1.5rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    color: var(--overlay-muted-text, #667085);
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#group .group-type-card-supports-label {
+    margin-top: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--overlay-muted-text, #667085);
+}
+
+#group .group-type-card-supports {
+    font-size: 0.76rem;
+    line-height: 1.5;
+    color: var(--overlay-text, #101828);
+}
+
+#group .group-type-card-preview {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.42rem;
+    min-height: 54px;
+    padding: 0.75rem;
+    border-radius: 12px;
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    border: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+    overflow: hidden;
+}
+
+#group .group-type-card-preview span {
+    display: block;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 14%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--group {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#group .group-type-card-preview--group span:first-child {
+    height: 10px;
+    width: 46%;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 22%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--group span:nth-child(2),
+#group .group-type-card-preview--group span:nth-child(3),
+#group .group-type-card-preview--text span,
+#group .group-type-card-preview--code span,
+#group .group-type-card-preview--steps span,
+#group .group-type-card-preview--callout span,
+#group .group-type-card-preview--file span {
+    height: 7px;
+}
+
+#group .group-type-card-preview--group span:nth-child(2) {
+    width: 100%;
+}
+
+#group .group-type-card-preview--group span:nth-child(3) {
+    width: 74%;
+}
+
+#group .group-type-card-preview--todo-list {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 5px;
+}
+
+#group .group-type-card-preview--todo-list span {
+    display: flex;
+    align-items: center;
+    height: 7px;
+    width: 100%;
+    background: transparent;
+}
+
+#group .group-type-card-preview--todo-list span::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: 1.5px solid
+        color-mix(in srgb, var(--overlay-text, #101828) 38%, transparent);
+}
+
+#group .group-type-card-preview--todo-list span::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 7px;
+    border-radius: 3px;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 22%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--todo-list span:nth-child(2)::after {
+    max-width: 70%;
+}
+
+#group .group-type-card-preview--todo-list span:nth-child(3)::after {
+    max-width: 52%;
+}
+
+#group .group-type-card-preview--shortcut,
+#group .group-type-card-preview--clipboard,
+#group .group-type-card-preview--launcher,
+#group .group-type-card-preview--heading,
+#group .group-type-card-preview--stepheading,
+#group .group-type-card-preview--text,
+#group .group-type-card-preview--callout,
+#group .group-type-card-preview--code,
+#group .group-type-card-preview--steps,
+#group .group-type-card-preview--profile,
+#group .group-type-card-preview--linkcard,
+#group .group-type-card-preview--file {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+
+
+/* Tile previews. The SPAN is the card (not the whole preview box) so the two
+   tile sizes read at a glance: "Tile" draws a small 1-column square,
+   "Large tile" (--tilecard2) a 2× square with its caption bar. */
+#group .group-type-card-preview--tilecard {
+    align-items: center;
+    justify-content: center;
+}
+
+#group .group-type-card-preview--tilecard span {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    border: 1px solid
+        color-mix(in srgb, var(--accent-color, #4a7bff) 25%, transparent);
+    background: transparent;
+}
+
+#group .group-type-card-preview--tilecard span::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 18%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--tilecard2 span {
+    width: 46px;
+    height: 46px;
+    border-radius: 9px;
+}
+
+#group .group-type-card-preview--tilecard2 span::after {
+    width: 18px;
+    height: 18px;
+    top: 42%;
+}
+
+#group .group-type-card-preview--tilecard2 span::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    transform: translateX(-50%);
+    width: 26px;
+    height: 4px;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 14%,
+        transparent
+    );
+}
+
+/* Routine preview: a pill (the button) with a play-triangle lead-in. */
+#group .group-type-card-preview--routine span:first-child {
+    width: 0;
+    height: 0;
+    border-radius: 0;
+    background: transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid
+        color-mix(in srgb, var(--accent-color, #4a7bff) 35%, transparent);
+}
+
+#group .group-type-card-preview--routine span:nth-child(2) {
+    height: 8px;
+    width: 46%;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 18%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--shortcut span:first-child,
+#group .group-type-card-preview--clipboard span:first-child,
+#group .group-type-card-preview--launcher span:first-child {
+    height: 26px;
+    width: 72%;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 18%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--clipboard span:nth-child(2),
+#group .group-type-card-preview--launcher span:nth-child(2) {
+    height: 7px;
+    width: 42%;
+}
+
+#group .group-type-card-preview--heading span:first-child,
+#group .group-type-card-preview--stepheading span:first-child {
+    height: 11px;
+    width: 66%;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 22%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--heading span:nth-child(2),
+#group .group-type-card-preview--stepheading span:nth-child(2) {
+    height: 7px;
+    width: 36%;
+}
+
+#group .group-type-card-preview--text span:first-child,
+#group .group-type-card-preview--code span:first-child,
+#group .group-type-card-preview--steps span:first-child,
+#group .group-type-card-preview--callout span:first-child,
+#group .group-type-card-preview--file span:first-child {
+    width: 100%;
+}
+
+#group .group-type-card-preview--text span:nth-child(2),
+#group .group-type-card-preview--code span:nth-child(2),
+#group .group-type-card-preview--steps span:nth-child(2),
+#group .group-type-card-preview--callout span:nth-child(2),
+#group .group-type-card-preview--file span:nth-child(2) {
+    width: 82%;
+}
+
+#group .group-type-card-preview--text span:nth-child(3),
+#group .group-type-card-preview--code span:nth-child(3),
+#group .group-type-card-preview--steps span:nth-child(3) {
+    width: 58%;
+}
+
+/* Link card preview: an image block above a single text line. */
+#group .group-type-card-preview--linkcard span:first-child {
+    width: 100%;
+    height: 26px;
+    border-radius: 10px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 14%,
+        var(--overlay-hover-bg, rgba(0, 0, 0, 0.04))
+    );
+}
+
+#group .group-type-card-preview--linkcard span:nth-child(2) {
+    height: 7px;
+    width: 70%;
+}
+
+#group .group-type-card-preview--callout {
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 10%,
+        var(--overlay-hover-bg, rgba(0, 0, 0, 0.04))
+    );
+}
+
+#group .group-type-card-preview--code span {
+    border-radius: 6px;
+}
+
+#group .group-type-card-preview--steps span:first-child::before,
+#group .group-type-card-preview--steps span:nth-child(2)::before,
+#group .group-type-card-preview--steps span:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    left: 0.85rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 28%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--steps span:first-child,
+#group .group-type-card-preview--steps span:nth-child(2),
+#group .group-type-card-preview--steps span:nth-child(3) {
+    margin-left: 0.95rem;
+}
+
+#group .group-type-card-preview--steps span:first-child::before {
+    top: 0.95rem;
+}
+
+#group .group-type-card-preview--steps span:nth-child(2)::before {
+    top: 1.9rem;
+}
+
+#group .group-type-card-preview--steps span:nth-child(3)::before {
+    top: 2.85rem;
+}
+
+#group .group-type-card-preview--image,
+#group .group-type-card-preview--divider,
+#group .group-type-card-preview--arrow {
+    justify-content: center;
+}
+
+#group .group-type-card-preview--image span {
+    width: 100%;
+    height: 100%;
+    min-height: 40px;
+    border-radius: 10px;
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 14%,
+        var(--overlay-hover-bg, rgba(0, 0, 0, 0.04))
+    );
+}
+
+#group .group-type-card-preview--profile {
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    gap: 0.55rem;
+    align-items: center;
+}
+
+#group .group-type-card-preview--profile span:first-child {
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+}
+
+#group .group-type-card-preview--profile span:nth-child(2) {
+    height: 8px;
+    width: 82%;
+}
+
+#group .group-type-card-preview--profile span:nth-child(3) {
+    grid-column: 2;
+    height: 7px;
+    width: 58%;
+}
+
+#group .group-type-card-preview--divider span {
+    width: 100%;
+    height: 2px;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 20%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--arrow span {
+    position: relative;
+    width: 70%;
+    height: 2px;
+    border-radius: 999px;
+    background: color-mix(
+        in srgb,
+        var(--overlay-text, #101828) 22%,
+        transparent
+    );
+}
+
+#group .group-type-card-preview--arrow span::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid
+        color-mix(in srgb, var(--overlay-text, #101828) 22%, transparent);
+    border-right: 2px solid
+        color-mix(in srgb, var(--overlay-text, #101828) 22%, transparent);
+    transform: rotate(45deg);
+}
+
+@media (max-width: 720px) {
+    #group .group-type-picker-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Drawer autofetch-favicon (Shortcut-family widgets): while the toggle is
+   on, the manual icon picker is hidden — only the toggle card stays. */
+.group-drawer-icon-collapsible-content
+    .add-drawer-card-body--icon.rt-autofetch-on
+    > :not(#group-autofetch-icon-card) {
+    display: none !important;
+}

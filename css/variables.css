@@ -1,0 +1,3896 @@
+/* =============================================================================
+   variables.css  —  Design-system token contract
+   SELF-CONTAINED THEMES: every theme block below declares the COMPLETE managed
+   token set (258 vars) as literals. No theme relies on :root for values.
+   :root == the warm "simple" default (also used for first-paint + class-less body).
+   16 context-dependent vars (settings-modal/callout fallbacks) intentionally remain
+   component-level var(--x, fallback) defaults and appear only where a theme overrides them.
+   Edit values here; the editor's THEME_DEFAULTS is generated from this file.
+   ============================================================================= */
+
+:root {
+  /* ===== simple / default (warm paper) — also the class-less default ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 0.6;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.8;
+  --clock-date-opacity: 0.85;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #888;
+  --scrollbar-thumb-hover: #555;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #fffdf8;
+  --add-btn-color: #3c352a;
+  --add-btn-shadow: 0 1px 2px rgba(74, 60, 42, 0.08), 0 2px 6px -2px rgba(74, 60, 42, 0.16);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #847a68;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 2px 8px -2px rgba(132, 122, 104, 0.45);
+  --btn-secondary-bg: #fffdf8;
+  --btn-secondary-text: #6b6051;
+  --btn-secondary-border: rgba(74, 60, 42, 0.16);
+  --btn-disabled-bg: rgba(74, 60, 42, 0.05);
+  --btn-disabled-text: #b9ad99;
+  --btn-disabled-border: rgba(74, 60, 42, 0.10);
+  --btn-delete-bg: rgba(187, 74, 53, 0.08);
+  --btn-delete-text: #bb4a35;
+  --btn-delete-border: rgba(187, 74, 53, 0.28);
+  /* fab */
+  --fab-bg: #fffdf8;
+  --fab-hover-bg: #f4eee2;
+  --fab-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --fab-icon: #847a68;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: #fffdf8;
+  --link-button-bg: linear-gradient(180deg, #fffdf8, #fbf7ee);
+  --card-border-color: rgba(74, 60, 42, 0.1);
+  --card-border: 1px solid rgba(74, 60, 42, 0.1);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #fffdf8;
+  --overlay-text: #3c352a;
+  --overlay-muted-text: #9c917d;
+  --overlay-icon-color: #b9ad99;
+  --overlay-border-color: rgba(74, 60, 42, 0.08);
+  --overlay-separator-color: rgba(74, 60, 42, 0.08);
+  --overlay-hover-bg: #f4eee2;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #fffdf8;
+  --input-bg: #ffffff;
+  --input-color: #3c352a;
+  --card-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --card-hover-border-color: rgba(74, 60, 42, 0.16);
+  --card-hover-shadow: 0 12px 26px -12px rgba(74, 60, 42, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #6e6151;
+  --header-divider-color: rgba(74, 60, 42, 0);
+  --header-font-size: 0.78rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.08em;
+  --header-padding-bottom: 0.4rem;
+  --header-margin-bottom: 0.55rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #6b6051;
+  --link-hover-bg: #f4eee2;
+  --link-hover-color: #3c352a;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #b9ad99;
+  --search-bg: #fffdf8;
+  --search-placeholder-color: #9c917d;
+  --search-border-color: rgba(74, 60, 42, 0.09);
+  --search-shadow: 0 1px 3px rgba(74, 60, 42, 0.06), 0 12px 28px -14px rgba(74, 60, 42, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* Item Types */
+  --divider-color: #e4dccd;
+  --item-header-color: #6e6151;
+  --item-header-line: #e4dccd;
+  --note-color: #9c917d;
+  /* Accent & Actions */
+  --accent-color: #4f4536;
+  --accent-hover-color: #6b6051;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #6b6051;
+  --empty-primary-hover-border: #6b6051;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #fffdf8;
+  --empty-secondary-hover-border: rgba(74, 60, 42, 0.24);
+  --empty-secondary-hover-color: #3c352a;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(74, 60, 42, 0.06);
+  --tabs-container-border-color: rgba(74, 60, 42, 0.1);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #847a68;
+  --tab-active-bg: #fffdf8;
+  --tab-active-color: #3c352a;
+  --tab-active-shadow: 0 1px 2px rgba(74, 60, 42, 0.08), 0 2px 6px -2px rgba(74, 60, 42, 0.16);
+  --header-action-settings-bg: rgba(74, 60, 42, 0.06);
+  --header-action-settings-border: rgba(74, 60, 42, 0.1);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #fffdf8;
+  --header-action-add-color: #3c352a;
+  --header-action-add-shadow: 0 1px 2px rgba(74, 60, 42, 0.08), 0 2px 6px -2px rgba(74, 60, 42, 0.16);
+  --header-action-idle-color: #847a68;
+  --header-action-hover-bg: #f4eee2;
+  --header-action-hover-color: #3c352a;
+  --tab-pro-color: #b9ad99;
+  --tab-hover-bg: #f4eee2;
+  --tab-hover-color: #3c352a;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #3c352a;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(74, 60, 42, 0.06);
+  --collapse-btn-color: #b9ad99;
+  --collapse-btn-hover-bg: #f4eee2;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #fffdf8;
+  --board-row-bg: #fffdf8;
+  --board-row-hover-shadow: 0 12px 26px -12px rgba(74, 60, 42, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --board-row-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: #fffdf8;
+  --clock-date: inherit;
+  --clock-greeting: #3c352a;
+  --clock-time: inherit;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: #fffdf8;
+  --empty-border: rgba(74, 60, 42, 0.08);
+  --empty-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --empty-text: #9c917d;
+  --empty-title: #3c352a;
+  --link-counter-color: #b9ad99;
+  --link-counter-shadow: none;
+  --menu-bg: #fffdf8;
+  --menu-border: rgba(74, 60, 42, 0.08);
+  --menu-hover-bg: #f4eee2;
+  --menu-icon: #b9ad99;
+  --menu-separator: rgba(74, 60, 42, 0.08);
+  --menu-text: #3c352a;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(74, 60, 42, 0.1);
+  --search-hint-hover-border: rgba(74, 60, 42, 0.1);
+  --search-hint-hover-color: #b9ad99;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #b9ad99;
+  --search-text: #6b6051;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(74, 60, 42, 0.26);
+  --section-panel-text-color: #6b6051;
+  --section-text-color: #6e6557;
+  --section-title-color: #3c352a;
+  --smodal-accent-tint: color-mix( in srgb, #ffffff 84%, #4f4536 16% );
+  --smodal-active-border: #4f4536;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #9c917d;
+  --smodal-raised-bg: #ffffff;
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: color-mix(in srgb, #4f4536 18%, transparent);
+  --step-badge-num: #4f4536;
+  --switcher-name: #3c352a;
+  --switcher-sub: #9c917d;
+  --tab-active-hover-bg: #fffdf8;
+  --tab-active-hover-color: #3c352a;
+  --todo-accent: #4f4536;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(74, 60, 42, 0.1);
+  --todo-add-color: #b9ad99;
+  --todo-add-hover-bg: color-mix(in srgb, #4f4536 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #4f4536 40%, transparent);
+  --todo-add-hover-color: #4f4536;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #6b6051;
+  --todo-toggle-bg: transparent;
+  --todo-toggle-border: rgba(74, 60, 42, 0.3);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-light {
+  /* ===== light ("Default Light") — cool / clean ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  /* Unified to match --accent-color (#4a6fd3): one blue across the drawer.
+     Drives the settings toggle fill; the active tab uses an accent tint (see light.css). */
+  --panel-active-bg: #4a6fd3;
+  --panel-active-text: #ffffff;
+  /* Deepen the settings-drawer content well (only) so white cards separate from it;
+     keep the tab strip lighter so inactive tab text stays >=4.5:1.
+     Global --panel-bg (popovers/dropdowns) stays untouched. */
+  --smodal-bg: #e6eaf2;
+  --smodal-tabs-bg: #f4f6fa;
+  /* Active settings tab: literal accent tint (#4a6fd3 @16% resolved over the
+     #f4f6fa strip) in the tab's OWN vars, so the theme editor can edit it.
+     Do NOT drive this from a rule referencing var(--accent-color). */
+  --smodal-active-bg: #d9e0f4;
+  --smodal-active-text: #3a58c0;
+  --panel-scrollbar: rgba(0, 0, 0, 0.1);
+  --panel-scrollbar-hover: rgba(0, 0, 0, 0.2);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 111, 211, 0.05);
+  --chip-hover-border: rgba(74, 111, 211, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 0.6;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.8;
+  --clock-date-opacity: 0.85;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #ddd;
+  --scrollbar-thumb-hover: #c4c4c4;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #5073ae;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 1px 2px rgba(16, 24, 40, 0.13), 0 4px 8px -2px rgba(16, 24, 40, 0.13);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #4a6fd3;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: none;
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #344054;
+  --btn-secondary-border: rgba(0, 0, 0, 0.16);
+  --btn-disabled-bg: rgba(0, 0, 0, 0.05);
+  --btn-disabled-text: #98a2b3;
+  --btn-disabled-border: rgba(0, 0, 0, 0.10);
+  --btn-delete-bg: rgba(187, 74, 53, 0.08);
+  --btn-delete-text: #dc2626;
+  --btn-delete-border: rgba(187, 74, 53, 0.28);
+  /* fab */
+  --fab-bg: #ffffff;
+  --fab-hover-bg: #f5f5f5;
+  --fab-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  --fab-icon: #555;
+  --fab-icon-hover: #1a1a1a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 8px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  /* Match --link-button-bg (#fff): groups and top-level shortcuts share one
+     card surface, as every other theme already does. Was #f6f9fe (blue-tinted). */
+  --card-bg: #ffffff;
+  --link-button-bg: #ffffff;
+  --card-border-color: rgba(16, 24, 40, 0.08);
+  --card-border: 1px solid rgba(0, 0, 0, 0.07);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #ffffff;
+  --overlay-text: #1a1a1a;
+  --overlay-muted-text: #667085;
+  --overlay-icon-color: #98a2b3;
+  --overlay-border-color: rgba(0, 0, 0, 0.08);
+  --overlay-separator-color: rgba(0, 0, 0, 0.08);
+  --overlay-hover-bg: #f2f4f7;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 8px 30px rgba(16, 24, 40, 0.18);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #ffffff;
+  --input-bg: #ffffff;
+  --input-color: #1a1a1a;
+  /* Dashboard card lift — one product-wide elevation language with the settings
+     drawer. Cards float over the user's background; safe on dark wallpapers
+     (shadow just disappears, card already contrasts). */
+  --card-shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 6px 16px -6px rgba(16, 24, 40, 0.12);
+  --card-hover-border-color: rgba(16, 24, 40, 0.14);
+  --card-hover-shadow: 0 2px 6px rgba(16, 24, 40, 0.08), 0 14px 30px -10px rgba(16, 24, 40, 0.18);
+  /* Group hover tint — matches the shortcut hover. Value COPIED from
+     --link-hover-bg (not referenced), so the theme editor can edit it. */
+  --card-hover-bg: rgba(74, 111, 211, 0.07);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #4674c8;
+  --header-divider-color: rgba(16, 24, 40, 0);
+  --header-font-size: 1.1rem;
+  --header-font-weight: 600;
+  --header-text-transform: none;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #1a1a1a;
+  --link-hover-bg: rgba(74, 111, 211, 0.07);
+  --link-hover-color: #000000;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #666;
+  --search-bg: rgba(255, 255, 255, 0.92);
+  --search-placeholder-color: #666;
+  --search-border-color: rgba(16, 24, 40, 0.1);
+  --search-shadow: 0 2px 5px rgba(16, 24, 40, 0.06);
+  /* Item Types */
+  --divider-color: #cdcbcb;
+  --item-header-color: #a8a8a8;
+  --item-header-line: #cdcbcb;
+  --note-color: #888;
+  /* Accent & Actions */
+  --accent-color: #4a6fd3;
+  --accent-hover-color: #3a5fc0;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #4b5668;
+  --empty-primary-hover-border: #4b5668;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #f3f6fb;
+  --empty-secondary-hover-border: rgba(70, 116, 200, 0.18);
+  --empty-secondary-hover-color: #1a1a1a;
+  /* Workspace Tabs */
+  --tabs-container-bg: #ffffff;
+  --tabs-container-border-color: rgba(16, 24, 40, 0.08);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #5b6573;
+  --tab-active-bg: #5073ae;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 1px 2px rgba(16, 24, 40, 0.13);
+  --header-action-settings-bg: #ffffff;
+  --header-action-settings-border: rgba(16, 24, 40, 0.1);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --header-action-add-bg: #5073ae;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 1px 2px rgba(16, 24, 40, 0.13);
+  --header-action-idle-color: #5b6573;
+  --header-action-hover-bg: #eef0f3;
+  --header-action-hover-color: #2a3340;
+  --tab-pro-color: #a3abb8;
+  --tab-hover-bg: #eef2f7;
+  --tab-hover-color: #2a3340;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: rgba(30, 41, 59, 0.92);
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(16, 24, 40, 0.04);
+  --collapse-btn-color: #777;
+  --collapse-btn-hover-bg: rgba(0, 0, 0, 0.1);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #ffffff;
+  --board-row-bg: rgba(255, 255, 255, 0.7);
+  --board-row-hover-shadow: 0 4px 16px rgba(16, 24, 40, 0.1);
+  --board-row-shadow: 0 1px 4px rgba(16, 24, 40, 0.06);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: rgba(255, 255, 255, 0.7);
+  --clock-date: inherit;
+  --clock-greeting: rgba(30, 41, 59, 0.92);
+  --clock-time: inherit;
+  --ct-error: #1f2937;
+  --ct-info: #1f2937;
+  --ct-success: #1f2937;
+  --ct-tip: #1f2937;
+  --ct-warning: #1f2937;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: #fff;
+  --empty-border: rgba(0, 0, 0, 0.07);
+  --empty-shadow: 0 1px 4px rgba(16, 24, 40, 0.06);
+  --empty-text: #777;
+  --empty-title: #777;
+  --link-counter-color: #666;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgba(0, 0, 0, 0.08);
+  --menu-hover-bg: #f2f4f7;
+  --menu-icon: #98a2b3;
+  --menu-separator: rgba(0, 0, 0, 0.08);
+  --menu-text: #1a1a1a;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(16, 24, 40, 0.08);
+  --search-hint-hover-border: rgba(16, 24, 40, 0.14);
+  --search-hint-hover-color: #666;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #666;
+  --search-text: #1a1a1a;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(16, 24, 40, 0.18);
+  --section-panel-text-color: #1f2937;
+  --section-text-color: #374151;
+  --section-title-color: rgba(30, 41, 59, 0.95);
+  --smodal-accent-tint: color-mix( in srgb, #ffffff 84%, #4a6fd3 16% );
+  --smodal-active-border: #4a6fd3;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #667085;
+  --smodal-raised-bg: #ffffff;
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: color-mix(in srgb, #4a6fd3 18%, transparent);
+  --step-badge-num: #4a6fd3;
+  --switcher-name: #1a1a1a;
+  --switcher-sub: #667085;
+  --tab-active-hover-bg: #45659b;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #4a6fd3;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(16, 24, 40, 0.08);
+  --todo-add-color: #666;
+  --todo-add-hover-bg: color-mix(in srgb, #4a6fd3 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #4a6fd3 40%, transparent);
+  --todo-add-hover-color: #4a6fd3;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #1a1a1a;
+  --todo-toggle-bg: transparent;
+  --todo-toggle-border: rgba(16, 24, 40, 0.28);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-dark {
+  /* ===== dark ===== */
+  /* settings panel controls */
+  --panel-input-bg: rgba(255, 236, 209, 0.05);
+  --panel-input-border: rgba(255, 236, 209, 0.09);
+  --panel-track: #e4e7ec;
+  --panel-value: #b0a594;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --panel-text: #faf6ef;
+  --panel-border: rgba(255, 236, 209, 0.09);
+  --panel-separator: rgba(255, 236, 209, 0.07);
+  --panel-shadow: -8px 0 40px rgba(0, 0, 0, 0.2);
+  --panel-close: #b0a594;
+  --panel-close-hover: #faf6ef;
+  --panel-tab: #b0a594;
+  --panel-hover-bg: rgba(245, 165, 36, 0.09);
+  --panel-active-bg: #f5a524;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(245, 165, 36, 0.2);
+  --panel-scrollbar-hover: rgba(245, 165, 36, 0.35);
+  --panel-footer-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --panel-section-title: #b0a594;
+  /* settings bg-option chips */
+  --chip-bg: rgba(255, 236, 209, 0.03);
+  --chip-border: rgba(255, 236, 209, 0.09);
+  --chip-color: #efe6d6;
+  --chip-hover-bg: rgba(245, 165, 36, 0.08);
+  --chip-hover-border: rgba(245, 165, 36, 0.32);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --switcher-empty-bg: rgba(255, 236, 209, 0.03);
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(245, 165, 36, 0.12);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: linear-gradient(180deg, #2c2519 0%, #241e14 100%);
+  --search-hint-hover-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.09), 0 16px 30px -10px rgba(0, 0, 0, 0.7);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #ccc;
+  --te-section: #555;
+  --te-section-border: rgba(255, 255, 255, 0.08);
+  --te-row-divider: rgba(255, 255, 255, 0.05);
+  --te-hint: #666;
+  --te-label: #aaa;
+  --te-rangeval: #888;
+  --te-chip-bg: rgba(255, 255, 255, 0.06);
+  --te-chip-border: rgba(255, 255, 255, 0.12);
+  --te-chip-name: #ccc;
+  --te-chip-delete: #aaa;
+  --te-chip-delete-bg: rgba(255, 255, 255, 0.1);
+  --te-chip-active-bg: rgba(160, 112, 255, 0.15);
+  --te-chip-active-name: #c4a0ff;
+  --te-deactivate-bg: rgba(160, 112, 255, 0.12);
+  --te-deactivate-border: rgba(160, 112, 255, 0.4);
+  --te-deactivate-color: #d7c1ff;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #3a3d42;
+  --scrollbar-thumb-hover: #4a4e55;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: rgba(255, 255, 255, 0.08);
+  --ctrl-border: rgba(255, 255, 255, 0.12);
+  --ctrl-icon: #aaa;
+  --ctrl-hover-bg: rgba(255, 255, 255, 0.1);
+  --ctrl-hover-border: rgba(255, 255, 255, 0.15);
+  --ctrl-hover-icon: #ddd;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: rgba(245, 165, 36, 0.15);
+  --add-btn-color: #f6b65c;
+  --add-btn-shadow: inset 0 1px 0 rgba(255, 210, 150, 0.12);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #cf8a2e;
+  --btn-primary-text: #17120a;
+  --btn-primary-glow: 0 4px 14px -3px rgba(207, 138, 46, 0.35);
+  --btn-secondary-bg: rgba(255, 236, 209, 0.05);
+  --btn-secondary-text: #c2b6a3;
+  --btn-secondary-border: rgba(255, 236, 209, 0.14);
+  --btn-disabled-bg: rgba(255, 236, 209, 0.04);
+  --btn-disabled-text: #7d7361;
+  --btn-disabled-border: rgba(255, 236, 209, 0.10);
+  --btn-delete-bg: rgba(239, 107, 82, 0.14);
+  --btn-delete-text: #f08a72;
+  --btn-delete-border: rgba(239, 107, 82, 0.45);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --fab-hover-bg: linear-gradient(180deg, #2c2519 0%, #241e14 100%);
+  --fab-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.06), 0 8px 18px -10px rgba(0, 0, 0, 0.6);
+  --fab-icon: #c79a5a;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --link-button-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --card-border-color: rgba(255, 236, 209, 0.09);
+  --card-border: 1px solid rgba(255, 236, 209, 0.09);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --overlay-text: #faf6ef;
+  --overlay-muted-text: #b0a594;
+  --overlay-icon-color: #c79a5a;
+  --overlay-border-color: rgba(255, 236, 209, 0.09);
+  --overlay-separator-color: rgba(255, 236, 209, 0.07);
+  --overlay-hover-bg: rgba(245, 165, 36, 0.09);
+  --overlay-section-bg: rgba(255, 236, 209, 0.05);
+  --overlay-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.06), 0 8px 18px -10px rgba(0, 0, 0, 0.6);
+  --settings-card-box-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.04), 0 1px 2px rgba(0, 0, 0, 0.22), 0 1px 3px 1px rgba(0, 0, 0, 0.14);
+  --modal-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --input-bg: rgba(255, 236, 209, 0.05);
+  --input-color: #faf6ef;
+  --card-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.07), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --card-hover-border-color: rgba(245, 165, 36, 0.32);
+  --card-hover-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.09), 0 16px 30px -10px rgba(0, 0, 0, 0.7);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #efe6d6;
+  --header-divider-color: rgba(255, 236, 209, 0);
+  --header-font-size: 0.85rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.08em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #c2b6a3;
+  --link-hover-bg: rgba(245, 165, 36, 0.09);
+  --link-hover-color: #f7c074;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #c79a5a;
+  --search-bg: linear-gradient(180deg, #221d15 0%, #1c170f 100%);
+  --search-placeholder-color: #7d7361;
+  --search-border-color: rgba(255, 236, 209, 0.11);
+  --search-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.06), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+  /* Item Types */
+  --divider-color: rgba(255, 236, 209, 0.09);
+  --item-header-color: #efe6d6;
+  --item-header-line: rgba(255, 236, 209, 0.09);
+  --note-color: #b0a594;
+  /* Accent & Actions */
+  --accent-color: #f5a524;
+  --accent-hover-color: #f5a524;
+  --settings-status-pill-bg: rgba(6, 78, 59, 0.78);
+  --settings-status-pill-color: #6ee7b7;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #f5a524;
+  --empty-primary-hover-border: #f5a524;
+  --empty-primary-hover-color: #221d15;
+  --empty-secondary-hover-bg: rgba(245, 165, 36, 0.12);
+  --empty-secondary-hover-border: rgba(245, 165, 36, 0.34);
+  --empty-secondary-hover-color: #faf6ef;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(245, 165, 36, 0.05);
+  --tabs-container-border-color: rgba(255, 236, 209, 0.09);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #b0a594;
+  --tab-active-bg: rgba(245, 165, 36, 0.15);
+  --tab-active-color: #f6b65c;
+  --tab-active-shadow: inset 0 1px 0 rgba(255, 210, 150, 0.12);
+  --header-action-settings-bg: rgba(245, 165, 36, 0.05);
+  --header-action-settings-border: rgba(255, 236, 209, 0.09);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: rgba(245, 165, 36, 0.15);
+  --header-action-add-color: #f6b65c;
+  --header-action-add-shadow: inset 0 1px 0 rgba(255, 210, 150, 0.12);
+  --header-action-idle-color: #b0a594;
+  --header-action-hover-bg: rgba(245, 165, 36, 0.09);
+  --header-action-hover-color: #f7c074;
+  --tab-pro-color: rgba(255, 236, 209, 0.32);
+  --tab-hover-bg: rgba(245, 165, 36, 0.09);
+  --tab-hover-color: #f7c074;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #faf6ef;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(255, 236, 209, 0.05);
+  --collapse-btn-color: rgba(255, 236, 209, 0.32);
+  --collapse-btn-hover-bg: rgba(245, 165, 36, 0.09);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --board-row-bg: linear-gradient(180deg, #2d261c 0%, #272119 100%);
+  --board-row-hover-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.08), 0 6px 16px -6px rgba(0, 0, 0, 0.55);
+  --board-row-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.06), 0 2px 8px -2px rgba(0, 0, 0, 0.4);
+  --callout-border: rgba(255, 255, 255, 0.08);
+  --callout-highlight: rgba(255, 255, 255, 0.05);
+  --callout-surface: linear-gradient(180deg, #1f1f22, #161618);
+  --clock-date: #b0a594;
+  --clock-greeting: #faf6ef;
+  --clock-time: #faf6ef;
+  --ct-error: #ff9095;
+  --ct-info: #8fbcff;
+  --ct-success: #86efac;
+  --ct-tip: #c7adff;
+  --ct-warning: #ffce72;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --empty-border: rgba(255, 236, 209, 0.09);
+  --empty-shadow: inset 0 1px 0 rgba(255, 222, 176, 0.07), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --empty-text: #b0a594;
+  --empty-title: #faf6ef;
+  --link-counter-color: #d9a557;
+  --link-counter-shadow: 0 0 8px rgba(245, 165, 36, 0.18);
+  --menu-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --menu-border: rgba(255, 236, 209, 0.09);
+  --menu-hover-bg: rgba(245, 165, 36, 0.09);
+  --menu-icon: #c79a5a;
+  --menu-separator: rgba(255, 236, 209, 0.07);
+  --menu-text: #faf6ef;
+  --menu-danger-color: #e3917b;
+  --search-hint-border: rgba(255, 236, 209, 0.14);
+  --search-hint-hover-border: rgba(255, 236, 209, 0.09);
+  --search-hint-hover-color: #c79a5a;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #f5a524;
+  --search-text: #c2b6a3;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(255, 236, 209, 0.22);
+  --section-panel-text-color: #c2b6a3;
+  --section-text-color: #b0a594;
+  --section-title-color: #faf6ef;
+  --smodal-accent-tint: rgba(245, 165, 36, 0.12);
+  --smodal-active-border: rgba(245, 165, 36, 0.32);
+  --smodal-bg: linear-gradient(180deg, #221d15 0%, #1b160f 100%);
+  --smodal-close: #666;
+  --smodal-close-hover: #bbb;
+  --smodal-muted: #666;
+  --smodal-raised-bg: #2a2d31;
+  --smodal-row-border: rgba(255, 255, 255, 0.06);
+  --smodal-separator: rgba(255, 255, 255, 0.08);
+  --smodal-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  --smodal-tab: #888;
+  --smodal-tab-hover-bg: rgba(255, 255, 255, 0.07);
+  --smodal-tab-hover-color: #ccc;
+  --smodal-tabs-bg: #17120b;
+  --smodal-text: #e0e0e0;
+  --smodal-track: #3a3d42;
+  --smodal-value: #aaa;
+  --step-badge-bg: color-mix(in srgb, #f5a524 18%, transparent);
+  --step-badge-num: #f5a524;
+  --switcher-name: #faf6ef;
+  --switcher-sub: #b0a594;
+  --tab-active-hover-bg: rgba(245, 165, 36, 0.15);
+  --tab-active-hover-color: #f6b65c;
+  --todo-accent: #f5a524;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(255, 236, 209, 0.09);
+  --todo-add-color: #c79a5a;
+  --todo-add-hover-bg: color-mix(in srgb, #f5a524 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #f5a524 40%, transparent);
+  --todo-add-hover-color: #f5a524;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #c2b6a3;
+  --todo-toggle-bg: rgba(255, 236, 209, 0.06);
+  --todo-toggle-border: rgba(245, 165, 36, 0.34);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 22%;
+  --header-border-color: rgba(255, 236, 209, 0.09);
+  --search-hint-bg: rgba(255, 236, 209, 0.05);
+  --search-hint-color: #b0a594;
+  --smodal-accent: #f5a524;
+  --smodal-active-bg: rgba(245, 165, 36, 0.15);
+  --smodal-active-text: #f6b65c;
+  --smodal-btn-bg: rgba(255, 255, 255, 0.06);
+  --smodal-btn-border: rgba(255, 255, 255, 0.1);
+  --smodal-btn-color: #aaa;
+  --smodal-btn-hover-bg: rgba(255, 255, 255, 0.12);
+  --smodal-btn-hover-color: #ccc;
+  --smodal-input-bg: #1e2124;
+  --smodal-input-border: rgba(255, 255, 255, 0.12);
+  --smodal-input-text: #ddd;
+  --smodal-label: #888;
+}
+
+body.ui-midnight {
+  /* ===== midnight ===== */
+  /* settings panel controls */
+  --panel-input-bg: rgba(152, 186, 255, 0.05);
+  --panel-input-border: rgba(152, 186, 255, 0.09);
+  --panel-track: #e4e7ec;
+  --panel-value: #8e9bb3;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --panel-text: #eef3fb;
+  --panel-border: rgba(152, 186, 255, 0.09);
+  --panel-separator: rgba(152, 186, 255, 0.07);
+  --panel-shadow: -8px 0 40px rgba(0, 0, 0, 0.2);
+  --panel-close: #8e9bb3;
+  --panel-close-hover: #eef3fb;
+  --panel-tab: #8e9bb3;
+  --panel-hover-bg: rgba(79, 140, 255, 0.1);
+  --panel-active-bg: #4f8cff;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(79, 140, 255, 0.22);
+  --panel-scrollbar-hover: rgba(79, 140, 255, 0.38);
+  --panel-footer-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --panel-section-title: #8e9bb3;
+  /* settings bg-option chips */
+  --chip-bg: rgba(152, 186, 255, 0.03);
+  --chip-border: rgba(152, 186, 255, 0.09);
+  --chip-color: #dde6f5;
+  --chip-hover-bg: rgba(79, 140, 255, 0.08);
+  --chip-hover-border: rgba(79, 140, 255, 0.38);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --switcher-empty-bg: rgba(152, 186, 255, 0.03);
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(79, 140, 255, 0.14);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: linear-gradient(180deg, #1e2a40 0%, #162132 100%);
+  --search-hint-hover-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.1), 0 16px 30px -10px rgba(0, 0, 0, 0.7);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #ccc;
+  --te-section: #555;
+  --te-section-border: rgba(255, 255, 255, 0.08);
+  --te-row-divider: rgba(255, 255, 255, 0.05);
+  --te-hint: #666;
+  --te-label: #aaa;
+  --te-rangeval: #888;
+  --te-chip-bg: rgba(255, 255, 255, 0.06);
+  --te-chip-border: rgba(255, 255, 255, 0.12);
+  --te-chip-name: #ccc;
+  --te-chip-delete: #aaa;
+  --te-chip-delete-bg: rgba(255, 255, 255, 0.1);
+  --te-chip-active-bg: rgba(160, 112, 255, 0.15);
+  --te-chip-active-name: #c4a0ff;
+  --te-deactivate-bg: rgba(160, 112, 255, 0.12);
+  --te-deactivate-border: rgba(160, 112, 255, 0.4);
+  --te-deactivate-color: #d7c1ff;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: rgba(152, 186, 255, 0.12);
+  --scrollbar-thumb-hover: rgba(152, 186, 255, 0.22);
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: rgba(255, 255, 255, 0.08);
+  --ctrl-border: rgba(255, 255, 255, 0.12);
+  --ctrl-icon: #aaa;
+  --ctrl-hover-bg: rgba(255, 255, 255, 0.1);
+  --ctrl-hover-border: rgba(255, 255, 255, 0.15);
+  --ctrl-hover-icon: #ddd;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: rgba(79, 140, 255, 0.16);
+  --add-btn-color: #7facff;
+  --add-btn-shadow: inset 0 1px 0 rgba(150, 190, 255, 0.14);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #4f8cff;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 4px 14px -2px rgba(79, 140, 255, 0.5);
+  --btn-secondary-bg: rgba(152, 186, 255, 0.05);
+  --btn-secondary-text: #b3c0d6;
+  --btn-secondary-border: rgba(152, 186, 255, 0.14);
+  --btn-disabled-bg: rgba(152, 186, 255, 0.04);
+  --btn-disabled-text: #5f6b82;
+  --btn-disabled-border: rgba(152, 186, 255, 0.10);
+  --btn-delete-bg: rgba(255, 107, 107, 0.14);
+  --btn-delete-text: #ff8b86;
+  --btn-delete-border: rgba(255, 107, 107, 0.45);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --fab-hover-bg: linear-gradient(180deg, #1e2a40 0%, #162132 100%);
+  --fab-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.07), 0 8px 18px -10px rgba(0, 0, 0, 0.6);
+  --fab-icon: #6f8fc0;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --link-button-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --card-border-color: rgba(152, 186, 255, 0.09);
+  --card-border: 1px solid rgba(152, 186, 255, 0.09);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --overlay-text: #eef3fb;
+  --overlay-muted-text: #8e9bb3;
+  --overlay-icon-color: #6f8fc0;
+  --overlay-border-color: rgba(152, 186, 255, 0.09);
+  --overlay-separator-color: rgba(152, 186, 255, 0.07);
+  --overlay-hover-bg: rgba(79, 140, 255, 0.1);
+  --overlay-section-bg: rgba(152, 186, 255, 0.05);
+  --overlay-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.07), 0 8px 18px -10px rgba(0, 0, 0, 0.6);
+  --settings-card-box-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.04), 0 1px 2px rgba(0, 0, 0, 0.22), 0 1px 3px 1px rgba(0, 0, 0, 0.14);
+  --modal-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --input-bg: rgba(152, 186, 255, 0.05);
+  --input-color: #eef3fb;
+  --card-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --card-hover-border-color: rgba(79, 140, 255, 0.38);
+  --card-hover-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.1), 0 16px 30px -10px rgba(0, 0, 0, 0.7);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #dde6f5;
+  --header-divider-color: rgba(152, 186, 255, 0);
+  --header-font-size: 0.85rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.08em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #b3c0d6;
+  --link-hover-bg: rgba(79, 140, 255, 0.1);
+  --link-hover-color: #8ab6ff;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #6f8fc0;
+  --search-bg: linear-gradient(180deg, #162033 0%, #101827 100%);
+  --search-placeholder-color: #5f6b82;
+  --search-border-color: rgba(152, 186, 255, 0.11);
+  --search-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.07), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+  /* Item Types */
+  --divider-color: rgba(152, 186, 255, 0.09);
+  --item-header-color: #dde6f5;
+  --item-header-line: rgba(152, 186, 255, 0.09);
+  --note-color: #8e9bb3;
+  /* Accent & Actions */
+  --accent-color: #4f8cff;
+  --accent-hover-color: #4f8cff;
+  --settings-status-pill-bg: rgba(6, 78, 59, 0.74);
+  --settings-status-pill-color: #6ee7b7;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #4f8cff;
+  --empty-primary-hover-border: #4f8cff;
+  --empty-primary-hover-color: #eef3fb;
+  --empty-secondary-hover-bg: rgba(79, 140, 255, 0.12);
+  --empty-secondary-hover-border: rgba(79, 140, 255, 0.34);
+  --empty-secondary-hover-color: #eef3fb;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(152, 186, 255, 0.05);
+  --tabs-container-border-color: rgba(152, 186, 255, 0.09);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #8e9bb3;
+  --tab-active-bg: rgba(79, 140, 255, 0.16);
+  --tab-active-color: #7facff;
+  --tab-active-shadow: inset 0 1px 0 rgba(150, 190, 255, 0.14);
+  --header-action-settings-bg: rgba(152, 186, 255, 0.05);
+  --header-action-settings-border: rgba(152, 186, 255, 0.09);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: rgba(79, 140, 255, 0.16);
+  --header-action-add-color: #7facff;
+  --header-action-add-shadow: inset 0 1px 0 rgba(150, 190, 255, 0.14);
+  --header-action-idle-color: #8e9bb3;
+  --header-action-hover-bg: rgba(79, 140, 255, 0.1);
+  --header-action-hover-color: #8ab6ff;
+  --tab-pro-color: rgba(152, 186, 255, 0.32);
+  --tab-hover-bg: rgba(79, 140, 255, 0.1);
+  --tab-hover-color: #8ab6ff;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #eef3fb;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(152, 186, 255, 0.05);
+  --collapse-btn-color: rgba(152, 186, 255, 0.32);
+  --collapse-btn-hover-bg: rgba(79, 140, 255, 0.1);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --board-row-bg: linear-gradient(180deg, #1e2a43 0%, #18223a 100%);
+  --board-row-hover-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.08), 0 6px 16px -6px rgba(0, 0, 0, 0.5);
+  --board-row-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.06), 0 2px 8px -2px rgba(0, 0, 0, 0.38);
+  --callout-border: rgba(150, 180, 255, 0.12);
+  --callout-highlight: rgba(165, 200, 255, 0.07);
+  --callout-surface: linear-gradient(180deg, #222e44, #1a2438);
+  --clock-date: #8e9bb3;
+  --clock-greeting: #eef3fb;
+  --clock-time: #eef3fb;
+  --ct-error: #ff9095;
+  --ct-info: #8fbcff;
+  --ct-success: #86efac;
+  --ct-tip: #c7adff;
+  --ct-warning: #ffce72;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --empty-border: rgba(152, 186, 255, 0.09);
+  --empty-shadow: inset 0 1px 0 rgba(165, 200, 255, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --empty-text: #8e9bb3;
+  --empty-title: #eef3fb;
+  --link-counter-color: #8ab6ff;
+  --link-counter-shadow: 0 0 8px rgba(79, 140, 255, 0.22);
+  --menu-bg: linear-gradient(180deg, #162033 0%, #101726 100%);
+  --menu-border: rgba(152, 186, 255, 0.09);
+  --menu-hover-bg: rgba(79, 140, 255, 0.1);
+  --menu-icon: #6f8fc0;
+  --menu-separator: rgba(152, 186, 255, 0.07);
+  --menu-text: #eef3fb;
+  --menu-danger-color: #e57373;
+  --search-hint-border: rgba(152, 186, 255, 0.14);
+  --search-hint-hover-border: rgba(152, 186, 255, 0.09);
+  --search-hint-hover-color: #6f8fc0;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #4f8cff;
+  --search-text: #b3c0d6;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(152, 186, 255, 0.22);
+  --section-panel-text-color: #b3c0d6;
+  --section-text-color: #8e9bb3;
+  --section-title-color: #eef3fb;
+  --smodal-accent-tint: rgba(56, 139, 253, 0.12);
+  --smodal-active-border: #388bfd;
+  --smodal-bg: #161b22;
+  --smodal-close: #6e7681;
+  --smodal-close-hover: #c9d1d9;
+  --smodal-muted: #6e7681;
+  --smodal-raised-bg: #161b22;
+  --smodal-row-border: rgba(255, 255, 255, 0.06);
+  --smodal-separator: rgba(48, 54, 61, 0.8);
+  --smodal-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+  --smodal-tab: #8b949e;
+  --smodal-tab-hover-bg: rgba(56, 139, 253, 0.1);
+  --smodal-tab-hover-color: #c9d1d9;
+  --smodal-tabs-bg: #0d1117;
+  --smodal-text: #c9d1d9;
+  --smodal-track: #30363d;
+  --smodal-value: #8b949e;
+  --step-badge-bg: color-mix(in srgb, #4f8cff 18%, transparent);
+  --step-badge-num: #4f8cff;
+  --switcher-name: #eef3fb;
+  --switcher-sub: #8e9bb3;
+  --tab-active-hover-bg: rgba(79, 140, 255, 0.16);
+  --tab-active-hover-color: #7facff;
+  --todo-accent: #4f8cff;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(152, 186, 255, 0.09);
+  --todo-add-color: #6f8fc0;
+  --todo-add-hover-bg: color-mix(in srgb, #4f8cff 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #4f8cff 40%, transparent);
+  --todo-add-hover-color: #4f8cff;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #b3c0d6;
+  --todo-toggle-bg: rgba(152, 186, 255, 0.08);
+  --todo-toggle-border: rgba(79, 140, 255, 0.38);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 20%;
+  --header-border-color: rgba(152, 186, 255, 0.09);
+  --search-hint-bg: rgba(152, 186, 255, 0.05);
+  --search-hint-color: #8e9bb3;
+  --smodal-accent: #388bfd;
+  --smodal-active-bg: #388bfd;
+  --smodal-active-text: #fff;
+  --smodal-btn-bg: rgba(255, 255, 255, 0.05);
+  --smodal-btn-border: rgba(48, 54, 61, 0.8);
+  --smodal-btn-color: #8b949e;
+  --smodal-btn-hover-bg: rgba(255, 255, 255, 0.1);
+  --smodal-btn-hover-color: #c9d1d9;
+  --smodal-input-bg: #0d1117;
+  --smodal-input-border: rgba(48, 54, 61, 0.8);
+  --smodal-input-text: #c9d1d9;
+  --smodal-label: #8b949e;
+}
+
+body.ui-luxury {
+  /* ===== luxury ===== */
+  /* settings panel controls */
+  --panel-input-bg: rgba(214, 186, 130, 0.05);
+  --panel-input-border: rgba(214, 186, 130, 0.09);
+  --panel-track: #e4e7ec;
+  --panel-value: #a99a7c;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: linear-gradient(180deg, #221d14 0%, #171209 100%);
+  --panel-text: #f4ecd8;
+  --panel-border: rgba(214, 186, 130, 0.09);
+  --panel-separator: rgba(214, 186, 130, 0.09);
+  --panel-shadow: -8px 0 40px rgba(0, 0, 0, 0.2);
+  --panel-close: #a99a7c;
+  --panel-close-hover: #f4ecd8;
+  --panel-tab: #a99a7c;
+  --panel-hover-bg: rgba(216, 181, 110, 0.1);
+  --panel-active-bg: #d8b56e;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(180, 140, 60, 0.2);
+  --panel-scrollbar-hover: rgba(180, 140, 60, 0.38);
+  --panel-footer-bg: #1e1b14;
+  --panel-section-title: #a99a7c;
+  /* settings bg-option chips */
+  --chip-bg: rgba(212, 168, 67, 0.03);
+  --chip-border: rgba(212, 168, 67, 0.15);
+  --chip-color: #c9a840;
+  --chip-hover-bg: rgba(212, 168, 67, 0.07);
+  --chip-hover-border: rgba(212, 168, 67, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: rgba(212, 168, 67, 0.04);
+  --switcher-empty-bg: rgba(212, 168, 67, 0.05);
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 0.6;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.8;
+  --clock-date-opacity: 0.85;
+  /* theme-editor (Pro) panel */
+  --te-heading: #ccc;
+  --te-section: #555;
+  --te-section-border: rgba(255, 255, 255, 0.08);
+  --te-row-divider: rgba(255, 255, 255, 0.05);
+  --te-hint: #666;
+  --te-label: #aaa;
+  --te-rangeval: #888;
+  --te-chip-bg: rgba(255, 255, 255, 0.06);
+  --te-chip-border: rgba(255, 255, 255, 0.12);
+  --te-chip-name: #ccc;
+  --te-chip-delete: #aaa;
+  --te-chip-delete-bg: rgba(255, 255, 255, 0.1);
+  --te-chip-active-bg: rgba(160, 112, 255, 0.15);
+  --te-chip-active-name: #c4a0ff;
+  --te-deactivate-bg: rgba(160, 112, 255, 0.12);
+  --te-deactivate-border: rgba(160, 112, 255, 0.4);
+  --te-deactivate-color: #d7c1ff;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #3a3320;
+  --scrollbar-thumb-hover: #4c4329;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: rgba(255, 255, 255, 0.08);
+  --ctrl-border: rgba(255, 255, 255, 0.12);
+  --ctrl-icon: #aaa;
+  --ctrl-hover-bg: rgba(255, 255, 255, 0.1);
+  --ctrl-hover-border: rgba(255, 255, 255, 0.15);
+  --ctrl-hover-icon: #ddd;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: rgba(216, 181, 110, 0.16);
+  --add-btn-color: #e8cd8e;
+  --add-btn-shadow: inset 0 1px 0 rgba(230, 200, 140, 0.14);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #d8b56e;
+  --btn-primary-text: #1c1813;
+  --btn-primary-glow: 0 4px 14px -2px rgba(216, 181, 110, 0.5);
+  --btn-secondary-bg: rgba(214, 186, 130, 0.05);
+  --btn-secondary-text: #c9bb9c;
+  --btn-secondary-border: rgba(214, 186, 130, 0.14);
+  --btn-disabled-bg: rgba(214, 186, 130, 0.05);
+  --btn-disabled-text: #7a6f55;
+  --btn-disabled-border: rgba(214, 186, 130, 0.11);
+  --btn-delete-bg: rgba(207, 90, 63, 0.16);
+  --btn-delete-text: #e08a6a;
+  --btn-delete-border: rgba(207, 90, 63, 0.50);
+  /* fab */
+  --fab-bg: #2a2518;
+  --fab-hover-bg: #332f1c;
+  --fab-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  --fab-icon: #c9a840;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: linear-gradient(180deg, #221d14 0%, #171209 100%);
+  --link-button-bg: linear-gradient(180deg, #221d14 0%, #171209 100%);
+  --card-border-color: rgba(214, 186, 130, 0.09);
+  --card-border: 1px solid rgba(214, 186, 130, 0.09);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: linear-gradient(180deg, #221d14 0%, #171209 100%);
+  --overlay-text: #f4ecd8;
+  --overlay-muted-text: #a99a7c;
+  --overlay-icon-color: #d8b56e;
+  --overlay-border-color: rgba(214, 186, 130, 0.09);
+  --overlay-separator-color: rgba(214, 186, 130, 0.09);
+  --overlay-hover-bg: rgba(216, 181, 110, 0.1);
+  --overlay-section-bg: rgba(214, 186, 130, 0.05);
+  --overlay-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 8px 18px -10px rgba(0, 0, 0, 0.6);
+  --settings-card-box-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.04), 0 1px 2px rgba(0, 0, 0, 0.24), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --modal-bg: #1e1b14;
+  --input-bg: rgba(214, 186, 130, 0.05);
+  --input-color: #f4ecd8;
+  --card-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --card-hover-border-color: rgba(216, 181, 110, 0.38);
+  --card-hover-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #b89d6e;
+  --header-divider-color: rgba(214, 186, 130, 0);
+  --header-font-size: 1rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.04em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #c9bb9c;
+  --link-hover-bg: rgba(216, 181, 110, 0.1);
+  --link-hover-color: #e8cd8e;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #d8b56e;
+  --search-bg: linear-gradient(180deg, #221d14 0%, #181208 100%);
+  --search-placeholder-color: #7a6f55;
+  --search-border-color: rgba(214, 186, 130, 0.11);
+  --search-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+  /* Item Types */
+  --divider-color: rgba(214, 186, 130, 0.09);
+  --item-header-color: #ede2c8;
+  --item-header-line: rgba(214, 186, 130, 0.09);
+  --note-color: #a99a7c;
+  /* Accent & Actions */
+  --accent-color: #d8b56e;
+  --accent-hover-color: #d8b56e;
+  --settings-status-pill-bg: rgba(6, 78, 59, 0.78);
+  --settings-status-pill-color: #6ee7b7;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #d8b56e;
+  --empty-primary-hover-border: #d8b56e;
+  --empty-primary-hover-color: #171209;
+  --empty-secondary-hover-bg: rgba(216, 181, 110, 0.12);
+  --empty-secondary-hover-border: rgba(216, 181, 110, 0.34);
+  --empty-secondary-hover-color: #f4ecd8;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(214, 186, 130, 0.05);
+  --tabs-container-border-color: rgba(214, 186, 130, 0.09);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #a99a7c;
+  --tab-active-bg: rgba(216, 181, 110, 0.16);
+  --tab-active-color: #e8cd8e;
+  --tab-active-shadow: inset 0 1px 0 rgba(230, 200, 140, 0.14);
+  --header-action-settings-bg: rgba(214, 186, 130, 0.05);
+  --header-action-settings-border: rgba(214, 186, 130, 0.09);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: rgba(216, 181, 110, 0.16);
+  --header-action-add-color: #e8cd8e;
+  --header-action-add-shadow: inset 0 1px 0 rgba(230, 200, 140, 0.14);
+  --header-action-idle-color: #a99a7c;
+  --header-action-hover-bg: rgba(216, 181, 110, 0.1);
+  --header-action-hover-color: #e8cd8e;
+  --tab-pro-color: rgba(214, 186, 130, 0.32);
+  --tab-hover-bg: rgba(40, 36, 25, 0.95);
+  --tab-hover-color: #e8cd8e;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #e6c074;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(214, 186, 130, 0.05);
+  --collapse-btn-color: rgba(214, 186, 130, 0.32);
+  --collapse-btn-hover-bg: rgba(216, 181, 110, 0.1);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #1e1b14;
+  --board-row-bg: linear-gradient(180deg, #2c2618 0%, #211b10 100%);
+  --board-row-hover-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 6px 16px -6px rgba(0, 0, 0, 0.5);
+  --board-row-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.06), 0 2px 8px -2px rgba(0, 0, 0, 0.38);
+  --callout-border: rgba(214, 186, 130, 0.14);
+  --callout-highlight: rgba(228, 200, 150, 0.06);
+  --callout-surface: linear-gradient(180deg, #221d14 0%, #171209 100%);
+  --clock-date: inherit;
+  --clock-greeting: #e6c074;
+  --clock-time: inherit;
+  --ct-error: #ff9095;
+  --ct-info: #8fbcff;
+  --ct-success: #86efac;
+  --ct-tip: #c7adff;
+  --ct-warning: #ffce72;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: #1e1b14;
+  --empty-border: rgba(212, 168, 67, 0.15);
+  --empty-shadow: inset 0 1px 0 rgba(228, 200, 150, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --empty-text: #7a6530;
+  --empty-title: #c9a840;
+  --link-counter-color: #d8b56e;
+  --link-counter-shadow: none;
+  --menu-bg: #2a2518;
+  --menu-border: rgba(212, 168, 67, 0.2);
+  --menu-hover-bg: rgba(212, 168, 67, 0.08);
+  --menu-icon: #9a7d2e;
+  --menu-separator: rgba(212, 168, 67, 0.1);
+  --menu-text: #c9a840;
+  --menu-danger-color: #e0917c;
+  --search-hint-border: rgba(214, 186, 130, 0.09);
+  --search-hint-hover-border: rgba(214, 186, 130, 0.09);
+  --search-hint-hover-color: #d8b56e;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #d8b56e;
+  --search-text: #c9bb9c;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(214, 186, 130, 0.26);
+  --section-panel-text-color: #c9bb9c;
+  --section-text-color: #a99a7c;
+  --section-title-color: #e6c074;
+  --smodal-accent-tint: rgba(212, 168, 67, 0.1);
+  --smodal-active-border: rgba(212, 168, 67, 0.5);
+  --smodal-bg: #1e1b14;
+  --smodal-close: #6e5f2e;
+  --smodal-close-hover: #c9a840;
+  --smodal-muted: #6e5f2e;
+  --smodal-raised-bg: #1e1b14;
+  --smodal-row-border: rgba(212, 168, 67, 0.08);
+  --smodal-separator: rgba(212, 168, 67, 0.15);
+  --smodal-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  --smodal-tab: #9a7d2e;
+  --smodal-tab-hover-bg: rgba(212, 168, 67, 0.07);
+  --smodal-tab-hover-color: #c9a840;
+  --smodal-tabs-bg: #141208;
+  --smodal-text: #c9a840;
+  --smodal-track: #3a3320;
+  --smodal-value: #9a7d2e;
+  --step-badge-bg: color-mix(in srgb, #d8b56e 18%, transparent);
+  --step-badge-num: #d8b56e;
+  --switcher-name: #d4a843;
+  --switcher-sub: #9a7d2e;
+  --tab-active-hover-bg: rgba(216, 181, 110, 0.22);
+  --tab-active-hover-color: #e8cd8e;
+  --todo-accent: #d8b56e;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(214, 186, 130, 0.09);
+  --todo-add-color: #d8b56e;
+  --todo-add-hover-bg: color-mix(in srgb, #d8b56e 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #d8b56e 40%, transparent);
+  --todo-add-hover-color: #d8b56e;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #c9bb9c;
+  --todo-toggle-bg: transparent;
+  --todo-toggle-border: rgba(214, 186, 130, 0.09);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 22%;
+  --smodal-accent: rgba(212, 168, 67, 0.6);
+  --smodal-active-bg: rgba(212, 168, 67, 0.2);
+  --smodal-active-text: #d4a843;
+  --smodal-btn-bg: rgba(212, 168, 67, 0.06);
+  --smodal-btn-border: rgba(212, 168, 67, 0.15);
+  --smodal-btn-color: #9a7d2e;
+  --smodal-btn-hover-bg: rgba(212, 168, 67, 0.14);
+  --smodal-btn-hover-color: #c9a840;
+  --smodal-input-bg: #141208;
+  --smodal-input-border: rgba(212, 168, 67, 0.2);
+  --smodal-input-text: #e8d8b0;
+  --smodal-label: #9a7d2e;
+}
+
+body.ui-nordic {
+  /* ===== nordic ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(74, 60, 42, 0.12);
+  --panel-scrollbar-hover: rgba(74, 60, 42, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(192, 105, 74, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #e4dccd;
+  --scrollbar-thumb-hover: #d3c8b3;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #c0694a;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 4px 12px -4px rgba(192, 105, 74, 0.55);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #c0694a;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 4px 12px -4px rgba(192, 105, 74, 0.55);
+  --btn-secondary-bg: #fffdf8;
+  --btn-secondary-text: #6b6051;
+  --btn-secondary-border: rgba(74, 60, 42, 0.16);
+  --btn-disabled-bg: rgba(74, 60, 42, 0.04);
+  --btn-disabled-text: #b9ad99;
+  --btn-disabled-border: rgba(74, 60, 42, 0.10);
+  --btn-delete-bg: rgba(187, 74, 53, 0.07);
+  --btn-delete-text: #bb4a35;
+  --btn-delete-border: rgba(187, 74, 53, 0.28);
+  /* fab */
+  --fab-bg: #fffdf8;
+  --fab-hover-bg: #f4eee2;
+  --fab-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --fab-icon: #6b6051;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: #fffdf8;
+  --link-button-bg: linear-gradient(180deg, #fffdf8, #fbf7ee);
+  --card-border-color: rgba(74, 60, 42, 0.1);
+  --card-border: 1px solid rgba(74, 60, 42, 0.1);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #fffdf8;
+  --overlay-text: #3c352a;
+  --overlay-muted-text: #9c917d;
+  --overlay-icon-color: #b9ad99;
+  --overlay-border-color: rgba(74, 60, 42, 0.08);
+  --overlay-separator-color: rgba(74, 60, 42, 0.08);
+  --overlay-hover-bg: #f4eee2;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #fffdf8;
+  --input-bg: #ffffff;
+  --input-color: #3c352a;
+  --card-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --card-hover-border-color: rgba(74, 60, 42, 0.16);
+  --card-hover-shadow: 0 12px 26px -12px rgba(74, 60, 42, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #b0573a;
+  --header-divider-color: rgba(126, 141, 104, 0);
+  --header-font-size: 0.78rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.08em;
+  --header-padding-bottom: 0.4rem;
+  --header-margin-bottom: 0.55rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #6b6051;
+  --link-hover-bg: rgba(192, 105, 74, 0.09);
+  --link-hover-color: #b0573a;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #b9ad99;
+  --search-bg: #fffdf8;
+  --search-placeholder-color: #9c917d;
+  --search-border-color: rgba(74, 60, 42, 0.09);
+  --search-shadow: 0 1px 3px rgba(74, 60, 42, 0.06), 0 12px 28px -14px rgba(74, 60, 42, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* Item Types */
+  --divider-color: #e4dccd;
+  --item-header-color: #6e6151;
+  --item-header-line: #e4dccd;
+  --note-color: #9c917d;
+  /* Accent & Actions */
+  --accent-color: #c0694a;
+  --accent-hover-color: #b0573a;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #b0573a;
+  --empty-primary-hover-border: #b0573a;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: rgba(192, 105, 74, 0.08);
+  --empty-secondary-hover-border: rgba(192, 105, 74, 0.24);
+  --empty-secondary-hover-color: #b0573a;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(74, 60, 42, 0.06);
+  --tabs-container-border-color: rgba(74, 60, 42, 0.1);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #847a68;
+  --tab-active-bg: #c0694a;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 4px 12px -4px rgba(192, 105, 74, 0.55);
+  --header-action-settings-bg: rgba(74, 60, 42, 0.06);
+  --header-action-settings-border: rgba(74, 60, 42, 0.1);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #c0694a;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 4px 12px -4px rgba(192, 105, 74, 0.55);
+  --header-action-idle-color: #847a68;
+  --header-action-hover-bg: rgba(192, 105, 74, 0.09);
+  --header-action-hover-color: #b0573a;
+  --tab-pro-color: #b9ad99;
+  --tab-hover-bg: rgba(255, 253, 248, 0.96);
+  --tab-hover-color: #b0573a;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #3c352a;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(74, 60, 42, 0.06);
+  --collapse-btn-color: #b9ad99;
+  --collapse-btn-hover-bg: #f4eee2;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #fffdf8;
+  --board-row-bg: #fffdf8;
+  --board-row-hover-shadow: 0 12px 26px -12px rgba(74, 60, 42, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --board-row-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: #fffdf8;
+  --clock-date: #9c917d;
+  --clock-greeting: #3c352a;
+  --clock-time: #3c352a;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: #fffdf8;
+  --empty-border: rgba(74, 60, 42, 0.08);
+  --empty-shadow: 0 1px 2px rgba(74, 60, 42, 0.05), 0 14px 30px -16px rgba(74, 60, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --empty-text: #6b6051;
+  --empty-title: #6b6051;
+  --link-counter-color: #b0573a;
+  --link-counter-shadow: none;
+  --menu-bg: #fffdf8;
+  --menu-border: rgba(74, 60, 42, 0.08);
+  --menu-hover-bg: #f4eee2;
+  --menu-icon: #b9ad99;
+  --menu-separator: rgba(74, 60, 42, 0.08);
+  --menu-text: #3c352a;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(74, 60, 42, 0.1);
+  --search-hint-hover-border: rgba(74, 60, 42, 0.1);
+  --search-hint-hover-color: #b9ad99;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #c0694a;
+  --search-text: #6b6051;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(74, 60, 42, 0.24);
+  --section-panel-text-color: #6b6051;
+  --section-text-color: #847a68;
+  --section-title-color: #3c352a;
+  --smodal-accent-tint: color-mix( in srgb, #ffffff 84%, #c0694a 16% );
+  --smodal-active-border: #c0694a;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #9c917d;
+  --smodal-raised-bg: #ffffff;
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: color-mix(in srgb, #c0694a 18%, transparent);
+  --step-badge-num: #c0694a;
+  --switcher-name: #3c352a;
+  --switcher-sub: #9c917d;
+  --tab-active-hover-bg: #b0573a;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #6b7a5e;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(107, 96, 81, 0.3);
+  --todo-add-color: #6b6051;
+  --todo-add-hover-bg: #b0573a;
+  --todo-add-hover-border: #b0573a;
+  --todo-add-hover-color: #ffffff;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #c5bdab;
+  --todo-toggle-bg: rgba(255, 253, 248, 0.82);
+  --todo-toggle-border: rgba(107, 122, 94, 0.42);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-ocean {
+  /* ===== ocean ===== */
+  /* settings panel controls */
+  --panel-input-bg: rgba(150, 224, 230, 0.05);
+  --panel-input-border: rgba(150, 224, 230, 0.09);
+  --panel-track: #e4e7ec;
+  --panel-value: #8fb4bd;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --panel-text: #eafcff;
+  --panel-border: rgba(150, 224, 230, 0.09);
+  --panel-separator: rgba(150, 224, 230, 0.09);
+  --panel-shadow: -8px 0 40px rgba(0, 0, 0, 0.2);
+  --panel-close: #8fb4bd;
+  --panel-close-hover: #eafcff;
+  --panel-tab: #8fb4bd;
+  --panel-hover-bg: rgba(47, 212, 198, 0.1);
+  --panel-active-bg: #4a7bff;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(47, 212, 198, 0.2);
+  --panel-scrollbar-hover: rgba(47, 212, 198, 0.38);
+  --panel-footer-bg: #0c2d44;
+  --panel-section-title: #8fb4bd;
+  /* settings bg-option chips */
+  --chip-bg: rgba(255, 255, 255, 0.04);
+  --chip-border: rgba(255, 255, 255, 0.1);
+  --chip-color: #aedcf0;
+  --chip-hover-bg: rgba(255, 255, 255, 0.1);
+  --chip-hover-border: rgba(255, 255, 255, 0.3);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: rgba(15, 55, 85, 0.55);
+  --switcher-empty-bg: rgba(255, 255, 255, 0.05);
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(47, 212, 198, 0.14);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.8;
+  --clock-date-opacity: 0.85;
+  /* theme-editor (Pro) panel */
+  --te-heading: #aedcf0;
+  --te-section: #7ec8e3;
+  --te-section-border: rgba(255, 255, 255, 0.08);
+  --te-row-divider: rgba(255, 255, 255, 0.05);
+  --te-hint: #666;
+  --te-label: #aaa;
+  --te-rangeval: #888;
+  --te-chip-bg: rgba(255, 255, 255, 0.06);
+  --te-chip-border: rgba(255, 255, 255, 0.12);
+  --te-chip-name: #ccc;
+  --te-chip-delete: #aaa;
+  --te-chip-delete-bg: rgba(255, 255, 255, 0.1);
+  --te-chip-active-bg: rgba(160, 112, 255, 0.15);
+  --te-chip-active-name: #c4a0ff;
+  --te-deactivate-bg: rgba(160, 112, 255, 0.12);
+  --te-deactivate-border: rgba(160, 112, 255, 0.4);
+  --te-deactivate-color: #d7c1ff;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: rgba(150, 224, 230, 0.15);
+  --scrollbar-thumb-hover: rgba(150, 224, 230, 0.28);
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: rgba(255, 255, 255, 0.08);
+  --ctrl-border: rgba(255, 255, 255, 0.12);
+  --ctrl-icon: #aaa;
+  --ctrl-hover-bg: rgba(255, 255, 255, 0.1);
+  --ctrl-hover-border: rgba(255, 255, 255, 0.15);
+  --ctrl-hover-icon: #ddd;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: rgba(47, 212, 198, 0.16);
+  --add-btn-color: #5fe6da;
+  --add-btn-shadow: inset 0 1px 0 rgba(120, 235, 225, 0.14);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #2fd4c6;
+  --btn-primary-text: #062028;
+  --btn-primary-glow: 0 4px 14px -2px rgba(47, 212, 198, 0.5);
+  --btn-secondary-bg: rgba(150, 224, 230, 0.05);
+  --btn-secondary-text: #b3cdd4;
+  --btn-secondary-border: rgba(150, 224, 230, 0.14);
+  --btn-disabled-bg: rgba(150, 224, 230, 0.05);
+  --btn-disabled-text: #5f7c84;
+  --btn-disabled-border: rgba(150, 224, 230, 0.11);
+  --btn-delete-bg: rgba(255, 111, 94, 0.14);
+  --btn-delete-text: #ff8f7d;
+  --btn-delete-border: rgba(255, 111, 94, 0.45);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #23606f, #184f5d);
+  --fab-hover-bg: linear-gradient(180deg, #2a6d7e, #205c6b);
+  --fab-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.07), 0 8px 20px -10px rgba(0, 0, 0, 0.6);
+  --fab-icon: #5fe6da;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #0ea5e9;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --link-button-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --card-border-color: rgba(150, 224, 230, 0.09);
+  --card-border: 1px solid rgba(150, 224, 230, 0.09);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --overlay-text: #eafcff;
+  --overlay-muted-text: #8fb4bd;
+  --overlay-icon-color: #6fa9b3;
+  --overlay-border-color: rgba(150, 224, 230, 0.09);
+  --overlay-separator-color: rgba(150, 224, 230, 0.09);
+  --overlay-hover-bg: rgba(47, 212, 198, 0.1);
+  --overlay-section-bg: rgba(150, 224, 230, 0.05);
+  --overlay-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.07), 0 8px 20px -10px rgba(0, 0, 0, 0.6);
+  --settings-card-box-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.04), 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 3px 1px rgba(0, 0, 0, 0.13);
+  --modal-bg: #0c2d44;
+  --input-bg: rgba(150, 224, 230, 0.05);
+  --input-color: #eafcff;
+  --card-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --card-hover-border-color: rgba(47, 212, 198, 0.38);
+  --card-hover-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #dff2f5;
+  --header-divider-color: rgba(150, 224, 230, 0);
+  --header-font-size: 1rem;
+  --header-font-weight: 600;
+  --header-text-transform: none;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #b3cdd4;
+  --link-hover-bg: rgba(47, 212, 198, 0.1);
+  --link-hover-color: #5fe6da;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #6fa9b3;
+  --search-bg: linear-gradient(180deg, #23606f, #184f5d);
+  --search-placeholder-color: #5f7c84;
+  --search-border-color: rgba(150, 224, 230, 0.11);
+  --search-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.07), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+  /* Item Types */
+  --divider-color: rgba(150, 224, 230, 0.11);
+  --item-header-color: #dff2f5;
+  --item-header-line: rgba(150, 224, 230, 0.11);
+  --note-color: #8fb4bd;
+  /* Accent & Actions */
+  --accent-color: #2fd4c6;
+  --accent-hover-color: #2fd4c6;
+  --settings-status-pill-bg: #09253a;
+  --settings-status-pill-color: #5fe6da;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #2fd4c6;
+  --empty-primary-hover-border: #2fd4c6;
+  --empty-primary-hover-color: #12363f;
+  --empty-secondary-hover-bg: rgba(47, 212, 198, 0.12);
+  --empty-secondary-hover-border: rgba(47, 212, 198, 0.34);
+  --empty-secondary-hover-color: #eafcff;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(150, 224, 230, 0.05);
+  --tabs-container-border-color: rgba(150, 224, 230, 0.09);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #8fb4bd;
+  --tab-active-bg: rgba(47, 212, 198, 0.16);
+  --tab-active-color: #5fe6da;
+  --tab-active-shadow: inset 0 1px 0 rgba(120, 235, 225, 0.14);
+  --header-action-settings-bg: rgba(150, 224, 230, 0.05);
+  --header-action-settings-border: rgba(150, 224, 230, 0.09);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: rgba(47, 212, 198, 0.16);
+  --header-action-add-color: #5fe6da;
+  --header-action-add-shadow: inset 0 1px 0 rgba(120, 235, 225, 0.14);
+  --header-action-idle-color: #8fb4bd;
+  --header-action-hover-bg: rgba(47, 212, 198, 0.1);
+  --header-action-hover-color: #5fe6da;
+  --tab-pro-color: rgba(150, 224, 230, 0.32);
+  --tab-hover-bg: rgba(47, 212, 198, 0.1);
+  --tab-hover-color: #5fe6da;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #eafcff;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(150, 224, 230, 0.05);
+  --collapse-btn-color: rgba(150, 224, 230, 0.32);
+  --collapse-btn-hover-bg: rgba(47, 212, 198, 0.1);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --board-row-bg: linear-gradient(180deg, #23606f 0%, #19505d 100%);
+  --board-row-hover-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --board-row-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --callout-border: rgba(150, 224, 230, 0.12);
+  --callout-highlight: rgba(190, 242, 245, 0.12);
+  --callout-surface: linear-gradient(180deg, #23606f, #19505d);
+  --clock-date: inherit;
+  --clock-greeting: #eafcff;
+  --clock-time: inherit;
+  --ct-error: #ff9a9e;
+  --ct-info: #7fd6ff;
+  --ct-success: #86efac;
+  --ct-tip: #c7adff;
+  --ct-warning: #ffce72;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: rgba(12, 45, 68, 0.95);
+  --empty-border: rgba(255, 255, 255, 0.1);
+  --empty-shadow: inset 0 1px 0 rgba(170, 235, 238, 0.08), 0 18px 38px -16px rgba(0, 0, 0, 0.72);
+  --empty-text: #7ec8e3;
+  --empty-title: #d0edf7;
+  --link-counter-color: #5fe6da;
+  --link-counter-shadow: 0 0 8px rgba(47, 212, 198, 0.6);
+  --menu-bg: rgba(15, 55, 85, 0.97);
+  --menu-border: rgba(255, 255, 255, 0.12);
+  --menu-hover-bg: rgba(255, 255, 255, 0.08);
+  --menu-icon: #7ec8e3;
+  --menu-separator: rgba(255, 255, 255, 0.08);
+  --menu-text: #d0edf7;
+  --menu-danger-color: #e57373;
+  --search-hint-border: rgba(150, 224, 230, 0.09);
+  --search-hint-hover-border: rgba(150, 224, 230, 0.09);
+  --search-hint-hover-color: #6fa9b3;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #2fd4c6;
+  --search-text: #b3cdd4;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(150, 224, 230, 0.28);
+  --section-panel-text-color: #b3cdd4;
+  --section-text-color: #8fb4bd;
+  --section-title-color: #eafcff;
+  --smodal-accent-tint: rgba(0, 180, 216, 0.12);
+  --smodal-active-border: rgba(255, 255, 255, 0.4);
+  --smodal-bg: rgba(12, 45, 68, 0.97);
+  --smodal-close: rgba(174, 220, 240, 0.5);
+  --smodal-close-hover: #d0edf7;
+  --smodal-muted: #5aa0b8;
+  --smodal-raised-bg: rgba(12, 45, 68, 0.95);
+  --smodal-row-border: rgba(0, 180, 216, 0.08);
+  --smodal-separator: rgba(255, 255, 255, 0.1);
+  --smodal-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  --smodal-tab: #7ec8e3;
+  --smodal-tab-hover-bg: rgba(255, 255, 255, 0.08);
+  --smodal-tab-hover-color: #d0edf7;
+  --smodal-tabs-bg: rgba(8, 35, 55, 0.9);
+  --smodal-text: #d0edf7;
+  --smodal-track: rgba(255, 255, 255, 0.15);
+  --smodal-value: #7ec8e3;
+  --step-badge-bg: color-mix(in srgb, #2fd4c6 18%, transparent);
+  --step-badge-num: #2fd4c6;
+  --switcher-name: #c9f1ff;
+  --switcher-sub: #7ec8e3;
+  --tab-active-hover-bg: rgba(47, 212, 198, 0.16);
+  --tab-active-hover-color: #5fe6da;
+  --todo-accent: #2fd4c6;
+  --todo-add-bg: rgba(128, 128, 128, 0.06);
+  --todo-add-border: rgba(179, 205, 212, 0.25);
+  --todo-add-color: #b3cdd4;
+  --todo-add-hover-bg: #5fe6da;
+  --todo-add-hover-border: #5fe6da;
+  --todo-add-hover-color: #062028;
+  --todo-add-shadow: none;
+  --todo-check-color: #0c2d44;
+  --todo-complete-label: #5f7c84;
+  --todo-toggle-bg: rgba(150, 224, 230, 0.08);
+  --todo-toggle-border: rgba(47, 212, 198, 0.4);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 24%;
+  --smodal-accent: rgba(0, 180, 216, 0.7);
+  --smodal-active-bg: rgba(255, 255, 255, 0.2);
+  --smodal-active-text: #fff;
+  --smodal-btn-bg: rgba(255, 255, 255, 0.07);
+  --smodal-btn-border: rgba(255, 255, 255, 0.12);
+  --smodal-btn-color: #7ec8e3;
+  --smodal-btn-hover-bg: rgba(255, 255, 255, 0.14);
+  --smodal-btn-hover-color: #a8ddf0;
+  --smodal-input-bg: rgba(8, 35, 55, 0.9);
+  --smodal-input-border: rgba(255, 255, 255, 0.15);
+  --smodal-input-text: #d0edf7;
+  --smodal-label: #7ec8e3;
+}
+
+body.ui-sakura {
+  /* ===== sakura ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(224, 88, 138, 0.2);
+  --panel-scrollbar-hover: rgba(224, 88, 138, 0.38);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: #fcdbe8;
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #f5cede;
+  --scrollbar-thumb-hover: #edbdd3;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #ffffff;
+  --add-btn-color: #6e2a46;
+  --add-btn-shadow: 0 2px 8px -2px rgba(200, 90, 140, 0.28);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #e0588a;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: none;
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #8c5e75;
+  --btn-secondary-border: #f5cede;
+  --btn-disabled-bg: #fcdbe8;
+  --btn-disabled-text: #cc9bb0;
+  --btn-disabled-border: #eec0d2;
+  --btn-delete-bg: rgba(210, 63, 79, 0.08);
+  --btn-delete-text: #d23f4f;
+  --btn-delete-border: rgba(210, 63, 79, 0.30);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #ffffff, #fff2f7);
+  --fab-hover-bg: #fdeef5;
+  --fab-shadow: 0 1px 2px rgba(200, 90, 140, 0.06), 0 10px 22px -10px rgba(200, 90, 140, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --fab-icon: #e0588a;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: linear-gradient(180deg, #ffffff 0%, #fff4f9 100%);
+  --link-button-bg: linear-gradient(180deg, #ffffff, #fff2f7);
+  --card-border-color: rgba(200, 90, 140, 0.13);
+  --card-border: 1px solid rgba(200, 90, 140, 0.13);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #fffdf8;
+  --overlay-text: #3c352a;
+  --overlay-muted-text: #9c917d;
+  --overlay-icon-color: #b9ad99;
+  --overlay-border-color: rgba(74, 60, 42, 0.08);
+  --overlay-separator-color: rgba(74, 60, 42, 0.08);
+  --overlay-hover-bg: #f4eee2;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #fffdf8;
+  --input-bg: #ffffff;
+  --input-color: #3c352a;
+  --card-shadow: 0 1px 2px rgba(200, 90, 140, 0.05), 0 20px 40px -16px rgba(200, 90, 140, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --card-hover-border-color: rgba(224, 88, 138, 0.46);
+  --card-hover-shadow: 0 1px 2px rgba(200, 90, 140, 0.06), 0 20px 40px -16px rgba(200, 90, 140, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #c43e6e;
+  --header-divider-color: rgba(200, 90, 140, 0);
+  --header-font-size: 1.05rem;
+  --header-font-weight: 600;
+  --header-text-transform: none;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #8c5e75;
+  --link-hover-bg: #fdeef5;
+  --link-hover-color: #6e2a46;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #bd7d97;
+  --search-bg: #ffffff;
+  --search-placeholder-color: #bd7d97;
+  --search-border-color: #f5cede;
+  --search-shadow: 0 1px 2px rgba(200, 90, 140, 0.06), 0 10px 22px -10px rgba(200, 90, 140, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* Item Types */
+  --divider-color: #f5cede;
+  --item-header-color: #c43e6e;
+  --item-header-line: #f5cede;
+  --note-color: #bd7d97;
+  /* Accent & Actions */
+  --accent-color: #e0588a;
+  --accent-hover-color: #e0588a;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #e0588a;
+  --empty-primary-hover-border: #e0588a;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #fdeef5;
+  --empty-secondary-hover-border: rgba(224, 88, 138, 0.24);
+  --empty-secondary-hover-color: #6e2a46;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(110, 42, 70, 0.07);
+  --tabs-container-border-color: rgba(200, 90, 140, 0.13);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #b07d94;
+  --tab-active-bg: #ffffff;
+  --tab-active-color: #6e2a46;
+  --tab-active-shadow: 0 2px 8px -2px rgba(200, 90, 140, 0.28);
+  --header-action-settings-bg: rgba(110, 42, 70, 0.07);
+  --header-action-settings-border: rgba(200, 90, 140, 0.13);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #ffffff;
+  --header-action-add-color: #6e2a46;
+  --header-action-add-shadow: 0 2px 8px -2px rgba(200, 90, 140, 0.28);
+  --header-action-idle-color: #b07d94;
+  --header-action-hover-bg: #fdeef5;
+  --header-action-hover-color: #6e2a46;
+  --tab-pro-color: #dba9bd;
+  --tab-hover-bg: rgba(255, 255, 255, 0.95);
+  --tab-hover-color: #6e2a46;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #6e2a46;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(224, 88, 138, 0.05);
+  --collapse-btn-color: #dba9bd;
+  --collapse-btn-hover-bg: #fdeef5;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #fffdf8;
+  --board-row-bg: #ffffff;
+  --board-row-hover-shadow: 0 4px 12px -3px rgba(200, 90, 140, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --board-row-shadow: 0 1px 3px rgba(200, 90, 140, 0.12), 0 1px 2px rgba(200, 90, 140, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: #ffffff;
+  --clock-date: #bd7d97;
+  --clock-greeting: #6e2a46;
+  --clock-time: #6e2a46;
+  --ct-error: #6e3550;
+  --ct-info: #6e3550;
+  --ct-success: #6e3550;
+  --ct-tip: #6e3550;
+  --ct-warning: #6e3550;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: linear-gradient(180deg, #ffffff 0%, #fff4f9 100%);
+  --empty-border: rgba(200, 90, 140, 0.08);
+  --empty-shadow: 0 1px 2px rgba(200, 90, 140, 0.05), 0 20px 40px -16px rgba(200, 90, 140, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  --empty-text: #8c5e75;
+  --empty-title: #6e2a46;
+  --link-counter-color: #bd7d97;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgba(110, 42, 70, 0.12);
+  --menu-hover-bg: rgba(224, 88, 138, 0.08);
+  --menu-icon: #b08a9a;
+  --menu-separator: rgba(110, 42, 70, 0.1);
+  --menu-text: #6e2a46;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(200, 90, 140, 0.13);
+  --search-hint-hover-border: rgba(200, 90, 140, 0.13);
+  --search-hint-hover-color: #bd7d97;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #e0588a;
+  --search-text: #8c5e75;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(196, 62, 110, 0.32);
+  --section-panel-text-color: #6e3550;
+  --section-text-color: #6e2a46;
+  --section-title-color: #6e2a46;
+  --smodal-accent-tint: color-mix( in srgb, #ffffff 84%, #e0588a 16% );
+  --smodal-active-border: #e0588a;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #9c917d;
+  --smodal-raised-bg: #ffffff;
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: #ffffff;
+  --step-badge-num: #b32d63;
+  --switcher-name: #3c352a;
+  --switcher-sub: #9c917d;
+  --tab-active-hover-bg: #c43e6e;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #e0588a;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(140, 94, 117, 0.3);
+  --todo-add-color: #8c5e75;
+  --todo-add-hover-bg: #c43e6e;
+  --todo-add-hover-border: #c43e6e;
+  --todo-add-hover-color: #ffffff;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #cc9bb0;
+  --todo-toggle-bg: rgba(255, 255, 255, 0.78);
+  --todo-toggle-border: rgba(224, 88, 138, 0.38);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 16%;
+}
+
+body.ui-professional {
+  /* ===== professional ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 0.6;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #888;
+  --scrollbar-thumb-hover: #555;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #1d2939;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 1px 2px rgba(16, 24, 40, 0.18), 0 4px 8px -2px rgba(16, 24, 40, 0.18);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #1d2939;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: none;
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #475467;
+  --btn-secondary-border: #e4e7ec;
+  --btn-disabled-bg: #f2f4f7;
+  --btn-disabled-text: #98a2b3;
+  --btn-disabled-border: #e4e7ec;
+  --btn-delete-bg: #ffffff;
+  --btn-delete-text: #d92d20;
+  --btn-delete-border: #fda29b;
+  /* fab */
+  --fab-bg: #ffffff;
+  --fab-hover-bg: #f4f5f8;
+  --fab-shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 4px 10px -4px rgba(16, 24, 40, 0.1);
+  --fab-icon: #98a2b3;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 8px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: #ffffff;
+  --link-button-bg: #ffffff;
+  --card-border-color: rgba(16, 24, 40, 0.07);
+  --card-border: 1px solid rgba(16, 24, 40, 0.07);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #ffffff;
+  --overlay-text: #101828;
+  --overlay-muted-text: #667085;
+  --overlay-icon-color: #98a2b3;
+  --overlay-border-color: rgba(16, 24, 40, 0.07);
+  --overlay-separator-color: rgba(16, 24, 40, 0.08);
+  --overlay-hover-bg: #f4f5f8;
+  --overlay-section-bg: #f4f5f8;
+  --overlay-shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 4px 10px -4px rgba(16, 24, 40, 0.1);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #ffffff;
+  --input-bg: #ffffff;
+  --input-color: #101828;
+  --card-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 5px 12px -4px rgba(16, 24, 40, 0.06), 0 16px 30px -10px rgba(16, 24, 40, 0.1);
+  --card-hover-border-color: rgba(16, 24, 40, 0.12);
+  --card-hover-shadow: 0 2px 4px rgba(16, 24, 40, 0.05), 0 14px 26px -8px rgba(16, 24, 40, 0.16);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #344054;
+  --header-divider-color: rgba(16, 24, 40, 0);
+  --header-font-size: 0.75rem;
+  --header-font-weight: 700;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0.08em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #475467;
+  --link-hover-bg: #f4f5f8;
+  --link-hover-color: #101828;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #98a2b3;
+  --search-bg: #ffffff;
+  --search-placeholder-color: #98a2b3;
+  --search-border-color: rgba(16, 24, 40, 0.08);
+  --search-shadow: 0 1px 3px rgba(16, 24, 40, 0.05), 0 10px 24px -8px rgba(16, 24, 40, 0.12);
+  /* Item Types */
+  --divider-color: #e4e7ec;
+  --item-header-color: #344054;
+  --item-header-line: #e4e7ec;
+  --note-color: #667085;
+  /* Accent & Actions */
+  --accent-color: #1d2939;
+  --accent-hover-color: #344054;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: #344054;
+  --empty-primary-hover-border: #344054;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #f4f5f8;
+  --empty-secondary-hover-border: rgba(29, 41, 57, 0.14);
+  --empty-secondary-hover-color: #101828;
+  /* Workspace Tabs */
+  --tabs-container-bg: #ffffff;
+  --tabs-container-border-color: rgba(16, 24, 40, 0.07);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #475467;
+  --tab-active-bg: #1d2939;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 1px 2px rgba(16, 24, 40, 0.18), 0 4px 8px -2px rgba(16, 24, 40, 0.18);
+  --header-action-settings-bg: #ffffff;
+  --header-action-settings-border: rgba(16, 24, 40, 0.07);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #1d2939;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 1px 2px rgba(16, 24, 40, 0.18), 0 4px 8px -2px rgba(16, 24, 40, 0.18);
+  --header-action-idle-color: #475467;
+  --header-action-hover-bg: #f4f5f8;
+  --header-action-hover-color: #101828;
+  --tab-pro-color: #98a2b3;
+  --tab-hover-bg: #f4f5f8;
+  --tab-hover-color: #101828;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #101828;
+  --clock-shadow: none;
+  /* Collapse button */
+  --collapse-btn-bg: rgba(16, 24, 40, 0.04);
+  --collapse-btn-color: #98a2b3;
+  --collapse-btn-hover-bg: #f4f5f8;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #ffffff;
+  --board-row-bg: #ffffff;
+  --board-row-hover-shadow: 0 4px 10px -2px rgba(16, 24, 40, 0.12);
+  --board-row-shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.08);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: #ffffff;
+  --clock-date: #667085;
+  --clock-greeting: #101828;
+  --clock-time: #101828;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: #ffffff;
+  --empty-border: rgba(16, 24, 40, 0.07);
+  --empty-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 5px 12px -4px rgba(16, 24, 40, 0.06), 0 16px 30px -10px rgba(16, 24, 40, 0.1);
+  --empty-text: #667085;
+  --empty-title: #101828;
+  --link-counter-color: #98a2b3;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgba(16, 24, 40, 0.07);
+  --menu-hover-bg: #f4f5f8;
+  --menu-icon: #98a2b3;
+  --menu-separator: rgba(16, 24, 40, 0.08);
+  --menu-text: #101828;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(16, 24, 40, 0.07);
+  --search-hint-hover-border: rgba(16, 24, 40, 0.07);
+  --search-hint-hover-color: #98a2b3;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #98a2b3;
+  --search-text: #475467;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(16, 24, 40, 0.2);
+  --section-panel-text-color: #475467;
+  --section-text-color: #475467;
+  --section-title-color: #101828;
+  --smodal-accent-tint: color-mix( in srgb, #ffffff 84%, #1d2939 16% );
+  --smodal-active-border: #1d2939;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #667085;
+  --smodal-raised-bg: #ffffff;
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: #e4e7ec;
+  --step-badge-num: #344054;
+  --switcher-name: #101828;
+  --switcher-sub: #667085;
+  --tab-active-hover-bg: #1d2939;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #1d2939;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(16, 24, 40, 0.12);
+  --todo-add-color: #828c9d;
+  --todo-add-hover-bg: color-mix(in srgb, #1d2939 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #1d2939 40%, transparent);
+  --todo-add-hover-color: #1d2939;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #475467;
+  --todo-toggle-bg: rgba(255, 255, 255, 0.92);
+  --todo-toggle-border: rgba(29, 41, 57, 0.28);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-pastel-sunset {
+  /* ===== pastel-sunset ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: #fce0d6;
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #888;
+  --scrollbar-thumb-hover: #555;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #ef6f53;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 4px 12px -3px rgba(239, 111, 83, 0.5);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #ef6f53;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 4px 12px -3px rgba(239, 111, 83, 0.5);
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #8a6270;
+  --btn-secondary-border: #f7d6c4;
+  --btn-disabled-bg: #fce0d6;
+  --btn-disabled-text: #cfa89a;
+  --btn-disabled-border: #f1ccb8;
+  --btn-delete-bg: rgba(200, 64, 46, 0.08);
+  --btn-delete-text: #c8402e;
+  --btn-delete-border: rgba(200, 64, 46, 0.30);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #ffffff, #fff3ea);
+  --fab-hover-bg: #fdf1e9;
+  --fab-shadow: 0 1px 2px rgba(226, 120, 85, 0.06), 0 10px 22px -10px rgba(226, 120, 85, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --fab-icon: #ef6f53;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: rgba(255, 255, 255, 0.86);
+  --link-button-bg: rgba(255, 255, 255, 0.86);
+  --card-border-color: rgba(255, 255, 255, 0.64);
+  --card-border: 1px solid rgba(255, 255, 255, 0.64);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #fffdf8;
+  --overlay-text: #3c352a;
+  --overlay-muted-text: #9c917d;
+  --overlay-icon-color: #b9ad99;
+  --overlay-border-color: rgba(74, 60, 42, 0.08);
+  --overlay-separator-color: rgba(74, 60, 42, 0.08);
+  --overlay-hover-bg: #f4eee2;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #fffdf8;
+  --input-bg: rgba(255, 255, 255, 0.92);
+  --input-color: #5e3550;
+  --card-shadow: 0 10px 30px rgba(94, 53, 80, 0.16);
+  --card-hover-border-color: rgba(255, 255, 255, 0.92);
+  --card-hover-shadow: 0 16px 42px rgba(94, 53, 80, 0.22);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #5e3550;
+  --header-divider-color: rgba(226, 120, 85, 0);
+  --header-font-size: 1.1rem;
+  --header-font-weight: 600;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.4rem;
+  --header-margin-bottom: 0.55rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #6f4258;
+  --link-hover-bg: rgba(239, 111, 83, 0.12);
+  --link-hover-color: #5e3550;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #ef6f53;
+  --search-bg: rgba(255, 255, 255, 0.92);
+  --search-placeholder-color: #c2937f;
+  --search-border-color: rgba(255, 255, 255, 0.64);
+  --search-shadow: 0 8px 24px rgba(94, 53, 80, 0.14);
+  /* Item Types */
+  --divider-color: rgba(94, 53, 80, 0.14);
+  --item-header-color: #8a5a6f;
+  --item-header-line: rgba(94, 53, 80, 0.12);
+  --note-color: #8a5a6f;
+  /* Accent & Actions */
+  --accent-color: #ef6f53;
+  --accent-hover-color: #e26044;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #d6455f;
+  --empty-primary-hover-bg: #ef6f53;
+  --empty-primary-hover-border: #ef6f53;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #fdf1e9;
+  --empty-secondary-hover-border: rgba(239, 111, 83, 0.24);
+  --empty-secondary-hover-color: #5e3550;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(255, 255, 255, 0.62);
+  --tabs-container-border-color: rgba(226, 120, 85, 0.12);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #b58a82;
+  --tab-active-bg: #ef6f53;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 4px 12px -3px rgba(239, 111, 83, 0.5);
+  --header-action-settings-bg: rgba(255, 255, 255, 0.62);
+  --header-action-settings-border: rgba(226, 120, 85, 0.12);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #ef6f53;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 4px 12px -3px rgba(239, 111, 83, 0.5);
+  --header-action-idle-color: #b58a82;
+  --header-action-hover-bg: #fdf1e9;
+  --header-action-hover-color: #5e3550;
+  --tab-pro-color: #e3b9a6;
+  --tab-hover-bg: rgba(255, 255, 255, 0.95);
+  --tab-hover-color: #5e3550;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #ffffff;
+  --clock-shadow: 0 2px 18px rgba(94, 53, 80, 0.3);
+  /* Collapse button */
+  --collapse-btn-bg: rgba(239, 111, 83, 0.05);
+  --collapse-btn-color: #e3b9a6;
+  --collapse-btn-hover-bg: #fdf1e9;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #fffdf8;
+  --board-row-bg: rgba(255, 255, 255, 0.86);
+  --board-row-hover-shadow: 0 4px 12px -2px rgba(94, 53, 80, 0.18);
+  --board-row-shadow: 0 1px 3px rgba(94, 53, 80, 0.12), 0 1px 2px rgba(94, 53, 80, 0.08);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: rgba(255, 255, 255, 0.86);
+  --clock-date: #c2937f;
+  --clock-greeting: #5e3550;
+  --clock-time: #5e3550;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: linear-gradient(180deg, #ffffff 0%, #fff5ee 100%);
+  --empty-border: rgba(226, 120, 85, 0.13);
+  --empty-shadow: 0 10px 30px rgba(94, 53, 80, 0.16);
+  --empty-text: #8a6270;
+  --empty-title: #5e3550;
+  --link-counter-color: #c2937f;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgba(94, 53, 80, 0.12);
+  --menu-hover-bg: rgba(239, 111, 83, 0.08);
+  --menu-icon: #a88a9d;
+  --menu-separator: rgba(94, 53, 80, 0.1);
+  --menu-text: #5e3550;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(255, 255, 255, 0.64);
+  --search-hint-hover-border: rgba(255, 255, 255, 0.64);
+  --search-hint-hover-color: #ef6f53;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #ef6f53;
+  --search-text: #6f4258;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(94, 53, 80, 0.22);
+  --section-panel-text-color: #6f4258;
+  --section-text-color: #8a6270;
+  --section-title-color: #5e3550;
+  --smodal-accent-tint: color-mix( in srgb, rgba(255, 255, 255, 0.92) 84%, #ef6f53 16% );
+  --smodal-active-border: #ef6f53;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #9c917d;
+  --smodal-raised-bg: rgba(255, 255, 255, 0.92);
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: color-mix(in srgb, #ef6f53 18%, transparent);
+  --step-badge-num: #ef6f53;
+  --switcher-name: #3c352a;
+  --switcher-sub: #9c917d;
+  --tab-active-hover-bg: #e26044;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #ef6f53;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(111, 66, 88, 0.3);
+  --todo-add-color: #6f4258;
+  --todo-add-hover-bg: #e26044;
+  --todo-add-hover-border: #e26044;
+  --todo-add-hover-color: #ffffff;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #cfa89a;
+  --todo-toggle-bg: rgba(255, 255, 255, 0.74);
+  --todo-toggle-border: rgba(239, 111, 83, 0.38);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-lavender-sky {
+  /* ===== lavender-sky ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: #ece6fb;
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 0.7;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 1;
+  --clock-date-opacity: 1;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: #888;
+  --scrollbar-thumb-hover: #555;
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: transparent;
+  --ctrl-border: transparent;
+  --ctrl-icon: #888;
+  --ctrl-hover-bg: rgba(0, 0, 0, 0.1);
+  --ctrl-hover-border: rgba(0, 0, 0, 0.15);
+  --ctrl-hover-icon: #555;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #7c5cdb;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 4px 12px -3px rgba(124, 92, 219, 0.5);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #7c5cdb;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 4px 12px -3px rgba(124, 92, 219, 0.5);
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #615a86;
+  --btn-secondary-border: #ddd6f5;
+  --btn-disabled-bg: #ece6fb;
+  --btn-disabled-text: #aaa2c4;
+  --btn-disabled-border: #d8cef2;
+  --btn-delete-bg: rgba(198, 70, 104, 0.08);
+  --btn-delete-text: #c6456a;
+  --btn-delete-border: rgba(198, 70, 104, 0.30);
+  /* fab */
+  --fab-bg: linear-gradient(180deg, #ffffff, #f4f1fe);
+  --fab-hover-bg: #f2eefc;
+  --fab-shadow: 0 1px 2px rgba(120, 95, 200, 0.06), 0 14px 28px -10px rgba(120, 95, 200, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --fab-icon: #7c5cdb;
+  --fab-icon-hover: #3c352a;
+  --fab-border: none;
+  --fab-backdrop: none;
+  /* Layout Settings - User Configurable */
+  --border-radius: 10px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.35s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: rgba(255, 255, 255, 0.84);
+  --link-button-bg: rgba(255, 255, 255, 0.84);
+  --card-border-color: rgba(255, 255, 255, 0.62);
+  --card-border: 1px solid rgba(255, 255, 255, 0.62);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: #ffffff;
+  --overlay-text: #3c352a;
+  --overlay-muted-text: #9c917d;
+  --overlay-icon-color: #b9ad99;
+  --overlay-border-color: rgba(74, 60, 42, 0.08);
+  --overlay-separator-color: rgba(74, 60, 42, 0.08);
+  --overlay-hover-bg: #f4eee2;
+  --overlay-section-bg: #ece3d2;
+  --overlay-shadow: 0 1px 2px rgba(74, 60, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: #ffffff;
+  --input-bg: rgba(255, 255, 255, 0.92);
+  --input-color: #352f5e;
+  --card-shadow: 0 10px 30px rgba(53, 47, 94, 0.16);
+  --card-hover-border-color: rgba(255, 255, 255, 0.92);
+  --card-hover-shadow: 0 16px 42px rgba(53, 47, 94, 0.22);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #352f5e;
+  --header-divider-color: rgba(120, 95, 200, 0);
+  --header-font-size: 1.1rem;
+  --header-font-weight: 600;
+  --header-text-transform: uppercase;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.4rem;
+  --header-margin-bottom: 0.55rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #4a4377;
+  --link-hover-bg: rgba(124, 92, 219, 0.12);
+  --link-hover-color: #352f5e;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #7c5cdb;
+  --search-bg: rgba(255, 255, 255, 0.92);
+  --search-placeholder-color: #a59fc6;
+  --search-border-color: rgba(255, 255, 255, 0.62);
+  --search-shadow: 0 8px 24px rgba(53, 47, 94, 0.14);
+  /* Item Types */
+  --divider-color: rgba(53, 47, 94, 0.14);
+  --item-header-color: #6a619a;
+  --item-header-line: rgba(53, 47, 94, 0.12);
+  --note-color: #6a619a;
+  /* Accent & Actions */
+  --accent-color: #7c5cdb;
+  --accent-hover-color: #6a4fc9;
+  --settings-status-pill-bg: color-mix(in srgb, #10b981 12%, white);
+  --settings-status-pill-color: #10b981;
+  --danger-color: #d6455f;
+  --empty-primary-hover-bg: #7c5cdb;
+  --empty-primary-hover-border: #7c5cdb;
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: #f2eefc;
+  --empty-secondary-hover-border: rgba(124, 92, 219, 0.24);
+  --empty-secondary-hover-color: #352f5e;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(255, 255, 255, 0.62);
+  --tabs-container-border-color: rgba(120, 95, 200, 0.12);
+  --tabs-container-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #9a93bd;
+  --tab-active-bg: #7c5cdb;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 4px 12px -3px rgba(124, 92, 219, 0.5);
+  --header-action-settings-bg: rgba(255, 255, 255, 0.62);
+  --header-action-settings-border: rgba(120, 95, 200, 0.12);
+  --header-action-settings-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --header-action-add-bg: #7c5cdb;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 4px 12px -3px rgba(124, 92, 219, 0.5);
+  --header-action-idle-color: #9a93bd;
+  --header-action-hover-bg: #f2eefc;
+  --header-action-hover-color: #352f5e;
+  --tab-pro-color: #c2bce0;
+  --tab-hover-bg: rgba(255, 255, 255, 0.95);
+  --tab-hover-color: #352f5e;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #ffffff;
+  --clock-shadow: 0 2px 18px rgba(53, 47, 94, 0.32);
+  /* Collapse button */
+  --collapse-btn-bg: rgba(124, 92, 219, 0.05);
+  --collapse-btn-color: #c2bce0;
+  --collapse-btn-hover-bg: #f2eefc;
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: #ffffff;
+  --board-row-bg: rgba(255, 255, 255, 0.84);
+  --board-row-hover-shadow: 0 4px 12px -2px rgba(53, 47, 94, 0.18);
+  --board-row-shadow: 0 1px 3px rgba(53, 47, 94, 0.12), 0 1px 2px rgba(53, 47, 94, 0.08);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: rgba(255, 255, 255, 0.84);
+  --clock-date: #a59fc6;
+  --clock-greeting: #352f5e;
+  --clock-time: #352f5e;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: none;
+  --empty-backdrop: none;
+  --empty-bg: linear-gradient(180deg, #ffffff 0%, #f7f4ff 100%);
+  --empty-border: rgba(120, 95, 200, 0.13);
+  --empty-shadow: 0 10px 30px rgba(53, 47, 94, 0.16);
+  --empty-text: #615a86;
+  --empty-title: #352f5e;
+  --link-counter-color: #a59fc6;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgba(53, 47, 94, 0.12);
+  --menu-hover-bg: rgba(124, 92, 219, 0.08);
+  --menu-icon: #8b82ad;
+  --menu-separator: rgba(53, 47, 94, 0.1);
+  --menu-text: #352f5e;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(255, 255, 255, 0.62);
+  --search-hint-hover-border: rgba(255, 255, 255, 0.62);
+  --search-hint-hover-color: #7c5cdb;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #7c5cdb;
+  --search-text: #4a4377;
+  --section-bare-shadow: none;
+  --section-divider-color: rgba(53, 47, 94, 0.22);
+  --section-panel-text-color: #4a4377;
+  --section-text-color: #6a619a;
+  --section-title-color: #352f5e;
+  --smodal-accent-tint: color-mix( in srgb, rgba(255, 255, 255, 0.92) 84%, #7c5cdb 16% );
+  --smodal-active-border: #7c5cdb;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #9c917d;
+  --smodal-raised-bg: rgba(255, 255, 255, 0.92);
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: color-mix(in srgb, #7c5cdb 18%, transparent);
+  --step-badge-num: #7c5cdb;
+  --switcher-name: #3c352a;
+  --switcher-sub: #9c917d;
+  --tab-active-hover-bg: #6f52d1;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #7c5cdb;
+  --todo-add-bg: rgba(128, 128, 128, 0.06);
+  --todo-add-border: rgba(74, 67, 119, 0.3);
+  --todo-add-color: #4a4377;
+  --todo-add-hover-bg: #6a4fc9;
+  --todo-add-hover-border: #6a4fc9;
+  --todo-add-hover-color: #ffffff;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #aaa2c4;
+  --todo-toggle-bg: rgba(255, 255, 255, 0.74);
+  --todo-toggle-border: rgba(124, 92, 219, 0.38);
+  --todo-toggle-shadow: none;
+}
+
+body.ui-aurora-glass {
+  /* ===== aurora-glass ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #3a6fd4;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 1;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(15, 40, 90, 0.78);
+  --search-hint-hover-shadow: 0 12px 28px rgba(15, 40, 90, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.8;
+  --clock-date-opacity: 0.85;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: rgba(255, 255, 255, 0.18);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.3);
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: rgba(255, 255, 255, 0.1);
+  --ctrl-border: rgba(255, 255, 255, 0.16);
+  --ctrl-icon: rgba(255, 255, 255, 0.92);
+  --ctrl-hover-bg: rgba(255, 255, 255, 0.18);
+  --ctrl-hover-border: rgba(255, 255, 255, 0.24);
+  --ctrl-hover-icon: #ffffff;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #ffffff;
+  --add-btn-color: #1e40af;
+  --add-btn-shadow: 0 2px 10px rgba(15, 40, 90, 0.18);
+  /* buttons (design tokens) */
+  --btn-primary-bg: rgba(255, 255, 255, 0.92);
+  --btn-primary-text: #1e40af;
+  --btn-primary-glow: none;
+  --btn-secondary-bg: rgba(255, 255, 255, 0.13);
+  --btn-secondary-text: #ffffff;
+  --btn-secondary-border: rgba(255, 255, 255, 0.30);
+  --btn-disabled-bg: rgba(255, 255, 255, 0.06);
+  --btn-disabled-text: rgba(255, 255, 255, 0.40);
+  --btn-disabled-border: rgba(255, 255, 255, 0.14);
+  --btn-delete-bg: rgba(255, 92, 74, 0.20);
+  --btn-delete-text: #ffb4ab;
+  --btn-delete-border: rgba(255, 120, 105, 0.55);
+  /* fab */
+  --fab-bg: rgba(255, 255, 255, 0.1);
+  --fab-hover-bg: rgba(255, 255, 255, 0.18);
+  --fab-shadow: 0 12px 32px rgba(15, 40, 90, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  --fab-icon: rgba(255, 255, 255, 0.94);
+  --fab-icon-hover: #3c352a;
+  --fab-border: 1px solid rgba(255, 255, 255, 0.16);
+  --fab-backdrop: blur(16px) saturate(140%);
+  /* Layout Settings - User Configurable */
+  --border-radius: 16px;
+  --card-opacity: 0.1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.18s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #0ea5e9;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --link-button-bg: rgba(255, 255, 255, 0.1);
+  --card-border-color: rgba(255, 255, 255, 0.18);
+  --card-border: 1px solid rgba(255, 255, 255, 0.18);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: rgba(255, 255, 255, 0.96);
+  --overlay-text: #1e3a5f;
+  --overlay-muted-text: #64748b;
+  --overlay-icon-color: #94a3b8;
+  --overlay-border-color: rgba(148, 163, 184, 0.28);
+  --overlay-separator-color: rgba(148, 163, 184, 0.2);
+  --overlay-hover-bg: rgba(37, 99, 235, 0.08);
+  --overlay-section-bg: rgba(15, 40, 90, 0.06);
+  --overlay-shadow: 0 18px 48px rgba(15, 40, 90, 0.24);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: rgba(255, 255, 255, 0.96);
+  --input-bg: rgba(255, 255, 255, 0.12);
+  --input-color: #ffffff;
+  --card-shadow: 0 10px 30px rgba(8, 20, 45, 0.35);
+  --card-hover-border-color: rgba(255, 255, 255, 0.32);
+  --card-hover-shadow: 0 16px 42px rgba(8, 20, 45, 0.45);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #ffffff;
+  --header-divider-color: rgba(255, 255, 255, 0);
+  --header-font-size: 1rem;
+  --header-font-weight: 600;
+  --header-text-transform: none;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: rgba(255, 255, 255, 0.92);
+  --link-hover-bg: rgba(255, 255, 255, 0.12);
+  --link-hover-color: #ffffff;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #7ca8f5;
+  --search-bg: rgba(255, 255, 255, 0.12);
+  --search-placeholder-color: rgba(255, 255, 255, 0.6);
+  --search-border-color: rgba(255, 255, 255, 0.2);
+  --search-shadow: 0 8px 24px rgba(8, 20, 45, 0.3);
+  /* Item Types */
+  --divider-color: rgba(255, 255, 255, 0.18);
+  --item-header-color: rgba(255, 255, 255, 0.82);
+  --item-header-line: rgba(255, 255, 255, 0.18);
+  --note-color: rgba(255, 255, 255, 0.8);
+  /* Accent & Actions */
+  --accent-color: #7ca8f5;
+  --accent-hover-color: #a9c6f9;
+  --settings-status-pill-bg: rgba(255, 255, 255, 0.16);
+  --settings-status-pill-color: #dff9ff;
+  --danger-color: #f87171;
+  --empty-primary-hover-bg: rgba(255, 255, 255, 0.92);
+  --empty-primary-hover-border: rgba(255, 255, 255, 0.98);
+  --empty-primary-hover-color: #1e40af;
+  --empty-secondary-hover-bg: rgba(255, 255, 255, 0.18);
+  --empty-secondary-hover-border: rgba(255, 255, 255, 0.2);
+  --empty-secondary-hover-color: #ffffff;
+  /* Workspace Tabs */
+  --tabs-container-bg: rgba(255, 255, 255, 0.1);
+  --tabs-container-border-color: rgba(255, 255, 255, 0.16);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: rgba(255, 255, 255, 0.85);
+  --tab-active-bg: #ffffff;
+  --tab-active-color: #1e40af;
+  --tab-active-shadow: 0 2px 10px rgba(15, 40, 90, 0.18);
+  --header-action-settings-bg: rgba(255, 255, 255, 0.1);
+  --header-action-settings-border: rgba(255, 255, 255, 0.16);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: #ffffff;
+  --header-action-add-color: #1e40af;
+  --header-action-add-shadow: 0 2px 10px rgba(15, 40, 90, 0.18);
+  --header-action-idle-color: rgba(255, 255, 255, 0.85);
+  --header-action-hover-bg: rgba(255, 255, 255, 0.13);
+  --header-action-hover-color: #ffffff;
+  --tab-pro-color: rgba(255, 255, 255, 0.55);
+  --tab-hover-bg: rgba(255, 255, 255, 0.13);
+  --tab-hover-color: #ffffff;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #ffffff;
+  --clock-shadow: 0 2px 18px rgba(8, 20, 45, 0.45);
+  /* Collapse button */
+  --collapse-btn-bg: rgba(255, 255, 255, 0.1);
+  --collapse-btn-color: rgba(255, 255, 255, 0.7);
+  --collapse-btn-hover-bg: rgba(255, 255, 255, 0.16);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: rgba(255, 255, 255, 0.96);
+  --board-row-bg: rgba(255, 255, 255, 0.1);
+  --board-row-hover-shadow: 0 4px 12px -2px rgba(15, 40, 90, 0.18);
+  --board-row-shadow: 0 1px 3px rgba(15, 40, 90, 0.12), 0 1px 2px rgba(15, 40, 90, 0.08);
+  --callout-border: rgba(255, 255, 255, 0.22);
+  --callout-highlight: rgba(255, 255, 255, 0.18);
+  --callout-surface: rgba(255, 255, 255, 0.12);
+  --clock-date: inherit;
+  --clock-greeting: #ffffff;
+  --clock-time: inherit;
+  --ct-error: #ffffff;
+  --ct-info: #ffffff;
+  --ct-success: #ffffff;
+  --ct-tip: #ffffff;
+  --ct-warning: #ffffff;
+  --ctrl-shadow: none;
+  --empty-backdrop: blur(20px) saturate(145%);
+  --empty-bg: rgba(255, 255, 255, 0.1);
+  --empty-border: rgba(255, 255, 255, 0.16);
+  --empty-shadow: 0 12px 32px rgba(15, 40, 90, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  --empty-text: rgba(255, 255, 255, 0.72);
+  --empty-title: #ffffff;
+  --link-counter-color: #7ca8f5;
+  --link-counter-shadow: none;
+  --menu-bg: rgba(255, 255, 255, 0.96);
+  --menu-border: rgba(148, 163, 184, 0.28);
+  --menu-hover-bg: rgba(37, 99, 235, 0.08);
+  --menu-icon: #94a3b8;
+  --menu-separator: rgba(148, 163, 184, 0.2);
+  --menu-text: #1e3a5f;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(255, 255, 255, 0.2);
+  --search-hint-hover-border: rgba(255, 255, 255, 0.24);
+  --search-hint-hover-color: #ffffff;
+  --search-hint-hover-text-opacity: 0.82;
+  --search-icon: rgba(255, 255, 255, 0.7);
+  --search-text: #ffffff;
+  --section-bare-shadow: 0 2px 18px rgba(8, 20, 45, 0.45);
+  --section-divider-color: rgba(255, 255, 255, 0.3);
+  --section-panel-text-color: rgba(255, 255, 255, 0.92);
+  --section-text-color: rgba(255, 255, 255, 0.85);
+  --section-title-color: #ffffff;
+  --smodal-accent-tint: color-mix( in srgb, rgba(255, 255, 255, 0.12) 84%, #7ca8f5 16% );
+  --smodal-active-border: #7ca8f5;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #64748b;
+  --smodal-raised-bg: rgba(255, 255, 255, 0.12);
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: rgba(13, 30, 70, 0.45);
+  --step-badge-num: #ffffff;
+  --switcher-name: #1e3a5f;
+  --switcher-sub: #64748b;
+  --tab-active-hover-bg: rgba(255, 255, 255, 0.96);
+  --tab-active-hover-color: #1e40af;
+  --todo-accent: rgba(255, 255, 255, 0.56);
+  --todo-add-bg: rgba(255, 255, 255, 0.16);
+  --todo-add-border: rgba(255, 255, 255, 0.28);
+  --todo-add-color: rgba(255, 255, 255, 0.96);
+  --todo-add-hover-bg: #ffffff;
+  --todo-add-hover-border: #ffffff;
+  --todo-add-hover-color: #1e3a5f;
+  --todo-add-shadow: none;
+  --todo-check-color: #1e40af;
+  --todo-complete-label: rgba(255, 255, 255, 0.92);
+  --todo-toggle-bg: rgba(255, 255, 255, 0.08);
+  --todo-toggle-border: rgba(255, 255, 255, 0.34);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 32%;
+  --search-hint-bg: rgba(255, 255, 255, 0.12);
+  --search-hint-color: #ffffff;
+}
+
+body.ui-frost {
+  /* ===== frost ===== */
+  /* settings panel controls */
+  --panel-input-bg: #ffffff;
+  --panel-input-border: rgba(16, 24, 40, 0.12);
+  --panel-track: #e4e7ec;
+  --panel-value: #475467;
+  --panel-toggle-off: #d0d5dd;
+  /* settings panel chrome */
+  --panel-bg: rgb(251, 251, 252);
+  --panel-text: #101828;
+  --panel-border: rgba(16, 24, 40, 0.08);
+  --panel-separator: rgba(16, 24, 40, 0.08);
+  --panel-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --panel-close: #98a2b3;
+  --panel-close-hover: #475467;
+  --panel-tab: #667085;
+  --panel-hover-bg: #f4f5f8;
+  --panel-active-bg: #1d2939;
+  --panel-active-text: #ffffff;
+  --panel-scrollbar: rgba(16, 24, 40, 0.12);
+  --panel-scrollbar-hover: rgba(16, 24, 40, 0.22);
+  --panel-footer-bg: rgb(251, 251, 252);
+  --panel-section-title: #475467;
+  /* settings bg-option chips */
+  --chip-bg: rgba(0, 0, 0, 0.03);
+  --chip-border: rgba(0, 0, 0, 0.12);
+  --chip-color: #444;
+  --chip-hover-bg: rgba(74, 123, 255, 0.05);
+  --chip-hover-border: rgba(74, 123, 255, 0.4);
+  /* spaces switcher (settings spaces list) — name/sub fall back to --overlay-text/-muted-text */
+  --switcher-item-bg: transparent;
+  --switcher-empty-bg: transparent;
+  /* link-counter badge (header group count) — color/shadow fall back to --icon-color / none */
+  --link-counter-bg: rgba(128, 128, 128, 0.15);
+  /* search icons (web-search + spotlight) — fill falls back to --icon-color */
+  --search-icon-opacity: 1;
+  /* web-search input — text falls back to --link-color */
+  --search-placeholder-opacity: 1;
+  /* spotlight suggestion-hint hover (border/color/text-opacity fall back to --card-border-color / --icon-color / 0.6) */
+  --search-hint-hover-bg: rgba(255, 255, 255, 0.95);
+  --search-hint-hover-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* clock — time/date/greeting colors fall back to inherited --clock-color */
+  --clock-greeting-opacity: 0.96;
+  --clock-date-opacity: 0.96;
+  /* theme-editor (Pro) panel */
+  --te-heading: #344054;
+  --te-section: #667085;
+  --te-section-border: rgba(16, 24, 40, 0.08);
+  --te-row-divider: rgba(16, 24, 40, 0.06);
+  --te-hint: #98a2b3;
+  --te-label: #475467;
+  --te-rangeval: #98a2b3;
+  --te-chip-bg: #f9fafb;
+  --te-chip-border: #d0d5dd;
+  --te-chip-name: #344054;
+  --te-chip-delete: #667085;
+  --te-chip-delete-bg: rgba(16, 24, 40, 0.08);
+  --te-chip-active-bg: rgba(124, 58, 237, 0.1);
+  --te-chip-active-name: #7c3aed;
+  --te-deactivate-bg: rgba(124, 58, 237, 0.08);
+  --te-deactivate-border: #c8b6ff;
+  --te-deactivate-color: #6d28d9;
+  /* scrollbar (item lists) */
+  --scrollbar-thumb: rgba(148, 163, 184, 0.45);
+  --scrollbar-thumb-hover: rgba(148, 163, 184, 0.62);
+  /* ctrl affordances (drag handles, icon buttons) */
+  --ctrl-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.96) 0%, rgba(232, 242, 255, 0.76) 100% );
+  --ctrl-border: rgba(255, 255, 255, 0.92);
+  --ctrl-icon: #64748b;
+  --ctrl-hover-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.98) 0%, rgba(238, 246, 255, 0.82) 100% );
+  --ctrl-hover-border: rgba(255, 255, 255, 0.98);
+  --ctrl-hover-icon: #2563eb;
+  /* add-btn (new space) — hardcoded copy of this theme's active-tab look */
+  --add-btn-bg: #2563eb;
+  --add-btn-color: #ffffff;
+  --add-btn-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+  /* buttons (design tokens) */
+  --btn-primary-bg: #2563eb;
+  --btn-primary-text: #ffffff;
+  --btn-primary-glow: 0 2px 10px rgba(37, 99, 235, 0.35);
+  --btn-secondary-bg: rgba(255, 255, 255, 0.80);
+  --btn-secondary-text: #334155;
+  --btn-secondary-border: rgba(15, 40, 90, 0.12);
+  --btn-disabled-bg: rgba(255, 255, 255, 0.45);
+  --btn-disabled-text: #94a3b8;
+  --btn-disabled-border: rgba(15, 40, 90, 0.08);
+  --btn-delete-bg: rgba(220, 38, 38, 0.10);
+  --btn-delete-text: #dc2626;
+  --btn-delete-border: rgba(220, 38, 38, 0.35);
+  /* fab */
+  --fab-bg: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(232, 242, 255, 0.7) 100%);
+  --fab-hover-bg: linear-gradient(150deg, rgba(255, 255, 255, 0.98), rgba(238, 246, 255, 0.82));
+  --fab-shadow: 0 14px 34px rgba(30, 58, 138, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.96), inset 0 0 0 1px rgba(190, 212, 255, 0.25);
+  --fab-icon: #2563eb;
+  --fab-icon-hover: #3c352a;
+  --fab-border: 1px solid rgba(255, 255, 255, 0.92);
+  --fab-backdrop: blur(22px) saturate(118%) brightness(1.08);
+  /* Layout Settings - User Configurable */
+  --border-radius: 16px;
+  --card-opacity: 1;
+  --grid-gap: 10px;
+  --card-padding: 1rem;
+  --link-row-height: 2rem;
+  --hover-speed: 0.22s;
+  --group-spacing-scale: 1;
+  --clock-time-scale: 1;
+  --section-title-size: 1.7rem;
+  --section-text-size: 1rem;
+  /* Callout semantic colours (constant across themes; theme-editor overridable). */
+  --callout-info: #3b82f6;
+  --callout-tip: #8b5cf6;
+  --callout-warning: #f59e0b;
+  --callout-success: #22c55e;
+  --callout-error: #e5484d;
+  /* Code block — a dark editor surface on every theme. */
+  --code-bg: #1b1e2b;
+  --code-text: #e7e9f2;
+  /* Card */
+  --card-bg: rgba(255, 255, 255, 0.82);
+  --link-button-bg: rgba(255, 255, 255, 0.82);
+  --card-border-color: rgba(255, 255, 255, 0.6);
+  --card-border: 1px solid rgba(255, 255, 255, 0.6);
+  /* Overlay surfaces (modals, drawers, menus, popovers) */
+  --overlay-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.96) 0%, rgba(238, 245, 255, 0.9) 100% );
+  --overlay-text: #1e293b;
+  --overlay-muted-text: #64748b;
+  --overlay-icon-color: #64748b;
+  --overlay-border-color: rgb(187 192 202 / 55%);
+  --overlay-separator-color: rgb(187 192 202 / 55%);
+  --overlay-hover-bg: rgba(37, 99, 235, 0.1);
+  --overlay-section-bg: rgba(30, 58, 138, 0.05);
+  --overlay-shadow: 0 14px 34px rgba(30, 58, 138, 0.15);
+  --settings-card-box-shadow: rgba(16, 24, 40, 0.04) 0px 1px 2px;
+  --modal-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.96) 0%, rgba(238, 245, 255, 0.9) 100% );
+  --input-bg: rgba(255, 255, 255, 0.9);
+  --input-color: #1e293b;
+  --card-shadow: 0 10px 30px rgba(15, 40, 90, 0.14);
+  --card-hover-border-color: rgba(255, 255, 255, 0.92);
+  --card-hover-shadow: 0 16px 42px rgba(15, 40, 90, 0.2);
+  /* Group Header (title bar) */
+  --header-bg: rgba(255, 255, 255, 0);
+  --header-color: #1e293b;
+  --header-divider-color: rgba(190, 212, 255, 0);
+  --header-font-size: 1rem;
+  --header-font-weight: 600;
+  --header-text-transform: none;
+  --header-letter-spacing: 0em;
+  --header-padding-bottom: 0.45rem;
+  --header-margin-bottom: 0.6rem;
+  --header-bleed: 1rem;
+  /* Links */
+  --link-color: #334155;
+  --link-hover-bg: rgba(37, 99, 235, 0.1);
+  --link-hover-color: #1e293b;
+  --link-font-size: 1.25rem;
+  --link-font-weight: 400;
+  --icon-color: #2563eb;
+  --search-bg: rgba(255, 255, 255, 0.9);
+  --search-placeholder-color: #64748b;
+  --search-border-color: rgba(255, 255, 255, 0.6);
+  --search-shadow: 0 8px 24px rgba(15, 40, 90, 0.12);
+  /* Item Types */
+  --divider-color: rgba(30, 41, 59, 0.14);
+  --item-header-color: #475569;
+  --item-header-line: rgba(30, 41, 59, 0.12);
+  --note-color: #475569;
+  /* Accent & Actions */
+  --accent-color: #2563eb;
+  --accent-hover-color: #1d4ed8;
+  --settings-status-pill-bg: rgba(255, 255, 255, 0.82);
+  --settings-status-pill-color: #0f766e;
+  --danger-color: #dc2626;
+  --empty-primary-hover-bg: linear-gradient(150deg, #2563eb, #3b82f6);
+  --empty-primary-hover-border: rgba(37, 99, 235, 0.32);
+  --empty-primary-hover-color: #ffffff;
+  --empty-secondary-hover-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.98), rgba(238, 246, 255, 0.82) );
+  --empty-secondary-hover-border: rgba(37, 99, 235, 0.18);
+  --empty-secondary-hover-color: #1e293b;
+  /* Workspace Tabs */
+  --tabs-container-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.82), rgba(232, 242, 255, 0.66) );
+  --tabs-container-border-color: rgba(255, 255, 255, 0.9);
+  --tabs-container-shadow: none;
+  --tab-radius: 10px;
+  --tab-bg: transparent;
+  --tab-color: #475569;
+  --tab-active-bg: #2563eb;
+  --tab-active-color: #ffffff;
+  --tab-active-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+  --header-action-settings-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.82), rgba(232, 242, 255, 0.66) );
+  --header-action-settings-border: rgba(255, 255, 255, 0.9);
+  --header-action-settings-shadow: none;
+  --header-action-add-bg: #5b8def;
+  --header-action-add-color: #ffffff;
+  --header-action-add-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+  --header-action-idle-color: #475569;
+  --header-action-hover-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.9) );
+  --header-action-hover-color: #1e293b;
+  --tab-pro-color: #94a3b8;
+  --tab-hover-bg: linear-gradient( 150deg, rgba(255, 255, 255, 0.96), rgba(238, 246, 255, 0.8) );
+  --tab-hover-color: #1e293b;
+  --tab-text-transform: none;
+  --tab-font-size: 0.875rem;
+  --tab-font-weight: 600;
+  /* Clock */
+  --clock-color: #ffffff;
+  --clock-shadow: 0 2px 18px rgba(15, 40, 90, 0.3);
+  /* Collapse button */
+  --collapse-btn-bg: rgba(30, 58, 138, 0.08);
+  --collapse-btn-color: #94a3b8;
+  --collapse-btn-hover-bg: rgba(37, 99, 235, 0.1);
+  /* completed token defaults (were component-level fallbacks) */
+  --board-modal-bg: linear-gradient(150deg, #ffffff 0%, #eef5ff 100%);
+  --board-row-bg: rgba(255, 255, 255, 0.82);
+  --board-row-hover-shadow: 0 4px 12px -2px rgba(15, 40, 90, 0.16);
+  --board-row-shadow: 0 1px 3px rgba(15, 40, 90, 0.1), 0 1px 2px rgba(15, 40, 90, 0.06);
+  --callout-border: color-mix(in srgb, var(--callout-color) 30%, transparent);
+  --callout-highlight: transparent;
+  --callout-surface: rgba(255, 255, 255, 0.82);
+  --clock-date: inherit;
+  --clock-greeting: #ffffff;
+  --clock-time: inherit;
+  --ct-error: #444;
+  --ct-info: #444;
+  --ct-success: #444;
+  --ct-tip: #444;
+  --ct-warning: #444;
+  --ctrl-shadow: 0 8px 20px rgba(30, 58, 138, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.96), inset 0 0 0 1px rgba(190, 212, 255, 0.2);
+  --empty-backdrop: blur(22px) saturate(118%) brightness(1.08);
+  --empty-bg: linear-gradient(155deg, rgba(255, 255, 255, 0.9) 0%, rgba(238, 245, 255, 0.8) 45%, rgba(220, 234, 255, 0.68) 100%);
+  --empty-border: rgba(255, 255, 255, 0.92);
+  --empty-shadow: 0 14px 34px rgba(30, 58, 138, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.96), inset 0 0 0 1px rgba(190, 212, 255, 0.25);
+  --empty-text: #475569;
+  --empty-title: #1e293b;
+  --link-counter-color: #2563eb;
+  --link-counter-shadow: none;
+  --menu-bg: #ffffff;
+  --menu-border: rgb(187 192 202 / 55%);
+  --menu-hover-bg: rgba(15, 23, 42, 0.06);
+  --menu-icon: #64748b;
+  --menu-separator: rgb(187 192 202 / 55%);
+  --menu-text: #1e293b;
+  --menu-danger-color: #dc2626;
+  --search-hint-border: rgba(255, 255, 255, 0.6);
+  --search-hint-hover-border: rgba(255, 255, 255, 0.6);
+  --search-hint-hover-color: #2563eb;
+  --search-hint-hover-text-opacity: 0.6;
+  --search-icon: #64748b;
+  --search-text: #1e293b;
+  --section-bare-shadow: 0 2px 18px rgba(15, 40, 90, 0.3);
+  --section-divider-color: rgba(255, 255, 255, 0.6);
+  --section-panel-text-color: #334155;
+  --section-text-color: rgba(255, 255, 255, 0.85);
+  --section-title-color: #ffffff;
+  --smodal-accent-tint: color-mix( in srgb, rgba(255, 255, 255, 0.9) 84%, #2563eb 16% );
+  --smodal-active-border: #2563eb;
+  --smodal-bg: rgb(251, 251, 252);
+  --smodal-close: #98a2b3;
+  --smodal-close-hover: #475467;
+  --smodal-muted: #64748b;
+  --smodal-raised-bg: rgba(255, 255, 255, 0.9);
+  --smodal-row-border: rgba(0, 0, 0, 0.05);
+  --smodal-separator: rgba(16, 24, 40, 0.08);
+  --smodal-shadow: -8px 0 40px rgba(16, 24, 40, 0.16);
+  --smodal-tab: #667085;
+  --smodal-tab-hover-bg: #f4f5f8;
+  --smodal-tab-hover-color: inherit;
+  --smodal-tabs-bg: rgb(251, 251, 252);
+  --smodal-text: #101828;
+  --smodal-track: #e4e7ec;
+  --smodal-value: #475467;
+  --step-badge-bg: #ffffff;
+  --step-badge-num: #1e293b;
+  --switcher-name: #1e293b;
+  --switcher-sub: #64748b;
+  --tab-active-hover-bg: #1d4ed8;
+  --tab-active-hover-color: #ffffff;
+  --todo-accent: #2563eb;
+  --todo-add-bg: rgba(128, 128, 128, 0.04);
+  --todo-add-border: rgba(37, 99, 235, 0.35);
+  --todo-add-color: #2563eb;
+  --todo-add-hover-bg: color-mix(in srgb, #2563eb 10%, transparent);
+  --todo-add-hover-border: color-mix(in srgb, #2563eb 40%, transparent);
+  --todo-add-hover-color: #2563eb;
+  --todo-add-shadow: none;
+  --todo-check-color: #fff;
+  --todo-complete-label: #334155;
+  --todo-toggle-bg: rgba(255, 255, 255, 0.72);
+  --todo-toggle-border: rgba(37, 99, 235, 0.34);
+  --todo-toggle-shadow: none;
+  /* context-specific (settings-modal / callout overrides) */
+  --callout-tint: 20%;
+}
+

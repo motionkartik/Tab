@@ -1,0 +1,126 @@
+/* mobile.css — small-screen rules. Loaded last so these win over the
+   desktop-first styles. Breakpoints: 900px (small tablet), 640px (phone). */
+
+/* ---------- 900px and below ---------- */
+@media (max-width: 900px) {
+    /* Settings drawer takes most of the screen */
+    .settings-modal {
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    /* Hub modals: sidebar becomes a top strip */
+    .todo-body,
+    .notes-body {
+        flex-direction: column;
+    }
+    .todo-sidebar,
+    .notes-sidebar {
+        width: 100%;
+        max-height: 30vh;
+        border-right: none;
+        border-bottom: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.1));
+    }
+
+    /* Header breathing room */
+    #site-header {
+        padding: 1rem 12px 0.5rem;
+        gap: 1rem;
+    }
+}
+
+/* ---------- 640px and below (phones) ---------- */
+@media (max-width: 640px) {
+    html,
+    body {
+        overflow-x: clip;
+    }
+
+    .container {
+        padding: 0 6px 24px 6px;
+    }
+
+    /* Header stacks: tabs row, then full-width actions */
+    #site-header-top {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #site-header-nav {
+        max-width: 100%;
+    }
+    .header-actions-group {
+        width: 100%;
+        justify-content: stretch;
+    }
+    .header-action-btn {
+        flex: 1;
+        padding: 0 10px;
+        height: 40px;
+    }
+
+    /* Clock scales down and stays on one line */
+    #clock-time {
+        font-size: clamp(2.2rem, 13vw, 3rem);
+    }
+    #clock-greeting {
+        letter-spacing: 0.16em;
+    }
+
+    /* Search bar full width with tighter padding */
+    #hero-panel {
+        padding: 0 4px;
+    }
+    .web-search-form {
+        padding: 0.65rem 0.8rem;
+    }
+    .web-search-submit-hint {
+        display: none;
+    }
+    .web-search-dropdown-scroll {
+        max-height: min(320px, 46vh);
+    }
+
+    /* Spotlight overlay goes near-full-screen */
+    .spotlight-backdrop {
+        padding-top: 8vh;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .spotlight-modal {
+        width: 100%;
+        max-width: 100%;
+        max-height: 72vh;
+    }
+    .spotlight-result-aside {
+        display: none;
+    }
+
+    /* Drawers and dialogs fill the screen */
+    .settings-modal {
+        border-left: none;
+    }
+    .settings-content {
+        padding: 1rem;
+    }
+    #link .settings-modal,
+    #group .settings-modal {
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    /* Bookmark import dialog stacks */
+    .bmi-body {
+        flex-direction: column;
+    }
+
+    /* Start screen single column (safety net on top of empty-workspace.css) */
+    .start-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Toasts don't overflow */
+    .routine-progress-toast {
+        left: 0.75rem;
+        right: 0.75rem;
+    }
+}

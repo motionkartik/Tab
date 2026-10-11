@@ -1,0 +1,271 @@
+/* ===== Link Buttons Group ===== */
+.link-buttons-group {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    z-index: 2;
+}
+
+/* ===== Action Buttons ===== */
+.add-link-to-group-button,
+.group-menu-btn,
+.link-overflow-btn,
+.dragHandle,
+.group-drag-handle {
+    padding: 0;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: var(--ctrl-bg);
+    border: 1px solid var(--ctrl-border);
+    box-shadow: var(--ctrl-shadow, none);
+    cursor: pointer;
+    transition:
+        background-color 0.15s ease,
+        border-color 0.15s ease;
+    flex-shrink: 0;
+}
+
+.add-link-to-group-button svg,
+.group-menu-btn svg,
+.link-overflow-btn svg,
+.dragHandle svg,
+.group-drag-handle svg {
+    width: 0.75rem !important;
+    height: 0.75rem !important;
+    fill: var(--ctrl-icon);
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Link widget content: positioning context */
+.link-widget-content {
+    position: relative;
+    transition:
+        transform var(--hover-speed) ease,
+        background-color var(--hover-speed) ease;
+}
+
+/* Full-row hover highlight + slide right */
+.link-widget-content:hover {
+    background-color: var(--link-hover-bg);
+    border-radius: 3px;
+    transform: translateX(5px);
+}
+
+.link-widget-content:hover .link-text {
+    color: var(--link-hover-color);
+}
+
+body.hover-motion-disabled .link-widget-content:hover {
+    transform: none;
+}
+
+/* Link controls: revealed on hover */
+.link-widget-content:hover .dragHandle,
+.link-widget-content:hover .link-overflow-btn {
+    display: flex;
+    opacity: 0.5;
+}
+
+.link-widget-content:hover .dragHandle:hover,
+.link-widget-content:hover .link-overflow-btn:hover {
+    opacity: 1;
+}
+
+/* Group controls: laid out but invisible at rest (reserve space, no idle
+   layout shift), revealed on title-bar hover. */
+.title-container .add-link-to-group-button,
+.title-container .group-drag-handle,
+.title-container .group-menu-btn {
+    display: flex;
+    opacity: 0;
+}
+
+.title-container:hover .add-link-to-group-button,
+.title-container:hover .group-drag-handle,
+.title-container:hover .group-menu-btn {
+    display: flex;
+    opacity: 0.5;
+}
+
+.title-container:hover .add-link-to-group-button:hover,
+.title-container:hover .group-drag-handle:hover,
+.title-container:hover .group-menu-btn:hover {
+    opacity: 1;
+}
+
+/* Accent: add (uses each theme's own accent color) */
+.add-link-to-group-button:hover {
+    background-color: color-mix(in srgb, var(--accent-color) 14%, transparent);
+    border-color: color-mix(in srgb, var(--accent-color) 38%, transparent);
+}
+.add-link-to-group-button:hover svg {
+    fill: var(--accent-color);
+}
+
+/* Link overflow button hover */
+.link-overflow-btn:hover {
+    background: var(--ctrl-hover-bg);
+    border-color: var(--ctrl-hover-border);
+}
+.link-overflow-btn:hover svg {
+    fill: var(--ctrl-hover-icon);
+}
+
+/* Drag handles */
+.dragHandle {
+    cursor: grab;
+}
+.group-drag-handle {
+    cursor: move;
+}
+.dragHandle path,
+.group-drag-handle path {
+    fill: var(--ctrl-icon);
+}
+.dragHandle:hover,
+.group-drag-handle:hover {
+    background: var(--ctrl-hover-bg);
+    border-color: var(--ctrl-hover-border);
+}
+.dragHandle:hover path,
+.group-drag-handle:hover path {
+    fill: var(--ctrl-hover-icon);
+}
+
+/* Group options button */
+.group-menu-btn:hover {
+    background: var(--ctrl-hover-bg);
+    border-color: var(--ctrl-hover-border);
+}
+.group-menu-btn:hover svg {
+    fill: var(--ctrl-hover-icon);
+}
+
+/* ===== Group Context Menu Popover ===== */
+.group-menu-popover {
+    position: fixed;
+    background: var(--menu-bg, var(--overlay-bg, #fff));
+    border: 1px solid var(--menu-border, var(--overlay-border-color, rgba(0, 0, 0, 0.12)));
+    border-radius: 8px;
+    box-shadow: var(--overlay-shadow, 0 12px 32px rgba(0, 0, 0, 0.16));
+    z-index: 10000;
+    padding: 4px;
+    min-width: 148px;
+    display: none;
+    flex-direction: column;
+}
+.group-menu-popover.open {
+    display: flex;
+}
+.group-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--menu-text, var(--overlay-text, #333));
+    text-align: left;
+    width: 100%;
+}
+.group-menu-item svg {
+    width: 0.75rem !important;
+    height: 0.75rem !important;
+    fill: var(--menu-icon, var(--overlay-icon-color, #888));
+    flex-shrink: 0;
+}
+.group-menu-item:hover {
+    background: var(--menu-hover-bg, var(--overlay-hover-bg, rgba(0, 0, 0, 0.06)));
+}
+.group-menu-item.danger {
+    color: var(--menu-danger-color, #dc2626);
+}
+.group-menu-item.danger svg {
+    fill: var(--menu-danger-color, #dc2626);
+}
+.group-menu-item.danger:hover {
+    background: rgba(220, 38, 38, 0.08);
+}
+
+.group-menu-separator,
+.link-menu-separator {
+    height: 1px;
+    background: var(--menu-separator, var(--overlay-separator-color, rgba(0, 0, 0, 0.08)));
+    margin: 3px 4px;
+}
+
+/* ===== Link Overflow Popover ===== */
+.link-overflow-popover {
+    position: fixed;
+    background: var(--menu-bg, var(--overlay-bg, #fff));
+    border: 1px solid var(--menu-border, var(--overlay-border-color, rgba(0, 0, 0, 0.12)));
+    border-radius: 8px;
+    box-shadow: var(--overlay-shadow, 0 12px 32px rgba(0, 0, 0, 0.16));
+    z-index: 10000;
+    padding: 4px;
+    min-width: 148px;
+    display: none;
+    flex-direction: column;
+}
+.link-overflow-popover.open {
+    display: flex;
+}
+.link-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--menu-text, var(--overlay-text, #333));
+    text-align: left;
+    width: 100%;
+}
+.link-menu-item svg {
+    width: 0.75rem !important;
+    height: 0.75rem !important;
+    fill: var(--menu-icon, var(--overlay-icon-color, #888));
+    flex-shrink: 0;
+}
+.link-menu-item:hover {
+    background: var(--menu-hover-bg, var(--overlay-hover-bg, rgba(0, 0, 0, 0.06)));
+}
+.link-menu-item.danger {
+    color: var(--menu-danger-color, #dc2626);
+}
+.link-menu-item.danger svg {
+    fill: var(--menu-danger-color, #dc2626);
+}
+.link-menu-item.danger:hover {
+    background: rgba(220, 38, 38, 0.08);
+}
+
+/* ===== Managed Board Read-only Mode ===== */
+.managed-readonly .group-drag-handle,
+.managed-readonly .group-menu-btn,
+.managed-readonly .add-link-to-group-button,
+.managed-readonly .todo-group-footer,
+.managed-readonly .dragHandle,
+.managed-readonly .link-overflow-btn {
+    display: none !important;
+}

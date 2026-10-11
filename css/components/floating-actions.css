@@ -1,0 +1,129 @@
+/* ===== Floating Action Buttons ===== */
+.floating-buttons {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.75rem;
+    z-index: 100;
+}
+
+.fab {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: var(--fab-border, none);
+    background: var(--fab-bg);
+    box-shadow: var(--fab-shadow);
+    backdrop-filter: var(--fab-backdrop, none);
+    -webkit-backdrop-filter: var(--fab-backdrop, none);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.fab:hover {
+    background: var(--fab-hover-bg);
+}
+
+.fab svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: var(--fab-icon);
+}
+
+.fab:hover svg {
+    fill: var(--fab-icon-hover);
+}
+
+/* ===== Style Painter ===== */
+.drag-ghost {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.85;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    border-radius: var(--item-border-radius, 4px);
+    overflow: hidden;
+}
+
+.paint-mode-pill {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    align-items: center;
+    gap: 8px;
+    background: var(--overlay-bg);
+    color: var(--overlay-text);
+    border: 1px solid var(--overlay-border-color);
+    border-radius: 999px;
+    padding: 8px 14px 8px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    z-index: 9999;
+    white-space: nowrap;
+    animation: paintPillIn 0.2s ease;
+}
+
+@keyframes paintPillIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.paint-mode-pill-icon svg {
+    width: 0.85rem;
+    height: 0.85rem;
+    fill: var(--accent-color);
+    display: block;
+}
+
+.paint-mode-pill-label {
+    opacity: 0.9;
+}
+
+.paint-mode-pill-cancel {
+    background: none;
+    border: none;
+    color: var(--overlay-muted-text);
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 0 0 0 4px;
+    line-height: 1;
+    transition: color 0.15s;
+}
+
+.paint-mode-pill-cancel:hover {
+    color: var(--overlay-text);
+}
+
+/* Flash feedback when style is pasted */
+.paint-applied {
+    animation: paintFlash 0.5s ease;
+}
+
+@keyframes paintFlash {
+    0% {
+        outline: 2px solid transparent;
+    }
+    30% {
+        outline: 2px solid rgba(167, 139, 250, 0.8);
+    }
+    100% {
+        outline: 2px solid transparent;
+    }
+}

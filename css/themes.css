@@ -1,0 +1,20 @@
+/* =====================================================================
+   Theme overrides index
+
+   Per-theme overrides that cannot be expressed as shared CSS variables
+   live in split files under css/themes/ for maintainability.
+   ===================================================================== */
+
+@import url("themes/simple.css");
+@import url("themes/professional.css");
+@import url("themes/dark.css");
+@import url("themes/light.css");
+@import url("themes/midnight.css");
+@import url("themes/luxury.css");
+@import url("themes/nordic.css");
+@import url("themes/ocean.css");
+@import url("themes/sakura.css");
+@import url("themes/pastel-sunset.css");
+@import url("themes/lavender-sky.css");
+@import url("themes/frost.css");
+@import url("themes/aurora-glass.css");

@@ -1,0 +1,59 @@
+/* ===== Legacy Icon Chooser ===== */
+/* Quarantined legacy global icon chooser rules to avoid accidental override */
+
+.color {
+    width: 1.75rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.25rem;
+}
+
+/* Global icon-container - may conflict with scoped #link rules */
+.icon-container {
+    width: 45rem;
+    height: 45rem;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.icon-container-in-use {
+    width: 45rem;
+    max-height: 10rem;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.icon-container svg,
+.choosen-icon svg,
+.icon-container-in-use svg {
+    width: 3rem;
+    height: auto;
+    max-height: 3rem;
+    border: solid thin gray;
+    padding: 0.25rem;
+}
+
+/*
+@media screen and (min-width: 769px) {
+    .item {
+        grid-column: span 6;
+    }
+}
+
+@media screen and (min-width: 999px) {
+    .item {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .item {
+        grid-column: span 3;
+    }
+}
+*/

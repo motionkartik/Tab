@@ -1,0 +1,360 @@
+/* Workspace modals: lock icon, context menu, passphrase, move/convert,
+   apply-theme. Extracted from workspace.css. */
+
+/* ===== Workspace Lock Icon ===== */
+.workspace-lock-icon {
+    font-size: 0.65rem;
+    margin-right: 0.3rem;
+    opacity: 0.7;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ===== Workspace Context Menu ===== */
+.workspace-context-menu {
+    position: fixed;
+    z-index: 9999;
+    min-width: 130px;
+    background: var(--overlay-bg, #fff);
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 8px;
+    box-shadow: var(--overlay-shadow, 0 12px 32px rgba(0, 0, 0, 0.16));
+    padding: 0.3rem 0;
+    font-size: 0.82rem;
+    overflow: hidden;
+    animation: ctx-fadein 0.1s ease;
+}
+
+@keyframes ctx-fadein {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.workspace-context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    color: var(--overlay-text, #333);
+    transition: background 0.12s;
+    white-space: nowrap;
+}
+
+.workspace-context-menu-item:hover {
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.05));
+    color: var(--overlay-text, #333);
+}
+
+.workspace-context-menu-item.danger {
+    color: var(--danger-color, #dc2626);
+}
+
+.workspace-context-menu-item.danger:hover {
+    background: rgba(220, 38, 38, 0.07);
+}
+
+.workspace-context-menu-separator {
+    height: 1px;
+    background: var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+    margin: 0.2rem 0;
+}
+
+.workspace-context-menu-item.pro-locked {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.workspace-overflow-menu {
+    padding: 0.35rem;
+    min-width: 160px;
+}
+
+.workspace-overflow-item {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-radius: 7px;
+    text-align: left;
+    font: inherit;
+}
+
+.workspace-overflow-item.active {
+    background: var(--tab-active-bg);
+    color: var(--tab-active-color);
+}
+
+.workspace-overflow-item .workspace-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ===== Passphrase Modal ===== */
+.passphrase-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: passphrase-fadein 0.15s ease;
+}
+
+@keyframes passphrase-fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.passphrase-modal-box {
+    background: var(--card-bg, #fff);
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 1.75rem;
+    width: min(360px, 92vw);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    animation: passphrase-slidein 0.18s ease;
+}
+
+@keyframes passphrase-slidein {
+    from {
+        transform: translateY(-12px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.passphrase-modal-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--link-color, #222);
+}
+
+.passphrase-modal-desc {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--note-color, #666);
+    line-height: 1.45;
+}
+
+.passphrase-modal-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    border-radius: 7px;
+    font-size: 0.88rem;
+    background: var(--card-bg, #fff);
+    color: var(--link-color, #333);
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.passphrase-modal-input:focus {
+    border-color: var(--accent-color, #4a7bff);
+}
+
+.passphrase-modal-error {
+    margin: 0;
+    font-size: 0.78rem;
+    color: var(--danger-color, #dc2626);
+    min-height: 1em;
+}
+
+.passphrase-modal-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    margin-top: 0.25rem;
+}
+
+.passphrase-modal-btn {
+    padding: 0.5rem 1.1rem;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition:
+        background 0.15s,
+        border-color 0.15s;
+}
+
+.passphrase-modal-btn-cancel {
+    background: var(--btn-secondary-bg, var(--card-bg, #fff));
+    border-color: var(--btn-secondary-border, var(--card-border-color, rgba(0, 0, 0, 0.12)));
+    color: var(--btn-secondary-text, var(--note-color, #666));
+}
+
+.passphrase-modal-btn-cancel:hover {
+    background: color-mix(in srgb, var(--btn-secondary-text, #666) 7%, var(--btn-secondary-bg, var(--card-bg, #fff)));
+}
+
+.passphrase-modal-btn-ok {
+    background: var(--btn-primary-bg, var(--accent-color, #4a7bff));
+    color: var(--btn-primary-text, #fff);
+    border-color: var(--btn-primary-bg, var(--accent-color, #4a7bff));
+    box-shadow: var(--btn-primary-glow, none);
+}
+
+.passphrase-modal-btn-ok:hover {
+    filter: brightness(1.07);
+}
+
+/* Move-group modal extras */
+.move-group-modal-box {
+    width: min(320px, 92vw);
+}
+
+/* Convert-button modal extras */
+.convert-button-modal-box {
+    width: min(420px, 92vw);
+}
+
+.convert-button-modal-label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--link-color, #444);
+}
+
+.convert-button-modal-search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    border-radius: 7px;
+    font-size: 0.88rem;
+    background: var(--card-bg, #fff);
+    color: var(--link-color, #333);
+    outline: none;
+    margin-bottom: 0.65rem;
+}
+
+.convert-button-modal-search:focus {
+    border-color: var(--accent-color, #4a7bff);
+}
+
+.convert-button-modal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    max-height: 240px;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+
+.convert-button-modal-option,
+.convert-button-modal-empty {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.88rem;
+}
+
+.convert-button-modal-option {
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.12));
+    background: var(--card-bg, rgba(255, 255, 255, 0.92));
+    color: var(--link-color, #333);
+    cursor: pointer;
+    text-align: left;
+    transition:
+        border-color 0.15s ease,
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+.convert-button-modal-option:hover,
+.convert-button-modal-option.selected {
+    border-color: var(--accent-color, #4a7bff);
+    background: var(--card-hover-bg, rgba(74, 123, 255, 0.08));
+}
+
+.convert-button-modal-option.selected {
+    box-shadow: 0 0 0 1px rgba(74, 123, 255, 0.14) inset;
+}
+
+.convert-button-modal-empty {
+    border: 1px dashed var(--card-border-color, rgba(0, 0, 0, 0.12));
+    color: var(--note-color, #666);
+    background: rgba(128, 128, 128, 0.04);
+}
+
+/* ===== Apply Theme to Workspaces Modal ===== */
+.apply-theme-modal-box {
+    width: min(340px, 92vw);
+}
+
+.apply-theme-modal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    max-height: 220px;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+
+.apply-theme-modal-list label {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 0.88rem;
+    cursor: pointer;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    transition: background 0.1s;
+}
+
+.apply-theme-modal-list label:hover {
+    background: var(--card-hover-bg, rgba(0, 0, 0, 0.04));
+}
+
+.apply-theme-modal-select-all-row {
+    border-top: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.1));
+    padding-top: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.82rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--link-color, #555);
+}
+
+.move-group-modal-select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--card-border-color, rgba(0, 0, 0, 0.15));
+    border-radius: 7px;
+    font-size: 0.88rem;
+    background: var(--card-bg, #fff);
+    color: var(--link-color, #333);
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
+}
+
+.move-group-modal-select:focus {
+    border-color: var(--accent-color, #4a7bff);
+}
+

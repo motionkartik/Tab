@@ -1,0 +1,11 @@
+/* ============================================================
+   THEME: Pastel Sunset  (body.ui-pastel-sunset)
+   ============================================================ */
+
+body.ui-pastel-sunset {
+    background-attachment: fixed;
+}
+/* Tasks/Notes chip separator: white hint border on a near-white pill — darken. */
+body.ui-pastel-sunset .web-search-form #notes-hero-slot {
+    border-left-color: rgba(16, 24, 40, 0.14);
+}

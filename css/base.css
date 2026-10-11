@@ -1,0 +1,45 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* Set explicitly: extension pages default to system sans-serif, but a normal
+       web page (the public board reader on the web) defaults to serif. Pin a sans
+       stack so both render identically. No webfont needed (CSP-safe). */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+        "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: linear-gradient(135deg, #abdcff, #1880cb);
+}
+
+/* Canvas "scene" backgrounds (js/backgrounds/): painted above the body
+   background and below all page content. */
+#bg-scene-canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    display: block;
+}
+
+.content-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 0.35rem;
+}

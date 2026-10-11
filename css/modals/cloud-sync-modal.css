@@ -1,0 +1,310 @@
+/* ===== Cloud Sync dialog =====
+   Self-contained styles for the Cloud Sync "Manage" dialog. Deliberately does
+   NOT share classes with the board manage modals so the two can evolve
+   independently. Visual language is intentionally similar, but the rules are
+   owned here. The sync *content* (.sync-dashboard-*, #sync-body, etc.) is styled
+   in license-tab.css since it is shared with the Account tab domain. */
+
+.csync-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background: rgba(15, 23, 42, 0.45);
+    opacity: 0;
+    transition: opacity 0.18s ease;
+}
+
+.csync-modal-backdrop.active {
+    opacity: 1;
+}
+
+.csync-modal {
+    width: min(640px, 100%);
+    /* Fixed height (like the board modals) so paginating never resizes the
+       dialog. Header/footer stay pinned; the body fills + scrolls. */
+    height: 60vh;
+    background: var(--board-modal-bg, var(--modal-bg, var(--overlay-bg, #fff)));
+    color: var(--overlay-text, #1f2937);
+    font-family: Manrope, system-ui, sans-serif;
+    border-radius: 18px;
+    border: 1px solid var(--overlay-border-color, rgba(148, 163, 184, 0.2));
+    box-shadow: var(--overlay-shadow, 0 24px 70px rgba(15, 23, 42, 0.28));
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.csync-modal button,
+.csync-modal input,
+.csync-modal select,
+.csync-modal textarea {
+    font-family: inherit;
+}
+
+.csync-modal-header,
+.csync-modal-footer {
+    padding: 1.1rem 1.35rem;
+    background: transparent;
+    flex-shrink: 0;
+}
+
+.csync-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    border-bottom: 1px solid var(--overlay-separator-color, rgba(148, 163, 184, 0.2));
+}
+
+.csync-modal-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--overlay-text, #111827);
+}
+
+.csync-modal-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.csync-modal-subtitle {
+    margin: 0.2rem 0 0;
+    font-size: 0.9rem;
+    color: var(--overlay-muted-text, #64748b);
+}
+
+.csync-modal-close {
+    flex-shrink: 0;
+}
+
+.csync-modal-body {
+    padding: 1.15rem 1.35rem 1.3rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 1 auto;
+    min-height: 0;
+    background: transparent;
+}
+
+.csync-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.csync-modal-btn {
+    margin: 0;
+}
+
+/* ── Dashboard row actions ───────────────────────────────────────────────── */
+.csync-row-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+/* Primary action — filled with the theme accent. */
+.csync-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--btn-primary-text, #fff);
+    background: var(--btn-primary-bg, var(--accent-color, #4a7bff));
+    border: 1px solid var(--btn-primary-bg, var(--accent-color, #4a7bff));
+    border-radius: 10px;
+    padding: 0.5rem 0.85rem;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: var(--btn-primary-glow, none);
+    transition:
+        background 0.14s ease,
+        border-color 0.14s ease,
+        opacity 0.14s ease;
+}
+
+.csync-action-btn:hover:not(:disabled) {
+    filter: brightness(1.07);
+}
+
+/* Ghost action + the kebab share the quiet outlined look. */
+.csync-action-btn-ghost,
+.csync-menu-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--btn-secondary-text, var(--overlay-text, #3a3f4a));
+    background: var(--btn-secondary-bg, transparent);
+    border: 1px solid var(--btn-secondary-border, var(--overlay-border-color, rgba(148, 163, 184, 0.28)));
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition:
+        background 0.14s ease,
+        color 0.14s ease;
+}
+
+.csync-action-btn-ghost {
+    padding: 0.5rem 0.7rem;
+}
+
+.csync-menu-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    color: var(--overlay-icon-color, var(--icon-color, #6b6051));
+}
+
+.csync-action-btn-ghost:hover:not(:disabled),
+.csync-menu-btn:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--btn-secondary-text, #475467) 8%, var(--btn-secondary-bg, transparent));
+    color: var(--btn-secondary-text, var(--overlay-text, #1f2937));
+}
+
+.csync-action-btn:disabled,
+.csync-action-btn-ghost:disabled,
+.csync-menu-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+/* ── Overflow (kebab) menu ───────────────────────────────────────────────── */
+.csync-menu-wrap {
+    position: relative;
+}
+
+.csync-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    z-index: 20;
+    min-width: 178px;
+    display: none;
+    flex-direction: column;
+    padding: 0.3rem;
+    background: var(--overlay-bg, #fff);
+    border: 1px solid var(--overlay-border-color, rgba(148, 163, 184, 0.18));
+    border-radius: 12px;
+    box-shadow: var(--overlay-shadow, 0 16px 36px -14px rgba(15, 23, 42, 0.5));
+}
+
+.csync-menu-wrap.open .csync-menu {
+    display: flex;
+}
+
+/* Flip upward when the menu would overflow the modal body / viewport. */
+.csync-menu-wrap.flip-up .csync-menu {
+    top: auto;
+    bottom: calc(100% + 6px);
+}
+
+.csync-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    width: 100%;
+    text-align: left;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--overlay-text, #475569);
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+    padding: 0.55rem 0.65rem;
+    cursor: pointer;
+    transition: background 0.14s ease;
+}
+
+.csync-menu-item svg {
+    width: 15px;
+    height: 15px;
+    color: var(--overlay-muted-text, #94a3b8);
+    flex: none;
+}
+
+.csync-menu-item:hover:not(:disabled) {
+    background: var(--overlay-hover-bg, rgba(148, 163, 184, 0.12));
+}
+
+.csync-menu-item:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.csync-menu-item-danger,
+.csync-menu-item-danger svg {
+    color: var(--danger-color, #bb4a35);
+}
+
+.csync-menu-item-danger:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--danger-color, #bb4a35) 10%, transparent);
+}
+
+/* ── Pager ───────────────────────────────────────────────────────────────── */
+.csync-pager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.csync-pager-btn {
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--btn-secondary-text, var(--overlay-text, #3a3f4a));
+    background: var(--btn-secondary-bg, transparent);
+    border: 1px solid var(--btn-secondary-border, var(--overlay-border-color, rgba(148, 163, 184, 0.28)));
+    border-radius: 10px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    transition: background 0.14s ease;
+}
+
+.csync-pager-btn:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--btn-secondary-text, #475467) 8%, var(--btn-secondary-bg, transparent));
+}
+
+.csync-pager-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.csync-pager-info {
+    font-size: 0.8rem;
+    color: var(--overlay-muted-text, #64748b);
+}
+
+@media (max-width: 640px) {
+    .csync-modal-backdrop {
+        padding: 0.75rem;
+    }
+
+    .csync-modal {
+        max-height: 94vh;
+        border-radius: 14px;
+    }
+
+    .csync-modal-header,
+    .csync-modal-footer,
+    .csync-modal-body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

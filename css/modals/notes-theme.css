@@ -1,0 +1,432 @@
+/* ─── Notes modal — per-theme token sets ────────────────────────────────────
+ *
+ * GENERATED from the furnished "Notes Modal Themes" design (claude.ai design
+ * project 220d9696). Each theme selector declares the full `--notes-*` token
+ * set; notes-modal.css consumes them. Same pattern the rest of the interface
+ * uses (per-theme CSS variables driven by the `body.ui-*` class). Edit
+ * scripts/gen-notes-theme.mjs + `node scripts/gen-notes-theme.mjs` to
+ * regenerate rather than hand-tweaking, to keep every theme in sync.
+ *
+ * Design → app-class map: nordic=:root/ui-nordic, midnight(ember)=ui-dark,
+ * midnight-blue=ui-midnight, sunset=ui-pastel-sunset, lavender=ui-lavender-sky.
+ */
+
+:root {
+    --notes-scrim: rgba(44,36,26,0.32);
+    --notes-modal-bg: #fffdf8;
+    --notes-modal-border: rgba(74,60,42,0.12);
+    --notes-modal-shadow: 0 1px 2px rgba(74,60,42,0.06), 0 34px 80px -30px rgba(44,36,26,0.6);
+    --notes-sidebar-bg: linear-gradient(180deg,#fbf8f0,#f6f2e7);
+    --notes-sidebar-border: rgba(74,60,42,0.10);
+    --notes-editor-bg: #fffdf8;
+    --notes-text: #3c352a;
+    --notes-text-muted: #9c917d;
+    --notes-text-faint: #b9ad99;
+    --notes-title: #3c352a;
+    --notes-accent: #c0694a;
+    --notes-accent-text: #b0573a;
+    --notes-accent-tint: rgba(192,105,74,0.14);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -4px rgba(192,105,74,0.55);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #e4dccd;
+    --notes-divider: rgba(74,60,42,0.08);
+    --notes-row-active-bg: #fffdf8;
+    --notes-row-active-border: rgba(74,60,42,0.10);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(74,60,42,0.28);
+    --notes-preview-bg: linear-gradient(180deg,#fdfbf4,#faf6ec);
+    --notes-seg-track: rgba(74,60,42,0.06);
+    --notes-dot: #7e8d68;
+    --notes-code-bg: rgba(126,141,104,0.16);
+    --notes-code-text: #6b7a5e;
+    --notes-quote-bar: #7e8d68;
+    --notes-quote-bg: rgba(126,141,104,0.07);
+}
+
+body.ui-nordic {
+    --notes-scrim: rgba(44,36,26,0.32);
+    --notes-modal-bg: #fffdf8;
+    --notes-modal-border: rgba(74,60,42,0.12);
+    --notes-modal-shadow: 0 1px 2px rgba(74,60,42,0.06), 0 34px 80px -30px rgba(44,36,26,0.6);
+    --notes-sidebar-bg: linear-gradient(180deg,#fbf8f0,#f6f2e7);
+    --notes-sidebar-border: rgba(74,60,42,0.10);
+    --notes-editor-bg: #fffdf8;
+    --notes-text: #3c352a;
+    --notes-text-muted: #9c917d;
+    --notes-text-faint: #b9ad99;
+    --notes-title: #3c352a;
+    --notes-accent: #c0694a;
+    --notes-accent-text: #b0573a;
+    --notes-accent-tint: rgba(192,105,74,0.14);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -4px rgba(192,105,74,0.55);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #e4dccd;
+    --notes-divider: rgba(74,60,42,0.08);
+    --notes-row-active-bg: #fffdf8;
+    --notes-row-active-border: rgba(74,60,42,0.10);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(74,60,42,0.28);
+    --notes-preview-bg: linear-gradient(180deg,#fdfbf4,#faf6ec);
+    --notes-seg-track: rgba(74,60,42,0.06);
+    --notes-dot: #7e8d68;
+    --notes-code-bg: rgba(126,141,104,0.16);
+    --notes-code-text: #6b7a5e;
+    --notes-quote-bar: #7e8d68;
+    --notes-quote-bg: rgba(126,141,104,0.07);
+}
+
+body.ui-light {
+    --notes-scrim: rgba(16,24,40,0.34);
+    --notes-modal-bg: #ffffff;
+    --notes-modal-border: rgba(16,24,40,0.08);
+    --notes-modal-shadow: 0 1px 2px rgba(16,24,40,0.06), 0 34px 80px -30px rgba(16,24,40,0.4);
+    --notes-sidebar-bg: #f7f8fa;
+    --notes-sidebar-border: rgba(16,24,40,0.07);
+    --notes-editor-bg: #ffffff;
+    --notes-text: #101828;
+    --notes-text-muted: #667085;
+    --notes-text-faint: #98a2b3;
+    --notes-title: #101828;
+    --notes-accent: #3b6fd4;
+    --notes-accent-text: #3b6fd4;
+    --notes-accent-tint: rgba(59,111,212,0.10);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -4px rgba(59,111,212,0.45);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #e4e7ec;
+    --notes-divider: rgba(16,24,40,0.08);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(16,24,40,0.10);
+    --notes-row-active-shadow: 0 6px 14px -8px rgba(16,24,40,0.2);
+    --notes-preview-bg: #f8fafc;
+    --notes-seg-track: #eef0f3;
+    --notes-dot: #3b6fd4;
+    --notes-code-bg: rgba(59,111,212,0.10);
+    --notes-code-text: #3b6fd4;
+    --notes-quote-bar: #3b6fd4;
+    --notes-quote-bg: rgba(59,111,212,0.06);
+}
+
+body.ui-professional {
+    --notes-scrim: rgba(16,24,40,0.28);
+    --notes-modal-bg: #ffffff;
+    --notes-modal-border: rgba(16,24,40,0.08);
+    --notes-modal-shadow: 0 1px 2px rgba(16,24,40,0.06), 0 34px 80px -30px rgba(16,24,40,0.4);
+    --notes-sidebar-bg: #f7f8fa;
+    --notes-sidebar-border: rgba(16,24,40,0.07);
+    --notes-editor-bg: #ffffff;
+    --notes-text: #101828;
+    --notes-text-muted: #667085;
+    --notes-text-faint: #98a2b3;
+    --notes-title: #101828;
+    --notes-accent: #1d2939;
+    --notes-accent-text: #475467;
+    --notes-accent-tint: #f2f4f7;
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: none;
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #e4e7ec;
+    --notes-divider: rgba(16,24,40,0.08);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(16,24,40,0.10);
+    --notes-row-active-shadow: 0 6px 14px -8px rgba(16,24,40,0.2);
+    --notes-preview-bg: #fafbfc;
+    --notes-seg-track: #eef0f3;
+    --notes-dot: #98a2b3;
+    --notes-code-bg: #f2f4f7;
+    --notes-code-text: #475467;
+    --notes-quote-bar: #98a2b3;
+    --notes-quote-bg: #f8f9fb;
+}
+
+body.ui-sakura {
+    --notes-scrim: rgba(110,42,70,0.26);
+    --notes-modal-bg: linear-gradient(180deg,#ffffff,#fff4f9);
+    --notes-modal-border: rgba(200,90,140,0.16);
+    --notes-modal-shadow: 0 1px 2px rgba(200,90,140,0.06), 0 34px 80px -30px rgba(200,90,140,0.44);
+    --notes-sidebar-bg: linear-gradient(180deg,#fff4f9,#ffe9f2);
+    --notes-sidebar-border: rgba(200,90,140,0.14);
+    --notes-editor-bg: linear-gradient(180deg,#ffffff,#fff4f9);
+    --notes-text: #6e2a46;
+    --notes-text-muted: #bd7d97;
+    --notes-text-faint: #dba9bd;
+    --notes-title: #6e2a46;
+    --notes-accent: #e0588a;
+    --notes-accent-text: #c43e6e;
+    --notes-accent-tint: #fcdbe8;
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -4px rgba(224,88,138,0.5);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #f5cede;
+    --notes-divider: rgba(200,90,140,0.12);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(200,90,140,0.16);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(200,90,140,0.4);
+    --notes-preview-bg: #fff7fb;
+    --notes-seg-track: rgba(200,90,140,0.08);
+    --notes-dot: #e0588a;
+    --notes-code-bg: #fcdbe8;
+    --notes-code-text: #c43e6e;
+    --notes-quote-bar: #e0588a;
+    --notes-quote-bg: rgba(224,88,138,0.07);
+}
+
+body.ui-pastel-sunset {
+    --notes-scrim: rgba(94,53,80,0.24);
+    --notes-modal-bg: linear-gradient(180deg,#ffffff,#fff5ee);
+    --notes-modal-border: rgba(226,120,85,0.16);
+    --notes-modal-shadow: 0 1px 2px rgba(226,120,85,0.06), 0 34px 80px -30px rgba(226,120,85,0.44);
+    --notes-sidebar-bg: linear-gradient(180deg,#fff5ee,#ffece0);
+    --notes-sidebar-border: rgba(226,120,85,0.14);
+    --notes-editor-bg: linear-gradient(180deg,#ffffff,#fff5ee);
+    --notes-text: #5e3550;
+    --notes-text-muted: #c2937f;
+    --notes-text-faint: #e3b9a6;
+    --notes-title: #5e3550;
+    --notes-accent: #ef6f53;
+    --notes-accent-text: #e26044;
+    --notes-accent-tint: #fce0d6;
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -3px rgba(239,111,83,0.5);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #f7d6c4;
+    --notes-divider: rgba(226,120,85,0.12);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(226,120,85,0.16);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(226,120,85,0.4);
+    --notes-preview-bg: #fff8f2;
+    --notes-seg-track: rgba(255,255,255,0.62);
+    --notes-dot: #ef6f53;
+    --notes-code-bg: #fce0d6;
+    --notes-code-text: #e26044;
+    --notes-quote-bar: #ef6f53;
+    --notes-quote-bg: rgba(239,111,83,0.07);
+}
+
+body.ui-lavender-sky {
+    --notes-scrim: rgba(53,47,94,0.26);
+    --notes-modal-bg: linear-gradient(180deg,#ffffff,#f7f4ff);
+    --notes-modal-border: rgba(120,95,200,0.16);
+    --notes-modal-shadow: 0 1px 2px rgba(120,95,200,0.06), 0 34px 80px -28px rgba(120,95,200,0.5);
+    --notes-sidebar-bg: linear-gradient(180deg,#f7f4ff,#efeafd);
+    --notes-sidebar-border: rgba(120,95,200,0.14);
+    --notes-editor-bg: linear-gradient(180deg,#ffffff,#f7f4ff);
+    --notes-text: #352f5e;
+    --notes-text-muted: #a59fc6;
+    --notes-text-faint: #c2bce0;
+    --notes-title: #352f5e;
+    --notes-accent: #7c5cdb;
+    --notes-accent-text: #6a4fc9;
+    --notes-accent-tint: #ece6fb;
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -3px rgba(124,92,219,0.5);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #ddd6f5;
+    --notes-divider: rgba(120,95,200,0.12);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(120,95,200,0.16);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(120,95,200,0.44);
+    --notes-preview-bg: #f9f7ff;
+    --notes-seg-track: rgba(255,255,255,0.62);
+    --notes-dot: #7c5cdb;
+    --notes-code-bg: #ece6fb;
+    --notes-code-text: #6a4fc9;
+    --notes-quote-bar: #7c5cdb;
+    --notes-quote-bg: rgba(124,92,219,0.07);
+}
+
+body.ui-aurora-glass {
+    --notes-scrim: rgba(10,20,50,0.42);
+    --notes-modal-bg: #ffffff;
+    --notes-modal-border: rgba(15,40,90,0.10);
+    --notes-modal-shadow: 0 34px 90px -26px rgba(8,20,55,0.72);
+    --notes-sidebar-bg: #f5f7fc;
+    --notes-sidebar-border: rgba(15,40,90,0.08);
+    --notes-editor-bg: #ffffff;
+    --notes-text: #1e293b;
+    --notes-text-muted: #64748b;
+    --notes-text-faint: #94a3b8;
+    --notes-title: #1e293b;
+    --notes-accent: #4f46e5;
+    --notes-accent-text: #4f46e5;
+    --notes-accent-tint: rgba(79,70,229,0.10);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -3px rgba(79,70,229,0.45);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: #e2e8f0;
+    --notes-divider: rgba(15,40,90,0.08);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(15,40,90,0.10);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(30,41,59,0.25);
+    --notes-preview-bg: #f6f7fd;
+    --notes-seg-track: #eef1f8;
+    --notes-dot: #4f46e5;
+    --notes-code-bg: rgba(79,70,229,0.10);
+    --notes-code-text: #4f46e5;
+    --notes-quote-bar: #4f46e5;
+    --notes-quote-bg: rgba(79,70,229,0.06);
+}
+
+body.ui-frost {
+    --notes-scrim: rgba(20,40,90,0.24);
+    --notes-modal-bg: linear-gradient(155deg, rgba(255,255,255,0.94) 0%, rgba(244,249,255,0.90) 100%);
+    --notes-modal-border: rgba(255,255,255,0.95);
+    --notes-modal-shadow: 0 34px 80px -30px rgba(30,58,138,0.4);
+    --notes-sidebar-bg: rgba(247,250,255,0.72);
+    --notes-sidebar-border: rgba(190,212,255,0.55);
+    --notes-editor-bg: #ffffff;
+    --notes-text: #1e293b;
+    --notes-text-muted: #475569;
+    --notes-text-faint: #94a3b8;
+    --notes-title: #1e293b;
+    --notes-accent: #2563eb;
+    --notes-accent-text: #2563eb;
+    --notes-accent-tint: rgba(30,58,138,0.08);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 12px -3px rgba(37,99,235,0.4);
+    --notes-input-bg: #ffffff;
+    --notes-input-border: rgba(15,40,90,0.12);
+    --notes-divider: rgba(15,40,90,0.10);
+    --notes-row-active-bg: #ffffff;
+    --notes-row-active-border: rgba(190,212,255,0.7);
+    --notes-row-active-shadow: 0 8px 18px -12px rgba(30,58,138,0.25);
+    --notes-preview-bg: #f4f8fe;
+    --notes-seg-track: rgba(30,58,138,0.07);
+    --notes-dot: #2563eb;
+    --notes-code-bg: rgba(37,99,235,0.10);
+    --notes-code-text: #2563eb;
+    --notes-quote-bar: #2563eb;
+    --notes-quote-bg: rgba(37,99,235,0.06);
+}
+
+body.ui-dark {
+    --notes-scrim: rgba(0,0,0,0.4);
+    --notes-modal-bg: linear-gradient(180deg,#221d15,#1b160f);
+    --notes-modal-border: rgba(255,236,209,0.10);
+    --notes-modal-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 34px 80px -28px rgba(0,0,0,0.75);
+    --notes-sidebar-bg: rgba(255,236,209,0.03);
+    --notes-sidebar-border: rgba(255,236,209,0.09);
+    --notes-editor-bg: linear-gradient(180deg,#221d15,#1b160f);
+    --notes-text: #faf6ef;
+    --notes-text-muted: #b0a594;
+    --notes-text-faint: #7d7361;
+    --notes-title: #faf6ef;
+    --notes-accent: #f5a524;
+    --notes-accent-text: #f6b65c;
+    --notes-accent-tint: rgba(245,165,36,0.14);
+    --notes-accent-btn-text: #14110b;
+    --notes-accent-glow: 0 4px 14px -2px rgba(245,165,36,0.45);
+    --notes-input-bg: rgba(255,236,209,0.05);
+    --notes-input-border: rgba(255,236,209,0.12);
+    --notes-divider: rgba(255,236,209,0.09);
+    --notes-row-active-bg: linear-gradient(180deg,#2c2519,#241e14);
+    --notes-row-active-border: rgba(245,165,36,0.30);
+    --notes-row-active-shadow: none;
+    --notes-preview-bg: #1c170f;
+    --notes-seg-track: rgba(255,236,209,0.05);
+    --notes-dot: #f5a524;
+    --notes-code-bg: rgba(245,165,36,0.14);
+    --notes-code-text: #f6b65c;
+    --notes-quote-bar: #f5a524;
+    --notes-quote-bg: rgba(245,165,36,0.07);
+}
+
+body.ui-midnight {
+    --notes-scrim: rgba(0,0,0,0.4);
+    --notes-modal-bg: linear-gradient(180deg,#162033,#101726);
+    --notes-modal-border: rgba(152,186,255,0.10);
+    --notes-modal-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 34px 80px -28px rgba(0,0,0,0.75);
+    --notes-sidebar-bg: rgba(152,186,255,0.03);
+    --notes-sidebar-border: rgba(152,186,255,0.09);
+    --notes-editor-bg: linear-gradient(180deg,#162033,#101726);
+    --notes-text: #eef3fb;
+    --notes-text-muted: #8e9bb3;
+    --notes-text-faint: #5f6b82;
+    --notes-title: #eef3fb;
+    --notes-accent: #4f8cff;
+    --notes-accent-text: #7facff;
+    --notes-accent-tint: rgba(79,140,255,0.14);
+    --notes-accent-btn-text: #ffffff;
+    --notes-accent-glow: 0 4px 14px -2px rgba(79,140,255,0.5);
+    --notes-input-bg: rgba(152,186,255,0.05);
+    --notes-input-border: rgba(152,186,255,0.12);
+    --notes-divider: rgba(152,186,255,0.09);
+    --notes-row-active-bg: linear-gradient(180deg,#1e2a40,#162132);
+    --notes-row-active-border: rgba(79,140,255,0.34);
+    --notes-row-active-shadow: none;
+    --notes-preview-bg: #101827;
+    --notes-seg-track: rgba(152,186,255,0.05);
+    --notes-dot: #4f8cff;
+    --notes-code-bg: rgba(79,140,255,0.14);
+    --notes-code-text: #8ab6ff;
+    --notes-quote-bar: #4f8cff;
+    --notes-quote-bg: rgba(79,140,255,0.07);
+}
+
+body.ui-ocean {
+    --notes-scrim: rgba(2,20,26,0.4);
+    --notes-modal-bg: linear-gradient(180deg,#23606f,#19505d);
+    --notes-modal-border: rgba(150,224,230,0.10);
+    --notes-modal-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 34px 80px -28px rgba(0,0,0,0.75);
+    --notes-sidebar-bg: rgba(150,224,230,0.04);
+    --notes-sidebar-border: rgba(150,224,230,0.09);
+    --notes-editor-bg: linear-gradient(180deg,#23606f,#19505d);
+    --notes-text: #eafcff;
+    --notes-text-muted: #8fb4bd;
+    --notes-text-faint: #5f7c84;
+    --notes-title: #eafcff;
+    --notes-accent: #2fd4c6;
+    --notes-accent-text: #5fe6da;
+    --notes-accent-tint: rgba(47,212,198,0.14);
+    --notes-accent-btn-text: #062028;
+    --notes-accent-glow: 0 4px 14px -2px rgba(47,212,198,0.5);
+    --notes-input-bg: rgba(150,224,230,0.05);
+    --notes-input-border: rgba(150,224,230,0.12);
+    --notes-divider: rgba(150,224,230,0.10);
+    --notes-row-active-bg: linear-gradient(180deg,#2a6d7e,#205c6b);
+    --notes-row-active-border: rgba(47,212,198,0.34);
+    --notes-row-active-shadow: none;
+    --notes-preview-bg: #184f5d;
+    --notes-seg-track: rgba(150,224,230,0.05);
+    --notes-dot: #2fd4c6;
+    --notes-code-bg: rgba(47,212,198,0.14);
+    --notes-code-text: #5fe6da;
+    --notes-quote-bar: #2fd4c6;
+    --notes-quote-bg: rgba(47,212,198,0.07);
+}
+
+body.ui-luxury {
+    --notes-scrim: rgba(0,0,0,0.42);
+    --notes-modal-bg: linear-gradient(180deg,#221d14,#171209);
+    --notes-modal-border: rgba(214,186,130,0.10);
+    --notes-modal-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 34px 80px -28px rgba(0,0,0,0.75);
+    --notes-sidebar-bg: rgba(214,186,130,0.03);
+    --notes-sidebar-border: rgba(214,186,130,0.09);
+    --notes-editor-bg: linear-gradient(180deg,#221d14,#171209);
+    --notes-text: #f4ecd8;
+    --notes-text-muted: #a99a7c;
+    --notes-text-faint: #7a6f55;
+    --notes-title: #e6c074;
+    --notes-accent: #d8b56e;
+    --notes-accent-text: #e8cd8e;
+    --notes-accent-tint: rgba(216,181,110,0.14);
+    --notes-accent-btn-text: #1c1813;
+    --notes-accent-glow: 0 4px 14px -2px rgba(216,181,110,0.5);
+    --notes-input-bg: rgba(214,186,130,0.05);
+    --notes-input-border: rgba(214,186,130,0.12);
+    --notes-divider: rgba(214,186,130,0.09);
+    --notes-row-active-bg: linear-gradient(180deg,#2c2417,#1f1810);
+    --notes-row-active-border: rgba(216,181,110,0.34);
+    --notes-row-active-shadow: none;
+    --notes-preview-bg: #181208;
+    --notes-seg-track: rgba(214,186,130,0.05);
+    --notes-dot: #d8b56e;
+    --notes-code-bg: rgba(216,181,110,0.14);
+    --notes-code-text: #e8cd8e;
+    --notes-quote-bar: #d8b56e;
+    --notes-quote-bg: rgba(216,181,110,0.07);
+}
+
+body.ui-frost .notes-modal {
+    backdrop-filter: blur(22px) saturate(140%);
+}

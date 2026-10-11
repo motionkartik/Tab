@@ -1,0 +1,472 @@
+/* Keyboard Spotlight overlay (pairs with spotlight.content.ts).
+   Extracted from workspace.css. */
+
+/* ===== Keyboard Spotlight ===== */
+
+.spotlight-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 10000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 15vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+}
+
+.spotlight-backdrop.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.spotlight-modal {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border-color);
+    border-radius: calc(var(--border-radius) + 4px);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+    width: 560px;
+    max-width: calc(100vw - 2rem);
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: transform 0.15s ease;
+}
+
+.spotlight-backdrop.active .spotlight-modal {
+    transform: translateY(0);
+}
+
+.spotlight-search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--card-border-color);
+    flex-shrink: 0;
+}
+
+.spotlight-search-icon {
+    width: 18px;
+    height: 18px;
+    fill: var(--search-icon, var(--icon-color));
+    flex-shrink: 0;
+    opacity: var(--search-icon-opacity, 0.6);
+}
+
+.spotlight-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--link-color);
+    min-width: 0;
+}
+
+.spotlight-input::placeholder {
+    color: var(--search-placeholder-color);
+    opacity: 0.6;
+}
+
+.spotlight-esc-kbd {
+    font-size: 0.68rem;
+    padding: 0.15rem 0.45rem;
+    background: var(--search-hint-bg, rgba(128, 128, 128, 0.12));
+    border: 1px solid var(--search-hint-border, var(--card-border-color));
+    border-radius: 4px;
+    color: var(--search-hint-color, var(--icon-color));
+    font-family: monospace;
+    flex-shrink: 0;
+    opacity: 0.8;
+}
+
+.spotlight-results {
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+}
+
+.spotlight-result {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 58px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition:
+        background-color 0.1s ease,
+        color 0.1s ease;
+    text-decoration: none;
+    color: var(--link-color);
+    border: none;
+    background: transparent;
+    font: inherit;
+    text-align: left;
+}
+
+.spotlight-result:hover,
+.spotlight-result.focused {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-color);
+}
+
+.spotlight-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--icon-override, var(--icon-color));
+}
+
+.spotlight-icon svg {
+    width: 15px;
+    height: 15px;
+    fill: var(--icon-override, var(--icon-color));
+}
+
+.spotlight-result-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+    flex: 1;
+}
+
+.spotlight-result-name {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spotlight-result-url {
+    font-size: 0.72rem;
+    color: var(--icon-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0.75;
+}
+
+/* Outlined type button (link / copy / launcher) — leftmost on every row, so
+   each match declares what it is. Theme-var driven: adapts to every theme. */
+.spotlight-type-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0.3rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 6px;
+    color: var(--icon-color);
+    background: transparent;
+    opacity: 0.9;
+}
+
+.spotlight-type-button-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.05rem;
+    height: 1.05rem;
+}
+
+.spotlight-type-button-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+/* Result rows show the type by icon only — the label is kept in the DOM for
+   assistive tech (aria-label/title on the button) but hidden visually. */
+.spotlight-type-button-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Right-hand aside: neutral workspace pills over the group the item is filed
+   under. A link can live in several workspaces, so it can carry several pills. */
+.spotlight-result-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+    margin-left: auto;
+    flex-shrink: 0;
+    max-width: 42%;
+    min-width: 0;
+    text-align: right;
+}
+
+.spotlight-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.spotlight-pill {
+    flex-shrink: 0;
+    max-width: 9rem;
+    padding: 0.1rem 0.45rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 5px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--icon-color);
+    background: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spotlight-result-group {
+    max-width: 100%;
+    font-size: 0.68rem;
+    color: var(--icon-color);
+    opacity: 0.6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Add-to-group button on each result */
+.spotlight-add-btn {
+    flex-shrink: 0;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 4px 6px;
+    cursor: pointer;
+    color: var(--icon-color);
+    opacity: 0;
+    transition:
+        opacity 0.15s,
+        background 0.15s;
+    display: flex;
+    align-items: center;
+}
+
+.spotlight-result:hover .spotlight-add-btn,
+.spotlight-result.focused .spotlight-add-btn {
+    opacity: 0.55;
+}
+
+.spotlight-add-btn:hover {
+    opacity: 1 !important;
+    background: var(--link-hover-bg);
+    border-color: var(--card-border-color);
+}
+
+/* Add-to-group mini form */
+.spotlight-add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 16px;
+}
+
+.spotlight-add-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.spotlight-add-label {
+    font-size: 0.75rem;
+    color: var(--icon-color);
+    opacity: 0.75;
+}
+
+.spotlight-add-input,
+.spotlight-add-select {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 6px;
+    background: var(--input-bg, #f5f5f5);
+    color: var(--input-color, #333);
+    font-size: 0.875rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.spotlight-add-input:focus,
+.spotlight-add-select:focus {
+    outline: none;
+    border-color: #4a7bff;
+}
+
+.spotlight-add-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin-top: 2px;
+    padding-top: 4px;
+}
+
+.spotlight-add-cancel,
+.spotlight-add-confirm {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: 1px solid var(--card-border-color);
+}
+
+.spotlight-add-cancel {
+    background: var(--btn-secondary-bg, transparent);
+    color: var(--btn-secondary-text, var(--text-color));
+    border-color: var(--btn-secondary-border, var(--card-border-color));
+}
+
+.spotlight-add-confirm {
+    background: var(--btn-primary-bg, #4a7bff);
+    color: var(--btn-primary-text, #fff);
+    border-color: var(--btn-primary-bg, #4a7bff);
+    box-shadow: var(--btn-primary-glow, none);
+}
+
+.spotlight-add-confirm:hover {
+    filter: brightness(1.07);
+}
+.spotlight-add-cancel:hover {
+    background: color-mix(in srgb, var(--btn-secondary-text, #475467) 7%, var(--btn-secondary-bg, transparent));
+}
+
+.spotlight-no-results {
+    padding: 12px 16px 8px;
+    font-size: 0.85rem;
+    color: var(--icon-color);
+    text-align: center;
+    opacity: 0.75;
+}
+
+.spotlight-result-web {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 58px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition:
+        background-color 0.1s ease,
+        color 0.1s ease;
+    border: none;
+    color: var(--icon-color);
+    font-size: inherit;
+    background: transparent;
+    font: inherit;
+    text-align: left;
+}
+
+.spotlight-result-web:hover,
+.spotlight-result-web.focused {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-color);
+}
+
+.spotlight-result-web svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+    flex-shrink: 0;
+    opacity: 0.65;
+}
+
+/* Google suggestion rows in the header search dropdown */
+.web-search-suggest-slot {
+    display: contents;
+}
+.spotlight-result-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    color: var(--icon-color);
+    font-size: inherit;
+    background: transparent;
+    font: inherit;
+    text-align: left;
+}
+.spotlight-result-suggestion:hover,
+.spotlight-result-suggestion.focused {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-color);
+}
+.spotlight-result-suggestion svg {
+    width: 13px;
+    height: 13px;
+    fill: currentColor;
+    flex-shrink: 0;
+    opacity: 0.55;
+}
+.spotlight-result-suggestion span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.search-results-section-label {
+    padding: 0.9rem 1rem 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--icon-color);
+    opacity: 0.72;
+    border-top: 1px solid var(--card-border-color);
+    background: transparent;
+}
+
+.spotlight-footer {
+    display: flex;
+    gap: 1rem;
+    padding: 0.45rem 1rem;
+    border-top: 1px solid var(--card-border-color);
+    background: rgba(128, 128, 128, 0.04);
+    flex-shrink: 0;
+}
+
+.spotlight-footer-hint {
+    display: flex;
+    align-items: center;
+    font-size: 0.68rem;
+    color: var(--icon-color);
+    opacity: 0.65;
+}
+
+.spotlight-footer-hint kbd {
+    font-size: 0.65rem;
+    padding: 0.1rem 0.35rem;
+    background: rgba(128, 128, 128, 0.12);
+    border: 1px solid var(--card-border-color);
+    border-radius: 3px;
+    font-family: monospace;
+    margin-right: 0.2rem;
+}
+

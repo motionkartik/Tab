@@ -1,0 +1,6002 @@
+{
+    "action_add_workspace_title": {
+        "message": "Добавить рабочее пространство"
+    },
+    "action_new_group_aria": {
+        "message": "Добавить группу"
+    },
+    "action_new_group_label": {
+        "message": "Создать"
+    },
+    "action_new_group_title": {
+        "message": "Новая группа"
+    },
+    "action_settings_aria": {
+        "message": "Открыть настройки"
+    },
+    "action_settings_label": {
+        "message": "Настройки"
+    },
+    "action_settings_title": {
+        "message": "Настройки"
+    },
+    "ae0_blocked_launcher": {
+        "message": "Заблокирована небезопасная цель лаунчера"
+    },
+    "ae0_blocked_link": {
+        "message": "Заблокирована небезопасная ссылка"
+    },
+    "ae0_copied": {
+        "message": "Скопировано!"
+    },
+    "ae0_copy_failed": {
+        "message": "Не удалось скопировать"
+    },
+    "ae0_done_partial": {
+        "message": "Готово — выполнено $1/$2 (пропущено $3)"
+    },
+    "ae0_done_step": {
+        "message": "Готово — $1 шаг"
+    },
+    "ae0_done_steps": {
+        "message": "Готово — шагов: $1"
+    },
+    "ae0_launch_failed": {
+        "message": "Не удалось запустить"
+    },
+    "ae0_no_steps": {
+        "message": "В этом сценарии пока нет шагов"
+    },
+    "ae0_routine_default": {
+        "message": "Сценарий"
+    },
+    "ae0_starting_step": {
+        "message": "Запуск $1 шага…"
+    },
+    "ae0_starting_steps": {
+        "message": "Запуск шагов: $1…"
+    },
+    "ae0_step_n": {
+        "message": "Шаг $1"
+    },
+    "ae0_step_progress": {
+        "message": "Шаг $1/$2: $3"
+    },
+    "agrad_amber_dark": {
+        "message": "Тёмный янтарь"
+    },
+    "agrad_amber_haze": {
+        "message": "Янтарная дымка"
+    },
+    "agrad_amber_mist": {
+        "message": "Янтарный туман"
+    },
+    "agrad_arctic_rays": {
+        "message": "Арктические лучи"
+    },
+    "agrad_cherry_dark": {
+        "message": "Тёмная вишня"
+    },
+    "agrad_crystal_tide": {
+        "message": "Кристальный прилив"
+    },
+    "agrad_deep_tide": {
+        "message": "Глубокий прилив"
+    },
+    "agrad_dusk_glow": {
+        "message": "Сумеречное сияние"
+    },
+    "agrad_ember_glow": {
+        "message": "Сияние углей"
+    },
+    "agrad_emerald_dusk": {
+        "message": "Изумрудные сумерки"
+    },
+    "agrad_lavender_rays": {
+        "message": "Лавандовые лучи"
+    },
+    "agrad_midnight_indigo": {
+        "message": "Полуночный индиго"
+    },
+    "agrad_ocean_bloom": {
+        "message": "Океанское цветение"
+    },
+    "agrad_ocean_curves": {
+        "message": "Изгибы океана"
+    },
+    "agrad_rose_dawn": {
+        "message": "Розовый рассвет"
+    },
+    "agrad_velvet_dream": {
+        "message": "Бархатная мечта"
+    },
+    "agrad_violet_night": {
+        "message": "Фиолетовая ночь"
+    },
+    "bg_context_menu_add": {
+        "message": "Добавить в ReadyTab"
+    },
+    "c29_custom": {
+        "message": "Свой"
+    },
+    "c29_invalid_css": {
+        "message": "Недопустимое значение CSS. Возврат к последнему допустимому значению."
+    },
+    "c29_opacity": {
+        "message": "Непрозрачность"
+    },
+    "c29_reset_to_default": {
+        "message": "Сбросить к значению темы"
+    },
+    "c29_theme_default_opt": {
+        "message": "Значение темы"
+    },
+    "cl2_layout_compacted": {
+        "message": "Макет уплотнён"
+    },
+    "cl2_nothing_to_arrange": {
+        "message": "Нечего упорядочивать"
+    },
+    "cnt_btn_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "cnt_btn_add_link_button": {
+        "message": "Добавить кнопку-ссылку"
+    },
+    "cnt_btn_cancel": {
+        "message": "Отмена"
+    },
+    "cnt_error_loading": {
+        "message": "Ошибка загрузки содержимого. Пожалуйста, попробуйте ещё раз."
+    },
+    "cnt_label_button_text": {
+        "message": "Текст кнопки"
+    },
+    "cnt_label_group": {
+        "message": "Группа"
+    },
+    "cnt_label_link_name": {
+        "message": "Название ссылки"
+    },
+    "cnt_label_url": {
+        "message": "URL"
+    },
+    "cnt_label_workspace": {
+        "message": "Рабочее пространство"
+    },
+    "cnt_modal_title": {
+        "message": "Добавить в ReadyTab"
+    },
+    "cnt_no_groups": {
+        "message": "Нет доступных групп"
+    },
+    "cnt_placeholder_link_name": {
+        "message": "Введите название ссылки"
+    },
+    "cnt_placeholder_url": {
+        "message": "Введите URL"
+    },
+    "cnt_tab_group_link": {
+        "message": "Ссылка в группе"
+    },
+    "cnt_tab_link_button": {
+        "message": "Кнопка-ссылка"
+    },
+    "cnt_workspace_default": {
+        "message": "Начало"
+    },
+    "csm1_action_failed": {
+        "message": "Ошибка операции облачной синхронизации: $1"
+    },
+    "csm1_autopull_failed": {
+        "message": "Не удалось автоматически загрузить: $1"
+    },
+    "csm1_autosync_failed": {
+        "message": "Не удалось выполнить автосинхронизацию: $1"
+    },
+    "csm1_close": {
+        "message": "Закрыть"
+    },
+    "csm1_cloud_dashboard_fallback": {
+        "message": "Облачная панель"
+    },
+    "csm1_cloud_updated": {
+        "message": "Облачная панель обновлена"
+    },
+    "csm1_confirm_pull": {
+        "message": "Подтвердить загрузку"
+    },
+    "csm1_label_cloud": {
+        "message": "☁ Облако"
+    },
+    "csm1_label_local": {
+        "message": "💻 Локально"
+    },
+    "csm1_looks_good": {
+        "message": "Всё хорошо"
+    },
+    "csm1_missing_protected_warning": {
+        "message": "Этот $1 создан до появления поддержки резервного копирования защищённых рабочих пространств. ReadyTab восстановил вкладку$2 рабочего пространства «$3», но защищённое содержимое не было включено. $4"
+    },
+    "csm1_msg_overwrite": {
+        "message": "В вашей локальной панели есть несинхронизированные изменения, а активная облачная панель была обновлена на другом устройстве. Просмотрите различия, загрузите облачную версию или перезапишите облако вашим локальным состоянием."
+    },
+    "csm1_msg_pull": {
+        "message": "Активная облачная панель новее вашей локальной копии. Просмотрите различия или загрузите облачную версию на это устройство."
+    },
+    "csm1_not_now": {
+        "message": "Не сейчас"
+    },
+    "csm1_overwrite_cloud": {
+        "message": "Перезаписать облако"
+    },
+    "csm1_overwrite_cloud_confirm": {
+        "message": "Перезаписать облако"
+    },
+    "csm1_overwrite_title": {
+        "message": "Перезаписать «$1»"
+    },
+    "csm1_pull_cloud": {
+        "message": "Загрузить из облака"
+    },
+    "csm1_pull_title": {
+        "message": "Загрузить «$1»"
+    },
+    "csm1_pulled_newer": {
+        "message": "Загружено более новое облачное состояние"
+    },
+    "csm1_recovery_repush": {
+        "message": "Повторно отправьте с исходного устройства, чтобы восстановить недостающие данные."
+    },
+    "csm1_resolve": {
+        "message": "Разрешить"
+    },
+    "csm1_review": {
+        "message": "Просмотреть"
+    },
+    "csm1_review_diff": {
+        "message": "Просмотреть различия"
+    },
+    "csm1_review_title": {
+        "message": "Просмотреть «$1»"
+    },
+    "csm1_source_label_cloud_snapshot": {
+        "message": "облачный снимок"
+    },
+    "csm1_source_label_snapshot": {
+        "message": "снимок"
+    },
+    "csm1_title_cloud_changed": {
+        "message": "Облако изменено на другом устройстве"
+    },
+    "csm1_title_newer_cloud": {
+        "message": "Доступно более новое облачное состояние"
+    },
+    "dth10_enter_share_code": {
+        "message": "Пожалуйста, введите код общего доступа."
+    },
+    "dth10_fetching": {
+        "message": "Получение…"
+    },
+    "dth10_import": {
+        "message": "Импорт"
+    },
+    "dth10_import_failed": {
+        "message": "Ошибка импорта: $1"
+    },
+    "dth10_import_success": {
+        "message": "Импорт выполнен успешно!"
+    },
+    "dth10_locked_excluded": {
+        "message": "Примечание: заблокированные рабочие пространства ($1) были исключены из экспорта: $2.\nСначала разблокируйте их, если хотите их включить."
+    },
+    "dth10_no_bookmarks": {
+        "message": "В этой папке нет закладок."
+    },
+    "dth10_no_valid_workspaces": {
+        "message": "Этот файл не содержит корректных рабочих пространств."
+    },
+    "dth10_read_failed": {
+        "message": "Не удалось прочитать файл импорта."
+    },
+    "dth10_replace_confirm": {
+        "message": "Это заменит ВСЕ данные ваших текущих рабочих пространств. Продолжить?"
+    },
+    "dth10_select_bookmark_folder": {
+        "message": "Пожалуйста, выберите папку закладок."
+    },
+    "dth10_select_folder": {
+        "message": "Выберите папку…"
+    },
+    "dth10_untitled": {
+        "message": "Без названия"
+    },
+    "ega3_add_clipboard": {
+        "message": "Добавить буфер обмена"
+    },
+    "ega3_add_launcher": {
+        "message": "Добавить лаунчер"
+    },
+    "ega3_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "ega3_cancel": {
+        "message": "Отмена"
+    },
+    "ega3_folder_empty": {
+        "message": "В этой папке нет закладок."
+    },
+    "ega3_folder_read_error": {
+        "message": "Не удалось прочитать эту папку."
+    },
+    "ega3_import": {
+        "message": "Импорт"
+    },
+    "ega3_import_bm": {
+        "message": "Импорт из закладок"
+    },
+    "ega3_import_desc_prefix": {
+        "message": "Добавить ссылки из папки закладок в "
+    },
+    "ega3_importing": {
+        "message": "Импорт…"
+    },
+    "ega3_load_error": {
+        "message": "Не удалось загрузить закладки"
+    },
+    "ega3_loading_folders": {
+        "message": "Загрузка папок…"
+    },
+    "ega3_select_folder": {
+        "message": "Выберите папку…"
+    },
+    "ega3_untitled": {
+        "message": "Без названия"
+    },
+    "grp_already_used_icons": {
+        "message": "Уже использованные значки"
+    },
+    "grp_avatar_url_label": {
+        "message": "URL изображения аватара"
+    },
+    "grp_back": {
+        "message": "← Назад"
+    },
+    "grp_bg_color_label": {
+        "message": "Цвет фона"
+    },
+    "grp_browse": {
+        "message": "Обзор…"
+    },
+    "grp_browse_title": {
+        "message": "Обзор…"
+    },
+    "grp_choose_type": {
+        "message": "Выберите тип элемента"
+    },
+    "grp_choose_type_hint": {
+        "message": "Выберите тип элемента, который хотите добавить, затем настройте его детали на следующем шаге."
+    },
+    "grp_clear_icon": {
+        "message": "Очистить значок"
+    },
+    "grp_clear_icon_title": {
+        "message": "Очистить значок"
+    },
+    "grp_clipboard_content_label": {
+        "message": "Содержимое для копирования"
+    },
+    "grp_clipboard_content_ph": {
+        "message": "Текст, который будет скопирован в буфер обмена при нажатии"
+    },
+    "grp_color": {
+        "message": "Цвет"
+    },
+    "grp_content_label": {
+        "message": "Содержимое"
+    },
+    "grp_content_ph": {
+        "message": "Введите содержимое"
+    },
+    "grp_element_type": {
+        "message": "Тип элемента"
+    },
+    "grp_ex_cursor": {
+        "message": "Открыть папку в Cursor"
+    },
+    "grp_ex_discord": {
+        "message": "Открыть Discord"
+    },
+    "grp_ex_obsidian": {
+        "message": "Открыть хранилище Obsidian"
+    },
+    "grp_ex_spotify": {
+        "message": "Открыть Spotify"
+    },
+    "grp_ex_steam": {
+        "message": "Запустить игру Steam (по App ID)"
+    },
+    "grp_ex_teams": {
+        "message": "Открыть Microsoft Teams"
+    },
+    "grp_ex_vscode": {
+        "message": "Открыть папку в VS Code"
+    },
+    "grp_ex_windows": {
+        "message": "Настройки дисплея Windows"
+    },
+    "grp_examples": {
+        "message": "Примеры"
+    },
+    "grp_fa_brands": {
+        "message": "Бренды"
+    },
+    "grp_fa_regular": {
+        "message": "Обычные"
+    },
+    "grp_fa_solid": {
+        "message": "Сплошные"
+    },
+    "grp_file_url_label": {
+        "message": "URL файла"
+    },
+    "grp_font_size_label": {
+        "message": "Размер шрифта"
+    },
+    "grp_general": {
+        "message": "Общие"
+    },
+    "grp_icon_color_label": {
+        "message": "Цвет значка"
+    },
+    "grp_icon_size_label": {
+        "message": "Размер значка"
+    },
+    "grp_icon_title": {
+        "message": "Значок"
+    },
+    "grp_image_url_label": {
+        "message": "URL изображения"
+    },
+    "grp_launcher_kind_app": {
+        "message": "Приложение — URI / протокол"
+    },
+    "grp_launcher_kind_file": {
+        "message": "Файл"
+    },
+    "grp_launcher_kind_folder": {
+        "message": "Папка"
+    },
+    "grp_launcher_kind_label": {
+        "message": "Тип"
+    },
+    "grp_launcher_kind_ps": {
+        "message": "Команда / скрипт"
+    },
+    "grp_launcher_target_label": {
+        "message": "Целевой URI"
+    },
+    "grp_linkcard_hint": {
+        "message": "Мы попробуем автоматически получить заголовок, описание и изображение предпросмотра."
+    },
+    "grp_linkcard_url_label": {
+        "message": "URL ссылки"
+    },
+    "grp_name_label": {
+        "message": "Название группы"
+    },
+    "grp_name_ph": {
+        "message": "Название группы"
+    },
+    "grp_no_icon": {
+        "message": "Значок ещё не выбран!"
+    },
+    "grp_opt_callout": {
+        "message": "Выноска"
+    },
+    "grp_opt_clipboard": {
+        "message": "Кнопка буфера обмена"
+    },
+    "grp_opt_code": {
+        "message": "Блок кода"
+    },
+    "grp_opt_divider": {
+        "message": "Разделитель"
+    },
+    "grp_opt_file": {
+        "message": "Файл"
+    },
+    "grp_opt_group": {
+        "message": "Группа"
+    },
+    "grp_opt_heading": {
+        "message": "Заголовок"
+    },
+    "grp_opt_image": {
+        "message": "Изображение"
+    },
+    "grp_opt_launcher": {
+        "message": "Кнопка лаунчера"
+    },
+    "grp_opt_linkcard": {
+        "message": "Карточка ссылки"
+    },
+    "grp_opt_profile": {
+        "message": "Профиль"
+    },
+    "grp_opt_routine": {
+        "message": "Сценарий"
+    },
+    "grp_opt_shortcut": {
+        "message": "Ярлык"
+    },
+    "grp_opt_stepheading": {
+        "message": "Заголовок шага"
+    },
+    "grp_opt_steps": {
+        "message": "Шаги"
+    },
+    "grp_opt_text": {
+        "message": "Текст"
+    },
+    "grp_opt_todolist": {
+        "message": "Список задач"
+    },
+    "grp_optional": {
+        "message": "(необязательно)"
+    },
+    "grp_preset_avatars": {
+        "message": "Готовые аватары"
+    },
+    "grp_routine_steps_label": {
+        "message": "Шаги"
+    },
+    "grp_save": {
+        "message": "Сохранить группу"
+    },
+    "grp_search_icons_ph": {
+        "message": "Поиск значков…"
+    },
+    "grp_selected_label": {
+        "message": "Выбрано:"
+    },
+    "grp_show_terminal": {
+        "message": "Показывать окно терминала"
+    },
+    "grp_strip_svg": {
+        "message": "Удалить цвета заливки/обводки из SVG"
+    },
+    "grp_title_add": {
+        "message": "Добавить группу"
+    },
+    "grp_type_locked_hint": {
+        "message": "Тип элемента нельзя изменить после создания."
+    },
+    "grp_url_label": {
+        "message": "URL"
+    },
+    "grp_display_label": {
+        "message": "Отображение"
+    },
+    "grp_display_standard": {
+        "message": "Обычная кнопка"
+    },
+    "grp_display_icon": {
+        "message": "Только значок"
+    },
+    "grp_display_show_label": {
+        "message": "Показывать подпись под значком"
+    },
+    "gse21_accent_color": {
+        "message": "Акцентный цвет"
+    },
+    "gse21_alpha_percent": {
+        "message": "$1%"
+    },
+    "gse21_background": {
+        "message": "Фон"
+    },
+    "gse21_border_color": {
+        "message": "Цвет границы"
+    },
+    "gse21_card": {
+        "message": "Карточка"
+    },
+    "gse21_clear_override": {
+        "message": "Очистить переопределение"
+    },
+    "gse21_group_header": {
+        "message": "Заголовок группы"
+    },
+    "gse21_group_style_title": {
+        "message": "Стиль группы"
+    },
+    "gse21_icon_color": {
+        "message": "Цвет значка"
+    },
+    "gse21_links": {
+        "message": "Ссылки"
+    },
+    "gse21_none": {
+        "message": "нет"
+    },
+    "gse21_other": {
+        "message": "Другое"
+    },
+    "gse21_reset_all": {
+        "message": "Сбросить все переопределения"
+    },
+    "gse21_shadow": {
+        "message": "Тень"
+    },
+    "gse21_text_color": {
+        "message": "Цвет текста"
+    },
+    "gwr4_add_item": {
+        "message": "Добавить элемент"
+    },
+    "gwr4_add_item_title": {
+        "message": "Добавить $1"
+    },
+    "gwr4_add_task_aria": {
+        "message": "Добавить задачу в $1"
+    },
+    "gwr4_add_task_btn": {
+        "message": "Добавить задачу"
+    },
+    "gwr4_add_task_or_section": {
+        "message": "Добавить задачу или раздел"
+    },
+    "gwr4_close_add_task": {
+        "message": "Закрыть поле добавления задачи"
+    },
+    "gwr4_collapse": {
+        "message": "Свернуть"
+    },
+    "gwr4_confirm_delete_all_tasks": {
+        "message": "Удалить все задачи ($1) из «$2»?"
+    },
+    "gwr4_confirm_delete_group": {
+        "message": "Удалить группу «$1»?"
+    },
+    "gwr4_copy_suffix": {
+        "message": "$1 (копия)"
+    },
+    "gwr4_copy_suffix_n": {
+        "message": "$1 (копия $2)"
+    },
+    "gwr4_delete_all_tasks": {
+        "message": "Удалить все задачи"
+    },
+    "gwr4_group_deleted": {
+        "message": "«$1» удалена"
+    },
+    "gwr4_group_options": {
+        "message": "Параметры группы"
+    },
+    "gwr4_menu_copy_style": {
+        "message": "Копировать стиль"
+    },
+    "gwr4_menu_delete": {
+        "message": "Удалить"
+    },
+    "gwr4_menu_duplicate": {
+        "message": "Дублировать"
+    },
+    "gwr4_menu_edit": {
+        "message": "Изменить"
+    },
+    "gwr4_menu_move_workspace": {
+        "message": "Переместить в рабочее пространство"
+    },
+    "gwr4_menu_open_all": {
+        "message": "Открыть все ссылки в новой вкладке"
+    },
+    "gwr4_menu_paste_style": {
+        "message": "Вставить стиль"
+    },
+    "gwr4_menu_style": {
+        "message": "Стиль"
+    },
+    "gwr4_no_icon_chosen": {
+        "message": "Значок ещё не выбран!"
+    },
+    "gwr4_no_valid_links": {
+        "message": "В «$1» не найдено допустимых ссылок."
+    },
+    "gwr4_todo_placeholder": {
+        "message": "Что нужно сделать?"
+    },
+    "gwr4_type_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "gwr4_type_divider": {
+        "message": "Разделитель"
+    },
+    "gwr4_type_header": {
+        "message": "Заголовок"
+    },
+    "gwr4_type_item_fallback": {
+        "message": "Элемент"
+    },
+    "gwr4_type_launcher": {
+        "message": "Лаунчер"
+    },
+    "gwr4_type_link": {
+        "message": "Ссылка"
+    },
+    "gwr4_type_note": {
+        "message": "Заметка"
+    },
+    "gwr4_type_routine": {
+        "message": "Сценарий"
+    },
+    "gwr4_type_text": {
+        "message": "Текст"
+    },
+    "gwr4_type_todo": {
+        "message": "Задача"
+    },
+    "hdr_auto_favicon": {
+        "message": "Автоматически получать значок при сохранении ссылки"
+    },
+    "hdr_current_tab": {
+        "message": "Текущая вкладка"
+    },
+    "hdr_design": {
+        "message": "Оформление"
+    },
+    "hdr_empty_add_group": {
+        "message": "+ Добавить группу"
+    },
+    "hdr_empty_add_links": {
+        "message": "Добавить ссылки"
+    },
+    "hdr_empty_add_shortcut": {
+        "message": "Добавить ярлык"
+    },
+    "hdr_empty_desc": {
+        "message": "Настройте свою панель с помощью новой группы, импортированных закладок или готовых предложений групп и популярных сайтов."
+    },
+    "hdr_empty_import_bookmarks": {
+        "message": "Импорт закладок"
+    },
+    "hdr_empty_start_suggestions": {
+        "message": "Начать с предложений"
+    },
+    "hdr_empty_suggestions_desc": {
+        "message": "Кнопки быстрого добавления со значками и компактным расположением."
+    },
+    "hdr_empty_suggestions_title": {
+        "message": "Предложения популярных сайтов"
+    },
+    "hdr_empty_title": {
+        "message": "Это рабочее пространство пусто"
+    },
+    "hdr_essentials_desc": {
+        "message": "Краткий обзор самых важных параметров из настроек, чтобы вы могли сразу персонализировать новую вкладку."
+    },
+    "hdr_essentials_title": {
+        "message": "Настройте основное"
+    },
+    "hdr_general": {
+        "message": "Общие"
+    },
+    "hdr_header_actions_aria": {
+        "message": "Действия заголовка"
+    },
+    "hdr_logo_avatar": {
+        "message": "Логотип / аватар"
+    },
+    "hdr_logo_desc": {
+        "message": "Необязательное оформление заголовка вашей панели."
+    },
+    "hdr_new_tab": {
+        "message": "Новая вкладка"
+    },
+    "hdr_open_links_in": {
+        "message": "Открывать ссылки в"
+    },
+    "hdr_pro_desc": {
+        "message": "Разблокируйте зашифрованную автосинхронизацию между устройствами и публикуйте общие доски или управляйте ими прямо на вкладке «Аккаунт»."
+    },
+    "hdr_pro_explore": {
+        "message": "Изучить Pro в аккаунте"
+    },
+    "hdr_pro_eyebrow": {
+        "message": "ReadyTab Pro"
+    },
+    "hdr_pro_list_1": {
+        "message": "Автосинхронизация вашей активной облачной панели"
+    },
+    "hdr_pro_list_2": {
+        "message": "Автоматическая загрузка новых облачных изменений"
+    },
+    "hdr_pro_list_3": {
+        "message": "Публикация общих досок и управление ими"
+    },
+    "hdr_pro_title": {
+        "message": "Автосинхронизация и общие доски"
+    },
+    "hdr_remove": {
+        "message": "Удалить"
+    },
+    "hdr_show_clock": {
+        "message": "Показывать часы в заголовке"
+    },
+    "hdr_show_search_bar": {
+        "message": "Показывать строку поиска"
+    },
+    "hdr_spotlight_search": {
+        "message": "Быстрый поиск"
+    },
+    "hdr_theme": {
+        "message": "Тема"
+    },
+    "hdr_upload": {
+        "message": "Загрузить"
+    },
+    "hdr_workspace_default_tab": {
+        "message": "Старт"
+    },
+    "help_apply_from_workspace_body": {
+        "message": "Скопируйте визуальные настройки из другого рабочего пространства в текущее. Это удобно, когда нужно, чтобы несколько рабочих пространств использовали одну тему, фон и оформление, не настраивая всё заново вручную."
+    },
+    "help_apply_from_workspace_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_apply_from_workspace_title": {
+        "message": "Скопировать из рабочего пространства"
+    },
+    "help_background_custom_css_body": {
+        "message": "Это поле предназначено только для значения фона рабочего пространства. Используйте любое допустимое значение CSS для фона — градиент, URL изображения или сокращённую запись фона. Оно не внедряет CSS для всей страницы и влияет только на фон текущего рабочего пространства."
+    },
+    "help_background_custom_css_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_background_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_bookmarks_body": {
+        "message": "Импортируйте папку закладок из браузера как новую группу в ReadyTab. Это удобно, чтобы превратить существующие коллекции закладок в группы на панели, не создавая ссылки по одной."
+    },
+    "help_bookmarks_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_bookmarks_title": {
+        "message": "Импорт из закладок"
+    },
+    "help_clock_body": {
+        "message": "Часы отображаются в области заголовка страницы новой вкладки. Их можно показать или скрыть, переключить между 24- и 12-часовым форматом, а также выбрать, отображать ли секунды и дату."
+    },
+    "help_clock_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_clock_title": {
+        "message": "Часы"
+    },
+    "help_cloud_sync_automation_body": {
+        "message": "Автосинхронизация обновляет вашу активную облачную панель после локальных изменений, как только ReadyTab бездействует в течение выбранной задержки. Автополучение также может автоматически применять более новые облачные снимки, но только когда в локальной панели нет несинхронизированных изменений. Если изменились и локальная, и облачная версии, ReadyTab спросит перед тем, как что-либо перезаписать."
+    },
+    "help_cloud_sync_automation_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_cloud_sync_automation_title": {
+        "message": "Автоматизация облачной синхронизации"
+    },
+    "help_cloud_sync_body": {
+        "message": "Облачная синхронизация хранит зашифрованные снимки рабочих пространств в вашей учётной записи ReadyTab. Используйте «Отправить», чтобы загрузить текущее локальное состояние, «Получить», чтобы заменить локальное состояние облачным снимком, и ведите отдельные панели для разных конфигураций."
+    },
+    "help_cloud_sync_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_cloud_sync_title": {
+        "message": "Облачная синхронизация"
+    },
+    "help_companion_body": {
+        "message": "Приложение-компаньон помогает ReadyTab взаимодействовать с локальными файлами, приложениями и рабочими процессами рабочего стола, с которыми расширение браузера не может справиться самостоятельно. Используйте его, когда нужна более тесная интеграция с операционной системой и локальными инструментами."
+    },
+    "help_companion_link": {
+        "message": "Открыть руководство по настройке компаньона"
+    },
+    "help_companion_title": {
+        "message": "Приложение-компаньон"
+    },
+    "help_design_custom_css_body": {
+        "message": "Это поле Custom CSS внедряет CSS для всей страницы текущего рабочего пространства. Используйте его для продвинутого оформления, выходящего за рамки встроенных настроек темы. В отличие от «Фон > Custom CSS», оно не ограничено только значением фона."
+    },
+    "help_design_custom_css_link": {
+        "message": "Читать документацию редактора тем"
+    },
+    "help_design_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_design_reset_default_body": {
+        "message": "«Сбросить до значений по умолчанию» полностью возвращает текущее рабочее пространство к встроенному виду: очищает ваши правки в редакторе и Custom CSS, возвращает базовую тему к «Simple» и сбрасывает дополнительные переключатели оформления (подчёркивание вкладок, описания, анимация при наведении). Для более лёгкого сброса с сохранением выбранной базовой темы используйте «Сбросить тему» в карточке действий с темой. Ни один из вариантов не удаляет ваши сохранённые пресеты тем."
+    },
+    "help_design_reset_default_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_design_reset_default_title": {
+        "message": "Сбросить до значений по умолчанию"
+    },
+    "help_import_from_code_body": {
+        "message": "Импортируйте локальную копию общего рабочего пространства, вставив его код доступа сюда. Импортированное рабочее пространство становится вашей собственной редактируемой копией, поэтому последующие изменения из исходного источника не будут автоматически перезаписывать её."
+    },
+    "help_import_from_code_link": {
+        "message": "Открыть документацию по пространствам"
+    },
+    "help_import_from_code_title": {
+        "message": "Импорт из кода"
+    },
+    "help_link_behavior_body": {
+        "message": "Выберите способ открытия сохранённых ссылок по умолчанию. «Текущая вкладка» открывает ссылки в активной вкладке, а «Новая вкладка» — в отдельной. Эта настройка задаёт поведение по умолчанию для всей панели."
+    },
+    "help_link_behavior_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_link_behavior_title": {
+        "message": "Поведение ссылок"
+    },
+    "help_link_health_body": {
+        "message": "Когда эта функция включена, ReadyTab периодически проверяет сохранённые ссылки HTTP и HTTPS и помечает недоступные красным индикатором. Функция отключена, пока вы не включите её вручную."
+    },
+    "help_link_health_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_link_health_title": {
+        "message": "Проверка ссылок"
+    },
+    "help_logo_body": {
+        "message": "Загрузите собственный логотип для отображения в заголовке. ReadyTab сохраняет пропорции изображения и выравнивает логотип так, чтобы его нижний край аккуратно совпадал с вкладками рабочих пространств. Позже логотип можно удалить или изменить его размер."
+    },
+    "help_logo_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_logo_title": {
+        "message": "Логотип"
+    },
+    "help_managed_boards_body": {
+        "message": "Управляемые доски — это рабочие пространства только для чтения, публикуемые командой или агентством. Подпишитесь с помощью токена доски, чтобы поддерживать это рабочее пространство в актуальном состоянии, не смешивая его с вашими редактируемыми локальными пространствами."
+    },
+    "help_managed_boards_link": {
+        "message": "Читать документацию по управляемым доскам"
+    },
+    "help_managed_boards_title": {
+        "message": "Управляемые доски"
+    },
+    "help_save_current_window_body": {
+        "message": "Соберите поддерживаемые вкладки из текущего окна браузера и сохраните их в новую группу ссылок. Это удобно, когда нужно превратить рабочий набор вкладок во что-то постоянное на вашей панели."
+    },
+    "help_save_current_window_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_save_current_window_title": {
+        "message": "Сохранить текущее окно как группу"
+    },
+    "help_saved_themes_body": {
+        "message": "Сохранённые темы — это повторно используемые пресеты оформления. Они хранят базовую тему вместе с вашими правками в редакторе, чтобы позже можно было быстро применить тот же вид к текущему рабочему пространству, не создавая его заново."
+    },
+    "help_saved_themes_link": {
+        "message": "Читать документацию редактора тем"
+    },
+    "help_saved_themes_title": {
+        "message": "Сохранённые темы"
+    },
+    "help_session_recovery_body": {
+        "message": "ReadyTab хранит лёгкий локальный снимок поддерживаемых вкладок из вашего недавнего сеанса браузера, чтобы вы могли просмотреть или восстановить их позже. Используйте это как страховку на случай случайного закрытия окон или для повторного открытия недавней рабочей сессии."
+    },
+    "help_session_recovery_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_session_recovery_title": {
+        "message": "Восстановление сеанса"
+    },
+    "help_spaces_body": {
+        "message": "Меняйте порядок пространств перетаскиванием, чтобы управлять порядком вкладок вверху страницы. Пространство по умолчанию всегда остаётся первым, а остальные можно расположить так, как вам удобно. С помощью действий в каждой строке можно переименовать пространство, защитить его, поделиться им или удалить при необходимости."
+    },
+    "help_spaces_link": {
+        "message": "Открыть документацию по пространствам"
+    },
+    "help_spaces_title": {
+        "message": "Пространства"
+    },
+    "help_spotlight_search_body": {
+        "message": "Поиск Spotlight помогает быстро находить сохранённые ссылки с клавиатуры. Его можно включить за пределами страницы новой вкладки и при желании добавить в результаты поиска названия групп, чтобы упростить навигацию по большим панелям."
+    },
+    "help_spotlight_search_link": {
+        "message": "Открыть документацию по Spotlight"
+    },
+    "help_spotlight_search_title": {
+        "message": "Поиск Spotlight"
+    },
+    "help_theme_actions_body": {
+        "message": "«Сохранить тему» сохраняет текущий вид как повторно используемую тему. «Сбросить тему» отменяет ваши правки в редакторе и Custom CSS для этого рабочего пространства, но сохраняет выбранную базовую тему. «Экспорт» и «Импорт» переносят ваши сохранённые темы в файл JSON и обратно. Для полного сброса, который также возвращает базовую тему к «Simple», используйте «Сбросить до значений по умолчанию» ниже."
+    },
+    "help_theme_actions_link": {
+        "message": "Читать документацию редактора тем"
+    },
+    "help_theme_actions_title": {
+        "message": "Действия с темой"
+    },
+    "help_theme_body": {
+        "message": "Смена темы обновляет текущее рабочее пространство до вида этой темы по умолчанию, включая её фон по умолчанию. ReadyTab сохраняет временное действие «Вернуть», чтобы при необходимости можно было восстановить предыдущую тему, фон и правки оформления."
+    },
+    "help_theme_editor_body": {
+        "message": "Редактор тем позволяет точно настраивать токены темы, сохранять повторно используемые именованные темы и хранить правки для конкретного рабочего пространства. Раздел Custom CSS в разделе «Дизайн» внедряет CSS для всей страницы текущего рабочего пространства, в отличие от «Фон > Custom CSS», который задаёт только значение фона."
+    },
+    "help_theme_editor_link": {
+        "message": "Читать документацию редактора тем"
+    },
+    "help_theme_editor_title": {
+        "message": "Редактор тем"
+    },
+    "help_theme_link": {
+        "message": "Читать документацию по настройкам"
+    },
+    "help_theme_title": {
+        "message": "Тема"
+    },
+    "help_web_search_body": {
+        "message": "Показывает строку поиска прямо в шапке. Сначала выполняется поиск по вашим сохранённым элементам; веб-поиск использует поисковую систему браузера по умолчанию, если вы явно не выберете здесь другую. Также можно решить, заменяют ли запросы текущую страницу или открываются в новой вкладке."
+    },
+    "help_web_search_link": {
+        "message": "Открыть документацию по настройкам"
+    },
+    "help_web_search_title": {
+        "message": "Строка поиска"
+    },
+    "ieuh11_add_clipboard": {
+        "message": "Добавить буфер обмена"
+    },
+    "ieuh11_add_divider": {
+        "message": "Добавить разделитель"
+    },
+    "ieuh11_add_header": {
+        "message": "Добавить заголовок"
+    },
+    "ieuh11_add_item": {
+        "message": "Добавить элемент"
+    },
+    "ieuh11_add_launcher": {
+        "message": "Добавить лаунчер"
+    },
+    "ieuh11_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "ieuh11_add_note": {
+        "message": "Добавить заметку"
+    },
+    "ieuh11_add_text": {
+        "message": "Добавить текст"
+    },
+    "ieuh11_add_todo": {
+        "message": "Добавить задачу"
+    },
+    "ieuh11_divider_color": {
+        "message": "Цвет разделителя"
+    },
+    "ieuh11_icon_color": {
+        "message": "Цвет значка"
+    },
+    "ieuh11_label_name": {
+        "message": "Название"
+    },
+    "ieuh11_label_task": {
+        "message": "Задача"
+    },
+    "ieuh11_label_title": {
+        "message": "Заголовок"
+    },
+    "ieuh11_launcher_command": {
+        "message": "Команда"
+    },
+    "ieuh11_launcher_path": {
+        "message": "Путь"
+    },
+    "ieuh11_launcher_target_uri": {
+        "message": "Целевой URI"
+    },
+    "ieuh11_ph_label": {
+        "message": "Метка"
+    },
+    "ieuh11_ph_name": {
+        "message": "Название"
+    },
+    "ieuh11_ph_section_title": {
+        "message": "Заголовок раздела"
+    },
+    "ieuh11_ph_task": {
+        "message": "Задача"
+    },
+    "ieuh11_ph_text_content": {
+        "message": "Текстовое содержимое"
+    },
+    "ieuh11_picker_failed": {
+        "message": "Не удалось открыть выбор — установлено ли приложение-компаньон?\n\nПроверьте статус в Настройки → Аккаунт → Приложение-компаньон."
+    },
+    "ip22_enter_url_first": {
+        "message": "Сначала введите URL."
+    },
+    "ip22_failed_load_icons": {
+        "message": "Не удалось загрузить значки."
+    },
+    "ip22_invalid_url": {
+        "message": "Недопустимый URL."
+    },
+    "ip22_loading_icons": {
+        "message": "Загрузка значков…"
+    },
+    "ip22_no_icon_chosen": {
+        "message": "Значок ещё не выбран!"
+    },
+    "ip22_use_this_icon": {
+        "message": "Использовать этот значок"
+    },
+    "language_label": {
+        "message": "Язык интерфейса"
+    },
+    "language_section": {
+        "message": "Язык"
+    },
+    "lbr5_content_copied": {
+        "message": "Содержимое скопировано"
+    },
+    "lbr5_convert_to_group": {
+        "message": "Преобразовать в $1 в группе"
+    },
+    "lbr5_copy_content": {
+        "message": "Копировать содержимое"
+    },
+    "lbr5_copy_failed": {
+        "message": "Не удалось скопировать"
+    },
+    "lbr5_copy_suffix": {
+        "message": "$1 (копия)"
+    },
+    "lbr5_copy_suffix_n": {
+        "message": "$1 (копия $2)"
+    },
+    "lbr5_copy_target": {
+        "message": "Копировать цель"
+    },
+    "lbr5_copy_url": {
+        "message": "Копировать URL"
+    },
+    "lbr5_copy_urls": {
+        "message": "Копировать URL"
+    },
+    "lbr5_delete": {
+        "message": "Удалить"
+    },
+    "lbr5_delete_confirm": {
+        "message": "Удалить $1 «$2»?"
+    },
+    "lbr5_duplicate": {
+        "message": "Дублировать"
+    },
+    "lbr5_edit": {
+        "message": "Изменить"
+    },
+    "lbr5_label_clipboard_button": {
+        "message": "Кнопка буфера обмена"
+    },
+    "lbr5_label_launcher_button": {
+        "message": "Кнопка лаунчера"
+    },
+    "lbr5_label_link_button": {
+        "message": "Кнопка ссылки"
+    },
+    "lbr5_label_routine": {
+        "message": "Сценарий"
+    },
+    "lbr5_move_to_workspace": {
+        "message": "Переместить в рабочее пространство"
+    },
+    "lbr5_step_many": {
+        "message": "шагов: $1"
+    },
+    "lbr5_step_one": {
+        "message": "$1 шаг"
+    },
+    "lbr5_target_copied": {
+        "message": "Цель скопирована"
+    },
+    "lbr5_type_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "lbr5_type_launcher": {
+        "message": "Лаунчер"
+    },
+    "lbr5_type_link": {
+        "message": "Ссылка"
+    },
+    "lbr5_url_copied": {
+        "message": "URL скопирован"
+    },
+    "lbr5_urls_copied": {
+        "message": "URL скопированы"
+    },
+    "lbr5_widget_cap": {
+        "message": "Виджет"
+    },
+    "lbr5_widget_deleted": {
+        "message": "«$1» удалён"
+    },
+    "lbr5_widget_fallback": {
+        "message": "виджет"
+    },
+    "lbr5_widget_options": {
+        "message": "Параметры: $1"
+    },
+    "lir6_convert_to": {
+        "message": "Преобразовать в кнопку $1"
+    },
+    "lir6_copy_failed": {
+        "message": "Не удалось скопировать"
+    },
+    "lir6_copy_style": {
+        "message": "Копировать стиль"
+    },
+    "lir6_copy_title": {
+        "message": "Копировать заголовок"
+    },
+    "lir6_copy_url": {
+        "message": "Копировать URL"
+    },
+    "lir6_delete": {
+        "message": "Удалить"
+    },
+    "lir6_duplicate": {
+        "message": "Дублировать"
+    },
+    "lir6_edit": {
+        "message": "Изменить"
+    },
+    "lir6_edit_type": {
+        "message": "Изменить $1"
+    },
+    "lir6_item_deleted": {
+        "message": "Элемент удалён"
+    },
+    "lir6_item_fallback": {
+        "message": "Элемент"
+    },
+    "lir6_more_options": {
+        "message": "Дополнительные параметры"
+    },
+    "lir6_no_icon": {
+        "message": "Значок ещё не выбран!"
+    },
+    "lir6_step_count_one": {
+        "message": "$1 шаг"
+    },
+    "lir6_step_count_other": {
+        "message": "шагов: $1"
+    },
+    "lir6_style_applied": {
+        "message": "Стиль применён"
+    },
+    "lir6_title_copied": {
+        "message": "Заголовок скопирован"
+    },
+    "lir6_todo_mark_complete": {
+        "message": "Отметить задачу как выполненную"
+    },
+    "lir6_todo_mark_incomplete": {
+        "message": "Отметить задачу как невыполненную"
+    },
+    "lir6_type_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "lir6_type_divider": {
+        "message": "Разделитель"
+    },
+    "lir6_type_header": {
+        "message": "Заголовок"
+    },
+    "lir6_type_launcher": {
+        "message": "Лаунчер"
+    },
+    "lir6_type_link": {
+        "message": "Ссылка"
+    },
+    "lir6_type_note": {
+        "message": "Заметка"
+    },
+    "lir6_type_routine": {
+        "message": "Сценарий"
+    },
+    "lir6_type_text": {
+        "message": "Текст"
+    },
+    "lir6_type_todo": {
+        "message": "Задача"
+    },
+    "lir6_update_item": {
+        "message": "Обновить элемент"
+    },
+    "lir6_url_copied": {
+        "message": "URL скопирован"
+    },
+    "lnk_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "lnk_align_center": {
+        "message": "По центру"
+    },
+    "lnk_align_left": {
+        "message": "По левому краю"
+    },
+    "lnk_align_right": {
+        "message": "По правому краю"
+    },
+    "lnk_alignment": {
+        "message": "Выравнивание"
+    },
+    "lnk_autofetch_desc": {
+        "message": "Автоматически использовать значок сайта при добавлении ссылки."
+    },
+    "lnk_autofetch_title": {
+        "message": "Автополучение значка"
+    },
+    "lnk_browse_btn": {
+        "message": "Обзор…"
+    },
+    "lnk_browse_title": {
+        "message": "Обзор…"
+    },
+    "lnk_cat_brands": {
+        "message": "Бренды"
+    },
+    "lnk_cat_regular": {
+        "message": "Обычные"
+    },
+    "lnk_cat_solid": {
+        "message": "Сплошные"
+    },
+    "lnk_clear_icon_btn": {
+        "message": "Очистить значок"
+    },
+    "lnk_clear_icon_title": {
+        "message": "Очистить значок"
+    },
+    "lnk_clipboard_content_label": {
+        "message": "Текст для копирования"
+    },
+    "lnk_clipboard_content_ph": {
+        "message": "Текст, который будет скопирован в буфер обмена при нажатии"
+    },
+    "lnk_color": {
+        "message": "Цвет"
+    },
+    "lnk_desc_label": {
+        "message": "Описание"
+    },
+    "lnk_desc_optional": {
+        "message": "(необязательно)"
+    },
+    "lnk_desc_ph": {
+        "message": "Короткий подзаголовок под названием ссылки"
+    },
+    "lnk_drawer_title": {
+        "message": "Добавить элемент"
+    },
+    "lnk_ex_cursor": {
+        "message": "Открыть папку в Cursor"
+    },
+    "lnk_ex_discord": {
+        "message": "Открыть Discord"
+    },
+    "lnk_ex_mssettings": {
+        "message": "Настройки экрана Windows"
+    },
+    "lnk_ex_obsidian": {
+        "message": "Открыть хранилище Obsidian"
+    },
+    "lnk_ex_spotify": {
+        "message": "Открыть Spotify"
+    },
+    "lnk_ex_steam": {
+        "message": "Запустить игру Steam (по App ID)"
+    },
+    "lnk_ex_teams": {
+        "message": "Открыть Microsoft Teams"
+    },
+    "lnk_ex_vscode": {
+        "message": "Открыть папку в VS Code"
+    },
+    "lnk_examples": {
+        "message": "Примеры"
+    },
+    "lnk_general": {
+        "message": "Общее"
+    },
+    "lnk_icon": {
+        "message": "Значок"
+    },
+    "lnk_icon_color": {
+        "message": "Цвет значка"
+    },
+    "lnk_icon_search_ph": {
+        "message": "Поиск значков…"
+    },
+    "lnk_launcher_kind_app": {
+        "message": "Приложение — URI / протокол"
+    },
+    "lnk_launcher_kind_file": {
+        "message": "Файл"
+    },
+    "lnk_launcher_kind_folder": {
+        "message": "Папка"
+    },
+    "lnk_launcher_kind_label": {
+        "message": "Тип"
+    },
+    "lnk_launcher_kind_ps": {
+        "message": "Команда / скрипт"
+    },
+    "lnk_launcher_target_label": {
+        "message": "Целевой URI"
+    },
+    "lnk_name_label": {
+        "message": "Название"
+    },
+    "lnk_name_ph": {
+        "message": "Название"
+    },
+    "lnk_no_icon": {
+        "message": "Значок ещё не выбран!"
+    },
+    "lnk_open_in_label": {
+        "message": "Открывать в"
+    },
+    "lnk_reset_overrides": {
+        "message": "Сбросить все переопределения"
+    },
+    "lnk_selected": {
+        "message": "Выбрано:"
+    },
+    "lnk_separator_lines": {
+        "message": "Разделительные линии"
+    },
+    "lnk_show_terminal": {
+        "message": "Показывать окно терминала"
+    },
+    "lnk_steps_label": {
+        "message": "Шаги"
+    },
+    "lnk_strip_colors": {
+        "message": "Убрать цвета заливки/обводки из SVG"
+    },
+    "lnk_style_bold": {
+        "message": "Жирный"
+    },
+    "lnk_style_italic": {
+        "message": "Курсив"
+    },
+    "lnk_style_label": {
+        "message": "Стиль"
+    },
+    "lnk_style_normal": {
+        "message": "Обычный"
+    },
+    "lnk_target_blank": {
+        "message": "Новая вкладка"
+    },
+    "lnk_target_global": {
+        "message": "Использовать общую настройку"
+    },
+    "lnk_target_self": {
+        "message": "Та же вкладка"
+    },
+    "lnk_text_color": {
+        "message": "Цвет текста"
+    },
+    "lnk_todo_completed": {
+        "message": "Отметить задачу как выполненную"
+    },
+    "lnk_url_label": {
+        "message": "URL"
+    },
+    "lnk_used_icons": {
+        "message": "Уже использованные значки"
+    },
+    "mbmm23_action_failed": {
+        "message": "$1: ошибка — $2"
+    },
+    "mbmm23_board_revoked": {
+        "message": "Доска отозвана"
+    },
+    "mbmm23_change": {
+        "message": "Изменить"
+    },
+    "mbmm23_change_pw_prompt": {
+        "message": "Введите новый пароль для управляемой доски «$1»:"
+    },
+    "mbmm23_changing": {
+        "message": "Изменение…"
+    },
+    "mbmm23_close": {
+        "message": "Закрыть"
+    },
+    "mbmm23_close_modal": {
+        "message": "Закрыть окно управления доской"
+    },
+    "mbmm23_copy": {
+        "message": "Копировать"
+    },
+    "mbmm23_copy_failed": {
+        "message": "Не удалось скопировать"
+    },
+    "mbmm23_copy_token": {
+        "message": "Копировать токен"
+    },
+    "mbmm23_current": {
+        "message": "Текущая"
+    },
+    "mbmm23_delete_perm": {
+        "message": "Удалить навсегда"
+    },
+    "mbmm23_delete_perm_confirm": {
+        "message": "Удалить отозванную доску «$1» навсегда? Это действие необратимо."
+    },
+    "mbmm23_deleting": {
+        "message": "Удаление…"
+    },
+    "mbmm23_earlier_snapshot": {
+        "message": "Более ранний снимок"
+    },
+    "mbmm23_enable_again": {
+        "message": "Снова включить доску"
+    },
+    "mbmm23_enabling": {
+        "message": "Включение…"
+    },
+    "mbmm23_history_desc": {
+        "message": "Восстановление версии заново создаёт источник локально — оно не перезаписывает опубликованную доску."
+    },
+    "mbmm23_import_token": {
+        "message": "Импортировать токен"
+    },
+    "mbmm23_in_sync_text": {
+        "message": "Ваш локальный источник совпадает с опубликованной доской — можно публиковать обновления."
+    },
+    "mbmm23_latest_snapshot": {
+        "message": "Последний снимок"
+    },
+    "mbmm23_load_history": {
+        "message": "Загрузить историю"
+    },
+    "mbmm23_loading": {
+        "message": "Загрузка…"
+    },
+    "mbmm23_locked": {
+        "message": "заблокировано"
+    },
+    "mbmm23_manage_board": {
+        "message": "Управление доской"
+    },
+    "mbmm23_managed_board": {
+        "message": "Управляемая доска"
+    },
+    "mbmm23_missing_text": {
+        "message": "Вы не сможете публиковать обновления, пока источник не будет восстановлен локально. Сначала восстановите его, затем станет доступна кнопка «Обновить»."
+    },
+    "mbmm23_more_pw_actions": {
+        "message": "Другие действия с паролем"
+    },
+    "mbmm23_n_saved": {
+        "message": "$1 сохранено"
+    },
+    "mbmm23_none_saved": {
+        "message": "Ничего не сохранено"
+    },
+    "mbmm23_not_supported": {
+        "message": "Не поддерживается"
+    },
+    "mbmm23_open_board": {
+        "message": "Открыть доску"
+    },
+    "mbmm23_password_copied": {
+        "message": "Пароль скопирован."
+    },
+    "mbmm23_password_protected": {
+        "message": "Защищено паролем"
+    },
+    "mbmm23_pw_none": {
+        "message": "Без пароля — подписаться может любой, у кого есть токен."
+    },
+    "mbmm23_pw_saved_this_device": {
+        "message": "Сохранённый пароль автора доступен только на этом устройстве."
+    },
+    "mbmm23_pw_set_replace_only": {
+        "message": "Задан для этой доски — здесь его нельзя показать, только заменить."
+    },
+    "mbmm23_pw_updates_unavailable": {
+        "message": "Обновление пароля недоступно для этой доски."
+    },
+    "mbmm23_ready_to_publish": {
+        "message": "Готово к публикации"
+    },
+    "mbmm23_remove_password": {
+        "message": "Удалить пароль"
+    },
+    "mbmm23_remove_pw_confirm": {
+        "message": "Удалить пароль с управляемой доски «$1»?"
+    },
+    "mbmm23_removing": {
+        "message": "Удаление…"
+    },
+    "mbmm23_restore_as_source": {
+        "message": "Восстановить как источник"
+    },
+    "mbmm23_restore_desc": {
+        "message": "Восстановление заново создаёт источник локально — опубликованная доска остаётся без изменений."
+    },
+    "mbmm23_open_source": {
+        "message": "Открыть источник"
+    },
+    "mbmm23_restore_source_locally": {
+        "message": "Восстановить источник локально"
+    },
+    "mbmm23_restoring": {
+        "message": "Восстановление…"
+    },
+    "mbmm23_retry": {
+        "message": "Повторить"
+    },
+    "mbmm23_reveal": {
+        "message": "Показать"
+    },
+    "mbmm23_revealing": {
+        "message": "Показ…"
+    },
+    "mbmm23_revoke": {
+        "message": "Отозвать"
+    },
+    "mbmm23_revoke_confirm": {
+        "message": "Отозвать эту доску? Подписчики потеряют доступ в соответствии с политикой отзыва на сервере."
+    },
+    "mbmm23_revoke_desc": {
+        "message": "Убирает доступ подписчиков согласно политике сервера. Локальный источник не затрагивается."
+    },
+    "mbmm23_revoke_this_board": {
+        "message": "Отозвать эту доску"
+    },
+    "mbmm23_revoked_text": {
+        "message": "Подписчики потеряли доступ. Включите её снова или удалите навсегда."
+    },
+    "mbmm23_revoking": {
+        "message": "Отзыв…"
+    },
+    "mbmm23_saved_password": {
+        "message": "Сохранённый пароль"
+    },
+    "mbmm23_set_password": {
+        "message": "Задать пароль"
+    },
+    "mbmm23_set_pw_prompt": {
+        "message": "Задайте пароль для управляемой доски «$1»:"
+    },
+    "mbmm23_setting": {
+        "message": "Установка…"
+    },
+    "mbmm23_source_in_sync": {
+        "message": "Источник синхронизирован"
+    },
+    "mbmm23_source_missing": {
+        "message": "Источник отсутствует на этом устройстве"
+    },
+    "mbmm23_subscribe_other_device": {
+        "message": "Подписаться на другом устройстве"
+    },
+    "mbmm23_token_copied": {
+        "message": "Токен скопирован."
+    },
+    "mbmm23_token_hint": {
+        "message": "Настройки → Пространства → Общий доступ → Связанные доски → Присоединиться"
+    },
+    "mbmm23_unavailable": {
+        "message": "Недоступно"
+    },
+    "mbmm23_unknown_error": {
+        "message": "Неизвестная ошибка"
+    },
+    "mbmm23_update_now": {
+        "message": "Обновить"
+    },
+    "mbmm23_updating": {
+        "message": "Обновление…"
+    },
+    "mbmm23_version_history": {
+        "message": "История версий"
+    },
+    "mbu24_already_subscribed": {
+        "message": "Вы уже подписаны на эту доску."
+    },
+    "mbu24_already_up_to_date": {
+        "message": "Уже актуально."
+    },
+    "mbu24_badge_ready": {
+        "message": "Готово"
+    },
+    "mbu24_badge_revoked": {
+        "message": "Отозвано"
+    },
+    "mbu24_badge_source_missing": {
+        "message": "Источник отсутствует"
+    },
+    "mbu24_board_active_again": {
+        "message": "Доска «$1» снова активна."
+    },
+    "mbu24_board_count": {
+        "message": "$1 $2"
+    },
+    "mbu24_board_created": {
+        "message": "Доска создана! Токен: $1"
+    },
+    "mbu24_board_deleted_permanently": {
+        "message": "Доска «$1» удалена навсегда."
+    },
+    "mbu24_board_revoked": {
+        "message": "Доска отозвана."
+    },
+    "mbu24_board_revoked_removed": {
+        "message": "Доска «$1» была отозвана и удалена."
+    },
+    "mbu24_board_revoked_removed_short": {
+        "message": "Доска «$1» отозвана и удалена."
+    },
+    "mbu24_board_updated": {
+        "message": "Доска обновлена."
+    },
+    "mbu24_board_updated_subscribers": {
+        "message": "Доска обновлена. Подписчики увидят изменения при следующей синхронизации."
+    },
+    "mbu24_by": {
+        "message": "от"
+    },
+    "mbu24_close": {
+        "message": "Закрыть"
+    },
+    "mbu24_close_modal_aria": {
+        "message": "Закрыть окно управляемых досок"
+    },
+    "mbu24_could_not_load": {
+        "message": "Не удалось загрузить доски: $1"
+    },
+    "mbu24_create_board": {
+        "message": "Создать доску"
+    },
+    "mbu24_create_form_desc": {
+        "message": "Публикует выбранное пространство как доску только для чтения. Обновления привязаны к этому исходному пространству."
+    },
+    "mbu24_create_new_board": {
+        "message": "Создать новую доску"
+    },
+    "mbu24_creating": {
+        "message": "Создание…"
+    },
+    "mbu24_creator_password_prompt": {
+        "message": "Введите пароль для управляемой доски «$1»:"
+    },
+    "mbu24_delete": {
+        "message": "Удалить"
+    },
+    "mbu24_delete_revoked_confirm": {
+        "message": "Удалить отозванную доску «$1» навсегда? Это действие необратимо."
+    },
+    "mbu24_diff_local_source": {
+        "message": "💻 Локальный источник"
+    },
+    "mbu24_diff_publish_update": {
+        "message": "Опубликовать обновление"
+    },
+    "mbu24_diff_published_board": {
+        "message": "☁ Опубликованная доска"
+    },
+    "mbu24_diff_update_title": {
+        "message": "Обновить «$1»"
+    },
+    "mbu24_explain_revoked": {
+        "message": "Отозванные доски нельзя обновлять. Отмените отзыв, чтобы опубликовать снова, или удалите доску навсегда."
+    },
+    "mbu24_explain_source_mismatch": {
+        "message": "Исходное пространство больше не совпадает с этим локальным пространством. Восстановите источник локально перед обновлением."
+    },
+    "mbu24_failed_generic": {
+        "message": "Ошибка: $1"
+    },
+    "mbu24_failed_open_manage": {
+        "message": "Не удалось открыть управление доской: $1"
+    },
+    "mbu24_failed_to_subscribe": {
+        "message": "Не удалось подписаться."
+    },
+    "mbu24_historical_version": {
+        "message": "Прошлая версия"
+    },
+    "mbu24_history_load_failed": {
+        "message": "Не удалось загрузить историю версий для этой доски."
+    },
+    "mbu24_label_revoke": {
+        "message": "Отозвать"
+    },
+    "mbu24_label_revoked": {
+        "message": "Отозвано"
+    },
+    "mbu24_loading_boards": {
+        "message": "Загрузка досок…"
+    },
+    "mbu24_manage": {
+        "message": "Управление"
+    },
+    "mbu24_managed_board_fallback": {
+        "message": "Управляемая доска"
+    },
+    "mbu24_managed_boards_subtitle": {
+        "message": "Доски только для чтения, которые вы публикуете для подписки других."
+    },
+    "mbu24_managed_boards_title": {
+        "message": "Управляемые доски"
+    },
+    "mbu24_name_required": {
+        "message": "Необходимо указать название доски и название агентства."
+    },
+    "mbu24_next": {
+        "message": "Далее"
+    },
+    "mbu24_no_boards_match": {
+        "message": "Нет досок по запросу «$1»."
+    },
+    "mbu24_no_boards_yet": {
+        "message": "Пока нет досок — создайте одну ниже."
+    },
+    "mbu24_pager_info": {
+        "message": "Страница $1 из $2 · $3 досок"
+    },
+    "mbu24_password_changed": {
+        "message": "Пароль доски изменён."
+    },
+    "mbu24_password_changed_prompt": {
+        "message": "Пароль для «$1» изменился. Введите новый пароль, чтобы продолжить синхронизацию:"
+    },
+    "mbu24_password_needed": {
+        "message": "Для синхронизации этой доски требуется новый пароль."
+    },
+    "mbu24_password_removed": {
+        "message": "Пароль доски удалён."
+    },
+    "mbu24_password_set": {
+        "message": "Пароль доски установлен."
+    },
+    "mbu24_password_unavailable": {
+        "message": "Пароль установлен, но его нельзя показать на этом устройстве. Вы можете заменить его новым."
+    },
+    "mbu24_ph_author_team": {
+        "message": "Имя автора / название команды"
+    },
+    "mbu24_ph_board_name": {
+        "message": "Название доски"
+    },
+    "mbu24_ph_password_optional": {
+        "message": "Пароль (необязательно)"
+    },
+    "mbu24_prev": {
+        "message": "Назад"
+    },
+    "mbu24_publish_update_confirm": {
+        "message": "Опубликовать это обновление в «$1»?\n\nБыло: $2 групп / $3 элементов\nСтало: $4 групп / $5 элементов\n\nПодписчики увидят изменения при следующей синхронизации."
+    },
+    "mbu24_remove": {
+        "message": "Удалить"
+    },
+    "mbu24_remove_subscription_confirm": {
+        "message": "Удалить подписку на «$1»?"
+    },
+    "mbu24_requires_pro": {
+        "message": "Доски агентства требуют лицензию Pro."
+    },
+    "mbu24_restored_historical_toast": {
+        "message": "Прошлая версия «$1» восстановлена локально. Опубликуйте снова, когда будете готовы."
+    },
+    "mbu24_restored_label_suffix": {
+        "message": "Восстановлено $1"
+    },
+    "mbu24_restored_source_suffix": {
+        "message": "Источник восстановлен"
+    },
+    "mbu24_restored_source_toast": {
+        "message": "Исходное пространство для «$1» восстановлено."
+    },
+    "mbu24_revoke_board_confirm": {
+        "message": "Отозвать эту доску? Подписчики потеряют доступ в соответствии с политикой отзыва на сервере."
+    },
+    "mbu24_search_boards_aria": {
+        "message": "Поиск досок по названию"
+    },
+    "mbu24_search_boards_ph": {
+        "message": "Поиск досок по названию…"
+    },
+    "mbu24_source_label": {
+        "message": "Источник:"
+    },
+    "mbu24_source_missing_lc": {
+        "message": "источник отсутствует"
+    },
+    "mbu24_source_prefix": {
+        "message": "источник: $1"
+    },
+    "mbu24_start_workspace": {
+        "message": "Старт"
+    },
+    "mbu24_status_ready": {
+        "message": "Готово к обновлению из $1."
+    },
+    "mbu24_status_restore_safe": {
+        "message": "Восстановите источник локально, чтобы включить безопасные обновления."
+    },
+    "mbu24_status_revoked": {
+        "message": "Доска отозвана — подписчики потеряли доступ или потеряют его при следующей синхронизации согласно политике отзыва."
+    },
+    "mbu24_status_source_missing_restore": {
+        "message": "Источник отсутствует — восстановите локально перед обновлением."
+    },
+    "mbu24_subscribe": {
+        "message": "Подписаться"
+    },
+    "mbu24_subscribe_password_prompt": {
+        "message": "Эта доска защищена паролем. Введите пароль:"
+    },
+    "mbu24_subscribed_to": {
+        "message": "Вы подписались на «$1»."
+    },
+    "mbu24_subscription_removed": {
+        "message": "Подписка удалена."
+    },
+    "mbu24_sync_failed": {
+        "message": "Ошибка синхронизации: $1"
+    },
+    "mbu24_sync_now": {
+        "message": "Синхронизировать сейчас"
+    },
+    "mbu24_unrevoke": {
+        "message": "Отменить отзыв"
+    },
+    "mbu24_update": {
+        "message": "Обновить"
+    },
+    "mbu24_update_failed": {
+        "message": "Ошибка обновления: $1"
+    },
+    "modala_recover_prompt_dismiss": {
+        "message": "Закрыть"
+    },
+    "modala_recover_prompt_restore": {
+        "message": "Восстановить"
+    },
+    "modala_recover_prompt_title": {
+        "message": "Восстановить предыдущую сессию?"
+    },
+    "modala_recover_prompt_view": {
+        "message": "Просмотр"
+    },
+    "modala_recover_view_clear": {
+        "message": "Очистить снимок"
+    },
+    "modala_recover_view_close": {
+        "message": "Закрыть"
+    },
+    "modala_recover_view_meta": {
+        "message": "Снимок недоступен."
+    },
+    "modala_recover_view_restore": {
+        "message": "Восстановить последнюю сессию"
+    },
+    "modala_recover_view_title": {
+        "message": "Снимок последней сессии"
+    },
+    "modala_savewin_cancel": {
+        "message": "Отмена"
+    },
+    "modala_savewin_confirm": {
+        "message": "Сохранить группу"
+    },
+    "modala_savewin_desc": {
+        "message": "Сохраните поддерживаемые вкладки из текущего окна браузера в новую редактируемую группу."
+    },
+    "modala_savewin_groupname": {
+        "message": "Название группы"
+    },
+    "modala_savewin_groupname_ph": {
+        "message": "Текущее окно"
+    },
+    "modala_savewin_loading": {
+        "message": "Загрузка вкладок текущего окна…"
+    },
+    "modala_savewin_skipdup": {
+        "message": "Пропустить дублирующиеся URL, уже сохранённые в этом пространстве"
+    },
+    "modala_savewin_title": {
+        "message": "Сохранить текущее окно как группу"
+    },
+    "modala_savewin_workspace": {
+        "message": "Целевое пространство"
+    },
+    "modala_starter_apply": {
+        "message": "Добавить выбранные группы"
+    },
+    "modala_starter_desc": {
+        "message": "Выберите стартовые группы и популярные ярлыки, чтобы быстрее собрать свою первую панель. Всё остаётся редактируемым после создания."
+    },
+    "modala_starter_skip": {
+        "message": "Пропустить пока"
+    },
+    "modala_starter_title": {
+        "message": "Стартовые предложения"
+    },
+    "modalb_applytheme_cancel": {
+        "message": "Отмена"
+    },
+    "modalb_applytheme_desc_post": {
+        "message": "»:"
+    },
+    "modalb_applytheme_desc_pre": {
+        "message": "Выберите, какие пространства должны использовать «"
+    },
+    "modalb_applytheme_ok": {
+        "message": "Применить"
+    },
+    "modalb_applytheme_selectall": {
+        "message": "Выбрать все"
+    },
+    "modalb_applytheme_title": {
+        "message": "Применить тему к пространствам"
+    },
+    "modalb_convert_cancel": {
+        "message": "Отмена"
+    },
+    "modalb_convert_desc_post": {
+        "message": "» в группу в этом пространстве."
+    },
+    "modalb_convert_desc_pre": {
+        "message": "Переместить «"
+    },
+    "modalb_convert_label": {
+        "message": "Поиск групп"
+    },
+    "modalb_convert_list_aria": {
+        "message": "Доступные группы"
+    },
+    "modalb_convert_ok": {
+        "message": "Преобразовать"
+    },
+    "modalb_convert_search_ph": {
+        "message": "Поиск групп…"
+    },
+    "modalb_convert_title": {
+        "message": "Преобразовать в элемент группы"
+    },
+    "modalb_movegroup_cancel": {
+        "message": "Отмена"
+    },
+    "modalb_movegroup_desc_post": {
+        "message": "» в:"
+    },
+    "modalb_movegroup_desc_pre": {
+        "message": "Переместить «"
+    },
+    "modalb_movegroup_ok": {
+        "message": "Переместить"
+    },
+    "modalb_movegroup_title": {
+        "message": "Переместить группу"
+    },
+    "modalb_passphrase_cancel": {
+        "message": "Отмена"
+    },
+    "modalb_passphrase_confirm_ph": {
+        "message": "Подтвердите пароль"
+    },
+    "modalb_passphrase_desc": {
+        "message": "Введите пароль, чтобы разблокировать это пространство."
+    },
+    "modalb_passphrase_ph": {
+        "message": "Пароль"
+    },
+    "modalb_passphrase_title": {
+        "message": "Защищённое пространство"
+    },
+    "modalb_passphrase_unlock": {
+        "message": "Разблокировать"
+    },
+    "nta30_delete_confirm": {
+        "message": "Удалить эту сохранённую тему?"
+    },
+    "p31_alert_import_failed": {
+        "message": "Ошибка импорта: $1"
+    },
+    "p31_alert_import_success": {
+        "message": "Темы успешно импортированы!"
+    },
+    "p31_btn_save_failed": {
+        "message": "Не удалось сохранить!"
+    },
+    "p31_btn_save_theme": {
+        "message": "Сохранить тему"
+    },
+    "p31_btn_saved": {
+        "message": "Сохранено ✓"
+    },
+    "p31_confirm_import_custom_css": {
+        "message": "Этот файл содержит пользовательский CSS. Пользовательский CSS может изменить поведение страницы — оставляйте его, только если вы сами экспортировали этот файл.\n\nОставить пользовательский CSS?"
+    },
+    "p31_confirm_reset_theme": {
+        "message": "Сбросить все настройки темы для текущего пространства?"
+    },
+    "p31_default_theme_name": {
+        "message": "Моя тема"
+    },
+    "p31_prompt_save_theme_as": {
+        "message": "Сохранить тему как:"
+    },
+    "pbp25_aria_public_board_link": {
+        "message": "Ссылка на публичную доску"
+    },
+    "pbp25_board_published": {
+        "message": "Доска опубликована!"
+    },
+    "pbp25_cancel": {
+        "message": "Отмена"
+    },
+    "pbp25_clipboard_count_notice": {
+        "message": "Это пространство содержит $1 $2 буфера обмена. Содержимое буфера обмена становится частью общего снимка и видно всем, у кого есть ссылка."
+    },
+    "pbp25_close": {
+        "message": "Закрыть"
+    },
+    "pbp25_copied": {
+        "message": "Скопировано!"
+    },
+    "pbp25_copy": {
+        "message": "Копировать"
+    },
+    "pbp25_could_not_publish": {
+        "message": "Не удалось опубликовать доску: $1\n\nЕсли ошибка повторяется, возможно, сервис публикации недоступен."
+    },
+    "pbp25_could_not_recover_content": {
+        "message": "Не удалось восстановить содержимое этой доски на данном устройстве."
+    },
+    "pbp25_could_not_update": {
+        "message": "Не удалось обновить доску: $1"
+    },
+    "pbp25_dialog_desc_publish": {
+        "message": "Создаёт публичную ссылку только для чтения на замороженный снимок этого пространства. Любой, у кого есть ссылка, может его просматривать — расширение не требуется. Последующие изменения не затронут опубликованную копию."
+    },
+    "pbp25_dialog_desc_update": {
+        "message": "Заменяет опубликованный снимок текущим состоянием этого пространства. Существующая публичная ссылка остаётся прежней и мгновенно обновляется для зрителей."
+    },
+    "pbp25_dialog_title_publish": {
+        "message": "Опубликовать публичную доску"
+    },
+    "pbp25_dialog_title_update": {
+        "message": "Обновить опубликованную доску"
+    },
+    "pbp25_done": {
+        "message": "Готово"
+    },
+    "pbp25_encrypting_uploading": {
+        "message": "Шифрование и загрузка вашей доски."
+    },
+    "pbp25_expiry_30_days": {
+        "message": "По умолчанию срок действия ссылки истекает через 30 дней, если вы не сделаете её постоянной; управляйте этим в Настройки → Пространства → Опубликованные доски."
+    },
+    "pbp25_imported_board": {
+        "message": "Импортированная доска"
+    },
+    "pbp25_imported_edit_then_update": {
+        "message": "Импортировано — отредактируйте, затем нажмите «Обновить», чтобы опубликовать изменения."
+    },
+    "pbp25_include_clipboard": {
+        "message": "Включить элементы/содержимое буфера обмена в публичную доску"
+    },
+    "pbp25_item_plural": {
+        "message": "элементов"
+    },
+    "pbp25_item_singular": {
+        "message": "элемент"
+    },
+    "pbp25_keep_until_delete": {
+        "message": "Хранить, пока я не удалю (без срока действия)"
+    },
+    "pbp25_label_description": {
+        "message": "Описание"
+    },
+    "pbp25_label_title": {
+        "message": "Заголовок"
+    },
+    "pbp25_label_title_desc_on_board": {
+        "message": "Заголовок и описание на доске"
+    },
+    "pbp25_launcher_css_stripped": {
+        "message": "Кнопки-лаунчеры и пользовательский CSS удаляются из публичной копии."
+    },
+    "pbp25_link_expiry_same": {
+        "message": "Ссылка и её срок действия остаются прежними."
+    },
+    "pbp25_open_link": {
+        "message": "Открыть ссылку"
+    },
+    "pbp25_option_hidden": {
+        "message": "Скрыто"
+    },
+    "pbp25_option_show_centered": {
+        "message": "Показать — по центру"
+    },
+    "pbp25_option_show_left": {
+        "message": "Показать — по левому краю"
+    },
+    "pbp25_optional": {
+        "message": "(необязательно)"
+    },
+    "pbp25_protected_cannot_publish": {
+        "message": "Защищённые пространства нельзя публиковать."
+    },
+    "pbp25_protected_cannot_publish_unprotect": {
+        "message": "Защищённые пространства нельзя публиковать. Сначала снимите защиту, если хотите поделиться публично."
+    },
+    "pbp25_public_board_link_copied": {
+        "message": "Ссылка на публичную доску скопирована."
+    },
+    "pbp25_public_board_updated": {
+        "message": "Публичная доска обновлена."
+    },
+    "pbp25_publish": {
+        "message": "Опубликовать"
+    },
+    "pbp25_publishing": {
+        "message": "Публикация…"
+    },
+    "pbp25_secret_in_link_hint": {
+        "message": "Секрет, необходимый для расшифровки доски, является частью ссылки — храните весь URL целиком. Вы можете в любой момент снова открыть, скопировать или отозвать её в Настройки → Пространства → Общие доски."
+    },
+    "pbp25_share_link_readonly": {
+        "message": "Поделитесь этой ссылкой с кем угодно — она открывает доску в режиме только для чтения в любом браузере."
+    },
+    "pbp25_space_not_on_device_import": {
+        "message": "Пространства, из которого была опубликована эта доска, нет на данном устройстве.\n\nИмпортировать копию опубликованной доски, чтобы редактировать её, а затем обновить ссылку своими изменениями?"
+    },
+    "pbp25_update": {
+        "message": "Обновить"
+    },
+    "pbp25_workspace_empty_add_groups": {
+        "message": "Это пространство пусто — добавьте несколько групп перед публикацией."
+    },
+    "pm7_cancel_title": {
+        "message": "Отменить режим стилей"
+    },
+    "pm7_pill_group": {
+        "message": "Нажмите на заголовок группы, чтобы применить стиль"
+    },
+    "pm7_pill_link": {
+        "message": "Нажмите на ссылку, чтобы применить стиль"
+    },
+    "rse12_add_from_board": {
+        "message": "Добавить с доски…"
+    },
+    "rse12_add_step_btn": {
+        "message": "+ Добавить шаг"
+    },
+    "rse12_app_placeholder": {
+        "message": "напр. spotify:  или  vscode://"
+    },
+    "rse12_browse_btn": {
+        "message": "Обзор…"
+    },
+    "rse12_cancel": {
+        "message": "Отмена"
+    },
+    "rse12_clipboard_placeholder": {
+        "message": "Текст для копирования"
+    },
+    "rse12_close_aria": {
+        "message": "Закрыть"
+    },
+    "rse12_companion_note": {
+        "message": "Для выполнения этого шага требуется установленное приложение-компаньон."
+    },
+    "rse12_composer_add": {
+        "message": "Добавить шаг"
+    },
+    "rse12_delay_placeholder": {
+        "message": "секунд"
+    },
+    "rse12_empty_steps": {
+        "message": "Пока нет шагов. Добавьте один, чтобы собрать свою рутину."
+    },
+    "rse12_file_placeholder": {
+        "message": "C:\\путь\\к\\файлу.pdf  (нужно приложение-компаньон)"
+    },
+    "rse12_folder_placeholder": {
+        "message": "C:\\путь\\к\\папке  (нужно приложение-компаньон)"
+    },
+    "rse12_kind_app_label": {
+        "message": "Запустить приложение"
+    },
+    "rse12_kind_app_tag": {
+        "message": "ПРИЛ."
+    },
+    "rse12_kind_clipboard_label": {
+        "message": "Копировать в буфер"
+    },
+    "rse12_kind_clipboard_tag": {
+        "message": "КОПИЯ"
+    },
+    "rse12_kind_delay_label": {
+        "message": "Ждать"
+    },
+    "rse12_kind_delay_tag": {
+        "message": "ПАУЗА"
+    },
+    "rse12_kind_file_label": {
+        "message": "Открыть файл"
+    },
+    "rse12_kind_file_tag": {
+        "message": "ФАЙЛ"
+    },
+    "rse12_kind_folder_label": {
+        "message": "Открыть папку"
+    },
+    "rse12_kind_folder_tag": {
+        "message": "ПАПКА"
+    },
+    "rse12_kind_url_label": {
+        "message": "Открыть URL"
+    },
+    "rse12_kind_url_tag": {
+        "message": "URL"
+    },
+    "rse12_kind_workspace_label": {
+        "message": "Сменить пространство"
+    },
+    "rse12_kind_workspace_tag": {
+        "message": "ПРОСТР."
+    },
+    "rse12_label_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "rse12_label_copy": {
+        "message": "Копировать"
+    },
+    "rse12_label_group": {
+        "message": "группа"
+    },
+    "rse12_picker_add": {
+        "message": "Добавить"
+    },
+    "rse12_picker_added": {
+        "message": "Добавлено ✓"
+    },
+    "rse12_picker_alert": {
+        "message": "Не удалось открыть выбор — установлено ли приложение-компаньон?\n\nПроверьте статус в Настройки → Аккаунт → Приложение-компаньон."
+    },
+    "rse12_picker_no_matches": {
+        "message": "Нет совпадений."
+    },
+    "rse12_picker_none": {
+        "message": "Ссылки, лаунчеры или элементы буфера обмена не найдены."
+    },
+    "rse12_picker_search": {
+        "message": "Поиск ссылок, лаунчеров, буфера обмена…"
+    },
+    "rse12_picker_title": {
+        "message": "Добавить шаги с ваших досок"
+    },
+    "rse12_remove_step_aria": {
+        "message": "Удалить шаг"
+    },
+    "rse12_stagger_label": {
+        "message": "Пауза между шагами (секунды)"
+    },
+    "rse12_sub_clipboard": {
+        "message": "$1 · буфер обмена"
+    },
+    "rse12_sub_group": {
+        "message": "$1 · $2"
+    },
+    "rse12_sub_launcher": {
+        "message": "$1 · лаунчер"
+    },
+    "rse12_sub_shortcut": {
+        "message": "$1 · ярлык"
+    },
+    "rse12_summary_copy": {
+        "message": "Копировать"
+    },
+    "rse12_summary_copy_text": {
+        "message": "Копировать «$1»"
+    },
+    "rse12_summary_launch_app": {
+        "message": "Запустить приложение"
+    },
+    "rse12_summary_launch_target": {
+        "message": "Запустить $1"
+    },
+    "rse12_summary_open_file": {
+        "message": "Открыть файл"
+    },
+    "rse12_summary_open_file_name": {
+        "message": "Открыть файл $1"
+    },
+    "rse12_summary_open_folder": {
+        "message": "Открыть папку"
+    },
+    "rse12_summary_open_folder_name": {
+        "message": "Открыть папку $1"
+    },
+    "rse12_summary_open_host": {
+        "message": "Открыть $1"
+    },
+    "rse12_summary_open_url": {
+        "message": "Открыть URL"
+    },
+    "rse12_summary_step": {
+        "message": "Шаг"
+    },
+    "rse12_summary_switch_to": {
+        "message": "Переключиться на $1"
+    },
+    "rse12_summary_switch_workspace": {
+        "message": "Сменить пространство"
+    },
+    "rse12_summary_wait": {
+        "message": "Ждать $1 с"
+    },
+    "rse12_tag_step_fallback": {
+        "message": "ШАГ"
+    },
+    "rse12_ws_default": {
+        "message": "По умолчанию"
+    },
+    "s28_add": {
+        "message": "Добавить"
+    },
+    "s28_add_to_group": {
+        "message": "Добавить в группу"
+    },
+    "s28_added_to": {
+        "message": "Добавлено в «$1»"
+    },
+    "s28_cancel": {
+        "message": "Отмена"
+    },
+    "s28_created_and_added": {
+        "message": "Создана «$1» и добавлена ссылка"
+    },
+    "s28_group_exists": {
+        "message": "Группа «$1» уже существует"
+    },
+    "s28_group_not_found": {
+        "message": "Не удалось найти группу «$1»"
+    },
+    "s28_hint_close": {
+        "message": "закрыть"
+    },
+    "s28_hint_navigate": {
+        "message": "навигация"
+    },
+    "s28_hint_open": {
+        "message": "открыть"
+    },
+    "s28_label_group": {
+        "message": "Группа"
+    },
+    "s28_label_title": {
+        "message": "Заголовок"
+    },
+    "s28_new_group_name_label": {
+        "message": "Название новой группы"
+    },
+    "s28_new_group_option": {
+        "message": "+ Новая группа…"
+    },
+    "s28_new_group_placeholder": {
+        "message": "Введите уникальное название группы"
+    },
+    "s28_no_matches": {
+        "message": "Нет совпадений для «$1»"
+    },
+    "s28_search_placeholder": {
+        "message": "Поиск ссылок, лаунчеров, закладок…"
+    },
+    "s28_search_web_for": {
+        "message": "Искать в интернете «$1»"
+    },
+    "sbh15_default_workspace": {
+        "message": "Старт"
+    },
+    "sbh15_image_too_large": {
+        "message": "Изображение слишком большое ($1 МБ). Максимальный размер — 2 МБ."
+    },
+    "sbh15_quota_exceeded": {
+        "message": "Не удалось сохранить фон: превышена квота хранилища. Попробуйте изображение поменьше (до 1 МБ)."
+    },
+    "sbh15_section_fallback": {
+        "message": "Раздел"
+    },
+    "sbh15_select_workspace": {
+        "message": "Выберите пространство…"
+    },
+    "sbm27_action_failed": {
+        "message": "Не удалось выполнить действие"
+    },
+    "sbm27_close": {
+        "message": "Закрыть"
+    },
+    "sbm27_code": {
+        "message": "код"
+    },
+    "sbm27_codes": {
+        "message": "кодов"
+    },
+    "sbm27_confirm_delete_public_body": {
+        "message": "Все, у кого есть ссылка, потеряют доступ к опубликованной доске."
+    },
+    "sbm27_confirm_delete_public_title": {
+        "message": "Удалить публичную ссылку"
+    },
+    "sbm27_confirm_delete_share_body": {
+        "message": "Это запретит будущие импорты по этому коду. Те, кто уже импортировал доску, сохранят свою копию."
+    },
+    "sbm27_confirm_delete_share_title": {
+        "message": "Удалить код для доступа"
+    },
+    "sbm27_confirm_for_name": {
+        "message": " для «$1»"
+    },
+    "sbm27_copy_code": {
+        "message": "Скопировать код"
+    },
+    "sbm27_copy_full_import_code": {
+        "message": "Скопировать полный код импорта"
+    },
+    "sbm27_copy_link": {
+        "message": "Скопировать ссылку"
+    },
+    "sbm27_copy_public_link": {
+        "message": "Скопировать публичную ссылку"
+    },
+    "sbm27_copying": {
+        "message": "Копирование…"
+    },
+    "sbm27_created": {
+        "message": "Создано $1"
+    },
+    "sbm27_delete_code": {
+        "message": "Удалить код"
+    },
+    "sbm27_delete_link": {
+        "message": "Удалить ссылку"
+    },
+    "sbm27_deleting": {
+        "message": "Удаление…"
+    },
+    "sbm27_expired": {
+        "message": "Истёк"
+    },
+    "sbm27_expires_dash": {
+        "message": "Истекает —"
+    },
+    "sbm27_expires_date": {
+        "message": "Истекает $1"
+    },
+    "sbm27_expires_in_days": {
+        "message": "Истекает через $1 дн."
+    },
+    "sbm27_expires_today": {
+        "message": "Истекает сегодня"
+    },
+    "sbm27_extend_30_days": {
+        "message": "Продлить на 30 дней"
+    },
+    "sbm27_extending": {
+        "message": "Продление…"
+    },
+    "sbm27_full_code_unavailable": {
+        "message": "Полный код недоступен на этом устройстве."
+    },
+    "sbm27_full_code_unavailable_title": {
+        "message": "Полный код недоступен на этом устройстве"
+    },
+    "sbm27_group": {
+        "message": "группа"
+    },
+    "sbm27_groups": {
+        "message": "групп"
+    },
+    "sbm27_link": {
+        "message": "ссылка"
+    },
+    "sbm27_links": {
+        "message": "ссылок"
+    },
+    "sbm27_load_error_generic": {
+        "message": "Не удалось загрузить доски. Пожалуйста, попробуйте снова."
+    },
+    "sbm27_more_actions": {
+        "message": "Ещё действия"
+    },
+    "sbm27_never_expires": {
+        "message": "Бессрочно"
+    },
+    "sbm27_next": {
+        "message": "Вперёд"
+    },
+    "sbm27_no_match": {
+        "message": "Нет досок, соответствующих «$1»."
+    },
+    "sbm27_no_name_set": {
+        "message": "Название не задано"
+    },
+    "sbm27_open": {
+        "message": "Открыть"
+    },
+    "sbm27_opening": {
+        "message": "Открытие…"
+    },
+    "sbm27_pager_info": {
+        "message": "Страница $1 из $2 · $3 досок"
+    },
+    "sbm27_prev": {
+        "message": "Назад"
+    },
+    "sbm27_public_board_link_copied": {
+        "message": "Ссылка на публичную доску скопирована."
+    },
+    "sbm27_public_link_deleted": {
+        "message": "Публичная ссылка удалена."
+    },
+    "sbm27_public_link_extended": {
+        "message": "Публичная ссылка продлена на 30 дней."
+    },
+    "sbm27_public_link_unavailable": {
+        "message": "Публичная ссылка недоступна на этом устройстве."
+    },
+    "sbm27_public_link_unavailable_title": {
+        "message": "Публичная ссылка недоступна на этом устройстве"
+    },
+    "sbm27_published_close": {
+        "message": "Закрыть окно опубликованных досок"
+    },
+    "sbm27_published_empty_help": {
+        "message": "Опубликуйте рабочее пространство как публичную ссылку только для чтения, чтобы поделиться им с кем угодно — расширение не требуется."
+    },
+    "sbm27_published_empty_title": {
+        "message": "Пока нет опубликованных досок."
+    },
+    "sbm27_published_error": {
+        "message": "Не удалось загрузить опубликованные доски."
+    },
+    "sbm27_published_loading": {
+        "message": "Загрузка опубликованных досок…"
+    },
+    "sbm27_published_subtitle": {
+        "message": "Публичные ссылки только для чтения, которые может открыть любой."
+    },
+    "sbm27_published_title": {
+        "message": "Опубликованные доски"
+    },
+    "sbm27_search_aria": {
+        "message": "Поиск досок по коду или названию"
+    },
+    "sbm27_search_placeholder": {
+        "message": "Поиск по коду или названию…"
+    },
+    "sbm27_share_code_copied": {
+        "message": "Код для доступа скопирован."
+    },
+    "sbm27_share_code_deleted": {
+        "message": "Код для доступа удалён."
+    },
+    "sbm27_share_code_extended": {
+        "message": "Код для доступа продлён на 30 дней."
+    },
+    "sbm27_shared_close": {
+        "message": "Закрыть окно досок, которыми поделились"
+    },
+    "sbm27_shared_empty_help": {
+        "message": "Поделитесь рабочим пространством, чтобы создать временный код импорта, по которому другие смогут импортировать свою копию."
+    },
+    "sbm27_shared_empty_title": {
+        "message": "Пока нет досок, которыми поделились."
+    },
+    "sbm27_shared_error": {
+        "message": "Не удалось загрузить доски."
+    },
+    "sbm27_shared_loading": {
+        "message": "Загрузка досок…"
+    },
+    "sbm27_shared_subtitle": {
+        "message": "По кодам другие пользователи импортируют независимую копию доски. Последующие изменения не синхронизируются."
+    },
+    "sbm27_shared_title": {
+        "message": "Доски, которыми поделились"
+    },
+    "sbm27_try_again": {
+        "message": "Повторить"
+    },
+    "sbm27_unnamed": {
+        "message": "Без названия"
+    },
+    "sbm27_update_code": {
+        "message": "Обновить код"
+    },
+    "sbm27_update_public_title": {
+        "message": "Заменить опубликованный снимок текущей доской (та же ссылка)"
+    },
+    "sbm27_update_share_title": {
+        "message": "Создать новый снимок этого рабочего пространства в тот же код (только для новых импортов)"
+    },
+    "sbm27_update_snapshot": {
+        "message": "Обновить снимок"
+    },
+    "sbm27_updating": {
+        "message": "Обновление…"
+    },
+    "scwh13_choose_workspace": {
+        "message": "Сначала выберите целевое пространство."
+    },
+    "scwh13_default_group_name": {
+        "message": "Текущее окно"
+    },
+    "scwh13_default_workspace_name": {
+        "message": "Старт"
+    },
+    "scwh13_duplicates_skipped": {
+        "message": "$1 $2 будут пропущены как дубликаты."
+    },
+    "scwh13_enter_group_name": {
+        "message": "Введите название группы."
+    },
+    "scwh13_group_name_exists": {
+        "message": "Группа с таким названием уже есть в выбранном пространстве."
+    },
+    "scwh13_items_saved_order": {
+        "message": "$1 $2 будут сохранены в порядке вкладок."
+    },
+    "scwh13_loading_tabs": {
+        "message": "Загрузка вкладок текущего окна…"
+    },
+    "scwh13_no_supported_tabs": {
+        "message": "В этом окне нет поддерживаемых вкладок для сохранения."
+    },
+    "scwh13_no_tabs_left": {
+        "message": "С текущими параметрами не осталось поддерживаемых вкладок для сохранения."
+    },
+    "scwh13_read_tabs_error": {
+        "message": "Не удалось прочитать вкладки текущего окна: $1"
+    },
+    "scwh13_save_error_fallback": {
+        "message": "Не удалось сохранить текущее окно как группу."
+    },
+    "scwh13_save_group": {
+        "message": "Сохранить группу"
+    },
+    "scwh13_saved_to_workspace": {
+        "message": "Сохранено $1 $2 в «$3» ($4)."
+    },
+    "scwh13_saving": {
+        "message": "Сохранение…"
+    },
+    "scwh13_supported_found": {
+        "message": "В текущем окне найдено $1 поддерживаемых $2."
+    },
+    "scwh13_unsupported_ignored": {
+        "message": "$1 внутренних или неподдерживаемых $2 будут проигнорированы."
+    },
+    "scwh13_untitled_tab": {
+        "message": "Вкладка без названия"
+    },
+    "search_type_bookmark": {
+        "message": "Закладка"
+    },
+    "search_type_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "search_type_launcher": {
+        "message": "Лаунчер"
+    },
+    "search_type_link": {
+        "message": "Ссылка"
+    },
+    "setacct_autopull_meta": {
+        "message": "Применять более новое облачное состояние, когда в локальной панели нет несинхронизированных изменений."
+    },
+    "setacct_autopull_title": {
+        "message": "Автозагрузка более нового облачного состояния"
+    },
+    "setacct_autosync_intro": {
+        "message": "Автоматическая синхронизация применяется к активной облачной панели, выбранной выше."
+    },
+    "setacct_autosync_row_meta": {
+        "message": "Автоматически отправлять локальные изменения в активную панель."
+    },
+    "setacct_autosync_row_title": {
+        "message": "Автосинхронизация с облаком"
+    },
+    "setacct_autosync_title": {
+        "message": "Автоматическая синхронизация ✦"
+    },
+    "setacct_companion_guide_link": {
+        "message": "Руководство по настройке компаньона ↗"
+    },
+    "setacct_companion_help_aria": {
+        "message": "Справка о приложении-компаньоне"
+    },
+    "setacct_companion_help_title": {
+        "message": "Справка о приложении-компаньоне"
+    },
+    "setacct_companion_retry_aria": {
+        "message": "Повторить проверку статуса компаньона"
+    },
+    "setacct_companion_retry_title": {
+        "message": "Повторить"
+    },
+    "setacct_companion_status_meta": {
+        "message": "Требуется для запусков папок, файлов и команд."
+    },
+    "setacct_companion_status_title": {
+        "message": "Статус десктопного компаньона"
+    },
+    "setacct_companion_title": {
+        "message": "Приложение-компаньон"
+    },
+    "setacct_delay_1m": {
+        "message": "1 минута"
+    },
+    "setacct_delay_2m": {
+        "message": "2 минуты"
+    },
+    "setacct_delay_30s": {
+        "message": "30 секунд"
+    },
+    "setacct_delay_5m": {
+        "message": "5 минут"
+    },
+    "setacct_poll_10m": {
+        "message": "10 минут"
+    },
+    "setacct_poll_1m": {
+        "message": "1 минута"
+    },
+    "setacct_poll_3m": {
+        "message": "3 минуты"
+    },
+    "setacct_poll_5m": {
+        "message": "5 минут"
+    },
+    "setacct_poll_meta": {
+        "message": "Как часто проверять облако на наличие изменений."
+    },
+    "setacct_poll_title": {
+        "message": "Проверять обновления"
+    },
+    "setacct_syncdelay_meta": {
+        "message": "После локальных изменений ждать перед отправкой."
+    },
+    "setacct_syncdelay_title": {
+        "message": "Задержка синхронизации"
+    },
+    "setbg_advanced_heading": {
+        "message": "Продвинутые градиенты"
+    },
+    "setbg_anim_aurora_borealis": {
+        "message": "Северное сияние"
+    },
+    "setbg_anim_aurora_dream": {
+        "message": "Мечта авроры"
+    },
+    "setbg_anim_gentle_breeze": {
+        "message": "Лёгкий бриз"
+    },
+    "setbg_anim_gentle_prism": {
+        "message": "Нежная призма"
+    },
+    "setbg_anim_liquid_motion": {
+        "message": "Жидкое движение"
+    },
+    "setbg_anim_ocean_wave": {
+        "message": "Океанская волна"
+    },
+    "setbg_anim_prism_light": {
+        "message": "Призматический свет"
+    },
+    "setbg_anim_shimmer": {
+        "message": "Мерцание"
+    },
+    "setbg_anim_sunset_flow": {
+        "message": "Закатное течение"
+    },
+    "setbg_animated_heading": {
+        "message": "Анимированные фоны"
+    },
+    "setbg_custom_css_apply": {
+        "message": "Применить"
+    },
+    "setbg_custom_css_heading": {
+        "message": "Пользовательский CSS"
+    },
+    "setbg_custom_css_help_aria": {
+        "message": "Справка о пользовательском CSS"
+    },
+    "setbg_custom_css_help_title": {
+        "message": "Справка о пользовательском CSS"
+    },
+    "setbg_custom_css_placeholder": {
+        "message": "Любое допустимое значение CSS background, напр.\nradial-gradient(circle, #ff6b6b, #4ecdc4)\nurl('https://...') center/cover"
+    },
+    "setbg_custom_image_heading": {
+        "message": "Своё изображение"
+    },
+    "setbg_gradient_heading": {
+        "message": "Градиентный фон"
+    },
+    "setbg_reset": {
+        "message": "Сбросить по умолчанию"
+    },
+    "setbg_solid_heading": {
+        "message": "Сплошной цвет"
+    },
+    "setbg_solid_pick_label": {
+        "message": "Выберите цвет фона"
+    },
+    "setbg_theme_dark": {
+        "message": "Тёмная по умолчанию"
+    },
+    "setbg_theme_dark_title": {
+        "message": "Тёмная по умолчанию"
+    },
+    "setbg_theme_defaults_heading": {
+        "message": "Значения темы по умолчанию"
+    },
+    "setbg_theme_lavender_sky": {
+        "message": "Лавандовое небо"
+    },
+    "setbg_theme_lavender_sky_title": {
+        "message": "Лавандовое небо"
+    },
+    "setbg_theme_light": {
+        "message": "Светлая по умолчанию"
+    },
+    "setbg_theme_light_title": {
+        "message": "Светлая по умолчанию"
+    },
+    "setbg_theme_luxury": {
+        "message": "Люкс"
+    },
+    "setbg_theme_luxury_title": {
+        "message": "Люкс"
+    },
+    "setbg_theme_midnight": {
+        "message": "Полночь"
+    },
+    "setbg_theme_midnight_title": {
+        "message": "Полночь"
+    },
+    "setbg_theme_nordic": {
+        "message": "Северная"
+    },
+    "setbg_theme_nordic_title": {
+        "message": "Северная"
+    },
+    "setbg_theme_ocean": {
+        "message": "Океан"
+    },
+    "setbg_theme_ocean_title": {
+        "message": "Океан"
+    },
+    "setbg_theme_pastel_sunset": {
+        "message": "Пастельный закат"
+    },
+    "setbg_theme_pastel_sunset_title": {
+        "message": "Пастельный закат"
+    },
+    "setbg_theme_professional": {
+        "message": "Деловая"
+    },
+    "setbg_theme_professional_title": {
+        "message": "Деловая"
+    },
+    "setbg_theme_sakura": {
+        "message": "Сакура"
+    },
+    "setbg_theme_sakura_title": {
+        "message": "Сакура"
+    },
+    "setbg_theme_simple": {
+        "message": "Простая (по умолчанию)"
+    },
+    "setbg_theme_simple_title": {
+        "message": "Простая (по умолчанию)"
+    },
+    "setbg_upload": {
+        "message": "Загрузить"
+    },
+    "setbg_tabs_aria": {
+        "message": "Тип фона"
+    },
+    "setbg_tab_themes": {
+        "message": "Темы"
+    },
+    "setbg_tab_animated": {
+        "message": "Анимация"
+    },
+    "setbg_tab_gradients": {
+        "message": "Градиенты"
+    },
+    "setbg_tab_solid": {
+        "message": "Сплошной"
+    },
+    "setbg_tab_image": {
+        "message": "Изображение"
+    },
+    "setbg_tab_css": {
+        "message": "CSS"
+    },
+    "setbg_scene_wave": {
+        "message": "Волна"
+    },
+    "setbg_scene_waves": {
+        "message": "Волны"
+    },
+    "setbg_scene_swell": {
+        "message": "Зыбь"
+    },
+    "setbg_scene_constellation": {
+        "message": "Созвездие"
+    },
+    "setbg_scene_grid": {
+        "message": "Сетка"
+    },
+    "setbg_scene_drift": {
+        "message": "Пузыри"
+    },
+    "setbg_scene_leaves": {
+        "message": "Листья"
+    },
+    "setbg_scene_maple": {
+        "message": "Клён"
+    },
+    "setbg_scene_snow": {
+        "message": "Снег"
+    },
+    "setbg_scene_rain": {
+        "message": "Дождь"
+    },
+    "setbg_scene_tint": {
+        "message": "Оттенок"
+    },
+    "setbg_scene_tint_custom": {
+        "message": "Свой оттенок"
+    },
+    "setbg_scene_tint_teal": {
+        "message": "Бирюзовый"
+    },
+    "setbg_scene_tint_coral": {
+        "message": "Коралловый"
+    },
+    "setbg_scene_tint_moss": {
+        "message": "Мох"
+    },
+    "setbg_scene_tint_indigo": {
+        "message": "Индиго"
+    },
+    "setbg_scene_tint_magenta": {
+        "message": "Пурпурный"
+    },
+    "setbg_scene_tint_amber": {
+        "message": "Янтарный"
+    },
+    "setbg_scene_variant": {
+        "message": "Оформление"
+    },
+    "setbg_scene_variant_system": {
+        "message": "Системное"
+    },
+    "setbg_scene_variant_dark": {
+        "message": "Тёмное"
+    },
+    "setbg_scene_variant_light": {
+        "message": "Светлое"
+    },
+    "setbg_solid_sand": {
+        "message": "Песок"
+    },
+    "setbg_solid_sage": {
+        "message": "Шалфей"
+    },
+    "setbg_solid_slate": {
+        "message": "Сланец"
+    },
+    "setbg_solid_terracotta": {
+        "message": "Терракота"
+    },
+    "setbg_solid_ink": {
+        "message": "Чернила"
+    },
+    "setbg_solid_blush": {
+        "message": "Румянец"
+    },
+    "setbg_solid_custom": {
+        "message": "Свой"
+    },
+    "setbg_name_custom_color": {
+        "message": "Свой цвет"
+    },
+    "setbg_name_custom_image": {
+        "message": "Своё изображение"
+    },
+    "setbg_name_custom_css": {
+        "message": "Свой CSS"
+    },
+    "setbg_name_gradient": {
+        "message": "Градиент"
+    },
+    "setbg_image_drop": {
+        "message": "Перетащите изображение или выберите файл"
+    },
+    "setdata_backup": {
+        "message": "Резервная копия"
+    },
+    "setdata_bookmarks_help_aria": {
+        "message": "Справка об импорте из закладок"
+    },
+    "setdata_bookmarks_help_title": {
+        "message": "Справка об импорте из закладок"
+    },
+    "setdata_bring_links": {
+        "message": "Импортировать ссылки"
+    },
+    "setdata_choose_file": {
+        "message": "Выбрать файл"
+    },
+    "setdata_clear_btn": {
+        "message": "Очистить"
+    },
+    "setdata_export_btn": {
+        "message": "Экспорт"
+    },
+    "setdata_export_desc": {
+        "message": "Пространства и настройки в одном JSON-файле"
+    },
+    "setdata_export_title": {
+        "message": "Экспорт панели"
+    },
+    "setdata_from_bookmark_folder": {
+        "message": "Из папки закладок"
+    },
+    "setdata_import_bookmarks_btn": {
+        "message": "Импорт"
+    },
+    "setdata_import_desc": {
+        "message": "Заменяет текущие данные"
+    },
+    "setdata_import_title": {
+        "message": "Импорт панели"
+    },
+    "setdata_no_snapshot": {
+        "message": "Снимок ещё не сохранён"
+    },
+    "setdata_restore_btn": {
+        "message": "Восстановить"
+    },
+    "setdata_save_window_btn": {
+        "message": "Сохранить"
+    },
+    "setdata_save_window_desc": {
+        "message": "Сохранить открытые вкладки как группу"
+    },
+    "setdata_save_window_title": {
+        "message": "Сохранить текущее окно"
+    },
+    "setdata_select_folder": {
+        "message": "Выберите папку…"
+    },
+    "setdata_session_help_aria": {
+        "message": "Справка о восстановлении сессии"
+    },
+    "setdata_session_help_title": {
+        "message": "Справка о восстановлении сессии"
+    },
+    "setdata_session_recovery": {
+        "message": "Восстановление сессии"
+    },
+    "setdata_snapshot_meta": {
+        "message": "Снимок · Пока нет снимка"
+    },
+    "setdata_view_btn": {
+        "message": "Просмотр"
+    },
+    "setg_favicons_autofetch": {
+        "message": "Автозагрузка фавикона при сохранении ссылки"
+    },
+    "setg_favicons_get_all": {
+        "message": "Получить фавиконы для всех ссылок"
+    },
+    "setg_favicons_remove_all": {
+        "message": "Удалить все иконки (это пространство)"
+    },
+    "setg_favicons_title": {
+        "message": "Фавиконы"
+    },
+    "setg_greeting_show": {
+        "message": "Показывать приветствие в шапке"
+    },
+    "setg_greeting_title": {
+        "message": "Приветствие"
+    },
+    "setg_groups_autogrow": {
+        "message": "Автоматически расширять группы при добавлении элементов"
+    },
+    "setg_groups_title": {
+        "message": "Группы"
+    },
+    "setg_link_health_check": {
+        "message": "Автоматически проверять сохранённые ссылки"
+    },
+    "setg_link_health_help_aria": {
+        "message": "Справка о состоянии ссылок"
+    },
+    "setg_link_health_help_title": {
+        "message": "Справка о состоянии ссылок"
+    },
+    "setg_link_health_title": {
+        "message": "Состояние ссылок ✦"
+    },
+    "setg_logo_desc": {
+        "message": "Логотип сохраняет свои пропорции и выравнивается так, чтобы его нижний край совпадал с вкладками пространств."
+    },
+    "setg_logo_help_aria": {
+        "message": "Справка о логотипе"
+    },
+    "setg_logo_help_title": {
+        "message": "Справка о логотипе"
+    },
+    "setg_logo_remove": {
+        "message": "Удалить"
+    },
+    "setg_logo_size": {
+        "message": "Размер логотипа"
+    },
+    "setg_logo_size_big": {
+        "message": "Большой — до 120px"
+    },
+    "setg_logo_size_middle": {
+        "message": "Средний — до 80px"
+    },
+    "setg_logo_size_small": {
+        "message": "Маленький — до 40px"
+    },
+    "setg_logo_title": {
+        "message": "Логотип"
+    },
+    "setg_logo_upload": {
+        "message": "Загрузить логотип"
+    },
+    "setg_overlay_title": {
+        "message": "Оверлей на других страницах"
+    },
+    "setg_searchbar_engine": {
+        "message": "Поисковик"
+    },
+    "setg_searchbar_engine_bing": {
+        "message": "Bing"
+    },
+    "setg_searchbar_engine_brave": {
+        "message": "Brave"
+    },
+    "setg_searchbar_engine_browser": {
+        "message": "По умолчанию в браузере"
+    },
+    "setg_searchbar_engine_duckduckgo": {
+        "message": "DuckDuckGo"
+    },
+    "setg_searchbar_engine_google": {
+        "message": "Google"
+    },
+    "setg_searchbar_engine_yahoo": {
+        "message": "Yahoo"
+    },
+    "setg_searchbar_help_aria": {
+        "message": "Справка о строке поиска"
+    },
+    "setg_searchbar_help_title": {
+        "message": "Справка о строке поиска"
+    },
+    "setg_searchbar_newtab": {
+        "message": "Открывать результаты в новой вкладке"
+    },
+    "setg_searchbar_show": {
+        "message": "Показывать строку поиска"
+    },
+    "setg_tasks_title": {
+        "message": "Задачи"
+    },
+    "setg_tasks_badge": {
+        "message": "Показывать число оставшихся задач на кнопке задач"
+    },
+    "setg_tasks_notifications": {
+        "message": "Task reminder notifications"
+    },
+    "setg_tasks_notif_blocked": {
+        "message": "Blocked by the browser. Allow notifications for this extension to receive task reminders."
+    },
+    "setg_searchbar_title": {
+        "message": "Строка поиска"
+    },
+    "setg_session_desc": {
+        "message": "Управляет тем, показывает ли ReadyTab инфоблок восстановления при запуске, если доступна сохранённая сессия."
+    },
+    "setg_session_show": {
+        "message": "Показывать инфоблок восстановления при запуске"
+    },
+    "setg_session_title": {
+        "message": "Восстановление сессии"
+    },
+    "setg_show_date": {
+        "message": "Показывать дату"
+    },
+    "setg_spotlight_all_pages": {
+        "message": "Включить на всех страницах"
+    },
+    "setg_spotlight_appearance": {
+        "message": "Внешний вид"
+    },
+    "setg_spotlight_gesture": {
+        "message": "Открывать жестом мыши"
+    },
+    "setg_spotlight_group_name": {
+        "message": "Поиск по названию группы"
+    },
+    "setg_spotlight_help_aria": {
+        "message": "Справка о поиске Spotlight"
+    },
+    "setg_spotlight_help_title": {
+        "message": "Справка о поиске Spotlight"
+    },
+    "setg_spotlight_matching_tabs": {
+        "message": "Показывать совпадающие открытые вкладки в результатах"
+    },
+    "setg_spotlight_shortcuts": {
+        "message": "Показывать сочетания клавиш"
+    },
+    "setg_spotlight_tabs": {
+        "message": "Показывать ленту вкладок"
+    },
+    "setg_spotlight_tabs_domain": {
+        "message": "Группировать вкладки по домену"
+    },
+    "setg_spotlight_tabs_orientation": {
+        "message": "Расположение ленты"
+    },
+    "setg_spotlight_tabs_orientation_left": {
+        "message": "Слева (вертикально)"
+    },
+    "setg_spotlight_tabs_orientation_top": {
+        "message": "Сверху (горизонтально)"
+    },
+    "setg_spotlight_theme_dark": {
+        "message": "Тёмная"
+    },
+    "setg_spotlight_theme_light": {
+        "message": "Светлая"
+    },
+    "setg_spotlight_title": {
+        "message": "Поиск Spotlight"
+    },
+    "setg_tab_ribbon_title": {
+        "message": "Лента вкладок"
+    },
+    "setlay_apply_btn": {
+        "message": "Применить"
+    },
+    "setlay_apply_to_other": {
+        "message": "Применить к другим пространствам..."
+    },
+    "setlay_autoarrange_desc": {
+        "message": "Уплотнить все группы вверх, убрав пробелы, и расширить любую группу, содержимое которой обрезано."
+    },
+    "setlay_autoarrange_title": {
+        "message": "Автоупорядочивание раскладки"
+    },
+    "setlay_background_title": {
+        "message": "Фон"
+    },
+    "setlay_compact_btn": {
+        "message": "Компактная раскладка"
+    },
+    "setlay_copy_from_ws_desc": {
+        "message": "Скопировать фон и тему из другого пространства в это."
+    },
+    "setlay_copy_from_ws_help_aria": {
+        "message": "Справка о копировании из пространства"
+    },
+    "setlay_copy_from_ws_help_title": {
+        "message": "Справка о копировании из пространства"
+    },
+    "setlay_copy_from_ws_title": {
+        "message": "Копировать из пространства"
+    },
+    "setlay_current_theme_label": {
+        "message": "Текущая тема"
+    },
+    "setlay_headsup_label": {
+        "message": "Обратите внимание:"
+    },
+    "setlay_headsup_text": {
+        "message": "это копирует и тему пространства, а не только фон."
+    },
+    "setlay_theme_aurora": {
+        "message": "Стекло авроры"
+    },
+    "setlay_theme_dark": {
+        "message": "Тёмная"
+    },
+    "setlay_theme_frost": {
+        "message": "Иней"
+    },
+    "setlay_theme_help_aria": {
+        "message": "Справка о теме"
+    },
+    "setlay_theme_help_title": {
+        "message": "Справка о теме"
+    },
+    "setlay_theme_lavender": {
+        "message": "Лавандовое небо"
+    },
+    "setlay_theme_light": {
+        "message": "Светлая"
+    },
+    "setlay_theme_luxury": {
+        "message": "Люкс"
+    },
+    "setlay_theme_midnight": {
+        "message": "Полночь"
+    },
+    "setlay_theme_nordic": {
+        "message": "Северная"
+    },
+    "setlay_theme_ocean": {
+        "message": "Океан"
+    },
+    "setlay_theme_pastel": {
+        "message": "Пастельный закат"
+    },
+    "setlay_theme_professional": {
+        "message": "Деловая"
+    },
+    "setlay_theme_sakura": {
+        "message": "Сакура"
+    },
+    "setlay_theme_simple": {
+        "message": "Простая (по умолчанию)"
+    },
+    "setlay_theme_title": {
+        "message": "Тема"
+    },
+    "setspc_board_token_placeholder": {
+        "message": "Токен доски"
+    },
+    "setspc_drag_reorder": {
+        "message": "Перетащите для изменения порядка"
+    },
+    "setspc_help_import_aria": {
+        "message": "Справка об импорте из кода"
+    },
+    "setspc_help_import_title": {
+        "message": "Справка об импорте из кода"
+    },
+    "setspc_help_managed_aria": {
+        "message": "Справка об управляемых досках"
+    },
+    "setspc_help_managed_title": {
+        "message": "Справка об управляемых досках"
+    },
+    "setspc_help_spaces_aria": {
+        "message": "Справка о пространствах"
+    },
+    "setspc_help_spaces_title": {
+        "message": "Справка о пространствах"
+    },
+    "setspc_import_btn": {
+        "message": "Импорт"
+    },
+    "setspc_import_desc": {
+        "message": "Вставьте код доступа, чтобы импортировать копию пространства, которым с вами поделились."
+    },
+    "setspc_import_from_code": {
+        "message": "Импорт из кода"
+    },
+    "setspc_import_placeholder": {
+        "message": "напр. A3X9KZ.4F2A9C7D1E5B"
+    },
+    "setspc_managed_boards_desc": {
+        "message": "Доски, на которые могут подписываться другие: по умолчанию только для чтения, с общим ключом редактирования доступны изменения."
+    },
+    "setspc_managed_boards_row": {
+        "message": "Управляемые доски"
+    },
+    "setspc_managed_boards_title": {
+        "message": "Управляемые доски ✦"
+    },
+    "setspc_managed_manage_btn": {
+        "message": "Управлять"
+    },
+    "setspc_pro_badge": {
+        "message": "✦ Pro"
+    },
+    "setspc_pro_note": {
+        "message": "Публикация пространства через код и размещение досок в интернете — это функции Pro. Импорт пространства, которым с вами поделились, всегда бесплатен."
+    },
+    "setspc_published_boards": {
+        "message": "Опубликованные доски"
+    },
+    "setspc_published_boards_desc": {
+        "message": "Публичные ссылки только для чтения, созданные вами"
+    },
+    "setspc_published_manage_btn": {
+        "message": "Управлять"
+    },
+    "setspc_rename_cancel": {
+        "message": "Отмена"
+    },
+    "setspc_rename_error": {
+        "message": "Введите название пространства."
+    },
+    "setspc_rename_placeholder": {
+        "message": "Введите название пространства"
+    },
+    "setspc_rename_save": {
+        "message": "Сохранить"
+    },
+    "setspc_rename_title": {
+        "message": "Переименовать пространство"
+    },
+    "setspc_shared_boards": {
+        "message": "Общие доски"
+    },
+    "setspc_shared_boards_desc": {
+        "message": "По кодам другие пользователи импортируют независимую копию доски. Последующие изменения не синхронизируются."
+    },
+    "setspc_shared_manage_btn": {
+        "message": "Управлять"
+    },
+    "setspc_subscribe_btn": {
+        "message": "Подписаться"
+    },
+    "setspc_subscribe_title": {
+        "message": "Подписаться на доску"
+    },
+    "setspc_workspaces": {
+        "message": "Пространства"
+    },
+    "settings_clock": {
+        "message": "Часы"
+    },
+    "settings_clock_12h": {
+        "message": "12ч (AM/PM)"
+    },
+    "settings_clock_format": {
+        "message": "Формат"
+    },
+    "settings_clock_help": {
+        "message": "Справка о часах"
+    },
+    "settings_help_about": {
+        "message": "Справка о $1"
+    },
+    "settings_help_this_setting": {
+        "message": "этой настройке"
+    },
+    "settings_link_behavior": {
+        "message": "Поведение ссылок"
+    },
+    "settings_link_behavior_help": {
+        "message": "Справка о поведении ссылок"
+    },
+    "settings_link_current_tab": {
+        "message": "Текущая вкладка"
+    },
+    "settings_link_new_tab": {
+        "message": "Новая вкладка"
+    },
+    "settings_open_links_in": {
+        "message": "Открывать ссылки в"
+    },
+    "settings_show_clock": {
+        "message": "Показывать часы в шапке"
+    },
+    "settings_show_seconds": {
+        "message": "Показывать секунды"
+    },
+    "settings_tab_account": {
+        "message": "Аккаунт"
+    },
+    "settings_tab_data": {
+        "message": "Данные"
+    },
+    "settings_tab_design": {
+        "message": "Дизайн"
+    },
+    "settings_tab_general": {
+        "message": "Общие"
+    },
+    "settings_tab_spaces": {
+        "message": "Пространства"
+    },
+    "settings_title": {
+        "message": "Настройки"
+    },
+    "sgh_sync_applies": {
+        "message": "Автоматическая синхронизация применяется к активной облачной панели, выбранной в разделе «Аккаунт»."
+    },
+    "sgh_sync_choose_dashboard": {
+        "message": "Выберите или создайте облачную панель в разделе «Аккаунт». Автоматическая синхронизация всегда применяется к активной панели там."
+    },
+    "sgh_sync_connect_pro": {
+        "message": "Подключите аккаунт Pro в разделе «Аккаунт», прежде чем сможет работать автоматическая облачная синхронизация."
+    },
+    "sgh_sync_needs_pro": {
+        "message": "Для автоматической синхронизации облачной панели требуется ReadyTab Pro."
+    },
+    "sgh_sync_uses": {
+        "message": "Автоматическая синхронизация использует активную облачную панель, выбранную в разделе «Аккаунт»."
+    },
+    "shadow_glow": {
+        "message": "Свечение"
+    },
+    "shadow_medium": {
+        "message": "Средняя"
+    },
+    "shadow_none": {
+        "message": "Нет"
+    },
+    "shadow_strong": {
+        "message": "Сильная"
+    },
+    "shadow_subtle": {
+        "message": "Лёгкая (бумага)"
+    },
+    "sl26_activate": {
+        "message": "Активировать"
+    },
+    "sl26_activating": {
+        "message": "Активация…"
+    },
+    "sl26_active": {
+        "message": "Активно"
+    },
+    "sl26_active_dashboard": {
+        "message": "активная панель"
+    },
+    "sl26_back": {
+        "message": "Назад"
+    },
+    "sl26_backup_sync_desc": {
+        "message": "Резервное копирование и синхронизация пространств между устройствами. Данные досок шифруются перед тем, как покинуть браузер."
+    },
+    "sl26_close": {
+        "message": "Закрыть"
+    },
+    "sl26_cloud": {
+        "message": "Облако"
+    },
+    "sl26_cloud_dashboards": {
+        "message": "Облачные панели"
+    },
+    "sl26_cloud_sync": {
+        "message": "Облачная синхронизация"
+    },
+    "sl26_confirm_delete_dashboard": {
+        "message": "Удалить эту облачную панель? Это действие нельзя отменить."
+    },
+    "sl26_confirm_pull": {
+        "message": "Подтвердить загрузку"
+    },
+    "sl26_confirm_update": {
+        "message": "Подтвердить обновление"
+    },
+    "sl26_connect_cloud_sync": {
+        "message": "Подключить облачную синхронизацию"
+    },
+    "sl26_connect_to_cloud": {
+        "message": "Подключиться к облаку"
+    },
+    "sl26_connecting": {
+        "message": "Подключение…"
+    },
+    "sl26_copied": {
+        "message": "Скопировано!"
+    },
+    "sl26_copy_key": {
+        "message": "Копировать ключ"
+    },
+    "sl26_copy_key_aria": {
+        "message": "Копировать лицензионный ключ"
+    },
+    "sl26_dashboard_name_placeholder": {
+        "message": "Название панели…"
+    },
+    "sl26_days_ago": {
+        "message": "$1 дн. назад"
+    },
+    "sl26_deactivates_pro": {
+        "message": "Удаляет эту лицензию и её платные функции с этого устройства."
+    },
+    "sl26_delete_dashboard": {
+        "message": "Удалить панель"
+    },
+    "sl26_enter_dashboard_name": {
+        "message": "Введите название панели."
+    },
+    "sl26_get_pro": {
+        "message": "Сравнить тарифы"
+    },
+    "sl26_have_license_key": {
+        "message": "Уже есть лицензионный ключ?"
+    },
+    "sl26_hours_ago": {
+        "message": "$1 ч. назад"
+    },
+    "sl26_just_now": {
+        "message": "только что"
+    },
+    "sl26_latest_snapshot": {
+        "message": "Последний снимок"
+    },
+    "sl26_license": {
+        "message": "Лицензия"
+    },
+    "sl26_license_key": {
+        "message": "Лицензионный ключ"
+    },
+    "sl26_loading": {
+        "message": "Загрузка…"
+    },
+    "sl26_local": {
+        "message": "Локально"
+    },
+    "sl26_manage": {
+        "message": "Управлять"
+    },
+    "sl26_min_ago": {
+        "message": "$1 мин. назад"
+    },
+    "sl26_missing_protected_warning": {
+        "message": "Этот $1 создан до появления поддержки резервного копирования защищённых пространств. ReadyTab восстановил вкладку пространства$2 для «$3», но защищённое содержимое не было включено. $4"
+    },
+    "sl26_more_actions": {
+        "message": "Ещё действия"
+    },
+    "sl26_my_dashboard": {
+        "message": "Моя панель"
+    },
+    "sl26_next": {
+        "message": "Далее"
+    },
+    "sl26_no_dashboards_yet": {
+        "message": "Пока нет облачных панелей. Отправьте текущее пространство ниже, чтобы создать первую."
+    },
+    "sl26_no_versions_yet": {
+        "message": "Пока нет сохранённых версий. Версии создаются автоматически при каждом обновлении панели (хранится до 5)."
+    },
+    "sl26_not_synced": {
+        "message": "Не синхронизировано"
+    },
+    "sl26_page_of": {
+        "message": "Страница $1 из $2"
+    },
+    "sl26_plan_annual": {
+        "message": "Годовая лицензия"
+    },
+    "sl26_plan_annual_expires": {
+        "message": "Годовая лицензия · истекает $1"
+    },
+    "sl26_plan_lifetime": {
+        "message": "Пожизненная лицензия"
+    },
+    "sl26_preview_pull_local": {
+        "message": "Просмотреть изменения и загрузить локально"
+    },
+    "sl26_preview_restore": {
+        "message": "Просмотр и восстановление"
+    },
+    "sl26_preview_update_cloud": {
+        "message": "Просмотреть изменения и обновить облако"
+    },
+    "sl26_previous": {
+        "message": "Назад"
+    },
+    "sl26_change_title": {
+        "message": "Перед сменой лицензии"
+    },
+    "sl26_change_warning": {
+        "message": "Удаление этой лицензии отключает доступ к облаку. Другой ключ не даёт доступа к её облачным панелям, настройкам или истории. Они остаются привязаны к старому ключу и не переносятся. Локальные пространства остаются на этом устройстве."
+    },
+    "sl26_change_backup": {
+        "message": "Перед продолжением экспортируйте текущие данные в JSON в разделе Настройки → Данные."
+    },
+    "sl26_change_export_scope": {
+        "message": "Этот экспорт включает текущие локальные пространства, а не все сохранённые облачные панели или их историю. Сначала разблокируйте защищённые пространства; заблокированные будут исключены."
+    },
+    "sl26_change_publishing": {
+        "message": "Вы также потеряете доступ к управлению досками, которыми поделились, которые опубликовали или разместили с этой лицензией."
+    },
+    "sl26_change_continue": {
+        "message": "Активировать другую лицензию"
+    },
+    "sl26_change_export": {
+        "message": "Экспортировать текущие данные в JSON"
+    },
+    "sl26_sync_only": {
+        "message": "Только синхронизация"
+    },
+    "sl26_included": {
+        "message": "Включено"
+    },
+    "sl26_not_included": {
+        "message": "Не включено"
+    },
+    "sl26_sharing_publishing_hosting": {
+        "message": "Общий доступ, публикация и размещение командных досок"
+    },
+    "sl26_pro_active": {
+        "message": "Pro активно"
+    },
+    "sl26_pro_upsell_desc": {
+        "message": "Free включает неограниченные локальные пространства. Выберите Sync для облачной синхронизации или Full для синхронизации, общего доступа, публикации и размещения командных досок."
+    },
+    "sl26_pull": {
+        "message": "Загрузить"
+    },
+    "sl26_pull_named": {
+        "message": "Загрузить «$1»"
+    },
+    "sl26_pulling": {
+        "message": "Загрузка…"
+    },
+    "sl26_push_as_new": {
+        "message": "Отправить как новую"
+    },
+    "sl26_push_new_dashboard": {
+        "message": "Отправить новую панель"
+    },
+    "sl26_push_new_dashboard_desc": {
+        "message": "Сохранить текущее пространство как новую облачную панель."
+    },
+    "sl26_pushed_new_dashboard": {
+        "message": "Отправлено в новую облачную панель"
+    },
+    "sl26_pushing": {
+        "message": "Отправка…"
+    },
+    "sl26_recovery_repush": {
+        "message": "Отправьте повторно с исходного устройства, чтобы восстановить недостающие данные."
+    },
+    "sl26_recovery_restore_newer": {
+        "message": "Восстановите более новый снимок или отправьте повторно с исходного устройства, чтобы восстановить недостающие данные."
+    },
+    "sl26_remove": {
+        "message": "Удалить"
+    },
+    "sl26_remove_license": {
+        "message": "Удалить лицензию"
+    },
+    "sl26_removing": {
+        "message": "Удаление…"
+    },
+    "sl26_restore_this_version": {
+        "message": "Восстановить эту версию"
+    },
+    "sl26_restore_version_of": {
+        "message": "Восстановить версию «$1»"
+    },
+    "sl26_restored_version": {
+        "message": "восстановленная версия"
+    },
+    "sl26_restoring": {
+        "message": "Восстановление…"
+    },
+    "sl26_show_hide": {
+        "message": "Показать / скрыть"
+    },
+    "sl26_show_hide_key_aria": {
+        "message": "Показать или скрыть лицензионный ключ"
+    },
+    "sl26_snapshot": {
+        "message": "снимок"
+    },
+    "sl26_something_wrong": {
+        "message": "Что-то пошло не так."
+    },
+    "sl26_synced_ago": {
+        "message": "Синхронизировано $1"
+    },
+    "sl26_update": {
+        "message": "Обновить"
+    },
+    "sl26_update_named": {
+        "message": "Обновить «$1»"
+    },
+    "sl26_version": {
+        "message": "Версия"
+    },
+    "sl26_version_history": {
+        "message": "История версий"
+    },
+    "sl26_workspaces_backed_up": {
+        "message": "Пространства резервируются и синхронизируются между устройствами. Данные досок шифруются перед тем, как покинуть браузер."
+    },
+    "slh16_added_favicons": {
+        "message": "Добавлены фавиконы к $1 ссылкам$2"
+    },
+    "slh16_could_not_fetch_favicons": {
+        "message": "Не удалось получить фавиконы"
+    },
+    "slh16_could_not_remove_icons": {
+        "message": "Не удалось удалить иконки"
+    },
+    "slh16_favicon_overwrite_confirm": {
+        "message": "Также заменить иконки, которые уже установлены?\n\nOK — заново получить фавиконы для каждой ссылки (перезаписывает существующие иконки)\nОтмена — добавить фавиконы только к ссылкам без иконок"
+    },
+    "slh16_fetching_favicons": {
+        "message": "Получение фавиконов…"
+    },
+    "slh16_no_icons_to_remove": {
+        "message": "В этом пространстве нет иконок для удаления"
+    },
+    "slh16_no_links_with_url": {
+        "message": "Ссылки с URL не найдены"
+    },
+    "slh16_no_links_without_icon": {
+        "message": "Ссылки без иконки не найдены"
+    },
+    "slh16_remove_all_icons_confirm": {
+        "message": "Удалить все иконки со ссылок в текущем пространстве?\n\nЭто затрагивает только активное пространство и не может быть отменено."
+    },
+    "slh16_removed_icons": {
+        "message": "Удалено $1 иконок$2"
+    },
+    "slh16_removing_icons": {
+        "message": "Удаление иконок…"
+    },
+    "slh16_revert": {
+        "message": "Отменить"
+    },
+    "slh16_theme_changed": {
+        "message": "Тема изменена на $1"
+    },
+    "slh16_updated_favicons": {
+        "message": "Обновлены фавиконы на $1 ссылках$2"
+    },
+    "smh17_checking": {
+        "message": "Проверка…"
+    },
+    "smh17_connected": {
+        "message": "Подключено"
+    },
+    "smh17_connected_version": {
+        "message": "Подключено (v$1)"
+    },
+    "smh17_err_generic": {
+        "message": "Ошибка: $1"
+    },
+    "smh17_err_host_crashed": {
+        "message": "Хост аварийно завершился — проверьте host.ps1 на ошибки"
+    },
+    "smh17_err_id_mismatch": {
+        "message": "Несоответствие ID расширения — перезапустите install.ps1 с правильным -ProductionId или -DevId"
+    },
+    "smh17_err_not_found": {
+        "message": "Не найдено — запустите install.ps1 и перезапустите Chrome"
+    },
+    "smh17_no_error_msg": {
+        "message": "(сообщение об ошибке не возвращено)"
+    },
+    "smh17_not_installed": {
+        "message": "Не установлено"
+    },
+    "spc_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "spc_add_link_button": {
+        "message": "Добавить кнопку-ссылку"
+    },
+    "spc_btn_add": {
+        "message": "Добавить"
+    },
+    "spc_err_add_link_button": {
+        "message": "Не удалось добавить страницу как кнопку-ссылку."
+    },
+    "spc_err_add_to_group": {
+        "message": "Не удалось добавить страницу в эту группу."
+    },
+    "spc_err_create_group": {
+        "message": "Не удалось создать новую группу."
+    },
+    "spc_err_enter_new_group": {
+        "message": "Введите название новой группы."
+    },
+    "spc_err_group_exists": {
+        "message": "Группа «$1» уже существует."
+    },
+    "spc_footer_add": {
+        "message": "добавить"
+    },
+    "spc_footer_close": {
+        "message": "закрыть"
+    },
+    "spc_footer_navigate": {
+        "message": "навигация"
+    },
+    "spc_footer_next_field": {
+        "message": "следующее поле"
+    },
+    "spc_footer_open": {
+        "message": "открыть"
+    },
+    "spc_label_group": {
+        "message": "Группа"
+    },
+    "spc_label_new_group": {
+        "message": "Название новой группы"
+    },
+    "spc_label_title": {
+        "message": "Заголовок"
+    },
+    "spc_label_workspace": {
+        "message": "Рабочее пространство"
+    },
+    "spc_new_group_option": {
+        "message": "+ Новая группа…"
+    },
+    "spc_no_results": {
+        "message": "Нет результатов по запросу «$1»"
+    },
+    "spc_placeholder_new_group": {
+        "message": "Введите уникальное название группы"
+    },
+    "spc_placeholder_page_title": {
+        "message": "Заголовок страницы"
+    },
+    "spc_search_placeholder": {
+        "message": "Поиск ссылок…"
+    },
+    "spc_search_web": {
+        "message": "Искать в интернете «$1»"
+    },
+    "spc_tab_current": {
+        "message": "сейчас"
+    },
+    "spc_tab_group_link": {
+        "message": "Ссылка в группе"
+    },
+    "spc_tab_link_button": {
+        "message": "Кнопка-ссылка"
+    },
+    "spc_tab_open_label": {
+        "message": "открытая вкладка"
+    },
+    "spc_tab_search": {
+        "message": "Поиск"
+    },
+    "spc_tab_switch": {
+        "message": "перейти"
+    },
+    "spc_tab_close": {
+        "message": "Закрыть вкладку"
+    },
+    "spc_tabs_domain_other": {
+        "message": "Прочие вкладки"
+    },
+    "spc_tabs_heading": {
+        "message": "Открытые вкладки"
+    },
+    "spc_tabs_hint": {
+        "message": "нажмите карточку для переключения"
+    },
+    "spc_tabs_matching": {
+        "message": "Совпадающие открытые вкладки"
+    },
+    "spc_type_link": {
+        "message": "Ссылка"
+    },
+    "spotlight_hint_title": {
+        "message": "Поиск по сохранённым ссылкам"
+    },
+    "sr8_add": {
+        "message": "Добавить"
+    },
+    "sr8_add_step": {
+        "message": "Добавить шаг"
+    },
+    "sr8_alignment": {
+        "message": "Выравнивание"
+    },
+    "sr8_arrow_direction": {
+        "message": "Направление стрелки"
+    },
+    "sr8_callout_type": {
+        "message": "Тип выноски"
+    },
+    "sr8_change_avatar": {
+        "message": "Сменить аватар"
+    },
+    "sr8_change_image": {
+        "message": "Сменить изображение"
+    },
+    "sr8_change_thumbnail": {
+        "message": "Сменить миниатюру"
+    },
+    "sr8_copy": {
+        "message": "Копировать"
+    },
+    "sr8_delete": {
+        "message": "Удалить"
+    },
+    "sr8_delete_element_confirm": {
+        "message": "Удалить этот элемент?"
+    },
+    "sr8_done": {
+        "message": "Готово"
+    },
+    "sr8_drag_to_move": {
+        "message": "Перетащите для перемещения"
+    },
+    "sr8_edit": {
+        "message": "Редактировать"
+    },
+    "sr8_file_type": {
+        "message": "Тип файла"
+    },
+    "sr8_fit": {
+        "message": "Вписать"
+    },
+    "sr8_heading_level": {
+        "message": "Уровень заголовка"
+    },
+    "sr8_or_paste_image_url": {
+        "message": "…или вставьте URL изображения"
+    },
+    "sr8_panel_background": {
+        "message": "Фон панели"
+    },
+    "sr8_paste_image_url": {
+        "message": "Вставьте URL изображения (https://…)"
+    },
+    "sr8_ph_callout_text": {
+        "message": "Текст выноски…"
+    },
+    "sr8_ph_code": {
+        "message": "код…"
+    },
+    "sr8_ph_description": {
+        "message": "Описание"
+    },
+    "sr8_ph_file_name": {
+        "message": "Имя файла"
+    },
+    "sr8_ph_file_url": {
+        "message": "URL файла (https://…)"
+    },
+    "sr8_ph_heading": {
+        "message": "Заголовок"
+    },
+    "sr8_ph_link_url": {
+        "message": "URL ссылки (https://…)"
+    },
+    "sr8_ph_name": {
+        "message": "Имя"
+    },
+    "sr8_ph_short_bio": {
+        "message": "Краткая биография"
+    },
+    "sr8_ph_step_title": {
+        "message": "Название шага"
+    },
+    "sr8_ph_title": {
+        "message": "Заголовок"
+    },
+    "sr8_ph_write_text": {
+        "message": "Введите текст…"
+    },
+    "sr8_remove_last_step": {
+        "message": "Удалить последний шаг"
+    },
+    "sr8_thickness": {
+        "message": "Толщина"
+    },
+    "srh14_card_meta": {
+        "message": "Снимок · $1"
+    },
+    "srh14_card_ready": {
+        "message": "$1 $2 готовы к восстановлению"
+    },
+    "srh14_confirm_clear": {
+        "message": "Удалить сохранённый снимок последней сессии?"
+    },
+    "srh14_last_updated": {
+        "message": "Последнее обновление: $1"
+    },
+    "srh14_no_snapshot_saved": {
+        "message": "Снимок ещё не сохранён"
+    },
+    "srh14_no_snapshot_yet": {
+        "message": "Снимка пока нет"
+    },
+    "srh14_no_supported_tabs": {
+        "message": "В локальном снимке сейчас нет поддерживаемых вкладок."
+    },
+    "srh14_no_tabs_to_restore": {
+        "message": "Нет вкладок для восстановления"
+    },
+    "srh14_prompt_no_supported": {
+        "message": "ReadyTab нашёл локальный снимок, но сейчас в нём нет поддерживаемых вкладок."
+    },
+    "srh14_restored": {
+        "message": "Восстановлено $1 $2."
+    },
+    "srh14_summary_ready": {
+        "message": "$1 $2 в $3 $4 готовы к просмотру или восстановлению."
+    },
+    "srh14_unknown": {
+        "message": "Неизвестно"
+    },
+    "srh14_untitled_tab": {
+        "message": "Вкладка без названия"
+    },
+    "srh14_view_empty": {
+        "message": "В текущем снимке нет сохранённых вкладок."
+    },
+    "srh14_window_title": {
+        "message": "Окно $1 · $2 $3"
+    },
+    "ss32_apply_title": {
+        "message": "Применить «$1» ($2)"
+    },
+    "ss32_deactivate_btn": {
+        "message": "Отключить сохранённую тему"
+    },
+    "ss32_deactivate_title_active": {
+        "message": "Отключить активную сохранённую тему и восстановить выбранную базовую тему"
+    },
+    "ss32_deactivate_title_none": {
+        "message": "Сейчас нет активной сохранённой темы"
+    },
+    "ss32_delete_title": {
+        "message": "Удалить"
+    },
+    "ss32_empty": {
+        "message": "Сохранённых тем пока нет"
+    },
+    "ssh18_aria_reorder": {
+        "message": "Переместить $1"
+    },
+    "ssh18_aria_stays_first": {
+        "message": "$1 остаётся первым"
+    },
+    "ssh18_badge_current": {
+        "message": "Текущий"
+    },
+    "ssh18_badge_first": {
+        "message": "Первый"
+    },
+    "ssh18_badge_managed": {
+        "message": "Управляемый"
+    },
+    "ssh18_badge_readonly": {
+        "message": "Только для чтения"
+    },
+    "ssh18_clear_board": {
+        "message": "Очистить доску"
+    },
+    "ssh18_default_start_name": {
+        "message": "Начало"
+    },
+    "ssh18_default_stays_first": {
+        "message": "Рабочее пространство по умолчанию остаётся первым"
+    },
+    "ssh18_drag_to_reorder": {
+        "message": "Перетащите, чтобы изменить порядок"
+    },
+    "ssh18_err_enter_name": {
+        "message": "Введите название пространства."
+    },
+    "ssh18_err_invalid_name": {
+        "message": "Введите корректное название пространства."
+    },
+    "ssh18_err_managed_no_rename": {
+        "message": "Управляемые пространства нельзя переименовывать."
+    },
+    "ssh18_err_name_exists": {
+        "message": "Пространство с таким именем уже существует."
+    },
+    "ssh18_err_no_space": {
+        "message": "Пространство не выбрано."
+    },
+    "ssh18_subtitle_default": {
+        "message": "по умолчанию • всегда первое"
+    },
+    "ssh18_subtitle_managed": {
+        "message": "$1 • управляемая доска • только для чтения"
+    },
+    "ssh18_title_workspaces": {
+        "message": "Рабочие пространства"
+    },
+    "ssh19_add_n_items": {
+        "message": "Добавить $1 элемент(ов)"
+    },
+    "ssh19_add_n_links": {
+        "message": "Добавить $1 ссылок"
+    },
+    "ssh19_add_one_item": {
+        "message": "Добавить 1 элемент"
+    },
+    "ssh19_add_one_link": {
+        "message": "Добавить 1 ссылку"
+    },
+    "ssh19_alert_select_one": {
+        "message": "Выберите хотя бы одно предложение."
+    },
+    "ssh19_group_devtools_desc": {
+        "message": "Документация, репозитории, утилиты и инструменты для разработки."
+    },
+    "ssh19_group_devtools_name": {
+        "message": "Разработка / Инструменты"
+    },
+    "ssh19_group_finance_desc": {
+        "message": "Банки, бюджет, счета и финансовые панели."
+    },
+    "ssh19_group_finance_name": {
+        "message": "Финансы"
+    },
+    "ssh19_group_personal_desc": {
+        "message": "Дом, дела и повседневные ссылки, которые нужны под рукой."
+    },
+    "ssh19_group_personal_name": {
+        "message": "Личное"
+    },
+    "ssh19_group_reading_desc": {
+        "message": "Статьи, сохранённые материалы и то, к чему вы хотите вернуться."
+    },
+    "ssh19_group_reading_name": {
+        "message": "Чтение"
+    },
+    "ssh19_group_shopping_desc": {
+        "message": "Списки желаний, любимые магазины и то, что вы сравниваете."
+    },
+    "ssh19_group_shopping_name": {
+        "message": "Покупки"
+    },
+    "ssh19_group_social_desc": {
+        "message": "Сообщества, сообщения и сети, которые вы проверяете."
+    },
+    "ssh19_group_social_name": {
+        "message": "Социальные сети"
+    },
+    "ssh19_group_work_desc": {
+        "message": "Проекты, приоритеты и ссылки, к которым вы возвращаетесь в течение дня."
+    },
+    "ssh19_group_work_name": {
+        "message": "Работа"
+    },
+    "ssh19_section_groups_desc": {
+        "message": "Создавайте готовые к заполнению разделы для того, что вы организуете чаще всего."
+    },
+    "ssh19_section_groups_title": {
+        "message": "Стартовые группы"
+    },
+    "ssh19_section_sites_desc": {
+        "message": "Добавляйте ярлыки для популярных сайтов с уже включёнными иконками."
+    },
+    "ssh19_section_sites_title": {
+        "message": "Популярные сайты"
+    },
+    "ssh19_select_site": {
+        "message": "Выбрать $1"
+    },
+    "themed_accent_color": {
+        "message": "Акцентный цвет"
+    },
+    "themed_accent_hover_color": {
+        "message": "Акцентный цвет при наведении"
+    },
+    "themed_active_tab_bg": {
+        "message": "Фон активной вкладки"
+    },
+    "themed_active_tab_text": {
+        "message": "Текст активной вкладки"
+    },
+    "themed_border_color": {
+        "message": "Цвет границы"
+    },
+    "themed_border_radius": {
+        "message": "Радиус скругления"
+    },
+    "themed_button_hover_background": {
+        "message": "Фон кнопки при наведении"
+    },
+    "themed_button_hover_text": {
+        "message": "Текст кнопки при наведении"
+    },
+    "themed_button_idle_color": {
+        "message": "Цвет неактивной кнопки"
+    },
+    "themed_card_background": {
+        "message": "Фон"
+    },
+    "themed_clock_color": {
+        "message": "Цвет часов"
+    },
+    "themed_clock_shadow": {
+        "message": "Тень часов"
+    },
+    "themed_clock_size": {
+        "message": "Размер часов"
+    },
+    "themed_collapse_btn_background": {
+        "message": "Фон кнопки сворачивания"
+    },
+    "themed_collapse_btn_icon_color": {
+        "message": "Цвет иконки кнопки сворачивания"
+    },
+    "themed_custom_css_placeholder": {
+        "message": "Custom CSS for this workspace:\n.item { }\n.link-name { font-style: italic; }"
+    },
+    "themed_custom_css_title": {
+        "message": "Пользовательский CSS"
+    },
+    "themed_danger_color": {
+        "message": "Цвет опасности"
+    },
+    "themed_date_opacity": {
+        "message": "Прозрачность даты"
+    },
+    "themed_enable_slide_movement": {
+        "message": "Включить скользящее движение карточек/ссылок"
+    },
+    "themed_export": {
+        "message": "Экспорт"
+    },
+    "themed_greeting_color": {
+        "message": "Цвет приветствия"
+    },
+    "themed_greeting_opacity": {
+        "message": "Прозрачность приветствия"
+    },
+    "themed_group_card": {
+        "message": "Карточка"
+    },
+    "themed_group_links": {
+        "message": "Ссылки"
+    },
+    "themed_group_other": {
+        "message": "Прочее"
+    },
+    "themed_group_spacing": {
+        "message": "Отступ между группами"
+    },
+    "themed_header_background": {
+        "message": "Фон"
+    },
+    "themed_header_divider": {
+        "message": "Разделитель заголовка"
+    },
+    "themed_header_font_size": {
+        "message": "Размер шрифта"
+    },
+    "themed_header_font_weight": {
+        "message": "Насыщенность шрифта"
+    },
+    "themed_header_text_color": {
+        "message": "Цвет текста"
+    },
+    "themed_header_text_transform": {
+        "message": "Преобразование текста"
+    },
+    "themed_help_custom_css": {
+        "message": "Справка о пользовательском CSS в оформлении"
+    },
+    "themed_help_reset_default": {
+        "message": "Справка о сбросе к значениям по умолчанию"
+    },
+    "themed_help_saved_themes": {
+        "message": "Справка о сохранённых темах"
+    },
+    "themed_help_theme_actions": {
+        "message": "Справка о действиях с темой"
+    },
+    "themed_help_theme_editor": {
+        "message": "Справка о редакторе тем"
+    },
+    "themed_hover_border": {
+        "message": "Граница при наведении"
+    },
+    "themed_hover_movement": {
+        "message": "Движение при наведении"
+    },
+    "themed_hover_shadow": {
+        "message": "Тень при наведении"
+    },
+    "themed_hover_speed": {
+        "message": "Скорость при наведении"
+    },
+    "themed_icon_color": {
+        "message": "Цвет иконки"
+    },
+    "themed_import": {
+        "message": "Импорт"
+    },
+    "themed_item_divider": {
+        "message": "Разделитель элемента"
+    },
+    "themed_item_header_line": {
+        "message": "Линия заголовка"
+    },
+    "themed_item_header_text": {
+        "message": "Текст заголовка"
+    },
+    "themed_letter_spacing": {
+        "message": "Межбуквенный интервал"
+    },
+    "themed_link_descriptions": {
+        "message": "Описания ссылок"
+    },
+    "themed_link_font_size": {
+        "message": "Размер шрифта"
+    },
+    "themed_link_font_weight": {
+        "message": "Насыщенность шрифта"
+    },
+    "themed_link_hover_background": {
+        "message": "Фон при наведении"
+    },
+    "themed_link_hover_text_color": {
+        "message": "Цвет текста при наведении"
+    },
+    "themed_link_text_color": {
+        "message": "Цвет текста"
+    },
+    "themed_new_button_background": {
+        "message": "Фон новой кнопки"
+    },
+    "themed_new_button_shadow": {
+        "message": "Тень новой кнопки"
+    },
+    "themed_new_button_text": {
+        "message": "Текст новой кнопки"
+    },
+    "themed_no_saved_themes": {
+        "message": "Сохранённых тем пока нет"
+    },
+    "themed_note_text": {
+        "message": "Текст заметки"
+    },
+    "themed_reset_theme": {
+        "message": "Сбросить тему"
+    },
+    "themed_reset_to_default_btn": {
+        "message": "Сбросить к значениям по умолчанию"
+    },
+    "themed_reset_to_default_title": {
+        "message": "Сбросить к значениям по умолчанию"
+    },
+    "themed_save_theme": {
+        "message": "Сохранить тему"
+    },
+    "themed_saved_themes": {
+        "message": "Сохранённые темы"
+    },
+    "themed_search_background": {
+        "message": "Фон поиска"
+    },
+    "themed_search_border": {
+        "message": "Граница поиска"
+    },
+    "themed_search_placeholder": {
+        "message": "Плейсхолдер поиска"
+    },
+    "themed_search_shadow": {
+        "message": "Тень поиска"
+    },
+    "themed_settings_button_background": {
+        "message": "Фон кнопки настроек"
+    },
+    "themed_settings_button_shadow": {
+        "message": "Тень кнопки настроек"
+    },
+    "themed_shadow": {
+        "message": "Тень"
+    },
+    "themed_shortcut_background": {
+        "message": "Фон ярлыка"
+    },
+    "themed_show_description": {
+        "message": "Показывать описание под названием ссылки"
+    },
+    "themed_sub_group_header": {
+        "message": "Заголовок группы"
+    },
+    "themed_sub_interface": {
+        "message": "Интерфейс"
+    },
+    "themed_sub_item_types": {
+        "message": "Типы элементов"
+    },
+    "themed_sub_spacing": {
+        "message": "Отступы"
+    },
+    "themed_sub_top_bar_buttons": {
+        "message": "Кнопки верхней панели"
+    },
+    "themed_sub_workspace_tabs": {
+        "message": "Вкладки рабочих пространств"
+    },
+    "themed_tab_background": {
+        "message": "Фон вкладки"
+    },
+    "themed_tab_font_size": {
+        "message": "Размер шрифта"
+    },
+    "themed_tab_font_weight": {
+        "message": "Насыщенность шрифта"
+    },
+    "themed_tab_radius": {
+        "message": "Радиус вкладки"
+    },
+    "themed_tab_style": {
+        "message": "Стиль вкладки"
+    },
+    "themed_tab_text": {
+        "message": "Текст вкладки"
+    },
+    "themed_tab_text_transform": {
+        "message": "Преобразование текста"
+    },
+    "themed_tabs_container_bg": {
+        "message": "Фон контейнера вкладок"
+    },
+    "themed_tabs_container_border": {
+        "message": "Граница контейнера вкладок"
+    },
+    "themed_tabs_container_shadow": {
+        "message": "Тень контейнера вкладок"
+    },
+    "themed_theme_actions": {
+        "message": "Действия с темой"
+    },
+    "themed_theme_editor": {
+        "message": "Редактор тем"
+    },
+    "themed_underline_style": {
+        "message": "Стиль подчёркивания (Material UI)"
+    },
+    "themed_unsaved": {
+        "message": "● не сохранено"
+    },
+    "u33_no_icon_chosen": {
+        "message": "Иконка ещё не выбрана"
+    },
+    "wa37_clear_board_confirm": {
+        "message": "Очистить доску в «$1»? Само пространство сохранится, но всё на нём будет удалено — группы, ярлыки и другие элементы."
+    },
+    "wa37_delete_ws_confirm": {
+        "message": "Удалить рабочее пространство «$1»? Это действие нельзя отменить."
+    },
+    "wa37_delete_ws_managed": {
+        "message": "Удалить рабочее пространство «$1»? Это пространство является источником для $2 управляемых досок$3. Удаление не отзовёт эти доски, но обновления будут заблокированы, пока вы не восстановите источник локально."
+    },
+    "wa37_incorrect_passphrase": {
+        "message": "Неверная парольная фраза, либо данные не удалось расшифровать."
+    },
+    "wa37_managed_no_clear": {
+        "message": "Управляемые пространства нельзя очистить."
+    },
+    "wa37_no_delete_default": {
+        "message": "Нельзя удалить рабочее пространство по умолчанию"
+    },
+    "wa37_no_other_ws": {
+        "message": "Других рабочих пространств нет. Сначала создайте одно."
+    },
+    "wa37_passphrase_desc": {
+        "message": "Введите парольную фразу, чтобы разблокировать «$1»."
+    },
+    "wa37_protected_locked_switch": {
+        "message": "Это защищённое пространство заблокировано. Сначала переключитесь на него, чтобы разблокировать."
+    },
+    "wa37_protected_ws_title": {
+        "message": "Защищённое рабочее пространство"
+    },
+    "wa37_start": {
+        "message": "Начало"
+    },
+    "wa37_ws_exists": {
+        "message": "Рабочее пространство «$1» уже существует"
+    },
+    "wa37_ws_locked_switch": {
+        "message": "Это рабочее пространство заблокировано. Сначала переключитесь на него, чтобы разблокировать."
+    },
+    "web_search_enter_hint": {
+        "message": "Enter"
+    },
+    "web_search_placeholder": {
+        "message": "Поиск в ваших элементах или в интернете…"
+    },
+    "wih20_add_element": {
+        "message": "Добавить элемент"
+    },
+    "wih20_add_item": {
+        "message": "Добавить элемент"
+    },
+    "wih20_add_link": {
+        "message": "Добавить ссылку"
+    },
+    "wih20_add_x": {
+        "message": "Добавить $1"
+    },
+    "wih20_added_x": {
+        "message": "Добавлено $1"
+    },
+    "wih20_adds_immediately": {
+        "message": "Добавляется сразу"
+    },
+    "wih20_alert_could_not_find_group_to_update": {
+        "message": "Не удалось найти группу для обновления"
+    },
+    "wih20_alert_could_not_find_x_to_update": {
+        "message": "Не удалось найти $1 для обновления"
+    },
+    "wih20_alert_fill_required": {
+        "message": "Заполните все обязательные поля"
+    },
+    "wih20_alert_group_already_exists": {
+        "message": "Группа уже существует"
+    },
+    "wih20_alert_launcher_target": {
+        "message": "Укажите цель запуска"
+    },
+    "wih20_alert_picker_no_companion": {
+        "message": "Не удалось открыть выбор — установлено ли приложение-компаньон?\n\nСтатус можно проверить в Настройки → Аккаунт → Приложение-компаньон."
+    },
+    "wih20_alert_please_enter_x": {
+        "message": "Введите $1"
+    },
+    "wih20_alert_valid_avatar_url": {
+        "message": "Введите корректный URL изображения аватара"
+    },
+    "wih20_alert_valid_file_url": {
+        "message": "Введите корректный URL файла"
+    },
+    "wih20_alert_valid_image_url": {
+        "message": "Введите корректный URL изображения"
+    },
+    "wih20_alert_valid_link_url": {
+        "message": "Введите корректный URL ссылки"
+    },
+    "wih20_alert_valid_link_url_scheme": {
+        "message": "Введите корректный URL ссылки (http:// или https://)"
+    },
+    "wih20_alert_x_already_exists": {
+        "message": "$1 уже существует"
+    },
+    "wih20_can_contain": {
+        "message": "Может содержать"
+    },
+    "wih20_cat_actions": {
+        "message": "Действия"
+    },
+    "wih20_cat_containers": {
+        "message": "Контейнеры"
+    },
+    "wih20_cat_media": {
+        "message": "Медиа / визуал"
+    },
+    "wih20_cat_steps": {
+        "message": "Шаги"
+    },
+    "wih20_cat_structure": {
+        "message": "Структура"
+    },
+    "wih20_cat_text": {
+        "message": "Текст"
+    },
+    "wih20_choose_target_group": {
+        "message": "Сначала выберите целевую группу."
+    },
+    "wih20_converted_button": {
+        "message": "Преобразованная кнопка"
+    },
+    "wih20_edit_x": {
+        "message": "Изменить $1"
+    },
+    "wih20_fetching_preview": {
+        "message": "Загрузка предпросмотра…"
+    },
+    "wih20_field_button_text": {
+        "message": "Текст кнопки"
+    },
+    "wih20_field_callout_text": {
+        "message": "Текст выноски"
+    },
+    "wih20_field_code": {
+        "message": "Код"
+    },
+    "wih20_field_first_step": {
+        "message": "Первый шаг"
+    },
+    "wih20_field_group_name": {
+        "message": "Название группы"
+    },
+    "wih20_field_heading_text": {
+        "message": "Текст заголовка"
+    },
+    "wih20_field_label_optional": {
+        "message": "Метка (необязательно)"
+    },
+    "wih20_field_text": {
+        "message": "Текст"
+    },
+    "wih20_label_arrow": {
+        "message": "Стрелка"
+    },
+    "wih20_label_callout": {
+        "message": "Выноска"
+    },
+    "wih20_label_code_block": {
+        "message": "Блок кода"
+    },
+    "wih20_label_divider": {
+        "message": "Разделитель"
+    },
+    "wih20_label_file": {
+        "message": "Файл"
+    },
+    "wih20_label_heading": {
+        "message": "Заголовок"
+    },
+    "wih20_label_image": {
+        "message": "Изображение"
+    },
+    "wih20_label_link_card": {
+        "message": "Карточка ссылки"
+    },
+    "wih20_label_profile_avatar": {
+        "message": "Профиль / Аватар"
+    },
+    "wih20_label_step_heading": {
+        "message": "Заголовок шага"
+    },
+    "wih20_label_steps": {
+        "message": "Шаги"
+    },
+    "wih20_label_text": {
+        "message": "Текст"
+    },
+    "wih20_launcher_label_command": {
+        "message": "Команда"
+    },
+    "wih20_launcher_label_path": {
+        "message": "Путь"
+    },
+    "wih20_launcher_label_target_uri": {
+        "message": "Целевой URI"
+    },
+    "wih20_name": {
+        "message": "Имя"
+    },
+    "wih20_name_button_text": {
+        "message": "текст кнопки"
+    },
+    "wih20_name_group_name": {
+        "message": "название группы"
+    },
+    "wih20_no_icon_chosen": {
+        "message": "Иконка ещё не выбрана!"
+    },
+    "wih20_no_matching_groups": {
+        "message": "Подходящих групп не найдено."
+    },
+    "wih20_no_standard_groups": {
+        "message": "В этом рабочем пространстве пока нет стандартных групп."
+    },
+    "wih20_opt_callout_desc": {
+        "message": "Выделите заметку или важный совет."
+    },
+    "wih20_opt_callout_label": {
+        "message": "Выноска"
+    },
+    "wih20_opt_clipboard_desc": {
+        "message": "Копируйте текст одним нажатием."
+    },
+    "wih20_opt_clipboard_label": {
+        "message": "Кнопка буфера обмена"
+    },
+    "wih20_opt_code_desc": {
+        "message": "Показать код или команды с форматированием."
+    },
+    "wih20_opt_code_label": {
+        "message": "Блок кода"
+    },
+    "wih20_opt_divider_desc": {
+        "message": "Разделите содержимое горизонтальной линией."
+    },
+    "wih20_opt_divider_label": {
+        "message": "Разделитель"
+    },
+    "wih20_opt_file_desc": {
+        "message": "Показать карточку ресурса в виде файла."
+    },
+    "wih20_opt_file_label": {
+        "message": "Файл"
+    },
+    "wih20_opt_group_desc": {
+        "message": "Карточка, в которой можно хранить несколько элементов."
+    },
+    "wih20_opt_group_label": {
+        "message": "Группа"
+    },
+    "wih20_opt_header_desc": {
+        "message": "Крупный текст заголовка для раздела."
+    },
+    "wih20_opt_header_label": {
+        "message": "Заголовок"
+    },
+    "wih20_opt_image_desc": {
+        "message": "Добавьте визуальную карточку с изображением."
+    },
+    "wih20_opt_image_label": {
+        "message": "Изображение"
+    },
+    "wih20_opt_launcher_desc": {
+        "message": "Открыть приложение, файл, папку или команду."
+    },
+    "wih20_opt_launcher_label": {
+        "message": "Кнопка запуска"
+    },
+    "wih20_opt_linkcard_desc": {
+        "message": "Более детальный предпросмотр для одной ссылки."
+    },
+    "wih20_opt_linkcard_label": {
+        "message": "Карточка ссылки"
+    },
+    "wih20_opt_profile_desc": {
+        "message": "Показать компактную сводку профиля."
+    },
+    "wih20_opt_profile_label": {
+        "message": "Профиль"
+    },
+    "wih20_opt_routine_desc": {
+        "message": "Выполните несколько действий одним нажатием."
+    },
+    "wih20_opt_routine_label": {
+        "message": "Сценарий"
+    },
+    "wih20_opt_shortcut_desc": {
+        "message": "Открыть ссылку по кнопке верхнего уровня."
+    },
+    "wih20_opt_iconlink_label": {
+        "message": "Значок-ссылка"
+    },
+    "wih20_opt_iconlink_desc": {
+        "message": "Крупный значок, открывающий ссылку, с необязательной подписью снизу"
+    },
+    "wih20_opt_shortcut_label": {
+        "message": "Ярлык"
+    },
+    "wih20_opt_stepheader_desc": {
+        "message": "Нумерованный заголовок для пошаговых инструкций."
+    },
+    "wih20_opt_stepheader_label": {
+        "message": "Заголовок шага"
+    },
+    "wih20_opt_steps_desc": {
+        "message": "Нумерованный список шагов."
+    },
+    "wih20_opt_steps_label": {
+        "message": "Шаги"
+    },
+    "wih20_opt_text_desc": {
+        "message": "Абзац или вспомогательный текстовый блок."
+    },
+    "wih20_opt_text_label": {
+        "message": "Текст"
+    },
+    "wih20_opt_todo_desc": {
+        "message": "Список задач, которые можно отмечать как выполненные."
+    },
+    "wih20_opt_todo_label": {
+        "message": "Список задач"
+    },
+    "wih20_ph_important_shortcut": {
+        "message": "Важный ярлык"
+    },
+    "wih20_ph_write_code": {
+        "message": "Введите свой код"
+    },
+    "wih20_ph_write_text": {
+        "message": "Введите свой текст"
+    },
+    "wih20_preset_avatar_n": {
+        "message": "Готовый аватар $1"
+    },
+    "wih20_save_x": {
+        "message": "Сохранить $1"
+    },
+    "wih20_step_count": {
+        "message": "$1 шаг$2"
+    },
+    "wih20_sup_clipboard": {
+        "message": "Буфер обмена"
+    },
+    "wih20_sup_dividers": {
+        "message": "Разделители"
+    },
+    "wih20_sup_headings": {
+        "message": "Заголовки"
+    },
+    "wih20_sup_launchers": {
+        "message": "Кнопки запуска"
+    },
+    "wih20_sup_links": {
+        "message": "Ссылки"
+    },
+    "wih20_sup_tasks": {
+        "message": "Задачи"
+    },
+    "wih20_sup_text": {
+        "message": "Текст"
+    },
+    "wih20_untitled_group": {
+        "message": "Группа без названия"
+    },
+    "wma38_default_workspace_name": {
+        "message": "Начало"
+    },
+    "wma38_label_delete": {
+        "message": "Удалить"
+    },
+    "wma38_label_protect": {
+        "message": "Защитить"
+    },
+    "wma38_label_protect_pro": {
+        "message": "Защитить ✦"
+    },
+    "wma38_label_publish_public_board": {
+        "message": "Опубликовать общедоступную доску"
+    },
+    "wma38_label_publish_public_board_pro": {
+        "message": "Опубликовать общедоступную доску ✦"
+    },
+    "wma38_label_remove_subscription": {
+        "message": "Отменить подписку"
+    },
+    "wma38_label_rename": {
+        "message": "Переименовать"
+    },
+    "wma38_label_share_workspace": {
+        "message": "Поделиться рабочим пространством"
+    },
+    "wma38_label_share_workspace_pro": {
+        "message": "Поделиться рабочим пространством ✦"
+    },
+    "wma38_label_unprotect": {
+        "message": "Снять защиту"
+    },
+    "wma38_remove_subscription_confirm": {
+        "message": "Отменить подписку на «$1»? Вы сможете подписаться снова позже."
+    },
+    "wma38_rename_prompt": {
+        "message": "Переименовать рабочее пространство:"
+    },
+    "wma38_share_unavailable": {
+        "message": "Поделиться этим рабочим пространством сейчас нельзя."
+    },
+    "wp39_btn_protect": {
+        "message": "Защитить"
+    },
+    "wp39_btn_unlock": {
+        "message": "Разблокировать"
+    },
+    "wp39_decrypt_fail": {
+        "message": "Неверная парольная фраза или не удалось расшифровать: $1"
+    },
+    "wp39_default_desc": {
+        "message": "Введите парольную фразу, чтобы разблокировать это рабочее пространство."
+    },
+    "wp39_default_title": {
+        "message": "Защищённое рабочее пространство"
+    },
+    "wp39_err_empty": {
+        "message": "Парольная фраза не может быть пустой."
+    },
+    "wp39_err_min_length": {
+        "message": "Парольная фраза должна содержать не менее 4 символов."
+    },
+    "wp39_err_mismatch": {
+        "message": "Парольные фразы не совпадают."
+    },
+    "wp39_protect_desc": {
+        "message": "Задайте парольную фразу для защиты «$1». Она будет нужна каждый раз при открытии этого рабочего пространства после перезагрузки страницы."
+    },
+    "wp39_protect_fail": {
+        "message": "Не удалось защитить рабочее пространство: $1"
+    },
+    "wp39_protect_title": {
+        "message": "Защитить рабочее пространство"
+    },
+    "wp39_unprotect_desc": {
+        "message": "Введите текущую парольную фразу, чтобы снять защиту с «$1»."
+    },
+    "wp39_unprotect_title": {
+        "message": "Снять защиту с рабочего пространства"
+    },
+    "ws34_no_matches": {
+        "message": "Нет совпадений для «$1»"
+    },
+    "ws34_results_header": {
+        "message": "Результаты"
+    },
+    "ws34_search_web_for": {
+        "message": "Искать в интернете «$1»"
+    },
+    "ws36_cancel": {
+        "message": "Отмена"
+    },
+    "ws36_close": {
+        "message": "Закрыть"
+    },
+    "ws36_code_updated": {
+        "message": "Код для обмена обновлён."
+    },
+    "ws36_copied": {
+        "message": "Скопировано!"
+    },
+    "ws36_copy": {
+        "message": "Копировать"
+    },
+    "ws36_create_code_btn": {
+        "message": "Создать код"
+    },
+    "ws36_create_fail": {
+        "message": "Не удалось создать код для обмена: $1"
+    },
+    "ws36_hint_expires": {
+        "message": "Срок действия этого кода истекает $1. Управляйте им в Настройки → Пространства → Общие доски."
+    },
+    "ws36_hint_never": {
+        "message": "Этот код не имеет срока действия. Управляйте им в Настройки → Пространства → Общие доски."
+    },
+    "ws36_import_btn": {
+        "message": "Импорт"
+    },
+    "ws36_import_replace_hint": {
+        "message": "Если рабочее пространство с таким именем уже существует, оно будет заменено."
+    },
+    "ws36_import_title": {
+        "message": "Импорт общего рабочего пространства"
+    },
+    "ws36_imported_toast": {
+        "message": "Импортировано — отредактируйте, затем нажмите «Обновить», чтобы обновить код."
+    },
+    "ws36_name": {
+        "message": "Имя"
+    },
+    "ws36_name_placeholder": {
+        "message": "напр. Ссылки для адаптации команды дизайна"
+    },
+    "ws36_never_expire_checkbox": {
+        "message": "Хранить, пока не удалю (без срока действия)"
+    },
+    "ws36_no_data": {
+        "message": "Нет данных рабочего пространства для обмена."
+    },
+    "ws36_optional": {
+        "message": "(необязательно)"
+    },
+    "ws36_recover_fail": {
+        "message": "Не удалось восстановить содержимое этого кода на этом устройстве."
+    },
+    "ws36_reimport_confirm": {
+        "message": "Пространства, из которого был создан этот код, нет на этом устройстве.\n\nИмпортировать копию, чтобы отредактировать её, а затем обновить код своими изменениями?"
+    },
+    "ws36_share_code_aria": {
+        "message": "Код для обмена"
+    },
+    "ws36_share_dialog_create_desc": {
+        "message": "Создайте код, с помощью которого другие смогут импортировать копию этого рабочего пространства."
+    },
+    "ws36_share_dialog_create_hint": {
+        "message": "Название поможет вам позже узнать код в Настройки → Пространства → Общие доски. По умолчанию срок действия кода — 30 дней."
+    },
+    "ws36_share_dialog_create_title": {
+        "message": "Поделиться рабочим пространством"
+    },
+    "ws36_share_dialog_update_desc": {
+        "message": "Заменяет снимок этого кода текущим состоянием рабочего пространства. Сам код остаётся прежним."
+    },
+    "ws36_share_dialog_update_hint": {
+        "message": "Обратите внимание: у тех, кто уже импортировал этот код, остаётся своя копия — обновлённую версию получат только <b>новые</b> импорты."
+    },
+    "ws36_share_dialog_update_title": {
+        "message": "Обновить код для обмена"
+    },
+    "ws36_shared_desc": {
+        "message": "Любой, у кого есть этот код, может импортировать копию этого рабочего пространства в свой ReadyTab."
+    },
+    "ws36_shared_title": {
+        "message": "Рабочим пространством поделились!"
+    },
+    "ws36_update_code_btn": {
+        "message": "Обновить код"
+    },
+    "ws36_update_fail": {
+        "message": "Не удалось обновить код: $1"
+    },
+    "ws36_workspace_name": {
+        "message": "Название рабочего пространства"
+    },
+    "wtu40_add_workspace": {
+        "message": "Добавить рабочее пространство"
+    },
+    "wtu40_create_more_spaces_pro": {
+        "message": "Создавайте более $1 пространств с Pro"
+    },
+    "wtu40_enter_workspace_name": {
+        "message": "Введите название рабочего пространства:"
+    },
+    "wtu40_managed_board_readonly": {
+        "message": "Управляемая доска — только для чтения"
+    },
+    "wtu40_more": {
+        "message": "Ещё"
+    },
+    "wtu40_pro": {
+        "message": "Pro"
+    },
+    "wtu40_start": {
+        "message": "Начало"
+    },
+    "sdm1_kind_group": {
+        "message": "Группа"
+    },
+    "sdm1_kind_todo_list": {
+        "message": "Список задач"
+    },
+    "sdm1_kind_shortcut": {
+        "message": "Ярлык"
+    },
+    "sdm1_kind_clipboard_button": {
+        "message": "Кнопка буфера обмена"
+    },
+    "sdm1_kind_launcher": {
+        "message": "Лаунчер"
+    },
+    "sdm1_kind_routine": {
+        "message": "Сценарий"
+    },
+    "sdm1_kind_heading": {
+        "message": "Заголовок"
+    },
+    "sdm1_kind_step_heading": {
+        "message": "Заголовок шага"
+    },
+    "sdm1_kind_text": {
+        "message": "Текст"
+    },
+    "sdm1_kind_divider": {
+        "message": "Разделитель"
+    },
+    "sdm1_kind_arrow": {
+        "message": "Стрелка"
+    },
+    "sdm1_kind_callout": {
+        "message": "Выноска"
+    },
+    "sdm1_kind_code_block": {
+        "message": "Блок кода"
+    },
+    "sdm1_kind_steps": {
+        "message": "Шаги"
+    },
+    "sdm1_kind_image": {
+        "message": "Изображение"
+    },
+    "sdm1_kind_profile": {
+        "message": "Профиль"
+    },
+    "sdm1_kind_link_card": {
+        "message": "Карточка ссылки"
+    },
+    "sdm1_kind_file": {
+        "message": "Файл"
+    },
+    "sdm1_kind_note": {
+        "message": "Заметка"
+    },
+    "sdm1_kind_task_list": {
+        "message": "Список задач"
+    },
+    "sdm1_untitled_group": {
+        "message": "Группа без названия"
+    },
+    "sdm1_untitled_note": {
+        "message": "Заметка без названия"
+    },
+    "sdm1_untitled_list": {
+        "message": "Список без названия"
+    },
+    "sdm1_notes_label": {
+        "message": "Заметки"
+    },
+    "sdm1_tasks_label": {
+        "message": "Задачи"
+    },
+    "sdm1_protected_name": {
+        "message": "$1 (защищено)"
+    },
+    "sdm1_protected_preview": {
+        "message": "Заблокировано — содержимое скрыто"
+    },
+    "sdm1_done_ratio": {
+        "message": "$1/$2 выполнено"
+    },
+    "sdm1_step_one": {
+        "message": "$1 шаг"
+    },
+    "sdm1_step_many": {
+        "message": "Шагов: $1"
+    },
+    "sdm1_element_one": {
+        "message": "$1 элемент"
+    },
+    "sdm1_element_many": {
+        "message": "Элементов: $1"
+    },
+    "sdm1_item_one": {
+        "message": "$1 элемент"
+    },
+    "sdm1_item_many": {
+        "message": "Элементов: $1"
+    },
+    "sdm1_task_one": {
+        "message": "$1 задача"
+    },
+    "sdm1_task_many": {
+        "message": "Задач: $1"
+    },
+    "sdm1_target_fallback": {
+        "message": "цель"
+    },
+    "sdm1_close": {
+        "message": "Закрыть"
+    },
+    "sdm1_cancel": {
+        "message": "Отмена"
+    },
+    "sdm1_identical": {
+        "message": "Различий нет — обе версии идентичны."
+    },
+    "sdm1_chip_added": {
+        "message": "добавлено"
+    },
+    "sdm1_chip_changed": {
+        "message": "изменено"
+    },
+    "sdm1_chip_removed": {
+        "message": "удалено"
+    },
+    "sdm1_ws_tag": {
+        "message": "рабочее пространство"
+    },
+    "sdm1_ws_new": {
+        "message": "Новое рабочее пространство — будет добавлено в $1"
+    },
+    "sdm1_ws_only_in": {
+        "message": "Только в $1 — будет удалено"
+    },
+    "sdm1_ws_entire": {
+        "message": "Всё рабочее пространство"
+    },
+    "sdm1_ws_unchanged": {
+        "message": "$1, без изменений"
+    },
+    "sdm1_unchanged_inline": {
+        "message": "$1 без изменений"
+    },
+    "sdm1_sec_added": {
+        "message": "Добавлено в $1"
+    },
+    "sdm1_sec_changed": {
+        "message": "Изменено"
+    },
+    "sdm1_sec_removed": {
+        "message": "Удалено из $1"
+    },
+    "sdm1_row_new": {
+        "message": "Новое: $1 — ещё нет в $2"
+    },
+    "sdm1_row_only_in": {
+        "message": "Только в $1 — будет удалено"
+    },
+    "sdm1_row_count_differs": {
+        "message": "Уже в $1 — количество элементов отличается"
+    },
+    "sdm1_row_contents_edited": {
+        "message": "Уже в $1 — содержимое изменено"
+    },
+    "sdm1_row_task_count_differs": {
+        "message": "Уже в $1 — количество задач отличается"
+    },
+    "sdm1_row_tasks_edited": {
+        "message": "Уже в $1 — задачи изменены"
+    },
+    "sdm1_row_edited_preview": {
+        "message": "$1 изменено — $2"
+    },
+    "sdm1_row_edited": {
+        "message": "$1 изменено"
+    },
+    "sdm1_pill_edited": {
+        "message": "изменено"
+    },
+    "sdm1_count_now": {
+        "message": "сейчас"
+    },
+    "sdm1_count_after": {
+        "message": "после"
+    },
+    "language_auto": {
+        "message": "Автоматически (браузер)"
+    },
+    "grp_display_tile": {
+        "message": "Плитка"
+    },
+    "wih20_opt_tile_label": {
+        "message": "Плитка"
+    },
+    "wih20_opt_tile_desc": {
+        "message": "Квадратная кнопка-значок с фоном карточки."
+    },
+    "grp_display_tile2": {
+        "message": "Большая плитка"
+    },
+    "wih20_opt_tile2_label": {
+        "message": "Большая плитка"
+    },
+    "wih20_opt_tile2_desc": {
+        "message": "Квадратная кнопка-значок шириной в две колонки."
+    },
+    "lbr5_turn_into": {
+        "message": "Превратить в $1"
+    },
+    "grp_choose_style": {
+        "message": "Выберите стиль"
+    },
+    "grp_choose_style_hint": {
+        "message": "Выберите вид. Позже это можно изменить в меню элемента."
+    },
+    "wih20_opt_link_label": {
+        "message": "Ссылка"
+    },
+    "wih20_opt_link_desc": {
+        "message": "Открыть сайт или URL."
+    },
+    "wih20_style_fam_buttons": {
+        "message": "Кнопки"
+    },
+    "wih20_style_fam_tiles": {
+        "message": "Плитки"
+    },
+    "wih20_style_standard_desc": {
+        "message": "Кнопка во всю ширину со значком и подписью."
+    },
+    "wih20_style_icon_desc": {
+        "message": "Просто значок с необязательной подписью."
+    },
+    "wih20_style_tile_desc": {
+        "message": "Квадратная карточка-значок шириной в одну колонку."
+    },
+    "wih20_style_tile2_desc": {
+        "message": "Квадратная карточка-значок шириной в две колонки с подписью."
+    },
+    "sbe_invalid_key": {
+        "message": "Enter the complete edit key supplied by the board owner."
+    },
+    "sbe_subscribe_first": {
+        "message": "Subscribe to this board before entering its edit key."
+    },
+    "sbe_latest": {
+        "message": "Latest shared version"
+    },
+    "sbe_yours": {
+        "message": "Your changes"
+    },
+    "sbe_review": {
+        "message": "Review conflict"
+    },
+    "sbe_replace": {
+        "message": "Replace with my reviewed version"
+    },
+    "sbe_discard_confirm": {
+        "message": "Discard your unsaved changes and use the latest shared version?"
+    },
+    "sbe_status_checking": {
+        "message": "Checking editing access…"
+    },
+    "sbe_status_unsaved": {
+        "message": "Shared board · Unsaved changes"
+    },
+    "sbe_status_saving": {
+        "message": "Shared board · Saving…"
+    },
+    "sbe_status_saved": {
+        "message": "Shared board · Saved"
+    },
+    "sbe_status_conflict": {
+        "message": "This board changed elsewhere. Review before saving."
+    },
+    "sbe_status_error": {
+        "message": "Changes are unsaved. Try saving again."
+    },
+    "sbe_status_denied": {
+        "message": "Editing access is unavailable. Export any unsaved changes before leaving."
+    },
+    "sbe_use_latest": {
+        "message": "Use latest version"
+    },
+    "sbe_save": {
+        "message": "Save changes"
+    },
+    "sbe_export": {
+        "message": "Export my changes"
+    },
+    "sbe_enter_key": {
+        "message": "Enter edit key"
+    },
+    "sbe_key_prompt": {
+        "message": "Enter the shared edit key from the board owner:"
+    },
+    "sbe_connected": {
+        "message": "Shared board editing enabled."
+    },
+    "sbe_edit_key": {
+        "message": "Shared edit key"
+    },
+    "sbe_key_help": {
+        "message": "Send this same edit key to everyone who should edit the board, together with the read token and any board password. Keep your license key private. Replacing the edit key removes access for everyone using the old key."
+    },
+    "sbe_read_token": {
+        "message": "Read token"
+    },
+    "sbe_rotate_key": {
+        "message": "Replace edit key"
+    },
+    "sbe_generate_key": {
+        "message": "Generate edit key"
+    },
+    "sbe_rotate_confirm": {
+        "message": "Replace the shared edit key? Everyone using the old key will need the new one."
+    },
+    "sbe_key_generated": {
+        "message": "Key created. Copy it and send the same key to your editors."
+    },
+    "sbe_copy_key": {
+        "message": "Copy edit key"
+    },
+    "sbe_copied": {
+        "message": "Copied."
+    },
+    "sbe_open_board": {
+        "message": "Open shared board"
+    },
+    "sbe_generate_first": {
+        "message": "Generate an edit key first."
+    },
+    "sbe_disable": {
+        "message": "Disable editing"
+    },
+    "sbe_disable_confirm": {
+        "message": "Disable editing for everyone using the shared key?"
+    },
+    "sbe_disabled": {
+        "message": "Shared-key editing is disabled."
+    },
+    "sbe_close": {
+        "message": "Close"
+    },
+    "sbe_editor": {
+        "message": "Shared board · Editor"
+    },
+    "bmi_title": {
+        "message": "Импорт закладок"
+    },
+    "bmi_description": {
+        "message": "Выберите папки слева, затем разместите и упорядочьте группы в рабочих пространствах."
+    },
+    "bmi_from_browser": {
+        "message": "Из закладок браузера"
+    },
+    "bmi_choose": {
+        "message": "Выбрать закладки"
+    },
+    "bmi_close": {
+        "message": "Закрыть"
+    },
+    "bmi_select_all": {
+        "message": "Выбрать всё"
+    },
+    "bmi_clear": {
+        "message": "Снять выделение"
+    },
+    "bmi_preview": {
+        "message": "Предпросмотр"
+    },
+    "bmi_workspaces": {
+        "message": "Рабочие пространства"
+    },
+    "bmi_cancel": {
+        "message": "Отмена"
+    },
+    "bmi_import": {
+        "message": "Импортировать и открыть панель"
+    },
+    "bmi_trust": {
+        "message": "Копирует ссылки в ReadyTab. Закладки браузера не изменяются."
+    },
+    "bmi_loading": {
+        "message": "Загрузка закладок браузера…"
+    },
+    "bmi_quick_links": {
+        "message": "Быстрые ссылки"
+    },
+    "bmi_skipped": {
+        "message": "Пропущено неподдерживаемых URL закладок: $1."
+    },
+    "bmi_no_destination": {
+        "message": "Перед импортом создайте или разблокируйте локальное рабочее пространство."
+    },
+    "bmi_read_failed": {
+        "message": "Не удалось прочитать закладки браузера."
+    },
+    "bmi_read_retry": {
+        "message": "Проверьте доступ к закладкам, затем закройте и снова откройте это окно."
+    },
+    "bmi_empty": {
+        "message": "Нет закладок для импорта. Сначала сохраните закладки в браузере."
+    },
+    "bmi_collapse": {
+        "message": "Свернуть $1"
+    },
+    "bmi_expand": {
+        "message": "Развернуть $1"
+    },
+    "bmi_preview_empty": {
+        "message": "В этом пространстве пока нет групп. Выберите папку или переместите сюда группу."
+    },
+    "bmi_earlier": {
+        "message": "Переместить $1 раньше"
+    },
+    "bmi_later": {
+        "message": "Переместить $1 позже"
+    },
+    "bmi_links": {
+        "message": "Ссылок: $1"
+    },
+    "bmi_destination": {
+        "message": "Назначение для $1"
+    },
+    "bmi_summary": {
+        "message": "Групп: $1 · Пространств: $2 · Ссылок: $3"
+    },
+    "bmi_importing": {
+        "message": "Импорт закладок…"
+    },
+    "bmi_save_failed": {
+        "message": "Не удалось сохранить импорт. Проверьте свободное место и доступ к пространству, затем повторите попытку. Выбор сохранён."
+    },
+    "bmi_done": {
+        "message": "Импортировано закладок: $1, групп: $2."
+    },
+    "bmi_layout_failed": {
+        "message": "Закладки импортированы, но расположение не удалось сохранить. Используйте компактную раскладку."
+    },
+    "start_layout_failed": {
+        "message": "Сайты добавлены, но сохранить расположение не удалось. Используйте компактную компоновку, чтобы упорядочить их."
+    },
+    "start_title": {
+        "message": "Давайте заполним вашу первую доску"
+    },
+    "start_workspace_title": {
+        "message": "Давайте заполним это рабочее пространство"
+    },
+    "start_intro": {
+        "message": "Выберите, с чего начать. Доска откроется, как только вы что-нибудь добавите."
+    },
+    "start_recommended": {
+        "message": "Рекомендуем"
+    },
+    "start_checking": {
+        "message": "Проверяем закладки…"
+    },
+    "start_choose": {
+        "message": "Выбрать папки"
+    },
+    "start_sites": {
+        "message": "Популярные сайты"
+    },
+    "start_sites_desc": {
+        "message": "Выберите из 18 известных сайтов и добавьте их как ярлыки или в группы."
+    },
+    "start_browse": {
+        "message": "Выбрать сайты"
+    },
+    "start_blank": {
+        "message": "Начать с нуля"
+    },
+    "start_blank_desc": {
+        "message": "Создайте пустую группу и заполните её сами."
+    },
+    "start_add_group": {
+        "message": "Добавить группу"
+    },
+    "start_picker_desc": {
+        "message": "Выберите место, затем сайты. Нажмите ещё раз, чтобы убрать сайт."
+    },
+    "start_destination": {
+        "message": "Куда добавить сайты"
+    },
+    "start_live": {
+        "message": "Сразу"
+    },
+    "start_live_desc": {
+        "message": "Изменения сразу применяются к странице."
+    },
+    "start_all_settings": {
+        "message": "Все настройки →"
+    },
+    "start_plans_desc": {
+        "message": "Выберите Sync для своих устройств или Full, чтобы также публиковать и управлять общими досками."
+    },
+    "start_sync_benefit": {
+        "message": "Sync: зашифрованная синхронизация между устройствами"
+    },
+    "start_full_benefit": {
+        "message": "Full: синхронизация, публикация и общие доски"
+    },
+    "start_free_benefit": {
+        "message": "Бесплатно: неограниченные локальные пространства"
+    },
+    "start_undo_failed": {
+        "message": "Не удалось отменить. Проверьте, что целевые пространства доступны и разблокированы."
+    },
+    "start_undo": {
+        "message": "Отменить"
+    },
+    "start_bookmarks_failed": {
+        "message": "Не удалось проверить закладки. Выберите папки, чтобы повторить попытку."
+    },
+    "start_bookmarks_found": {
+        "message": "В браузере найдены закладки ($1) в папках ($2). Папки станут группами."
+    },
+    "start_no_bookmarks": {
+        "message": "Закладок нет. Вы можете импортировать их в любое время в настройках."
+    },
+    "start_nothing": {
+        "message": "Нечего импортировать"
+    },
+    "start_shortcuts": {
+        "message": "Ярлыки"
+    },
+    "start_favorites": {
+        "message": "Избранное"
+    },
+    "start_new_group": {
+        "message": "+ Новая группа"
+    },
+    "start_group_number": {
+        "message": "Группа $1"
+    },
+    "start_selection": {
+        "message": "Ярлыки: $1 · Ссылки в группах: $2"
+    },
+    "start_add_sites": {
+        "message": "Добавить сайты ($1)"
+    },
+    "start_empty_group": {
+        "message": "Новая группа"
+    },
+    "start_added": {
+        "message": "Ваша доска готова."
+    },
+    "start_back": {
+        "message": "Назад"
+    },
+    "sbe_live_help": {
+        "message": "При создании ключа открывается общая доска. Изменения сохраняются автоматически; изменения других участников появляются каждые 30 секунд, пока доска открыта. Конфликты требуют проверки. Для совместной работы используйте эту вкладку; восстановленный источник — отдельная локальная копия."
+    },
+    "sbe_status_offline": {
+        "message": "Общая доска · Соединение прервано. Автоматическая повторная попытка…"
+    },
+    "sharing_title": {
+        "message": "Общий доступ"
+    },
+    "sharing_subtitle": {
+        "message": "Делитесь досками или импортируйте полученную доску"
+    },
+    "sharing_codes": {
+        "message": "Коды"
+    },
+    "sharing_links": {
+        "message": "Публичные ссылки"
+    },
+    "sharing_live": {
+        "message": "Связанные доски"
+    },
+    "sharing_new_code": {
+        "message": "Новый код"
+    },
+    "sharing_new_link": {
+        "message": "Новая публичная ссылка"
+    },
+    "sharing_new_live": {
+        "message": "Новая связанная доска"
+    },
+    "sharing_import": {
+        "message": "Импорт кода"
+    },
+    "sharing_join": {
+        "message": "Присоединиться"
+    },
+    "sharing_source": {
+        "message": "Исходное пространство"
+    },
+    "sharing_joined": {
+        "message": "Доски с подпиской"
+    },
+    "sharing_settings_description": {
+        "message": "Коды, публичные ссылки и связанные доски"
+    },
+    "sharing_codes_description": {
+        "message": "Получатели импортируют редактируемую копию в ReadyTab. Последующие изменения не синхронизируются."
+    },
+    "sharing_links_description": {
+        "message": "Любой пользователь со ссылкой может открыть доску в браузере без расширения. Для обновления опубликуйте изменения."
+    },
+    "sharing_live_description": {
+        "message": "Подписчики получают связанную доску в ReadyTab, доступную только для чтения, пока вы не разрешите редактирование. Изменения связанной доски синхронизируются; изменения отдельного источника нужно публиковать."
+    },
+    "sharing_join_description": {
+        "message": "Введите токен доски и пароль, если владелец его предоставил."
+    },
+    "sharing_publish_required": {
+        "message": "Для создания и управления общим доступом нужен Full. Импорт копии и подписка на доску бесплатны."
+    },
+    "sharing_no_source": {
+        "message": "Выберите незащищённое локальное пространство."
+    },
+    "sbe_edit_keys": {
+        "message": "Ключи редактирования"
+    },
+    "sbe_key_name": {
+        "message": "Название ключа"
+    },
+    "sbe_add_key": {
+        "message": "Добавить ключ"
+    },
+    "sbe_rename_key": {
+        "message": "Переименовать"
+    },
+    "sbe_revoke_key": {
+        "message": "Отозвать"
+    },
+    "sbe_replace_named_confirm": {
+        "message": "Заменить «$1»? Текущий ключ перестанет работать. Остальные останутся действительными."
+    },
+    "sbe_revoke_named_confirm": {
+        "message": "Отозвать «$1»? Все пользователи этого ключа потеряют право редактирования."
+    },
+    "sbe_key_other_device": {
+        "message": "Этот ключ не сохранён на устройстве. Замените его, чтобы получить новую копию."
+    },
+    "sbe_named_help": {
+        "message": "Создавайте именованные ключи для людей или групп. Каждый ключ можно заменить или отозвать отдельно. Обладатель ключа может редактировать; отзыв не закрывает доступ к просмотру."
+    },
+    "sbe_status_recovered": {
+        "message": "Ожидающие изменения восстановлены. Проверьте их перед сохранением."
+    },
+    "sbe_draft_error": {
+        "message": "Не удалось сохранить данные для локального восстановления. Не закрывайте вкладку и экспортируйте изменения."
+    },
+    "sbe_discard_draft": {
+        "message": "Отменить ожидающие изменения"
+    },
+    "sbe_unfinished_text": {
+        "message": "Незавершённый текст"
+    },
+    "sbe_discard_text": {
+        "message": "Удалить этот текст"
+    },
+    "sbe_saved_locally": {
+        "message": "Сохранено на устройстве. Ожидает отправки."
+    },
+    "sbe_incorrect_password": {
+        "message": "Неверный пароль доски. Попробуйте ещё раз."
+    },
+    "bmi_choose_file": {
+        "message": "Choose bookmark file…"
+    },
+    "bmi_choose_file_hint": {
+        "message": "Export bookmarks from your browser as HTML, then choose the file to preview it here."
+    },
+    "bmi_from_file": {
+        "message": "Bookmark file"
+    },
+    "ega3_choose_file_hint": {
+        "message": "Choose a bookmark HTML export first."
+    },
+    "greet_night": {
+        "message": "Доброй ночи"
+    },
+    "greet_morning": {
+        "message": "Доброе утро"
+    },
+    "greet_afternoon": {
+        "message": "Добрый день"
+    },
+    "greet_evening": {
+        "message": "Добрый вечер"
+    },
+    "greet_night_name": {
+        "message": "Доброй ночи, $1"
+    },
+    "greet_morning_name": {
+        "message": "Доброе утро, $1"
+    },
+    "greet_afternoon_name": {
+        "message": "Добрый день, $1"
+    },
+    "greet_evening_name": {
+        "message": "Добрый вечер, $1"
+    },
+    "setg_greeting_name_label": {
+        "message": "Ваше имя"
+    },
+    "setg_greeting_name_ph": {
+        "message": "например, Алекс"
+    },
+    "clock_toggle_format_title": {
+        "message": "Нажмите, чтобы переключить 12ч / 24ч"
+    },
+    "setg_favicons_remote": {
+        "message": "Загружать фавиконы из интернета"
+    },
+    "setg_favicons_remote_desc": {
+        "message": "Если выключено, ссылки показывают буквенные аватары и браузер не запрашивает иконки."
+    },
+    "ip22_cat_custom": {
+        "message": "Свой"
+    },
+    "ip22_custom_url_ph": {
+        "message": "Вставьте ссылку на SVG или PNG…"
+    },
+    "ip22_custom_use": {
+        "message": "Использовать"
+    },
+    "ip22_custom_invalid": {
+        "message": "Введите корректную ссылку на изображение (http/https)"
+    },
+    "ip22_custom_failed": {
+        "message": "Не удалось загрузить изображение"
+    }
+}

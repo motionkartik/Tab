@@ -1,0 +1,609 @@
+/* ===== Workspace Tabs ===== */
+.workspace-tabs {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Theme Tabs spec: tab gap */
+    background: var(--tabs-container-bg, transparent);
+    border: 1px solid var(--tabs-container-border-color, transparent);
+    box-shadow: var(--tabs-container-shadow, none);
+    width: fit-content;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: clip; /* clip instead of visible — avoids auto-upgrade that cuts box-shadows */
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    padding: 5px; /* Theme Tabs spec: navbar padding (→ 43px navbar height) */
+    border-radius: var(--border-radius);
+}
+.workspace-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+/* Glass themes: frost the tab track over the wallpaper (Theme Tabs spec). */
+body.ui-frost .workspace-tabs,
+body.ui-aurora-glass .workspace-tabs {
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+}
+
+.workspace-tab,
+.workspace-overflow-trigger {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 16px; /* Theme Tabs spec: tab padding (→ 31px tab height) */
+    background: var(--tab-bg);
+    border: none;
+    cursor: pointer;
+    font-size: var(--tab-font-size);
+    font-weight: var(--tab-font-weight);
+    color: var(--tab-color);
+    text-transform: var(--tab-text-transform);
+    transition: all 0.2s ease;
+    border-radius: var(--tab-radius, var(--border-radius));
+    white-space: nowrap;
+    /* Idle pills are flat per spec; only the active pill carries a shadow. */
+    box-shadow: none;
+}
+
+.workspace-overflow-trigger {
+    gap: 0.45rem;
+    font-family: inherit;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.workspace-tab:hover,
+.workspace-overflow-trigger:hover {
+    background: var(--tab-hover-bg, #f4eee2);
+    color: var(--tab-hover-color, inherit);
+}
+
+.workspace-tab.active,
+.workspace-overflow-trigger.active {
+    background: var(--tab-active-bg);
+    color: var(--tab-active-color);
+    /* Per-theme active-pill shadow (was hardcoded to the warm/light shadow,
+       which leaked onto every dark theme). */
+    box-shadow: var(
+        --tab-active-shadow,
+        0 1px 2px rgba(74, 60, 42, 0.08),
+        0 2px 6px -2px rgba(74, 60, 42, 0.16)
+    );
+}
+
+.workspace-tab.active:hover,
+.workspace-overflow-trigger.active:hover {
+    background: var(--tab-active-hover-bg, var(--tab-active-bg));
+    color: var(--tab-active-hover-color, var(--tab-active-color));
+}
+
+.workspace-overflow-trigger.open .workspace-overflow-chevron {
+    transform: rotate(180deg);
+}
+
+.workspace-overflow-label {
+    min-width: 0;
+}
+
+/* ── Underline tab style (body.tabs-underline) ── */
+body.tabs-underline .workspace-tabs {
+    gap: 0;
+    padding: 9px;
+}
+
+body.tabs-underline .workspace-tab,
+body.tabs-underline .workspace-overflow-trigger {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    padding: 0.45rem 1rem 0.4rem;
+    color: var(--tab-color);
+}
+
+body.tabs-underline .workspace-tab:hover,
+body.tabs-underline .workspace-overflow-trigger:hover {
+    background: rgba(128, 128, 128, 0.08);
+    border-bottom-color: var(--tab-color);
+}
+
+body.tabs-underline .workspace-tab.active,
+body.tabs-underline .workspace-overflow-trigger.active {
+    background: transparent;
+    box-shadow: none;
+    color: var(--tab-active-color);
+    border-bottom: 2px solid var(--tab-active-color);
+}
+
+.workspace-add-btn {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    background: var(--add-btn-bg);
+    border: none;
+    border-radius: var(--tab-radius, var(--border-radius));
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--add-btn-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    box-shadow: var(--add-btn-shadow);
+}
+
+.workspace-add-btn:hover {
+    filter: brightness(1.08);
+}
+
+/* ===== Site Header ===== */
+#site-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 20px 0.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#site-header-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 100%;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+#site-header-nav {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+#site-header-top .workspace-tabs {
+    flex: 0 1 auto;
+    min-width: 0;
+}
+
+.header-actions-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+}
+
+.header-action-btn {
+    height: 42px;
+    padding: 0 16px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background: transparent;
+    color: var(--header-action-idle-color, var(--tab-color, #847a68));
+    cursor: pointer;
+    flex: none;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    transition:
+        background 0.14s ease,
+        color 0.14s ease,
+        box-shadow 0.14s ease,
+        border-color 0.14s ease,
+        filter 0.14s ease;
+}
+
+.header-action-btn svg {
+    width: 17px;
+    height: 17px;
+    flex: none;
+    stroke: currentColor;
+    fill: none;
+}
+
+.header-action-label {
+    display: inline-block;
+}
+
+.header-action-settings {
+    background: var(--header-action-settings-bg, transparent);
+    border-color: var(--header-action-settings-border, transparent);
+    box-shadow: var(--header-action-settings-shadow, none);
+}
+
+body.ui-frost .header-action-settings,
+body.ui-aurora-glass .header-action-settings {
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+}
+
+.header-action-settings:hover {
+    background: var(--header-action-hover-bg, var(--tab-hover-bg, #f4eee2));
+    color: var(--header-action-hover-color, var(--tab-hover-color, #3c352a));
+}
+
+.header-action-add {
+    padding: 0 18px;
+    border-color: transparent;
+    background: var(--header-action-add-bg, var(--tab-active-bg, #fffdf8));
+    color: var(--header-action-add-color, var(--tab-active-color, #3c352a));
+    box-shadow: var(--header-action-add-shadow, var(--tab-active-shadow, none));
+    font-weight: 700;
+}
+
+.header-action-add:hover {
+    background: var(--header-action-add-bg, var(--tab-active-bg, #fffdf8));
+    color: var(--header-action-add-color, var(--tab-active-color, #3c352a));
+    filter: brightness(1.07);
+}
+
+.header-action-btn:focus-visible {
+    outline: 2px solid
+        color-mix(
+            in srgb,
+            var(--header-action-add-bg, var(--accent-color, #4f4536)) 38%,
+            transparent
+        );
+    outline-offset: 2px;
+}
+
+#hero-panel {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem 0 0.5rem;
+}
+
+#hero-panel.hero-clock-only {
+    padding-bottom: 0.75rem;
+}
+
+#hero-panel.hero-search-only {
+    padding-top: 0;
+}
+
+#hero-panel #web-search-bar {
+    width: min(100%, 620px);
+}
+
+/* ===== Floating Buttons Row (spotlight hint + settings FAB) ===== */
+.fab-settings-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.spotlight-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.35rem 0.6rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border-color);
+    border-radius: calc(var(--border-radius) - 2px);
+    cursor: pointer;
+    color: var(--icon-color);
+    font-size: 0.7rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition:
+        background 0.15s ease,
+        box-shadow 0.15s ease,
+        opacity 0.15s ease;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+.spotlight-hint:hover {
+    opacity: 1;
+    background: var(--search-hint-hover-bg, rgba(255, 255, 255, 0.95));
+    border-color: var(--search-hint-hover-border, var(--card-border-color));
+    color: var(--search-hint-hover-color, var(--icon-color));
+    box-shadow: var(--search-hint-hover-shadow, 0 2px 8px rgba(0, 0, 0, 0.15));
+}
+
+.spotlight-hint:hover span {
+    opacity: var(--search-hint-hover-text-opacity, 0.6);
+}
+
+.spotlight-hint kbd {
+    font-family: inherit;
+    font-size: 0.68rem;
+    padding: 0.1rem 0.35rem;
+    background: var(--search-hint-bg, rgba(128, 128, 128, 0.12));
+    border: 1px solid var(--search-hint-border, var(--card-border-color));
+    color: var(--search-hint-color, inherit);
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+.spotlight-hint span {
+    opacity: 0.6;
+    font-size: 0.65rem;
+}
+
+/* ===== Clock / Hero ===== */
+.clock-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    color: var(--clock-color);
+    text-shadow: var(--clock-shadow);
+    width: 100%;
+}
+
+#clock-greeting {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--clock-greeting, var(--clock-color));
+    opacity: var(--clock-greeting-opacity, 0.8);
+    margin-top: 0.15rem;
+    /* Pull the greeting closer to the clock since it now sits in #hero-panel
+       (gap: 1rem) rather than inside .clock-display (gap: 0.55rem). */
+    margin-bottom: -0.45rem;
+}
+
+#clock-time {
+    font-size: calc(clamp(3rem, 8vw, 4.5rem) * var(--clock-time-scale, 1));
+    line-height: 0.95;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: var(--clock-time, inherit);
+    font-variant-numeric: tabular-nums lining-nums;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#clock-date {
+    font-size: 0.95rem;
+    color: var(--clock-date, inherit);
+    opacity: var(--clock-date-opacity, 0.85);
+    white-space: nowrap;
+    margin-bottom: 0.15rem;
+}
+
+.link-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    background-color: var(--link-counter-bg, rgba(128, 128, 128, 0.15));
+    color: var(--link-counter-color, var(--icon-color));
+    box-shadow: var(--link-counter-shadow, none);
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 6px;
+}
+
+.link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 16px;
+    height: 16px;
+}
+
+.link-icon svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--icon-color);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.no-results-message {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    color: #666;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 10px 30px 10px; /* sides: 10px + 5px gridstack item margin = 15px, aligns with #site-header; extra bottom breathing room */
+}
+
+/* ===== Web Search Bar (inside header grid widget) ===== */
+#web-search-bar {
+    position: relative;
+    width: 100%;
+}
+
+.web-search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    background: var(--search-bg, var(--card-bg));
+    border: 1px solid var(--search-border-color);
+    border-radius: calc(var(--border-radius) + 2px);
+    box-shadow: var(--search-shadow);
+    padding: 0.8rem 1rem;
+    width: 100%;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.web-search-form:hover {
+    border-color: var(--card-hover-border-color);
+    box-shadow: var(--card-hover-shadow);
+}
+
+.web-search-form:focus-within {
+    border-color: var(--accent-color);
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, var(--accent-color) 22%, transparent),
+        0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.web-search-icon {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    fill: var(--search-icon, var(--icon-color));
+    opacity: var(--search-icon-opacity, 0.6);
+}
+
+#web-search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.15rem 0;
+    background: transparent;
+    color: var(--search-text, var(--link-color));
+    min-width: 0;
+}
+
+#web-search-input::placeholder {
+    color: var(--search-placeholder-color);
+    opacity: var(--search-placeholder-opacity, 0.7);
+}
+
+.web-search-submit-hint {
+    flex-shrink: 0;
+    font-size: 0.72rem;
+    line-height: 1;
+    padding: 0.24rem 0.48rem;
+    border-radius: 999px;
+    background: var(--search-hint-bg, rgba(255, 255, 255, 0.08));
+    border: 1px solid var(--search-hint-border, var(--card-border-color));
+    color: var(--search-hint-color, var(--icon-color));
+    opacity: 0.78;
+}
+
+.web-search-dropdown {
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    left: 0;
+    right: 0;
+    z-index: 30;
+    /* Match the opaque menu-dropdown surface, not the (often translucent) card
+       background — on glass themes (aurora-glass/frost/lavender/pastel/sakura)
+       --card-bg is semi-transparent and the results showed through. */
+    background: var(--menu-bg, var(--card-bg));
+    /* Pair the menu surface with the menu text colour. Result text otherwise
+       inherits --search-text (white on glass themes) → white-on-white here. */
+    color: var(--menu-text, var(--overlay-text, #101828));
+    border: 1px solid var(--card-border-color);
+    border-radius: calc(var(--border-radius) + 2px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+    text-align: left;
+}
+
+.web-search-dropdown-scroll {
+    max-height: min(420px, 50vh);
+    overflow-y: auto;
+}
+
+.web-search-dropdown[hidden] {
+    display: none !important;
+}
+
+.web-search-dropdown .spotlight-result,
+.web-search-dropdown .spotlight-result-web {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font: inherit;
+    /* <button> resets color to the UA default instead of inheriting, so the
+       result-name span was stuck on white. Force it back to the menu text. */
+    color: inherit;
+    text-align: left;
+}
+
+.web-search-dropdown .spotlight-result-web {
+    border-top: 1px solid var(--card-border-color);
+}
+
+/* Result URL defaults to --icon-color (light/accent on glass themes) which is
+   unreadable on the opaque menu surface — use the menu text colour, dimmed by
+   the base .spotlight-result-url opacity. */
+.web-search-dropdown .spotlight-result-url {
+    color: var(--menu-text, var(--overlay-text, #101828));
+}
+
+/* Hover/focus states are tuned for the (dark) link surface — --link-hover-bg is
+   near-invisible and --link-hover-color is white on the opaque menu surface.
+   Re-point them at the menu hover/text contract used by the other dropdowns. */
+.web-search-dropdown .spotlight-result:hover,
+.web-search-dropdown .spotlight-result.focused,
+.web-search-dropdown .spotlight-result-web:hover,
+.web-search-dropdown .spotlight-result-web.focused {
+    background: var(--menu-hover-bg, var(--overlay-hover-bg, rgba(0, 0, 0, 0.06)));
+    color: var(--menu-text, var(--overlay-text, #101828));
+}
+
+/* Section divider/label: --card-border-color and --icon-color disappear on the
+   menu surface — use the menu separator + text colours. */
+.web-search-dropdown .search-results-section-label {
+    color: var(--menu-text, var(--overlay-text, #101828));
+    border-top-color: var(
+        --menu-separator,
+        var(--menu-border, var(--card-border-color))
+    );
+}
+
+/* Default/placeholder glyph icons use --icon-color (faint accent) — make them
+   read against the menu surface. Real favicons are <img> and unaffected. */
+.web-search-dropdown .spotlight-icon,
+.web-search-dropdown .spotlight-icon svg {
+    color: var(--menu-text, var(--overlay-text, #101828));
+    fill: var(--menu-text, var(--overlay-text, #101828));
+}
+
+.web-search-dropdown .spotlight-icon-placeholder svg {
+    fill: var(--menu-text, var(--overlay-text, #101828));
+    opacity: 0.45;
+}
+
+/* ===== Workspace Tab Drag-to-Reorder ===== */
+.workspace-tab.dragging {
+    opacity: 0.45;
+}
+
+.workspace-tab.drag-over {
+    box-shadow:
+        -3px 0 0 0 var(--accent-color, #4a7bff),
+        0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.shared-board-edit-bar {
+    position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
+    z-index: 900; display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    max-width: calc(100vw - 40px); padding: 12px 18px; border-radius: 12px;
+    background: var(--overlay-bg, #fff); color: var(--overlay-text, #222);
+    border: 1px solid var(--overlay-border-color); box-shadow: var(--overlay-shadow);
+}
+.shared-board-edit-bar[hidden] { display: none; }

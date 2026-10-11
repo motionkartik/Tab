@@ -1,0 +1,571 @@
+/* ===== Background card (Design tab) =====
+   One card: current-background preview, underline tabs, then a swatch grid
+   (or the image / CSS controls) for the active tab. */
+.settings-collapsible-item.bg-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 14px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: var(
+        --settings-card-box-shadow,
+        0 1px 2px rgba(60, 64, 67, 0.1),
+        0 1px 3px 1px rgba(60, 64, 67, 0.05)
+    );
+    color: var(--overlay-text, #101828);
+    overflow: hidden;
+}
+
+/* The preview row is the collapse trigger: the options below (tabs + grids)
+   open and close, the current background stays visible. */
+.bg-card .bg-card-current {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 0;
+    padding: 14px;
+    text-align: left;
+}
+
+.bg-card .bg-card-current:focus-visible {
+    outline: 2px solid var(--accent-color, #4a7bff);
+    outline-offset: -2px;
+    border-radius: 14px;
+}
+
+.bg-card .bg-card-options {
+    border-top: none;
+}
+
+.bg-card-preview {
+    position: relative;
+    display: block;
+    flex: none;
+    width: 84px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.bg-card-preview-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.bg-card-current-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.bg-card-current-name {
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bg-card-current-category {
+    font-size: 12px;
+    color: var(--overlay-muted-text, #667085);
+}
+
+/* Underline tabs */
+.bg-tabs {
+    display: flex;
+    padding: 0 6px;
+    border-bottom: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.1));
+}
+
+.bg-tab {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0 0 -1px;
+    padding: 10px 0 9px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: none;
+    color: var(--overlay-muted-text, #667085);
+    font: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bg-tab:hover {
+    color: var(--overlay-text, #101828);
+}
+
+.bg-tab.is-active {
+    border-bottom-color: var(--accent-color, #4a7bff);
+    color: var(--overlay-text, #101828);
+    font-weight: 700;
+}
+
+.bg-tab:focus-visible {
+    outline: 2px solid var(--accent-color, #4a7bff);
+    outline-offset: -2px;
+    border-radius: 6px;
+}
+
+.bg-tab-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px;
+}
+
+.bg-tab-panel[hidden],
+.bg-scene-controls[hidden],
+.bg-card-preview-canvas[hidden] {
+    display: none;
+}
+
+/* Swatch grids: three columns, swatch on top, label underneath */
+.bg-card .named-gradient-options,
+.bg-card .animated-bg-options,
+.bg-card .gradient-options,
+.bg-solid-options {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.bg-card .named-gradient-options:empty {
+    display: none;
+}
+
+.bg-card .named-gradient-option,
+.bg-card .animated-bg-option,
+.bg-scene-option,
+.bg-solid-option {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+    min-width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--overlay-text, #101828);
+    font: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+}
+
+.bg-card .named-gradient-option > span:last-child,
+.bg-card .animated-bg-option > span:last-child,
+.bg-scene-option > span:last-child,
+.bg-solid-option > span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bg-card .named-gradient-swatch,
+.bg-card .animated-bg-swatch,
+.bg-card .gradient-option {
+    display: block;
+    width: auto;
+    height: 48px;
+    border: none;
+    border-radius: 9px;
+    outline: 1px solid rgba(0, 0, 0, 0.12);
+    outline-offset: 2px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: none;
+    transition: outline-color 0.15s ease;
+}
+
+.bg-card .gradient-option {
+    padding: 0;
+    cursor: pointer;
+}
+
+.bg-card .gradient-option:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.bg-card .named-gradient-option:hover .named-gradient-swatch,
+.bg-card .animated-bg-option:hover .animated-bg-swatch,
+.bg-scene-option:hover .animated-bg-swatch,
+.bg-solid-option:hover .named-gradient-swatch,
+.bg-card .gradient-option:hover {
+    outline-color: var(--overlay-muted-text, #667085);
+}
+
+.bg-card .is-selected .named-gradient-swatch,
+.bg-card .is-selected .animated-bg-swatch,
+.bg-card .gradient-option.is-selected {
+    outline: 2px solid var(--overlay-text, #101828);
+}
+
+.bg-card .named-gradient-option:focus-visible .named-gradient-swatch,
+.bg-card .animated-bg-option:focus-visible .animated-bg-swatch,
+.bg-scene-option:focus-visible .animated-bg-swatch,
+.bg-solid-option:focus-visible .named-gradient-swatch,
+.bg-card .gradient-option:focus-visible {
+    outline: 2px solid var(--accent-color, #4a7bff);
+}
+
+.bg-card .named-gradient-option:focus-visible,
+.bg-card .animated-bg-option:focus-visible,
+.bg-scene-option:focus-visible,
+.bg-solid-option:focus-visible {
+    outline: none;
+}
+
+/* Canvas scene thumbnails fill their swatch */
+canvas.animated-bg-swatch {
+    width: 100%;
+}
+
+/* Tint + appearance controls for canvas scenes */
+.bg-scene-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    padding-top: 12px;
+    border-top: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.1));
+}
+
+.bg-scene-control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.bg-scene-control-label {
+    font-size: 12px;
+    color: var(--overlay-muted-text, #667085);
+}
+
+.bg-scene-tint-row,
+.bg-scene-tints {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.bg-scene-tint {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 2px solid var(--input-bg, var(--card-bg, #fff));
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.bg-scene-tint[aria-checked="true"] {
+    box-shadow: 0 0 0 2px var(--overlay-text, #101828);
+}
+
+.bg-scene-tint:focus-visible,
+.bg-scene-tint-custom:focus-visible,
+.bg-scene-variants button:focus-visible {
+    outline: 2px solid var(--accent-color, #4a7bff);
+    outline-offset: 2px;
+}
+
+.bg-scene-tint-custom {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px dashed var(--overlay-muted-text, #667085);
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+}
+
+.bg-scene-tint-custom::-webkit-color-swatch-wrapper {
+    padding: 3px;
+}
+
+.bg-scene-tint-custom::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.bg-scene-tint-custom::-moz-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.bg-scene-variants {
+    display: inline-flex;
+    align-self: flex-start;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bg-scene-variants button {
+    height: 28px;
+    padding: 0 12px;
+    border: none;
+    background: none;
+    color: var(--overlay-muted-text, #667085);
+    font: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bg-scene-variants button + button {
+    border-left: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+}
+
+.bg-scene-variants button[aria-checked="true"] {
+    background: var(--overlay-text, #101828);
+    color: var(--input-bg, var(--card-bg, #fff));
+}
+
+/* Solid tab: the last tile is a free color picker */
+.bg-solid-custom .named-gradient-swatch {
+    position: relative;
+    overflow: hidden;
+    background: conic-gradient(
+        #f44336,
+        #ffc107,
+        #4caf50,
+        #03a9f4,
+        #9c27b0,
+        #f44336
+    );
+}
+
+.bg-solid-custom input[type="color"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* CSS tab */
+.bg-custom-css-input {
+    width: 100%;
+    min-height: 70px;
+    padding: 12px;
+    border: none;
+    border-radius: 9px;
+    background: #2b2a28;
+    color: #e9e5de;
+    font-family: Consolas, ui-monospace, "SFMono-Regular", Menlo, monospace;
+    font-size: 12px;
+    resize: vertical;
+}
+
+.bg-custom-css-input::placeholder {
+    color: rgba(233, 229, 222, 0.55);
+}
+
+.bg-css-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Image tab */
+.bg-image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bg-image-drop {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 14px;
+    border: 1px dashed var(--overlay-muted-text, #98a2b3);
+    border-radius: 9px;
+    color: var(--overlay-muted-text, #667085);
+    font-size: 13px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bg-image-drop.is-dragover {
+    border-color: var(--accent-color, #4a7bff);
+    color: var(--overlay-text, #101828);
+}
+
+.bg-image-drop:focus-within {
+    outline: 2px solid var(--accent-color, #4a7bff);
+    outline-offset: 2px;
+}
+
+.bg-image-drop input[type="file"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.bg-image-row .settings-btn {
+    flex: none;
+    width: auto;
+    margin: 0;
+}
+
+/* Apply theme to other workspaces link */
+.theme-apply-workspaces-row {
+    margin-top: 0.35rem;
+}
+
+.settings-link-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0.8rem;
+    color: var(--accent-color, #4a7bff);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    opacity: 0.8;
+    transition: opacity 0.15s;
+}
+
+.settings-link-btn:hover {
+    opacity: 1;
+}
+
+.background-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.background-type {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.options-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.color-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.image-section {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.image-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.image-section h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.image-option {
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-size: cover;
+    background-position: center;
+    transition:
+        transform 0.2s,
+        border-color 0.2s;
+    overflow: hidden;
+}
+
+.image-option:hover {
+    transform: scale(1.05);
+    border-color: #3498db;
+}
+
+.image-option.selected {
+    border: 2px solid #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+#current-image-preview {
+    margin-top: 0.5rem;
+    max-width: 100%;
+}
+
+#current-image-preview img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#uploadImage {
+    margin-top: 0.5rem;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+    margin: 3px;
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+.color-option.selected {
+    border: 2px solid #333;
+}

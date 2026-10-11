@@ -1,0 +1,770 @@
+/* ===== Form Controls ===== */
+.settings-button,
+.settings-btn,
+.settings-btn-secondary,
+.sync-btn,
+.license-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    appearance: none;
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.settings-button:focus-visible,
+.settings-btn:focus-visible,
+.settings-btn-secondary:focus-visible,
+.sync-btn:focus-visible,
+.license-icon-btn:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 18%, transparent);
+}
+
+.settings-button:disabled,
+.settings-btn:disabled,
+.settings-btn-secondary:disabled,
+.sync-btn:disabled,
+.license-icon-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.settings-button--md,
+.settings-btn,
+.settings-btn-secondary {
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+}
+
+.settings-button--sm,
+.sync-btn {
+    min-height: 29px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.settings-button--icon,
+.license-icon-btn,
+.sync-icon-btn {
+    padding: 0;
+    flex-shrink: 0;
+    aspect-ratio: 1 / 1;
+}
+
+.settings-button--md.settings-button--icon,
+.license-icon-btn {
+    width: 40px;
+    min-width: 40px;
+}
+
+.settings-button--sm.settings-button--icon,
+.sync-icon-btn {
+    width: 29px;
+    min-width: 29px;
+}
+
+.settings-button--primary,
+.settings-btn {
+    background: var(--btn-primary-bg, var(--accent-color));
+    color: var(--btn-primary-text, #fff) !important;
+    border-color: var(--btn-primary-bg, var(--accent-color));
+    box-shadow: var(--btn-primary-glow, none);
+}
+
+/* Midnight: the blue primary buttons don't need the accent glow inside the
+   settings drawer (e.g. #import-share-btn, #managed-board-subscribe-btn).
+   Drop it here only; other themes and other surfaces keep their glow. */
+body.ui-midnight #settings-modal {
+    --btn-primary-glow: none;
+}
+
+.settings-button--primary:hover:not(:disabled),
+.settings-btn:hover:not(:disabled) {
+    filter: brightness(1.07);
+}
+
+.settings-button--primary:disabled,
+.settings-btn:disabled {
+    background: var(--btn-disabled-bg);
+    color: var(--btn-disabled-text) !important;
+    border-color: var(--btn-disabled-border);
+    box-shadow: none;
+    opacity: 1;
+}
+
+.settings-button--secondary,
+.settings-btn-secondary,
+.sync-btn,
+.license-icon-btn {
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+    border-color: var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+}
+
+.settings-button--secondary:hover:not(:disabled),
+.settings-btn-secondary:hover:not(:disabled),
+.sync-btn:hover:not(:disabled),
+.license-icon-btn:hover:not(:disabled) {
+    background: var(--overlay-hover-bg, rgba(0, 0, 0, 0.04));
+    color: var(--overlay-text, #101828);
+}
+
+/* Cancel-role buttons consume the secondary design tokens */
+.settings-button--secondary {
+    background: var(--btn-secondary-bg);
+    color: var(--btn-secondary-text);
+    border-color: var(--btn-secondary-border);
+}
+
+.settings-button--secondary:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--btn-secondary-text) 7%, var(--btn-secondary-bg));
+    color: var(--btn-secondary-text);
+}
+
+/* Legacy modal quiet buttons: flat-neutral settings-modal chrome (--smodal-btn-*) */
+.settings-btn-secondary {
+    background: var(--smodal-btn-bg, #f9fafb);
+    color: var(--smodal-btn-color, #475467);
+    border-color: var(--smodal-btn-border, #d0d5dd);
+}
+
+.settings-btn-secondary:hover:not(:disabled) {
+    background: var(--smodal-btn-hover-bg, #f4f5f8);
+    color: var(--smodal-btn-hover-color, #344054);
+}
+
+.license-icon-btn {
+    background: var(--smodal-btn-bg, var(--input-bg, #fff));
+    color: var(--smodal-btn-color, var(--overlay-icon-color, var(--icon-color, #98a2b3)));
+    border-color: var(
+        --smodal-btn-border,
+        var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+    );
+}
+
+.license-icon-btn:hover:not(:disabled) {
+    background: var(--smodal-btn-hover-bg, var(--overlay-hover-bg, rgba(0, 0, 0, 0.04)));
+    color: var(--smodal-btn-hover-color, var(--overlay-text, #101828));
+}
+
+.settings-button--secondary.settings-button--icon,
+.license-icon-btn,
+.sync-icon-btn {
+    color: var(--overlay-icon-color, var(--icon-color, #98a2b3));
+}
+
+.settings-button--secondary.settings-button--icon:hover:not(:disabled),
+.license-icon-btn:hover:not(:disabled),
+.sync-icon-btn:hover:not(:disabled) {
+    color: var(--overlay-text, #101828);
+}
+
+.settings-button--danger,
+.sync-btn-danger {
+    background: var(--btn-delete-bg);
+    color: var(--btn-delete-text);
+    border-color: var(--btn-delete-border);
+}
+
+.settings-button--danger:hover:not(:disabled),
+.sync-btn-danger:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--btn-delete-text) 14%, var(--btn-delete-bg)) !important;
+    border-color: var(--btn-delete-text) !important;
+    color: var(--btn-delete-text) !important;
+}
+
+.settings-placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Slider Settings */
+.slider-setting {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.slider-setting input[type="range"] {
+    flex: 1;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--smodal-track, var(--panel-track));
+    border-radius: 3px;
+    outline: none;
+}
+
+.slider-setting input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slider-setting input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slider-value {
+    min-width: 50px;
+    text-align: right;
+    font-weight: 600;
+    color: var(--smodal-value, var(--panel-value));
+}
+
+/* Color Picker Settings */
+.color-picker-setting {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.color-picker-setting input[type="color"] {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+
+.color-picker-setting input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color-picker-setting input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.color-value {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Select Settings */
+.select-setting {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.select-setting label {
+    color: var(--smodal-label, #555);
+    font-size: 0.9rem;
+}
+
+.select-setting select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--smodal-input-border, var(--panel-input-border));
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+    background: var(--smodal-input-bg, var(--panel-input-bg));
+    color: var(--smodal-input-text, var(--panel-text));
+    cursor: pointer;
+    min-width: 140px;
+}
+
+.select-setting select:focus {
+    outline: none;
+    border-color: var(--accent-color, #4a7bff);
+}
+
+/* Native <option> popups inherit the select's (often translucent) background on
+   dark themes, which renders as the browser-default white — and with light text
+   that's white-on-white. Force an opaque dark surface for the option list. The
+   empty-workspace helper selects live outside #settings-modal, so they're listed
+   explicitly here too. */
+body.ui-dark #settings-modal select option,
+body.ui-midnight #settings-modal select option,
+body.ui-luxury #settings-modal select option,
+body.ui-ocean #settings-modal select option,
+body.ui-aurora-glass #settings-modal select option,
+body.ui-frost #settings-modal select option,
+body.ui-dark .empty-workspace-helper-row select option,
+body.ui-midnight .empty-workspace-helper-row select option,
+body.ui-luxury .empty-workspace-helper-row select option,
+body.ui-ocean .empty-workspace-helper-row select option,
+body.ui-aurora-glass .empty-workspace-helper-row select option,
+body.ui-frost .empty-workspace-helper-row select option {
+    color: #ddd !important;
+    background: #2a2c30 !important;
+}
+
+/* Toggle Settings */
+.toggle-setting {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toggle-setting + .toggle-setting {
+    margin-top: 0.75rem;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--panel-toggle-off);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.toggle input:checked + .toggle-slider {
+    background-color: var(--panel-active-bg);
+}
+
+.toggle input:checked + .toggle-slider:before {
+    transform: translateX(16px);
+}
+
+.toggle-label {
+    color: var(--smodal-label, #666);
+    font-size: 0.9rem;
+}
+
+#settings-general .settings-control-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-height: 45px;
+    padding: 0 1rem;
+}
+
+#settings-general .settings-control-row-nested {
+    padding-left: 1.75rem;
+}
+
+#settings-general .settings-control-row-nested::before {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    width: 0.45rem;
+    height: 1px;
+    background: var(--overlay-border-color, rgba(0, 0, 0, 0.18));
+}
+
+#settings-general .settings-logo-row {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#settings-general .select-setting,
+#settings-general .toggle-setting {
+    gap: 1rem;
+}
+
+#settings-general .select-setting {
+    justify-content: space-between;
+}
+
+#settings-general .select-setting label,
+#settings-general .toggle-label,
+#settings-general .settings-field-stack label {
+    color: var(--overlay-text, #101828);
+    font-size: 0.95rem;
+    line-height: 1.35;
+}
+
+#settings-general .settings-control-row-nested label,
+#settings-general .settings-control-row-nested .toggle-label {
+    color: var(--smodal-text, var(--panel-text, #475467));
+    font-size: 0.92rem;
+}
+
+#settings-general .select-setting label {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#settings-general .select-setting select {
+    margin-left: auto;
+    min-width: 148px;
+    max-width: 50%;
+    height: 40px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    border-color: var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+}
+
+#settings-general .toggle-setting {
+    justify-content: space-between;
+}
+
+#settings-general .toggle-setting .toggle {
+    order: 2;
+    margin-left: auto;
+}
+
+#settings-general .toggle-setting .toggle-label {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#settings-general .settings-description {
+    color: var(--overlay-muted-text, #667085);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+#settings-general .settings-text-field {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid
+        var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    border-radius: 12px;
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+    font: inherit;
+    box-sizing: border-box;
+}
+
+#settings-general .settings-text-field:focus {
+    outline: none;
+    border-color: var(--accent-color, #4a7bff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 18%, transparent);
+}
+
+#settings-general .settings-text-area {
+    min-height: 84px;
+    resize: vertical;
+    line-height: 1.45;
+}
+
+/* Reset Button */
+.settings-reset {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+#settings-theme-editor .settings-reset {
+    padding: 0.75rem 1.5rem 1.5rem;
+}body:not(.ui-dark):not(.ui-midnight):not(.ui-luxury):not(.ui-ocean) #settings-modal .select-setting select:focus {
+    border-color: #1d2939;
+    box-shadow: 0 0 0 3px rgba(29, 41, 57, 0.1);
+}body:not(.ui-dark):not(.ui-midnight):not(.ui-luxury):not(.ui-ocean) #settings-modal .apply-from-select:focus {
+    border-color: #1d2939;
+    box-shadow: 0 0 0 3px rgba(29, 41, 57, 0.1);
+}
+
+.apply-from-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.apply-from-select {
+    flex: 1;
+    min-width: 0;
+    height: 40px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--panel-input-border);
+    border-radius: 12px;
+    background: var(--panel-input-bg);
+    color: var(--panel-text);
+}
+
+.apply-from-select:focus {
+    outline: none;
+    border-color: var(--accent-color, #4a7bff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 18%, transparent);
+}
+
+/* Spaces settings */
+#spaces-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#spaces-list > .spaces-item + .spaces-item,
+#spaces-list > .spaces-empty-state {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+.spaces-empty-state {
+    padding: 0.95rem 1rem;
+    border: none;
+    border-radius: 0;
+    background: var(--switcher-empty-bg, transparent);
+    color: var(--switcher-sub, var(--overlay-muted-text, #667085));
+}
+
+.spaces-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 56px;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 0;
+    background: var(--switcher-item-bg, transparent);
+}
+
+.spaces-item.is-default {
+    opacity: 1;
+    background: transparent;
+    filter: none;
+}
+
+.spaces-item.is-default .spaces-item-name,
+.spaces-item.is-default .spaces-item-subtitle,
+.spaces-item.is-default .spaces-item-badge {
+    color: inherit;
+}
+
+.spaces-item-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.spaces-item-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.spaces-item-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--switcher-name, var(--overlay-text, #101828));
+    min-width: 0;
+}
+
+.spaces-item-subtitle {
+    margin-top: 0.2rem;
+    font-size: 0.78rem;
+    color: var(--switcher-sub, var(--overlay-muted-text, #667085));
+    word-break: break-word;
+}
+
+.spaces-item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+.spaces-item-handle {
+    width: 1.5rem;
+    height: 1.5rem;
+    min-height: 1.5rem;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+    background: transparent !important;
+    color: var(--overlay-icon-color, #98a2b3) !important;
+    box-shadow: none !important;
+}
+
+.spaces-action-btn {
+    width: 1.75rem;
+    height: 1.75rem;
+    min-height: 1.75rem;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.spaces-action-btn > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.spaces-action-btn.danger {
+    color: var(--danger-color, #dc2626);
+}
+
+.spaces-action-btn.pro-locked {
+    opacity: 0.75;
+}
+
+.spaces-item-handle {
+    cursor: grab;
+}
+
+.spaces-item-handle:active {
+    cursor: grabbing;
+}
+
+.spaces-item-handle.is-disabled {
+    opacity: 0.45;
+    cursor: default;
+    filter: grayscale(1);
+}
+
+.spaces-item-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    background: var(--overlay-hover-bg, rgba(128, 128, 128, 0.1));
+    color: var(--overlay-muted-text, #666);
+}
+
+.spaces-item-badge.is-current {
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 16%,
+        transparent
+    );
+    color: var(--accent-color, #4a7bff);
+}
+
+.spaces-item-badge.is-default {
+    background: var(--overlay-hover-bg, rgba(128, 128, 128, 0.18));
+    color: var(--overlay-muted-text, #666);
+}
+
+.spaces-item-badge.is-managed {
+    background: rgba(16, 185, 129, 0.12);
+    color: #059669;
+}
+
+.spaces-item-ghost {
+    opacity: 0.45;
+}
+
+.spaces-item-chosen,
+.spaces-item-dragging {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.spaces-rename-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 1rem;
+}
+
+.spaces-rename-modal-content {
+    width: min(380px, calc(100vw - 2rem));
+    background: var(--panel-bg, #fff);
+    border: 1px solid var(--panel-border, transparent);
+    border-radius: 14px;
+    box-shadow: var(--panel-shadow, 0 18px 50px rgba(0, 0, 0, 0.2));
+    padding: 1.25rem;
+}
+
+.spaces-rename-modal-content h3 {
+    margin: 0 0 0.85rem 0;
+    font-size: 1rem;
+    color: var(--panel-text, #333);
+}
+
+/* Match the canonical add-drawer group-name input (link-drawer.css). */
+.spaces-rename-modal-content input {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 40px;
+    padding: 0.625rem 0.8rem;
+    border: 1px solid
+        var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    border-radius: 12px;
+    font-size: 0.92rem;
+    background: var(--smodal-input-bg, var(--input-bg, #fff));
+    color: var(--smodal-input-text, var(--overlay-text, #101828));
+}
+
+.spaces-rename-modal-content input:focus {
+    outline: none;
+    border-color: var(--accent-color, #4a7bff);
+}
+
+.spaces-rename-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}

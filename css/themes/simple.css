@@ -1,0 +1,21 @@
+/* ============================================================
+   THEME: Simple  (default / no body class)
+   ============================================================ */
+
+/*
+   The Simple theme is fully defined by shared tokens in variables.css and
+   shared component styles,
+so it does not need any theme-specific overrides
+   here. This file exists to keep the split theme structure explicit.
+*/
+
+body:not(.ui-light):not(.ui-dark):not(.ui-midnight):not(.ui-luxury):not(
+        .ui-nordic
+    ):not(.ui-ocean):not(.ui-aurora-glass):not(.ui-frost):not(.ui-sakura):not(
+        .ui-pastel-sunset
+    ):not(.ui-lavender-sky):not(.ui-professional):not(.ui-dark):not(.ui-midnight):not(.ui-luxury):not(.ui-ocean)
+    .web-search-form:focus-within {
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, var(--accent-color) 14%, transparent),
+        0 3px 8px rgba(74, 60, 42, 0.05);
+}

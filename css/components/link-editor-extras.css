@@ -1,0 +1,77 @@
+/* Header options in link modal */
+.header-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.header-options-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.header-align-group {
+    display: flex;
+    gap: 4px;
+}
+
+.header-align-btn {
+    flex: 1;
+    padding: 4px 8px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background: #f5f5f5;
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: #555;
+    transition: background 0.15s, color 0.15s;
+    height: auto;
+    text-transform: none;
+}
+
+.header-align-btn.active {
+    background: #4a7bff;
+    color: white;
+    border-color: #4a7bff;
+}
+
+.favicon-hint {
+    margin: 0;
+    font-size: 0.75rem;
+    color: #777;
+}
+
+#favicon-preview {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: #555;
+    min-height: 24px;
+}
+
+.button-group-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* Item type select in modal */
+#link .links select {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background-color: #fafafa;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+#link .links select:focus {
+    outline: none;
+    border-color: #4a7bff;
+    box-shadow: 0 0 0 3px rgba(74, 123, 255, 0.15);
+    background-color: white;
+}

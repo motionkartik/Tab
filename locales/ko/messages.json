@@ -1,0 +1,6002 @@
+{
+    "action_add_workspace_title": {
+        "message": "워크스페이스 추가"
+    },
+    "action_new_group_aria": {
+        "message": "그룹 추가"
+    },
+    "action_new_group_label": {
+        "message": "새로 만들기"
+    },
+    "action_new_group_title": {
+        "message": "새 그룹"
+    },
+    "action_settings_aria": {
+        "message": "설정 열기"
+    },
+    "action_settings_label": {
+        "message": "설정"
+    },
+    "action_settings_title": {
+        "message": "설정"
+    },
+    "ae0_blocked_launcher": {
+        "message": "안전하지 않은 실행 대상을 차단했습니다"
+    },
+    "ae0_blocked_link": {
+        "message": "안전하지 않은 링크를 차단했습니다"
+    },
+    "ae0_copied": {
+        "message": "복사됨!"
+    },
+    "ae0_copy_failed": {
+        "message": "복사 실패"
+    },
+    "ae0_done_partial": {
+        "message": "완료 — $1/$2 실행됨 ($3 건너뜀)"
+    },
+    "ae0_done_step": {
+        "message": "완료 — $1 단계"
+    },
+    "ae0_done_steps": {
+        "message": "완료 — $1 단계"
+    },
+    "ae0_launch_failed": {
+        "message": "실행 실패"
+    },
+    "ae0_no_steps": {
+        "message": "이 루틴에는 아직 단계가 없습니다"
+    },
+    "ae0_routine_default": {
+        "message": "루틴"
+    },
+    "ae0_starting_step": {
+        "message": "$1 단계 시작 중…"
+    },
+    "ae0_starting_steps": {
+        "message": "$1 단계 시작 중…"
+    },
+    "ae0_step_n": {
+        "message": "$1 단계"
+    },
+    "ae0_step_progress": {
+        "message": "$1/$2 단계: $3"
+    },
+    "agrad_amber_dark": {
+        "message": "앰버 다크"
+    },
+    "agrad_amber_haze": {
+        "message": "앰버 헤이즈"
+    },
+    "agrad_amber_mist": {
+        "message": "앰버 미스트"
+    },
+    "agrad_arctic_rays": {
+        "message": "아틱 레이"
+    },
+    "agrad_cherry_dark": {
+        "message": "체리 다크"
+    },
+    "agrad_crystal_tide": {
+        "message": "크리스탈 타이드"
+    },
+    "agrad_deep_tide": {
+        "message": "딥 타이드"
+    },
+    "agrad_dusk_glow": {
+        "message": "더스크 글로우"
+    },
+    "agrad_ember_glow": {
+        "message": "엠버 글로우"
+    },
+    "agrad_emerald_dusk": {
+        "message": "에메랄드 더스크"
+    },
+    "agrad_lavender_rays": {
+        "message": "라벤더 레이"
+    },
+    "agrad_midnight_indigo": {
+        "message": "미드나이트 인디고"
+    },
+    "agrad_ocean_bloom": {
+        "message": "오션 블룸"
+    },
+    "agrad_ocean_curves": {
+        "message": "오션 커브"
+    },
+    "agrad_rose_dawn": {
+        "message": "로즈 던"
+    },
+    "agrad_velvet_dream": {
+        "message": "벨벳 드림"
+    },
+    "agrad_violet_night": {
+        "message": "바이올렛 나이트"
+    },
+    "bg_context_menu_add": {
+        "message": "ReadyTab에 추가"
+    },
+    "c29_custom": {
+        "message": "사용자 지정"
+    },
+    "c29_invalid_css": {
+        "message": "잘못된 CSS 값입니다. 마지막 유효한 값으로 되돌렸습니다."
+    },
+    "c29_opacity": {
+        "message": "불투명도"
+    },
+    "c29_reset_to_default": {
+        "message": "테마 기본값으로 재설정"
+    },
+    "c29_theme_default_opt": {
+        "message": "테마 기본값"
+    },
+    "cl2_layout_compacted": {
+        "message": "레이아웃이 정리되었습니다"
+    },
+    "cl2_nothing_to_arrange": {
+        "message": "정리할 항목이 없습니다"
+    },
+    "cnt_btn_add_link": {
+        "message": "링크 추가"
+    },
+    "cnt_btn_add_link_button": {
+        "message": "링크 버튼 추가"
+    },
+    "cnt_btn_cancel": {
+        "message": "취소"
+    },
+    "cnt_error_loading": {
+        "message": "콘텐츠를 불러오는 중 오류가 발생했습니다. 다시 시도해 주세요."
+    },
+    "cnt_label_button_text": {
+        "message": "버튼 텍스트"
+    },
+    "cnt_label_group": {
+        "message": "그룹"
+    },
+    "cnt_label_link_name": {
+        "message": "링크 이름"
+    },
+    "cnt_label_url": {
+        "message": "URL"
+    },
+    "cnt_label_workspace": {
+        "message": "워크스페이스"
+    },
+    "cnt_modal_title": {
+        "message": "ReadyTab에 추가"
+    },
+    "cnt_no_groups": {
+        "message": "사용 가능한 그룹이 없습니다"
+    },
+    "cnt_placeholder_link_name": {
+        "message": "링크 이름을 입력하세요"
+    },
+    "cnt_placeholder_url": {
+        "message": "URL을 입력하세요"
+    },
+    "cnt_tab_group_link": {
+        "message": "그룹 링크"
+    },
+    "cnt_tab_link_button": {
+        "message": "링크 버튼"
+    },
+    "cnt_workspace_default": {
+        "message": "시작"
+    },
+    "csm1_action_failed": {
+        "message": "클라우드 동기화 작업 실패: $1"
+    },
+    "csm1_autopull_failed": {
+        "message": "자동 가져오기 실패: $1"
+    },
+    "csm1_autosync_failed": {
+        "message": "자동 동기화 실패: $1"
+    },
+    "csm1_close": {
+        "message": "닫기"
+    },
+    "csm1_cloud_dashboard_fallback": {
+        "message": "클라우드 대시보드"
+    },
+    "csm1_cloud_updated": {
+        "message": "클라우드 대시보드가 업데이트되었습니다"
+    },
+    "csm1_confirm_pull": {
+        "message": "가져오기 확인"
+    },
+    "csm1_label_cloud": {
+        "message": "☁ 클라우드"
+    },
+    "csm1_label_local": {
+        "message": "💻 로컬"
+    },
+    "csm1_looks_good": {
+        "message": "좋아요"
+    },
+    "csm1_missing_protected_warning": {
+        "message": "이 $1은(는) 보호된 워크스페이스 백업 지원 이전에 만들어졌습니다. ReadyTab이 \"$3\"의 워크스페이스 탭$2을(를) 복원했지만 보호된 콘텐츠는 포함되지 않았습니다. $4"
+    },
+    "csm1_msg_overwrite": {
+        "message": "로컬 대시보드에 동기화되지 않은 변경 사항이 있으며, 활성 클라우드 대시보드가 다른 곳에서 업데이트되었습니다. 차이를 검토하고 클라우드 버전을 가져오거나 로컬 상태로 클라우드를 덮어쓰세요."
+    },
+    "csm1_msg_pull": {
+        "message": "활성 클라우드 대시보드가 로컬 복사본보다 최신입니다. 차이를 검토하거나 클라우드 버전을 이 기기로 가져오세요."
+    },
+    "csm1_not_now": {
+        "message": "나중에"
+    },
+    "csm1_overwrite_cloud": {
+        "message": "클라우드 덮어쓰기"
+    },
+    "csm1_overwrite_cloud_confirm": {
+        "message": "클라우드 덮어쓰기"
+    },
+    "csm1_overwrite_title": {
+        "message": "\"$1\" 덮어쓰기"
+    },
+    "csm1_pull_cloud": {
+        "message": "클라우드 가져오기"
+    },
+    "csm1_pull_title": {
+        "message": "\"$1\" 가져오기"
+    },
+    "csm1_pulled_newer": {
+        "message": "최신 클라우드 상태를 가져왔습니다"
+    },
+    "csm1_recovery_repush": {
+        "message": "누락된 데이터를 복구하려면 원래 기기에서 다시 푸시하세요."
+    },
+    "csm1_resolve": {
+        "message": "해결"
+    },
+    "csm1_review": {
+        "message": "검토"
+    },
+    "csm1_review_diff": {
+        "message": "차이 검토"
+    },
+    "csm1_review_title": {
+        "message": "\"$1\" 검토"
+    },
+    "csm1_source_label_cloud_snapshot": {
+        "message": "클라우드 스냅샷"
+    },
+    "csm1_source_label_snapshot": {
+        "message": "스냅샷"
+    },
+    "csm1_title_cloud_changed": {
+        "message": "다른 기기에서 클라우드가 변경되었습니다"
+    },
+    "csm1_title_newer_cloud": {
+        "message": "최신 클라우드 상태 사용 가능"
+    },
+    "dth10_enter_share_code": {
+        "message": "공유 코드를 입력하세요."
+    },
+    "dth10_fetching": {
+        "message": "가져오는 중…"
+    },
+    "dth10_import": {
+        "message": "가져오기"
+    },
+    "dth10_import_failed": {
+        "message": "가져오기 실패: $1"
+    },
+    "dth10_import_success": {
+        "message": "가져오기 성공!"
+    },
+    "dth10_locked_excluded": {
+        "message": "참고: 잠긴 워크스페이스 $1개가 내보내기에서 제외되었습니다: $2.\n포함하려면 먼저 잠금을 해제하세요."
+    },
+    "dth10_no_bookmarks": {
+        "message": "이 폴더에는 북마크가 없습니다."
+    },
+    "dth10_no_valid_workspaces": {
+        "message": "이 파일에는 유효한 워크스페이스가 없습니다."
+    },
+    "dth10_read_failed": {
+        "message": "가져오기 파일을 읽지 못했습니다."
+    },
+    "dth10_replace_confirm": {
+        "message": "현재 모든 워크스페이스 데이터를 대체합니다. 계속하시겠습니까?"
+    },
+    "dth10_select_bookmark_folder": {
+        "message": "북마크 폴더를 선택하세요."
+    },
+    "dth10_select_folder": {
+        "message": "폴더 선택…"
+    },
+    "dth10_untitled": {
+        "message": "제목 없음"
+    },
+    "ega3_add_clipboard": {
+        "message": "클립보드 추가"
+    },
+    "ega3_add_launcher": {
+        "message": "실행기 추가"
+    },
+    "ega3_add_link": {
+        "message": "링크 추가"
+    },
+    "ega3_cancel": {
+        "message": "취소"
+    },
+    "ega3_folder_empty": {
+        "message": "이 폴더에는 북마크가 없습니다."
+    },
+    "ega3_folder_read_error": {
+        "message": "해당 폴더를 읽을 수 없습니다."
+    },
+    "ega3_import": {
+        "message": "가져오기"
+    },
+    "ega3_import_bm": {
+        "message": "북마크에서 가져오기"
+    },
+    "ega3_import_desc_prefix": {
+        "message": "북마크 폴더의 링크를 다음에 추가: "
+    },
+    "ega3_importing": {
+        "message": "가져오는 중…"
+    },
+    "ega3_load_error": {
+        "message": "북마크를 불러올 수 없습니다"
+    },
+    "ega3_loading_folders": {
+        "message": "폴더를 불러오는 중…"
+    },
+    "ega3_select_folder": {
+        "message": "폴더 선택…"
+    },
+    "ega3_untitled": {
+        "message": "제목 없음"
+    },
+    "grp_already_used_icons": {
+        "message": "이미 사용한 아이콘"
+    },
+    "grp_avatar_url_label": {
+        "message": "아바타 이미지 URL"
+    },
+    "grp_back": {
+        "message": "← 뒤로"
+    },
+    "grp_bg_color_label": {
+        "message": "배경색"
+    },
+    "grp_browse": {
+        "message": "찾아보기…"
+    },
+    "grp_browse_title": {
+        "message": "찾아보기…"
+    },
+    "grp_choose_type": {
+        "message": "요소 유형 선택"
+    },
+    "grp_choose_type_hint": {
+        "message": "추가할 요소의 종류를 선택한 다음 다음 단계에서 세부 정보를 구성하세요."
+    },
+    "grp_clear_icon": {
+        "message": "아이콘 지우기"
+    },
+    "grp_clear_icon_title": {
+        "message": "아이콘 지우기"
+    },
+    "grp_clipboard_content_label": {
+        "message": "복사할 콘텐츠"
+    },
+    "grp_clipboard_content_ph": {
+        "message": "클릭 시 클립보드에 복사될 텍스트"
+    },
+    "grp_color": {
+        "message": "색상"
+    },
+    "grp_content_label": {
+        "message": "콘텐츠"
+    },
+    "grp_content_ph": {
+        "message": "콘텐츠를 작성하세요"
+    },
+    "grp_element_type": {
+        "message": "요소 유형"
+    },
+    "grp_ex_cursor": {
+        "message": "Cursor에서 폴더 열기"
+    },
+    "grp_ex_discord": {
+        "message": "Discord 열기"
+    },
+    "grp_ex_obsidian": {
+        "message": "Obsidian 보관함 열기"
+    },
+    "grp_ex_spotify": {
+        "message": "Spotify 열기"
+    },
+    "grp_ex_steam": {
+        "message": "Steam 게임 실행 (App ID로)"
+    },
+    "grp_ex_teams": {
+        "message": "Microsoft Teams 열기"
+    },
+    "grp_ex_vscode": {
+        "message": "VS Code에서 폴더 열기"
+    },
+    "grp_ex_windows": {
+        "message": "Windows 디스플레이 설정"
+    },
+    "grp_examples": {
+        "message": "예시"
+    },
+    "grp_fa_brands": {
+        "message": "브랜드"
+    },
+    "grp_fa_regular": {
+        "message": "일반"
+    },
+    "grp_fa_solid": {
+        "message": "솔리드"
+    },
+    "grp_file_url_label": {
+        "message": "파일 URL"
+    },
+    "grp_font_size_label": {
+        "message": "글꼴 크기"
+    },
+    "grp_general": {
+        "message": "일반"
+    },
+    "grp_icon_color_label": {
+        "message": "아이콘 색상"
+    },
+    "grp_icon_size_label": {
+        "message": "아이콘 크기"
+    },
+    "grp_icon_title": {
+        "message": "아이콘"
+    },
+    "grp_image_url_label": {
+        "message": "이미지 URL"
+    },
+    "grp_launcher_kind_app": {
+        "message": "앱 — URI / 프로토콜"
+    },
+    "grp_launcher_kind_file": {
+        "message": "파일"
+    },
+    "grp_launcher_kind_folder": {
+        "message": "폴더"
+    },
+    "grp_launcher_kind_label": {
+        "message": "종류"
+    },
+    "grp_launcher_kind_ps": {
+        "message": "명령어 / 스크립트"
+    },
+    "grp_launcher_target_label": {
+        "message": "대상 URI"
+    },
+    "grp_linkcard_hint": {
+        "message": "제목, 설명, 미리보기 이미지를 자동으로 가져오도록 시도합니다."
+    },
+    "grp_linkcard_url_label": {
+        "message": "링크 URL"
+    },
+    "grp_name_label": {
+        "message": "그룹 이름"
+    },
+    "grp_name_ph": {
+        "message": "그룹 이름"
+    },
+    "grp_no_icon": {
+        "message": "아직 선택한 아이콘이 없습니다!"
+    },
+    "grp_opt_callout": {
+        "message": "콜아웃"
+    },
+    "grp_opt_clipboard": {
+        "message": "클립보드 버튼"
+    },
+    "grp_opt_code": {
+        "message": "코드 블록"
+    },
+    "grp_opt_divider": {
+        "message": "구분선"
+    },
+    "grp_opt_file": {
+        "message": "파일"
+    },
+    "grp_opt_group": {
+        "message": "그룹"
+    },
+    "grp_opt_heading": {
+        "message": "제목"
+    },
+    "grp_opt_image": {
+        "message": "이미지"
+    },
+    "grp_opt_launcher": {
+        "message": "실행기 버튼"
+    },
+    "grp_opt_linkcard": {
+        "message": "링크 카드"
+    },
+    "grp_opt_profile": {
+        "message": "프로필"
+    },
+    "grp_opt_routine": {
+        "message": "루틴"
+    },
+    "grp_opt_shortcut": {
+        "message": "바로가기"
+    },
+    "grp_opt_stepheading": {
+        "message": "단계 제목"
+    },
+    "grp_opt_steps": {
+        "message": "단계"
+    },
+    "grp_opt_text": {
+        "message": "텍스트"
+    },
+    "grp_opt_todolist": {
+        "message": "할 일 목록"
+    },
+    "grp_optional": {
+        "message": "(선택 사항)"
+    },
+    "grp_preset_avatars": {
+        "message": "기본 아바타"
+    },
+    "grp_routine_steps_label": {
+        "message": "단계"
+    },
+    "grp_save": {
+        "message": "그룹 저장"
+    },
+    "grp_search_icons_ph": {
+        "message": "아이콘 검색…"
+    },
+    "grp_selected_label": {
+        "message": "선택됨:"
+    },
+    "grp_show_terminal": {
+        "message": "터미널 창 표시"
+    },
+    "grp_strip_svg": {
+        "message": "SVG에서 채우기/선 색상 제거"
+    },
+    "grp_title_add": {
+        "message": "그룹 추가"
+    },
+    "grp_type_locked_hint": {
+        "message": "요소 유형은 생성 후 변경할 수 없습니다."
+    },
+    "grp_url_label": {
+        "message": "URL"
+    },
+    "grp_display_label": {
+        "message": "표시"
+    },
+    "grp_display_standard": {
+        "message": "기본 버튼"
+    },
+    "grp_display_icon": {
+        "message": "아이콘만"
+    },
+    "grp_display_show_label": {
+        "message": "아이콘 아래에 라벨 표시"
+    },
+    "gse21_accent_color": {
+        "message": "강조 색상"
+    },
+    "gse21_alpha_percent": {
+        "message": "$1%"
+    },
+    "gse21_background": {
+        "message": "배경"
+    },
+    "gse21_border_color": {
+        "message": "테두리 색상"
+    },
+    "gse21_card": {
+        "message": "카드"
+    },
+    "gse21_clear_override": {
+        "message": "재정의 지우기"
+    },
+    "gse21_group_header": {
+        "message": "그룹 헤더"
+    },
+    "gse21_group_style_title": {
+        "message": "그룹 스타일"
+    },
+    "gse21_icon_color": {
+        "message": "아이콘 색상"
+    },
+    "gse21_links": {
+        "message": "링크"
+    },
+    "gse21_none": {
+        "message": "없음"
+    },
+    "gse21_other": {
+        "message": "기타"
+    },
+    "gse21_reset_all": {
+        "message": "모든 재정의 재설정"
+    },
+    "gse21_shadow": {
+        "message": "그림자"
+    },
+    "gse21_text_color": {
+        "message": "텍스트 색상"
+    },
+    "gwr4_add_item": {
+        "message": "항목 추가"
+    },
+    "gwr4_add_item_title": {
+        "message": "$1 추가"
+    },
+    "gwr4_add_task_aria": {
+        "message": "$1에 작업 추가"
+    },
+    "gwr4_add_task_btn": {
+        "message": "작업 추가"
+    },
+    "gwr4_add_task_or_section": {
+        "message": "작업 또는 섹션 추가"
+    },
+    "gwr4_close_add_task": {
+        "message": "작업 추가 입력 닫기"
+    },
+    "gwr4_collapse": {
+        "message": "접기"
+    },
+    "gwr4_confirm_delete_all_tasks": {
+        "message": "\"$2\"에서 $1개의 작업을 모두 삭제하시겠습니까?"
+    },
+    "gwr4_confirm_delete_group": {
+        "message": "\"$1\" 그룹을 삭제하시겠습니까?"
+    },
+    "gwr4_copy_suffix": {
+        "message": "$1 (복사본)"
+    },
+    "gwr4_copy_suffix_n": {
+        "message": "$1 (복사본 $2)"
+    },
+    "gwr4_delete_all_tasks": {
+        "message": "모든 작업 삭제"
+    },
+    "gwr4_group_deleted": {
+        "message": "\"$1\" 삭제됨"
+    },
+    "gwr4_group_options": {
+        "message": "그룹 옵션"
+    },
+    "gwr4_menu_copy_style": {
+        "message": "스타일 복사"
+    },
+    "gwr4_menu_delete": {
+        "message": "삭제"
+    },
+    "gwr4_menu_duplicate": {
+        "message": "복제"
+    },
+    "gwr4_menu_edit": {
+        "message": "편집"
+    },
+    "gwr4_menu_move_workspace": {
+        "message": "워크스페이스로 이동"
+    },
+    "gwr4_menu_open_all": {
+        "message": "모든 링크를 새 탭에서 열기"
+    },
+    "gwr4_menu_paste_style": {
+        "message": "스타일 붙여넣기"
+    },
+    "gwr4_menu_style": {
+        "message": "스타일"
+    },
+    "gwr4_no_icon_chosen": {
+        "message": "아직 선택한 아이콘이 없습니다!"
+    },
+    "gwr4_no_valid_links": {
+        "message": "\"$1\"에서 유효한 링크를 찾을 수 없습니다."
+    },
+    "gwr4_todo_placeholder": {
+        "message": "무엇을 해야 하나요?"
+    },
+    "gwr4_type_clipboard": {
+        "message": "클립보드"
+    },
+    "gwr4_type_divider": {
+        "message": "구분선"
+    },
+    "gwr4_type_header": {
+        "message": "헤더"
+    },
+    "gwr4_type_item_fallback": {
+        "message": "항목"
+    },
+    "gwr4_type_launcher": {
+        "message": "실행기"
+    },
+    "gwr4_type_link": {
+        "message": "링크"
+    },
+    "gwr4_type_note": {
+        "message": "메모"
+    },
+    "gwr4_type_routine": {
+        "message": "루틴"
+    },
+    "gwr4_type_text": {
+        "message": "텍스트"
+    },
+    "gwr4_type_todo": {
+        "message": "할 일"
+    },
+    "hdr_auto_favicon": {
+        "message": "링크 저장 시 파비콘 자동 가져오기"
+    },
+    "hdr_current_tab": {
+        "message": "현재 탭"
+    },
+    "hdr_design": {
+        "message": "디자인"
+    },
+    "hdr_empty_add_group": {
+        "message": "+ 그룹 추가"
+    },
+    "hdr_empty_add_links": {
+        "message": "링크 추가"
+    },
+    "hdr_empty_add_shortcut": {
+        "message": "바로가기 추가"
+    },
+    "hdr_empty_desc": {
+        "message": "새 그룹, 가져온 북마크 또는 그룹 및 인기 웹사이트에 대한 추천으로 대시보드를 설정하세요."
+    },
+    "hdr_empty_import_bookmarks": {
+        "message": "북마크 가져오기"
+    },
+    "hdr_empty_start_suggestions": {
+        "message": "추천으로 시작하기"
+    },
+    "hdr_empty_suggestions_desc": {
+        "message": "아이콘과 좁은 간격이 적용된 빠른 추가 미리보기 버튼입니다."
+    },
+    "hdr_empty_suggestions_title": {
+        "message": "인기 웹사이트 추천"
+    },
+    "hdr_empty_title": {
+        "message": "이 워크스페이스는 비어 있습니다"
+    },
+    "hdr_essentials_desc": {
+        "message": "새 탭을 바로 개인화할 수 있도록 설정에서 가장 중요한 옵션을 간단히 살펴봅니다."
+    },
+    "hdr_essentials_title": {
+        "message": "필수 항목 설정"
+    },
+    "hdr_general": {
+        "message": "일반"
+    },
+    "hdr_header_actions_aria": {
+        "message": "헤더 작업"
+    },
+    "hdr_logo_avatar": {
+        "message": "로고 / 아바타"
+    },
+    "hdr_logo_desc": {
+        "message": "대시보드를 위한 선택적 헤더 브랜딩입니다."
+    },
+    "hdr_new_tab": {
+        "message": "새 탭"
+    },
+    "hdr_open_links_in": {
+        "message": "링크 열기 위치"
+    },
+    "hdr_pro_desc": {
+        "message": "여러 기기에서 암호화된 자동 동기화를 잠금 해제하고 계정 탭에서 바로 공유 보드를 게시하거나 관리하세요."
+    },
+    "hdr_pro_explore": {
+        "message": "계정에서 Pro 살펴보기"
+    },
+    "hdr_pro_eyebrow": {
+        "message": "ReadyTab Pro"
+    },
+    "hdr_pro_list_1": {
+        "message": "활성 클라우드 대시보드 자동 동기화"
+    },
+    "hdr_pro_list_2": {
+        "message": "최신 클라우드 변경 사항 자동 가져오기"
+    },
+    "hdr_pro_list_3": {
+        "message": "공유 보드 게시 및 관리"
+    },
+    "hdr_pro_title": {
+        "message": "자동 동기화 및 공유 보드"
+    },
+    "hdr_remove": {
+        "message": "제거"
+    },
+    "hdr_show_clock": {
+        "message": "헤더에 시계 표시"
+    },
+    "hdr_show_search_bar": {
+        "message": "검색창 표시"
+    },
+    "hdr_spotlight_search": {
+        "message": "스포트라이트 검색"
+    },
+    "hdr_theme": {
+        "message": "테마"
+    },
+    "hdr_upload": {
+        "message": "업로드"
+    },
+    "hdr_workspace_default_tab": {
+        "message": "시작"
+    },
+    "help_apply_from_workspace_body": {
+        "message": "다른 워크스페이스의 시각 설정을 현재 워크스페이스로 복사합니다. 여러 워크스페이스가 동일한 테마, 배경, 디자인 구성을 공유하도록 하되 모든 것을 수동으로 다시 만들 필요가 없을 때 유용합니다."
+    },
+    "help_apply_from_workspace_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_apply_from_workspace_title": {
+        "message": "워크스페이스에서 복사"
+    },
+    "help_background_custom_css_body": {
+        "message": "이 필드는 워크스페이스 배경 값 전용입니다. 그라디언트, 이미지 URL, 배경 단축 속성 등 유효한 CSS 배경 값을 사용할 수 있습니다. 페이지 전체 CSS를 삽입하지 않으며 현재 워크스페이스 배경에만 영향을 줍니다."
+    },
+    "help_background_custom_css_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_background_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_bookmarks_body": {
+        "message": "브라우저의 북마크 폴더를 ReadyTab의 새 그룹으로 가져옵니다. 기존 북마크 모음을 링크를 하나씩 다시 만들지 않고 대시보드 그룹으로 전환할 때 유용합니다."
+    },
+    "help_bookmarks_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_bookmarks_title": {
+        "message": "북마크에서 가져오기"
+    },
+    "help_clock_body": {
+        "message": "시계는 새 탭 페이지의 헤더 영역에 표시됩니다. 시계를 표시하거나 숨길 수 있고, 24시간제와 12시간제를 전환하며, 초와 날짜의 표시 여부를 선택할 수 있습니다."
+    },
+    "help_clock_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_clock_title": {
+        "message": "시계"
+    },
+    "help_cloud_sync_automation_body": {
+        "message": "자동 동기화는 로컬 변경 후 ReadyTab이 선택한 지연 시간 동안 유휴 상태가 되면 활성 클라우드 대시보드를 업데이트합니다. 자동 풀은 더 최신의 클라우드 스냅샷을 자동으로 적용할 수도 있지만, 로컬 대시보드에 동기화되지 않은 변경 사항이 없을 때만 적용됩니다. 로컬과 클라우드가 모두 변경된 경우 ReadyTab은 무언가를 덮어쓰기 전에 확인을 요청합니다."
+    },
+    "help_cloud_sync_automation_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_cloud_sync_automation_title": {
+        "message": "클라우드 동기화 자동화"
+    },
+    "help_cloud_sync_body": {
+        "message": "클라우드 동기화는 암호화된 워크스페이스 스냅샷을 ReadyTab 계정에 저장합니다. 푸시로 현재 로컬 상태를 업로드하고, 풀로 로컬 상태를 클라우드 스냅샷으로 대체하며, 서로 다른 구성을 위한 별도의 대시보드를 유지하세요."
+    },
+    "help_cloud_sync_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_cloud_sync_title": {
+        "message": "클라우드 동기화"
+    },
+    "help_companion_body": {
+        "message": "컴패니언 앱은 브라우저 확장 프로그램만으로는 처리할 수 없는 로컬 파일, 앱, 데스크톱 워크플로와 ReadyTab을 연결하도록 도와줍니다. 운영체제 및 로컬 도구와의 긴밀한 통합을 원할 때 사용하세요."
+    },
+    "help_companion_link": {
+        "message": "컴패니언 설정 가이드 열기"
+    },
+    "help_companion_title": {
+        "message": "컴패니언 앱"
+    },
+    "help_design_custom_css_body": {
+        "message": "이 Custom CSS 필드는 현재 워크스페이스 페이지 전체에 CSS를 삽입합니다. 기본 테마 컨트롤을 넘어서는 고급 스타일링에 사용하세요. 배경 > Custom CSS와 달리 배경 값에만 국한되지 않습니다."
+    },
+    "help_design_custom_css_link": {
+        "message": "테마 편집기 문서 읽기"
+    },
+    "help_design_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_design_reset_default_body": {
+        "message": "기본값으로 재설정하면 현재 워크스페이스가 기본 모습으로 완전히 되돌아갑니다. 편집기 맞춤 설정과 Custom CSS를 지우고, 기본 테마를 Simple로 되돌리며, 추가 외관 토글(탭 밑줄, 설명, 호버 모션)을 재설정합니다. 선택한 기본 테마를 유지하는 더 가벼운 재설정을 원하면 테마 작업 카드의 테마 재설정을 사용하세요. 둘 다 저장된 테마 프리셋은 삭제하지 않습니다."
+    },
+    "help_design_reset_default_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_design_reset_default_title": {
+        "message": "기본값으로 재설정"
+    },
+    "help_import_from_code_body": {
+        "message": "공유 코드를 여기에 붙여넣어 공유된 워크스페이스의 로컬 복사본을 가져오세요. 가져온 워크스페이스는 편집 가능한 자신만의 복사본이 되므로, 이후 원본 소스의 변경 사항이 자동으로 덮어쓰지 않습니다."
+    },
+    "help_import_from_code_link": {
+        "message": "스페이스 문서 열기"
+    },
+    "help_import_from_code_title": {
+        "message": "코드에서 가져오기"
+    },
+    "help_link_behavior_body": {
+        "message": "저장한 링크의 기본 열기 방식을 선택하세요. 현재 탭은 활성 탭에서 이동하고, 새 탭은 링크를 별도의 탭에서 엽니다. 이 설정은 대시보드 전체에서 사용되는 기본 동작을 제어합니다."
+    },
+    "help_link_behavior_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_link_behavior_title": {
+        "message": "링크 동작"
+    },
+    "help_link_health_body": {
+        "message": "활성화하면 ReadyTab이 저장된 HTTP 및 HTTPS 링크를 주기적으로 확인하고, 접속할 수 없는 링크를 빨간색 표시로 나타냅니다. 이 기능은 직접 켜기 전까지는 꺼져 있습니다."
+    },
+    "help_link_health_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_link_health_title": {
+        "message": "링크 상태"
+    },
+    "help_logo_body": {
+        "message": "헤더에 표시할 맞춤 로고를 업로드하세요. ReadyTab은 이미지의 가로세로 비율을 유지하며, 로고의 아래쪽 가장자리가 워크스페이스 탭과 깔끔하게 맞도록 정렬합니다. 나중에 로고를 제거하거나 표시 크기를 변경할 수도 있습니다."
+    },
+    "help_logo_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_logo_title": {
+        "message": "로고"
+    },
+    "help_managed_boards_body": {
+        "message": "관리형 보드는 팀이나 대행사가 게시하는 읽기 전용 워크스페이스입니다. 보드 토큰으로 구독하면 편집 가능한 로컬 스페이스와 섞이지 않으면서 해당 워크스페이스를 최신 상태로 유지할 수 있습니다."
+    },
+    "help_managed_boards_link": {
+        "message": "관리형 보드 문서 읽기"
+    },
+    "help_managed_boards_title": {
+        "message": "관리형 보드"
+    },
+    "help_save_current_window_body": {
+        "message": "현재 브라우저 창에서 지원되는 탭을 캡처하여 새 링크 그룹으로 저장합니다. 작업 중인 탭 모음을 대시보드에 영구적으로 남기고 싶을 때 편리합니다."
+    },
+    "help_save_current_window_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_save_current_window_title": {
+        "message": "현재 창을 그룹으로 저장"
+    },
+    "help_saved_themes_body": {
+        "message": "저장된 테마는 재사용 가능한 디자인 프리셋입니다. 기본 테마와 편집기 맞춤 설정을 함께 저장하므로 나중에 처음부터 다시 만들지 않고도 같은 모습을 현재 워크스페이스에 빠르게 적용할 수 있습니다."
+    },
+    "help_saved_themes_link": {
+        "message": "테마 편집기 문서 읽기"
+    },
+    "help_saved_themes_title": {
+        "message": "저장된 테마"
+    },
+    "help_session_recovery_body": {
+        "message": "ReadyTab은 최근 브라우저 세션에서 지원되는 탭의 가벼운 로컬 스냅샷을 보관하여 나중에 확인하거나 복원할 수 있게 합니다. 실수로 창을 닫았을 때의 안전장치가 필요하거나 최근 작업 세션을 다시 열고 싶을 때 사용하세요."
+    },
+    "help_session_recovery_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_session_recovery_title": {
+        "message": "세션 복구"
+    },
+    "help_spaces_body": {
+        "message": "드래그 앤 드롭으로 스페이스를 재정렬하여 페이지 상단에 표시되는 탭 순서를 조정하세요. 기본 스페이스는 항상 맨 앞에 유지되며, 나머지는 작업 방식에 맞게 배치할 수 있습니다. 각 행의 작업 버튼으로 스페이스의 이름 변경, 보호, 공유, 삭제도 할 수 있습니다."
+    },
+    "help_spaces_link": {
+        "message": "스페이스 문서 열기"
+    },
+    "help_spaces_title": {
+        "message": "스페이스"
+    },
+    "help_spotlight_search_body": {
+        "message": "Spotlight 검색은 키보드로 저장한 링크를 빠르게 찾을 수 있도록 도와줍니다. 새 탭 페이지 밖에서도 활성화할 수 있으며, 검색 결과에 그룹 이름을 포함하여 큰 대시보드를 더 쉽게 탐색할 수 있습니다."
+    },
+    "help_spotlight_search_link": {
+        "message": "Spotlight 문서 열기"
+    },
+    "help_spotlight_search_title": {
+        "message": "Spotlight 검색"
+    },
+    "help_theme_actions_body": {
+        "message": "테마 저장은 현재 모습을 재사용 가능한 저장된 테마로 보관합니다. 테마 재설정은 이 워크스페이스의 편집기 맞춤 설정과 Custom CSS를 버리지만 선택한 기본 테마는 유지합니다. 내보내기와 가져오기는 저장된 테마를 JSON 파일로 옮깁니다. 기본 테마까지 Simple로 되돌리는 완전 재설정을 원하면 아래의 기본값으로 재설정을 사용하세요."
+    },
+    "help_theme_actions_link": {
+        "message": "테마 편집기 문서 읽기"
+    },
+    "help_theme_actions_title": {
+        "message": "테마 작업"
+    },
+    "help_theme_body": {
+        "message": "테마를 변경하면 현재 워크스페이스가 기본 배경을 포함한 해당 테마의 기본 모습으로 업데이트됩니다. ReadyTab은 임시 되돌리기 작업을 유지하여 필요할 경우 이전 테마, 배경, 디자인 맞춤 설정을 복원할 수 있습니다."
+    },
+    "help_theme_editor_body": {
+        "message": "테마 편집기로 테마 토큰을 세밀하게 조정하고, 재사용 가능한 이름 있는 테마를 저장하며, 워크스페이스별 맞춤 설정을 유지할 수 있습니다. 디자인의 Custom CSS 섹션은 배경 값만 설정하는 배경 > Custom CSS와 달리 현재 워크스페이스 페이지 전체에 CSS를 삽입합니다."
+    },
+    "help_theme_editor_link": {
+        "message": "테마 편집기 문서 읽기"
+    },
+    "help_theme_editor_title": {
+        "message": "테마 편집기"
+    },
+    "help_theme_link": {
+        "message": "설정 문서 읽기"
+    },
+    "help_theme_title": {
+        "message": "테마"
+    },
+    "help_web_search_body": {
+        "message": "검색창을 헤더에 직접 표시합니다. 먼저 저장된 항목을 검색하며, 여기서 명시적으로 선택하지 않는 한 웹 검색은 브라우저의 기본 검색 엔진을 사용합니다. 검색 결과를 현재 페이지에 표시할지 새 탭에서 열지도 설정할 수 있습니다."
+    },
+    "help_web_search_link": {
+        "message": "설정 문서 열기"
+    },
+    "help_web_search_title": {
+        "message": "검색창"
+    },
+    "ieuh11_add_clipboard": {
+        "message": "클립보드 추가"
+    },
+    "ieuh11_add_divider": {
+        "message": "구분선 추가"
+    },
+    "ieuh11_add_header": {
+        "message": "헤더 추가"
+    },
+    "ieuh11_add_item": {
+        "message": "항목 추가"
+    },
+    "ieuh11_add_launcher": {
+        "message": "실행기 추가"
+    },
+    "ieuh11_add_link": {
+        "message": "링크 추가"
+    },
+    "ieuh11_add_note": {
+        "message": "메모 추가"
+    },
+    "ieuh11_add_text": {
+        "message": "텍스트 추가"
+    },
+    "ieuh11_add_todo": {
+        "message": "할 일 추가"
+    },
+    "ieuh11_divider_color": {
+        "message": "구분선 색상"
+    },
+    "ieuh11_icon_color": {
+        "message": "아이콘 색상"
+    },
+    "ieuh11_label_name": {
+        "message": "이름"
+    },
+    "ieuh11_label_task": {
+        "message": "작업"
+    },
+    "ieuh11_label_title": {
+        "message": "제목"
+    },
+    "ieuh11_launcher_command": {
+        "message": "명령어"
+    },
+    "ieuh11_launcher_path": {
+        "message": "경로"
+    },
+    "ieuh11_launcher_target_uri": {
+        "message": "대상 URI"
+    },
+    "ieuh11_ph_label": {
+        "message": "레이블"
+    },
+    "ieuh11_ph_name": {
+        "message": "이름"
+    },
+    "ieuh11_ph_section_title": {
+        "message": "섹션 제목"
+    },
+    "ieuh11_ph_task": {
+        "message": "작업"
+    },
+    "ieuh11_ph_text_content": {
+        "message": "텍스트 콘텐츠"
+    },
+    "ieuh11_picker_failed": {
+        "message": "선택 창을 열 수 없습니다 — 컴패니언 앱이 설치되어 있나요?\n\n설정 → 계정 → 컴패니언 앱에서 상태를 확인하세요."
+    },
+    "ip22_enter_url_first": {
+        "message": "먼저 URL을 입력하세요."
+    },
+    "ip22_failed_load_icons": {
+        "message": "아이콘을 불러오지 못했습니다."
+    },
+    "ip22_invalid_url": {
+        "message": "잘못된 URL입니다."
+    },
+    "ip22_loading_icons": {
+        "message": "아이콘을 불러오는 중…"
+    },
+    "ip22_no_icon_chosen": {
+        "message": "아직 선택한 아이콘이 없습니다!"
+    },
+    "ip22_use_this_icon": {
+        "message": "이 아이콘 사용"
+    },
+    "language_label": {
+        "message": "인터페이스 언어"
+    },
+    "language_section": {
+        "message": "언어"
+    },
+    "lbr5_content_copied": {
+        "message": "콘텐츠가 복사되었습니다"
+    },
+    "lbr5_convert_to_group": {
+        "message": "그룹 내 $1(으)로 변환"
+    },
+    "lbr5_copy_content": {
+        "message": "콘텐츠 복사"
+    },
+    "lbr5_copy_failed": {
+        "message": "복사 실패"
+    },
+    "lbr5_copy_suffix": {
+        "message": "$1 (복사본)"
+    },
+    "lbr5_copy_suffix_n": {
+        "message": "$1 (복사본 $2)"
+    },
+    "lbr5_copy_target": {
+        "message": "대상 복사"
+    },
+    "lbr5_copy_url": {
+        "message": "URL 복사"
+    },
+    "lbr5_copy_urls": {
+        "message": "URL 복사"
+    },
+    "lbr5_delete": {
+        "message": "삭제"
+    },
+    "lbr5_delete_confirm": {
+        "message": "$1 \"$2\"을(를) 삭제하시겠습니까?"
+    },
+    "lbr5_duplicate": {
+        "message": "복제"
+    },
+    "lbr5_edit": {
+        "message": "편집"
+    },
+    "lbr5_label_clipboard_button": {
+        "message": "클립보드 버튼"
+    },
+    "lbr5_label_launcher_button": {
+        "message": "실행기 버튼"
+    },
+    "lbr5_label_link_button": {
+        "message": "링크 버튼"
+    },
+    "lbr5_label_routine": {
+        "message": "루틴"
+    },
+    "lbr5_move_to_workspace": {
+        "message": "워크스페이스로 이동"
+    },
+    "lbr5_step_many": {
+        "message": "$1 단계"
+    },
+    "lbr5_step_one": {
+        "message": "$1 단계"
+    },
+    "lbr5_target_copied": {
+        "message": "대상이 복사되었습니다"
+    },
+    "lbr5_type_clipboard": {
+        "message": "클립보드"
+    },
+    "lbr5_type_launcher": {
+        "message": "실행기"
+    },
+    "lbr5_type_link": {
+        "message": "링크"
+    },
+    "lbr5_url_copied": {
+        "message": "URL이 복사되었습니다"
+    },
+    "lbr5_urls_copied": {
+        "message": "URL이 복사됨"
+    },
+    "lbr5_widget_cap": {
+        "message": "위젯"
+    },
+    "lbr5_widget_deleted": {
+        "message": "\"$1\" 삭제됨"
+    },
+    "lbr5_widget_fallback": {
+        "message": "위젯"
+    },
+    "lbr5_widget_options": {
+        "message": "$1 옵션"
+    },
+    "lir6_convert_to": {
+        "message": "$1 버튼으로 변환"
+    },
+    "lir6_copy_failed": {
+        "message": "복사 실패"
+    },
+    "lir6_copy_style": {
+        "message": "스타일 복사"
+    },
+    "lir6_copy_title": {
+        "message": "제목 복사"
+    },
+    "lir6_copy_url": {
+        "message": "URL 복사"
+    },
+    "lir6_delete": {
+        "message": "삭제"
+    },
+    "lir6_duplicate": {
+        "message": "복제"
+    },
+    "lir6_edit": {
+        "message": "편집"
+    },
+    "lir6_edit_type": {
+        "message": "$1 편집"
+    },
+    "lir6_item_deleted": {
+        "message": "항목이 삭제되었습니다"
+    },
+    "lir6_item_fallback": {
+        "message": "항목"
+    },
+    "lir6_more_options": {
+        "message": "추가 옵션"
+    },
+    "lir6_no_icon": {
+        "message": "아직 선택한 아이콘이 없습니다!"
+    },
+    "lir6_step_count_one": {
+        "message": "$1 단계"
+    },
+    "lir6_step_count_other": {
+        "message": "$1 단계"
+    },
+    "lir6_style_applied": {
+        "message": "스타일이 적용되었습니다"
+    },
+    "lir6_title_copied": {
+        "message": "제목이 복사되었습니다"
+    },
+    "lir6_todo_mark_complete": {
+        "message": "할 일을 완료로 표시"
+    },
+    "lir6_todo_mark_incomplete": {
+        "message": "할 일을 미완료로 표시"
+    },
+    "lir6_type_clipboard": {
+        "message": "클립보드"
+    },
+    "lir6_type_divider": {
+        "message": "구분선"
+    },
+    "lir6_type_header": {
+        "message": "헤더"
+    },
+    "lir6_type_launcher": {
+        "message": "실행기"
+    },
+    "lir6_type_link": {
+        "message": "링크"
+    },
+    "lir6_type_note": {
+        "message": "메모"
+    },
+    "lir6_type_routine": {
+        "message": "루틴"
+    },
+    "lir6_type_text": {
+        "message": "텍스트"
+    },
+    "lir6_type_todo": {
+        "message": "할 일"
+    },
+    "lir6_update_item": {
+        "message": "항목 업데이트"
+    },
+    "lir6_url_copied": {
+        "message": "URL이 복사되었습니다"
+    },
+    "lnk_add_link": {
+        "message": "링크 추가"
+    },
+    "lnk_align_center": {
+        "message": "가운데"
+    },
+    "lnk_align_left": {
+        "message": "왼쪽"
+    },
+    "lnk_align_right": {
+        "message": "오른쪽"
+    },
+    "lnk_alignment": {
+        "message": "정렬"
+    },
+    "lnk_autofetch_desc": {
+        "message": "링크를 추가할 때 사이트 파비콘을 자동으로 사용합니다."
+    },
+    "lnk_autofetch_title": {
+        "message": "아이콘 자동 가져오기"
+    },
+    "lnk_browse_btn": {
+        "message": "찾아보기…"
+    },
+    "lnk_browse_title": {
+        "message": "찾아보기…"
+    },
+    "lnk_cat_brands": {
+        "message": "브랜드"
+    },
+    "lnk_cat_regular": {
+        "message": "일반"
+    },
+    "lnk_cat_solid": {
+        "message": "솔리드"
+    },
+    "lnk_clear_icon_btn": {
+        "message": "아이콘 지우기"
+    },
+    "lnk_clear_icon_title": {
+        "message": "아이콘 지우기"
+    },
+    "lnk_clipboard_content_label": {
+        "message": "복사할 내용"
+    },
+    "lnk_clipboard_content_ph": {
+        "message": "클릭하면 클립보드에 복사되는 텍스트"
+    },
+    "lnk_color": {
+        "message": "색상"
+    },
+    "lnk_desc_label": {
+        "message": "설명"
+    },
+    "lnk_desc_optional": {
+        "message": "(선택 사항)"
+    },
+    "lnk_desc_ph": {
+        "message": "링크 이름 아래에 표시되는 짧은 부제목"
+    },
+    "lnk_drawer_title": {
+        "message": "항목 추가"
+    },
+    "lnk_ex_cursor": {
+        "message": "Cursor에서 폴더 열기"
+    },
+    "lnk_ex_discord": {
+        "message": "Discord 열기"
+    },
+    "lnk_ex_mssettings": {
+        "message": "Windows 디스플레이 설정"
+    },
+    "lnk_ex_obsidian": {
+        "message": "Obsidian 보관함 열기"
+    },
+    "lnk_ex_spotify": {
+        "message": "Spotify 열기"
+    },
+    "lnk_ex_steam": {
+        "message": "Steam 게임 실행 (앱 ID로)"
+    },
+    "lnk_ex_teams": {
+        "message": "Microsoft Teams 열기"
+    },
+    "lnk_ex_vscode": {
+        "message": "VS Code에서 폴더 열기"
+    },
+    "lnk_examples": {
+        "message": "예시"
+    },
+    "lnk_general": {
+        "message": "일반"
+    },
+    "lnk_icon": {
+        "message": "아이콘"
+    },
+    "lnk_icon_color": {
+        "message": "아이콘 색상"
+    },
+    "lnk_icon_search_ph": {
+        "message": "아이콘 검색…"
+    },
+    "lnk_launcher_kind_app": {
+        "message": "앱 — URI / 프로토콜"
+    },
+    "lnk_launcher_kind_file": {
+        "message": "파일"
+    },
+    "lnk_launcher_kind_folder": {
+        "message": "폴더"
+    },
+    "lnk_launcher_kind_label": {
+        "message": "종류"
+    },
+    "lnk_launcher_kind_ps": {
+        "message": "명령 / 스크립트"
+    },
+    "lnk_launcher_target_label": {
+        "message": "대상 URI"
+    },
+    "lnk_name_label": {
+        "message": "이름"
+    },
+    "lnk_name_ph": {
+        "message": "이름"
+    },
+    "lnk_no_icon": {
+        "message": "아직 아이콘을 선택하지 않았습니다!"
+    },
+    "lnk_open_in_label": {
+        "message": "열기 위치"
+    },
+    "lnk_reset_overrides": {
+        "message": "모든 재정의 초기화"
+    },
+    "lnk_selected": {
+        "message": "선택됨:"
+    },
+    "lnk_separator_lines": {
+        "message": "구분선"
+    },
+    "lnk_show_terminal": {
+        "message": "터미널 창 표시"
+    },
+    "lnk_steps_label": {
+        "message": "단계"
+    },
+    "lnk_strip_colors": {
+        "message": "SVG에서 채우기/선 색상 제거"
+    },
+    "lnk_style_bold": {
+        "message": "굵게"
+    },
+    "lnk_style_italic": {
+        "message": "기울임꼴"
+    },
+    "lnk_style_label": {
+        "message": "스타일"
+    },
+    "lnk_style_normal": {
+        "message": "보통"
+    },
+    "lnk_target_blank": {
+        "message": "새 탭"
+    },
+    "lnk_target_global": {
+        "message": "전역 설정 사용"
+    },
+    "lnk_target_self": {
+        "message": "같은 탭"
+    },
+    "lnk_text_color": {
+        "message": "텍스트 색상"
+    },
+    "lnk_todo_completed": {
+        "message": "작업을 완료로 표시"
+    },
+    "lnk_url_label": {
+        "message": "URL"
+    },
+    "lnk_used_icons": {
+        "message": "이미 사용한 아이콘"
+    },
+    "mbmm23_action_failed": {
+        "message": "$1 실패: $2"
+    },
+    "mbmm23_board_revoked": {
+        "message": "보드가 취소됨"
+    },
+    "mbmm23_change": {
+        "message": "변경"
+    },
+    "mbmm23_change_pw_prompt": {
+        "message": "관리 보드 \"$1\"의 새 비밀번호를 입력하세요:"
+    },
+    "mbmm23_changing": {
+        "message": "변경 중…"
+    },
+    "mbmm23_close": {
+        "message": "닫기"
+    },
+    "mbmm23_close_modal": {
+        "message": "보드 관리 모달 닫기"
+    },
+    "mbmm23_copy": {
+        "message": "복사"
+    },
+    "mbmm23_copy_failed": {
+        "message": "복사 실패"
+    },
+    "mbmm23_copy_token": {
+        "message": "토큰 복사"
+    },
+    "mbmm23_current": {
+        "message": "현재"
+    },
+    "mbmm23_delete_perm": {
+        "message": "영구 삭제"
+    },
+    "mbmm23_delete_perm_confirm": {
+        "message": "취소된 보드 \"$1\"을(를) 영구적으로 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+    },
+    "mbmm23_deleting": {
+        "message": "삭제 중…"
+    },
+    "mbmm23_earlier_snapshot": {
+        "message": "이전 스냅샷"
+    },
+    "mbmm23_enable_again": {
+        "message": "보드 다시 활성화"
+    },
+    "mbmm23_enabling": {
+        "message": "활성화 중…"
+    },
+    "mbmm23_history_desc": {
+        "message": "버전을 복원하면 소스가 로컬에 다시 생성됩니다 — 게시된 보드를 덮어쓰지 않습니다."
+    },
+    "mbmm23_import_token": {
+        "message": "토큰 가져오기"
+    },
+    "mbmm23_in_sync_text": {
+        "message": "로컬 소스가 게시된 보드와 일치합니다 — 업데이트를 게시할 준비가 되었습니다."
+    },
+    "mbmm23_latest_snapshot": {
+        "message": "최신 스냅샷"
+    },
+    "mbmm23_load_history": {
+        "message": "기록 불러오기"
+    },
+    "mbmm23_loading": {
+        "message": "불러오는 중…"
+    },
+    "mbmm23_locked": {
+        "message": "잠김"
+    },
+    "mbmm23_manage_board": {
+        "message": "보드 관리"
+    },
+    "mbmm23_managed_board": {
+        "message": "관리 보드"
+    },
+    "mbmm23_missing_text": {
+        "message": "소스가 로컬에 복원될 때까지 업데이트를 게시할 수 없습니다. 먼저 복원하면 지금 업데이트를 사용할 수 있습니다."
+    },
+    "mbmm23_more_pw_actions": {
+        "message": "추가 비밀번호 작업"
+    },
+    "mbmm23_n_saved": {
+        "message": "$1 저장됨"
+    },
+    "mbmm23_none_saved": {
+        "message": "저장된 항목 없음"
+    },
+    "mbmm23_not_supported": {
+        "message": "지원되지 않음"
+    },
+    "mbmm23_open_board": {
+        "message": "보드 열기"
+    },
+    "mbmm23_password_copied": {
+        "message": "비밀번호가 복사되었습니다."
+    },
+    "mbmm23_password_protected": {
+        "message": "비밀번호로 보호됨"
+    },
+    "mbmm23_pw_none": {
+        "message": "비밀번호 없음 — 토큰이 있는 누구나 구독할 수 있습니다."
+    },
+    "mbmm23_pw_saved_this_device": {
+        "message": "저장된 작성자 비밀번호는 이 기기에서만 사용할 수 있습니다."
+    },
+    "mbmm23_pw_set_replace_only": {
+        "message": "이 보드에 설정됨 — 여기서 확인할 수 없으며 교체만 가능합니다."
+    },
+    "mbmm23_pw_updates_unavailable": {
+        "message": "이 보드에서는 비밀번호 업데이트를 사용할 수 없습니다."
+    },
+    "mbmm23_ready_to_publish": {
+        "message": "게시 준비 완료"
+    },
+    "mbmm23_remove_password": {
+        "message": "비밀번호 제거"
+    },
+    "mbmm23_remove_pw_confirm": {
+        "message": "관리 보드 \"$1\"에서 비밀번호를 제거하시겠습니까?"
+    },
+    "mbmm23_removing": {
+        "message": "제거 중…"
+    },
+    "mbmm23_restore_as_source": {
+        "message": "소스로 복원"
+    },
+    "mbmm23_restore_desc": {
+        "message": "복원하면 소스가 로컬에 다시 생성됩니다 — 게시된 보드는 그대로 유지됩니다."
+    },
+    "mbmm23_open_source": {
+        "message": "원본 열기"
+    },
+    "mbmm23_restore_source_locally": {
+        "message": "소스를 로컬에 복원"
+    },
+    "mbmm23_restoring": {
+        "message": "복원 중…"
+    },
+    "mbmm23_retry": {
+        "message": "다시 시도"
+    },
+    "mbmm23_reveal": {
+        "message": "표시"
+    },
+    "mbmm23_revealing": {
+        "message": "표시하는 중…"
+    },
+    "mbmm23_revoke": {
+        "message": "취소"
+    },
+    "mbmm23_revoke_confirm": {
+        "message": "이 보드를 취소하시겠습니까? 백엔드 취소 정책에 따라 구독자의 액세스 권한이 사라집니다."
+    },
+    "mbmm23_revoke_desc": {
+        "message": "백엔드 정책에 따라 구독자 액세스를 제거합니다. 로컬 소스는 영향을 받지 않습니다."
+    },
+    "mbmm23_revoke_this_board": {
+        "message": "이 보드 취소"
+    },
+    "mbmm23_revoked_text": {
+        "message": "구독자의 액세스 권한이 사라졌습니다. 다시 활성화하거나 영구적으로 삭제하세요."
+    },
+    "mbmm23_revoking": {
+        "message": "취소 중…"
+    },
+    "mbmm23_saved_password": {
+        "message": "저장된 비밀번호"
+    },
+    "mbmm23_set_password": {
+        "message": "비밀번호 설정"
+    },
+    "mbmm23_set_pw_prompt": {
+        "message": "관리 보드 \"$1\"의 비밀번호를 설정하세요:"
+    },
+    "mbmm23_setting": {
+        "message": "설정 중…"
+    },
+    "mbmm23_source_in_sync": {
+        "message": "소스 동기화됨"
+    },
+    "mbmm23_source_missing": {
+        "message": "이 기기에 소스 없음"
+    },
+    "mbmm23_subscribe_other_device": {
+        "message": "다른 기기에서 구독"
+    },
+    "mbmm23_token_copied": {
+        "message": "토큰이 복사되었습니다."
+    },
+    "mbmm23_token_hint": {
+        "message": "설정 → 스페이스 → 공유 → 연결된 보드 → 보드 참여"
+    },
+    "mbmm23_unavailable": {
+        "message": "사용 불가"
+    },
+    "mbmm23_unknown_error": {
+        "message": "알 수 없는 오류"
+    },
+    "mbmm23_update_now": {
+        "message": "지금 업데이트"
+    },
+    "mbmm23_updating": {
+        "message": "업데이트 중…"
+    },
+    "mbmm23_version_history": {
+        "message": "버전 기록"
+    },
+    "mbu24_already_subscribed": {
+        "message": "이미 이 보드를 구독하고 있습니다."
+    },
+    "mbu24_already_up_to_date": {
+        "message": "이미 최신 상태입니다."
+    },
+    "mbu24_badge_ready": {
+        "message": "준비됨"
+    },
+    "mbu24_badge_revoked": {
+        "message": "취소됨"
+    },
+    "mbu24_badge_source_missing": {
+        "message": "소스 없음"
+    },
+    "mbu24_board_active_again": {
+        "message": "보드 \"$1\"이(가) 다시 활성화되었습니다."
+    },
+    "mbu24_board_count": {
+        "message": "$1 $2"
+    },
+    "mbu24_board_created": {
+        "message": "보드가 생성되었습니다! 토큰: $1"
+    },
+    "mbu24_board_deleted_permanently": {
+        "message": "보드 \"$1\"이(가) 영구적으로 삭제되었습니다."
+    },
+    "mbu24_board_revoked": {
+        "message": "보드가 취소되었습니다."
+    },
+    "mbu24_board_revoked_removed": {
+        "message": "보드 \"$1\"이(가) 취소되어 제거되었습니다."
+    },
+    "mbu24_board_revoked_removed_short": {
+        "message": "보드 \"$1\"이(가) 취소되어 제거되었습니다."
+    },
+    "mbu24_board_updated": {
+        "message": "보드가 업데이트되었습니다."
+    },
+    "mbu24_board_updated_subscribers": {
+        "message": "보드가 업데이트되었습니다. 구독자는 다음 동기화 시 변경 사항을 보게 됩니다."
+    },
+    "mbu24_by": {
+        "message": "작성자"
+    },
+    "mbu24_close": {
+        "message": "닫기"
+    },
+    "mbu24_close_modal_aria": {
+        "message": "관리 보드 모달 닫기"
+    },
+    "mbu24_could_not_load": {
+        "message": "보드를 불러올 수 없습니다: $1"
+    },
+    "mbu24_create_board": {
+        "message": "보드 생성"
+    },
+    "mbu24_create_form_desc": {
+        "message": "선택한 워크스페이스를 읽기 전용 보드로 게시합니다. 업데이트는 해당 소스 워크스페이스에 고정됩니다."
+    },
+    "mbu24_create_new_board": {
+        "message": "새 보드 생성"
+    },
+    "mbu24_creating": {
+        "message": "생성 중…"
+    },
+    "mbu24_creator_password_prompt": {
+        "message": "관리 보드 \"$1\"의 비밀번호를 입력하세요:"
+    },
+    "mbu24_delete": {
+        "message": "삭제"
+    },
+    "mbu24_delete_revoked_confirm": {
+        "message": "취소된 보드 \"$1\"을(를) 영구적으로 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+    },
+    "mbu24_diff_local_source": {
+        "message": "💻 로컬 소스"
+    },
+    "mbu24_diff_publish_update": {
+        "message": "업데이트 게시"
+    },
+    "mbu24_diff_published_board": {
+        "message": "☁ 게시된 보드"
+    },
+    "mbu24_diff_update_title": {
+        "message": "“$1” 업데이트"
+    },
+    "mbu24_explain_revoked": {
+        "message": "취소된 보드는 업데이트할 수 없습니다. 다시 게시하려면 이 보드의 취소를 해제하거나 영구적으로 삭제하세요."
+    },
+    "mbu24_explain_source_mismatch": {
+        "message": "원본 소스 워크스페이스가 더 이상 이 로컬 워크스페이스와 일치하지 않습니다. 업데이트하기 전에 소스를 로컬에 복원하세요."
+    },
+    "mbu24_failed_generic": {
+        "message": "실패: $1"
+    },
+    "mbu24_failed_open_manage": {
+        "message": "보드 관리를 열지 못했습니다: $1"
+    },
+    "mbu24_failed_to_subscribe": {
+        "message": "구독하지 못했습니다."
+    },
+    "mbu24_historical_version": {
+        "message": "이전 버전"
+    },
+    "mbu24_history_load_failed": {
+        "message": "이 보드의 버전 기록을 불러올 수 없습니다."
+    },
+    "mbu24_label_revoke": {
+        "message": "취소"
+    },
+    "mbu24_label_revoked": {
+        "message": "취소됨"
+    },
+    "mbu24_loading_boards": {
+        "message": "보드를 불러오는 중…"
+    },
+    "mbu24_manage": {
+        "message": "관리"
+    },
+    "mbu24_managed_board_fallback": {
+        "message": "관리 보드"
+    },
+    "mbu24_managed_boards_subtitle": {
+        "message": "다른 사람이 구독할 수 있도록 게시하는 읽기 전용 보드입니다."
+    },
+    "mbu24_managed_boards_title": {
+        "message": "관리 보드"
+    },
+    "mbu24_name_required": {
+        "message": "보드 이름과 에이전시 이름이 필요합니다."
+    },
+    "mbu24_next": {
+        "message": "다음"
+    },
+    "mbu24_no_boards_match": {
+        "message": "“$1”과(와) 일치하는 보드가 없습니다."
+    },
+    "mbu24_no_boards_yet": {
+        "message": "아직 보드가 없습니다 — 아래에서 만드세요."
+    },
+    "mbu24_pager_info": {
+        "message": "$2페이지 중 $1페이지 · 보드 $3개"
+    },
+    "mbu24_password_changed": {
+        "message": "보드 비밀번호가 변경되었습니다."
+    },
+    "mbu24_password_changed_prompt": {
+        "message": "\"$1\"의 비밀번호가 변경되었습니다. 동기화를 계속하려면 새 비밀번호를 입력하세요:"
+    },
+    "mbu24_password_needed": {
+        "message": "이 보드를 동기화하려면 새 비밀번호가 필요합니다."
+    },
+    "mbu24_password_removed": {
+        "message": "보드 비밀번호가 제거되었습니다."
+    },
+    "mbu24_password_set": {
+        "message": "보드 비밀번호가 설정되었습니다."
+    },
+    "mbu24_password_unavailable": {
+        "message": "비밀번호가 설정되었지만 이 기기에서는 확인할 수 없습니다. 새 비밀번호로 교체할 수 있습니다."
+    },
+    "mbu24_ph_author_team": {
+        "message": "작성자 / 팀 이름"
+    },
+    "mbu24_ph_board_name": {
+        "message": "보드 이름"
+    },
+    "mbu24_ph_password_optional": {
+        "message": "비밀번호 (선택 사항)"
+    },
+    "mbu24_prev": {
+        "message": "이전"
+    },
+    "mbu24_publish_update_confirm": {
+        "message": "이 업데이트를 “$1”에 게시하시겠습니까?\n\n이전: 그룹 $2개 / 항목 $3개\n현재: 그룹 $4개 / 항목 $5개\n\n구독자는 다음 동기화 시 변경 사항을 보게 됩니다."
+    },
+    "mbu24_remove": {
+        "message": "제거"
+    },
+    "mbu24_remove_subscription_confirm": {
+        "message": "\"$1\" 구독을 제거하시겠습니까?"
+    },
+    "mbu24_requires_pro": {
+        "message": "에이전시 보드에는 Pro 라이선스가 필요합니다."
+    },
+    "mbu24_restored_historical_toast": {
+        "message": "\"$1\"의 이전 버전을 로컬에 복원했습니다. 준비되면 다시 게시하세요."
+    },
+    "mbu24_restored_label_suffix": {
+        "message": "$1 복원됨"
+    },
+    "mbu24_restored_source_suffix": {
+        "message": "복원된 소스"
+    },
+    "mbu24_restored_source_toast": {
+        "message": "\"$1\"의 소스 워크스페이스를 복원했습니다."
+    },
+    "mbu24_revoke_board_confirm": {
+        "message": "이 보드를 취소하시겠습니까? 백엔드 취소 정책에 따라 구독자의 액세스 권한이 사라집니다."
+    },
+    "mbu24_search_boards_aria": {
+        "message": "이름으로 보드 검색"
+    },
+    "mbu24_search_boards_ph": {
+        "message": "이름으로 보드 검색…"
+    },
+    "mbu24_source_label": {
+        "message": "소스:"
+    },
+    "mbu24_source_missing_lc": {
+        "message": "소스 없음"
+    },
+    "mbu24_source_prefix": {
+        "message": "소스: $1"
+    },
+    "mbu24_start_workspace": {
+        "message": "시작"
+    },
+    "mbu24_status_ready": {
+        "message": "$1에서 업데이트할 준비가 되었습니다."
+    },
+    "mbu24_status_restore_safe": {
+        "message": "안전한 업데이트를 위해 소스를 로컬에 복원하세요."
+    },
+    "mbu24_status_revoked": {
+        "message": "보드가 취소됨 — 취소 정책에 따라 구독자의 액세스 권한이 사라졌거나 다음 동기화 시 사라집니다."
+    },
+    "mbu24_status_source_missing_restore": {
+        "message": "소스 없음 — 업데이트하기 전에 로컬에 복원하세요."
+    },
+    "mbu24_subscribe": {
+        "message": "구독"
+    },
+    "mbu24_subscribe_password_prompt": {
+        "message": "이 보드는 비밀번호로 보호되어 있습니다. 비밀번호를 입력하세요:"
+    },
+    "mbu24_subscribed_to": {
+        "message": "\"$1\"을(를) 구독했습니다."
+    },
+    "mbu24_subscription_removed": {
+        "message": "구독이 제거되었습니다."
+    },
+    "mbu24_sync_failed": {
+        "message": "동기화 실패: $1"
+    },
+    "mbu24_sync_now": {
+        "message": "지금 동기화"
+    },
+    "mbu24_unrevoke": {
+        "message": "취소 해제"
+    },
+    "mbu24_update": {
+        "message": "업데이트"
+    },
+    "mbu24_update_failed": {
+        "message": "업데이트 실패: $1"
+    },
+    "modala_recover_prompt_dismiss": {
+        "message": "닫기"
+    },
+    "modala_recover_prompt_restore": {
+        "message": "복원"
+    },
+    "modala_recover_prompt_title": {
+        "message": "이전 세션을 복원하시겠습니까?"
+    },
+    "modala_recover_prompt_view": {
+        "message": "보기"
+    },
+    "modala_recover_view_clear": {
+        "message": "스냅샷 지우기"
+    },
+    "modala_recover_view_close": {
+        "message": "닫기"
+    },
+    "modala_recover_view_meta": {
+        "message": "스냅샷을 사용할 수 없습니다."
+    },
+    "modala_recover_view_restore": {
+        "message": "마지막 세션 복원"
+    },
+    "modala_recover_view_title": {
+        "message": "마지막 세션 스냅샷"
+    },
+    "modala_savewin_cancel": {
+        "message": "취소"
+    },
+    "modala_savewin_confirm": {
+        "message": "그룹 저장"
+    },
+    "modala_savewin_desc": {
+        "message": "현재 브라우저 창의 지원되는 탭을 편집 가능한 새 그룹으로 저장합니다."
+    },
+    "modala_savewin_groupname": {
+        "message": "그룹 이름"
+    },
+    "modala_savewin_groupname_ph": {
+        "message": "현재 창"
+    },
+    "modala_savewin_loading": {
+        "message": "현재 창의 탭을 불러오는 중…"
+    },
+    "modala_savewin_skipdup": {
+        "message": "이 워크스페이스에 이미 저장된 중복 URL 건너뛰기"
+    },
+    "modala_savewin_title": {
+        "message": "현재 창을 그룹으로 저장"
+    },
+    "modala_savewin_workspace": {
+        "message": "대상 워크스페이스"
+    },
+    "modala_starter_apply": {
+        "message": "선택한 그룹 추가"
+    },
+    "modala_starter_desc": {
+        "message": "스타터 그룹과 인기 바로가기를 선택하여 첫 대시보드를 더 빠르게 만드세요. 생성 후에도 모든 항목을 편집할 수 있습니다."
+    },
+    "modala_starter_skip": {
+        "message": "지금은 건너뛰기"
+    },
+    "modala_starter_title": {
+        "message": "스타터 추천"
+    },
+    "modalb_applytheme_cancel": {
+        "message": "취소"
+    },
+    "modalb_applytheme_desc_post": {
+        "message": "\""
+    },
+    "modalb_applytheme_desc_pre": {
+        "message": "다음 테마를 사용할 워크스페이스를 선택하세요: \""
+    },
+    "modalb_applytheme_ok": {
+        "message": "적용"
+    },
+    "modalb_applytheme_selectall": {
+        "message": "모두 선택"
+    },
+    "modalb_applytheme_title": {
+        "message": "워크스페이스에 테마 적용"
+    },
+    "modalb_convert_cancel": {
+        "message": "취소"
+    },
+    "modalb_convert_desc_post": {
+        "message": "\"을(를) 이 워크스페이스의 그룹으로 이동합니다."
+    },
+    "modalb_convert_desc_pre": {
+        "message": "\""
+    },
+    "modalb_convert_label": {
+        "message": "그룹 검색"
+    },
+    "modalb_convert_list_aria": {
+        "message": "사용 가능한 그룹"
+    },
+    "modalb_convert_ok": {
+        "message": "변환"
+    },
+    "modalb_convert_search_ph": {
+        "message": "그룹 검색…"
+    },
+    "modalb_convert_title": {
+        "message": "그룹 항목으로 변환"
+    },
+    "modalb_movegroup_cancel": {
+        "message": "취소"
+    },
+    "modalb_movegroup_desc_post": {
+        "message": "\"을(를) 다음으로 이동:"
+    },
+    "modalb_movegroup_desc_pre": {
+        "message": "\""
+    },
+    "modalb_movegroup_ok": {
+        "message": "이동"
+    },
+    "modalb_movegroup_title": {
+        "message": "그룹 이동"
+    },
+    "modalb_passphrase_cancel": {
+        "message": "취소"
+    },
+    "modalb_passphrase_confirm_ph": {
+        "message": "암호 확인"
+    },
+    "modalb_passphrase_desc": {
+        "message": "이 워크스페이스를 잠금 해제하려면 암호를 입력하세요."
+    },
+    "modalb_passphrase_ph": {
+        "message": "암호"
+    },
+    "modalb_passphrase_title": {
+        "message": "보호된 워크스페이스"
+    },
+    "modalb_passphrase_unlock": {
+        "message": "잠금 해제"
+    },
+    "nta30_delete_confirm": {
+        "message": "저장된 이 테마를 삭제하시겠습니까?"
+    },
+    "p31_alert_import_failed": {
+        "message": "가져오기 실패: $1"
+    },
+    "p31_alert_import_success": {
+        "message": "테마를 성공적으로 가져왔습니다!"
+    },
+    "p31_btn_save_failed": {
+        "message": "저장 실패!"
+    },
+    "p31_btn_save_theme": {
+        "message": "테마 저장"
+    },
+    "p31_btn_saved": {
+        "message": "저장됨 ✓"
+    },
+    "p31_confirm_import_custom_css": {
+        "message": "이 파일에는 사용자 지정 CSS가 포함되어 있습니다. 사용자 지정 CSS는 페이지 동작을 바꿀 수 있으므로 직접 내보낸 파일인 경우에만 유지하세요.\n\n사용자 지정 CSS를 유지할까요?"
+    },
+    "p31_confirm_reset_theme": {
+        "message": "현재 워크스페이스의 모든 테마 사용자 지정을 초기화하시겠습니까?"
+    },
+    "p31_default_theme_name": {
+        "message": "내 테마"
+    },
+    "p31_prompt_save_theme_as": {
+        "message": "테마를 다음 이름으로 저장:"
+    },
+    "pbp25_aria_public_board_link": {
+        "message": "공개 보드 링크"
+    },
+    "pbp25_board_published": {
+        "message": "보드가 게시되었습니다!"
+    },
+    "pbp25_cancel": {
+        "message": "취소"
+    },
+    "pbp25_clipboard_count_notice": {
+        "message": "이 워크스페이스에는 클립보드 $2 $1개가 포함되어 있습니다. 클립보드 내용은 공유 스냅샷의 일부가 되며 링크가 있는 누구나 볼 수 있습니다."
+    },
+    "pbp25_close": {
+        "message": "닫기"
+    },
+    "pbp25_copied": {
+        "message": "복사되었습니다!"
+    },
+    "pbp25_copy": {
+        "message": "복사"
+    },
+    "pbp25_could_not_publish": {
+        "message": "보드를 게시할 수 없습니다: $1\n\n계속 실패하면 공유 서비스에 연결할 수 없는 상태일 수 있습니다."
+    },
+    "pbp25_could_not_recover_content": {
+        "message": "이 기기에서 이 보드의 내용을 복구할 수 없습니다."
+    },
+    "pbp25_could_not_update": {
+        "message": "보드를 업데이트할 수 없습니다: $1"
+    },
+    "pbp25_dialog_desc_publish": {
+        "message": "이 워크스페이스의 고정된 스냅샷에 대한 공개 읽기 전용 링크를 생성합니다. 링크가 있는 누구나 볼 수 있으며 확장 프로그램이 필요 없습니다. 이후 편집은 게시된 사본에 영향을 주지 않습니다."
+    },
+    "pbp25_dialog_desc_update": {
+        "message": "게시된 스냅샷을 이 워크스페이스의 현재 상태로 교체합니다. 기존 공개 링크는 그대로 유지되며 보는 사람에게 즉시 업데이트됩니다."
+    },
+    "pbp25_dialog_title_publish": {
+        "message": "공개 보드 게시"
+    },
+    "pbp25_dialog_title_update": {
+        "message": "게시된 보드 업데이트"
+    },
+    "pbp25_done": {
+        "message": "완료"
+    },
+    "pbp25_encrypting_uploading": {
+        "message": "보드를 암호화하여 업로드하는 중입니다."
+    },
+    "pbp25_expiry_30_days": {
+        "message": "기본적으로 링크는 영구적으로 유지하지 않으면 30일 후에 만료됩니다. 설정 → 스페이스 → 게시된 보드에서 관리하세요."
+    },
+    "pbp25_imported_board": {
+        "message": "가져온 보드"
+    },
+    "pbp25_imported_edit_then_update": {
+        "message": "가져왔습니다 — 편집한 다음 업데이트하여 변경 사항을 게시하세요."
+    },
+    "pbp25_include_clipboard": {
+        "message": "공개 보드에 클립보드 항목/내용 포함"
+    },
+    "pbp25_item_plural": {
+        "message": "항목"
+    },
+    "pbp25_item_singular": {
+        "message": "항목"
+    },
+    "pbp25_keep_until_delete": {
+        "message": "삭제할 때까지 유지 (만료되지 않음)"
+    },
+    "pbp25_label_description": {
+        "message": "설명"
+    },
+    "pbp25_label_title": {
+        "message": "제목"
+    },
+    "pbp25_label_title_desc_on_board": {
+        "message": "보드의 제목 및 설명"
+    },
+    "pbp25_launcher_css_stripped": {
+        "message": "런처 버튼과 사용자 지정 CSS는 공개 사본에서 제거됩니다."
+    },
+    "pbp25_link_expiry_same": {
+        "message": "링크와 만료 기간은 그대로 유지됩니다."
+    },
+    "pbp25_open_link": {
+        "message": "링크 열기"
+    },
+    "pbp25_option_hidden": {
+        "message": "숨김"
+    },
+    "pbp25_option_show_centered": {
+        "message": "표시 — 가운데 정렬"
+    },
+    "pbp25_option_show_left": {
+        "message": "표시 — 왼쪽 정렬"
+    },
+    "pbp25_optional": {
+        "message": "(선택 사항)"
+    },
+    "pbp25_protected_cannot_publish": {
+        "message": "보호된 워크스페이스는 게시할 수 없습니다."
+    },
+    "pbp25_protected_cannot_publish_unprotect": {
+        "message": "보호된 워크스페이스는 게시할 수 없습니다. 공개적으로 공유하려면 먼저 보호를 해제하세요."
+    },
+    "pbp25_public_board_link_copied": {
+        "message": "공개 보드 링크가 복사되었습니다."
+    },
+    "pbp25_public_board_updated": {
+        "message": "공개 보드가 업데이트되었습니다."
+    },
+    "pbp25_publish": {
+        "message": "게시"
+    },
+    "pbp25_publishing": {
+        "message": "게시 중…"
+    },
+    "pbp25_secret_in_link_hint": {
+        "message": "보드를 복호화하는 데 필요한 비밀 키는 링크의 일부입니다 — 전체 URL을 함께 보관하세요. 설정 → 스페이스 → 공유된 보드에서 언제든지 다시 열거나 복사하거나 취소할 수 있습니다."
+    },
+    "pbp25_share_link_readonly": {
+        "message": "이 링크를 누구와도 공유하세요 — 모든 브라우저에서 보드의 읽기 전용 보기를 엽니다."
+    },
+    "pbp25_space_not_on_device_import": {
+        "message": "이 보드가 게시된 스페이스가 이 기기에 없습니다.\n\n편집할 수 있도록 게시된 보드의 사본을 가져온 다음 변경 사항으로 링크를 업데이트하시겠습니까?"
+    },
+    "pbp25_update": {
+        "message": "업데이트"
+    },
+    "pbp25_workspace_empty_add_groups": {
+        "message": "이 워크스페이스가 비어 있습니다 — 게시하기 전에 그룹을 추가하세요."
+    },
+    "pm7_cancel_title": {
+        "message": "페인트 모드 취소"
+    },
+    "pm7_pill_group": {
+        "message": "그룹 헤더를 클릭하여 스타일 적용"
+    },
+    "pm7_pill_link": {
+        "message": "링크를 클릭하여 스타일 적용"
+    },
+    "rse12_add_from_board": {
+        "message": "보드에서 추가…"
+    },
+    "rse12_add_step_btn": {
+        "message": "+ 단계 추가"
+    },
+    "rse12_app_placeholder": {
+        "message": "예: spotify:  또는  vscode://"
+    },
+    "rse12_browse_btn": {
+        "message": "찾아보기…"
+    },
+    "rse12_cancel": {
+        "message": "취소"
+    },
+    "rse12_clipboard_placeholder": {
+        "message": "복사할 텍스트"
+    },
+    "rse12_close_aria": {
+        "message": "닫기"
+    },
+    "rse12_companion_note": {
+        "message": "이 단계를 실행하려면 컴패니언 앱이 설치되어 있어야 합니다."
+    },
+    "rse12_composer_add": {
+        "message": "단계 추가"
+    },
+    "rse12_delay_placeholder": {
+        "message": "초"
+    },
+    "rse12_empty_steps": {
+        "message": "아직 단계가 없습니다. 루틴을 만들려면 단계를 추가하세요."
+    },
+    "rse12_file_placeholder": {
+        "message": "C:\\path\\to\\file.pdf  (컴패니언 앱 필요)"
+    },
+    "rse12_folder_placeholder": {
+        "message": "C:\\path\\to\\folder  (컴패니언 앱 필요)"
+    },
+    "rse12_kind_app_label": {
+        "message": "앱 실행"
+    },
+    "rse12_kind_app_tag": {
+        "message": "앱"
+    },
+    "rse12_kind_clipboard_label": {
+        "message": "클립보드에 복사"
+    },
+    "rse12_kind_clipboard_tag": {
+        "message": "복사"
+    },
+    "rse12_kind_delay_label": {
+        "message": "대기"
+    },
+    "rse12_kind_delay_tag": {
+        "message": "대기"
+    },
+    "rse12_kind_file_label": {
+        "message": "파일 열기"
+    },
+    "rse12_kind_file_tag": {
+        "message": "파일"
+    },
+    "rse12_kind_folder_label": {
+        "message": "폴더 열기"
+    },
+    "rse12_kind_folder_tag": {
+        "message": "폴더"
+    },
+    "rse12_kind_url_label": {
+        "message": "URL 열기"
+    },
+    "rse12_kind_url_tag": {
+        "message": "URL"
+    },
+    "rse12_kind_workspace_label": {
+        "message": "워크스페이스 전환"
+    },
+    "rse12_kind_workspace_tag": {
+        "message": "공간"
+    },
+    "rse12_label_clipboard": {
+        "message": "클립보드"
+    },
+    "rse12_label_copy": {
+        "message": "복사"
+    },
+    "rse12_label_group": {
+        "message": "그룹"
+    },
+    "rse12_picker_add": {
+        "message": "추가"
+    },
+    "rse12_picker_added": {
+        "message": "추가됨 ✓"
+    },
+    "rse12_picker_alert": {
+        "message": "선택기를 열 수 없습니다 — 컴패니언 앱이 설치되어 있나요?\n\n상태는 설정 → 계정 → 컴패니언 앱에서 확인하세요."
+    },
+    "rse12_picker_no_matches": {
+        "message": "일치하는 항목이 없습니다."
+    },
+    "rse12_picker_none": {
+        "message": "링크, 런처 또는 클립보드 항목을 찾을 수 없습니다."
+    },
+    "rse12_picker_search": {
+        "message": "링크, 런처, 클립보드 검색…"
+    },
+    "rse12_picker_title": {
+        "message": "보드에서 단계 추가"
+    },
+    "rse12_remove_step_aria": {
+        "message": "단계 제거"
+    },
+    "rse12_stagger_label": {
+        "message": "단계 사이 일시 정지 (초)"
+    },
+    "rse12_sub_clipboard": {
+        "message": "$1 · 클립보드"
+    },
+    "rse12_sub_group": {
+        "message": "$1 · $2"
+    },
+    "rse12_sub_launcher": {
+        "message": "$1 · 런처"
+    },
+    "rse12_sub_shortcut": {
+        "message": "$1 · 바로가기"
+    },
+    "rse12_summary_copy": {
+        "message": "복사"
+    },
+    "rse12_summary_copy_text": {
+        "message": "“$1” 복사"
+    },
+    "rse12_summary_launch_app": {
+        "message": "앱 실행"
+    },
+    "rse12_summary_launch_target": {
+        "message": "$1 실행"
+    },
+    "rse12_summary_open_file": {
+        "message": "파일 열기"
+    },
+    "rse12_summary_open_file_name": {
+        "message": "파일 $1 열기"
+    },
+    "rse12_summary_open_folder": {
+        "message": "폴더 열기"
+    },
+    "rse12_summary_open_folder_name": {
+        "message": "폴더 $1 열기"
+    },
+    "rse12_summary_open_host": {
+        "message": "$1 열기"
+    },
+    "rse12_summary_open_url": {
+        "message": "URL 열기"
+    },
+    "rse12_summary_step": {
+        "message": "단계"
+    },
+    "rse12_summary_switch_to": {
+        "message": "$1(으)로 전환"
+    },
+    "rse12_summary_switch_workspace": {
+        "message": "워크스페이스 전환"
+    },
+    "rse12_summary_wait": {
+        "message": "$1초 대기"
+    },
+    "rse12_tag_step_fallback": {
+        "message": "단계"
+    },
+    "rse12_ws_default": {
+        "message": "기본값"
+    },
+    "s28_add": {
+        "message": "추가"
+    },
+    "s28_add_to_group": {
+        "message": "그룹에 추가"
+    },
+    "s28_added_to": {
+        "message": "\"$1\"에 추가됨"
+    },
+    "s28_cancel": {
+        "message": "취소"
+    },
+    "s28_created_and_added": {
+        "message": "\"$1\"을(를) 만들고 링크를 추가했습니다"
+    },
+    "s28_group_exists": {
+        "message": "그룹 \"$1\"이(가) 이미 있습니다"
+    },
+    "s28_group_not_found": {
+        "message": "그룹 \"$1\"을(를) 찾을 수 없습니다"
+    },
+    "s28_hint_close": {
+        "message": "닫기"
+    },
+    "s28_hint_navigate": {
+        "message": "이동"
+    },
+    "s28_hint_open": {
+        "message": "열기"
+    },
+    "s28_label_group": {
+        "message": "그룹"
+    },
+    "s28_label_title": {
+        "message": "제목"
+    },
+    "s28_new_group_name_label": {
+        "message": "새 그룹 이름"
+    },
+    "s28_new_group_option": {
+        "message": "+ 새 그룹…"
+    },
+    "s28_new_group_placeholder": {
+        "message": "고유한 그룹 이름을 입력하세요"
+    },
+    "s28_no_matches": {
+        "message": "\"$1\"에 대한 일치 항목이 없습니다"
+    },
+    "s28_search_placeholder": {
+        "message": "링크, 런처, 북마크 검색…"
+    },
+    "s28_search_web_for": {
+        "message": "\"$1\" 웹 검색"
+    },
+    "sbh15_default_workspace": {
+        "message": "시작"
+    },
+    "sbh15_image_too_large": {
+        "message": "이미지가 너무 큽니다 ($1 MB). 최대 크기는 2 MB입니다."
+    },
+    "sbh15_quota_exceeded": {
+        "message": "배경을 저장할 수 없습니다: 저장 공간 할당량을 초과했습니다. 더 작은 이미지(1MB 미만)를 사용해 보세요."
+    },
+    "sbh15_section_fallback": {
+        "message": "섹션"
+    },
+    "sbh15_select_workspace": {
+        "message": "작업 공간 선택…"
+    },
+    "sbm27_action_failed": {
+        "message": "작업 실패"
+    },
+    "sbm27_close": {
+        "message": "닫기"
+    },
+    "sbm27_code": {
+        "message": "코드"
+    },
+    "sbm27_codes": {
+        "message": "코드"
+    },
+    "sbm27_confirm_delete_public_body": {
+        "message": "링크를 가진 모든 사람이 게시된 보드에 접근할 수 없게 됩니다."
+    },
+    "sbm27_confirm_delete_public_title": {
+        "message": "공개 링크 삭제"
+    },
+    "sbm27_confirm_delete_share_body": {
+        "message": "이 코드로는 앞으로 가져오기를 할 수 없습니다. 이미 보드를 가져온 사람은 자신의 사본을 계속 유지합니다."
+    },
+    "sbm27_confirm_delete_share_title": {
+        "message": "공유 코드 삭제"
+    },
+    "sbm27_confirm_for_name": {
+        "message": " \"$1\"의"
+    },
+    "sbm27_copy_code": {
+        "message": "코드 복사"
+    },
+    "sbm27_copy_full_import_code": {
+        "message": "전체 가져오기 코드 복사"
+    },
+    "sbm27_copy_link": {
+        "message": "링크 복사"
+    },
+    "sbm27_copy_public_link": {
+        "message": "공개 링크 복사"
+    },
+    "sbm27_copying": {
+        "message": "복사 중…"
+    },
+    "sbm27_created": {
+        "message": "$1에 생성됨"
+    },
+    "sbm27_delete_code": {
+        "message": "코드 삭제"
+    },
+    "sbm27_delete_link": {
+        "message": "링크 삭제"
+    },
+    "sbm27_deleting": {
+        "message": "삭제 중…"
+    },
+    "sbm27_expired": {
+        "message": "만료됨"
+    },
+    "sbm27_expires_dash": {
+        "message": "만료 —"
+    },
+    "sbm27_expires_date": {
+        "message": "$1에 만료"
+    },
+    "sbm27_expires_in_days": {
+        "message": "$1일 후 만료"
+    },
+    "sbm27_expires_today": {
+        "message": "오늘 만료"
+    },
+    "sbm27_extend_30_days": {
+        "message": "30일 연장"
+    },
+    "sbm27_extending": {
+        "message": "연장 중…"
+    },
+    "sbm27_full_code_unavailable": {
+        "message": "이 기기에서는 전체 코드를 사용할 수 없습니다."
+    },
+    "sbm27_full_code_unavailable_title": {
+        "message": "이 기기에서는 전체 코드를 사용할 수 없음"
+    },
+    "sbm27_group": {
+        "message": "그룹"
+    },
+    "sbm27_groups": {
+        "message": "그룹"
+    },
+    "sbm27_link": {
+        "message": "링크"
+    },
+    "sbm27_links": {
+        "message": "링크"
+    },
+    "sbm27_load_error_generic": {
+        "message": "공유된 보드 또는 공개 보드를 불러올 수 없습니다. 다시 시도해 주세요."
+    },
+    "sbm27_more_actions": {
+        "message": "추가 작업"
+    },
+    "sbm27_never_expires": {
+        "message": "만료되지 않음"
+    },
+    "sbm27_next": {
+        "message": "다음"
+    },
+    "sbm27_no_match": {
+        "message": "“$1”과(와) 일치하는 보드가 없습니다."
+    },
+    "sbm27_no_name_set": {
+        "message": "이름이 설정되지 않음"
+    },
+    "sbm27_open": {
+        "message": "열기"
+    },
+    "sbm27_opening": {
+        "message": "여는 중…"
+    },
+    "sbm27_pager_info": {
+        "message": "$2 중 $1페이지 · 보드 $3개"
+    },
+    "sbm27_prev": {
+        "message": "이전"
+    },
+    "sbm27_public_board_link_copied": {
+        "message": "공개 보드 링크를 복사했습니다."
+    },
+    "sbm27_public_link_deleted": {
+        "message": "공개 링크가 삭제되었습니다."
+    },
+    "sbm27_public_link_extended": {
+        "message": "공개 링크가 30일 연장되었습니다."
+    },
+    "sbm27_public_link_unavailable": {
+        "message": "이 기기에서는 공개 링크를 사용할 수 없습니다."
+    },
+    "sbm27_public_link_unavailable_title": {
+        "message": "이 기기에서는 공개 링크를 사용할 수 없음"
+    },
+    "sbm27_published_close": {
+        "message": "게시된 보드 모달 닫기"
+    },
+    "sbm27_published_empty_help": {
+        "message": "워크스페이스를 공개 읽기 전용 링크로 게시하면 확장 프로그램 없이도 누구와나 공유할 수 있습니다."
+    },
+    "sbm27_published_empty_title": {
+        "message": "아직 게시된 보드가 없습니다."
+    },
+    "sbm27_published_error": {
+        "message": "게시된 보드를 불러올 수 없습니다."
+    },
+    "sbm27_published_loading": {
+        "message": "게시된 보드를 불러오는 중…"
+    },
+    "sbm27_published_subtitle": {
+        "message": "누구나 열 수 있는 공개 읽기 전용 링크입니다."
+    },
+    "sbm27_published_title": {
+        "message": "게시된 보드"
+    },
+    "sbm27_search_aria": {
+        "message": "코드 또는 이름으로 보드 검색"
+    },
+    "sbm27_search_placeholder": {
+        "message": "코드 또는 이름으로 검색…"
+    },
+    "sbm27_share_code_copied": {
+        "message": "공유 코드를 복사했습니다."
+    },
+    "sbm27_share_code_deleted": {
+        "message": "공유 코드가 삭제되었습니다."
+    },
+    "sbm27_share_code_extended": {
+        "message": "공유 코드가 30일 연장되었습니다."
+    },
+    "sbm27_shared_close": {
+        "message": "공유된 보드 모달 닫기"
+    },
+    "sbm27_shared_empty_help": {
+        "message": "워크스페이스를 공유하면 다른 사람이 자신의 사본을 가져올 수 있는 임시 가져오기 코드를 만들 수 있습니다."
+    },
+    "sbm27_shared_empty_title": {
+        "message": "아직 공유된 보드가 없습니다."
+    },
+    "sbm27_shared_error": {
+        "message": "공유된 보드를 불러올 수 없습니다."
+    },
+    "sbm27_shared_loading": {
+        "message": "공유된 보드를 불러오는 중…"
+    },
+    "sbm27_shared_subtitle": {
+        "message": "공유 코드로 다른 사람이 보드의 독립적인 사본을 가져올 수 있습니다. 이후 변경 사항은 동기화되지 않습니다."
+    },
+    "sbm27_shared_title": {
+        "message": "공유된 보드"
+    },
+    "sbm27_try_again": {
+        "message": "다시 시도"
+    },
+    "sbm27_unnamed": {
+        "message": "이름 없음"
+    },
+    "sbm27_update_code": {
+        "message": "코드 업데이트"
+    },
+    "sbm27_update_public_title": {
+        "message": "게시된 스냅샷을 현재 보드로 교체(동일한 링크)"
+    },
+    "sbm27_update_share_title": {
+        "message": "이 워크스페이스를 동일한 코드로 다시 스냅샷(새 가져오기에만 적용)"
+    },
+    "sbm27_update_snapshot": {
+        "message": "스냅샷 업데이트"
+    },
+    "sbm27_updating": {
+        "message": "업데이트 중…"
+    },
+    "scwh13_choose_workspace": {
+        "message": "먼저 대상 작업 공간을 선택하세요."
+    },
+    "scwh13_default_group_name": {
+        "message": "현재 창"
+    },
+    "scwh13_default_workspace_name": {
+        "message": "시작"
+    },
+    "scwh13_duplicates_skipped": {
+        "message": "중복된 $2 $1개는 건너뜁니다."
+    },
+    "scwh13_enter_group_name": {
+        "message": "그룹 이름을 입력하세요."
+    },
+    "scwh13_group_name_exists": {
+        "message": "선택한 작업 공간에 같은 이름의 그룹이 이미 있습니다."
+    },
+    "scwh13_items_saved_order": {
+        "message": "$2 $1개가 탭 순서대로 저장됩니다."
+    },
+    "scwh13_loading_tabs": {
+        "message": "현재 창의 탭을 불러오는 중…"
+    },
+    "scwh13_no_supported_tabs": {
+        "message": "이 창에서 저장할 수 있는 지원되는 탭이 없습니다."
+    },
+    "scwh13_no_tabs_left": {
+        "message": "현재 옵션으로 저장할 수 있는 지원되는 탭이 남아 있지 않습니다."
+    },
+    "scwh13_read_tabs_error": {
+        "message": "현재 창의 탭을 읽을 수 없습니다: $1"
+    },
+    "scwh13_save_error_fallback": {
+        "message": "현재 창을 그룹으로 저장할 수 없습니다."
+    },
+    "scwh13_save_group": {
+        "message": "그룹 저장"
+    },
+    "scwh13_saved_to_workspace": {
+        "message": "$2 $1개를 $4의 \"$3\"에 저장했습니다."
+    },
+    "scwh13_saving": {
+        "message": "저장 중…"
+    },
+    "scwh13_supported_found": {
+        "message": "현재 창에서 지원되는 $2 $1개를 찾았습니다."
+    },
+    "scwh13_unsupported_ignored": {
+        "message": "내부 또는 지원되지 않는 $2 $1개는 무시됩니다."
+    },
+    "scwh13_untitled_tab": {
+        "message": "제목 없는 탭"
+    },
+    "search_type_bookmark": {
+        "message": "북마크"
+    },
+    "search_type_clipboard": {
+        "message": "클립보드"
+    },
+    "search_type_launcher": {
+        "message": "런처"
+    },
+    "search_type_link": {
+        "message": "링크"
+    },
+    "setacct_autopull_meta": {
+        "message": "로컬 대시보드에 동기화되지 않은 변경 사항이 없을 때 더 최신인 클라우드 상태를 적용합니다."
+    },
+    "setacct_autopull_title": {
+        "message": "더 최신인 클라우드 상태 자동 가져오기"
+    },
+    "setacct_autosync_intro": {
+        "message": "자동 동기화는 위에서 선택한 활성 클라우드 대시보드에 적용됩니다."
+    },
+    "setacct_autosync_row_meta": {
+        "message": "로컬 변경 사항을 활성 대시보드에 자동으로 푸시합니다."
+    },
+    "setacct_autosync_row_title": {
+        "message": "클라우드에 자동 동기화"
+    },
+    "setacct_autosync_title": {
+        "message": "자동 동기화 ✦"
+    },
+    "setacct_companion_guide_link": {
+        "message": "컴패니언 설정 가이드 ↗"
+    },
+    "setacct_companion_help_aria": {
+        "message": "컴패니언 앱에 대한 도움말"
+    },
+    "setacct_companion_help_title": {
+        "message": "컴패니언 앱에 대한 도움말"
+    },
+    "setacct_companion_retry_aria": {
+        "message": "컴패니언 상태 확인 다시 시도"
+    },
+    "setacct_companion_retry_title": {
+        "message": "다시 시도"
+    },
+    "setacct_companion_status_meta": {
+        "message": "폴더, 파일, 명령 실행기에 필요합니다."
+    },
+    "setacct_companion_status_title": {
+        "message": "데스크톱 컴패니언 상태"
+    },
+    "setacct_companion_title": {
+        "message": "컴패니언 앱"
+    },
+    "setacct_delay_1m": {
+        "message": "1분"
+    },
+    "setacct_delay_2m": {
+        "message": "2분"
+    },
+    "setacct_delay_30s": {
+        "message": "30초"
+    },
+    "setacct_delay_5m": {
+        "message": "5분"
+    },
+    "setacct_poll_10m": {
+        "message": "10분"
+    },
+    "setacct_poll_1m": {
+        "message": "1분"
+    },
+    "setacct_poll_3m": {
+        "message": "3분"
+    },
+    "setacct_poll_5m": {
+        "message": "5분"
+    },
+    "setacct_poll_meta": {
+        "message": "클라우드에서 변경 사항을 확인하는 주기입니다."
+    },
+    "setacct_poll_title": {
+        "message": "업데이트 확인"
+    },
+    "setacct_syncdelay_meta": {
+        "message": "로컬 변경 후 푸시하기까지 대기합니다."
+    },
+    "setacct_syncdelay_title": {
+        "message": "동기화 지연"
+    },
+    "setbg_advanced_heading": {
+        "message": "고급 그라디언트"
+    },
+    "setbg_anim_aurora_borealis": {
+        "message": "오로라 보레알리스"
+    },
+    "setbg_anim_aurora_dream": {
+        "message": "오로라 드림"
+    },
+    "setbg_anim_gentle_breeze": {
+        "message": "부드러운 산들바람"
+    },
+    "setbg_anim_gentle_prism": {
+        "message": "부드러운 프리즘"
+    },
+    "setbg_anim_liquid_motion": {
+        "message": "리퀴드 모션"
+    },
+    "setbg_anim_ocean_wave": {
+        "message": "바다 물결"
+    },
+    "setbg_anim_prism_light": {
+        "message": "프리즘 라이트"
+    },
+    "setbg_anim_shimmer": {
+        "message": "시머"
+    },
+    "setbg_anim_sunset_flow": {
+        "message": "선셋 플로우"
+    },
+    "setbg_animated_heading": {
+        "message": "애니메이션 배경"
+    },
+    "setbg_custom_css_apply": {
+        "message": "적용"
+    },
+    "setbg_custom_css_heading": {
+        "message": "사용자 지정 CSS"
+    },
+    "setbg_custom_css_help_aria": {
+        "message": "사용자 지정 CSS에 대한 도움말"
+    },
+    "setbg_custom_css_help_title": {
+        "message": "사용자 지정 CSS에 대한 도움말"
+    },
+    "setbg_custom_css_placeholder": {
+        "message": "유효한 모든 CSS 배경 값, 예:\nradial-gradient(circle, #ff6b6b, #4ecdc4)\nurl('https://...') center/cover"
+    },
+    "setbg_custom_image_heading": {
+        "message": "사용자 지정 이미지"
+    },
+    "setbg_gradient_heading": {
+        "message": "그라디언트 배경"
+    },
+    "setbg_reset": {
+        "message": "기본값으로 재설정"
+    },
+    "setbg_solid_heading": {
+        "message": "단색"
+    },
+    "setbg_solid_pick_label": {
+        "message": "배경색 선택"
+    },
+    "setbg_theme_dark": {
+        "message": "기본 다크"
+    },
+    "setbg_theme_dark_title": {
+        "message": "기본 다크"
+    },
+    "setbg_theme_defaults_heading": {
+        "message": "테마 기본값"
+    },
+    "setbg_theme_lavender_sky": {
+        "message": "라벤더 스카이"
+    },
+    "setbg_theme_lavender_sky_title": {
+        "message": "라벤더 스카이"
+    },
+    "setbg_theme_light": {
+        "message": "기본 라이트"
+    },
+    "setbg_theme_light_title": {
+        "message": "기본 라이트"
+    },
+    "setbg_theme_luxury": {
+        "message": "럭셔리"
+    },
+    "setbg_theme_luxury_title": {
+        "message": "럭셔리"
+    },
+    "setbg_theme_midnight": {
+        "message": "미드나잇"
+    },
+    "setbg_theme_midnight_title": {
+        "message": "미드나잇"
+    },
+    "setbg_theme_nordic": {
+        "message": "노르딕"
+    },
+    "setbg_theme_nordic_title": {
+        "message": "노르딕"
+    },
+    "setbg_theme_ocean": {
+        "message": "오션"
+    },
+    "setbg_theme_ocean_title": {
+        "message": "오션"
+    },
+    "setbg_theme_pastel_sunset": {
+        "message": "파스텔 선셋"
+    },
+    "setbg_theme_pastel_sunset_title": {
+        "message": "파스텔 선셋"
+    },
+    "setbg_theme_professional": {
+        "message": "프로페셔널"
+    },
+    "setbg_theme_professional_title": {
+        "message": "프로페셔널"
+    },
+    "setbg_theme_sakura": {
+        "message": "사쿠라"
+    },
+    "setbg_theme_sakura_title": {
+        "message": "사쿠라"
+    },
+    "setbg_theme_simple": {
+        "message": "심플 (기본값)"
+    },
+    "setbg_theme_simple_title": {
+        "message": "심플 (기본값)"
+    },
+    "setbg_upload": {
+        "message": "업로드"
+    },
+    "setbg_tabs_aria": {
+        "message": "배경 유형"
+    },
+    "setbg_tab_themes": {
+        "message": "테마"
+    },
+    "setbg_tab_animated": {
+        "message": "애니메이션"
+    },
+    "setbg_tab_gradients": {
+        "message": "그라데이션"
+    },
+    "setbg_tab_solid": {
+        "message": "단색"
+    },
+    "setbg_tab_image": {
+        "message": "이미지"
+    },
+    "setbg_tab_css": {
+        "message": "CSS"
+    },
+    "setbg_scene_wave": {
+        "message": "물결"
+    },
+    "setbg_scene_waves": {
+        "message": "물결들"
+    },
+    "setbg_scene_swell": {
+        "message": "너울"
+    },
+    "setbg_scene_constellation": {
+        "message": "별자리"
+    },
+    "setbg_scene_grid": {
+        "message": "그리드"
+    },
+    "setbg_scene_drift": {
+        "message": "방울"
+    },
+    "setbg_scene_leaves": {
+        "message": "나뭇잎"
+    },
+    "setbg_scene_maple": {
+        "message": "단풍잎"
+    },
+    "setbg_scene_snow": {
+        "message": "눈"
+    },
+    "setbg_scene_rain": {
+        "message": "비"
+    },
+    "setbg_scene_tint": {
+        "message": "색조"
+    },
+    "setbg_scene_tint_custom": {
+        "message": "사용자 지정 색조"
+    },
+    "setbg_scene_tint_teal": {
+        "message": "청록"
+    },
+    "setbg_scene_tint_coral": {
+        "message": "코랄"
+    },
+    "setbg_scene_tint_moss": {
+        "message": "이끼"
+    },
+    "setbg_scene_tint_indigo": {
+        "message": "인디고"
+    },
+    "setbg_scene_tint_magenta": {
+        "message": "마젠타"
+    },
+    "setbg_scene_tint_amber": {
+        "message": "호박색"
+    },
+    "setbg_scene_variant": {
+        "message": "모양"
+    },
+    "setbg_scene_variant_system": {
+        "message": "시스템"
+    },
+    "setbg_scene_variant_dark": {
+        "message": "어둡게"
+    },
+    "setbg_scene_variant_light": {
+        "message": "밝게"
+    },
+    "setbg_solid_sand": {
+        "message": "모래"
+    },
+    "setbg_solid_sage": {
+        "message": "세이지"
+    },
+    "setbg_solid_slate": {
+        "message": "슬레이트"
+    },
+    "setbg_solid_terracotta": {
+        "message": "테라코타"
+    },
+    "setbg_solid_ink": {
+        "message": "잉크"
+    },
+    "setbg_solid_blush": {
+        "message": "블러시"
+    },
+    "setbg_solid_custom": {
+        "message": "사용자 지정"
+    },
+    "setbg_name_custom_color": {
+        "message": "사용자 지정 색상"
+    },
+    "setbg_name_custom_image": {
+        "message": "사용자 지정 이미지"
+    },
+    "setbg_name_custom_css": {
+        "message": "사용자 지정 CSS"
+    },
+    "setbg_name_gradient": {
+        "message": "그라데이션"
+    },
+    "setbg_image_drop": {
+        "message": "이미지를 끌어다 놓거나 파일을 선택하세요"
+    },
+    "setdata_backup": {
+        "message": "백업"
+    },
+    "setdata_bookmarks_help_aria": {
+        "message": "북마크에서 가져오기에 대한 도움말"
+    },
+    "setdata_bookmarks_help_title": {
+        "message": "북마크에서 가져오기에 대한 도움말"
+    },
+    "setdata_bring_links": {
+        "message": "링크 가져오기"
+    },
+    "setdata_choose_file": {
+        "message": "파일 선택"
+    },
+    "setdata_clear_btn": {
+        "message": "지우기"
+    },
+    "setdata_export_btn": {
+        "message": "내보내기"
+    },
+    "setdata_export_desc": {
+        "message": "워크스페이스와 설정을 하나의 JSON 파일로"
+    },
+    "setdata_export_title": {
+        "message": "대시보드 내보내기"
+    },
+    "setdata_from_bookmark_folder": {
+        "message": "북마크 폴더에서"
+    },
+    "setdata_import_bookmarks_btn": {
+        "message": "가져오기"
+    },
+    "setdata_import_desc": {
+        "message": "현재 데이터를 대체합니다"
+    },
+    "setdata_import_title": {
+        "message": "대시보드 가져오기"
+    },
+    "setdata_no_snapshot": {
+        "message": "아직 저장된 스냅샷이 없습니다"
+    },
+    "setdata_restore_btn": {
+        "message": "복원"
+    },
+    "setdata_save_window_btn": {
+        "message": "저장"
+    },
+    "setdata_save_window_desc": {
+        "message": "열린 탭을 그룹으로 캡처"
+    },
+    "setdata_save_window_title": {
+        "message": "현재 창 저장"
+    },
+    "setdata_select_folder": {
+        "message": "폴더 선택…"
+    },
+    "setdata_session_help_aria": {
+        "message": "세션 복구에 대한 도움말"
+    },
+    "setdata_session_help_title": {
+        "message": "세션 복구에 대한 도움말"
+    },
+    "setdata_session_recovery": {
+        "message": "세션 복구"
+    },
+    "setdata_snapshot_meta": {
+        "message": "스냅샷 · 아직 스냅샷 없음"
+    },
+    "setdata_view_btn": {
+        "message": "보기"
+    },
+    "setg_favicons_autofetch": {
+        "message": "링크 저장 시 파비콘 자동 가져오기"
+    },
+    "setg_favicons_get_all": {
+        "message": "모든 링크의 파비콘 가져오기"
+    },
+    "setg_favicons_remove_all": {
+        "message": "모든 아이콘 제거 (이 작업 공간)"
+    },
+    "setg_favicons_title": {
+        "message": "파비콘"
+    },
+    "setg_greeting_show": {
+        "message": "헤더에 인사말 표시"
+    },
+    "setg_greeting_title": {
+        "message": "인사말"
+    },
+    "setg_groups_autogrow": {
+        "message": "항목 추가 시 그룹 자동 확장"
+    },
+    "setg_groups_title": {
+        "message": "그룹"
+    },
+    "setg_link_health_check": {
+        "message": "저장된 링크 자동 확인"
+    },
+    "setg_link_health_help_aria": {
+        "message": "링크 상태에 대한 도움말"
+    },
+    "setg_link_health_help_title": {
+        "message": "링크 상태에 대한 도움말"
+    },
+    "setg_link_health_title": {
+        "message": "링크 상태 ✦"
+    },
+    "setg_logo_desc": {
+        "message": "로고는 종횡비를 유지하며 아래쪽이 작업 공간 탭에 맞춰 정렬됩니다."
+    },
+    "setg_logo_help_aria": {
+        "message": "로고에 대한 도움말"
+    },
+    "setg_logo_help_title": {
+        "message": "로고에 대한 도움말"
+    },
+    "setg_logo_remove": {
+        "message": "제거"
+    },
+    "setg_logo_size": {
+        "message": "로고 크기"
+    },
+    "setg_logo_size_big": {
+        "message": "크게 — 최대 120px"
+    },
+    "setg_logo_size_middle": {
+        "message": "중간 — 최대 80px"
+    },
+    "setg_logo_size_small": {
+        "message": "작게 — 최대 40px"
+    },
+    "setg_logo_title": {
+        "message": "로고"
+    },
+    "setg_logo_upload": {
+        "message": "로고 업로드"
+    },
+    "setg_overlay_title": {
+        "message": "다른 페이지의 오버레이"
+    },
+    "setg_searchbar_engine": {
+        "message": "엔진"
+    },
+    "setg_searchbar_engine_bing": {
+        "message": "Bing"
+    },
+    "setg_searchbar_engine_brave": {
+        "message": "Brave"
+    },
+    "setg_searchbar_engine_browser": {
+        "message": "브라우저 기본값"
+    },
+    "setg_searchbar_engine_duckduckgo": {
+        "message": "DuckDuckGo"
+    },
+    "setg_searchbar_engine_google": {
+        "message": "Google"
+    },
+    "setg_searchbar_engine_yahoo": {
+        "message": "Yahoo"
+    },
+    "setg_searchbar_help_aria": {
+        "message": "검색창에 대한 도움말"
+    },
+    "setg_searchbar_help_title": {
+        "message": "검색창에 대한 도움말"
+    },
+    "setg_searchbar_newtab": {
+        "message": "새 탭에서 결과 열기"
+    },
+    "setg_searchbar_show": {
+        "message": "검색창 표시"
+    },
+    "setg_tasks_title": {
+        "message": "작업"
+    },
+    "setg_tasks_badge": {
+        "message": "작업 버튼에 남은 작업 수 표시"
+    },
+    "setg_tasks_notifications": {
+        "message": "Task reminder notifications"
+    },
+    "setg_tasks_notif_blocked": {
+        "message": "Blocked by the browser. Allow notifications for this extension to receive task reminders."
+    },
+    "setg_searchbar_title": {
+        "message": "검색창"
+    },
+    "setg_session_desc": {
+        "message": "저장된 세션이 있을 때 시작 시 ReadyTab이 복구 안내 상자를 표시할지 여부를 제어합니다."
+    },
+    "setg_session_show": {
+        "message": "시작 시 복구 안내 상자 표시"
+    },
+    "setg_session_title": {
+        "message": "세션 복구"
+    },
+    "setg_show_date": {
+        "message": "날짜 표시"
+    },
+    "setg_spotlight_all_pages": {
+        "message": "모든 페이지에서 사용"
+    },
+    "setg_spotlight_appearance": {
+        "message": "모양"
+    },
+    "setg_spotlight_gesture": {
+        "message": "마우스 제스처로 열기"
+    },
+    "setg_spotlight_group_name": {
+        "message": "그룹 이름으로 검색"
+    },
+    "setg_spotlight_help_aria": {
+        "message": "스포트라이트 검색에 대한 도움말"
+    },
+    "setg_spotlight_help_title": {
+        "message": "스포트라이트 검색에 대한 도움말"
+    },
+    "setg_spotlight_matching_tabs": {
+        "message": "일치하는 열린 탭을 결과에 표시"
+    },
+    "setg_spotlight_shortcuts": {
+        "message": "단축키 표시"
+    },
+    "setg_spotlight_tabs": {
+        "message": "탭 리본 표시"
+    },
+    "setg_spotlight_tabs_domain": {
+        "message": "탭을 도메인별로 그룹화"
+    },
+    "setg_spotlight_tabs_orientation": {
+        "message": "리본 레이아웃"
+    },
+    "setg_spotlight_tabs_orientation_left": {
+        "message": "왼쪽 (세로)"
+    },
+    "setg_spotlight_tabs_orientation_top": {
+        "message": "상단 (가로)"
+    },
+    "setg_spotlight_theme_dark": {
+        "message": "다크"
+    },
+    "setg_spotlight_theme_light": {
+        "message": "라이트"
+    },
+    "setg_spotlight_title": {
+        "message": "스포트라이트 검색"
+    },
+    "setg_tab_ribbon_title": {
+        "message": "탭 리본"
+    },
+    "setlay_apply_btn": {
+        "message": "적용"
+    },
+    "setlay_apply_to_other": {
+        "message": "다른 작업 공간에 적용..."
+    },
+    "setlay_autoarrange_desc": {
+        "message": "모든 그룹을 위로 채워 빈 공간을 없애고, 내용이 잘린 그룹은 확장합니다."
+    },
+    "setlay_autoarrange_title": {
+        "message": "레이아웃 자동 정렬"
+    },
+    "setlay_background_title": {
+        "message": "배경"
+    },
+    "setlay_compact_btn": {
+        "message": "간결한 레이아웃"
+    },
+    "setlay_copy_from_ws_desc": {
+        "message": "다른 작업 공간의 배경과 테마를 이 작업 공간으로 복사합니다."
+    },
+    "setlay_copy_from_ws_help_aria": {
+        "message": "작업 공간에서 복사에 대한 도움말"
+    },
+    "setlay_copy_from_ws_help_title": {
+        "message": "작업 공간에서 복사에 대한 도움말"
+    },
+    "setlay_copy_from_ws_title": {
+        "message": "작업 공간에서 복사"
+    },
+    "setlay_current_theme_label": {
+        "message": "현재 테마"
+    },
+    "setlay_headsup_label": {
+        "message": "참고:"
+    },
+    "setlay_headsup_text": {
+        "message": "이 작업은 배경뿐 아니라 작업 공간 테마도 함께 복사합니다."
+    },
+    "setlay_theme_aurora": {
+        "message": "오로라 글라스"
+    },
+    "setlay_theme_dark": {
+        "message": "다크"
+    },
+    "setlay_theme_frost": {
+        "message": "프로스트"
+    },
+    "setlay_theme_help_aria": {
+        "message": "테마에 대한 도움말"
+    },
+    "setlay_theme_help_title": {
+        "message": "테마에 대한 도움말"
+    },
+    "setlay_theme_lavender": {
+        "message": "라벤더 스카이"
+    },
+    "setlay_theme_light": {
+        "message": "라이트"
+    },
+    "setlay_theme_luxury": {
+        "message": "럭셔리"
+    },
+    "setlay_theme_midnight": {
+        "message": "미드나잇"
+    },
+    "setlay_theme_nordic": {
+        "message": "노르딕"
+    },
+    "setlay_theme_ocean": {
+        "message": "오션"
+    },
+    "setlay_theme_pastel": {
+        "message": "파스텔 선셋"
+    },
+    "setlay_theme_professional": {
+        "message": "프로페셔널"
+    },
+    "setlay_theme_sakura": {
+        "message": "사쿠라"
+    },
+    "setlay_theme_simple": {
+        "message": "심플 (기본값)"
+    },
+    "setlay_theme_title": {
+        "message": "테마"
+    },
+    "setspc_board_token_placeholder": {
+        "message": "보드 토큰"
+    },
+    "setspc_drag_reorder": {
+        "message": "드래그하여 순서 변경"
+    },
+    "setspc_help_import_aria": {
+        "message": "코드에서 가져오기에 대한 도움말"
+    },
+    "setspc_help_import_title": {
+        "message": "코드에서 가져오기에 대한 도움말"
+    },
+    "setspc_help_managed_aria": {
+        "message": "관리 보드에 대한 도움말"
+    },
+    "setspc_help_managed_title": {
+        "message": "관리 보드에 대한 도움말"
+    },
+    "setspc_help_spaces_aria": {
+        "message": "스페이스에 대한 도움말"
+    },
+    "setspc_help_spaces_title": {
+        "message": "스페이스에 대한 도움말"
+    },
+    "setspc_import_btn": {
+        "message": "가져오기"
+    },
+    "setspc_import_desc": {
+        "message": "공유 코드를 붙여넣어 공유받은 작업 공간의 사본을 가져옵니다."
+    },
+    "setspc_import_from_code": {
+        "message": "코드에서 가져오기"
+    },
+    "setspc_import_placeholder": {
+        "message": "예: A3X9KZ.4F2A9C7D1E5B"
+    },
+    "setspc_managed_boards_desc": {
+        "message": "다른 사용자가 구독할 수 있는 보드입니다. 기본적으로 읽기 전용이며 공유 편집 키로 편집할 수 있습니다."
+    },
+    "setspc_managed_boards_row": {
+        "message": "관리 보드"
+    },
+    "setspc_managed_boards_title": {
+        "message": "관리 보드 ✦"
+    },
+    "setspc_managed_manage_btn": {
+        "message": "관리"
+    },
+    "setspc_pro_badge": {
+        "message": "✦ Pro"
+    },
+    "setspc_pro_note": {
+        "message": "코드로 작업 공간을 공유하고 보드를 온라인에 게시하는 것은 Pro 기능입니다. 공유받은 작업 공간을 가져오는 것은 항상 무료입니다."
+    },
+    "setspc_published_boards": {
+        "message": "게시된 보드"
+    },
+    "setspc_published_boards_desc": {
+        "message": "직접 만든 공개 읽기 전용 링크"
+    },
+    "setspc_published_manage_btn": {
+        "message": "관리"
+    },
+    "setspc_rename_cancel": {
+        "message": "취소"
+    },
+    "setspc_rename_error": {
+        "message": "스페이스 이름을 입력하세요."
+    },
+    "setspc_rename_placeholder": {
+        "message": "스페이스 이름 입력"
+    },
+    "setspc_rename_save": {
+        "message": "저장"
+    },
+    "setspc_rename_title": {
+        "message": "스페이스 이름 변경"
+    },
+    "setspc_shared_boards": {
+        "message": "공유된 보드"
+    },
+    "setspc_shared_boards_desc": {
+        "message": "공유 코드로 다른 사람이 보드의 독립적인 사본을 가져올 수 있습니다. 이후 변경 사항은 동기화되지 않습니다."
+    },
+    "setspc_shared_manage_btn": {
+        "message": "관리"
+    },
+    "setspc_subscribe_btn": {
+        "message": "구독"
+    },
+    "setspc_subscribe_title": {
+        "message": "보드 구독"
+    },
+    "setspc_workspaces": {
+        "message": "작업 공간"
+    },
+    "settings_clock": {
+        "message": "시계"
+    },
+    "settings_clock_12h": {
+        "message": "12h (AM/PM)"
+    },
+    "settings_clock_format": {
+        "message": "형식"
+    },
+    "settings_clock_help": {
+        "message": "시계에 대한 도움말"
+    },
+    "settings_help_about": {
+        "message": "$1 도움말"
+    },
+    "settings_help_this_setting": {
+        "message": "이 설정"
+    },
+    "settings_link_behavior": {
+        "message": "링크 동작"
+    },
+    "settings_link_behavior_help": {
+        "message": "링크 동작에 대한 도움말"
+    },
+    "settings_link_current_tab": {
+        "message": "현재 탭"
+    },
+    "settings_link_new_tab": {
+        "message": "새 탭"
+    },
+    "settings_open_links_in": {
+        "message": "링크 열기 위치"
+    },
+    "settings_show_clock": {
+        "message": "헤더에 시계 표시"
+    },
+    "settings_show_seconds": {
+        "message": "초 표시"
+    },
+    "settings_tab_account": {
+        "message": "계정"
+    },
+    "settings_tab_data": {
+        "message": "데이터"
+    },
+    "settings_tab_design": {
+        "message": "디자인"
+    },
+    "settings_tab_general": {
+        "message": "일반"
+    },
+    "settings_tab_spaces": {
+        "message": "스페이스"
+    },
+    "settings_title": {
+        "message": "설정"
+    },
+    "sgh_sync_applies": {
+        "message": "자동 동기화는 계정에서 선택한 활성 클라우드 대시보드에 적용됩니다."
+    },
+    "sgh_sync_choose_dashboard": {
+        "message": "계정에서 클라우드 대시보드를 선택하거나 만드세요. 자동 동기화는 항상 그곳의 활성 대시보드에 적용됩니다."
+    },
+    "sgh_sync_connect_pro": {
+        "message": "자동 클라우드 동기화를 실행하려면 먼저 계정에서 Pro 계정을 연결하세요."
+    },
+    "sgh_sync_needs_pro": {
+        "message": "클라우드 대시보드를 자동으로 동기화하려면 ReadyTab Pro가 필요합니다."
+    },
+    "sgh_sync_uses": {
+        "message": "자동 동기화는 계정에서 선택한 활성 클라우드 대시보드를 사용합니다."
+    },
+    "shadow_glow": {
+        "message": "발광"
+    },
+    "shadow_medium": {
+        "message": "중간"
+    },
+    "shadow_none": {
+        "message": "없음"
+    },
+    "shadow_strong": {
+        "message": "강함"
+    },
+    "shadow_subtle": {
+        "message": "은은함 (종이)"
+    },
+    "sl26_activate": {
+        "message": "활성화"
+    },
+    "sl26_activating": {
+        "message": "활성화 중…"
+    },
+    "sl26_active": {
+        "message": "활성"
+    },
+    "sl26_active_dashboard": {
+        "message": "활성 대시보드"
+    },
+    "sl26_back": {
+        "message": "뒤로"
+    },
+    "sl26_backup_sync_desc": {
+        "message": "여러 기기에서 작업 공간을 백업하고 동기화하세요. 보드 데이터는 브라우저를 떠나기 전에 암호화됩니다."
+    },
+    "sl26_close": {
+        "message": "닫기"
+    },
+    "sl26_cloud": {
+        "message": "클라우드"
+    },
+    "sl26_cloud_dashboards": {
+        "message": "클라우드 대시보드"
+    },
+    "sl26_cloud_sync": {
+        "message": "클라우드 동기화"
+    },
+    "sl26_confirm_delete_dashboard": {
+        "message": "이 클라우드 대시보드를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "sl26_confirm_pull": {
+        "message": "가져오기 확인"
+    },
+    "sl26_confirm_update": {
+        "message": "업데이트 확인"
+    },
+    "sl26_connect_cloud_sync": {
+        "message": "클라우드 동기화 연결"
+    },
+    "sl26_connect_to_cloud": {
+        "message": "클라우드에 연결"
+    },
+    "sl26_connecting": {
+        "message": "연결 중…"
+    },
+    "sl26_copied": {
+        "message": "복사됨!"
+    },
+    "sl26_copy_key": {
+        "message": "키 복사"
+    },
+    "sl26_copy_key_aria": {
+        "message": "라이선스 키 복사"
+    },
+    "sl26_dashboard_name_placeholder": {
+        "message": "대시보드 이름…"
+    },
+    "sl26_days_ago": {
+        "message": "$1일 전"
+    },
+    "sl26_deactivates_pro": {
+        "message": "이 기기에서 라이선스와 유료 기능을 제거합니다."
+    },
+    "sl26_delete_dashboard": {
+        "message": "대시보드 삭제"
+    },
+    "sl26_enter_dashboard_name": {
+        "message": "대시보드 이름을 입력하세요."
+    },
+    "sl26_get_pro": {
+        "message": "요금제 비교"
+    },
+    "sl26_have_license_key": {
+        "message": "이미 라이선스 키가 있으신가요?"
+    },
+    "sl26_hours_ago": {
+        "message": "$1시간 전"
+    },
+    "sl26_just_now": {
+        "message": "방금"
+    },
+    "sl26_latest_snapshot": {
+        "message": "최신 스냅샷"
+    },
+    "sl26_license": {
+        "message": "라이선스"
+    },
+    "sl26_license_key": {
+        "message": "라이선스 키"
+    },
+    "sl26_loading": {
+        "message": "불러오는 중…"
+    },
+    "sl26_local": {
+        "message": "로컬"
+    },
+    "sl26_manage": {
+        "message": "관리"
+    },
+    "sl26_min_ago": {
+        "message": "$1분 전"
+    },
+    "sl26_missing_protected_warning": {
+        "message": "이 $1은(는) 보호된 작업 공간 백업 지원 이전의 것입니다. ReadyTab이 \"$3\"의 작업 공간 탭$2을(를) 복원했지만, 보호된 콘텐츠는 포함되지 않았습니다. $4"
+    },
+    "sl26_more_actions": {
+        "message": "추가 작업"
+    },
+    "sl26_my_dashboard": {
+        "message": "내 대시보드"
+    },
+    "sl26_next": {
+        "message": "다음"
+    },
+    "sl26_no_dashboards_yet": {
+        "message": "아직 클라우드 대시보드가 없습니다. 아래에서 현재 작업 공간을 푸시하여 첫 번째 대시보드를 만드세요."
+    },
+    "sl26_no_versions_yet": {
+        "message": "아직 저장된 버전이 없습니다. 버전은 대시보드를 업데이트할 때마다 자동으로 생성됩니다(최대 5개 보관)."
+    },
+    "sl26_not_synced": {
+        "message": "동기화 안 됨"
+    },
+    "sl26_page_of": {
+        "message": "$2페이지 중 $1페이지"
+    },
+    "sl26_plan_annual": {
+        "message": "연간 라이선스"
+    },
+    "sl26_plan_annual_expires": {
+        "message": "연간 라이선스 · $1 만료"
+    },
+    "sl26_plan_lifetime": {
+        "message": "평생 라이선스"
+    },
+    "sl26_preview_pull_local": {
+        "message": "변경 사항 미리 보고 로컬로 가져오기"
+    },
+    "sl26_preview_restore": {
+        "message": "미리 보기 및 복원"
+    },
+    "sl26_preview_update_cloud": {
+        "message": "변경 사항 미리 보고 클라우드 업데이트"
+    },
+    "sl26_previous": {
+        "message": "이전"
+    },
+    "sl26_change_title": {
+        "message": "라이선스를 변경하기 전에"
+    },
+    "sl26_change_warning": {
+        "message": "이 라이선스를 제거하면 클라우드 연결이 해제됩니다. 다른 키로는 기존 클라우드 대시보드, 설정 또는 기록에 접근할 수 없습니다. 기존 키에 연결된 상태로 남으며 이전되지 않습니다. 로컬 작업 공간은 이 기기에 남습니다."
+    },
+    "sl26_change_backup": {
+        "message": "계속하기 전에 설정 → 데이터에서 현재 데이터를 JSON으로 내보내세요."
+    },
+    "sl26_change_export_scope": {
+        "message": "이 내보내기에는 현재 로컬 작업 공간이 포함되며, 저장된 모든 클라우드 대시보드나 기록은 포함되지 않습니다. 보호된 작업 공간의 잠금을 먼저 해제하세요. 잠긴 공간은 제외됩니다."
+    },
+    "sl26_change_publishing": {
+        "message": "이 라이선스로 공유, 게시 또는 호스팅한 보드를 관리할 권한도 잃게 됩니다."
+    },
+    "sl26_change_continue": {
+        "message": "다른 라이선스 활성화"
+    },
+    "sl26_change_export": {
+        "message": "현재 데이터를 JSON으로 내보내기"
+    },
+    "sl26_sync_only": {
+        "message": "동기화 전용"
+    },
+    "sl26_included": {
+        "message": "포함"
+    },
+    "sl26_not_included": {
+        "message": "미포함"
+    },
+    "sl26_sharing_publishing_hosting": {
+        "message": "공유, 게시 및 팀 보드 호스팅"
+    },
+    "sl26_pro_active": {
+        "message": "Pro 활성"
+    },
+    "sl26_pro_upsell_desc": {
+        "message": "Free는 무제한 로컬 작업 공간을 제공합니다. 클라우드 동기화는 Sync, 동기화·공유·게시·팀 보드 호스팅은 Full을 선택하세요."
+    },
+    "sl26_pull": {
+        "message": "가져오기"
+    },
+    "sl26_pull_named": {
+        "message": "\"$1\" 가져오기"
+    },
+    "sl26_pulling": {
+        "message": "가져오는 중…"
+    },
+    "sl26_push_as_new": {
+        "message": "새로 푸시"
+    },
+    "sl26_push_new_dashboard": {
+        "message": "새 대시보드 푸시"
+    },
+    "sl26_push_new_dashboard_desc": {
+        "message": "현재 작업 공간을 새 클라우드 대시보드로 저장합니다."
+    },
+    "sl26_pushed_new_dashboard": {
+        "message": "새 클라우드 대시보드로 푸시됨"
+    },
+    "sl26_pushing": {
+        "message": "푸시하는 중…"
+    },
+    "sl26_recovery_repush": {
+        "message": "누락된 데이터를 복구하려면 원래 기기에서 다시 푸시하세요."
+    },
+    "sl26_recovery_restore_newer": {
+        "message": "누락된 데이터를 복구하려면 더 최신 스냅샷을 복원하거나 원래 기기에서 다시 푸시하세요."
+    },
+    "sl26_remove": {
+        "message": "제거"
+    },
+    "sl26_remove_license": {
+        "message": "라이선스 제거"
+    },
+    "sl26_removing": {
+        "message": "제거 중…"
+    },
+    "sl26_restore_this_version": {
+        "message": "이 버전 복원"
+    },
+    "sl26_restore_version_of": {
+        "message": "\"$1\"의 버전 복원"
+    },
+    "sl26_restored_version": {
+        "message": "복원된 버전"
+    },
+    "sl26_restoring": {
+        "message": "복원 중…"
+    },
+    "sl26_show_hide": {
+        "message": "표시 / 숨기기"
+    },
+    "sl26_show_hide_key_aria": {
+        "message": "라이선스 키 표시 또는 숨기기"
+    },
+    "sl26_snapshot": {
+        "message": "스냅샷"
+    },
+    "sl26_something_wrong": {
+        "message": "문제가 발생했습니다."
+    },
+    "sl26_synced_ago": {
+        "message": "$1 동기화됨"
+    },
+    "sl26_update": {
+        "message": "업데이트"
+    },
+    "sl26_update_named": {
+        "message": "\"$1\" 업데이트"
+    },
+    "sl26_version": {
+        "message": "버전"
+    },
+    "sl26_version_history": {
+        "message": "버전 기록"
+    },
+    "sl26_workspaces_backed_up": {
+        "message": "작업 공간이 여러 기기에서 백업되고 동기화됩니다. 보드 데이터는 브라우저를 떠나기 전에 암호화됩니다."
+    },
+    "slh16_added_favicons": {
+        "message": "$1개 링크에 파비콘을 추가했습니다$2"
+    },
+    "slh16_could_not_fetch_favicons": {
+        "message": "파비콘을 가져올 수 없습니다"
+    },
+    "slh16_could_not_remove_icons": {
+        "message": "아이콘을 제거할 수 없습니다"
+    },
+    "slh16_favicon_overwrite_confirm": {
+        "message": "이미 설정된 아이콘도 교체하시겠습니까?\n\n확인 – 모든 링크의 파비콘을 다시 가져옵니다(기존 아이콘 덮어쓰기)\n취소 – 아이콘이 없는 링크에만 파비콘을 추가합니다"
+    },
+    "slh16_fetching_favicons": {
+        "message": "파비콘 가져오는 중…"
+    },
+    "slh16_no_icons_to_remove": {
+        "message": "이 작업 공간에 제거할 아이콘이 없습니다"
+    },
+    "slh16_no_links_with_url": {
+        "message": "URL이 있는 링크를 찾을 수 없습니다"
+    },
+    "slh16_no_links_without_icon": {
+        "message": "아이콘이 없는 링크를 찾을 수 없습니다"
+    },
+    "slh16_remove_all_icons_confirm": {
+        "message": "현재 작업 공간의 모든 링크에서 아이콘을 제거하시겠습니까?\n\n이 작업은 활성 작업 공간에만 영향을 미치며 되돌릴 수 없습니다."
+    },
+    "slh16_removed_icons": {
+        "message": "아이콘 $1개를 제거했습니다$2"
+    },
+    "slh16_removing_icons": {
+        "message": "아이콘 제거 중…"
+    },
+    "slh16_revert": {
+        "message": "되돌리기"
+    },
+    "slh16_theme_changed": {
+        "message": "테마가 $1(으)로 변경되었습니다"
+    },
+    "slh16_updated_favicons": {
+        "message": "$1개 링크의 파비콘을 업데이트했습니다$2"
+    },
+    "smh17_checking": {
+        "message": "확인 중…"
+    },
+    "smh17_connected": {
+        "message": "연결됨"
+    },
+    "smh17_connected_version": {
+        "message": "연결됨 (v$1)"
+    },
+    "smh17_err_generic": {
+        "message": "오류: $1"
+    },
+    "smh17_err_host_crashed": {
+        "message": "호스트가 충돌했습니다 — host.ps1에서 오류를 확인하세요"
+    },
+    "smh17_err_id_mismatch": {
+        "message": "확장 프로그램 ID 불일치 — 올바른 -ProductionId 또는 -DevId로 install.ps1을 다시 실행하세요"
+    },
+    "smh17_err_not_found": {
+        "message": "찾을 수 없음 — install.ps1을 실행하고 Chrome을 다시 시작하세요"
+    },
+    "smh17_no_error_msg": {
+        "message": "(반환된 오류 메시지 없음)"
+    },
+    "smh17_not_installed": {
+        "message": "설치되지 않음"
+    },
+    "spc_add_link": {
+        "message": "링크 추가"
+    },
+    "spc_add_link_button": {
+        "message": "링크 버튼 추가"
+    },
+    "spc_btn_add": {
+        "message": "추가"
+    },
+    "spc_err_add_link_button": {
+        "message": "페이지를 링크 버튼으로 추가할 수 없습니다."
+    },
+    "spc_err_add_to_group": {
+        "message": "페이지를 해당 그룹에 추가할 수 없습니다."
+    },
+    "spc_err_create_group": {
+        "message": "새 그룹을 만들 수 없습니다."
+    },
+    "spc_err_enter_new_group": {
+        "message": "새 그룹 이름을 입력하세요."
+    },
+    "spc_err_group_exists": {
+        "message": "\"$1\" 그룹이 이미 존재합니다."
+    },
+    "spc_footer_add": {
+        "message": "추가"
+    },
+    "spc_footer_close": {
+        "message": "닫기"
+    },
+    "spc_footer_navigate": {
+        "message": "이동"
+    },
+    "spc_footer_next_field": {
+        "message": "다음 필드"
+    },
+    "spc_footer_open": {
+        "message": "열기"
+    },
+    "spc_label_group": {
+        "message": "그룹"
+    },
+    "spc_label_new_group": {
+        "message": "새 그룹 이름"
+    },
+    "spc_label_title": {
+        "message": "제목"
+    },
+    "spc_label_workspace": {
+        "message": "워크스페이스"
+    },
+    "spc_new_group_option": {
+        "message": "+ 새 그룹…"
+    },
+    "spc_no_results": {
+        "message": "\"$1\"에 대한 결과가 없습니다"
+    },
+    "spc_placeholder_new_group": {
+        "message": "고유한 그룹 이름을 입력하세요"
+    },
+    "spc_placeholder_page_title": {
+        "message": "페이지 제목"
+    },
+    "spc_search_placeholder": {
+        "message": "링크 검색…"
+    },
+    "spc_search_web": {
+        "message": "웹에서 \"$1\" 검색"
+    },
+    "spc_tab_current": {
+        "message": "현재"
+    },
+    "spc_tab_group_link": {
+        "message": "그룹 링크"
+    },
+    "spc_tab_link_button": {
+        "message": "링크 버튼"
+    },
+    "spc_tab_open_label": {
+        "message": "열린 탭"
+    },
+    "spc_tab_search": {
+        "message": "검색"
+    },
+    "spc_tab_switch": {
+        "message": "전환"
+    },
+    "spc_tab_close": {
+        "message": "탭 닫기"
+    },
+    "spc_tabs_domain_other": {
+        "message": "기타 탭"
+    },
+    "spc_tabs_heading": {
+        "message": "열린 탭"
+    },
+    "spc_tabs_hint": {
+        "message": "카드를 클릭하면 전환됩니다"
+    },
+    "spc_tabs_matching": {
+        "message": "일치하는 열린 탭"
+    },
+    "spc_type_link": {
+        "message": "링크"
+    },
+    "spotlight_hint_title": {
+        "message": "저장된 링크 검색"
+    },
+    "sr8_add": {
+        "message": "추가"
+    },
+    "sr8_add_step": {
+        "message": "단계 추가"
+    },
+    "sr8_alignment": {
+        "message": "정렬"
+    },
+    "sr8_arrow_direction": {
+        "message": "화살표 방향"
+    },
+    "sr8_callout_type": {
+        "message": "콜아웃 유형"
+    },
+    "sr8_change_avatar": {
+        "message": "아바타 변경"
+    },
+    "sr8_change_image": {
+        "message": "이미지 변경"
+    },
+    "sr8_change_thumbnail": {
+        "message": "썸네일 변경"
+    },
+    "sr8_copy": {
+        "message": "복사"
+    },
+    "sr8_delete": {
+        "message": "삭제"
+    },
+    "sr8_delete_element_confirm": {
+        "message": "이 요소를 삭제하시겠습니까?"
+    },
+    "sr8_done": {
+        "message": "완료"
+    },
+    "sr8_drag_to_move": {
+        "message": "드래그하여 이동"
+    },
+    "sr8_edit": {
+        "message": "편집"
+    },
+    "sr8_file_type": {
+        "message": "파일 형식"
+    },
+    "sr8_fit": {
+        "message": "맞춤"
+    },
+    "sr8_heading_level": {
+        "message": "제목 수준"
+    },
+    "sr8_or_paste_image_url": {
+        "message": "…또는 이미지 URL 붙여넣기"
+    },
+    "sr8_panel_background": {
+        "message": "패널 배경"
+    },
+    "sr8_paste_image_url": {
+        "message": "이미지 URL 붙여넣기 (https://…)"
+    },
+    "sr8_ph_callout_text": {
+        "message": "콜아웃 텍스트…"
+    },
+    "sr8_ph_code": {
+        "message": "코드…"
+    },
+    "sr8_ph_description": {
+        "message": "설명"
+    },
+    "sr8_ph_file_name": {
+        "message": "파일 이름"
+    },
+    "sr8_ph_file_url": {
+        "message": "파일 URL (https://…)"
+    },
+    "sr8_ph_heading": {
+        "message": "제목"
+    },
+    "sr8_ph_link_url": {
+        "message": "링크 URL (https://…)"
+    },
+    "sr8_ph_name": {
+        "message": "이름"
+    },
+    "sr8_ph_short_bio": {
+        "message": "간단한 소개"
+    },
+    "sr8_ph_step_title": {
+        "message": "단계 제목"
+    },
+    "sr8_ph_title": {
+        "message": "제목"
+    },
+    "sr8_ph_write_text": {
+        "message": "텍스트를 입력하세요…"
+    },
+    "sr8_remove_last_step": {
+        "message": "마지막 단계 제거"
+    },
+    "sr8_thickness": {
+        "message": "두께"
+    },
+    "srh14_card_meta": {
+        "message": "스냅샷 · $1"
+    },
+    "srh14_card_ready": {
+        "message": "$1 $2 복원 준비 완료"
+    },
+    "srh14_confirm_clear": {
+        "message": "저장된 마지막 세션 스냅샷을 지울까요?"
+    },
+    "srh14_last_updated": {
+        "message": "마지막 업데이트: $1"
+    },
+    "srh14_no_snapshot_saved": {
+        "message": "저장된 스냅샷이 아직 없습니다"
+    },
+    "srh14_no_snapshot_yet": {
+        "message": "아직 스냅샷 없음"
+    },
+    "srh14_no_supported_tabs": {
+        "message": "현재 로컬 스냅샷에 저장된 지원 탭이 없습니다."
+    },
+    "srh14_no_tabs_to_restore": {
+        "message": "복원할 탭이 없습니다"
+    },
+    "srh14_prompt_no_supported": {
+        "message": "ReadyTab이 로컬 스냅샷을 찾았지만 현재 지원되는 탭이 없습니다."
+    },
+    "srh14_restored": {
+        "message": "$1 $2 복원됨."
+    },
+    "srh14_summary_ready": {
+        "message": "$3 $4에 걸쳐 $1 $2를 확인하거나 복원할 수 있습니다."
+    },
+    "srh14_unknown": {
+        "message": "알 수 없음"
+    },
+    "srh14_untitled_tab": {
+        "message": "제목 없는 탭"
+    },
+    "srh14_view_empty": {
+        "message": "현재 스냅샷에 사용 가능한 저장된 탭이 없습니다."
+    },
+    "srh14_window_title": {
+        "message": "창 $1 · $2 $3"
+    },
+    "ss32_apply_title": {
+        "message": "\"$1\" 적용 ($2)"
+    },
+    "ss32_deactivate_btn": {
+        "message": "저장된 테마 해제"
+    },
+    "ss32_deactivate_title_active": {
+        "message": "활성화된 저장 테마를 해제하고 선택한 기본 테마를 복원합니다"
+    },
+    "ss32_deactivate_title_none": {
+        "message": "현재 활성화된 저장 테마가 없습니다"
+    },
+    "ss32_delete_title": {
+        "message": "삭제"
+    },
+    "ss32_empty": {
+        "message": "저장된 테마가 아직 없습니다"
+    },
+    "ssh18_aria_reorder": {
+        "message": "$1 순서 변경"
+    },
+    "ssh18_aria_stays_first": {
+        "message": "$1이(가) 맨 앞에 유지됩니다"
+    },
+    "ssh18_badge_current": {
+        "message": "현재"
+    },
+    "ssh18_badge_first": {
+        "message": "첫 번째"
+    },
+    "ssh18_badge_managed": {
+        "message": "관리됨"
+    },
+    "ssh18_badge_readonly": {
+        "message": "읽기 전용"
+    },
+    "ssh18_clear_board": {
+        "message": "보드 비우기"
+    },
+    "ssh18_default_start_name": {
+        "message": "시작"
+    },
+    "ssh18_default_stays_first": {
+        "message": "기본 작업공간은 맨 앞에 유지됩니다"
+    },
+    "ssh18_drag_to_reorder": {
+        "message": "드래그하여 순서 변경"
+    },
+    "ssh18_err_enter_name": {
+        "message": "공간 이름을 입력하세요."
+    },
+    "ssh18_err_invalid_name": {
+        "message": "유효한 공간 이름을 입력하세요."
+    },
+    "ssh18_err_managed_no_rename": {
+        "message": "관리 공간은 이름을 변경할 수 없습니다."
+    },
+    "ssh18_err_name_exists": {
+        "message": "같은 이름의 공간이 이미 있습니다."
+    },
+    "ssh18_err_no_space": {
+        "message": "선택된 공간이 없습니다."
+    },
+    "ssh18_subtitle_default": {
+        "message": "기본 • 항상 맨 앞"
+    },
+    "ssh18_subtitle_managed": {
+        "message": "$1 • 관리 보드 • 읽기 전용"
+    },
+    "ssh18_title_workspaces": {
+        "message": "작업공간"
+    },
+    "ssh19_add_n_items": {
+        "message": "항목 $1개 추가"
+    },
+    "ssh19_add_n_links": {
+        "message": "링크 $1개 추가"
+    },
+    "ssh19_add_one_item": {
+        "message": "항목 1개 추가"
+    },
+    "ssh19_add_one_link": {
+        "message": "링크 1개 추가"
+    },
+    "ssh19_alert_select_one": {
+        "message": "제안을 하나 이상 선택하세요."
+    },
+    "ssh19_group_devtools_desc": {
+        "message": "문서, 저장소, 유틸리티, 개발에 도움이 되는 도구."
+    },
+    "ssh19_group_devtools_name": {
+        "message": "개발 / 도구"
+    },
+    "ssh19_group_finance_desc": {
+        "message": "은행, 예산, 청구서, 금융 관련 대시보드."
+    },
+    "ssh19_group_finance_name": {
+        "message": "금융"
+    },
+    "ssh19_group_personal_desc": {
+        "message": "집안일, 심부름, 가까이 두고 싶은 일상 링크."
+    },
+    "ssh19_group_personal_name": {
+        "message": "개인"
+    },
+    "ssh19_group_reading_desc": {
+        "message": "기사, 저장한 자료, 다시 보고 싶은 것들."
+    },
+    "ssh19_group_reading_name": {
+        "message": "읽을거리"
+    },
+    "ssh19_group_shopping_desc": {
+        "message": "위시리스트, 자주 가는 상점, 비교 중인 상품."
+    },
+    "ssh19_group_shopping_name": {
+        "message": "쇼핑"
+    },
+    "ssh19_group_social_desc": {
+        "message": "커뮤니티, 메시지, 자주 확인하는 네트워크."
+    },
+    "ssh19_group_social_name": {
+        "message": "소셜"
+    },
+    "ssh19_group_work_desc": {
+        "message": "프로젝트, 우선순위, 하루 동안 다시 찾는 링크."
+    },
+    "ssh19_group_work_name": {
+        "message": "업무"
+    },
+    "ssh19_section_groups_desc": {
+        "message": "가장 많이 정리하는 것들을 바로 채울 수 있는 섹션을 만드세요."
+    },
+    "ssh19_section_groups_title": {
+        "message": "시작 그룹"
+    },
+    "ssh19_section_sites_desc": {
+        "message": "아이콘이 포함된 자주 가는 사이트 바로가기를 추가하세요."
+    },
+    "ssh19_section_sites_title": {
+        "message": "인기 웹사이트"
+    },
+    "ssh19_select_site": {
+        "message": "$1 선택"
+    },
+    "themed_accent_color": {
+        "message": "강조 색상"
+    },
+    "themed_accent_hover_color": {
+        "message": "강조 호버 색상"
+    },
+    "themed_active_tab_bg": {
+        "message": "활성 탭 배경"
+    },
+    "themed_active_tab_text": {
+        "message": "활성 탭 텍스트"
+    },
+    "themed_border_color": {
+        "message": "테두리 색상"
+    },
+    "themed_border_radius": {
+        "message": "테두리 둥글기"
+    },
+    "themed_button_hover_background": {
+        "message": "버튼 호버 배경"
+    },
+    "themed_button_hover_text": {
+        "message": "버튼 호버 텍스트"
+    },
+    "themed_button_idle_color": {
+        "message": "버튼 기본 색상"
+    },
+    "themed_card_background": {
+        "message": "배경"
+    },
+    "themed_clock_color": {
+        "message": "시계 색상"
+    },
+    "themed_clock_shadow": {
+        "message": "시계 그림자"
+    },
+    "themed_clock_size": {
+        "message": "시계 크기"
+    },
+    "themed_collapse_btn_background": {
+        "message": "접기 버튼 배경"
+    },
+    "themed_collapse_btn_icon_color": {
+        "message": "접기 버튼 아이콘 색상"
+    },
+    "themed_custom_css_placeholder": {
+        "message": "Custom CSS for this workspace:\n.item { }\n.link-name { font-style: italic; }"
+    },
+    "themed_custom_css_title": {
+        "message": "사용자 지정 CSS"
+    },
+    "themed_danger_color": {
+        "message": "위험 색상"
+    },
+    "themed_date_opacity": {
+        "message": "날짜 불투명도"
+    },
+    "themed_enable_slide_movement": {
+        "message": "카드/링크 슬라이드 이동 사용"
+    },
+    "themed_export": {
+        "message": "내보내기"
+    },
+    "themed_greeting_color": {
+        "message": "인사말 색상"
+    },
+    "themed_greeting_opacity": {
+        "message": "인사말 불투명도"
+    },
+    "themed_group_card": {
+        "message": "카드"
+    },
+    "themed_group_links": {
+        "message": "링크"
+    },
+    "themed_group_other": {
+        "message": "기타"
+    },
+    "themed_group_spacing": {
+        "message": "그룹 간격"
+    },
+    "themed_header_background": {
+        "message": "배경"
+    },
+    "themed_header_divider": {
+        "message": "헤더 구분선"
+    },
+    "themed_header_font_size": {
+        "message": "글꼴 크기"
+    },
+    "themed_header_font_weight": {
+        "message": "글꼴 두께"
+    },
+    "themed_header_text_color": {
+        "message": "텍스트 색상"
+    },
+    "themed_header_text_transform": {
+        "message": "텍스트 변환"
+    },
+    "themed_help_custom_css": {
+        "message": "디자인의 사용자 지정 CSS 도움말"
+    },
+    "themed_help_reset_default": {
+        "message": "기본값으로 재설정 도움말"
+    },
+    "themed_help_saved_themes": {
+        "message": "저장된 테마 도움말"
+    },
+    "themed_help_theme_actions": {
+        "message": "테마 작업 도움말"
+    },
+    "themed_help_theme_editor": {
+        "message": "테마 편집기 도움말"
+    },
+    "themed_hover_border": {
+        "message": "호버 테두리"
+    },
+    "themed_hover_movement": {
+        "message": "호버 이동"
+    },
+    "themed_hover_shadow": {
+        "message": "호버 그림자"
+    },
+    "themed_hover_speed": {
+        "message": "호버 속도"
+    },
+    "themed_icon_color": {
+        "message": "아이콘 색상"
+    },
+    "themed_import": {
+        "message": "가져오기"
+    },
+    "themed_item_divider": {
+        "message": "항목 구분선"
+    },
+    "themed_item_header_line": {
+        "message": "헤더 선"
+    },
+    "themed_item_header_text": {
+        "message": "헤더 텍스트"
+    },
+    "themed_letter_spacing": {
+        "message": "자간"
+    },
+    "themed_link_descriptions": {
+        "message": "링크 설명"
+    },
+    "themed_link_font_size": {
+        "message": "글꼴 크기"
+    },
+    "themed_link_font_weight": {
+        "message": "글꼴 두께"
+    },
+    "themed_link_hover_background": {
+        "message": "호버 배경"
+    },
+    "themed_link_hover_text_color": {
+        "message": "호버 텍스트 색상"
+    },
+    "themed_link_text_color": {
+        "message": "텍스트 색상"
+    },
+    "themed_new_button_background": {
+        "message": "새 버튼 배경"
+    },
+    "themed_new_button_shadow": {
+        "message": "새 버튼 그림자"
+    },
+    "themed_new_button_text": {
+        "message": "새 버튼 텍스트"
+    },
+    "themed_no_saved_themes": {
+        "message": "저장된 테마가 아직 없습니다"
+    },
+    "themed_note_text": {
+        "message": "노트 텍스트"
+    },
+    "themed_reset_theme": {
+        "message": "테마 재설정"
+    },
+    "themed_reset_to_default_btn": {
+        "message": "기본값으로 재설정"
+    },
+    "themed_reset_to_default_title": {
+        "message": "기본값으로 재설정"
+    },
+    "themed_save_theme": {
+        "message": "테마 저장"
+    },
+    "themed_saved_themes": {
+        "message": "저장된 테마"
+    },
+    "themed_search_background": {
+        "message": "검색 배경"
+    },
+    "themed_search_border": {
+        "message": "검색 테두리"
+    },
+    "themed_search_placeholder": {
+        "message": "검색 플레이스홀더"
+    },
+    "themed_search_shadow": {
+        "message": "검색 그림자"
+    },
+    "themed_settings_button_background": {
+        "message": "설정 버튼 배경"
+    },
+    "themed_settings_button_shadow": {
+        "message": "설정 버튼 그림자"
+    },
+    "themed_shadow": {
+        "message": "그림자"
+    },
+    "themed_shortcut_background": {
+        "message": "바로가기 배경"
+    },
+    "themed_show_description": {
+        "message": "링크 이름 아래에 설명 표시"
+    },
+    "themed_sub_group_header": {
+        "message": "그룹 헤더"
+    },
+    "themed_sub_interface": {
+        "message": "인터페이스"
+    },
+    "themed_sub_item_types": {
+        "message": "항목 유형"
+    },
+    "themed_sub_spacing": {
+        "message": "간격"
+    },
+    "themed_sub_top_bar_buttons": {
+        "message": "상단 바 버튼"
+    },
+    "themed_sub_workspace_tabs": {
+        "message": "작업공간 탭"
+    },
+    "themed_tab_background": {
+        "message": "탭 배경"
+    },
+    "themed_tab_font_size": {
+        "message": "글꼴 크기"
+    },
+    "themed_tab_font_weight": {
+        "message": "글꼴 두께"
+    },
+    "themed_tab_radius": {
+        "message": "탭 둥글기"
+    },
+    "themed_tab_style": {
+        "message": "탭 스타일"
+    },
+    "themed_tab_text": {
+        "message": "탭 텍스트"
+    },
+    "themed_tab_text_transform": {
+        "message": "텍스트 변환"
+    },
+    "themed_tabs_container_bg": {
+        "message": "탭 컨테이너 배경"
+    },
+    "themed_tabs_container_border": {
+        "message": "탭 컨테이너 테두리"
+    },
+    "themed_tabs_container_shadow": {
+        "message": "탭 컨테이너 그림자"
+    },
+    "themed_theme_actions": {
+        "message": "테마 작업"
+    },
+    "themed_theme_editor": {
+        "message": "테마 편집기"
+    },
+    "themed_underline_style": {
+        "message": "밑줄 스타일 (Material UI)"
+    },
+    "themed_unsaved": {
+        "message": "● 저장 안 됨"
+    },
+    "u33_no_icon_chosen": {
+        "message": "아직 선택된 아이콘이 없습니다"
+    },
+    "wa37_clear_board_confirm": {
+        "message": "\"$1\"의 보드를 비울까요? 공간 자체는 유지되지만 그룹, 바로가기 등 보드의 모든 요소가 제거됩니다."
+    },
+    "wa37_delete_ws_confirm": {
+        "message": "작업공간 \"$1\"을(를) 삭제할까요? 이 작업은 취소할 수 없습니다."
+    },
+    "wa37_delete_ws_managed": {
+        "message": "작업공간 \"$1\"을(를) 삭제할까요? 이 작업공간은 관리 보드 $2개$3의 원본입니다. 삭제해도 해당 보드가 취소되지는 않지만, 원본을 로컬에 복원할 때까지 업데이트가 차단됩니다."
+    },
+    "wa37_incorrect_passphrase": {
+        "message": "암호가 틀렸거나 데이터를 복호화할 수 없습니다."
+    },
+    "wa37_managed_no_clear": {
+        "message": "관리 공간은 비울 수 없습니다."
+    },
+    "wa37_no_delete_default": {
+        "message": "기본 작업공간은 삭제할 수 없습니다"
+    },
+    "wa37_no_other_ws": {
+        "message": "사용 가능한 다른 작업공간이 없습니다. 먼저 하나를 만드세요."
+    },
+    "wa37_passphrase_desc": {
+        "message": "\"$1\"을(를) 잠금 해제하려면 암호를 입력하세요."
+    },
+    "wa37_protected_locked_switch": {
+        "message": "이 보호된 공간은 잠겨 있습니다. 먼저 이 공간으로 전환하여 잠금을 해제하세요."
+    },
+    "wa37_protected_ws_title": {
+        "message": "보호된 작업공간"
+    },
+    "wa37_start": {
+        "message": "시작"
+    },
+    "wa37_ws_exists": {
+        "message": "작업공간 \"$1\"이(가) 이미 있습니다"
+    },
+    "wa37_ws_locked_switch": {
+        "message": "이 작업공간은 잠겨 있습니다. 먼저 이 작업공간으로 전환하여 잠금을 해제하세요."
+    },
+    "web_search_enter_hint": {
+        "message": "Enter"
+    },
+    "web_search_placeholder": {
+        "message": "내 항목 또는 웹 검색…"
+    },
+    "wih20_add_element": {
+        "message": "요소 추가"
+    },
+    "wih20_add_item": {
+        "message": "항목 추가"
+    },
+    "wih20_add_link": {
+        "message": "링크 추가"
+    },
+    "wih20_add_x": {
+        "message": "$1 추가"
+    },
+    "wih20_added_x": {
+        "message": "$1 추가됨"
+    },
+    "wih20_adds_immediately": {
+        "message": "즉시 추가됩니다"
+    },
+    "wih20_alert_could_not_find_group_to_update": {
+        "message": "업데이트할 그룹을 찾을 수 없습니다"
+    },
+    "wih20_alert_could_not_find_x_to_update": {
+        "message": "업데이트할 $1을(를) 찾을 수 없습니다"
+    },
+    "wih20_alert_fill_required": {
+        "message": "모든 필수 항목을 입력하세요"
+    },
+    "wih20_alert_group_already_exists": {
+        "message": "그룹이 이미 있습니다"
+    },
+    "wih20_alert_launcher_target": {
+        "message": "런처 대상을 입력하세요"
+    },
+    "wih20_alert_picker_no_companion": {
+        "message": "선택기를 열 수 없습니다 — 컴패니언 앱이 설치되어 있나요?\n\n상태는 설정 → 계정 → 컴패니언 앱에서 확인하세요."
+    },
+    "wih20_alert_please_enter_x": {
+        "message": "$1을(를) 입력하세요"
+    },
+    "wih20_alert_valid_avatar_url": {
+        "message": "유효한 아바타 이미지 URL을 입력하세요"
+    },
+    "wih20_alert_valid_file_url": {
+        "message": "유효한 파일 URL을 입력하세요"
+    },
+    "wih20_alert_valid_image_url": {
+        "message": "유효한 이미지 URL을 입력하세요"
+    },
+    "wih20_alert_valid_link_url": {
+        "message": "유효한 링크 URL을 입력하세요"
+    },
+    "wih20_alert_valid_link_url_scheme": {
+        "message": "유효한 링크 URL을 입력하세요 (http:// 또는 https://)"
+    },
+    "wih20_alert_x_already_exists": {
+        "message": "$1이(가) 이미 있습니다"
+    },
+    "wih20_can_contain": {
+        "message": "포함 가능"
+    },
+    "wih20_cat_actions": {
+        "message": "동작"
+    },
+    "wih20_cat_containers": {
+        "message": "컨테이너"
+    },
+    "wih20_cat_media": {
+        "message": "미디어 / 비주얼"
+    },
+    "wih20_cat_steps": {
+        "message": "단계"
+    },
+    "wih20_cat_structure": {
+        "message": "구조"
+    },
+    "wih20_cat_text": {
+        "message": "텍스트"
+    },
+    "wih20_choose_target_group": {
+        "message": "먼저 대상 그룹을 선택하세요."
+    },
+    "wih20_converted_button": {
+        "message": "변환된 버튼"
+    },
+    "wih20_edit_x": {
+        "message": "$1 편집"
+    },
+    "wih20_fetching_preview": {
+        "message": "미리보기 가져오는 중…"
+    },
+    "wih20_field_button_text": {
+        "message": "버튼 텍스트"
+    },
+    "wih20_field_callout_text": {
+        "message": "콜아웃 텍스트"
+    },
+    "wih20_field_code": {
+        "message": "코드"
+    },
+    "wih20_field_first_step": {
+        "message": "첫 번째 단계"
+    },
+    "wih20_field_group_name": {
+        "message": "그룹 이름"
+    },
+    "wih20_field_heading_text": {
+        "message": "제목 텍스트"
+    },
+    "wih20_field_label_optional": {
+        "message": "레이블 (선택)"
+    },
+    "wih20_field_text": {
+        "message": "텍스트"
+    },
+    "wih20_label_arrow": {
+        "message": "화살표"
+    },
+    "wih20_label_callout": {
+        "message": "콜아웃"
+    },
+    "wih20_label_code_block": {
+        "message": "코드 블록"
+    },
+    "wih20_label_divider": {
+        "message": "구분선"
+    },
+    "wih20_label_file": {
+        "message": "파일"
+    },
+    "wih20_label_heading": {
+        "message": "제목"
+    },
+    "wih20_label_image": {
+        "message": "이미지"
+    },
+    "wih20_label_link_card": {
+        "message": "링크 카드"
+    },
+    "wih20_label_profile_avatar": {
+        "message": "프로필 / 아바타"
+    },
+    "wih20_label_step_heading": {
+        "message": "단계 제목"
+    },
+    "wih20_label_steps": {
+        "message": "단계"
+    },
+    "wih20_label_text": {
+        "message": "텍스트"
+    },
+    "wih20_launcher_label_command": {
+        "message": "명령"
+    },
+    "wih20_launcher_label_path": {
+        "message": "경로"
+    },
+    "wih20_launcher_label_target_uri": {
+        "message": "대상 URI"
+    },
+    "wih20_name": {
+        "message": "이름"
+    },
+    "wih20_name_button_text": {
+        "message": "버튼 텍스트"
+    },
+    "wih20_name_group_name": {
+        "message": "그룹 이름"
+    },
+    "wih20_no_icon_chosen": {
+        "message": "아직 선택된 아이콘이 없습니다!"
+    },
+    "wih20_no_matching_groups": {
+        "message": "일치하는 그룹을 찾을 수 없습니다."
+    },
+    "wih20_no_standard_groups": {
+        "message": "이 작업공간에 사용 가능한 표준 그룹이 아직 없습니다."
+    },
+    "wih20_opt_callout_desc": {
+        "message": "노트나 중요한 팁을 강조합니다."
+    },
+    "wih20_opt_callout_label": {
+        "message": "콜아웃"
+    },
+    "wih20_opt_clipboard_desc": {
+        "message": "한 번의 클릭으로 텍스트를 복사합니다."
+    },
+    "wih20_opt_clipboard_label": {
+        "message": "클립보드 버튼"
+    },
+    "wih20_opt_code_desc": {
+        "message": "코드나 명령을 서식과 함께 표시합니다."
+    },
+    "wih20_opt_code_label": {
+        "message": "코드 블록"
+    },
+    "wih20_opt_divider_desc": {
+        "message": "가로 선으로 콘텐츠를 구분합니다."
+    },
+    "wih20_opt_divider_label": {
+        "message": "구분선"
+    },
+    "wih20_opt_file_desc": {
+        "message": "파일 형식의 리소스 카드를 표시합니다."
+    },
+    "wih20_opt_file_label": {
+        "message": "파일"
+    },
+    "wih20_opt_group_desc": {
+        "message": "여러 항목을 담을 수 있는 카드입니다."
+    },
+    "wih20_opt_group_label": {
+        "message": "그룹"
+    },
+    "wih20_opt_header_desc": {
+        "message": "섹션을 위한 큰 제목 텍스트입니다."
+    },
+    "wih20_opt_header_label": {
+        "message": "제목"
+    },
+    "wih20_opt_image_desc": {
+        "message": "시각적 이미지 카드를 추가합니다."
+    },
+    "wih20_opt_image_label": {
+        "message": "이미지"
+    },
+    "wih20_opt_launcher_desc": {
+        "message": "앱, 파일, 폴더 또는 명령을 엽니다."
+    },
+    "wih20_opt_launcher_label": {
+        "message": "런처 버튼"
+    },
+    "wih20_opt_linkcard_desc": {
+        "message": "단일 링크를 더 풍부하게 미리 보여줍니다."
+    },
+    "wih20_opt_linkcard_label": {
+        "message": "링크 카드"
+    },
+    "wih20_opt_profile_desc": {
+        "message": "간결한 프로필 요약을 표시합니다."
+    },
+    "wih20_opt_profile_label": {
+        "message": "프로필"
+    },
+    "wih20_opt_routine_desc": {
+        "message": "한 번의 클릭으로 여러 동작을 실행합니다."
+    },
+    "wih20_opt_routine_label": {
+        "message": "루틴"
+    },
+    "wih20_opt_shortcut_desc": {
+        "message": "최상위 버튼에서 링크를 엽니다."
+    },
+    "wih20_opt_iconlink_label": {
+        "message": "아이콘 링크"
+    },
+    "wih20_opt_iconlink_desc": {
+        "message": "링크를 여는 큰 아이콘, 아래에 선택적 라벨 표시"
+    },
+    "wih20_opt_shortcut_label": {
+        "message": "바로가기"
+    },
+    "wih20_opt_stepheader_desc": {
+        "message": "안내 단계를 위한 번호 매긴 제목입니다."
+    },
+    "wih20_opt_stepheader_label": {
+        "message": "단계 제목"
+    },
+    "wih20_opt_steps_desc": {
+        "message": "번호가 매겨진 단계 목록입니다."
+    },
+    "wih20_opt_steps_label": {
+        "message": "단계"
+    },
+    "wih20_opt_text_desc": {
+        "message": "단락 또는 보조 텍스트 블록입니다."
+    },
+    "wih20_opt_text_label": {
+        "message": "텍스트"
+    },
+    "wih20_opt_todo_desc": {
+        "message": "체크할 수 있는 할 일 목록입니다."
+    },
+    "wih20_opt_todo_label": {
+        "message": "할 일 목록"
+    },
+    "wih20_ph_important_shortcut": {
+        "message": "중요한 바로가기"
+    },
+    "wih20_ph_write_code": {
+        "message": "코드를 입력하세요"
+    },
+    "wih20_ph_write_text": {
+        "message": "텍스트를 입력하세요"
+    },
+    "wih20_preset_avatar_n": {
+        "message": "기본 아바타 $1"
+    },
+    "wih20_save_x": {
+        "message": "$1 저장"
+    },
+    "wih20_step_count": {
+        "message": "$1단계$2"
+    },
+    "wih20_sup_clipboard": {
+        "message": "클립보드"
+    },
+    "wih20_sup_dividers": {
+        "message": "구분선"
+    },
+    "wih20_sup_headings": {
+        "message": "제목"
+    },
+    "wih20_sup_launchers": {
+        "message": "런처"
+    },
+    "wih20_sup_links": {
+        "message": "링크"
+    },
+    "wih20_sup_tasks": {
+        "message": "작업"
+    },
+    "wih20_sup_text": {
+        "message": "텍스트"
+    },
+    "wih20_untitled_group": {
+        "message": "제목 없는 그룹"
+    },
+    "wma38_default_workspace_name": {
+        "message": "시작"
+    },
+    "wma38_label_delete": {
+        "message": "삭제"
+    },
+    "wma38_label_protect": {
+        "message": "보호"
+    },
+    "wma38_label_protect_pro": {
+        "message": "보호 ✦"
+    },
+    "wma38_label_publish_public_board": {
+        "message": "공개 보드 게시"
+    },
+    "wma38_label_publish_public_board_pro": {
+        "message": "공개 보드 게시 ✦"
+    },
+    "wma38_label_remove_subscription": {
+        "message": "구독 제거"
+    },
+    "wma38_label_rename": {
+        "message": "이름 변경"
+    },
+    "wma38_label_share_workspace": {
+        "message": "작업공간 공유"
+    },
+    "wma38_label_share_workspace_pro": {
+        "message": "작업공간 공유 ✦"
+    },
+    "wma38_label_unprotect": {
+        "message": "보호 해제"
+    },
+    "wma38_remove_subscription_confirm": {
+        "message": "\"$1\" 구독을 제거할까요? 나중에 다시 구독할 수 있습니다."
+    },
+    "wma38_rename_prompt": {
+        "message": "작업공간 이름 변경:"
+    },
+    "wma38_share_unavailable": {
+        "message": "지금은 이 작업공간을 공유할 수 없습니다."
+    },
+    "wp39_btn_protect": {
+        "message": "보호"
+    },
+    "wp39_btn_unlock": {
+        "message": "잠금 해제"
+    },
+    "wp39_decrypt_fail": {
+        "message": "암호가 틀렸거나 복호화할 수 없습니다: $1"
+    },
+    "wp39_default_desc": {
+        "message": "이 작업공간을 잠금 해제하려면 암호를 입력하세요."
+    },
+    "wp39_default_title": {
+        "message": "보호된 작업공간"
+    },
+    "wp39_err_empty": {
+        "message": "암호는 비워 둘 수 없습니다."
+    },
+    "wp39_err_min_length": {
+        "message": "암호는 최소 4자 이상이어야 합니다."
+    },
+    "wp39_err_mismatch": {
+        "message": "암호가 일치하지 않습니다."
+    },
+    "wp39_protect_desc": {
+        "message": "\"$1\"을(를) 보호할 암호를 설정하세요. 페이지를 새로고침한 후 이 작업공간을 열 때마다 필요합니다."
+    },
+    "wp39_protect_fail": {
+        "message": "작업공간 보호에 실패했습니다: $1"
+    },
+    "wp39_protect_title": {
+        "message": "작업공간 보호"
+    },
+    "wp39_unprotect_desc": {
+        "message": "\"$1\"의 보호를 해제하려면 현재 암호를 입력하세요."
+    },
+    "wp39_unprotect_title": {
+        "message": "작업공간 보호 해제"
+    },
+    "ws34_no_matches": {
+        "message": "\"$1\"에 대한 검색 결과가 없습니다"
+    },
+    "ws34_results_header": {
+        "message": "결과"
+    },
+    "ws34_search_web_for": {
+        "message": "웹에서 \"$1\" 검색"
+    },
+    "ws36_cancel": {
+        "message": "취소"
+    },
+    "ws36_close": {
+        "message": "닫기"
+    },
+    "ws36_code_updated": {
+        "message": "공유 코드가 업데이트되었습니다."
+    },
+    "ws36_copied": {
+        "message": "복사됨!"
+    },
+    "ws36_copy": {
+        "message": "복사"
+    },
+    "ws36_create_code_btn": {
+        "message": "코드 만들기"
+    },
+    "ws36_create_fail": {
+        "message": "공유 코드를 만들 수 없습니다: $1"
+    },
+    "ws36_hint_expires": {
+        "message": "이 코드는 $1에 만료됩니다. 설정 → 공간 → 공유 보드에서 관리하세요."
+    },
+    "ws36_hint_never": {
+        "message": "이 코드는 만료되지 않습니다. 설정 → 공간 → 공유 보드에서 관리하세요."
+    },
+    "ws36_import_btn": {
+        "message": "가져오기"
+    },
+    "ws36_import_replace_hint": {
+        "message": "이 이름의 작업공간이 이미 있으면 대체됩니다."
+    },
+    "ws36_import_title": {
+        "message": "공유 작업공간 가져오기"
+    },
+    "ws36_imported_toast": {
+        "message": "가져왔습니다 — 편집한 다음 업데이트하여 코드를 새로고침하세요."
+    },
+    "ws36_name": {
+        "message": "이름"
+    },
+    "ws36_name_placeholder": {
+        "message": "예: 디자인 팀용 온보딩 링크"
+    },
+    "ws36_never_expire_checkbox": {
+        "message": "삭제할 때까지 유지 (만료되지 않음)"
+    },
+    "ws36_no_data": {
+        "message": "공유할 작업공간 데이터가 없습니다."
+    },
+    "ws36_optional": {
+        "message": "(선택)"
+    },
+    "ws36_recover_fail": {
+        "message": "이 기기에서 이 코드의 콘텐츠를 복구할 수 없습니다."
+    },
+    "ws36_reimport_confirm": {
+        "message": "이 코드가 공유된 공간이 이 기기에 없습니다.\n\n편집할 수 있도록 복사본을 가져온 다음, 변경 사항으로 코드를 업데이트할까요?"
+    },
+    "ws36_share_code_aria": {
+        "message": "공유 코드"
+    },
+    "ws36_share_dialog_create_desc": {
+        "message": "다른 사람이 이 작업공간의 복사본을 가져올 수 있는 코드를 만드세요."
+    },
+    "ws36_share_dialog_create_hint": {
+        "message": "이름을 지정하면 나중에 설정 → 공간 → 공유 보드에서 코드를 알아보기 쉽습니다. 기본적으로 코드는 30일 후 만료됩니다."
+    },
+    "ws36_share_dialog_create_title": {
+        "message": "작업공간 공유"
+    },
+    "ws36_share_dialog_update_desc": {
+        "message": "이 코드의 스냅샷을 현재 작업공간 상태로 대체합니다. 코드 자체는 그대로 유지됩니다."
+    },
+    "ws36_share_dialog_update_hint": {
+        "message": "참고: 이미 이 코드를 가져온 사람은 자신의 복사본을 그대로 유지합니다 — <b>새로운</b> 가져오기만 업데이트된 버전을 받습니다."
+    },
+    "ws36_share_dialog_update_title": {
+        "message": "공유 코드 업데이트"
+    },
+    "ws36_shared_desc": {
+        "message": "이 코드가 있는 누구나 이 작업공간의 복사본을 자신의 ReadyTab으로 가져올 수 있습니다."
+    },
+    "ws36_shared_title": {
+        "message": "작업공간이 공유되었습니다!"
+    },
+    "ws36_update_code_btn": {
+        "message": "코드 업데이트"
+    },
+    "ws36_update_fail": {
+        "message": "코드를 업데이트할 수 없습니다: $1"
+    },
+    "ws36_workspace_name": {
+        "message": "작업공간 이름"
+    },
+    "wtu40_add_workspace": {
+        "message": "작업공간 추가"
+    },
+    "wtu40_create_more_spaces_pro": {
+        "message": "Pro로 $1개 이상의 공간 만들기"
+    },
+    "wtu40_enter_workspace_name": {
+        "message": "작업공간 이름 입력:"
+    },
+    "wtu40_managed_board_readonly": {
+        "message": "관리 보드 — 읽기 전용"
+    },
+    "wtu40_more": {
+        "message": "더 보기"
+    },
+    "wtu40_pro": {
+        "message": "Pro"
+    },
+    "wtu40_start": {
+        "message": "시작"
+    },
+    "sdm1_kind_group": {
+        "message": "그룹"
+    },
+    "sdm1_kind_todo_list": {
+        "message": "할 일 목록"
+    },
+    "sdm1_kind_shortcut": {
+        "message": "바로가기"
+    },
+    "sdm1_kind_clipboard_button": {
+        "message": "클립보드 버튼"
+    },
+    "sdm1_kind_launcher": {
+        "message": "실행기"
+    },
+    "sdm1_kind_routine": {
+        "message": "루틴"
+    },
+    "sdm1_kind_heading": {
+        "message": "제목"
+    },
+    "sdm1_kind_step_heading": {
+        "message": "단계 제목"
+    },
+    "sdm1_kind_text": {
+        "message": "텍스트"
+    },
+    "sdm1_kind_divider": {
+        "message": "구분선"
+    },
+    "sdm1_kind_arrow": {
+        "message": "화살표"
+    },
+    "sdm1_kind_callout": {
+        "message": "콜아웃"
+    },
+    "sdm1_kind_code_block": {
+        "message": "코드 블록"
+    },
+    "sdm1_kind_steps": {
+        "message": "단계"
+    },
+    "sdm1_kind_image": {
+        "message": "이미지"
+    },
+    "sdm1_kind_profile": {
+        "message": "프로필"
+    },
+    "sdm1_kind_link_card": {
+        "message": "링크 카드"
+    },
+    "sdm1_kind_file": {
+        "message": "파일"
+    },
+    "sdm1_kind_note": {
+        "message": "메모"
+    },
+    "sdm1_kind_task_list": {
+        "message": "작업 목록"
+    },
+    "sdm1_untitled_group": {
+        "message": "제목 없는 그룹"
+    },
+    "sdm1_untitled_note": {
+        "message": "제목 없는 메모"
+    },
+    "sdm1_untitled_list": {
+        "message": "제목 없는 목록"
+    },
+    "sdm1_notes_label": {
+        "message": "메모"
+    },
+    "sdm1_tasks_label": {
+        "message": "작업"
+    },
+    "sdm1_protected_name": {
+        "message": "$1(보호됨)"
+    },
+    "sdm1_protected_preview": {
+        "message": "잠김 — 내용을 볼 수 없음"
+    },
+    "sdm1_done_ratio": {
+        "message": "$1/$2 완료"
+    },
+    "sdm1_step_one": {
+        "message": "$1단계"
+    },
+    "sdm1_step_many": {
+        "message": "$1단계"
+    },
+    "sdm1_element_one": {
+        "message": "요소 $1개"
+    },
+    "sdm1_element_many": {
+        "message": "요소 $1개"
+    },
+    "sdm1_item_one": {
+        "message": "항목 $1개"
+    },
+    "sdm1_item_many": {
+        "message": "항목 $1개"
+    },
+    "sdm1_task_one": {
+        "message": "작업 $1개"
+    },
+    "sdm1_task_many": {
+        "message": "작업 $1개"
+    },
+    "sdm1_target_fallback": {
+        "message": "대상"
+    },
+    "sdm1_close": {
+        "message": "닫기"
+    },
+    "sdm1_cancel": {
+        "message": "취소"
+    },
+    "sdm1_identical": {
+        "message": "차이 없음 — 두 버전이 동일합니다."
+    },
+    "sdm1_chip_added": {
+        "message": "추가됨"
+    },
+    "sdm1_chip_changed": {
+        "message": "변경됨"
+    },
+    "sdm1_chip_removed": {
+        "message": "제거됨"
+    },
+    "sdm1_ws_tag": {
+        "message": "워크스페이스"
+    },
+    "sdm1_ws_new": {
+        "message": "새 워크스페이스 — $1에 추가됩니다"
+    },
+    "sdm1_ws_only_in": {
+        "message": "$1에만 있음 — 삭제됩니다"
+    },
+    "sdm1_ws_entire": {
+        "message": "전체 워크스페이스"
+    },
+    "sdm1_ws_unchanged": {
+        "message": "$1, 변경 없음"
+    },
+    "sdm1_unchanged_inline": {
+        "message": "$1 변경 없음"
+    },
+    "sdm1_sec_added": {
+        "message": "$1에 추가됨"
+    },
+    "sdm1_sec_changed": {
+        "message": "변경됨"
+    },
+    "sdm1_sec_removed": {
+        "message": "$1에서 제거됨"
+    },
+    "sdm1_row_new": {
+        "message": "새 $1 — 아직 $2에 없음"
+    },
+    "sdm1_row_only_in": {
+        "message": "$1에만 있음 — 삭제됩니다"
+    },
+    "sdm1_row_count_differs": {
+        "message": "이미 $1에 있음 — 항목 수가 다름"
+    },
+    "sdm1_row_contents_edited": {
+        "message": "이미 $1에 있음 — 내용이 수정됨"
+    },
+    "sdm1_row_task_count_differs": {
+        "message": "이미 $1에 있음 — 작업 수가 다름"
+    },
+    "sdm1_row_tasks_edited": {
+        "message": "이미 $1에 있음 — 작업이 수정됨"
+    },
+    "sdm1_row_edited_preview": {
+        "message": "$1 수정됨 — $2"
+    },
+    "sdm1_row_edited": {
+        "message": "$1 수정됨"
+    },
+    "sdm1_pill_edited": {
+        "message": "수정됨"
+    },
+    "sdm1_count_now": {
+        "message": "현재"
+    },
+    "sdm1_count_after": {
+        "message": "이후"
+    },
+    "language_auto": {
+        "message": "자동(브라우저 언어)"
+    },
+    "grp_display_tile": {
+        "message": "타일"
+    },
+    "wih20_opt_tile_label": {
+        "message": "타일"
+    },
+    "wih20_opt_tile_desc": {
+        "message": "카드 배경이 있는 정사각형 아이콘 버튼입니다."
+    },
+    "grp_display_tile2": {
+        "message": "큰 타일"
+    },
+    "wih20_opt_tile2_label": {
+        "message": "큰 타일"
+    },
+    "wih20_opt_tile2_desc": {
+        "message": "두 열 너비의 정사각형 아이콘 버튼입니다."
+    },
+    "lbr5_turn_into": {
+        "message": "$1(으)로 전환"
+    },
+    "grp_choose_style": {
+        "message": "스타일 선택"
+    },
+    "grp_choose_style_hint": {
+        "message": "모양을 선택하세요. 나중에 요소 메뉴에서 변경할 수 있습니다."
+    },
+    "wih20_opt_link_label": {
+        "message": "링크"
+    },
+    "wih20_opt_link_desc": {
+        "message": "웹사이트나 URL을 엽니다."
+    },
+    "wih20_style_fam_buttons": {
+        "message": "버튼"
+    },
+    "wih20_style_fam_tiles": {
+        "message": "타일"
+    },
+    "wih20_style_standard_desc": {
+        "message": "아이콘과 레이블이 있는 전체 너비 버튼."
+    },
+    "wih20_style_icon_desc": {
+        "message": "레이블이 선택 사항인 아이콘."
+    },
+    "wih20_style_tile_desc": {
+        "message": "한 열 너비의 정사각형 아이콘 카드."
+    },
+    "wih20_style_tile2_desc": {
+        "message": "레이블이 있는 두 열 너비의 정사각형 아이콘 카드."
+    },
+    "sbe_invalid_key": {
+        "message": "Enter the complete edit key supplied by the board owner."
+    },
+    "sbe_subscribe_first": {
+        "message": "Subscribe to this board before entering its edit key."
+    },
+    "sbe_latest": {
+        "message": "Latest shared version"
+    },
+    "sbe_yours": {
+        "message": "Your changes"
+    },
+    "sbe_review": {
+        "message": "Review conflict"
+    },
+    "sbe_replace": {
+        "message": "Replace with my reviewed version"
+    },
+    "sbe_discard_confirm": {
+        "message": "Discard your unsaved changes and use the latest shared version?"
+    },
+    "sbe_status_checking": {
+        "message": "Checking editing access…"
+    },
+    "sbe_status_unsaved": {
+        "message": "Shared board · Unsaved changes"
+    },
+    "sbe_status_saving": {
+        "message": "Shared board · Saving…"
+    },
+    "sbe_status_saved": {
+        "message": "Shared board · Saved"
+    },
+    "sbe_status_conflict": {
+        "message": "This board changed elsewhere. Review before saving."
+    },
+    "sbe_status_error": {
+        "message": "Changes are unsaved. Try saving again."
+    },
+    "sbe_status_denied": {
+        "message": "Editing access is unavailable. Export any unsaved changes before leaving."
+    },
+    "sbe_use_latest": {
+        "message": "Use latest version"
+    },
+    "sbe_save": {
+        "message": "Save changes"
+    },
+    "sbe_export": {
+        "message": "Export my changes"
+    },
+    "sbe_enter_key": {
+        "message": "Enter edit key"
+    },
+    "sbe_key_prompt": {
+        "message": "Enter the shared edit key from the board owner:"
+    },
+    "sbe_connected": {
+        "message": "Shared board editing enabled."
+    },
+    "sbe_edit_key": {
+        "message": "Shared edit key"
+    },
+    "sbe_key_help": {
+        "message": "Send this same edit key to everyone who should edit the board, together with the read token and any board password. Keep your license key private. Replacing the edit key removes access for everyone using the old key."
+    },
+    "sbe_read_token": {
+        "message": "Read token"
+    },
+    "sbe_rotate_key": {
+        "message": "Replace edit key"
+    },
+    "sbe_generate_key": {
+        "message": "Generate edit key"
+    },
+    "sbe_rotate_confirm": {
+        "message": "Replace the shared edit key? Everyone using the old key will need the new one."
+    },
+    "sbe_key_generated": {
+        "message": "Key created. Copy it and send the same key to your editors."
+    },
+    "sbe_copy_key": {
+        "message": "Copy edit key"
+    },
+    "sbe_copied": {
+        "message": "Copied."
+    },
+    "sbe_open_board": {
+        "message": "Open shared board"
+    },
+    "sbe_generate_first": {
+        "message": "Generate an edit key first."
+    },
+    "sbe_disable": {
+        "message": "Disable editing"
+    },
+    "sbe_disable_confirm": {
+        "message": "Disable editing for everyone using the shared key?"
+    },
+    "sbe_disabled": {
+        "message": "Shared-key editing is disabled."
+    },
+    "sbe_close": {
+        "message": "Close"
+    },
+    "sbe_editor": {
+        "message": "Shared board · Editor"
+    },
+    "bmi_title": {
+        "message": "북마크 가져오기"
+    },
+    "bmi_description": {
+        "message": "왼쪽에서 폴더를 선택한 다음 작업 공간에서 그룹을 배치하고 순서를 정하세요."
+    },
+    "bmi_from_browser": {
+        "message": "브라우저 북마크에서"
+    },
+    "bmi_choose": {
+        "message": "북마크 선택"
+    },
+    "bmi_close": {
+        "message": "닫기"
+    },
+    "bmi_select_all": {
+        "message": "모두 선택"
+    },
+    "bmi_clear": {
+        "message": "선택 해제"
+    },
+    "bmi_preview": {
+        "message": "미리보기"
+    },
+    "bmi_workspaces": {
+        "message": "작업 공간"
+    },
+    "bmi_cancel": {
+        "message": "취소"
+    },
+    "bmi_import": {
+        "message": "가져오고 대시보드 열기"
+    },
+    "bmi_trust": {
+        "message": "링크를 ReadyTab에 복사합니다. 브라우저 북마크는 변경되지 않습니다."
+    },
+    "bmi_loading": {
+        "message": "브라우저 북마크 불러오는 중…"
+    },
+    "bmi_quick_links": {
+        "message": "빠른 링크"
+    },
+    "bmi_skipped": {
+        "message": "지원되지 않는 북마크 URL $1개를 건너뛰었습니다."
+    },
+    "bmi_no_destination": {
+        "message": "북마크를 가져오기 전에 로컬 작업 공간을 만들거나 잠금을 해제하세요."
+    },
+    "bmi_read_failed": {
+        "message": "브라우저 북마크를 읽을 수 없습니다."
+    },
+    "bmi_read_retry": {
+        "message": "북마크 접근 권한을 확인한 다음 이 창을 다시 여세요."
+    },
+    "bmi_empty": {
+        "message": "가져올 북마크가 없습니다. 먼저 브라우저에 북마크를 저장하세요."
+    },
+    "bmi_collapse": {
+        "message": "$1 접기"
+    },
+    "bmi_expand": {
+        "message": "$1 펼치기"
+    },
+    "bmi_preview_empty": {
+        "message": "이 작업 공간에는 아직 그룹이 없습니다. 폴더를 선택하거나 그룹을 여기로 옮기세요."
+    },
+    "bmi_earlier": {
+        "message": "$1 앞으로 이동"
+    },
+    "bmi_later": {
+        "message": "$1 뒤로 이동"
+    },
+    "bmi_links": {
+        "message": "링크 $1개"
+    },
+    "bmi_destination": {
+        "message": "$1의 대상"
+    },
+    "bmi_summary": {
+        "message": "작업 공간 $2개에 그룹 $1개 · 링크 $3개"
+    },
+    "bmi_importing": {
+        "message": "북마크 가져오는 중…"
+    },
+    "bmi_save_failed": {
+        "message": "가져오기를 저장할 수 없습니다. 저장 공간과 작업 공간 접근 권한을 확인하고 다시 시도하세요. 선택 항목은 유지됩니다."
+    },
+    "bmi_done": {
+        "message": "북마크 $1개를 그룹 $2개로 가져왔습니다."
+    },
+    "bmi_layout_failed": {
+        "message": "북마크는 가져왔지만 배치를 저장하지 못했습니다. 컴팩트 레이아웃으로 정렬하세요."
+    },
+    "start_layout_failed": {
+        "message": "사이트가 추가되었지만 레이아웃을 저장하지 못했습니다. 컴팩트 레이아웃으로 정리하세요."
+    },
+    "start_title": {
+        "message": "첫 보드를 채워 보세요"
+    },
+    "start_workspace_title": {
+        "message": "이 작업 공간을 채워 보세요"
+    },
+    "start_intro": {
+        "message": "시작 방법을 선택하세요. 항목을 추가하면 보드가 열립니다."
+    },
+    "start_recommended": {
+        "message": "추천"
+    },
+    "start_checking": {
+        "message": "북마크 확인 중…"
+    },
+    "start_choose": {
+        "message": "폴더 선택"
+    },
+    "start_sites": {
+        "message": "인기 사이트"
+    },
+    "start_sites_desc": {
+        "message": "자주 쓰는 사이트 18개 중에서 골라 바로가기나 그룹에 추가하세요."
+    },
+    "start_browse": {
+        "message": "사이트 둘러보기"
+    },
+    "start_blank": {
+        "message": "빈 보드로 시작"
+    },
+    "start_blank_desc": {
+        "message": "빈 그룹을 만들고 원하는 항목을 채워 보세요."
+    },
+    "start_add_group": {
+        "message": "그룹 추가"
+    },
+    "start_picker_desc": {
+        "message": "추가할 위치를 고른 다음 사이트를 선택하세요. 다시 누르면 선택이 해제됩니다."
+    },
+    "start_destination": {
+        "message": "사이트 추가 위치"
+    },
+    "start_live": {
+        "message": "실시간"
+    },
+    "start_live_desc": {
+        "message": "변경 사항이 페이지에 바로 적용됩니다."
+    },
+    "start_all_settings": {
+        "message": "모든 설정 →"
+    },
+    "start_plans_desc": {
+        "message": "내 기기 간 동기화에는 Sync를, 공유 보드 게시와 관리까지 하려면 Full을 선택하세요."
+    },
+    "start_sync_benefit": {
+        "message": "Sync: 기기 간 암호화 동기화"
+    },
+    "start_full_benefit": {
+        "message": "Full: 동기화, 게시 및 공유 보드"
+    },
+    "start_free_benefit": {
+        "message": "무료: 무제한 로컬 작업 공간"
+    },
+    "start_undo_failed": {
+        "message": "실행 취소할 수 없습니다. 대상 작업 공간이 사용 가능하고 잠금 해제되어 있는지 확인하세요."
+    },
+    "start_undo": {
+        "message": "실행 취소"
+    },
+    "start_bookmarks_failed": {
+        "message": "북마크를 확인할 수 없습니다. 폴더를 선택해 다시 시도하세요."
+    },
+    "start_bookmarks_found": {
+        "message": "브라우저의 폴더 $2개에서 북마크 $1개를 찾았습니다. 폴더는 그룹으로 변환됩니다."
+    },
+    "start_no_bookmarks": {
+        "message": "북마크가 없습니다. 설정에서 언제든지 가져올 수 있습니다."
+    },
+    "start_nothing": {
+        "message": "가져올 항목 없음"
+    },
+    "start_shortcuts": {
+        "message": "바로가기"
+    },
+    "start_favorites": {
+        "message": "즐겨찾기"
+    },
+    "start_new_group": {
+        "message": "+ 새 그룹"
+    },
+    "start_group_number": {
+        "message": "그룹 $1"
+    },
+    "start_selection": {
+        "message": "바로가기 $1개 · 그룹 링크 $2개"
+    },
+    "start_add_sites": {
+        "message": "사이트 $1개 추가"
+    },
+    "start_empty_group": {
+        "message": "새 그룹"
+    },
+    "start_added": {
+        "message": "보드가 준비되었습니다."
+    },
+    "start_back": {
+        "message": "뒤로"
+    },
+    "sbe_live_help": {
+        "message": "키를 만들면 공유 보드가 열립니다. 변경 사항은 자동 저장되며, 보드가 열려 있는 동안 다른 사람의 변경 사항이 30초마다 반영됩니다. 충돌하는 변경 사항은 검토가 필요합니다. 팀 작업에는 이 공유 탭을 사용하세요. 복원된 원본은 별도의 로컬 사본입니다."
+    },
+    "sbe_status_offline": {
+        "message": "공유 보드 · 연결이 끊어졌습니다. 자동으로 다시 시도합니다…"
+    },
+    "sharing_title": {
+        "message": "공유"
+    },
+    "sharing_subtitle": {
+        "message": "보드를 공유하거나 받은 보드를 가져오세요"
+    },
+    "sharing_codes": {
+        "message": "공유 코드"
+    },
+    "sharing_links": {
+        "message": "공개 링크"
+    },
+    "sharing_live": {
+        "message": "연결된 보드"
+    },
+    "sharing_new_code": {
+        "message": "새 코드"
+    },
+    "sharing_new_link": {
+        "message": "새 공개 링크"
+    },
+    "sharing_new_live": {
+        "message": "새 연결 보드"
+    },
+    "sharing_import": {
+        "message": "코드 가져오기"
+    },
+    "sharing_join": {
+        "message": "보드 참여"
+    },
+    "sharing_source": {
+        "message": "원본 작업 공간"
+    },
+    "sharing_joined": {
+        "message": "참여한 보드"
+    },
+    "sharing_settings_description": {
+        "message": "공유 코드, 공개 링크 및 연결된 보드"
+    },
+    "sharing_codes_description": {
+        "message": "받는 사람은 편집 가능한 사본을 ReadyTab으로 가져옵니다. 이후 변경 사항은 동기화되지 않습니다."
+    },
+    "sharing_links_description": {
+        "message": "링크가 있는 누구나 확장 프로그램 없이 브라우저에서 보드를 볼 수 있습니다. 변경 사항을 게시하여 업데이트하세요."
+    },
+    "sharing_live_description": {
+        "message": "구독자는 ReadyTab에서 연결된 보드를 받으며, 편집 권한이 없으면 읽기 전용입니다. 연결된 보드의 편집은 동기화되지만 별도 원본의 변경 사항은 게시해야 합니다."
+    },
+    "sharing_join_description": {
+        "message": "보드 토큰과 소유자가 제공한 비밀번호(있는 경우)를 입력하세요."
+    },
+    "sharing_publish_required": {
+        "message": "공유 생성 및 관리에는 Full이 필요합니다. 사본 가져오기와 보드 참여는 무료입니다."
+    },
+    "sharing_no_source": {
+        "message": "공유할 보호되지 않은 로컬 작업 공간을 선택하세요."
+    },
+    "sbe_edit_keys": {
+        "message": "편집 키"
+    },
+    "sbe_key_name": {
+        "message": "키 이름"
+    },
+    "sbe_add_key": {
+        "message": "키 추가"
+    },
+    "sbe_rename_key": {
+        "message": "이름 변경"
+    },
+    "sbe_revoke_key": {
+        "message": "해지"
+    },
+    "sbe_replace_named_confirm": {
+        "message": "\"$1\"을 교체할까요? 현재 키는 사용할 수 없게 됩니다. 다른 키는 계속 작동합니다."
+    },
+    "sbe_revoke_named_confirm": {
+        "message": "\"$1\"을 해지할까요? 이 키를 사용하는 모든 사람이 편집 권한을 잃습니다."
+    },
+    "sbe_key_other_device": {
+        "message": "이 기기에 저장되지 않은 키입니다. 새 사본을 받으려면 교체하세요."
+    },
+    "sbe_named_help": {
+        "message": "사람이나 그룹을 위한 이름 있는 키를 만드세요. 각 키는 개별적으로 교체하거나 해지할 수 있습니다. 키 소유자는 편집할 수 있으며, 해지해도 보기 권한은 유지됩니다."
+    },
+    "sbe_status_recovered": {
+        "message": "대기 중인 변경 사항을 복구했습니다. 저장하기 전에 검토하세요."
+    },
+    "sbe_draft_error": {
+        "message": "로컬 복구 데이터를 저장하지 못했습니다. 이 탭을 열어 두고 변경 사항을 내보내세요."
+    },
+    "sbe_discard_draft": {
+        "message": "대기 중인 변경 사항 버리기"
+    },
+    "sbe_unfinished_text": {
+        "message": "미완성 텍스트"
+    },
+    "sbe_discard_text": {
+        "message": "이 텍스트 버리기"
+    },
+    "sbe_saved_locally": {
+        "message": "이 기기에 저장됨. 공유 대기 중."
+    },
+    "sbe_incorrect_password": {
+        "message": "보드 비밀번호가 올바르지 않습니다. 다시 시도하세요."
+    },
+    "bmi_choose_file": {
+        "message": "Choose bookmark file…"
+    },
+    "bmi_choose_file_hint": {
+        "message": "Export bookmarks from your browser as HTML, then choose the file to preview it here."
+    },
+    "bmi_from_file": {
+        "message": "Bookmark file"
+    },
+    "ega3_choose_file_hint": {
+        "message": "Choose a bookmark HTML export first."
+    },
+    "greet_night": {
+        "message": "안녕히 주무세요"
+    },
+    "greet_morning": {
+        "message": "좋은 아침이에요"
+    },
+    "greet_afternoon": {
+        "message": "좋은 오후예요"
+    },
+    "greet_evening": {
+        "message": "좋은 저녁이에요"
+    },
+    "greet_night_name": {
+        "message": "$1님, 안녕히 주무세요"
+    },
+    "greet_morning_name": {
+        "message": "$1님, 좋은 아침이에요"
+    },
+    "greet_afternoon_name": {
+        "message": "$1님, 좋은 오후예요"
+    },
+    "greet_evening_name": {
+        "message": "$1님, 좋은 저녁이에요"
+    },
+    "setg_greeting_name_label": {
+        "message": "이름"
+    },
+    "setg_greeting_name_ph": {
+        "message": "예: 민준"
+    },
+    "clock_toggle_format_title": {
+        "message": "클릭하여 12/24시간 전환"
+    },
+    "setg_favicons_remote": {
+        "message": "웹에서 파비콘 불러오기"
+    },
+    "setg_favicons_remote_desc": {
+        "message": "끄면 링크에 글자 아바타가 표시되고 아이콘 요청이 전송되지 않습니다."
+    },
+    "ip22_cat_custom": {
+        "message": "사용자 지정"
+    },
+    "ip22_custom_url_ph": {
+        "message": "SVG 또는 PNG 링크 붙여넣기…"
+    },
+    "ip22_custom_use": {
+        "message": "아이콘 사용"
+    },
+    "ip22_custom_invalid": {
+        "message": "유효한 이미지 링크 입력(http/https)"
+    },
+    "ip22_custom_failed": {
+        "message": "이미지를 불러올 수 없습니다"
+    }
+}

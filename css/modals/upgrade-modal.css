@@ -1,0 +1,281 @@
+/* ===== Upgrade / Pro Gate Modal ===== */
+
+.upgrade-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.upgrade-modal {
+    position: relative;
+    background: var(--modal-bg, #fff);
+    border-radius: var(--border-radius);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+    width: 100%;
+    max-width: 360px;
+    padding: 2rem 1.75rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.upgrade-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--icon-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition:
+        background 0.15s,
+        color 0.15s;
+}
+
+.upgrade-close:hover {
+    background: rgba(128, 128, 128, 0.1);
+    color: var(--link-color);
+}
+
+.upgrade-icon {
+    font-size: 1.75rem;
+    color: var(--accent-color);
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+.upgrade-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--link-color);
+    line-height: 1.3;
+}
+
+.upgrade-desc {
+    margin: 0.25rem 0 0.75rem;
+    font-size: 0.8375rem;
+    color: var(--overlay-muted-text, #667085);
+    line-height: 1.5;
+}
+
+.upgrade-buy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55rem 1.5rem;
+    background: var(--accent-color);
+    color: #fff !important;
+    border-radius: var(--border-radius);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s ease;
+    margin-top: 0.25rem;
+}
+
+.upgrade-buy-btn:hover {
+    background: var(
+        --accent-hover-color,
+        color-mix(in srgb, var(--accent-color) 88%, black)
+    );
+}
+
+.upgrade-key-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--icon-color);
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    transition: color 0.15s;
+}
+
+.upgrade-key-btn:hover {
+    color: var(--link-color);
+}
+
+/* ===== Share-code modal additions ===== */
+
+.share-modal {
+    width: min(520px, calc(100vw - 2rem));
+    max-width: 520px;
+}
+
+.share-code-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.share-code {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    font-family: monospace;
+    font-size: 0.98rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--link-color);
+    /* Use the shared input tokens (like every other modal) so the field reads
+       as an input on light/pastel themes — --card-border-color is near-white
+       there and would vanish against the modal. */
+    background: var(--smodal-input-bg, var(--input-bg, #fff));
+    border: 1px solid
+        var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    border-radius: var(--border-radius);
+    padding: 0.6rem 0.75rem;
+    outline: none;
+}
+
+.share-code:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px
+        color-mix(in srgb, var(--accent-color) 18%, transparent);
+}
+
+.share-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--btn-primary-bg, var(--accent-color));
+    color: var(--btn-primary-text, #fff);
+    border: none;
+    box-shadow: var(--btn-primary-glow, none);
+    border-radius: calc(var(--border-radius) - 2px);
+    padding: 0.3rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+}
+
+.share-copy-btn:hover {
+    filter: brightness(1.07);
+}
+
+.share-hint {
+    font-size: 0.775rem;
+    color: var(--overlay-muted-text, #667085);
+    margin: 0.25rem 0 0;
+}
+
+/* ===== Share import dialog ===== */
+
+.share-import-dialog-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: left;
+    margin-top: 0.25rem;
+}
+
+.share-import-dialog-label {
+    font-size: 0.8rem;
+    color: var(--overlay-muted-text, #667085);
+    font-weight: 500;
+}
+
+.share-import-dialog-input {
+    width: 100%;
+    padding: 0.45rem 0.65rem;
+    border: 1px solid
+        var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    border-radius: var(--border-radius);
+    background: var(--smodal-input-bg, var(--input-bg, #fff));
+    color: var(--smodal-input-text, var(--overlay-text, #101828));
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+.share-import-dialog-actions {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 0.25rem;
+}
+
+.share-import-cancel-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 0.5rem;
+    background: var(--btn-secondary-bg, none);
+    border: 1px solid var(--btn-secondary-border, var(--card-border-color, rgba(0, 0, 0, 0.15)));
+    border-radius: var(--border-radius);
+    color: var(--btn-secondary-text, var(--icon-color));
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.share-import-cancel-btn:hover {
+    background: color-mix(in srgb, var(--btn-secondary-text, #475467) 7%, var(--btn-secondary-bg, transparent));
+}
+
+.share-import-confirm-btn {
+    justify-content: center;
+    flex: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ===== Share code import row (Data tab) ===== */
+
+.share-import-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.share-import-row input {
+    flex: 1;
+    min-height: 40px;
+    padding: 0.625rem 0.8rem;
+    font-family: monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    /* Use the same input tokens as every other field so the background/border
+       match; the monospace + uppercase keep its code-field identity. */
+    border: 1px solid
+        var(--smodal-input-border, color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent));
+    border-radius: 12px;
+    background: var(--smodal-input-bg, var(--input-bg, #fff));
+    color: var(--smodal-input-text, var(--overlay-text, #101828));
+    text-transform: uppercase;
+}
+
+/* Lavender Sky's --card-border-color is near-white, so this field's outline
+   disappears on the cream modal — give it a visible border. */
+body.ui-lavender-sky .share-import-row input {
+    border-color: rgba(74, 60, 42, 0.28);
+}

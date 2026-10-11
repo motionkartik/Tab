@@ -1,0 +1,773 @@
+/* ===== Account / License Tab ===== */
+
+:is(#settings-license, #cloud-sync-modal) .settings-title-row .settings-help-trigger {
+    margin-left: 0.15rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-title-row .sync-status-pill {
+    margin-left: auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-surface-card {
+    overflow: hidden;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-card-row,
+:is(#settings-license, #cloud-sync-modal) .settings-account-sync-block,
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-create {
+    padding: 0.85rem 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-card-copy,
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-copy {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-card-row-stack {
+    align-items: stretch;
+    flex-direction: column;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-row-meta {
+    margin: 0.15rem 0 0;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-inline-actions,
+:is(#settings-license, #cloud-sync-modal) .settings-account-row-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-row-actions {
+    justify-content: flex-end;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-text-field,
+:is(#settings-license, #cloud-sync-modal) .license-key-input,
+:is(#settings-license, #cloud-sync-modal) .license-key-display,
+:is(#settings-license, #cloud-sync-modal) .sync-name-input,
+:is(#settings-license, #cloud-sync-modal) .managed-agency-fields input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    background: var(--input-bg, #fff);
+    color: var(--overlay-text, #101828);
+    font: inherit;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-key-input,
+:is(#settings-license, #cloud-sync-modal) .license-key-display {
+    font-family:
+        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    font-size: 0.88rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-text-field:focus,
+:is(#settings-license, #cloud-sync-modal) .license-key-input:focus,
+:is(#settings-license, #cloud-sync-modal) .license-key-display:focus,
+:is(#settings-license, #cloud-sync-modal) .sync-name-input:focus,
+:is(#settings-license, #cloud-sync-modal) .managed-agency-fields input:focus {
+    outline: none;
+    border-color: var(--accent-color, #4a7bff);
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 16%, transparent);
+}
+
+/* License card */
+.license-change-dialog {
+    width: min(34rem, calc(100vw - 2rem));
+    box-sizing: border-box;
+    max-height: calc(100dvh - 2rem);
+    overflow: auto;
+    padding: 1.5rem;
+    border: 1px solid var(--overlay-border-color, #d0d5dd);
+    border-radius: 16px;
+    background: var(--overlay-bg, #fff);
+    color: var(--overlay-text, #101828);
+    box-shadow: 0 20px 60px #0003;
+}
+
+.license-change-dialog::backdrop { background: #0006; }
+.license-change-dialog h2 { margin: 0 0 1rem; font-size: 1.2rem; }
+.license-change-dialog p { line-height: 1.5; }
+.license-change-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem; }
+.license-change-actions button { white-space: normal; }
+
+.settings-account-license-access {
+    margin: 0;
+    padding: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: var(--overlay-text, #101828);
+}
+
+.settings-account-license-access > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.settings-account-license-access dd {
+    margin: 0;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 14px;
+    background: color-mix(in srgb, #10b981 12%, white);
+    color: #10b981;
+    flex: 0 0 auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-icon svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--overlay-text, #101828);
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-plan {
+    margin: 0.15rem 0 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #10b981;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-active-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0.28rem 0.72rem;
+    border-radius: 999px;
+    background: var(
+        --settings-status-pill-bg,
+        color-mix(in srgb, #10b981 12%, white)
+    );
+    color: var(--settings-status-pill-color, #10b981);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: none;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-license-field {
+    padding: 0.95rem 1rem 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-field-label {
+    display: block;
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-key-row,
+:is(#settings-license, #cloud-sync-modal) .settings-account-inline-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-key-row {
+    margin: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-key-display,
+:is(#settings-license, #cloud-sync-modal) .settings-account-inline-form .license-key-input,
+:is(#settings-license, #cloud-sync-modal) .sync-name-input {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-icon-btn svg {
+    width: 0.95rem;
+    height: 0.95rem;
+    display: block;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-deactivate-btn {
+    background: transparent !important;
+    color: #d92d20 !important;
+    border: 1px solid rgba(217, 45, 32, 0.35) !important;
+    /* Destructive outline button: drop the theme's primary-button glow. */
+    box-shadow: none !important;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-deactivate-btn:hover {
+    background: rgba(217, 45, 32, 0.06) !important;
+    border-color: rgba(217, 45, 32, 0.55) !important;
+    color: #d92d20 !important;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-banner-copy {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    min-width: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-banner-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--accent-color, #4a7bff) 10%, white);
+    color: var(--accent-color, #4a7bff);
+    font-size: 1.15rem;
+    flex: 0 0 auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-banner-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--overlay-text, #101828);
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-banner-desc {
+    margin: 0.18rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-buy-btn {
+    transition: background 0.2s ease;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-buy-btn:hover {
+    opacity: 1;
+}
+
+:is(#settings-license, #cloud-sync-modal) .license-error,
+:is(#settings-license, #cloud-sync-modal) .sync-error,
+:is(#settings-license, #cloud-sync-modal) .settings-error {
+    margin: 0.5rem 0 0;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    color: #d92d20;
+}
+
+/* Sync section */
+:is(#settings-license, #cloud-sync-modal) .sync-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.38rem;
+    padding: 0.22rem 0.6rem;
+    border-radius: 999px;
+    background: var(
+        --settings-status-pill-bg,
+        color-mix(in srgb, #10b981 12%, white)
+    );
+    color: var(--settings-status-pill-color, #10b981);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    border: none;
+    white-space: nowrap;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-status-pill::before {
+    content: "";
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 50%;
+    background: currentColor;
+    flex: 0 0 auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-loading-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-spinner {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-top-color: var(--accent-color, #4a7bff);
+    border-radius: 50%;
+    animation: sync-spin 0.7s linear infinite;
+}
+
+@keyframes sync-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#settings-license
+    #sync-body
+    > .settings-account-sync-block
+    + .settings-account-sync-block {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+:is(#settings-license, #cloud-sync-modal) #sync-history-header,
+:is(#settings-license, #cloud-sync-modal) #sync-history-body {
+    padding: 0.85rem 1rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) #sync-history-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    border-bottom: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+:is(#settings-license, #cloud-sync-modal) #sync-history-body {
+    padding-top: 0.85rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-sync-block-list {
+    padding: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-info {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-empty-row {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.85rem 1rem;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-empty-row svg {
+    flex: 0 0 auto;
+    opacity: 0.7;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+
+#settings-license
+    .sync-dashboard-list
+    > .sync-dashboard-row
+    + .sync-dashboard-row {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    margin: 0;
+    transition: background 0.15s ease;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-row.is-active {
+    background: color-mix(
+        in srgb,
+        var(--accent-color, #4a7bff) 6%,
+        transparent
+    );
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-row.is-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--accent-color, #4a7bff);
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-info {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-width: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-current-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    flex: 0 0 auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-meta {
+    font-size: 0.82rem;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-dashboard-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-icon-btn {
+    width: 29px;
+    min-width: 29px;
+    min-height: 29px;
+    padding: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-push-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .sync-push-btn {
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+/* Managed boards */
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-card {
+    padding: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-empty-state {
+    padding: 0.95rem 1rem;
+    color: var(--overlay-muted-text, #667085);
+    font-size: 0.84rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0.9rem 1rem;
+}
+
+#settings-license
+    .settings-account-managed-list
+    > .settings-account-managed-row
+    + .settings-account-managed-row,
+#settings-license
+    .settings-account-managed-list
+    > .settings-account-empty-state
+    + .settings-account-managed-row {
+    border-top: 1px solid var(--overlay-separator-color, rgba(0, 0, 0, 0.08));
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-meta {
+    margin-top: 0.15rem;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--overlay-muted-text, #667085);
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-note {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    padding: 0.45rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid rgba(217, 119, 6, 0.26);
+    background: rgba(217, 119, 6, 0.08);
+    color: #c77712;
+    font-size: 0.83rem;
+    line-height: 1.4;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-note.is-revoked {
+    border-color: rgba(217, 45, 32, 0.22);
+    background: rgba(217, 45, 32, 0.06);
+    color: #d92d20;
+}
+
+:is(#settings-license, #cloud-sync-modal) .managed-agency-create {
+    margin: 0;
+    border-top: none;
+}
+
+:is(#settings-license, #cloud-sync-modal) .managed-agency-create h4 {
+    margin: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-actions {
+    justify-content: flex-start;
+    margin-top: 0.8rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .managed-agency-fields {
+    display: grid;
+    gap: 0.55rem;
+    margin: 0.85rem 0 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .managed-agency-create .settings-description {
+    margin-bottom: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-managed-create-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.9rem;
+}
+
+#settings-license
+    .settings-account-managed-create-footer
+    .settings-description {
+    margin: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) #agency-create-error {
+    margin-bottom: 0;
+}
+
+/* Companion */
+/* Give the Companion App heading breathing room from the section above it. */
+.settings-license-companion-section {
+    margin-top: 1.75rem;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-companion-card {
+    padding: 0;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-companion-status-wrap {
+    align-items: center;
+    justify-content: space-between;
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-status-row {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--overlay-text, #101828);
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--overlay-border-color, rgba(0, 0, 0, 0.22));
+    flex: 0 0 auto;
+    transition: background 0.2s;
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-dot.ok {
+    background: #10b981;
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-dot.err {
+    background: #ef4444;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-companion-actions {
+    margin-left: auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-retry-btn {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+:is(#settings-license, #cloud-sync-modal) .companion-retry-btn:hover {
+    opacity: 1;
+}
+
+:is(#settings-license, #cloud-sync-modal) .settings-account-companion-link {
+    flex: 0 0 auto;
+}
+
+:is(#settings-license, #cloud-sync-modal) #companion-raw-error {
+    margin: 0;
+    padding: 0.9rem 1rem;
+    background: color-mix(in srgb, var(--input-bg, #fff) 85%, transparent);
+    color: var(--overlay-muted-text, #667085);
+    font-size: 0.78rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    :is(#settings-license, #cloud-sync-modal) .license-banner,
+    :is(#settings-license, #cloud-sync-modal) .settings-account-card-row,
+    :is(#settings-license, #cloud-sync-modal) .settings-account-managed-row,
+    :is(#settings-license, #cloud-sync-modal) .settings-account-managed-create-footer,
+    :is(#settings-license, #cloud-sync-modal) .sync-dashboard-row,
+    :is(#settings-license, #cloud-sync-modal) .sync-push-row {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    :is(#settings-license, #cloud-sync-modal) .license-active-badge,
+    :is(#settings-license, #cloud-sync-modal) .license-buy-btn {
+        margin-left: 0;
+    }
+
+    :is(#settings-license, #cloud-sync-modal) .settings-account-row-actions,
+    :is(#settings-license, #cloud-sync-modal) .sync-dashboard-actions {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    :is(#settings-license, #cloud-sync-modal) .license-key-row,
+    :is(#settings-license, #cloud-sync-modal) .settings-account-inline-form {
+        flex-wrap: wrap;
+    }
+
+    :is(#settings-license, #cloud-sync-modal) .license-icon-btn,
+    :is(#settings-license, #cloud-sync-modal) .sync-icon-btn {
+        width: 29px;
+        min-width: 29px;
+    }
+
+    :is(#settings-license, #cloud-sync-modal) .settings-account-companion-link,
+    :is(#settings-license, #cloud-sync-modal) .sync-push-btn,
+    :is(#settings-license, #cloud-sync-modal) #agency-create-btn,
+    :is(#settings-license, #cloud-sync-modal) .license-buy-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Automatic sync section sits below the JS-rendered cards; give its heading the
+   same breathing room as the Companion section above the fold. */
+.settings-license-automation-section {
+    margin-top: 1.75rem;
+}
+
+/* ── Cloud Sync dialog content ───────────────────────────────────────────── */
+/* The connect/dashboards UI was built for the inline account card; inside the
+   dialog, present it as spaced cards like the other "Manage …" dialogs. */
+#cloud-sync-modal #sync-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#cloud-sync-modal .settings-account-sync-block {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#cloud-sync-modal .sync-info {
+    margin: 0;
+}
+
+#cloud-sync-modal .sync-dashboard-list {
+    gap: 0.6rem;
+}
+
+#cloud-sync-modal .sync-dashboard-row {
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 13px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.08);
+    /* No overflow:hidden — it would clip the open kebab dropdown. Round the
+       active accent bar instead so it respects the card corners. */
+}
+
+#cloud-sync-modal .sync-dashboard-row.is-active::before {
+    border-radius: 13px 0 0 13px;
+}
+
+#cloud-sync-modal .sync-empty-row {
+    border: 1px solid var(--overlay-border-color, rgba(0, 0, 0, 0.12));
+    border-radius: 13px;
+    background: var(--input-bg, var(--card-bg, #fff));
+    padding: 1rem;
+}

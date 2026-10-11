@@ -1,0 +1,31 @@
+
+
+body.ui-light .item ul::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body.ui-light .web-search-form:focus-within {
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, #4b5668 12%, transparent),
+        0 3px 8px rgba(75, 86, 104, 0.05);
+}
+
+/* Settings drawer — real card lift so white cards clearly float above the
+   deepened content well (a soft drop shadow reads better in light mode than
+   darkening the surface further). Applies to every drawer card. */
+body.ui-light {
+    --settings-card-box-shadow:
+        0 1px 2px rgba(16, 24, 40, 0.06),
+        0 10px 24px -8px rgba(16, 24, 40, 0.16);
+}
+
+/* Active settings tab tint is set via its own vars --smodal-active-bg /
+   --smodal-active-text in variables.css (theme-editor-editable). No rule here. */
+
+/* Group hover now tints like the shortcut hover (both already lift). Reads the
+   group's own --card-hover-bg (a literal), so it stays theme-editor-editable.
+   Light-scoped: other themes keep their existing hover until we copy per-theme
+   values into --card-hover-bg for each. */
+body.ui-light .grid-stack-item-content:has(> .item):hover {
+    background: var(--card-hover-bg);
+}

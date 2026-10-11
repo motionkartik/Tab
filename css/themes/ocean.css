@@ -1,0 +1,19 @@
+/* ============================================================
+   THEME: Ocean  (body.ui-ocean)
+   ============================================================ */
+
+body.ui-ocean {
+    background-attachment: fixed;
+}
+
+body.ui-ocean .web-search-form:focus-within {
+    border-color: #2fd4c6;
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, #2fd4c6 22%, transparent),
+        0 6px 18px -8px rgba(47, 212, 198, 0.35);
+}
+
+body.ui-ocean .todo-group-inline-input::placeholder {
+    color: rgba(234, 252, 255, 0.62);
+    opacity: 1;
+}

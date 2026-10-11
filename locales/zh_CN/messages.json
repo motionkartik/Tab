@@ -1,0 +1,6002 @@
+{
+    "action_add_workspace_title": {
+        "message": "添加工作区"
+    },
+    "action_new_group_aria": {
+        "message": "添加分组"
+    },
+    "action_new_group_label": {
+        "message": "新建"
+    },
+    "action_new_group_title": {
+        "message": "新建分组"
+    },
+    "action_settings_aria": {
+        "message": "打开设置"
+    },
+    "action_settings_label": {
+        "message": "设置"
+    },
+    "action_settings_title": {
+        "message": "设置"
+    },
+    "ae0_blocked_launcher": {
+        "message": "已拦截不安全的启动器目标"
+    },
+    "ae0_blocked_link": {
+        "message": "已拦截不安全的链接"
+    },
+    "ae0_copied": {
+        "message": "已复制！"
+    },
+    "ae0_copy_failed": {
+        "message": "复制失败"
+    },
+    "ae0_done_partial": {
+        "message": "完成 — 已运行 $1/$2（跳过 $3 个）"
+    },
+    "ae0_done_step": {
+        "message": "完成 — $1 个步骤"
+    },
+    "ae0_done_steps": {
+        "message": "完成 — $1 个步骤"
+    },
+    "ae0_launch_failed": {
+        "message": "启动失败"
+    },
+    "ae0_no_steps": {
+        "message": "此例程尚无步骤"
+    },
+    "ae0_routine_default": {
+        "message": "例程"
+    },
+    "ae0_starting_step": {
+        "message": "正在开始 $1 个步骤…"
+    },
+    "ae0_starting_steps": {
+        "message": "正在开始 $1 个步骤…"
+    },
+    "ae0_step_n": {
+        "message": "步骤 $1"
+    },
+    "ae0_step_progress": {
+        "message": "步骤 $1/$2：$3"
+    },
+    "agrad_amber_dark": {
+        "message": "暗琥珀"
+    },
+    "agrad_amber_haze": {
+        "message": "琥珀薄雾"
+    },
+    "agrad_amber_mist": {
+        "message": "琥珀轻雾"
+    },
+    "agrad_arctic_rays": {
+        "message": "极地光线"
+    },
+    "agrad_cherry_dark": {
+        "message": "暗樱之色"
+    },
+    "agrad_crystal_tide": {
+        "message": "水晶潮汐"
+    },
+    "agrad_deep_tide": {
+        "message": "深海潮汐"
+    },
+    "agrad_dusk_glow": {
+        "message": "暮光微芒"
+    },
+    "agrad_ember_glow": {
+        "message": "余烬微光"
+    },
+    "agrad_emerald_dusk": {
+        "message": "翡翠暮色"
+    },
+    "agrad_lavender_rays": {
+        "message": "薰衣草光线"
+    },
+    "agrad_midnight_indigo": {
+        "message": "午夜靛蓝"
+    },
+    "agrad_ocean_bloom": {
+        "message": "海洋绽放"
+    },
+    "agrad_ocean_curves": {
+        "message": "海洋曲线"
+    },
+    "agrad_rose_dawn": {
+        "message": "玫瑰黎明"
+    },
+    "agrad_velvet_dream": {
+        "message": "丝绒之梦"
+    },
+    "agrad_violet_night": {
+        "message": "紫罗兰之夜"
+    },
+    "bg_context_menu_add": {
+        "message": "添加到 ReadyTab"
+    },
+    "c29_custom": {
+        "message": "自定义"
+    },
+    "c29_invalid_css": {
+        "message": "CSS 值无效。已还原为上一个有效值。"
+    },
+    "c29_opacity": {
+        "message": "不透明度"
+    },
+    "c29_reset_to_default": {
+        "message": "重置为主题默认值"
+    },
+    "c29_theme_default_opt": {
+        "message": "主题默认值"
+    },
+    "cl2_layout_compacted": {
+        "message": "布局已紧凑排列"
+    },
+    "cl2_nothing_to_arrange": {
+        "message": "没有可整理的内容"
+    },
+    "cnt_btn_add_link": {
+        "message": "添加链接"
+    },
+    "cnt_btn_add_link_button": {
+        "message": "添加链接按钮"
+    },
+    "cnt_btn_cancel": {
+        "message": "取消"
+    },
+    "cnt_error_loading": {
+        "message": "加载内容出错，请重试。"
+    },
+    "cnt_label_button_text": {
+        "message": "按钮文字"
+    },
+    "cnt_label_group": {
+        "message": "分组"
+    },
+    "cnt_label_link_name": {
+        "message": "链接名称"
+    },
+    "cnt_label_url": {
+        "message": "URL"
+    },
+    "cnt_label_workspace": {
+        "message": "工作区"
+    },
+    "cnt_modal_title": {
+        "message": "添加到 ReadyTab"
+    },
+    "cnt_no_groups": {
+        "message": "暂无可用分组"
+    },
+    "cnt_placeholder_link_name": {
+        "message": "输入链接名称"
+    },
+    "cnt_placeholder_url": {
+        "message": "输入 URL"
+    },
+    "cnt_tab_group_link": {
+        "message": "分组链接"
+    },
+    "cnt_tab_link_button": {
+        "message": "链接按钮"
+    },
+    "cnt_workspace_default": {
+        "message": "起始页"
+    },
+    "csm1_action_failed": {
+        "message": "云同步操作失败：$1"
+    },
+    "csm1_autopull_failed": {
+        "message": "自动拉取失败：$1"
+    },
+    "csm1_autosync_failed": {
+        "message": "自动同步失败：$1"
+    },
+    "csm1_close": {
+        "message": "关闭"
+    },
+    "csm1_cloud_dashboard_fallback": {
+        "message": "云端仪表板"
+    },
+    "csm1_cloud_updated": {
+        "message": "云端仪表板已更新"
+    },
+    "csm1_confirm_pull": {
+        "message": "确认拉取"
+    },
+    "csm1_label_cloud": {
+        "message": "☁ 云端"
+    },
+    "csm1_label_local": {
+        "message": "💻 本地"
+    },
+    "csm1_looks_good": {
+        "message": "看起来没问题"
+    },
+    "csm1_missing_protected_warning": {
+        "message": "此 $1 早于受保护工作区备份功能的支持。ReadyTab 已为“$3”恢复工作区标签$2，但受保护的内容未包含在内。$4"
+    },
+    "csm1_msg_overwrite": {
+        "message": "你的本地仪表板有未同步的更改，而活动的云端仪表板已在其他地方更新。请查看差异，拉取云端版本，或用本地状态覆盖云端。"
+    },
+    "csm1_msg_pull": {
+        "message": "活动的云端仪表板比你的本地副本更新。请查看差异，或将云端版本拉取到此设备。"
+    },
+    "csm1_not_now": {
+        "message": "暂不"
+    },
+    "csm1_overwrite_cloud": {
+        "message": "覆盖云端"
+    },
+    "csm1_overwrite_cloud_confirm": {
+        "message": "覆盖云端"
+    },
+    "csm1_overwrite_title": {
+        "message": "覆盖“$1”"
+    },
+    "csm1_pull_cloud": {
+        "message": "拉取云端"
+    },
+    "csm1_pull_title": {
+        "message": "拉取“$1”"
+    },
+    "csm1_pulled_newer": {
+        "message": "已拉取较新的云端状态"
+    },
+    "csm1_recovery_repush": {
+        "message": "从原设备重新推送以恢复缺失的数据。"
+    },
+    "csm1_resolve": {
+        "message": "解决"
+    },
+    "csm1_review": {
+        "message": "查看"
+    },
+    "csm1_review_diff": {
+        "message": "查看差异"
+    },
+    "csm1_review_title": {
+        "message": "查看“$1”"
+    },
+    "csm1_source_label_cloud_snapshot": {
+        "message": "云端快照"
+    },
+    "csm1_source_label_snapshot": {
+        "message": "快照"
+    },
+    "csm1_title_cloud_changed": {
+        "message": "云端已在另一台设备上更改"
+    },
+    "csm1_title_newer_cloud": {
+        "message": "有更新的云端状态可用"
+    },
+    "dth10_enter_share_code": {
+        "message": "请输入分享码。"
+    },
+    "dth10_fetching": {
+        "message": "获取中…"
+    },
+    "dth10_import": {
+        "message": "导入"
+    },
+    "dth10_import_failed": {
+        "message": "导入失败：$1"
+    },
+    "dth10_import_success": {
+        "message": "导入成功！"
+    },
+    "dth10_locked_excluded": {
+        "message": "注意：$1 个已锁定的工作区已从导出中排除：$2。\n如需包含它们，请先解锁。"
+    },
+    "dth10_no_bookmarks": {
+        "message": "此文件夹没有书签。"
+    },
+    "dth10_no_valid_workspaces": {
+        "message": "此文件不包含有效的工作区。"
+    },
+    "dth10_read_failed": {
+        "message": "读取导入文件失败。"
+    },
+    "dth10_replace_confirm": {
+        "message": "此操作将替换你当前所有的工作区数据。是否继续？"
+    },
+    "dth10_select_bookmark_folder": {
+        "message": "请选择一个书签文件夹。"
+    },
+    "dth10_select_folder": {
+        "message": "选择一个文件夹…"
+    },
+    "dth10_untitled": {
+        "message": "未命名"
+    },
+    "ega3_add_clipboard": {
+        "message": "添加剪贴板"
+    },
+    "ega3_add_launcher": {
+        "message": "添加启动器"
+    },
+    "ega3_add_link": {
+        "message": "添加链接"
+    },
+    "ega3_cancel": {
+        "message": "取消"
+    },
+    "ega3_folder_empty": {
+        "message": "此文件夹没有书签。"
+    },
+    "ega3_folder_read_error": {
+        "message": "无法读取该文件夹。"
+    },
+    "ega3_import": {
+        "message": "导入"
+    },
+    "ega3_import_bm": {
+        "message": "从书签导入"
+    },
+    "ega3_import_desc_prefix": {
+        "message": "将书签文件夹中的链接添加到 "
+    },
+    "ega3_importing": {
+        "message": "导入中…"
+    },
+    "ega3_load_error": {
+        "message": "无法加载书签"
+    },
+    "ega3_loading_folders": {
+        "message": "正在加载文件夹…"
+    },
+    "ega3_select_folder": {
+        "message": "选择一个文件夹…"
+    },
+    "ega3_untitled": {
+        "message": "未命名"
+    },
+    "grp_already_used_icons": {
+        "message": "已使用的图标"
+    },
+    "grp_avatar_url_label": {
+        "message": "头像图片 URL"
+    },
+    "grp_back": {
+        "message": "← 返回"
+    },
+    "grp_bg_color_label": {
+        "message": "背景颜色"
+    },
+    "grp_browse": {
+        "message": "浏览…"
+    },
+    "grp_browse_title": {
+        "message": "浏览…"
+    },
+    "grp_choose_type": {
+        "message": "选择元素类型"
+    },
+    "grp_choose_type_hint": {
+        "message": "选择你想添加的元素类型，然后在下一步中配置其详细信息。"
+    },
+    "grp_clear_icon": {
+        "message": "清除图标"
+    },
+    "grp_clear_icon_title": {
+        "message": "清除图标"
+    },
+    "grp_clipboard_content_label": {
+        "message": "要复制的内容"
+    },
+    "grp_clipboard_content_ph": {
+        "message": "点击时将复制到剪贴板的文本"
+    },
+    "grp_color": {
+        "message": "颜色"
+    },
+    "grp_content_label": {
+        "message": "内容"
+    },
+    "grp_content_ph": {
+        "message": "输入你的内容"
+    },
+    "grp_element_type": {
+        "message": "元素类型"
+    },
+    "grp_ex_cursor": {
+        "message": "在 Cursor 中打开文件夹"
+    },
+    "grp_ex_discord": {
+        "message": "打开 Discord"
+    },
+    "grp_ex_obsidian": {
+        "message": "打开 Obsidian 仓库"
+    },
+    "grp_ex_spotify": {
+        "message": "打开 Spotify"
+    },
+    "grp_ex_steam": {
+        "message": "启动 Steam 游戏（通过 App ID）"
+    },
+    "grp_ex_teams": {
+        "message": "打开 Microsoft Teams"
+    },
+    "grp_ex_vscode": {
+        "message": "在 VS Code 中打开文件夹"
+    },
+    "grp_ex_windows": {
+        "message": "Windows 显示设置"
+    },
+    "grp_examples": {
+        "message": "示例"
+    },
+    "grp_fa_brands": {
+        "message": "品牌"
+    },
+    "grp_fa_regular": {
+        "message": "常规"
+    },
+    "grp_fa_solid": {
+        "message": "实心"
+    },
+    "grp_file_url_label": {
+        "message": "文件 URL"
+    },
+    "grp_font_size_label": {
+        "message": "字体大小"
+    },
+    "grp_general": {
+        "message": "常规"
+    },
+    "grp_icon_color_label": {
+        "message": "图标颜色"
+    },
+    "grp_icon_size_label": {
+        "message": "图标大小"
+    },
+    "grp_icon_title": {
+        "message": "图标"
+    },
+    "grp_image_url_label": {
+        "message": "图片 URL"
+    },
+    "grp_launcher_kind_app": {
+        "message": "应用 — URI / 协议"
+    },
+    "grp_launcher_kind_file": {
+        "message": "文件"
+    },
+    "grp_launcher_kind_folder": {
+        "message": "文件夹"
+    },
+    "grp_launcher_kind_label": {
+        "message": "类型"
+    },
+    "grp_launcher_kind_ps": {
+        "message": "命令 / 脚本"
+    },
+    "grp_launcher_target_label": {
+        "message": "目标 URI"
+    },
+    "grp_linkcard_hint": {
+        "message": "我们会尝试自动获取标题、描述和预览图。"
+    },
+    "grp_linkcard_url_label": {
+        "message": "链接 URL"
+    },
+    "grp_name_label": {
+        "message": "分组名称"
+    },
+    "grp_name_ph": {
+        "message": "分组名称"
+    },
+    "grp_no_icon": {
+        "message": "尚未选择图标！"
+    },
+    "grp_opt_callout": {
+        "message": "标注"
+    },
+    "grp_opt_clipboard": {
+        "message": "剪贴板按钮"
+    },
+    "grp_opt_code": {
+        "message": "代码块"
+    },
+    "grp_opt_divider": {
+        "message": "分隔线"
+    },
+    "grp_opt_file": {
+        "message": "文件"
+    },
+    "grp_opt_group": {
+        "message": "分组"
+    },
+    "grp_opt_heading": {
+        "message": "标题"
+    },
+    "grp_opt_image": {
+        "message": "图片"
+    },
+    "grp_opt_launcher": {
+        "message": "启动器按钮"
+    },
+    "grp_opt_linkcard": {
+        "message": "链接卡片"
+    },
+    "grp_opt_profile": {
+        "message": "个人资料"
+    },
+    "grp_opt_routine": {
+        "message": "例程"
+    },
+    "grp_opt_shortcut": {
+        "message": "快捷方式"
+    },
+    "grp_opt_stepheading": {
+        "message": "步骤标题"
+    },
+    "grp_opt_steps": {
+        "message": "步骤"
+    },
+    "grp_opt_text": {
+        "message": "文本"
+    },
+    "grp_opt_todolist": {
+        "message": "待办清单"
+    },
+    "grp_optional": {
+        "message": "（可选）"
+    },
+    "grp_preset_avatars": {
+        "message": "预设头像"
+    },
+    "grp_routine_steps_label": {
+        "message": "步骤"
+    },
+    "grp_save": {
+        "message": "保存分组"
+    },
+    "grp_search_icons_ph": {
+        "message": "搜索图标…"
+    },
+    "grp_selected_label": {
+        "message": "已选择："
+    },
+    "grp_show_terminal": {
+        "message": "显示终端窗口"
+    },
+    "grp_strip_svg": {
+        "message": "去除 SVG 中的填充/描边颜色"
+    },
+    "grp_title_add": {
+        "message": "添加分组"
+    },
+    "grp_type_locked_hint": {
+        "message": "元素类型在创建后无法更改。"
+    },
+    "grp_url_label": {
+        "message": "URL"
+    },
+    "grp_display_label": {
+        "message": "显示方式"
+    },
+    "grp_display_standard": {
+        "message": "标准按钮"
+    },
+    "grp_display_icon": {
+        "message": "仅图标"
+    },
+    "grp_display_show_label": {
+        "message": "在图标下方显示标签"
+    },
+    "gse21_accent_color": {
+        "message": "强调色"
+    },
+    "gse21_alpha_percent": {
+        "message": "$1%"
+    },
+    "gse21_background": {
+        "message": "背景"
+    },
+    "gse21_border_color": {
+        "message": "边框颜色"
+    },
+    "gse21_card": {
+        "message": "卡片"
+    },
+    "gse21_clear_override": {
+        "message": "清除覆盖"
+    },
+    "gse21_group_header": {
+        "message": "分组标题栏"
+    },
+    "gse21_group_style_title": {
+        "message": "分组样式"
+    },
+    "gse21_icon_color": {
+        "message": "图标颜色"
+    },
+    "gse21_links": {
+        "message": "链接"
+    },
+    "gse21_none": {
+        "message": "无"
+    },
+    "gse21_other": {
+        "message": "其他"
+    },
+    "gse21_reset_all": {
+        "message": "重置所有覆盖"
+    },
+    "gse21_shadow": {
+        "message": "阴影"
+    },
+    "gse21_text_color": {
+        "message": "文字颜色"
+    },
+    "gwr4_add_item": {
+        "message": "添加项目"
+    },
+    "gwr4_add_item_title": {
+        "message": "添加 $1"
+    },
+    "gwr4_add_task_aria": {
+        "message": "向 $1 添加任务"
+    },
+    "gwr4_add_task_btn": {
+        "message": "添加任务"
+    },
+    "gwr4_add_task_or_section": {
+        "message": "添加任务或分区"
+    },
+    "gwr4_close_add_task": {
+        "message": "关闭添加任务输入框"
+    },
+    "gwr4_collapse": {
+        "message": "折叠"
+    },
+    "gwr4_confirm_delete_all_tasks": {
+        "message": "从“$2”中删除全部 $1 个任务？"
+    },
+    "gwr4_confirm_delete_group": {
+        "message": "删除分组“$1”？"
+    },
+    "gwr4_copy_suffix": {
+        "message": "$1（副本）"
+    },
+    "gwr4_copy_suffix_n": {
+        "message": "$1（副本 $2）"
+    },
+    "gwr4_delete_all_tasks": {
+        "message": "删除所有任务"
+    },
+    "gwr4_group_deleted": {
+        "message": "“$1”已删除"
+    },
+    "gwr4_group_options": {
+        "message": "分组选项"
+    },
+    "gwr4_menu_copy_style": {
+        "message": "复制样式"
+    },
+    "gwr4_menu_delete": {
+        "message": "删除"
+    },
+    "gwr4_menu_duplicate": {
+        "message": "创建副本"
+    },
+    "gwr4_menu_edit": {
+        "message": "编辑"
+    },
+    "gwr4_menu_move_workspace": {
+        "message": "移动到工作区"
+    },
+    "gwr4_menu_open_all": {
+        "message": "在新标签页中打开所有链接"
+    },
+    "gwr4_menu_paste_style": {
+        "message": "粘贴样式"
+    },
+    "gwr4_menu_style": {
+        "message": "样式"
+    },
+    "gwr4_no_icon_chosen": {
+        "message": "尚未选择图标！"
+    },
+    "gwr4_no_valid_links": {
+        "message": "在“$1”中未找到有效链接。"
+    },
+    "gwr4_todo_placeholder": {
+        "message": "需要做什么？"
+    },
+    "gwr4_type_clipboard": {
+        "message": "剪贴板"
+    },
+    "gwr4_type_divider": {
+        "message": "分隔线"
+    },
+    "gwr4_type_header": {
+        "message": "标题"
+    },
+    "gwr4_type_item_fallback": {
+        "message": "项目"
+    },
+    "gwr4_type_launcher": {
+        "message": "启动器"
+    },
+    "gwr4_type_link": {
+        "message": "链接"
+    },
+    "gwr4_type_note": {
+        "message": "笔记"
+    },
+    "gwr4_type_routine": {
+        "message": "例程"
+    },
+    "gwr4_type_text": {
+        "message": "文本"
+    },
+    "gwr4_type_todo": {
+        "message": "待办"
+    },
+    "hdr_auto_favicon": {
+        "message": "保存链接时自动获取网站图标"
+    },
+    "hdr_current_tab": {
+        "message": "当前标签页"
+    },
+    "hdr_design": {
+        "message": "设计"
+    },
+    "hdr_empty_add_group": {
+        "message": "+ 添加分组"
+    },
+    "hdr_empty_add_links": {
+        "message": "添加链接"
+    },
+    "hdr_empty_add_shortcut": {
+        "message": "添加快捷方式"
+    },
+    "hdr_empty_desc": {
+        "message": "通过新建分组、导入书签，或使用分组和热门网站的入门建议来设置你的仪表板。"
+    },
+    "hdr_empty_import_bookmarks": {
+        "message": "导入书签"
+    },
+    "hdr_empty_start_suggestions": {
+        "message": "从建议开始"
+    },
+    "hdr_empty_suggestions_desc": {
+        "message": "带图标、间距更紧凑的快速添加预览按钮。"
+    },
+    "hdr_empty_suggestions_title": {
+        "message": "热门网站建议"
+    },
+    "hdr_empty_title": {
+        "message": "此工作区为空"
+    },
+    "hdr_essentials_desc": {
+        "message": "快速概览设置中最重要的选项，让你可以立即个性化你的新标签页。"
+    },
+    "hdr_essentials_title": {
+        "message": "设置基本项"
+    },
+    "hdr_general": {
+        "message": "常规"
+    },
+    "hdr_header_actions_aria": {
+        "message": "页眉操作"
+    },
+    "hdr_logo_avatar": {
+        "message": "徽标 / 头像"
+    },
+    "hdr_logo_desc": {
+        "message": "为你的仪表板设置可选的页眉品牌标识。"
+    },
+    "hdr_new_tab": {
+        "message": "新标签页"
+    },
+    "hdr_open_links_in": {
+        "message": "打开链接方式"
+    },
+    "hdr_pro_desc": {
+        "message": "解锁跨设备加密自动同步，并可直接在“账户”标签页中发布或管理共享看板。"
+    },
+    "hdr_pro_explore": {
+        "message": "在账户中探索 Pro"
+    },
+    "hdr_pro_eyebrow": {
+        "message": "ReadyTab Pro"
+    },
+    "hdr_pro_list_1": {
+        "message": "自动同步你的活动云端仪表板"
+    },
+    "hdr_pro_list_2": {
+        "message": "自动拉取较新的云端更改"
+    },
+    "hdr_pro_list_3": {
+        "message": "发布并管理共享看板"
+    },
+    "hdr_pro_title": {
+        "message": "自动同步与共享看板"
+    },
+    "hdr_remove": {
+        "message": "移除"
+    },
+    "hdr_show_clock": {
+        "message": "在页眉显示时钟"
+    },
+    "hdr_show_search_bar": {
+        "message": "显示搜索栏"
+    },
+    "hdr_spotlight_search": {
+        "message": "聚光搜索"
+    },
+    "hdr_theme": {
+        "message": "主题"
+    },
+    "hdr_upload": {
+        "message": "上传"
+    },
+    "hdr_workspace_default_tab": {
+        "message": "开始"
+    },
+    "help_apply_from_workspace_body": {
+        "message": "将另一个工作区的视觉设置复制到当前工作区。当你希望多个工作区共享相同的主题、背景和设计配置，而无需手动逐一重建时，此功能非常实用。"
+    },
+    "help_apply_from_workspace_link": {
+        "message": "打开设置文档"
+    },
+    "help_apply_from_workspace_title": {
+        "message": "从工作区复制"
+    },
+    "help_background_custom_css_body": {
+        "message": "此字段仅用于工作区的背景值。可使用任何有效的 CSS 背景值，例如渐变、图片 URL 或背景简写属性。它不会注入整个页面的 CSS，只会影响当前工作区的背景。"
+    },
+    "help_background_custom_css_link": {
+        "message": "打开设置文档"
+    },
+    "help_background_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_bookmarks_body": {
+        "message": "将浏览器中的书签文件夹作为新分组导入 ReadyTab。当你想把现有的书签集合变成仪表盘分组，而无需逐一重建链接时，此功能非常实用。"
+    },
+    "help_bookmarks_link": {
+        "message": "打开设置文档"
+    },
+    "help_bookmarks_title": {
+        "message": "从书签导入"
+    },
+    "help_clock_body": {
+        "message": "时钟显示在新标签页的顶部区域。你可以显示或隐藏它，在 24 小时制和 12 小时制之间切换，并选择是否显示秒数和日期。"
+    },
+    "help_clock_link": {
+        "message": "打开设置文档"
+    },
+    "help_clock_title": {
+        "message": "时钟"
+    },
+    "help_cloud_sync_automation_body": {
+        "message": "在本地发生更改后，一旦 ReadyTab 空闲达到所选延迟时间，自动同步便会更新你当前活动的云端仪表盘。自动拉取也可以自动应用较新的云端快照，但仅当你的本地仪表盘没有未同步的更改时。如果本地和云端都发生了更改，ReadyTab 会在覆盖任何内容之前先询问你。"
+    },
+    "help_cloud_sync_automation_link": {
+        "message": "打开设置文档"
+    },
+    "help_cloud_sync_automation_title": {
+        "message": "云同步自动化"
+    },
+    "help_cloud_sync_body": {
+        "message": "云同步会在你的 ReadyTab 账户中存储加密的工作区快照。使用“推送”上传你当前的本地状态，使用“拉取”用云端快照替换本地状态，并为不同的配置保留各自独立的仪表盘。"
+    },
+    "help_cloud_sync_link": {
+        "message": "打开设置文档"
+    },
+    "help_cloud_sync_title": {
+        "message": "云同步"
+    },
+    "help_companion_body": {
+        "message": "配套应用可帮助 ReadyTab 连接浏览器扩展自身无法处理的本地文件、应用和桌面工作流。当你希望与操作系统和本地工具进行更紧密的集成时，可以使用它。"
+    },
+    "help_companion_link": {
+        "message": "打开配套应用设置指南"
+    },
+    "help_companion_title": {
+        "message": "配套应用"
+    },
+    "help_design_custom_css_body": {
+        "message": "此 Custom CSS 字段会为整个当前工作区页面注入 CSS。可用于超出内置主题控件范围的高级样式设置。与“背景 > Custom CSS”不同，它不仅限于背景值。"
+    },
+    "help_design_custom_css_link": {
+        "message": "阅读主题编辑器文档"
+    },
+    "help_design_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_design_reset_default_body": {
+        "message": "“恢复默认”会将当前工作区完全恢复到内置外观：它会清除你在编辑器中的自定义内容和 Custom CSS，将基础主题切换回 Simple，并重置额外的外观开关（标签下划线、描述、悬停动效）。如果只需较轻的重置并保留你所选的基础主题，请使用主题操作卡片中的“重置主题”。二者都不会删除你已保存的主题预设。"
+    },
+    "help_design_reset_default_link": {
+        "message": "打开设置文档"
+    },
+    "help_design_reset_default_title": {
+        "message": "恢复默认"
+    },
+    "help_import_from_code_body": {
+        "message": "在此粘贴分享代码，即可导入共享工作区的本地副本。导入的工作区将成为你自己的可编辑副本，因此原始来源日后的更改不会自动覆盖它。"
+    },
+    "help_import_from_code_link": {
+        "message": "打开空间文档"
+    },
+    "help_import_from_code_title": {
+        "message": "从代码导入"
+    },
+    "help_link_behavior_body": {
+        "message": "选择已保存链接的默认打开方式。“当前标签页”会在当前活动标签页中导航，而“新标签页”则会单独打开链接。此设置控制整个仪表盘所使用的默认行为。"
+    },
+    "help_link_behavior_link": {
+        "message": "打开设置文档"
+    },
+    "help_link_behavior_title": {
+        "message": "链接行为"
+    },
+    "help_link_health_body": {
+        "message": "启用后，ReadyTab 会定期检查你保存的 HTTP 和 HTTPS 链接，并用红色标记标出无法访问的链接。此功能在你明确开启之前将保持关闭。"
+    },
+    "help_link_health_link": {
+        "message": "打开设置文档"
+    },
+    "help_link_health_title": {
+        "message": "链接健康检查"
+    },
+    "help_logo_body": {
+        "message": "上传自定义标志显示在顶部。ReadyTab 会保持图片的宽高比不变，并对齐标志，使其底边与工作区标签页整齐对齐。你之后也可以移除它或更改其显示大小。"
+    },
+    "help_logo_link": {
+        "message": "打开设置文档"
+    },
+    "help_logo_title": {
+        "message": "标志"
+    },
+    "help_managed_boards_body": {
+        "message": "托管面板是由团队或机构发布的只读工作区。通过面板令牌订阅即可保持该工作区更新，而不会与你可编辑的本地空间混在一起。"
+    },
+    "help_managed_boards_link": {
+        "message": "阅读托管面板文档"
+    },
+    "help_managed_boards_title": {
+        "message": "托管面板"
+    },
+    "help_save_current_window_body": {
+        "message": "捕获当前浏览器窗口中受支持的标签页，并将它们保存到一个新的链接分组中。当你想把正在使用的一组标签页永久保存到仪表盘时，这非常方便。"
+    },
+    "help_save_current_window_link": {
+        "message": "打开设置文档"
+    },
+    "help_save_current_window_title": {
+        "message": "将当前窗口保存为分组"
+    },
+    "help_saved_themes_body": {
+        "message": "已保存主题是可重复使用的设计预设。它们会存储一个基础主题以及你在编辑器中的自定义内容，让你日后无需从头重建即可快速将相同的外观再次应用到当前工作区。"
+    },
+    "help_saved_themes_link": {
+        "message": "阅读主题编辑器文档"
+    },
+    "help_saved_themes_title": {
+        "message": "已保存主题"
+    },
+    "help_session_recovery_body": {
+        "message": "ReadyTab 会为你近期浏览器会话中受支持的标签页保留一份轻量的本地快照，方便你日后查看或恢复。当你想为意外关闭窗口留一份保障，或重新打开近期的工作会话时，可以使用此功能。"
+    },
+    "help_session_recovery_link": {
+        "message": "打开设置文档"
+    },
+    "help_session_recovery_title": {
+        "message": "会话恢复"
+    },
+    "help_spaces_body": {
+        "message": "通过拖放重新排列你的空间，以控制页面顶部显示的标签顺序。默认空间始终排在最前，其余的可以按你的工作方式进行排列。你还可以使用每一行上的操作来重命名空间、保护、分享或在需要时删除它。"
+    },
+    "help_spaces_link": {
+        "message": "打开空间文档"
+    },
+    "help_spaces_title": {
+        "message": "空间"
+    },
+    "help_spotlight_search_body": {
+        "message": "Spotlight 搜索可帮助你通过键盘快速查找已保存的链接。你可以在新标签页之外启用它，并可选择在搜索结果中包含分组名称，让较大的仪表盘更易于浏览。"
+    },
+    "help_spotlight_search_link": {
+        "message": "打开 Spotlight 文档"
+    },
+    "help_spotlight_search_title": {
+        "message": "Spotlight 搜索"
+    },
+    "help_theme_actions_body": {
+        "message": "“保存主题”会将当前外观存储为可重复使用的已保存主题。“重置主题”会放弃你在此工作区中的编辑器自定义内容和 Custom CSS，但保留你所选的基础主题。“导出”和“导入”可将你已保存的主题以 JSON 文件的形式导入和导出。若需同时将基础主题恢复为 Simple 的完全重置，请使用下方的“恢复默认”。"
+    },
+    "help_theme_actions_link": {
+        "message": "阅读主题编辑器文档"
+    },
+    "help_theme_actions_title": {
+        "message": "主题操作"
+    },
+    "help_theme_body": {
+        "message": "更改主题会将当前工作区更新为该主题的默认外观，包括其默认背景。ReadyTab 会保留一个临时的“撤销”操作，以便在需要时恢复之前的主题、背景和设计自定义内容。"
+    },
+    "help_theme_editor_body": {
+        "message": "主题编辑器让你可以微调主题令牌、保存可重复使用的命名主题，并保留工作区专属的自定义内容。“设计”中的 Custom CSS 部分会为整个当前工作区页面注入 CSS，这与仅设置背景值的“背景 > Custom CSS”不同。"
+    },
+    "help_theme_editor_link": {
+        "message": "阅读主题编辑器文档"
+    },
+    "help_theme_editor_title": {
+        "message": "主题编辑器"
+    },
+    "help_theme_link": {
+        "message": "阅读设置文档"
+    },
+    "help_theme_title": {
+        "message": "主题"
+    },
+    "help_web_search_body": {
+        "message": "在页眉中直接显示搜索栏。它会先搜索您保存的项目；除非您在此明确选择搜索引擎，否则网页搜索将使用浏览器的默认搜索引擎。您还可以决定搜索结果是替换当前页面还是在新标签页中打开。"
+    },
+    "help_web_search_link": {
+        "message": "打开设置文档"
+    },
+    "help_web_search_title": {
+        "message": "搜索栏"
+    },
+    "ieuh11_add_clipboard": {
+        "message": "添加剪贴板"
+    },
+    "ieuh11_add_divider": {
+        "message": "添加分隔线"
+    },
+    "ieuh11_add_header": {
+        "message": "添加标题"
+    },
+    "ieuh11_add_item": {
+        "message": "添加项目"
+    },
+    "ieuh11_add_launcher": {
+        "message": "添加启动器"
+    },
+    "ieuh11_add_link": {
+        "message": "添加链接"
+    },
+    "ieuh11_add_note": {
+        "message": "添加笔记"
+    },
+    "ieuh11_add_text": {
+        "message": "添加文本"
+    },
+    "ieuh11_add_todo": {
+        "message": "添加待办"
+    },
+    "ieuh11_divider_color": {
+        "message": "分隔线颜色"
+    },
+    "ieuh11_icon_color": {
+        "message": "图标颜色"
+    },
+    "ieuh11_label_name": {
+        "message": "名称"
+    },
+    "ieuh11_label_task": {
+        "message": "任务"
+    },
+    "ieuh11_label_title": {
+        "message": "标题"
+    },
+    "ieuh11_launcher_command": {
+        "message": "命令"
+    },
+    "ieuh11_launcher_path": {
+        "message": "路径"
+    },
+    "ieuh11_launcher_target_uri": {
+        "message": "目标 URI"
+    },
+    "ieuh11_ph_label": {
+        "message": "标签"
+    },
+    "ieuh11_ph_name": {
+        "message": "名称"
+    },
+    "ieuh11_ph_section_title": {
+        "message": "分区标题"
+    },
+    "ieuh11_ph_task": {
+        "message": "任务"
+    },
+    "ieuh11_ph_text_content": {
+        "message": "文本内容"
+    },
+    "ieuh11_picker_failed": {
+        "message": "无法打开选择器 — 是否已安装配套应用？\n\n请在 设置 → 账户 → 配套应用 中查看状态。"
+    },
+    "ip22_enter_url_first": {
+        "message": "请先输入 URL。"
+    },
+    "ip22_failed_load_icons": {
+        "message": "加载图标失败。"
+    },
+    "ip22_invalid_url": {
+        "message": "URL 无效。"
+    },
+    "ip22_loading_icons": {
+        "message": "正在加载图标…"
+    },
+    "ip22_no_icon_chosen": {
+        "message": "尚未选择图标！"
+    },
+    "ip22_use_this_icon": {
+        "message": "使用此图标"
+    },
+    "language_label": {
+        "message": "界面语言"
+    },
+    "language_section": {
+        "message": "语言"
+    },
+    "lbr5_content_copied": {
+        "message": "内容已复制"
+    },
+    "lbr5_convert_to_group": {
+        "message": "转换为分组中的 $1"
+    },
+    "lbr5_copy_content": {
+        "message": "复制内容"
+    },
+    "lbr5_copy_failed": {
+        "message": "复制失败"
+    },
+    "lbr5_copy_suffix": {
+        "message": "$1（副本）"
+    },
+    "lbr5_copy_suffix_n": {
+        "message": "$1（副本 $2）"
+    },
+    "lbr5_copy_target": {
+        "message": "复制目标"
+    },
+    "lbr5_copy_url": {
+        "message": "复制 URL"
+    },
+    "lbr5_copy_urls": {
+        "message": "复制链接"
+    },
+    "lbr5_delete": {
+        "message": "删除"
+    },
+    "lbr5_delete_confirm": {
+        "message": "删除 $1“$2”？"
+    },
+    "lbr5_duplicate": {
+        "message": "创建副本"
+    },
+    "lbr5_edit": {
+        "message": "编辑"
+    },
+    "lbr5_label_clipboard_button": {
+        "message": "剪贴板按钮"
+    },
+    "lbr5_label_launcher_button": {
+        "message": "启动器按钮"
+    },
+    "lbr5_label_link_button": {
+        "message": "链接按钮"
+    },
+    "lbr5_label_routine": {
+        "message": "例程"
+    },
+    "lbr5_move_to_workspace": {
+        "message": "移动到工作区"
+    },
+    "lbr5_step_many": {
+        "message": "$1 个步骤"
+    },
+    "lbr5_step_one": {
+        "message": "$1 个步骤"
+    },
+    "lbr5_target_copied": {
+        "message": "目标已复制"
+    },
+    "lbr5_type_clipboard": {
+        "message": "剪贴板"
+    },
+    "lbr5_type_launcher": {
+        "message": "启动器"
+    },
+    "lbr5_type_link": {
+        "message": "链接"
+    },
+    "lbr5_url_copied": {
+        "message": "URL 已复制"
+    },
+    "lbr5_urls_copied": {
+        "message": "链接已复制"
+    },
+    "lbr5_widget_cap": {
+        "message": "小组件"
+    },
+    "lbr5_widget_deleted": {
+        "message": "“$1”已删除"
+    },
+    "lbr5_widget_fallback": {
+        "message": "小组件"
+    },
+    "lbr5_widget_options": {
+        "message": "$1 选项"
+    },
+    "lir6_convert_to": {
+        "message": "转换为 $1 按钮"
+    },
+    "lir6_copy_failed": {
+        "message": "复制失败"
+    },
+    "lir6_copy_style": {
+        "message": "复制样式"
+    },
+    "lir6_copy_title": {
+        "message": "复制标题"
+    },
+    "lir6_copy_url": {
+        "message": "复制 URL"
+    },
+    "lir6_delete": {
+        "message": "删除"
+    },
+    "lir6_duplicate": {
+        "message": "创建副本"
+    },
+    "lir6_edit": {
+        "message": "编辑"
+    },
+    "lir6_edit_type": {
+        "message": "编辑 $1"
+    },
+    "lir6_item_deleted": {
+        "message": "项目已删除"
+    },
+    "lir6_item_fallback": {
+        "message": "项目"
+    },
+    "lir6_more_options": {
+        "message": "更多选项"
+    },
+    "lir6_no_icon": {
+        "message": "尚未选择图标！"
+    },
+    "lir6_step_count_one": {
+        "message": "$1 个步骤"
+    },
+    "lir6_step_count_other": {
+        "message": "$1 个步骤"
+    },
+    "lir6_style_applied": {
+        "message": "样式已应用"
+    },
+    "lir6_title_copied": {
+        "message": "标题已复制"
+    },
+    "lir6_todo_mark_complete": {
+        "message": "将待办标记为已完成"
+    },
+    "lir6_todo_mark_incomplete": {
+        "message": "将待办标记为未完成"
+    },
+    "lir6_type_clipboard": {
+        "message": "剪贴板"
+    },
+    "lir6_type_divider": {
+        "message": "分隔线"
+    },
+    "lir6_type_header": {
+        "message": "标题"
+    },
+    "lir6_type_launcher": {
+        "message": "启动器"
+    },
+    "lir6_type_link": {
+        "message": "链接"
+    },
+    "lir6_type_note": {
+        "message": "笔记"
+    },
+    "lir6_type_routine": {
+        "message": "例程"
+    },
+    "lir6_type_text": {
+        "message": "文本"
+    },
+    "lir6_type_todo": {
+        "message": "待办"
+    },
+    "lir6_update_item": {
+        "message": "更新项目"
+    },
+    "lir6_url_copied": {
+        "message": "URL 已复制"
+    },
+    "lnk_add_link": {
+        "message": "添加链接"
+    },
+    "lnk_align_center": {
+        "message": "居中"
+    },
+    "lnk_align_left": {
+        "message": "左对齐"
+    },
+    "lnk_align_right": {
+        "message": "右对齐"
+    },
+    "lnk_alignment": {
+        "message": "对齐方式"
+    },
+    "lnk_autofetch_desc": {
+        "message": "添加链接时自动使用网站图标。"
+    },
+    "lnk_autofetch_title": {
+        "message": "自动获取图标"
+    },
+    "lnk_browse_btn": {
+        "message": "浏览…"
+    },
+    "lnk_browse_title": {
+        "message": "浏览…"
+    },
+    "lnk_cat_brands": {
+        "message": "品牌"
+    },
+    "lnk_cat_regular": {
+        "message": "常规"
+    },
+    "lnk_cat_solid": {
+        "message": "实心"
+    },
+    "lnk_clear_icon_btn": {
+        "message": "清除图标"
+    },
+    "lnk_clear_icon_title": {
+        "message": "清除图标"
+    },
+    "lnk_clipboard_content_label": {
+        "message": "要复制的内容"
+    },
+    "lnk_clipboard_content_ph": {
+        "message": "点击时将复制到剪贴板的文本"
+    },
+    "lnk_color": {
+        "message": "颜色"
+    },
+    "lnk_desc_label": {
+        "message": "描述"
+    },
+    "lnk_desc_optional": {
+        "message": "（可选）"
+    },
+    "lnk_desc_ph": {
+        "message": "显示在链接名称下方的简短副标题"
+    },
+    "lnk_drawer_title": {
+        "message": "添加项目"
+    },
+    "lnk_ex_cursor": {
+        "message": "在 Cursor 中打开文件夹"
+    },
+    "lnk_ex_discord": {
+        "message": "打开 Discord"
+    },
+    "lnk_ex_mssettings": {
+        "message": "Windows 显示设置"
+    },
+    "lnk_ex_obsidian": {
+        "message": "打开 Obsidian 库"
+    },
+    "lnk_ex_spotify": {
+        "message": "打开 Spotify"
+    },
+    "lnk_ex_steam": {
+        "message": "启动 Steam 游戏（按 App ID）"
+    },
+    "lnk_ex_teams": {
+        "message": "打开 Microsoft Teams"
+    },
+    "lnk_ex_vscode": {
+        "message": "在 VS Code 中打开文件夹"
+    },
+    "lnk_examples": {
+        "message": "示例"
+    },
+    "lnk_general": {
+        "message": "常规"
+    },
+    "lnk_icon": {
+        "message": "图标"
+    },
+    "lnk_icon_color": {
+        "message": "图标颜色"
+    },
+    "lnk_icon_search_ph": {
+        "message": "搜索图标…"
+    },
+    "lnk_launcher_kind_app": {
+        "message": "应用 — URI / 协议"
+    },
+    "lnk_launcher_kind_file": {
+        "message": "文件"
+    },
+    "lnk_launcher_kind_folder": {
+        "message": "文件夹"
+    },
+    "lnk_launcher_kind_label": {
+        "message": "类型"
+    },
+    "lnk_launcher_kind_ps": {
+        "message": "命令 / 脚本"
+    },
+    "lnk_launcher_target_label": {
+        "message": "目标 URI"
+    },
+    "lnk_name_label": {
+        "message": "名称"
+    },
+    "lnk_name_ph": {
+        "message": "名称"
+    },
+    "lnk_no_icon": {
+        "message": "尚未选择图标！"
+    },
+    "lnk_open_in_label": {
+        "message": "打开方式"
+    },
+    "lnk_reset_overrides": {
+        "message": "重置所有覆盖设置"
+    },
+    "lnk_selected": {
+        "message": "已选择："
+    },
+    "lnk_separator_lines": {
+        "message": "分隔线"
+    },
+    "lnk_show_terminal": {
+        "message": "显示终端窗口"
+    },
+    "lnk_steps_label": {
+        "message": "步骤"
+    },
+    "lnk_strip_colors": {
+        "message": "从 SVG 中移除填充/描边颜色"
+    },
+    "lnk_style_bold": {
+        "message": "粗体"
+    },
+    "lnk_style_italic": {
+        "message": "斜体"
+    },
+    "lnk_style_label": {
+        "message": "样式"
+    },
+    "lnk_style_normal": {
+        "message": "常规"
+    },
+    "lnk_target_blank": {
+        "message": "新标签页"
+    },
+    "lnk_target_global": {
+        "message": "使用全局设置"
+    },
+    "lnk_target_self": {
+        "message": "当前标签页"
+    },
+    "lnk_text_color": {
+        "message": "文字颜色"
+    },
+    "lnk_todo_completed": {
+        "message": "标记任务为已完成"
+    },
+    "lnk_url_label": {
+        "message": "URL"
+    },
+    "lnk_used_icons": {
+        "message": "已使用的图标"
+    },
+    "mbmm23_action_failed": {
+        "message": "$1 失败：$2"
+    },
+    "mbmm23_board_revoked": {
+        "message": "面板已撤销"
+    },
+    "mbmm23_change": {
+        "message": "更改"
+    },
+    "mbmm23_change_pw_prompt": {
+        "message": "为托管面板“$1”输入新密码："
+    },
+    "mbmm23_changing": {
+        "message": "更改中…"
+    },
+    "mbmm23_close": {
+        "message": "关闭"
+    },
+    "mbmm23_close_modal": {
+        "message": "关闭管理面板窗口"
+    },
+    "mbmm23_copy": {
+        "message": "复制"
+    },
+    "mbmm23_copy_failed": {
+        "message": "复制失败"
+    },
+    "mbmm23_copy_token": {
+        "message": "复制令牌"
+    },
+    "mbmm23_current": {
+        "message": "当前"
+    },
+    "mbmm23_delete_perm": {
+        "message": "永久删除"
+    },
+    "mbmm23_delete_perm_confirm": {
+        "message": "永久删除已撤销的面板“$1”？此操作无法撤销。"
+    },
+    "mbmm23_deleting": {
+        "message": "删除中…"
+    },
+    "mbmm23_earlier_snapshot": {
+        "message": "较早的快照"
+    },
+    "mbmm23_enable_again": {
+        "message": "重新启用面板"
+    },
+    "mbmm23_enabling": {
+        "message": "启用中…"
+    },
+    "mbmm23_history_desc": {
+        "message": "恢复某个版本会在本地重新创建源，不会覆盖已发布的面板。"
+    },
+    "mbmm23_import_token": {
+        "message": "导入令牌"
+    },
+    "mbmm23_in_sync_text": {
+        "message": "你的本地源与已发布的面板一致 — 可以发布更新了。"
+    },
+    "mbmm23_latest_snapshot": {
+        "message": "最新快照"
+    },
+    "mbmm23_load_history": {
+        "message": "加载历史记录"
+    },
+    "mbmm23_loading": {
+        "message": "加载中…"
+    },
+    "mbmm23_locked": {
+        "message": "已锁定"
+    },
+    "mbmm23_manage_board": {
+        "message": "管理面板"
+    },
+    "mbmm23_managed_board": {
+        "message": "托管面板"
+    },
+    "mbmm23_missing_text": {
+        "message": "在本地恢复源之前，你无法发布更新。请先恢复源，然后即可使用“更新”。"
+    },
+    "mbmm23_more_pw_actions": {
+        "message": "更多密码操作"
+    },
+    "mbmm23_n_saved": {
+        "message": "已保存 $1 个"
+    },
+    "mbmm23_none_saved": {
+        "message": "未保存任何内容"
+    },
+    "mbmm23_not_supported": {
+        "message": "不支持"
+    },
+    "mbmm23_open_board": {
+        "message": "打开面板"
+    },
+    "mbmm23_password_copied": {
+        "message": "密码已复制。"
+    },
+    "mbmm23_password_protected": {
+        "message": "受密码保护"
+    },
+    "mbmm23_pw_none": {
+        "message": "无密码 — 任何拥有令牌的人都可以订阅。"
+    },
+    "mbmm23_pw_saved_this_device": {
+        "message": "已保存的创建者密码仅在此设备上可用。"
+    },
+    "mbmm23_pw_set_replace_only": {
+        "message": "已在此面板上设置 — 无法在此显示，只能替换。"
+    },
+    "mbmm23_pw_updates_unavailable": {
+        "message": "此面板不支持更新密码。"
+    },
+    "mbmm23_ready_to_publish": {
+        "message": "准备发布"
+    },
+    "mbmm23_remove_password": {
+        "message": "移除密码"
+    },
+    "mbmm23_remove_pw_confirm": {
+        "message": "从托管面板“$1”中移除密码？"
+    },
+    "mbmm23_removing": {
+        "message": "移除中…"
+    },
+    "mbmm23_restore_as_source": {
+        "message": "恢复为源"
+    },
+    "mbmm23_restore_desc": {
+        "message": "恢复会在本地重新创建源 — 已发布的面板保持不变。"
+    },
+    "mbmm23_open_source": {
+        "message": "打开源工作区"
+    },
+    "mbmm23_restore_source_locally": {
+        "message": "在本地恢复源"
+    },
+    "mbmm23_restoring": {
+        "message": "恢复中…"
+    },
+    "mbmm23_retry": {
+        "message": "重试"
+    },
+    "mbmm23_reveal": {
+        "message": "显示"
+    },
+    "mbmm23_revealing": {
+        "message": "显示中…"
+    },
+    "mbmm23_revoke": {
+        "message": "撤销"
+    },
+    "mbmm23_revoke_confirm": {
+        "message": "撤销此面板？订阅者将根据后端撤销策略失去访问权限。"
+    },
+    "mbmm23_revoke_desc": {
+        "message": "根据后端策略移除订阅者的访问权限。本地源不受影响。"
+    },
+    "mbmm23_revoke_this_board": {
+        "message": "撤销此面板"
+    },
+    "mbmm23_revoked_text": {
+        "message": "订阅者已失去访问权限。可重新启用或永久删除。"
+    },
+    "mbmm23_revoking": {
+        "message": "撤销中…"
+    },
+    "mbmm23_saved_password": {
+        "message": "已保存的密码"
+    },
+    "mbmm23_set_password": {
+        "message": "设置密码"
+    },
+    "mbmm23_set_pw_prompt": {
+        "message": "为托管面板“$1”设置密码："
+    },
+    "mbmm23_setting": {
+        "message": "设置中…"
+    },
+    "mbmm23_source_in_sync": {
+        "message": "源已同步"
+    },
+    "mbmm23_source_missing": {
+        "message": "此设备上缺少源"
+    },
+    "mbmm23_subscribe_other_device": {
+        "message": "在其他设备上订阅"
+    },
+    "mbmm23_token_copied": {
+        "message": "令牌已复制。"
+    },
+    "mbmm23_token_hint": {
+        "message": "设置 → 空间 → 共享 → 关联看板 → 加入看板"
+    },
+    "mbmm23_unavailable": {
+        "message": "不可用"
+    },
+    "mbmm23_unknown_error": {
+        "message": "未知错误"
+    },
+    "mbmm23_update_now": {
+        "message": "立即更新"
+    },
+    "mbmm23_updating": {
+        "message": "更新中…"
+    },
+    "mbmm23_version_history": {
+        "message": "版本历史"
+    },
+    "mbu24_already_subscribed": {
+        "message": "已订阅此面板。"
+    },
+    "mbu24_already_up_to_date": {
+        "message": "已是最新。"
+    },
+    "mbu24_badge_ready": {
+        "message": "就绪"
+    },
+    "mbu24_badge_revoked": {
+        "message": "已撤销"
+    },
+    "mbu24_badge_source_missing": {
+        "message": "缺少源"
+    },
+    "mbu24_board_active_again": {
+        "message": "面板“$1”已重新激活。"
+    },
+    "mbu24_board_count": {
+        "message": "$1 $2"
+    },
+    "mbu24_board_created": {
+        "message": "面板已创建！令牌：$1"
+    },
+    "mbu24_board_deleted_permanently": {
+        "message": "面板“$1”已永久删除。"
+    },
+    "mbu24_board_revoked": {
+        "message": "面板已撤销。"
+    },
+    "mbu24_board_revoked_removed": {
+        "message": "面板“$1”已被撤销并移除。"
+    },
+    "mbu24_board_revoked_removed_short": {
+        "message": "面板“$1”已撤销并移除。"
+    },
+    "mbu24_board_updated": {
+        "message": "面板已更新。"
+    },
+    "mbu24_board_updated_subscribers": {
+        "message": "面板已更新。订阅者将在下次同步时看到更改。"
+    },
+    "mbu24_by": {
+        "message": "作者"
+    },
+    "mbu24_close": {
+        "message": "关闭"
+    },
+    "mbu24_close_modal_aria": {
+        "message": "关闭托管面板窗口"
+    },
+    "mbu24_could_not_load": {
+        "message": "无法加载面板：$1"
+    },
+    "mbu24_create_board": {
+        "message": "创建面板"
+    },
+    "mbu24_create_form_desc": {
+        "message": "将所选工作区发布为只读面板。更新将锁定到该源工作区。"
+    },
+    "mbu24_create_new_board": {
+        "message": "创建新面板"
+    },
+    "mbu24_creating": {
+        "message": "创建中…"
+    },
+    "mbu24_creator_password_prompt": {
+        "message": "输入托管面板“$1”的密码："
+    },
+    "mbu24_delete": {
+        "message": "删除"
+    },
+    "mbu24_delete_revoked_confirm": {
+        "message": "永久删除已撤销的面板“$1”？此操作无法撤销。"
+    },
+    "mbu24_diff_local_source": {
+        "message": "💻 本地源"
+    },
+    "mbu24_diff_publish_update": {
+        "message": "发布更新"
+    },
+    "mbu24_diff_published_board": {
+        "message": "☁ 已发布面板"
+    },
+    "mbu24_diff_update_title": {
+        "message": "更新“$1”"
+    },
+    "mbu24_explain_revoked": {
+        "message": "已撤销的面板无法更新。取消撤销此面板以重新发布，或永久删除它。"
+    },
+    "mbu24_explain_source_mismatch": {
+        "message": "原始源工作区已与此本地工作区不匹配。请先在本地恢复源，然后再更新。"
+    },
+    "mbu24_failed_generic": {
+        "message": "失败：$1"
+    },
+    "mbu24_failed_open_manage": {
+        "message": "打开管理面板失败：$1"
+    },
+    "mbu24_failed_to_subscribe": {
+        "message": "订阅失败。"
+    },
+    "mbu24_historical_version": {
+        "message": "历史版本"
+    },
+    "mbu24_history_load_failed": {
+        "message": "无法加载此面板的版本历史。"
+    },
+    "mbu24_label_revoke": {
+        "message": "撤销"
+    },
+    "mbu24_label_revoked": {
+        "message": "已撤销"
+    },
+    "mbu24_loading_boards": {
+        "message": "正在加载面板…"
+    },
+    "mbu24_manage": {
+        "message": "管理"
+    },
+    "mbu24_managed_board_fallback": {
+        "message": "托管面板"
+    },
+    "mbu24_managed_boards_subtitle": {
+        "message": "你发布的供他人订阅的只读面板。"
+    },
+    "mbu24_managed_boards_title": {
+        "message": "托管面板"
+    },
+    "mbu24_name_required": {
+        "message": "面板名称和机构名称为必填项。"
+    },
+    "mbu24_next": {
+        "message": "下一步"
+    },
+    "mbu24_no_boards_match": {
+        "message": "没有匹配“$1”的面板。"
+    },
+    "mbu24_no_boards_yet": {
+        "message": "还没有面板 — 在下方创建一个。"
+    },
+    "mbu24_pager_info": {
+        "message": "第 $1 页，共 $2 页 · $3 个面板"
+    },
+    "mbu24_password_changed": {
+        "message": "面板密码已更改。"
+    },
+    "mbu24_password_changed_prompt": {
+        "message": "“$1”的密码已更改。请输入新密码以继续同步："
+    },
+    "mbu24_password_needed": {
+        "message": "同步此看板需要新密码。"
+    },
+    "mbu24_password_removed": {
+        "message": "面板密码已移除。"
+    },
+    "mbu24_password_set": {
+        "message": "面板密码已设置。"
+    },
+    "mbu24_password_unavailable": {
+        "message": "已设置密码，但无法在此设备上显示。你可以用新密码替换它。"
+    },
+    "mbu24_ph_author_team": {
+        "message": "作者 / 团队名称"
+    },
+    "mbu24_ph_board_name": {
+        "message": "面板名称"
+    },
+    "mbu24_ph_password_optional": {
+        "message": "密码（可选）"
+    },
+    "mbu24_prev": {
+        "message": "上一步"
+    },
+    "mbu24_publish_update_confirm": {
+        "message": "将此更新发布到“$1”？\n\n此前：$2 个分组 / $3 个项目\n现在：$4 个分组 / $5 个项目\n\n订阅者将在下次同步时看到更改。"
+    },
+    "mbu24_remove": {
+        "message": "移除"
+    },
+    "mbu24_remove_subscription_confirm": {
+        "message": "移除对“$1”的订阅？"
+    },
+    "mbu24_requires_pro": {
+        "message": "机构面板需要 Pro 许可证。"
+    },
+    "mbu24_restored_historical_toast": {
+        "message": "已在本地恢复“$1”的一个历史版本。准备好后可重新发布。"
+    },
+    "mbu24_restored_label_suffix": {
+        "message": "已恢复 $1"
+    },
+    "mbu24_restored_source_suffix": {
+        "message": "已恢复源"
+    },
+    "mbu24_restored_source_toast": {
+        "message": "已恢复“$1”的源工作区。"
+    },
+    "mbu24_revoke_board_confirm": {
+        "message": "撤销此面板？订阅者将根据后端撤销策略失去访问权限。"
+    },
+    "mbu24_search_boards_aria": {
+        "message": "按名称搜索面板"
+    },
+    "mbu24_search_boards_ph": {
+        "message": "按名称搜索面板…"
+    },
+    "mbu24_source_label": {
+        "message": "源："
+    },
+    "mbu24_source_missing_lc": {
+        "message": "缺少源"
+    },
+    "mbu24_source_prefix": {
+        "message": "源：$1"
+    },
+    "mbu24_start_workspace": {
+        "message": "起始"
+    },
+    "mbu24_status_ready": {
+        "message": "可从 $1 更新。"
+    },
+    "mbu24_status_restore_safe": {
+        "message": "在本地恢复源以启用安全更新。"
+    },
+    "mbu24_status_revoked": {
+        "message": "面板已撤销 — 订阅者已失去访问权限，或将根据撤销策略在下次同步时失去访问权限。"
+    },
+    "mbu24_status_source_missing_restore": {
+        "message": "缺少源 — 请先在本地恢复再更新。"
+    },
+    "mbu24_subscribe": {
+        "message": "订阅"
+    },
+    "mbu24_subscribe_password_prompt": {
+        "message": "此面板受密码保护。请输入密码："
+    },
+    "mbu24_subscribed_to": {
+        "message": "已订阅“$1”。"
+    },
+    "mbu24_subscription_removed": {
+        "message": "订阅已移除。"
+    },
+    "mbu24_sync_failed": {
+        "message": "同步失败：$1"
+    },
+    "mbu24_sync_now": {
+        "message": "立即同步"
+    },
+    "mbu24_unrevoke": {
+        "message": "取消撤销"
+    },
+    "mbu24_update": {
+        "message": "更新"
+    },
+    "mbu24_update_failed": {
+        "message": "更新失败：$1"
+    },
+    "modala_recover_prompt_dismiss": {
+        "message": "忽略"
+    },
+    "modala_recover_prompt_restore": {
+        "message": "恢复"
+    },
+    "modala_recover_prompt_title": {
+        "message": "恢复上一次会话？"
+    },
+    "modala_recover_prompt_view": {
+        "message": "查看"
+    },
+    "modala_recover_view_clear": {
+        "message": "清除快照"
+    },
+    "modala_recover_view_close": {
+        "message": "关闭"
+    },
+    "modala_recover_view_meta": {
+        "message": "快照不可用。"
+    },
+    "modala_recover_view_restore": {
+        "message": "恢复上一次会话"
+    },
+    "modala_recover_view_title": {
+        "message": "上一次会话快照"
+    },
+    "modala_savewin_cancel": {
+        "message": "取消"
+    },
+    "modala_savewin_confirm": {
+        "message": "保存分组"
+    },
+    "modala_savewin_desc": {
+        "message": "将当前浏览器窗口中支持的标签页保存为一个新的可编辑分组。"
+    },
+    "modala_savewin_groupname": {
+        "message": "分组名称"
+    },
+    "modala_savewin_groupname_ph": {
+        "message": "当前窗口"
+    },
+    "modala_savewin_loading": {
+        "message": "正在加载当前窗口的标签页…"
+    },
+    "modala_savewin_skipdup": {
+        "message": "跳过此工作区中已保存的重复 URL"
+    },
+    "modala_savewin_title": {
+        "message": "将当前窗口保存为分组"
+    },
+    "modala_savewin_workspace": {
+        "message": "目标工作区"
+    },
+    "modala_starter_apply": {
+        "message": "添加所选分组"
+    },
+    "modala_starter_desc": {
+        "message": "选择起始分组和热门快捷方式，更快地搭建你的第一个仪表盘。创建后所有内容仍可编辑。"
+    },
+    "modala_starter_skip": {
+        "message": "暂时跳过"
+    },
+    "modala_starter_title": {
+        "message": "起始建议"
+    },
+    "modalb_applytheme_cancel": {
+        "message": "取消"
+    },
+    "modalb_applytheme_desc_post": {
+        "message": "”："
+    },
+    "modalb_applytheme_desc_pre": {
+        "message": "选择哪些工作区应使用“"
+    },
+    "modalb_applytheme_ok": {
+        "message": "应用"
+    },
+    "modalb_applytheme_selectall": {
+        "message": "全选"
+    },
+    "modalb_applytheme_title": {
+        "message": "将主题应用到工作区"
+    },
+    "modalb_convert_cancel": {
+        "message": "取消"
+    },
+    "modalb_convert_desc_post": {
+        "message": "”移动为此工作区中的一个分组。"
+    },
+    "modalb_convert_desc_pre": {
+        "message": "将“"
+    },
+    "modalb_convert_label": {
+        "message": "搜索分组"
+    },
+    "modalb_convert_list_aria": {
+        "message": "可用分组"
+    },
+    "modalb_convert_ok": {
+        "message": "转换"
+    },
+    "modalb_convert_search_ph": {
+        "message": "搜索分组…"
+    },
+    "modalb_convert_title": {
+        "message": "转换为分组项目"
+    },
+    "modalb_movegroup_cancel": {
+        "message": "取消"
+    },
+    "modalb_movegroup_desc_post": {
+        "message": "”到："
+    },
+    "modalb_movegroup_desc_pre": {
+        "message": "将“"
+    },
+    "modalb_movegroup_ok": {
+        "message": "移动"
+    },
+    "modalb_movegroup_title": {
+        "message": "移动分组"
+    },
+    "modalb_passphrase_cancel": {
+        "message": "取消"
+    },
+    "modalb_passphrase_confirm_ph": {
+        "message": "确认密码短语"
+    },
+    "modalb_passphrase_desc": {
+        "message": "输入密码短语以解锁此工作区。"
+    },
+    "modalb_passphrase_ph": {
+        "message": "密码短语"
+    },
+    "modalb_passphrase_title": {
+        "message": "受保护的工作区"
+    },
+    "modalb_passphrase_unlock": {
+        "message": "解锁"
+    },
+    "nta30_delete_confirm": {
+        "message": "删除此已保存的主题？"
+    },
+    "p31_alert_import_failed": {
+        "message": "导入失败：$1"
+    },
+    "p31_alert_import_success": {
+        "message": "主题导入成功！"
+    },
+    "p31_btn_save_failed": {
+        "message": "保存失败！"
+    },
+    "p31_btn_save_theme": {
+        "message": "保存主题"
+    },
+    "p31_btn_saved": {
+        "message": "已保存 ✓"
+    },
+    "p31_confirm_import_custom_css": {
+        "message": "此文件包含自定义 CSS。自定义 CSS 可能改变页面行为——仅在文件是您自己导出的情况下保留。\n\n保留自定义 CSS 吗？"
+    },
+    "p31_confirm_reset_theme": {
+        "message": "重置当前工作区的所有主题自定义设置？"
+    },
+    "p31_default_theme_name": {
+        "message": "我的主题"
+    },
+    "p31_prompt_save_theme_as": {
+        "message": "主题另存为："
+    },
+    "pbp25_aria_public_board_link": {
+        "message": "公开面板链接"
+    },
+    "pbp25_board_published": {
+        "message": "面板已发布！"
+    },
+    "pbp25_cancel": {
+        "message": "取消"
+    },
+    "pbp25_clipboard_count_notice": {
+        "message": "此工作区包含 $1 个剪贴板$2。剪贴板内容将成为共享快照的一部分，任何拥有链接的人都能看到。"
+    },
+    "pbp25_close": {
+        "message": "关闭"
+    },
+    "pbp25_copied": {
+        "message": "已复制！"
+    },
+    "pbp25_copy": {
+        "message": "复制"
+    },
+    "pbp25_could_not_publish": {
+        "message": "无法发布面板：$1\n\n如果持续失败，可能是无法连接到共享服务。"
+    },
+    "pbp25_could_not_recover_content": {
+        "message": "无法在此设备上恢复此面板的内容。"
+    },
+    "pbp25_could_not_update": {
+        "message": "无法更新面板：$1"
+    },
+    "pbp25_dialog_desc_publish": {
+        "message": "为此工作区的冻结快照创建一个公开的只读链接。任何拥有链接的人都可以查看 — 无需扩展。之后的编辑不会更改已发布的副本。"
+    },
+    "pbp25_dialog_desc_update": {
+        "message": "用此工作区的当前状态替换已发布的快照。现有的公开链接保持不变，并会立即为查看者更新。"
+    },
+    "pbp25_dialog_title_publish": {
+        "message": "发布公开面板"
+    },
+    "pbp25_dialog_title_update": {
+        "message": "更新已发布的面板"
+    },
+    "pbp25_done": {
+        "message": "完成"
+    },
+    "pbp25_encrypting_uploading": {
+        "message": "正在加密并上传你的面板。"
+    },
+    "pbp25_expiry_30_days": {
+        "message": "默认情况下，链接将在 30 天后过期，除非你将其永久保留；可在设置 → 空间 → 已发布面板中管理。"
+    },
+    "pbp25_imported_board": {
+        "message": "已导入面板"
+    },
+    "pbp25_imported_edit_then_update": {
+        "message": "已导入 — 编辑后点击“更新”以发布你的更改。"
+    },
+    "pbp25_include_clipboard": {
+        "message": "在公开面板中包含剪贴板项目/内容"
+    },
+    "pbp25_item_plural": {
+        "message": "个项目"
+    },
+    "pbp25_item_singular": {
+        "message": "个项目"
+    },
+    "pbp25_keep_until_delete": {
+        "message": "保留至我删除为止（永不过期）"
+    },
+    "pbp25_label_description": {
+        "message": "描述"
+    },
+    "pbp25_label_title": {
+        "message": "标题"
+    },
+    "pbp25_label_title_desc_on_board": {
+        "message": "面板上的标题和描述"
+    },
+    "pbp25_launcher_css_stripped": {
+        "message": "启动器按钮和自定义 CSS 会从公开副本中移除。"
+    },
+    "pbp25_link_expiry_same": {
+        "message": "链接及其过期时间保持不变。"
+    },
+    "pbp25_open_link": {
+        "message": "打开链接"
+    },
+    "pbp25_option_hidden": {
+        "message": "隐藏"
+    },
+    "pbp25_option_show_centered": {
+        "message": "显示 — 居中"
+    },
+    "pbp25_option_show_left": {
+        "message": "显示 — 左对齐"
+    },
+    "pbp25_optional": {
+        "message": "（可选）"
+    },
+    "pbp25_protected_cannot_publish": {
+        "message": "受保护的工作区无法发布。"
+    },
+    "pbp25_protected_cannot_publish_unprotect": {
+        "message": "受保护的工作区无法发布。若要公开分享，请先取消保护。"
+    },
+    "pbp25_public_board_link_copied": {
+        "message": "公开面板链接已复制。"
+    },
+    "pbp25_public_board_updated": {
+        "message": "公开面板已更新。"
+    },
+    "pbp25_publish": {
+        "message": "发布"
+    },
+    "pbp25_publishing": {
+        "message": "发布中…"
+    },
+    "pbp25_secret_in_link_hint": {
+        "message": "解密面板所需的密钥是链接的一部分 — 请保持整个 URL 完整。你可以随时在设置 → 空间 → 共享面板中重新打开、复制或撤销它。"
+    },
+    "pbp25_share_link_readonly": {
+        "message": "与任何人分享此链接 — 它会在任何浏览器中打开你面板的只读视图。"
+    },
+    "pbp25_space_not_on_device_import": {
+        "message": "发布此面板的空间不在此设备上。\n\n导入已发布面板的副本以便编辑，然后用你的更改更新链接？"
+    },
+    "pbp25_update": {
+        "message": "更新"
+    },
+    "pbp25_workspace_empty_add_groups": {
+        "message": "此工作区为空 — 请在发布前添加一些分组。"
+    },
+    "pm7_cancel_title": {
+        "message": "取消绘制模式"
+    },
+    "pm7_pill_group": {
+        "message": "点击分组标题以应用样式"
+    },
+    "pm7_pill_link": {
+        "message": "点击链接以应用样式"
+    },
+    "rse12_add_from_board": {
+        "message": "从面板添加…"
+    },
+    "rse12_add_step_btn": {
+        "message": "+ 添加步骤"
+    },
+    "rse12_app_placeholder": {
+        "message": "例如 spotify:  或  vscode://"
+    },
+    "rse12_browse_btn": {
+        "message": "浏览…"
+    },
+    "rse12_cancel": {
+        "message": "取消"
+    },
+    "rse12_clipboard_placeholder": {
+        "message": "要复制的文本"
+    },
+    "rse12_close_aria": {
+        "message": "关闭"
+    },
+    "rse12_companion_note": {
+        "message": "需要安装配套应用才能运行此步骤。"
+    },
+    "rse12_composer_add": {
+        "message": "添加步骤"
+    },
+    "rse12_delay_placeholder": {
+        "message": "秒"
+    },
+    "rse12_empty_steps": {
+        "message": "还没有步骤。添加一个以构建你的例程。"
+    },
+    "rse12_file_placeholder": {
+        "message": "C:\\path\\to\\file.pdf  （需要配套应用）"
+    },
+    "rse12_folder_placeholder": {
+        "message": "C:\\path\\to\\folder  （需要配套应用）"
+    },
+    "rse12_kind_app_label": {
+        "message": "启动应用"
+    },
+    "rse12_kind_app_tag": {
+        "message": "应用"
+    },
+    "rse12_kind_clipboard_label": {
+        "message": "复制到剪贴板"
+    },
+    "rse12_kind_clipboard_tag": {
+        "message": "复制"
+    },
+    "rse12_kind_delay_label": {
+        "message": "等待"
+    },
+    "rse12_kind_delay_tag": {
+        "message": "等待"
+    },
+    "rse12_kind_file_label": {
+        "message": "打开文件"
+    },
+    "rse12_kind_file_tag": {
+        "message": "文件"
+    },
+    "rse12_kind_folder_label": {
+        "message": "打开文件夹"
+    },
+    "rse12_kind_folder_tag": {
+        "message": "文件夹"
+    },
+    "rse12_kind_url_label": {
+        "message": "打开 URL"
+    },
+    "rse12_kind_url_tag": {
+        "message": "URL"
+    },
+    "rse12_kind_workspace_label": {
+        "message": "切换工作区"
+    },
+    "rse12_kind_workspace_tag": {
+        "message": "工作区"
+    },
+    "rse12_label_clipboard": {
+        "message": "剪贴板"
+    },
+    "rse12_label_copy": {
+        "message": "复制"
+    },
+    "rse12_label_group": {
+        "message": "分组"
+    },
+    "rse12_picker_add": {
+        "message": "添加"
+    },
+    "rse12_picker_added": {
+        "message": "已添加 ✓"
+    },
+    "rse12_picker_alert": {
+        "message": "无法打开选择器 — 是否已安装配套应用？\n\n请在设置 → 账户 → 配套应用中查看状态。"
+    },
+    "rse12_picker_no_matches": {
+        "message": "无匹配项。"
+    },
+    "rse12_picker_none": {
+        "message": "未找到链接、启动器或剪贴板项目。"
+    },
+    "rse12_picker_search": {
+        "message": "搜索链接、启动器、剪贴板…"
+    },
+    "rse12_picker_title": {
+        "message": "从你的面板添加步骤"
+    },
+    "rse12_remove_step_aria": {
+        "message": "移除步骤"
+    },
+    "rse12_stagger_label": {
+        "message": "步骤之间的暂停（秒）"
+    },
+    "rse12_sub_clipboard": {
+        "message": "$1 · 剪贴板"
+    },
+    "rse12_sub_group": {
+        "message": "$1 · $2"
+    },
+    "rse12_sub_launcher": {
+        "message": "$1 · 启动器"
+    },
+    "rse12_sub_shortcut": {
+        "message": "$1 · 快捷方式"
+    },
+    "rse12_summary_copy": {
+        "message": "复制"
+    },
+    "rse12_summary_copy_text": {
+        "message": "复制“$1”"
+    },
+    "rse12_summary_launch_app": {
+        "message": "启动应用"
+    },
+    "rse12_summary_launch_target": {
+        "message": "启动 $1"
+    },
+    "rse12_summary_open_file": {
+        "message": "打开文件"
+    },
+    "rse12_summary_open_file_name": {
+        "message": "打开文件 $1"
+    },
+    "rse12_summary_open_folder": {
+        "message": "打开文件夹"
+    },
+    "rse12_summary_open_folder_name": {
+        "message": "打开文件夹 $1"
+    },
+    "rse12_summary_open_host": {
+        "message": "打开 $1"
+    },
+    "rse12_summary_open_url": {
+        "message": "打开 URL"
+    },
+    "rse12_summary_step": {
+        "message": "步骤"
+    },
+    "rse12_summary_switch_to": {
+        "message": "切换到 $1"
+    },
+    "rse12_summary_switch_workspace": {
+        "message": "切换工作区"
+    },
+    "rse12_summary_wait": {
+        "message": "等待 $1 秒"
+    },
+    "rse12_tag_step_fallback": {
+        "message": "步骤"
+    },
+    "rse12_ws_default": {
+        "message": "默认"
+    },
+    "s28_add": {
+        "message": "添加"
+    },
+    "s28_add_to_group": {
+        "message": "添加到分组"
+    },
+    "s28_added_to": {
+        "message": "已添加到“$1”"
+    },
+    "s28_cancel": {
+        "message": "取消"
+    },
+    "s28_created_and_added": {
+        "message": "已创建“$1”并添加链接"
+    },
+    "s28_group_exists": {
+        "message": "分组“$1”已存在"
+    },
+    "s28_group_not_found": {
+        "message": "找不到分组“$1”"
+    },
+    "s28_hint_close": {
+        "message": "关闭"
+    },
+    "s28_hint_navigate": {
+        "message": "导航"
+    },
+    "s28_hint_open": {
+        "message": "打开"
+    },
+    "s28_label_group": {
+        "message": "分组"
+    },
+    "s28_label_title": {
+        "message": "标题"
+    },
+    "s28_new_group_name_label": {
+        "message": "新分组名称"
+    },
+    "s28_new_group_option": {
+        "message": "+ 新建分组…"
+    },
+    "s28_new_group_placeholder": {
+        "message": "输入唯一的分组名称"
+    },
+    "s28_no_matches": {
+        "message": "没有匹配“$1”的结果"
+    },
+    "s28_search_placeholder": {
+        "message": "搜索链接、启动器、书签…"
+    },
+    "s28_search_web_for": {
+        "message": "在网络上搜索“$1”"
+    },
+    "sbh15_default_workspace": {
+        "message": "起始"
+    },
+    "sbh15_image_too_large": {
+        "message": "图片太大（$1 MB）。最大尺寸为 2 MB。"
+    },
+    "sbh15_quota_exceeded": {
+        "message": "无法保存背景：存储空间已满。请尝试更小的图片（1 MB 以内）。"
+    },
+    "sbh15_section_fallback": {
+        "message": "区块"
+    },
+    "sbh15_select_workspace": {
+        "message": "选择工作区…"
+    },
+    "sbm27_action_failed": {
+        "message": "操作失败"
+    },
+    "sbm27_close": {
+        "message": "关闭"
+    },
+    "sbm27_code": {
+        "message": "个代码"
+    },
+    "sbm27_codes": {
+        "message": "个代码"
+    },
+    "sbm27_confirm_delete_public_body": {
+        "message": "拥有该链接的任何人都将无法再访问已发布的面板。"
+    },
+    "sbm27_confirm_delete_public_title": {
+        "message": "删除公开链接"
+    },
+    "sbm27_confirm_delete_share_body": {
+        "message": "这将阻止今后使用此代码导入。已经导入过面板的人仍会保留其副本。"
+    },
+    "sbm27_confirm_delete_share_title": {
+        "message": "删除分享码"
+    },
+    "sbm27_confirm_for_name": {
+        "message": "“$1”"
+    },
+    "sbm27_copy_code": {
+        "message": "复制代码"
+    },
+    "sbm27_copy_full_import_code": {
+        "message": "复制完整导入码"
+    },
+    "sbm27_copy_link": {
+        "message": "复制链接"
+    },
+    "sbm27_copy_public_link": {
+        "message": "复制公开链接"
+    },
+    "sbm27_copying": {
+        "message": "正在复制…"
+    },
+    "sbm27_created": {
+        "message": "创建于 $1"
+    },
+    "sbm27_delete_code": {
+        "message": "删除代码"
+    },
+    "sbm27_delete_link": {
+        "message": "删除链接"
+    },
+    "sbm27_deleting": {
+        "message": "正在删除…"
+    },
+    "sbm27_expired": {
+        "message": "已过期"
+    },
+    "sbm27_expires_dash": {
+        "message": "过期时间 —"
+    },
+    "sbm27_expires_date": {
+        "message": "$1 过期"
+    },
+    "sbm27_expires_in_days": {
+        "message": "$1 天后过期"
+    },
+    "sbm27_expires_today": {
+        "message": "今天过期"
+    },
+    "sbm27_extend_30_days": {
+        "message": "延长 30 天"
+    },
+    "sbm27_extending": {
+        "message": "正在延长…"
+    },
+    "sbm27_full_code_unavailable": {
+        "message": "此设备上无法获取完整导入码。"
+    },
+    "sbm27_full_code_unavailable_title": {
+        "message": "此设备上无法获取完整导入码"
+    },
+    "sbm27_group": {
+        "message": "个分组"
+    },
+    "sbm27_groups": {
+        "message": "个分组"
+    },
+    "sbm27_link": {
+        "message": "个链接"
+    },
+    "sbm27_links": {
+        "message": "个链接"
+    },
+    "sbm27_load_error_generic": {
+        "message": "无法加载已分享或公开面板。请重试。"
+    },
+    "sbm27_more_actions": {
+        "message": "更多操作"
+    },
+    "sbm27_never_expires": {
+        "message": "永不过期"
+    },
+    "sbm27_next": {
+        "message": "下一页"
+    },
+    "sbm27_no_match": {
+        "message": "没有与“$1”匹配的面板。"
+    },
+    "sbm27_no_name_set": {
+        "message": "未设置名称"
+    },
+    "sbm27_open": {
+        "message": "打开"
+    },
+    "sbm27_opening": {
+        "message": "正在打开…"
+    },
+    "sbm27_pager_info": {
+        "message": "第 $1 页，共 $2 页 · $3 个面板"
+    },
+    "sbm27_prev": {
+        "message": "上一页"
+    },
+    "sbm27_public_board_link_copied": {
+        "message": "已复制公开面板链接。"
+    },
+    "sbm27_public_link_deleted": {
+        "message": "已删除公开链接。"
+    },
+    "sbm27_public_link_extended": {
+        "message": "公开链接已延长 30 天。"
+    },
+    "sbm27_public_link_unavailable": {
+        "message": "此设备上无法获取公开链接。"
+    },
+    "sbm27_public_link_unavailable_title": {
+        "message": "此设备上无法获取公开链接"
+    },
+    "sbm27_published_close": {
+        "message": "关闭已发布面板弹窗"
+    },
+    "sbm27_published_empty_help": {
+        "message": "将工作区发布为公开只读链接，即可与任何人分享——无需安装扩展。"
+    },
+    "sbm27_published_empty_title": {
+        "message": "还没有已发布面板。"
+    },
+    "sbm27_published_error": {
+        "message": "无法加载已发布面板。"
+    },
+    "sbm27_published_loading": {
+        "message": "正在加载已发布面板…"
+    },
+    "sbm27_published_subtitle": {
+        "message": "任何人都能打开的公开只读链接。"
+    },
+    "sbm27_published_title": {
+        "message": "已发布面板"
+    },
+    "sbm27_search_aria": {
+        "message": "按代码或名称搜索面板"
+    },
+    "sbm27_search_placeholder": {
+        "message": "按代码或名称搜索…"
+    },
+    "sbm27_share_code_copied": {
+        "message": "已复制分享码。"
+    },
+    "sbm27_share_code_deleted": {
+        "message": "已删除分享码。"
+    },
+    "sbm27_share_code_extended": {
+        "message": "分享码已延长 30 天。"
+    },
+    "sbm27_shared_close": {
+        "message": "关闭已分享面板弹窗"
+    },
+    "sbm27_shared_empty_help": {
+        "message": "分享工作区可创建一个临时导入码，他人可用它导入属于自己的副本。"
+    },
+    "sbm27_shared_empty_title": {
+        "message": "还没有已分享面板。"
+    },
+    "sbm27_shared_error": {
+        "message": "无法加载已分享面板。"
+    },
+    "sbm27_shared_loading": {
+        "message": "正在加载已分享面板…"
+    },
+    "sbm27_shared_subtitle": {
+        "message": "其他人可通过分享代码导入看板的独立副本。后续修改不会同步。"
+    },
+    "sbm27_shared_title": {
+        "message": "已分享面板"
+    },
+    "sbm27_try_again": {
+        "message": "重试"
+    },
+    "sbm27_unnamed": {
+        "message": "未命名"
+    },
+    "sbm27_update_code": {
+        "message": "更新代码"
+    },
+    "sbm27_update_public_title": {
+        "message": "用当前面板替换已发布的快照（链接不变）"
+    },
+    "sbm27_update_share_title": {
+        "message": "将此工作区重新快照到同一代码（仅影响新导入）"
+    },
+    "sbm27_update_snapshot": {
+        "message": "更新快照"
+    },
+    "sbm27_updating": {
+        "message": "正在更新…"
+    },
+    "scwh13_choose_workspace": {
+        "message": "请先选择目标工作区。"
+    },
+    "scwh13_default_group_name": {
+        "message": "当前窗口"
+    },
+    "scwh13_default_workspace_name": {
+        "message": "开始"
+    },
+    "scwh13_duplicates_skipped": {
+        "message": "将跳过 $1 个重复的$2。"
+    },
+    "scwh13_enter_group_name": {
+        "message": "请输入分组名称。"
+    },
+    "scwh13_group_name_exists": {
+        "message": "所选工作区中已存在同名分组。"
+    },
+    "scwh13_items_saved_order": {
+        "message": "$1 个$2将按标签页顺序保存。"
+    },
+    "scwh13_loading_tabs": {
+        "message": "正在加载当前窗口的标签页…"
+    },
+    "scwh13_no_supported_tabs": {
+        "message": "此窗口中没有可保存的受支持标签页。"
+    },
+    "scwh13_no_tabs_left": {
+        "message": "按当前选项，没有剩余的受支持标签页可保存。"
+    },
+    "scwh13_read_tabs_error": {
+        "message": "无法读取当前窗口的标签页：$1"
+    },
+    "scwh13_save_error_fallback": {
+        "message": "无法将当前窗口保存为分组。"
+    },
+    "scwh13_save_group": {
+        "message": "保存分组"
+    },
+    "scwh13_saved_to_workspace": {
+        "message": "已将 $1 个$2保存到 $4 的“$3”。"
+    },
+    "scwh13_saving": {
+        "message": "正在保存…"
+    },
+    "scwh13_supported_found": {
+        "message": "当前窗口中找到 $1 个受支持的$2。"
+    },
+    "scwh13_unsupported_ignored": {
+        "message": "将忽略 $1 个内部或不受支持的$2。"
+    },
+    "scwh13_untitled_tab": {
+        "message": "无标题标签页"
+    },
+    "search_type_bookmark": {
+        "message": "书签"
+    },
+    "search_type_clipboard": {
+        "message": "剪贴板"
+    },
+    "search_type_launcher": {
+        "message": "启动器"
+    },
+    "search_type_link": {
+        "message": "链接"
+    },
+    "setacct_autopull_meta": {
+        "message": "当本地仪表板没有未同步的更改时，应用较新的云端状态。"
+    },
+    "setacct_autopull_title": {
+        "message": "自动拉取较新的云端状态"
+    },
+    "setacct_autosync_intro": {
+        "message": "自动同步适用于上方选择的当前云端仪表板。"
+    },
+    "setacct_autosync_row_meta": {
+        "message": "自动将本地更改推送到当前仪表板。"
+    },
+    "setacct_autosync_row_title": {
+        "message": "自动同步到云端"
+    },
+    "setacct_autosync_title": {
+        "message": "自动同步 ✦"
+    },
+    "setacct_companion_guide_link": {
+        "message": "配套程序设置指南 ↗"
+    },
+    "setacct_companion_help_aria": {
+        "message": "关于配套程序的帮助"
+    },
+    "setacct_companion_help_title": {
+        "message": "关于配套程序的帮助"
+    },
+    "setacct_companion_retry_aria": {
+        "message": "重试配套程序状态检查"
+    },
+    "setacct_companion_retry_title": {
+        "message": "重试"
+    },
+    "setacct_companion_status_meta": {
+        "message": "文件夹、文件和命令启动器需要此项。"
+    },
+    "setacct_companion_status_title": {
+        "message": "桌面配套程序状态"
+    },
+    "setacct_companion_title": {
+        "message": "配套程序"
+    },
+    "setacct_delay_1m": {
+        "message": "1 分钟"
+    },
+    "setacct_delay_2m": {
+        "message": "2 分钟"
+    },
+    "setacct_delay_30s": {
+        "message": "30 秒"
+    },
+    "setacct_delay_5m": {
+        "message": "5 分钟"
+    },
+    "setacct_poll_10m": {
+        "message": "10 分钟"
+    },
+    "setacct_poll_1m": {
+        "message": "1 分钟"
+    },
+    "setacct_poll_3m": {
+        "message": "3 分钟"
+    },
+    "setacct_poll_5m": {
+        "message": "5 分钟"
+    },
+    "setacct_poll_meta": {
+        "message": "检查云端更改的频率。"
+    },
+    "setacct_poll_title": {
+        "message": "检查更新"
+    },
+    "setacct_syncdelay_meta": {
+        "message": "本地更改后，等待一段时间再推送。"
+    },
+    "setacct_syncdelay_title": {
+        "message": "同步延迟"
+    },
+    "setbg_advanced_heading": {
+        "message": "高级渐变"
+    },
+    "setbg_anim_aurora_borealis": {
+        "message": "北极光"
+    },
+    "setbg_anim_aurora_dream": {
+        "message": "极光梦境"
+    },
+    "setbg_anim_gentle_breeze": {
+        "message": "轻柔微风"
+    },
+    "setbg_anim_gentle_prism": {
+        "message": "柔和棱镜"
+    },
+    "setbg_anim_liquid_motion": {
+        "message": "流动液体"
+    },
+    "setbg_anim_ocean_wave": {
+        "message": "海浪"
+    },
+    "setbg_anim_prism_light": {
+        "message": "棱镜之光"
+    },
+    "setbg_anim_shimmer": {
+        "message": "微光"
+    },
+    "setbg_anim_sunset_flow": {
+        "message": "日落流光"
+    },
+    "setbg_animated_heading": {
+        "message": "动态背景"
+    },
+    "setbg_custom_css_apply": {
+        "message": "应用"
+    },
+    "setbg_custom_css_heading": {
+        "message": "自定义 CSS"
+    },
+    "setbg_custom_css_help_aria": {
+        "message": "关于自定义 CSS 的帮助"
+    },
+    "setbg_custom_css_help_title": {
+        "message": "关于自定义 CSS 的帮助"
+    },
+    "setbg_custom_css_placeholder": {
+        "message": "任何有效的 CSS 背景值，例如\nradial-gradient(circle, #ff6b6b, #4ecdc4)\nurl('https://...') center/cover"
+    },
+    "setbg_custom_image_heading": {
+        "message": "自定义图片"
+    },
+    "setbg_gradient_heading": {
+        "message": "渐变背景"
+    },
+    "setbg_reset": {
+        "message": "恢复默认"
+    },
+    "setbg_solid_heading": {
+        "message": "纯色"
+    },
+    "setbg_solid_pick_label": {
+        "message": "选择背景颜色"
+    },
+    "setbg_theme_dark": {
+        "message": "默认深色"
+    },
+    "setbg_theme_dark_title": {
+        "message": "默认深色"
+    },
+    "setbg_theme_defaults_heading": {
+        "message": "主题默认"
+    },
+    "setbg_theme_lavender_sky": {
+        "message": "薰衣草天空"
+    },
+    "setbg_theme_lavender_sky_title": {
+        "message": "薰衣草天空"
+    },
+    "setbg_theme_light": {
+        "message": "默认浅色"
+    },
+    "setbg_theme_light_title": {
+        "message": "默认浅色"
+    },
+    "setbg_theme_luxury": {
+        "message": "奢华"
+    },
+    "setbg_theme_luxury_title": {
+        "message": "奢华"
+    },
+    "setbg_theme_midnight": {
+        "message": "午夜"
+    },
+    "setbg_theme_midnight_title": {
+        "message": "午夜"
+    },
+    "setbg_theme_nordic": {
+        "message": "北欧"
+    },
+    "setbg_theme_nordic_title": {
+        "message": "北欧"
+    },
+    "setbg_theme_ocean": {
+        "message": "海洋"
+    },
+    "setbg_theme_ocean_title": {
+        "message": "海洋"
+    },
+    "setbg_theme_pastel_sunset": {
+        "message": "柔彩日落"
+    },
+    "setbg_theme_pastel_sunset_title": {
+        "message": "柔彩日落"
+    },
+    "setbg_theme_professional": {
+        "message": "专业"
+    },
+    "setbg_theme_professional_title": {
+        "message": "专业"
+    },
+    "setbg_theme_sakura": {
+        "message": "樱花"
+    },
+    "setbg_theme_sakura_title": {
+        "message": "樱花"
+    },
+    "setbg_theme_simple": {
+        "message": "简约（默认）"
+    },
+    "setbg_theme_simple_title": {
+        "message": "简约（默认）"
+    },
+    "setbg_upload": {
+        "message": "上传"
+    },
+    "setbg_tabs_aria": {
+        "message": "背景类型"
+    },
+    "setbg_tab_themes": {
+        "message": "主题"
+    },
+    "setbg_tab_animated": {
+        "message": "动态"
+    },
+    "setbg_tab_gradients": {
+        "message": "渐变"
+    },
+    "setbg_tab_solid": {
+        "message": "纯色"
+    },
+    "setbg_tab_image": {
+        "message": "图片"
+    },
+    "setbg_tab_css": {
+        "message": "CSS"
+    },
+    "setbg_scene_wave": {
+        "message": "波浪"
+    },
+    "setbg_scene_waves": {
+        "message": "多重波浪"
+    },
+    "setbg_scene_swell": {
+        "message": "涌浪"
+    },
+    "setbg_scene_constellation": {
+        "message": "星座"
+    },
+    "setbg_scene_grid": {
+        "message": "网格"
+    },
+    "setbg_scene_drift": {
+        "message": "气泡"
+    },
+    "setbg_scene_leaves": {
+        "message": "落叶"
+    },
+    "setbg_scene_maple": {
+        "message": "枫叶"
+    },
+    "setbg_scene_snow": {
+        "message": "雪"
+    },
+    "setbg_scene_rain": {
+        "message": "雨"
+    },
+    "setbg_scene_tint": {
+        "message": "色调"
+    },
+    "setbg_scene_tint_custom": {
+        "message": "自定义色调"
+    },
+    "setbg_scene_tint_teal": {
+        "message": "青绿"
+    },
+    "setbg_scene_tint_coral": {
+        "message": "珊瑚"
+    },
+    "setbg_scene_tint_moss": {
+        "message": "苔绿"
+    },
+    "setbg_scene_tint_indigo": {
+        "message": "靛蓝"
+    },
+    "setbg_scene_tint_magenta": {
+        "message": "洋红"
+    },
+    "setbg_scene_tint_amber": {
+        "message": "琥珀"
+    },
+    "setbg_scene_variant": {
+        "message": "外观"
+    },
+    "setbg_scene_variant_system": {
+        "message": "跟随系统"
+    },
+    "setbg_scene_variant_dark": {
+        "message": "深色"
+    },
+    "setbg_scene_variant_light": {
+        "message": "浅色"
+    },
+    "setbg_solid_sand": {
+        "message": "沙色"
+    },
+    "setbg_solid_sage": {
+        "message": "鼠尾草绿"
+    },
+    "setbg_solid_slate": {
+        "message": "石板灰"
+    },
+    "setbg_solid_terracotta": {
+        "message": "赤陶"
+    },
+    "setbg_solid_ink": {
+        "message": "墨色"
+    },
+    "setbg_solid_blush": {
+        "message": "腮红"
+    },
+    "setbg_solid_custom": {
+        "message": "自定义"
+    },
+    "setbg_name_custom_color": {
+        "message": "自定义颜色"
+    },
+    "setbg_name_custom_image": {
+        "message": "自定义图片"
+    },
+    "setbg_name_custom_css": {
+        "message": "自定义 CSS"
+    },
+    "setbg_name_gradient": {
+        "message": "渐变"
+    },
+    "setbg_image_drop": {
+        "message": "拖入图片或选择文件"
+    },
+    "setdata_backup": {
+        "message": "备份"
+    },
+    "setdata_bookmarks_help_aria": {
+        "message": "关于从书签导入的帮助"
+    },
+    "setdata_bookmarks_help_title": {
+        "message": "关于从书签导入的帮助"
+    },
+    "setdata_bring_links": {
+        "message": "导入链接"
+    },
+    "setdata_choose_file": {
+        "message": "选择文件"
+    },
+    "setdata_clear_btn": {
+        "message": "清除"
+    },
+    "setdata_export_btn": {
+        "message": "导出"
+    },
+    "setdata_export_desc": {
+        "message": "工作区和设置导出为一个 JSON 文件"
+    },
+    "setdata_export_title": {
+        "message": "导出仪表板"
+    },
+    "setdata_from_bookmark_folder": {
+        "message": "从书签文件夹"
+    },
+    "setdata_import_bookmarks_btn": {
+        "message": "导入"
+    },
+    "setdata_import_desc": {
+        "message": "将替换当前数据"
+    },
+    "setdata_import_title": {
+        "message": "导入仪表板"
+    },
+    "setdata_no_snapshot": {
+        "message": "尚未保存快照"
+    },
+    "setdata_restore_btn": {
+        "message": "恢复"
+    },
+    "setdata_save_window_btn": {
+        "message": "保存"
+    },
+    "setdata_save_window_desc": {
+        "message": "将打开的标签页保存为分组"
+    },
+    "setdata_save_window_title": {
+        "message": "保存当前窗口"
+    },
+    "setdata_select_folder": {
+        "message": "选择文件夹…"
+    },
+    "setdata_session_help_aria": {
+        "message": "关于会话恢复的帮助"
+    },
+    "setdata_session_help_title": {
+        "message": "关于会话恢复的帮助"
+    },
+    "setdata_session_recovery": {
+        "message": "会话恢复"
+    },
+    "setdata_snapshot_meta": {
+        "message": "快照 · 尚无快照"
+    },
+    "setdata_view_btn": {
+        "message": "查看"
+    },
+    "setg_favicons_autofetch": {
+        "message": "保存链接时自动获取网站图标"
+    },
+    "setg_favicons_get_all": {
+        "message": "为所有链接获取网站图标"
+    },
+    "setg_favicons_remove_all": {
+        "message": "移除所有图标（此工作区）"
+    },
+    "setg_favicons_title": {
+        "message": "网站图标"
+    },
+    "setg_greeting_show": {
+        "message": "在页眉显示问候语"
+    },
+    "setg_greeting_title": {
+        "message": "问候语"
+    },
+    "setg_groups_autogrow": {
+        "message": "添加项目时自动扩展分组"
+    },
+    "setg_groups_title": {
+        "message": "分组"
+    },
+    "setg_link_health_check": {
+        "message": "自动检查已保存的链接"
+    },
+    "setg_link_health_help_aria": {
+        "message": "关于链接健康的帮助"
+    },
+    "setg_link_health_help_title": {
+        "message": "关于链接健康的帮助"
+    },
+    "setg_link_health_title": {
+        "message": "链接健康 ✦"
+    },
+    "setg_logo_desc": {
+        "message": "标志会保持其宽高比并对齐，使其底部与工作区标签对齐。"
+    },
+    "setg_logo_help_aria": {
+        "message": "关于标志的帮助"
+    },
+    "setg_logo_help_title": {
+        "message": "关于标志的帮助"
+    },
+    "setg_logo_remove": {
+        "message": "移除"
+    },
+    "setg_logo_size": {
+        "message": "标志大小"
+    },
+    "setg_logo_size_big": {
+        "message": "大 — 最大 120px"
+    },
+    "setg_logo_size_middle": {
+        "message": "中 — 最大 80px"
+    },
+    "setg_logo_size_small": {
+        "message": "小 — 最大 40px"
+    },
+    "setg_logo_title": {
+        "message": "标志"
+    },
+    "setg_logo_upload": {
+        "message": "上传标志"
+    },
+    "setg_overlay_title": {
+        "message": "其他页面上的浮层"
+    },
+    "setg_searchbar_engine": {
+        "message": "搜索引擎"
+    },
+    "setg_searchbar_engine_bing": {
+        "message": "Bing"
+    },
+    "setg_searchbar_engine_brave": {
+        "message": "Brave"
+    },
+    "setg_searchbar_engine_browser": {
+        "message": "浏览器默认"
+    },
+    "setg_searchbar_engine_duckduckgo": {
+        "message": "DuckDuckGo"
+    },
+    "setg_searchbar_engine_google": {
+        "message": "Google"
+    },
+    "setg_searchbar_engine_yahoo": {
+        "message": "Yahoo"
+    },
+    "setg_searchbar_help_aria": {
+        "message": "关于搜索栏的帮助"
+    },
+    "setg_searchbar_help_title": {
+        "message": "关于搜索栏的帮助"
+    },
+    "setg_searchbar_newtab": {
+        "message": "在新标签页中打开结果"
+    },
+    "setg_searchbar_show": {
+        "message": "显示搜索栏"
+    },
+    "setg_tasks_title": {
+        "message": "任务"
+    },
+    "setg_tasks_badge": {
+        "message": "在任务按钮上显示剩余任务数量"
+    },
+    "setg_tasks_notifications": {
+        "message": "Task reminder notifications"
+    },
+    "setg_tasks_notif_blocked": {
+        "message": "Blocked by the browser. Allow notifications for this extension to receive task reminders."
+    },
+    "setg_searchbar_title": {
+        "message": "搜索栏"
+    },
+    "setg_session_desc": {
+        "message": "控制当有已保存的会话可用时，ReadyTab 是否在启动时显示恢复信息框。"
+    },
+    "setg_session_show": {
+        "message": "启动时显示恢复信息框"
+    },
+    "setg_session_title": {
+        "message": "会话恢复"
+    },
+    "setg_show_date": {
+        "message": "显示日期"
+    },
+    "setg_spotlight_all_pages": {
+        "message": "在所有页面上启用"
+    },
+    "setg_spotlight_appearance": {
+        "message": "外观"
+    },
+    "setg_spotlight_gesture": {
+        "message": "通过鼠标手势打开"
+    },
+    "setg_spotlight_group_name": {
+        "message": "按分组名称搜索"
+    },
+    "setg_spotlight_help_aria": {
+        "message": "关于聚焦搜索的帮助"
+    },
+    "setg_spotlight_help_title": {
+        "message": "关于聚焦搜索的帮助"
+    },
+    "setg_spotlight_matching_tabs": {
+        "message": "在结果中显示匹配的打开标签页"
+    },
+    "setg_spotlight_shortcuts": {
+        "message": "显示快捷方式"
+    },
+    "setg_spotlight_tabs": {
+        "message": "显示标签页功能区"
+    },
+    "setg_spotlight_tabs_domain": {
+        "message": "按域名分组标签页"
+    },
+    "setg_spotlight_tabs_orientation": {
+        "message": "功能区布局"
+    },
+    "setg_spotlight_tabs_orientation_left": {
+        "message": "左侧（纵向）"
+    },
+    "setg_spotlight_tabs_orientation_top": {
+        "message": "顶部（横向）"
+    },
+    "setg_spotlight_theme_dark": {
+        "message": "深色"
+    },
+    "setg_spotlight_theme_light": {
+        "message": "浅色"
+    },
+    "setg_spotlight_title": {
+        "message": "聚焦搜索"
+    },
+    "setg_tab_ribbon_title": {
+        "message": "标签页功能区"
+    },
+    "setlay_apply_btn": {
+        "message": "应用"
+    },
+    "setlay_apply_to_other": {
+        "message": "应用到其他工作区…"
+    },
+    "setlay_autoarrange_desc": {
+        "message": "将所有分组向上紧凑排列以消除间隙，并展开内容被截断的分组。"
+    },
+    "setlay_autoarrange_title": {
+        "message": "自动排列布局"
+    },
+    "setlay_background_title": {
+        "message": "背景"
+    },
+    "setlay_compact_btn": {
+        "message": "紧凑布局"
+    },
+    "setlay_copy_from_ws_desc": {
+        "message": "将另一个工作区的背景和主题复制到此工作区。"
+    },
+    "setlay_copy_from_ws_help_aria": {
+        "message": "关于从工作区复制的帮助"
+    },
+    "setlay_copy_from_ws_help_title": {
+        "message": "关于从工作区复制的帮助"
+    },
+    "setlay_copy_from_ws_title": {
+        "message": "从工作区复制"
+    },
+    "setlay_current_theme_label": {
+        "message": "当前主题"
+    },
+    "setlay_headsup_label": {
+        "message": "提示："
+    },
+    "setlay_headsup_text": {
+        "message": "这也会复制工作区主题，而不仅仅是背景。"
+    },
+    "setlay_theme_aurora": {
+        "message": "极光玻璃"
+    },
+    "setlay_theme_dark": {
+        "message": "深色"
+    },
+    "setlay_theme_frost": {
+        "message": "冰霜"
+    },
+    "setlay_theme_help_aria": {
+        "message": "关于主题的帮助"
+    },
+    "setlay_theme_help_title": {
+        "message": "关于主题的帮助"
+    },
+    "setlay_theme_lavender": {
+        "message": "薰衣草天空"
+    },
+    "setlay_theme_light": {
+        "message": "浅色"
+    },
+    "setlay_theme_luxury": {
+        "message": "奢华"
+    },
+    "setlay_theme_midnight": {
+        "message": "午夜"
+    },
+    "setlay_theme_nordic": {
+        "message": "北欧"
+    },
+    "setlay_theme_ocean": {
+        "message": "海洋"
+    },
+    "setlay_theme_pastel": {
+        "message": "柔彩日落"
+    },
+    "setlay_theme_professional": {
+        "message": "专业"
+    },
+    "setlay_theme_sakura": {
+        "message": "樱花"
+    },
+    "setlay_theme_simple": {
+        "message": "简约（默认）"
+    },
+    "setlay_theme_title": {
+        "message": "主题"
+    },
+    "setspc_board_token_placeholder": {
+        "message": "看板令牌"
+    },
+    "setspc_drag_reorder": {
+        "message": "拖动以重新排序"
+    },
+    "setspc_help_import_aria": {
+        "message": "关于从代码导入的帮助"
+    },
+    "setspc_help_import_title": {
+        "message": "关于从代码导入的帮助"
+    },
+    "setspc_help_managed_aria": {
+        "message": "关于托管看板的帮助"
+    },
+    "setspc_help_managed_title": {
+        "message": "关于托管看板的帮助"
+    },
+    "setspc_help_spaces_aria": {
+        "message": "关于空间的帮助"
+    },
+    "setspc_help_spaces_title": {
+        "message": "关于空间的帮助"
+    },
+    "setspc_import_btn": {
+        "message": "导入"
+    },
+    "setspc_import_desc": {
+        "message": "粘贴分享代码，以导入他人分享给你的工作区副本。"
+    },
+    "setspc_import_from_code": {
+        "message": "从代码导入"
+    },
+    "setspc_import_placeholder": {
+        "message": "例如 A3X9KZ.4F2A9C7D1E5B"
+    },
+    "setspc_managed_boards_desc": {
+        "message": "其他人可以订阅的看板：默认只读，使用共享编辑密钥即可编辑。"
+    },
+    "setspc_managed_boards_row": {
+        "message": "托管看板"
+    },
+    "setspc_managed_boards_title": {
+        "message": "托管看板 ✦"
+    },
+    "setspc_managed_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_pro_badge": {
+        "message": "✦ Pro"
+    },
+    "setspc_pro_note": {
+        "message": "通过代码分享工作区和在线发布看板是 Pro 功能。导入他人分享给你的工作区始终免费。"
+    },
+    "setspc_published_boards": {
+        "message": "已发布的看板"
+    },
+    "setspc_published_boards_desc": {
+        "message": "你创建的公开只读链接"
+    },
+    "setspc_published_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_rename_cancel": {
+        "message": "取消"
+    },
+    "setspc_rename_error": {
+        "message": "请输入空间名称。"
+    },
+    "setspc_rename_placeholder": {
+        "message": "输入空间名称"
+    },
+    "setspc_rename_save": {
+        "message": "保存"
+    },
+    "setspc_rename_title": {
+        "message": "重命名空间"
+    },
+    "setspc_shared_boards": {
+        "message": "已分享的看板"
+    },
+    "setspc_shared_boards_desc": {
+        "message": "其他人可通过分享代码导入看板的独立副本。后续修改不会同步。"
+    },
+    "setspc_shared_manage_btn": {
+        "message": "管理"
+    },
+    "setspc_subscribe_btn": {
+        "message": "订阅"
+    },
+    "setspc_subscribe_title": {
+        "message": "订阅看板"
+    },
+    "setspc_workspaces": {
+        "message": "工作区"
+    },
+    "settings_clock": {
+        "message": "时钟"
+    },
+    "settings_clock_12h": {
+        "message": "12 小时制 (AM/PM)"
+    },
+    "settings_clock_format": {
+        "message": "格式"
+    },
+    "settings_clock_help": {
+        "message": "关于时钟的帮助"
+    },
+    "settings_help_about": {
+        "message": "关于 $1 的帮助"
+    },
+    "settings_help_this_setting": {
+        "message": "此设置"
+    },
+    "settings_link_behavior": {
+        "message": "链接行为"
+    },
+    "settings_link_behavior_help": {
+        "message": "关于链接行为的帮助"
+    },
+    "settings_link_current_tab": {
+        "message": "当前标签页"
+    },
+    "settings_link_new_tab": {
+        "message": "新标签页"
+    },
+    "settings_open_links_in": {
+        "message": "链接打开方式"
+    },
+    "settings_show_clock": {
+        "message": "在页眉显示时钟"
+    },
+    "settings_show_seconds": {
+        "message": "显示秒"
+    },
+    "settings_tab_account": {
+        "message": "账户"
+    },
+    "settings_tab_data": {
+        "message": "数据"
+    },
+    "settings_tab_design": {
+        "message": "设计"
+    },
+    "settings_tab_general": {
+        "message": "常规"
+    },
+    "settings_tab_spaces": {
+        "message": "空间"
+    },
+    "settings_title": {
+        "message": "设置"
+    },
+    "sgh_sync_applies": {
+        "message": "自动同步应用于在“账户”中选定的当前活动云端仪表盘。"
+    },
+    "sgh_sync_choose_dashboard": {
+        "message": "在“账户”中选择或创建云端仪表盘。自动同步始终应用于其中当前活动的仪表盘。"
+    },
+    "sgh_sync_connect_pro": {
+        "message": "请先在“账户”中连接你的 Pro 账户，才能进行自动云同步。"
+    },
+    "sgh_sync_needs_pro": {
+        "message": "自动同步云端仪表盘需要 ReadyTab Pro。"
+    },
+    "sgh_sync_uses": {
+        "message": "自动同步使用在“账户”中选定的当前活动云端仪表盘。"
+    },
+    "shadow_glow": {
+        "message": "光晕"
+    },
+    "shadow_medium": {
+        "message": "中等"
+    },
+    "shadow_none": {
+        "message": "无"
+    },
+    "shadow_strong": {
+        "message": "强烈"
+    },
+    "shadow_subtle": {
+        "message": "轻微（纸感）"
+    },
+    "sl26_activate": {
+        "message": "激活"
+    },
+    "sl26_activating": {
+        "message": "正在激活…"
+    },
+    "sl26_active": {
+        "message": "已激活"
+    },
+    "sl26_active_dashboard": {
+        "message": "当前仪表板"
+    },
+    "sl26_back": {
+        "message": "返回"
+    },
+    "sl26_backup_sync_desc": {
+        "message": "跨设备备份和同步你的工作区。看板数据在离开浏览器前会先加密。"
+    },
+    "sl26_close": {
+        "message": "关闭"
+    },
+    "sl26_cloud": {
+        "message": "云端"
+    },
+    "sl26_cloud_dashboards": {
+        "message": "云端仪表板"
+    },
+    "sl26_cloud_sync": {
+        "message": "云同步"
+    },
+    "sl26_confirm_delete_dashboard": {
+        "message": "删除此云端仪表板？此操作无法撤销。"
+    },
+    "sl26_confirm_pull": {
+        "message": "确认拉取"
+    },
+    "sl26_confirm_update": {
+        "message": "确认更新"
+    },
+    "sl26_connect_cloud_sync": {
+        "message": "连接云同步"
+    },
+    "sl26_connect_to_cloud": {
+        "message": "连接到云端"
+    },
+    "sl26_connecting": {
+        "message": "正在连接…"
+    },
+    "sl26_copied": {
+        "message": "已复制！"
+    },
+    "sl26_copy_key": {
+        "message": "复制密钥"
+    },
+    "sl26_copy_key_aria": {
+        "message": "复制许可证密钥"
+    },
+    "sl26_dashboard_name_placeholder": {
+        "message": "仪表板名称…"
+    },
+    "sl26_days_ago": {
+        "message": "$1 天前"
+    },
+    "sl26_deactivates_pro": {
+        "message": "从此设备移除此许可证及其付费功能。"
+    },
+    "sl26_delete_dashboard": {
+        "message": "删除仪表板"
+    },
+    "sl26_enter_dashboard_name": {
+        "message": "请输入仪表板名称。"
+    },
+    "sl26_get_pro": {
+        "message": "比较方案"
+    },
+    "sl26_have_license_key": {
+        "message": "已有许可证密钥？"
+    },
+    "sl26_hours_ago": {
+        "message": "$1 小时前"
+    },
+    "sl26_just_now": {
+        "message": "刚刚"
+    },
+    "sl26_latest_snapshot": {
+        "message": "最新快照"
+    },
+    "sl26_license": {
+        "message": "许可证"
+    },
+    "sl26_license_key": {
+        "message": "许可证密钥"
+    },
+    "sl26_loading": {
+        "message": "正在加载…"
+    },
+    "sl26_local": {
+        "message": "本地"
+    },
+    "sl26_manage": {
+        "message": "管理"
+    },
+    "sl26_min_ago": {
+        "message": "$1 分钟前"
+    },
+    "sl26_missing_protected_warning": {
+        "message": "此$1早于受保护工作区备份支持。ReadyTab 已恢复“$3”的工作区标签$2，但未包含受保护的内容。$4"
+    },
+    "sl26_more_actions": {
+        "message": "更多操作"
+    },
+    "sl26_my_dashboard": {
+        "message": "我的仪表板"
+    },
+    "sl26_next": {
+        "message": "下一步"
+    },
+    "sl26_no_dashboards_yet": {
+        "message": "还没有云端仪表板。在下方推送当前工作区以创建第一个。"
+    },
+    "sl26_no_versions_yet": {
+        "message": "还没有已保存的版本。每次更新仪表板时会自动创建版本（最多保留 5 个）。"
+    },
+    "sl26_not_synced": {
+        "message": "未同步"
+    },
+    "sl26_page_of": {
+        "message": "第 $1 页，共 $2 页"
+    },
+    "sl26_plan_annual": {
+        "message": "年度许可证"
+    },
+    "sl26_plan_annual_expires": {
+        "message": "年度许可证 · 到期时间 $1"
+    },
+    "sl26_plan_lifetime": {
+        "message": "终身许可证"
+    },
+    "sl26_preview_pull_local": {
+        "message": "预览更改并拉取到本地"
+    },
+    "sl26_preview_restore": {
+        "message": "预览并恢复"
+    },
+    "sl26_preview_update_cloud": {
+        "message": "预览更改并更新到云端"
+    },
+    "sl26_previous": {
+        "message": "上一步"
+    },
+    "sl26_change_title": {
+        "message": "更换许可证之前"
+    },
+    "sl26_change_warning": {
+        "message": "移除此许可证会断开云访问。其他密钥无法访问其云仪表板、设置或历史记录。这些数据仍关联旧密钥，不会转移。本地工作区会保留在此设备上。"
+    },
+    "sl26_change_backup": {
+        "message": "继续之前，请在设置 → 数据中将当前数据导出为 JSON。"
+    },
+    "sl26_change_export_scope": {
+        "message": "此导出包含当前本地工作区，不包含所有已保存的云仪表板或其历史记录。请先解锁受保护的工作区；锁定的工作区将被排除。"
+    },
+    "sl26_change_publishing": {
+        "message": "您也将失去管理使用此许可证分享、发布或托管的看板的权限。"
+    },
+    "sl26_change_continue": {
+        "message": "激活其他许可证"
+    },
+    "sl26_change_export": {
+        "message": "将当前数据导出为 JSON"
+    },
+    "sl26_sync_only": {
+        "message": "仅同步"
+    },
+    "sl26_included": {
+        "message": "已包含"
+    },
+    "sl26_not_included": {
+        "message": "未包含"
+    },
+    "sl26_sharing_publishing_hosting": {
+        "message": "分享、发布和团队看板托管"
+    },
+    "sl26_pro_active": {
+        "message": "Pro 已激活"
+    },
+    "sl26_pro_upsell_desc": {
+        "message": "Free 包含无限本地工作区。选择 Sync 使用云同步，或选择 Full 使用同步、分享、发布和团队看板托管。"
+    },
+    "sl26_pull": {
+        "message": "拉取"
+    },
+    "sl26_pull_named": {
+        "message": "拉取“$1”"
+    },
+    "sl26_pulling": {
+        "message": "正在拉取…"
+    },
+    "sl26_push_as_new": {
+        "message": "推送为新仪表板"
+    },
+    "sl26_push_new_dashboard": {
+        "message": "推送新仪表板"
+    },
+    "sl26_push_new_dashboard_desc": {
+        "message": "将当前工作区保存为新的云端仪表板。"
+    },
+    "sl26_pushed_new_dashboard": {
+        "message": "已推送到新的云端仪表板"
+    },
+    "sl26_pushing": {
+        "message": "正在推送…"
+    },
+    "sl26_recovery_repush": {
+        "message": "从原设备重新推送以恢复缺失的数据。"
+    },
+    "sl26_recovery_restore_newer": {
+        "message": "恢复较新的快照或从原设备重新推送以恢复缺失的数据。"
+    },
+    "sl26_remove": {
+        "message": "移除"
+    },
+    "sl26_remove_license": {
+        "message": "移除许可证"
+    },
+    "sl26_removing": {
+        "message": "正在移除…"
+    },
+    "sl26_restore_this_version": {
+        "message": "恢复此版本"
+    },
+    "sl26_restore_version_of": {
+        "message": "恢复“$1”的版本"
+    },
+    "sl26_restored_version": {
+        "message": "已恢复的版本"
+    },
+    "sl26_restoring": {
+        "message": "正在恢复…"
+    },
+    "sl26_show_hide": {
+        "message": "显示 / 隐藏"
+    },
+    "sl26_show_hide_key_aria": {
+        "message": "显示或隐藏许可证密钥"
+    },
+    "sl26_snapshot": {
+        "message": "快照"
+    },
+    "sl26_something_wrong": {
+        "message": "出了点问题。"
+    },
+    "sl26_synced_ago": {
+        "message": "已同步 $1"
+    },
+    "sl26_update": {
+        "message": "更新"
+    },
+    "sl26_update_named": {
+        "message": "更新“$1”"
+    },
+    "sl26_version": {
+        "message": "版本"
+    },
+    "sl26_version_history": {
+        "message": "版本历史"
+    },
+    "sl26_workspaces_backed_up": {
+        "message": "工作区已跨设备备份和同步。看板数据在离开浏览器前会先加密。"
+    },
+    "slh16_added_favicons": {
+        "message": "已为 $1 个链接添加网站图标$2"
+    },
+    "slh16_could_not_fetch_favicons": {
+        "message": "无法获取网站图标"
+    },
+    "slh16_could_not_remove_icons": {
+        "message": "无法移除图标"
+    },
+    "slh16_favicon_overwrite_confirm": {
+        "message": "是否也替换已设置的图标？\n\n确定 – 为每个链接重新获取网站图标（覆盖现有图标）\n取消 – 仅为没有图标的链接添加网站图标"
+    },
+    "slh16_fetching_favicons": {
+        "message": "正在获取网站图标…"
+    },
+    "slh16_no_icons_to_remove": {
+        "message": "此工作区中没有可移除的图标"
+    },
+    "slh16_no_links_with_url": {
+        "message": "未找到带有 URL 的链接"
+    },
+    "slh16_no_links_without_icon": {
+        "message": "未找到没有图标的链接"
+    },
+    "slh16_remove_all_icons_confirm": {
+        "message": "移除当前工作区中所有链接的图标？\n\n此操作仅影响当前工作区，且无法撤销。"
+    },
+    "slh16_removed_icons": {
+        "message": "已移除 $1 个图标$2"
+    },
+    "slh16_removing_icons": {
+        "message": "正在移除图标…"
+    },
+    "slh16_revert": {
+        "message": "还原"
+    },
+    "slh16_theme_changed": {
+        "message": "主题已更改为 $1"
+    },
+    "slh16_updated_favicons": {
+        "message": "已更新 $1 个链接的网站图标$2"
+    },
+    "smh17_checking": {
+        "message": "正在检查…"
+    },
+    "smh17_connected": {
+        "message": "已连接"
+    },
+    "smh17_connected_version": {
+        "message": "已连接 (v$1)"
+    },
+    "smh17_err_generic": {
+        "message": "错误：$1"
+    },
+    "smh17_err_host_crashed": {
+        "message": "主机崩溃 — 请检查 host.ps1 是否有错误"
+    },
+    "smh17_err_id_mismatch": {
+        "message": "扩展程序 ID 不匹配 — 请使用正确的 -ProductionId 或 -DevId 重新运行 install.ps1"
+    },
+    "smh17_err_not_found": {
+        "message": "未找到 — 请运行 install.ps1 并重启 Chrome"
+    },
+    "smh17_no_error_msg": {
+        "message": "（未返回错误消息）"
+    },
+    "smh17_not_installed": {
+        "message": "未安装"
+    },
+    "spc_add_link": {
+        "message": "添加链接"
+    },
+    "spc_add_link_button": {
+        "message": "添加链接按钮"
+    },
+    "spc_btn_add": {
+        "message": "添加"
+    },
+    "spc_err_add_link_button": {
+        "message": "无法将该页面添加为链接按钮。"
+    },
+    "spc_err_add_to_group": {
+        "message": "无法将该页面添加到该分组。"
+    },
+    "spc_err_create_group": {
+        "message": "无法创建新分组。"
+    },
+    "spc_err_enter_new_group": {
+        "message": "请输入新分组名称。"
+    },
+    "spc_err_group_exists": {
+        "message": "分组“$1”已存在。"
+    },
+    "spc_footer_add": {
+        "message": "添加"
+    },
+    "spc_footer_close": {
+        "message": "关闭"
+    },
+    "spc_footer_navigate": {
+        "message": "导航"
+    },
+    "spc_footer_next_field": {
+        "message": "下一字段"
+    },
+    "spc_footer_open": {
+        "message": "打开"
+    },
+    "spc_label_group": {
+        "message": "分组"
+    },
+    "spc_label_new_group": {
+        "message": "新分组名称"
+    },
+    "spc_label_title": {
+        "message": "标题"
+    },
+    "spc_label_workspace": {
+        "message": "工作区"
+    },
+    "spc_new_group_option": {
+        "message": "+ 新建分组…"
+    },
+    "spc_no_results": {
+        "message": "没有找到与“$1”匹配的结果"
+    },
+    "spc_placeholder_new_group": {
+        "message": "输入唯一的分组名称"
+    },
+    "spc_placeholder_page_title": {
+        "message": "页面标题"
+    },
+    "spc_search_placeholder": {
+        "message": "搜索链接…"
+    },
+    "spc_search_web": {
+        "message": "在网页中搜索“$1”"
+    },
+    "spc_tab_current": {
+        "message": "当前"
+    },
+    "spc_tab_group_link": {
+        "message": "分组链接"
+    },
+    "spc_tab_link_button": {
+        "message": "链接按钮"
+    },
+    "spc_tab_open_label": {
+        "message": "打开的标签页"
+    },
+    "spc_tab_search": {
+        "message": "搜索"
+    },
+    "spc_tab_switch": {
+        "message": "切换"
+    },
+    "spc_tab_close": {
+        "message": "关闭标签页"
+    },
+    "spc_tabs_domain_other": {
+        "message": "其他标签页"
+    },
+    "spc_tabs_heading": {
+        "message": "打开的标签页"
+    },
+    "spc_tabs_hint": {
+        "message": "点击卡片即可切换"
+    },
+    "spc_tabs_matching": {
+        "message": "匹配的打开标签页"
+    },
+    "spc_type_link": {
+        "message": "链接"
+    },
+    "spotlight_hint_title": {
+        "message": "搜索你保存的链接"
+    },
+    "sr8_add": {
+        "message": "添加"
+    },
+    "sr8_add_step": {
+        "message": "添加步骤"
+    },
+    "sr8_alignment": {
+        "message": "对齐"
+    },
+    "sr8_arrow_direction": {
+        "message": "箭头方向"
+    },
+    "sr8_callout_type": {
+        "message": "标注类型"
+    },
+    "sr8_change_avatar": {
+        "message": "更换头像"
+    },
+    "sr8_change_image": {
+        "message": "更换图片"
+    },
+    "sr8_change_thumbnail": {
+        "message": "更换缩略图"
+    },
+    "sr8_copy": {
+        "message": "复制"
+    },
+    "sr8_delete": {
+        "message": "删除"
+    },
+    "sr8_delete_element_confirm": {
+        "message": "删除此元素？"
+    },
+    "sr8_done": {
+        "message": "完成"
+    },
+    "sr8_drag_to_move": {
+        "message": "拖动以移动"
+    },
+    "sr8_edit": {
+        "message": "编辑"
+    },
+    "sr8_file_type": {
+        "message": "文件类型"
+    },
+    "sr8_fit": {
+        "message": "适应"
+    },
+    "sr8_heading_level": {
+        "message": "标题级别"
+    },
+    "sr8_or_paste_image_url": {
+        "message": "…或粘贴图片链接"
+    },
+    "sr8_panel_background": {
+        "message": "面板背景"
+    },
+    "sr8_paste_image_url": {
+        "message": "粘贴图片链接 (https://…)"
+    },
+    "sr8_ph_callout_text": {
+        "message": "标注文字…"
+    },
+    "sr8_ph_code": {
+        "message": "代码…"
+    },
+    "sr8_ph_description": {
+        "message": "描述"
+    },
+    "sr8_ph_file_name": {
+        "message": "文件名"
+    },
+    "sr8_ph_file_url": {
+        "message": "文件链接 (https://…)"
+    },
+    "sr8_ph_heading": {
+        "message": "标题"
+    },
+    "sr8_ph_link_url": {
+        "message": "链接地址 (https://…)"
+    },
+    "sr8_ph_name": {
+        "message": "名称"
+    },
+    "sr8_ph_short_bio": {
+        "message": "简短简介"
+    },
+    "sr8_ph_step_title": {
+        "message": "步骤标题"
+    },
+    "sr8_ph_title": {
+        "message": "标题"
+    },
+    "sr8_ph_write_text": {
+        "message": "写点内容…"
+    },
+    "sr8_remove_last_step": {
+        "message": "删除最后一步"
+    },
+    "sr8_thickness": {
+        "message": "粗细"
+    },
+    "srh14_card_meta": {
+        "message": "快照 · $1"
+    },
+    "srh14_card_ready": {
+        "message": "$1 个$2可恢复"
+    },
+    "srh14_confirm_clear": {
+        "message": "要清除已保存的上次会话快照吗？"
+    },
+    "srh14_last_updated": {
+        "message": "最后更新：$1"
+    },
+    "srh14_no_snapshot_saved": {
+        "message": "尚未保存快照"
+    },
+    "srh14_no_snapshot_yet": {
+        "message": "暂无快照"
+    },
+    "srh14_no_supported_tabs": {
+        "message": "本地快照中当前没有存储任何受支持的标签页。"
+    },
+    "srh14_no_tabs_to_restore": {
+        "message": "没有可恢复的标签页"
+    },
+    "srh14_prompt_no_supported": {
+        "message": "ReadyTab 找到了本地快照，但其中目前不包含任何受支持的标签页。"
+    },
+    "srh14_restored": {
+        "message": "已恢复 $1 个$2。"
+    },
+    "srh14_summary_ready": {
+        "message": "$3 个$4中的 $1 个$2可供查看或恢复。"
+    },
+    "srh14_unknown": {
+        "message": "未知"
+    },
+    "srh14_untitled_tab": {
+        "message": "无标题标签页"
+    },
+    "srh14_view_empty": {
+        "message": "当前快照中没有可用的已保存标签页。"
+    },
+    "srh14_window_title": {
+        "message": "窗口 $1 · $2 个$3"
+    },
+    "ss32_apply_title": {
+        "message": "应用“$1”($2)"
+    },
+    "ss32_deactivate_btn": {
+        "message": "停用已保存主题"
+    },
+    "ss32_deactivate_title_active": {
+        "message": "停用当前生效的已保存主题并恢复所选的基础主题"
+    },
+    "ss32_deactivate_title_none": {
+        "message": "当前没有生效的已保存主题"
+    },
+    "ss32_delete_title": {
+        "message": "删除"
+    },
+    "ss32_empty": {
+        "message": "尚无已保存的主题"
+    },
+    "ssh18_aria_reorder": {
+        "message": "重新排序 $1"
+    },
+    "ssh18_aria_stays_first": {
+        "message": "$1 保持在首位"
+    },
+    "ssh18_badge_current": {
+        "message": "当前"
+    },
+    "ssh18_badge_first": {
+        "message": "首位"
+    },
+    "ssh18_badge_managed": {
+        "message": "受管理"
+    },
+    "ssh18_badge_readonly": {
+        "message": "只读"
+    },
+    "ssh18_clear_board": {
+        "message": "清空看板"
+    },
+    "ssh18_default_start_name": {
+        "message": "开始"
+    },
+    "ssh18_default_stays_first": {
+        "message": "默认工作区保持在首位"
+    },
+    "ssh18_drag_to_reorder": {
+        "message": "拖动以重新排序"
+    },
+    "ssh18_err_enter_name": {
+        "message": "请输入空间名称。"
+    },
+    "ssh18_err_invalid_name": {
+        "message": "请输入有效的空间名称。"
+    },
+    "ssh18_err_managed_no_rename": {
+        "message": "受管理的空间无法重命名。"
+    },
+    "ssh18_err_name_exists": {
+        "message": "已存在同名空间。"
+    },
+    "ssh18_err_no_space": {
+        "message": "未选择空间。"
+    },
+    "ssh18_subtitle_default": {
+        "message": "默认 • 始终在首位"
+    },
+    "ssh18_subtitle_managed": {
+        "message": "$1 • 受管理看板 • 只读"
+    },
+    "ssh18_title_workspaces": {
+        "message": "工作区"
+    },
+    "ssh19_add_n_items": {
+        "message": "添加 $1 个项目"
+    },
+    "ssh19_add_n_links": {
+        "message": "添加 $1 个链接"
+    },
+    "ssh19_add_one_item": {
+        "message": "添加 1 个项目"
+    },
+    "ssh19_add_one_link": {
+        "message": "添加 1 个链接"
+    },
+    "ssh19_alert_select_one": {
+        "message": "请至少选择一项建议。"
+    },
+    "ssh19_group_devtools_desc": {
+        "message": "文档、代码仓库、实用工具，以及助你构建的各类工具。"
+    },
+    "ssh19_group_devtools_name": {
+        "message": "开发 / 工具"
+    },
+    "ssh19_group_finance_desc": {
+        "message": "银行、预算、账单及与财务相关的仪表盘。"
+    },
+    "ssh19_group_finance_name": {
+        "message": "财务"
+    },
+    "ssh19_group_personal_desc": {
+        "message": "家庭、日常事务，以及你想随手可及的常用链接。"
+    },
+    "ssh19_group_personal_name": {
+        "message": "个人"
+    },
+    "ssh19_group_reading_desc": {
+        "message": "文章、收藏的参考资料，以及你想稍后重温的内容。"
+    },
+    "ssh19_group_reading_name": {
+        "message": "阅读"
+    },
+    "ssh19_group_shopping_desc": {
+        "message": "心愿单、常逛的商店，以及你正在比价的商品。"
+    },
+    "ssh19_group_shopping_name": {
+        "message": "购物"
+    },
+    "ssh19_group_social_desc": {
+        "message": "社区、消息，以及你常关注的社交网络。"
+    },
+    "ssh19_group_social_name": {
+        "message": "社交"
+    },
+    "ssh19_group_work_desc": {
+        "message": "项目、优先事项，以及你日常反复访问的链接。"
+    },
+    "ssh19_group_work_name": {
+        "message": "工作"
+    },
+    "ssh19_section_groups_desc": {
+        "message": "为你最常整理的内容创建随时可填充的分区。"
+    },
+    "ssh19_section_groups_title": {
+        "message": "入门分组"
+    },
+    "ssh19_section_sites_desc": {
+        "message": "为常用目的地添加已带图标的快捷方式。"
+    },
+    "ssh19_section_sites_title": {
+        "message": "热门网站"
+    },
+    "ssh19_select_site": {
+        "message": "选择 $1"
+    },
+    "themed_accent_color": {
+        "message": "强调色"
+    },
+    "themed_accent_hover_color": {
+        "message": "强调悬停色"
+    },
+    "themed_active_tab_bg": {
+        "message": "活动标签背景"
+    },
+    "themed_active_tab_text": {
+        "message": "活动标签文字"
+    },
+    "themed_border_color": {
+        "message": "边框颜色"
+    },
+    "themed_border_radius": {
+        "message": "圆角半径"
+    },
+    "themed_button_hover_background": {
+        "message": "按钮悬停背景"
+    },
+    "themed_button_hover_text": {
+        "message": "按钮悬停文字"
+    },
+    "themed_button_idle_color": {
+        "message": "按钮空闲色"
+    },
+    "themed_card_background": {
+        "message": "背景"
+    },
+    "themed_clock_color": {
+        "message": "时钟颜色"
+    },
+    "themed_clock_shadow": {
+        "message": "时钟阴影"
+    },
+    "themed_clock_size": {
+        "message": "时钟大小"
+    },
+    "themed_collapse_btn_background": {
+        "message": "折叠按钮背景"
+    },
+    "themed_collapse_btn_icon_color": {
+        "message": "折叠按钮图标颜色"
+    },
+    "themed_custom_css_placeholder": {
+        "message": "Custom CSS for this workspace:\n.item { }\n.link-name { font-style: italic; }"
+    },
+    "themed_custom_css_title": {
+        "message": "自定义 CSS"
+    },
+    "themed_danger_color": {
+        "message": "危险色"
+    },
+    "themed_date_opacity": {
+        "message": "日期不透明度"
+    },
+    "themed_enable_slide_movement": {
+        "message": "启用卡片/链接滑动效果"
+    },
+    "themed_export": {
+        "message": "导出"
+    },
+    "themed_greeting_color": {
+        "message": "问候语颜色"
+    },
+    "themed_greeting_opacity": {
+        "message": "问候语不透明度"
+    },
+    "themed_group_card": {
+        "message": "卡片"
+    },
+    "themed_group_links": {
+        "message": "链接"
+    },
+    "themed_group_other": {
+        "message": "其他"
+    },
+    "themed_group_spacing": {
+        "message": "分组间距"
+    },
+    "themed_header_background": {
+        "message": "背景"
+    },
+    "themed_header_divider": {
+        "message": "标题分隔线"
+    },
+    "themed_header_font_size": {
+        "message": "字号"
+    },
+    "themed_header_font_weight": {
+        "message": "字重"
+    },
+    "themed_header_text_color": {
+        "message": "文字颜色"
+    },
+    "themed_header_text_transform": {
+        "message": "文字变换"
+    },
+    "themed_help_custom_css": {
+        "message": "关于“设计”中自定义 CSS 的帮助"
+    },
+    "themed_help_reset_default": {
+        "message": "关于“恢复默认”的帮助"
+    },
+    "themed_help_saved_themes": {
+        "message": "关于“已保存主题”的帮助"
+    },
+    "themed_help_theme_actions": {
+        "message": "关于主题操作的帮助"
+    },
+    "themed_help_theme_editor": {
+        "message": "关于主题编辑器的帮助"
+    },
+    "themed_hover_border": {
+        "message": "悬停边框"
+    },
+    "themed_hover_movement": {
+        "message": "悬停位移"
+    },
+    "themed_hover_shadow": {
+        "message": "悬停阴影"
+    },
+    "themed_hover_speed": {
+        "message": "悬停速度"
+    },
+    "themed_icon_color": {
+        "message": "图标颜色"
+    },
+    "themed_import": {
+        "message": "导入"
+    },
+    "themed_item_divider": {
+        "message": "项目分隔线"
+    },
+    "themed_item_header_line": {
+        "message": "标题分隔线"
+    },
+    "themed_item_header_text": {
+        "message": "标题文字"
+    },
+    "themed_letter_spacing": {
+        "message": "字间距"
+    },
+    "themed_link_descriptions": {
+        "message": "链接描述"
+    },
+    "themed_link_font_size": {
+        "message": "字号"
+    },
+    "themed_link_font_weight": {
+        "message": "字重"
+    },
+    "themed_link_hover_background": {
+        "message": "悬停背景"
+    },
+    "themed_link_hover_text_color": {
+        "message": "悬停文字颜色"
+    },
+    "themed_link_text_color": {
+        "message": "文字颜色"
+    },
+    "themed_new_button_background": {
+        "message": "新建按钮背景"
+    },
+    "themed_new_button_shadow": {
+        "message": "新建按钮阴影"
+    },
+    "themed_new_button_text": {
+        "message": "新建按钮文字"
+    },
+    "themed_no_saved_themes": {
+        "message": "尚无已保存的主题"
+    },
+    "themed_note_text": {
+        "message": "便签文字"
+    },
+    "themed_reset_theme": {
+        "message": "重置主题"
+    },
+    "themed_reset_to_default_btn": {
+        "message": "恢复默认"
+    },
+    "themed_reset_to_default_title": {
+        "message": "恢复默认"
+    },
+    "themed_save_theme": {
+        "message": "保存主题"
+    },
+    "themed_saved_themes": {
+        "message": "已保存主题"
+    },
+    "themed_search_background": {
+        "message": "搜索背景"
+    },
+    "themed_search_border": {
+        "message": "搜索边框"
+    },
+    "themed_search_placeholder": {
+        "message": "搜索占位文字"
+    },
+    "themed_search_shadow": {
+        "message": "搜索阴影"
+    },
+    "themed_settings_button_background": {
+        "message": "设置按钮背景"
+    },
+    "themed_settings_button_shadow": {
+        "message": "设置按钮阴影"
+    },
+    "themed_shadow": {
+        "message": "阴影"
+    },
+    "themed_shortcut_background": {
+        "message": "快捷方式背景"
+    },
+    "themed_show_description": {
+        "message": "在链接名称下方显示描述"
+    },
+    "themed_sub_group_header": {
+        "message": "分组标题"
+    },
+    "themed_sub_interface": {
+        "message": "界面"
+    },
+    "themed_sub_item_types": {
+        "message": "项目类型"
+    },
+    "themed_sub_spacing": {
+        "message": "间距"
+    },
+    "themed_sub_top_bar_buttons": {
+        "message": "顶栏按钮"
+    },
+    "themed_sub_workspace_tabs": {
+        "message": "工作区标签"
+    },
+    "themed_tab_background": {
+        "message": "标签背景"
+    },
+    "themed_tab_font_size": {
+        "message": "字号"
+    },
+    "themed_tab_font_weight": {
+        "message": "字重"
+    },
+    "themed_tab_radius": {
+        "message": "标签圆角"
+    },
+    "themed_tab_style": {
+        "message": "标签样式"
+    },
+    "themed_tab_text": {
+        "message": "标签文字"
+    },
+    "themed_tab_text_transform": {
+        "message": "文字变换"
+    },
+    "themed_tabs_container_bg": {
+        "message": "标签容器背景"
+    },
+    "themed_tabs_container_border": {
+        "message": "标签容器边框"
+    },
+    "themed_tabs_container_shadow": {
+        "message": "标签容器阴影"
+    },
+    "themed_theme_actions": {
+        "message": "主题操作"
+    },
+    "themed_theme_editor": {
+        "message": "主题编辑器"
+    },
+    "themed_underline_style": {
+        "message": "下划线样式 (Material UI)"
+    },
+    "themed_unsaved": {
+        "message": "● 未保存"
+    },
+    "u33_no_icon_chosen": {
+        "message": "尚未选择图标"
+    },
+    "wa37_clear_board_confirm": {
+        "message": "要清空“$1”中的看板吗？这会保留空间本身，但会移除其上的所有内容——分组、快捷方式及其他元素。"
+    },
+    "wa37_delete_ws_confirm": {
+        "message": "要删除工作区“$1”吗？此操作无法撤销。"
+    },
+    "wa37_delete_ws_managed": {
+        "message": "要删除工作区“$1”吗？该工作区是 $2 个受管理看板$3的来源。删除它不会吊销这些看板，但在你于本地恢复来源之前，更新将保持受阻。"
+    },
+    "wa37_incorrect_passphrase": {
+        "message": "密码短语不正确或数据无法解密。"
+    },
+    "wa37_managed_no_clear": {
+        "message": "受管理的空间无法清空。"
+    },
+    "wa37_no_delete_default": {
+        "message": "无法删除默认工作区"
+    },
+    "wa37_no_other_ws": {
+        "message": "没有其他可用的工作区。请先创建一个。"
+    },
+    "wa37_passphrase_desc": {
+        "message": "输入密码短语以解锁“$1”。"
+    },
+    "wa37_protected_locked_switch": {
+        "message": "此受保护空间已锁定。请先切换到它以解锁。"
+    },
+    "wa37_protected_ws_title": {
+        "message": "受保护的工作区"
+    },
+    "wa37_start": {
+        "message": "开始"
+    },
+    "wa37_ws_exists": {
+        "message": "工作区“$1”已存在"
+    },
+    "wa37_ws_locked_switch": {
+        "message": "此工作区已锁定。请先切换到它以解锁。"
+    },
+    "web_search_enter_hint": {
+        "message": "Enter"
+    },
+    "web_search_placeholder": {
+        "message": "搜索您的项目或网页…"
+    },
+    "wih20_add_element": {
+        "message": "添加元素"
+    },
+    "wih20_add_item": {
+        "message": "添加项目"
+    },
+    "wih20_add_link": {
+        "message": "添加链接"
+    },
+    "wih20_add_x": {
+        "message": "添加$1"
+    },
+    "wih20_added_x": {
+        "message": "已添加$1"
+    },
+    "wih20_adds_immediately": {
+        "message": "立即添加"
+    },
+    "wih20_alert_could_not_find_group_to_update": {
+        "message": "找不到要更新的分组"
+    },
+    "wih20_alert_could_not_find_x_to_update": {
+        "message": "找不到要更新的$1"
+    },
+    "wih20_alert_fill_required": {
+        "message": "请填写所有必填字段"
+    },
+    "wih20_alert_group_already_exists": {
+        "message": "分组已存在"
+    },
+    "wih20_alert_launcher_target": {
+        "message": "请输入启动器目标"
+    },
+    "wih20_alert_picker_no_companion": {
+        "message": "无法打开选择器——是否已安装配套应用？\n\n请在 设置 → 账户 → 配套应用 中查看状态。"
+    },
+    "wih20_alert_please_enter_x": {
+        "message": "请输入$1"
+    },
+    "wih20_alert_valid_avatar_url": {
+        "message": "请输入有效的头像图片链接"
+    },
+    "wih20_alert_valid_file_url": {
+        "message": "请输入有效的文件链接"
+    },
+    "wih20_alert_valid_image_url": {
+        "message": "请输入有效的图片链接"
+    },
+    "wih20_alert_valid_link_url": {
+        "message": "请输入有效的链接地址"
+    },
+    "wih20_alert_valid_link_url_scheme": {
+        "message": "请输入有效的链接地址 (http:// 或 https://)"
+    },
+    "wih20_alert_x_already_exists": {
+        "message": "$1已存在"
+    },
+    "wih20_can_contain": {
+        "message": "可包含"
+    },
+    "wih20_cat_actions": {
+        "message": "操作"
+    },
+    "wih20_cat_containers": {
+        "message": "容器"
+    },
+    "wih20_cat_media": {
+        "message": "媒体 / 视觉"
+    },
+    "wih20_cat_steps": {
+        "message": "步骤"
+    },
+    "wih20_cat_structure": {
+        "message": "结构"
+    },
+    "wih20_cat_text": {
+        "message": "文本"
+    },
+    "wih20_choose_target_group": {
+        "message": "请先选择一个目标分组。"
+    },
+    "wih20_converted_button": {
+        "message": "已转换的按钮"
+    },
+    "wih20_edit_x": {
+        "message": "编辑$1"
+    },
+    "wih20_fetching_preview": {
+        "message": "正在获取预览…"
+    },
+    "wih20_field_button_text": {
+        "message": "按钮文字"
+    },
+    "wih20_field_callout_text": {
+        "message": "标注文字"
+    },
+    "wih20_field_code": {
+        "message": "代码"
+    },
+    "wih20_field_first_step": {
+        "message": "第一步"
+    },
+    "wih20_field_group_name": {
+        "message": "分组名称"
+    },
+    "wih20_field_heading_text": {
+        "message": "标题文字"
+    },
+    "wih20_field_label_optional": {
+        "message": "标签（可选）"
+    },
+    "wih20_field_text": {
+        "message": "文本"
+    },
+    "wih20_label_arrow": {
+        "message": "箭头"
+    },
+    "wih20_label_callout": {
+        "message": "标注"
+    },
+    "wih20_label_code_block": {
+        "message": "代码块"
+    },
+    "wih20_label_divider": {
+        "message": "分隔线"
+    },
+    "wih20_label_file": {
+        "message": "文件"
+    },
+    "wih20_label_heading": {
+        "message": "标题"
+    },
+    "wih20_label_image": {
+        "message": "图片"
+    },
+    "wih20_label_link_card": {
+        "message": "链接卡片"
+    },
+    "wih20_label_profile_avatar": {
+        "message": "个人资料 / 头像"
+    },
+    "wih20_label_step_heading": {
+        "message": "步骤标题"
+    },
+    "wih20_label_steps": {
+        "message": "步骤"
+    },
+    "wih20_label_text": {
+        "message": "文本"
+    },
+    "wih20_launcher_label_command": {
+        "message": "命令"
+    },
+    "wih20_launcher_label_path": {
+        "message": "路径"
+    },
+    "wih20_launcher_label_target_uri": {
+        "message": "目标 URI"
+    },
+    "wih20_name": {
+        "message": "名称"
+    },
+    "wih20_name_button_text": {
+        "message": "按钮文字"
+    },
+    "wih20_name_group_name": {
+        "message": "分组名称"
+    },
+    "wih20_no_icon_chosen": {
+        "message": "尚未选择图标！"
+    },
+    "wih20_no_matching_groups": {
+        "message": "未找到匹配的分组。"
+    },
+    "wih20_no_standard_groups": {
+        "message": "此工作区中尚无可用的标准分组。"
+    },
+    "wih20_opt_callout_desc": {
+        "message": "突出显示便签或重要提示。"
+    },
+    "wih20_opt_callout_label": {
+        "message": "标注"
+    },
+    "wih20_opt_clipboard_desc": {
+        "message": "一键复制文本。"
+    },
+    "wih20_opt_clipboard_label": {
+        "message": "剪贴板按钮"
+    },
+    "wih20_opt_code_desc": {
+        "message": "带格式地显示代码或命令。"
+    },
+    "wih20_opt_code_label": {
+        "message": "代码块"
+    },
+    "wih20_opt_divider_desc": {
+        "message": "用水平线分隔内容。"
+    },
+    "wih20_opt_divider_label": {
+        "message": "分隔线"
+    },
+    "wih20_opt_file_desc": {
+        "message": "显示文件样式的资源卡片。"
+    },
+    "wih20_opt_file_label": {
+        "message": "文件"
+    },
+    "wih20_opt_group_desc": {
+        "message": "可容纳多个项目的卡片。"
+    },
+    "wih20_opt_group_label": {
+        "message": "分组"
+    },
+    "wih20_opt_header_desc": {
+        "message": "分区的大号标题文字。"
+    },
+    "wih20_opt_header_label": {
+        "message": "标题"
+    },
+    "wih20_opt_image_desc": {
+        "message": "添加视觉图片卡片。"
+    },
+    "wih20_opt_image_label": {
+        "message": "图片"
+    },
+    "wih20_opt_launcher_desc": {
+        "message": "打开应用、文件、文件夹或命令。"
+    },
+    "wih20_opt_launcher_label": {
+        "message": "启动器按钮"
+    },
+    "wih20_opt_linkcard_desc": {
+        "message": "为单个链接提供更丰富的预览。"
+    },
+    "wih20_opt_linkcard_label": {
+        "message": "链接卡片"
+    },
+    "wih20_opt_profile_desc": {
+        "message": "显示简洁的个人资料摘要。"
+    },
+    "wih20_opt_profile_label": {
+        "message": "个人资料"
+    },
+    "wih20_opt_routine_desc": {
+        "message": "一键运行多个操作。"
+    },
+    "wih20_opt_routine_label": {
+        "message": "例程"
+    },
+    "wih20_opt_shortcut_desc": {
+        "message": "通过顶层按钮打开链接。"
+    },
+    "wih20_opt_iconlink_label": {
+        "message": "图标链接"
+    },
+    "wih20_opt_iconlink_desc": {
+        "message": "打开链接的大图标，下方可显示标签"
+    },
+    "wih20_opt_shortcut_label": {
+        "message": "快捷方式"
+    },
+    "wih20_opt_stepheader_desc": {
+        "message": "用于引导步骤的带编号标题。"
+    },
+    "wih20_opt_stepheader_label": {
+        "message": "步骤标题"
+    },
+    "wih20_opt_steps_desc": {
+        "message": "带编号的步骤列表。"
+    },
+    "wih20_opt_steps_label": {
+        "message": "步骤"
+    },
+    "wih20_opt_text_desc": {
+        "message": "段落或辅助文本块。"
+    },
+    "wih20_opt_text_label": {
+        "message": "文本"
+    },
+    "wih20_opt_todo_desc": {
+        "message": "可勾选完成的任务清单。"
+    },
+    "wih20_opt_todo_label": {
+        "message": "待办清单"
+    },
+    "wih20_ph_important_shortcut": {
+        "message": "重要快捷方式"
+    },
+    "wih20_ph_write_code": {
+        "message": "编写你的代码"
+    },
+    "wih20_ph_write_text": {
+        "message": "写下你的文本"
+    },
+    "wih20_preset_avatar_n": {
+        "message": "预设头像 $1"
+    },
+    "wih20_save_x": {
+        "message": "保存$1"
+    },
+    "wih20_step_count": {
+        "message": "$1 个步骤$2"
+    },
+    "wih20_sup_clipboard": {
+        "message": "剪贴板"
+    },
+    "wih20_sup_dividers": {
+        "message": "分隔线"
+    },
+    "wih20_sup_headings": {
+        "message": "标题"
+    },
+    "wih20_sup_launchers": {
+        "message": "启动器"
+    },
+    "wih20_sup_links": {
+        "message": "链接"
+    },
+    "wih20_sup_tasks": {
+        "message": "任务"
+    },
+    "wih20_sup_text": {
+        "message": "文本"
+    },
+    "wih20_untitled_group": {
+        "message": "无标题分组"
+    },
+    "wma38_default_workspace_name": {
+        "message": "开始"
+    },
+    "wma38_label_delete": {
+        "message": "删除"
+    },
+    "wma38_label_protect": {
+        "message": "保护"
+    },
+    "wma38_label_protect_pro": {
+        "message": "保护 ✦"
+    },
+    "wma38_label_publish_public_board": {
+        "message": "发布公开看板"
+    },
+    "wma38_label_publish_public_board_pro": {
+        "message": "发布公开看板 ✦"
+    },
+    "wma38_label_remove_subscription": {
+        "message": "取消订阅"
+    },
+    "wma38_label_rename": {
+        "message": "重命名"
+    },
+    "wma38_label_share_workspace": {
+        "message": "分享工作区"
+    },
+    "wma38_label_share_workspace_pro": {
+        "message": "分享工作区 ✦"
+    },
+    "wma38_label_unprotect": {
+        "message": "取消保护"
+    },
+    "wma38_remove_subscription_confirm": {
+        "message": "要取消对“$1”的订阅吗？你之后可以重新订阅。"
+    },
+    "wma38_rename_prompt": {
+        "message": "重命名工作区："
+    },
+    "wma38_share_unavailable": {
+        "message": "目前无法分享此工作区。"
+    },
+    "wp39_btn_protect": {
+        "message": "保护"
+    },
+    "wp39_btn_unlock": {
+        "message": "解锁"
+    },
+    "wp39_decrypt_fail": {
+        "message": "密码短语不正确或无法解密：$1"
+    },
+    "wp39_default_desc": {
+        "message": "输入密码短语以解锁此工作区。"
+    },
+    "wp39_default_title": {
+        "message": "受保护的工作区"
+    },
+    "wp39_err_empty": {
+        "message": "密码短语不能为空。"
+    },
+    "wp39_err_min_length": {
+        "message": "密码短语至少需要 4 个字符。"
+    },
+    "wp39_err_mismatch": {
+        "message": "两次输入的密码短语不一致。"
+    },
+    "wp39_protect_desc": {
+        "message": "设置密码短语以保护“$1”。此后每次在页面重新加载后打开此工作区时都需要输入它。"
+    },
+    "wp39_protect_fail": {
+        "message": "保护工作区失败：$1"
+    },
+    "wp39_protect_title": {
+        "message": "保护工作区"
+    },
+    "wp39_unprotect_desc": {
+        "message": "输入当前密码短语以取消对“$1”的保护。"
+    },
+    "wp39_unprotect_title": {
+        "message": "取消工作区保护"
+    },
+    "ws34_no_matches": {
+        "message": "没有与“$1”匹配的结果"
+    },
+    "ws34_results_header": {
+        "message": "结果"
+    },
+    "ws34_search_web_for": {
+        "message": "在网页中搜索“$1”"
+    },
+    "ws36_cancel": {
+        "message": "取消"
+    },
+    "ws36_close": {
+        "message": "关闭"
+    },
+    "ws36_code_updated": {
+        "message": "分享码已更新。"
+    },
+    "ws36_copied": {
+        "message": "已复制！"
+    },
+    "ws36_copy": {
+        "message": "复制"
+    },
+    "ws36_create_code_btn": {
+        "message": "创建分享码"
+    },
+    "ws36_create_fail": {
+        "message": "无法创建分享码：$1"
+    },
+    "ws36_hint_expires": {
+        "message": "此分享码将于 $1 过期。可在 设置 → 空间 → 共享看板 中管理。"
+    },
+    "ws36_hint_never": {
+        "message": "此分享码永不过期。可在 设置 → 空间 → 共享看板 中管理。"
+    },
+    "ws36_import_btn": {
+        "message": "导入"
+    },
+    "ws36_import_replace_hint": {
+        "message": "如果已存在同名工作区，它将被替换。"
+    },
+    "ws36_import_title": {
+        "message": "导入共享工作区"
+    },
+    "ws36_imported_toast": {
+        "message": "已导入——编辑后点击“更新”以刷新分享码。"
+    },
+    "ws36_name": {
+        "message": "名称"
+    },
+    "ws36_name_placeholder": {
+        "message": "例如：设计团队的入职链接"
+    },
+    "ws36_never_expire_checkbox": {
+        "message": "保留至我删除为止（永不过期）"
+    },
+    "ws36_no_data": {
+        "message": "没有可分享的工作区数据。"
+    },
+    "ws36_optional": {
+        "message": "（可选）"
+    },
+    "ws36_recover_fail": {
+        "message": "无法在此设备上恢复此分享码的内容。"
+    },
+    "ws36_reimport_confirm": {
+        "message": "共享此分享码的来源空间不在此设备上。\n\n是否导入一份副本以便编辑，然后用你的更改更新分享码？"
+    },
+    "ws36_share_code_aria": {
+        "message": "分享码"
+    },
+    "ws36_share_dialog_create_desc": {
+        "message": "创建一个分享码，供他人导入此工作区的副本。"
+    },
+    "ws36_share_dialog_create_hint": {
+        "message": "取个名称有助于你日后在 设置 → 空间 → 共享看板 中辨认该分享码。默认情况下分享码将在 30 天后过期。"
+    },
+    "ws36_share_dialog_create_title": {
+        "message": "分享工作区"
+    },
+    "ws36_share_dialog_update_desc": {
+        "message": "用工作区的当前状态替换此分享码的快照。分享码本身保持不变。"
+    },
+    "ws36_share_dialog_update_hint": {
+        "message": "请注意：已导入此分享码的人会保留他们自己的副本——只有<b>新的</b>导入才会获得更新后的版本。"
+    },
+    "ws36_share_dialog_update_title": {
+        "message": "更新分享码"
+    },
+    "ws36_shared_desc": {
+        "message": "任何拥有此分享码的人都可以将此工作区的副本导入其 ReadyTab。"
+    },
+    "ws36_shared_title": {
+        "message": "工作区已分享！"
+    },
+    "ws36_update_code_btn": {
+        "message": "更新分享码"
+    },
+    "ws36_update_fail": {
+        "message": "无法更新分享码：$1"
+    },
+    "ws36_workspace_name": {
+        "message": "工作区名称"
+    },
+    "wtu40_add_workspace": {
+        "message": "添加工作区"
+    },
+    "wtu40_create_more_spaces_pro": {
+        "message": "使用 Pro 创建超过 $1 个空间"
+    },
+    "wtu40_enter_workspace_name": {
+        "message": "输入工作区名称："
+    },
+    "wtu40_managed_board_readonly": {
+        "message": "受管理看板——只读"
+    },
+    "wtu40_more": {
+        "message": "更多"
+    },
+    "wtu40_pro": {
+        "message": "Pro"
+    },
+    "wtu40_start": {
+        "message": "开始"
+    },
+    "sdm1_kind_group": {
+        "message": "分组"
+    },
+    "sdm1_kind_todo_list": {
+        "message": "待办清单"
+    },
+    "sdm1_kind_shortcut": {
+        "message": "快捷方式"
+    },
+    "sdm1_kind_clipboard_button": {
+        "message": "剪贴板按钮"
+    },
+    "sdm1_kind_launcher": {
+        "message": "启动器"
+    },
+    "sdm1_kind_routine": {
+        "message": "例程"
+    },
+    "sdm1_kind_heading": {
+        "message": "标题"
+    },
+    "sdm1_kind_step_heading": {
+        "message": "步骤标题"
+    },
+    "sdm1_kind_text": {
+        "message": "文本"
+    },
+    "sdm1_kind_divider": {
+        "message": "分隔线"
+    },
+    "sdm1_kind_arrow": {
+        "message": "箭头"
+    },
+    "sdm1_kind_callout": {
+        "message": "标注"
+    },
+    "sdm1_kind_code_block": {
+        "message": "代码块"
+    },
+    "sdm1_kind_steps": {
+        "message": "步骤"
+    },
+    "sdm1_kind_image": {
+        "message": "图片"
+    },
+    "sdm1_kind_profile": {
+        "message": "个人资料"
+    },
+    "sdm1_kind_link_card": {
+        "message": "链接卡片"
+    },
+    "sdm1_kind_file": {
+        "message": "文件"
+    },
+    "sdm1_kind_note": {
+        "message": "笔记"
+    },
+    "sdm1_kind_task_list": {
+        "message": "任务清单"
+    },
+    "sdm1_untitled_group": {
+        "message": "未命名分组"
+    },
+    "sdm1_untitled_note": {
+        "message": "未命名笔记"
+    },
+    "sdm1_untitled_list": {
+        "message": "未命名清单"
+    },
+    "sdm1_notes_label": {
+        "message": "笔记"
+    },
+    "sdm1_tasks_label": {
+        "message": "任务"
+    },
+    "sdm1_protected_name": {
+        "message": "$1（受保护）"
+    },
+    "sdm1_protected_preview": {
+        "message": "已锁定 — 内容不可见"
+    },
+    "sdm1_done_ratio": {
+        "message": "已完成 $1/$2"
+    },
+    "sdm1_step_one": {
+        "message": "$1 个步骤"
+    },
+    "sdm1_step_many": {
+        "message": "$1 个步骤"
+    },
+    "sdm1_element_one": {
+        "message": "$1 个元素"
+    },
+    "sdm1_element_many": {
+        "message": "$1 个元素"
+    },
+    "sdm1_item_one": {
+        "message": "$1 个项目"
+    },
+    "sdm1_item_many": {
+        "message": "$1 个项目"
+    },
+    "sdm1_task_one": {
+        "message": "$1 个任务"
+    },
+    "sdm1_task_many": {
+        "message": "$1 个任务"
+    },
+    "sdm1_target_fallback": {
+        "message": "目标"
+    },
+    "sdm1_close": {
+        "message": "关闭"
+    },
+    "sdm1_cancel": {
+        "message": "取消"
+    },
+    "sdm1_identical": {
+        "message": "没有差异 — 两个版本完全相同。"
+    },
+    "sdm1_chip_added": {
+        "message": "新增"
+    },
+    "sdm1_chip_changed": {
+        "message": "更改"
+    },
+    "sdm1_chip_removed": {
+        "message": "移除"
+    },
+    "sdm1_ws_tag": {
+        "message": "工作区"
+    },
+    "sdm1_ws_new": {
+        "message": "新工作区 — 将添加到$1"
+    },
+    "sdm1_ws_only_in": {
+        "message": "仅存在于$1 — 将被删除"
+    },
+    "sdm1_ws_entire": {
+        "message": "整个工作区"
+    },
+    "sdm1_ws_unchanged": {
+        "message": "$1，无更改"
+    },
+    "sdm1_unchanged_inline": {
+        "message": "$1 无更改"
+    },
+    "sdm1_sec_added": {
+        "message": "添加到$1"
+    },
+    "sdm1_sec_changed": {
+        "message": "已更改"
+    },
+    "sdm1_sec_removed": {
+        "message": "从$1移除"
+    },
+    "sdm1_row_new": {
+        "message": "新$1 — $2中尚不存在"
+    },
+    "sdm1_row_only_in": {
+        "message": "仅存在于$1 — 将被删除"
+    },
+    "sdm1_row_count_differs": {
+        "message": "已在$1中 — 项目数量不同"
+    },
+    "sdm1_row_contents_edited": {
+        "message": "已在$1中 — 内容已编辑"
+    },
+    "sdm1_row_task_count_differs": {
+        "message": "已在$1中 — 任务数量不同"
+    },
+    "sdm1_row_tasks_edited": {
+        "message": "已在$1中 — 任务已编辑"
+    },
+    "sdm1_row_edited_preview": {
+        "message": "$1已编辑 — $2"
+    },
+    "sdm1_row_edited": {
+        "message": "$1已编辑"
+    },
+    "sdm1_pill_edited": {
+        "message": "已编辑"
+    },
+    "sdm1_count_now": {
+        "message": "当前"
+    },
+    "sdm1_count_after": {
+        "message": "更新后"
+    },
+    "language_auto": {
+        "message": "自动（浏览器语言）"
+    },
+    "grp_display_tile": {
+        "message": "磁贴"
+    },
+    "wih20_opt_tile_label": {
+        "message": "磁贴"
+    },
+    "wih20_opt_tile_desc": {
+        "message": "带卡片背景的方形图标按钮。"
+    },
+    "grp_display_tile2": {
+        "message": "大磁贴"
+    },
+    "wih20_opt_tile2_label": {
+        "message": "大磁贴"
+    },
+    "wih20_opt_tile2_desc": {
+        "message": "两列宽的方形图标按钮。"
+    },
+    "lbr5_turn_into": {
+        "message": "转换为$1"
+    },
+    "grp_choose_style": {
+        "message": "选择样式"
+    },
+    "grp_choose_style_hint": {
+        "message": "选择它的外观。稍后可从元素菜单中更改。"
+    },
+    "wih20_opt_link_label": {
+        "message": "链接"
+    },
+    "wih20_opt_link_desc": {
+        "message": "打开网站或网址。"
+    },
+    "wih20_style_fam_buttons": {
+        "message": "按钮"
+    },
+    "wih20_style_fam_tiles": {
+        "message": "磁贴"
+    },
+    "wih20_style_standard_desc": {
+        "message": "带图标和标签的全宽按钮。"
+    },
+    "wih20_style_icon_desc": {
+        "message": "可选标签的纯图标。"
+    },
+    "wih20_style_tile_desc": {
+        "message": "一列宽的方形图标卡片。"
+    },
+    "wih20_style_tile2_desc": {
+        "message": "两列宽带标签的方形图标卡片。"
+    },
+    "sbe_invalid_key": {
+        "message": "Enter the complete edit key supplied by the board owner."
+    },
+    "sbe_subscribe_first": {
+        "message": "Subscribe to this board before entering its edit key."
+    },
+    "sbe_latest": {
+        "message": "Latest shared version"
+    },
+    "sbe_yours": {
+        "message": "Your changes"
+    },
+    "sbe_review": {
+        "message": "Review conflict"
+    },
+    "sbe_replace": {
+        "message": "Replace with my reviewed version"
+    },
+    "sbe_discard_confirm": {
+        "message": "Discard your unsaved changes and use the latest shared version?"
+    },
+    "sbe_status_checking": {
+        "message": "Checking editing access…"
+    },
+    "sbe_status_unsaved": {
+        "message": "Shared board · Unsaved changes"
+    },
+    "sbe_status_saving": {
+        "message": "Shared board · Saving…"
+    },
+    "sbe_status_saved": {
+        "message": "Shared board · Saved"
+    },
+    "sbe_status_conflict": {
+        "message": "This board changed elsewhere. Review before saving."
+    },
+    "sbe_status_error": {
+        "message": "Changes are unsaved. Try saving again."
+    },
+    "sbe_status_denied": {
+        "message": "Editing access is unavailable. Export any unsaved changes before leaving."
+    },
+    "sbe_use_latest": {
+        "message": "Use latest version"
+    },
+    "sbe_save": {
+        "message": "Save changes"
+    },
+    "sbe_export": {
+        "message": "Export my changes"
+    },
+    "sbe_enter_key": {
+        "message": "Enter edit key"
+    },
+    "sbe_key_prompt": {
+        "message": "Enter the shared edit key from the board owner:"
+    },
+    "sbe_connected": {
+        "message": "Shared board editing enabled."
+    },
+    "sbe_edit_key": {
+        "message": "Shared edit key"
+    },
+    "sbe_key_help": {
+        "message": "Send this same edit key to everyone who should edit the board, together with the read token and any board password. Keep your license key private. Replacing the edit key removes access for everyone using the old key."
+    },
+    "sbe_read_token": {
+        "message": "Read token"
+    },
+    "sbe_rotate_key": {
+        "message": "Replace edit key"
+    },
+    "sbe_generate_key": {
+        "message": "Generate edit key"
+    },
+    "sbe_rotate_confirm": {
+        "message": "Replace the shared edit key? Everyone using the old key will need the new one."
+    },
+    "sbe_key_generated": {
+        "message": "Key created. Copy it and send the same key to your editors."
+    },
+    "sbe_copy_key": {
+        "message": "Copy edit key"
+    },
+    "sbe_copied": {
+        "message": "Copied."
+    },
+    "sbe_open_board": {
+        "message": "Open shared board"
+    },
+    "sbe_generate_first": {
+        "message": "Generate an edit key first."
+    },
+    "sbe_disable": {
+        "message": "Disable editing"
+    },
+    "sbe_disable_confirm": {
+        "message": "Disable editing for everyone using the shared key?"
+    },
+    "sbe_disabled": {
+        "message": "Shared-key editing is disabled."
+    },
+    "sbe_close": {
+        "message": "Close"
+    },
+    "sbe_editor": {
+        "message": "Shared board · Editor"
+    },
+    "bmi_title": {
+        "message": "导入书签"
+    },
+    "bmi_description": {
+        "message": "在左侧选择文件夹，然后将分组分配到工作区并调整顺序。"
+    },
+    "bmi_from_browser": {
+        "message": "从浏览器书签导入"
+    },
+    "bmi_choose": {
+        "message": "选择书签"
+    },
+    "bmi_close": {
+        "message": "关闭"
+    },
+    "bmi_select_all": {
+        "message": "全选"
+    },
+    "bmi_clear": {
+        "message": "清除选择"
+    },
+    "bmi_preview": {
+        "message": "预览"
+    },
+    "bmi_workspaces": {
+        "message": "工作区"
+    },
+    "bmi_cancel": {
+        "message": "取消"
+    },
+    "bmi_import": {
+        "message": "导入并打开仪表板"
+    },
+    "bmi_trust": {
+        "message": "将链接复制到 ReadyTab。浏览器书签保持不变。"
+    },
+    "bmi_loading": {
+        "message": "正在加载浏览器书签…"
+    },
+    "bmi_quick_links": {
+        "message": "快捷链接"
+    },
+    "bmi_skipped": {
+        "message": "已跳过 $1 个不支持的书签网址。"
+    },
+    "bmi_no_destination": {
+        "message": "请先创建本地工作区或解锁现有工作区，再导入书签。"
+    },
+    "bmi_read_failed": {
+        "message": "无法读取浏览器书签。"
+    },
+    "bmi_read_retry": {
+        "message": "请检查书签访问权限，然后关闭并重新打开此窗口。"
+    },
+    "bmi_empty": {
+        "message": "没有可导入的书签。请先在浏览器中保存书签。"
+    },
+    "bmi_collapse": {
+        "message": "收起 $1"
+    },
+    "bmi_expand": {
+        "message": "展开 $1"
+    },
+    "bmi_preview_empty": {
+        "message": "此工作区尚无分组。请选择文件夹或将分组移到这里。"
+    },
+    "bmi_earlier": {
+        "message": "将 $1 前移"
+    },
+    "bmi_later": {
+        "message": "将 $1 后移"
+    },
+    "bmi_links": {
+        "message": "$1 个链接"
+    },
+    "bmi_destination": {
+        "message": "$1 的目标工作区"
+    },
+    "bmi_summary": {
+        "message": "$2 个工作区中的 $1 个分组 · $3 个链接"
+    },
+    "bmi_importing": {
+        "message": "正在导入书签…"
+    },
+    "bmi_save_failed": {
+        "message": "无法保存导入结果。请检查存储空间和工作区访问权限，然后重试。已保留你的选择。"
+    },
+    "bmi_done": {
+        "message": "已将 $1 个书签导入到 $2 个分组。"
+    },
+    "bmi_layout_failed": {
+        "message": "书签已导入，但无法保存布局。请使用紧凑布局进行排列。"
+    },
+    "start_layout_failed": {
+        "message": "网站已添加，但无法保存布局。请使用紧凑布局进行排列。"
+    },
+    "start_title": {
+        "message": "来填充你的第一个看板吧"
+    },
+    "start_workspace_title": {
+        "message": "来填充这个工作区吧"
+    },
+    "start_intro": {
+        "message": "选择一种开始方式。添加内容后，看板就会打开。"
+    },
+    "start_recommended": {
+        "message": "推荐"
+    },
+    "start_checking": {
+        "message": "正在检查书签…"
+    },
+    "start_choose": {
+        "message": "选择文件夹"
+    },
+    "start_sites": {
+        "message": "热门网站"
+    },
+    "start_sites_desc": {
+        "message": "从18个常用网站中选择，添加为快捷方式或放入分组。"
+    },
+    "start_browse": {
+        "message": "浏览网站"
+    },
+    "start_blank": {
+        "message": "从空白开始"
+    },
+    "start_blank_desc": {
+        "message": "创建一个空分组，自由添加内容。"
+    },
+    "start_add_group": {
+        "message": "添加分组"
+    },
+    "start_picker_desc": {
+        "message": "先选择目标位置，再选择网站。再次点击可取消选择。"
+    },
+    "start_destination": {
+        "message": "将网站添加到"
+    },
+    "start_live": {
+        "message": "实时"
+    },
+    "start_live_desc": {
+        "message": "更改会立即应用到页面。"
+    },
+    "start_all_settings": {
+        "message": "所有设置 →"
+    },
+    "start_plans_desc": {
+        "message": "选择Sync在自己的设备间同步，或选择Full以发布和管理共享看板。"
+    },
+    "start_sync_benefit": {
+        "message": "Sync：跨设备加密同步"
+    },
+    "start_full_benefit": {
+        "message": "Full：同步、发布和共享看板"
+    },
+    "start_free_benefit": {
+        "message": "免费：无限本地工作区"
+    },
+    "start_undo_failed": {
+        "message": "无法撤销。请确认目标工作区仍然可用且已解锁。"
+    },
+    "start_undo": {
+        "message": "撤销"
+    },
+    "start_bookmarks_failed": {
+        "message": "无法检查书签。选择文件夹以重试。"
+    },
+    "start_bookmarks_found": {
+        "message": "在浏览器的$2个文件夹中找到了$1个书签。文件夹将变成分组。"
+    },
+    "start_no_bookmarks": {
+        "message": "未找到书签。你可以随时在设置中导入。"
+    },
+    "start_nothing": {
+        "message": "没有可导入的内容"
+    },
+    "start_shortcuts": {
+        "message": "快捷方式"
+    },
+    "start_favorites": {
+        "message": "收藏"
+    },
+    "start_new_group": {
+        "message": "+ 新建分组"
+    },
+    "start_group_number": {
+        "message": "分组 $1"
+    },
+    "start_selection": {
+        "message": "$1个快捷方式 · $2个分组链接"
+    },
+    "start_add_sites": {
+        "message": "添加$1个网站"
+    },
+    "start_empty_group": {
+        "message": "新分组"
+    },
+    "start_added": {
+        "message": "你的看板已准备就绪。"
+    },
+    "start_back": {
+        "message": "返回"
+    },
+    "sbe_live_help": {
+        "message": "创建密钥后会打开共享看板。修改会自动保存；看板打开时，每30秒刷新一次其他人的修改。冲突的修改需要审核。团队协作请使用此共享标签页；恢复的源是独立的本地副本。"
+    },
+    "sbe_status_offline": {
+        "message": "共享看板 · 连接中断。正在自动重试…"
+    },
+    "sharing_title": {
+        "message": "共享"
+    },
+    "sharing_subtitle": {
+        "message": "共享看板或导入收到的看板"
+    },
+    "sharing_codes": {
+        "message": "共享代码"
+    },
+    "sharing_links": {
+        "message": "公开链接"
+    },
+    "sharing_live": {
+        "message": "关联看板"
+    },
+    "sharing_new_code": {
+        "message": "新建代码"
+    },
+    "sharing_new_link": {
+        "message": "新建公开链接"
+    },
+    "sharing_new_live": {
+        "message": "新建关联看板"
+    },
+    "sharing_import": {
+        "message": "导入代码"
+    },
+    "sharing_join": {
+        "message": "加入看板"
+    },
+    "sharing_source": {
+        "message": "来源工作区"
+    },
+    "sharing_joined": {
+        "message": "已加入的看板"
+    },
+    "sharing_settings_description": {
+        "message": "共享代码、公开链接和关联看板"
+    },
+    "sharing_codes_description": {
+        "message": "接收者将可编辑的副本导入ReadyTab。后续更改不会同步。"
+    },
+    "sharing_links_description": {
+        "message": "任何拥有链接的人都可以在浏览器中查看看板，无需扩展程序。发布更改即可更新看板。"
+    },
+    "sharing_live_description": {
+        "message": "订阅者会在ReadyTab中获得关联看板，在您授予编辑权限前只能查看。关联看板中的编辑会同步；对独立来源的更改需要发布。"
+    },
+    "sharing_join_description": {
+        "message": "输入看板令牌，以及所有者提供的密码（如有）。"
+    },
+    "sharing_publish_required": {
+        "message": "创建和管理共享需要Full。导入副本和加入看板免费。"
+    },
+    "sharing_no_source": {
+        "message": "请选择一个未受保护的本地工作区进行共享。"
+    },
+    "sbe_edit_keys": {
+        "message": "编辑密钥"
+    },
+    "sbe_key_name": {
+        "message": "密钥名称"
+    },
+    "sbe_add_key": {
+        "message": "添加密钥"
+    },
+    "sbe_rename_key": {
+        "message": "重命名"
+    },
+    "sbe_revoke_key": {
+        "message": "撤销"
+    },
+    "sbe_replace_named_confirm": {
+        "message": "替换“$1”？当前密钥将失效，其他密钥不受影响。"
+    },
+    "sbe_revoke_named_confirm": {
+        "message": "撤销“$1”？使用此密钥的所有人将失去编辑权限。"
+    },
+    "sbe_key_other_device": {
+        "message": "此设备未保存该密钥。请替换以获取新的密钥。"
+    },
+    "sbe_named_help": {
+        "message": "为个人或群组创建命名密钥。每个密钥都可单独替换或撤销。持有密钥的人可以编辑；撤销密钥不会取消查看权限。"
+    },
+    "sbe_status_recovered": {
+        "message": "已恢复待处理的更改。请在保存前检查。"
+    },
+    "sbe_draft_error": {
+        "message": "无法保存本地恢复数据。请保持此标签页打开并导出更改。"
+    },
+    "sbe_discard_draft": {
+        "message": "放弃待处理的更改"
+    },
+    "sbe_unfinished_text": {
+        "message": "未完成的文本"
+    },
+    "sbe_discard_text": {
+        "message": "丢弃此文本"
+    },
+    "sbe_saved_locally": {
+        "message": "已保存在此设备上，等待共享。"
+    },
+    "sbe_incorrect_password": {
+        "message": "看板密码错误，请重试。"
+    },
+    "bmi_choose_file": {
+        "message": "Choose bookmark file…"
+    },
+    "bmi_choose_file_hint": {
+        "message": "Export bookmarks from your browser as HTML, then choose the file to preview it here."
+    },
+    "bmi_from_file": {
+        "message": "Bookmark file"
+    },
+    "ega3_choose_file_hint": {
+        "message": "Choose a bookmark HTML export first."
+    },
+    "greet_night": {
+        "message": "晚安"
+    },
+    "greet_morning": {
+        "message": "早上好"
+    },
+    "greet_afternoon": {
+        "message": "下午好"
+    },
+    "greet_evening": {
+        "message": "晚上好"
+    },
+    "greet_night_name": {
+        "message": "$1，晚安"
+    },
+    "greet_morning_name": {
+        "message": "$1，早上好"
+    },
+    "greet_afternoon_name": {
+        "message": "$1，下午好"
+    },
+    "greet_evening_name": {
+        "message": "$1，晚上好"
+    },
+    "setg_greeting_name_label": {
+        "message": "你的名字"
+    },
+    "setg_greeting_name_ph": {
+        "message": "例如：小明"
+    },
+    "clock_toggle_format_title": {
+        "message": "点击切换12/24小时制"
+    },
+    "setg_favicons_remote": {
+        "message": "从网络加载网站图标"
+    },
+    "setg_favicons_remote_desc": {
+        "message": "关闭后，链接显示字母头像，且浏览器不会发出任何图标请求。"
+    },
+    "ip22_cat_custom": {
+        "message": "自定义"
+    },
+    "ip22_custom_url_ph": {
+        "message": "粘贴 SVG 或 PNG 链接…"
+    },
+    "ip22_custom_use": {
+        "message": "使用图标"
+    },
+    "ip22_custom_invalid": {
+        "message": "输入有效的图片链接（http/https）"
+    },
+    "ip22_custom_failed": {
+        "message": "无法加载该图片"
+    }
+}

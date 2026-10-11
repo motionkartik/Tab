@@ -1,0 +1,243 @@
+#startpage-overlay .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 1rem;
+}
+
+#startpage-overlay .row {
+    position: relative;
+    border-radius: 0.25rem;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem;
+    background-color: #ffffff33;
+}
+
+#startpage-overlay .title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#startpage-overlay .button-group-row {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#startpage-overlay .delete-row-button {
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    font-size: 0.65rem;
+    height: auto;
+}
+
+#startpage-overlay .delete-row-button:hover {
+    color: white;
+    background-color: red;
+}
+
+#startpage-overlay .add-group-button {
+    display: none;
+    padding: 0.5rem;
+    font-size: 0.65rem;
+    height: auto;
+}
+
+#startpage-overlay .remove-group-button {
+    display: none;
+}
+
+#startpage-overlay .ghost {
+    background-image: linear-gradient(
+        rgb(183, 183, 255),
+        rgb(209, 216, 255),
+        rgb(183, 183, 255)
+    ) !important;
+}
+
+#startpage-overlay .link-buttons-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#startpage-overlay .add-link-to-group-button,
+#startpage-overlay .dragHandle,
+#startpage-overlay .rename-group,
+#startpage-overlay .remove-group-button,
+#startpage-overlay .edit-link-button,
+#startpage-overlay .remove-link-button {
+    padding: 0.4rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #a4d4ff;
+}
+
+#startpage-overlay .add-link-to-group-button svg,
+#startpage-overlay .rename-group svg,
+#startpage-overlay .remove-group-button svg,
+#startpage-overlay .edit-link-button svg,
+#startpage-overlay .remove-link-button svg,
+#startpage-overlay .dragHandle svg {
+    width: 1rem;
+    height: auto !important;
+    color: white;
+    fill: white;
+    padding-left: 1px;
+}
+
+#startpage-overlay .remove-group-button,
+#startpage-overlay .remove-link-button {
+    background-color: rgb(253 162 162);
+}
+
+#startpage-overlay .remove-group-button:hover,
+#startpage-overlay .remove-link-button:hover {
+    background-color: red;
+}
+
+#startpage-overlay .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#startpage-overlay .button-group-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#startpage-overlay .item {
+    grid-column: span 12;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#startpage-overlay .item .title-container span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+#startpage-overlay .link-text {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+#startpage-overlay .icon {
+    display: block;
+    width: 1.25rem;
+    height: auto !important;
+}
+
+#startpage-overlay .icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#startpage-overlay ul {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    flex-grow: 1;
+}
+
+#startpage-overlay ul li {
+    list-style: none;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#startpage-overlay .link-container {
+    width: 100%;
+}
+
+#startpage-overlay ul li a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.25rem;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    border-radius: 0.25rem;
+}
+
+#startpage-overlay ul li a:hover {
+    background-color: rgb(215, 236, 255) !important;
+}
+
+#startpage-overlay .groups,
+#startpage-overlay .links {
+    position: relative;
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+}
+
+#startpage-overlay button:hover {
+    background-color: #1f59f7;
+}
+
+#startpage-overlay .icon-container {
+    width: 45rem;
+    height: 45rem;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+#startpage-overlay .icon-container-in-use {
+    width: 45rem;
+    max-height: 10rem;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+#startpage-overlay .icon-container svg,
+#startpage-overlay .choosen-icon svg,
+#startpage-overlay .icon-container-in-use svg {
+    width: 3rem;
+    height: auto;
+    max-height: 3rem;
+    border: solid thin gray;
+    padding: 0.25rem;
+}
+
+@media screen and (min-width: 769px) {
+    #startpage-overlay .item {
+        grid-column: span 6;
+    }
+}
+
+@media screen and (min-width: 999px) {
+    #startpage-overlay .item {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #startpage-overlay .item {
+        grid-column: span 3;
+    }
+}

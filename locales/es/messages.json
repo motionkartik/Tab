@@ -1,0 +1,6002 @@
+{
+    "action_add_workspace_title": {
+        "message": "Añadir espacio de trabajo"
+    },
+    "action_new_group_aria": {
+        "message": "Añadir grupo"
+    },
+    "action_new_group_label": {
+        "message": "Nuevo"
+    },
+    "action_new_group_title": {
+        "message": "Nuevo grupo"
+    },
+    "action_settings_aria": {
+        "message": "Abrir ajustes"
+    },
+    "action_settings_label": {
+        "message": "Ajustes"
+    },
+    "action_settings_title": {
+        "message": "Ajustes"
+    },
+    "ae0_blocked_launcher": {
+        "message": "Se bloqueó un destino de lanzador no seguro"
+    },
+    "ae0_blocked_link": {
+        "message": "Se bloqueó un enlace no seguro"
+    },
+    "ae0_copied": {
+        "message": "¡Copiado!"
+    },
+    "ae0_copy_failed": {
+        "message": "Error al copiar"
+    },
+    "ae0_done_partial": {
+        "message": "Listo — $1/$2 ejecutados ($3 omitidos)"
+    },
+    "ae0_done_step": {
+        "message": "Listo — $1 paso"
+    },
+    "ae0_done_steps": {
+        "message": "Listo — $1 pasos"
+    },
+    "ae0_launch_failed": {
+        "message": "Error al iniciar"
+    },
+    "ae0_no_steps": {
+        "message": "Esta rutina aún no tiene pasos"
+    },
+    "ae0_routine_default": {
+        "message": "Rutina"
+    },
+    "ae0_starting_step": {
+        "message": "Iniciando $1 paso…"
+    },
+    "ae0_starting_steps": {
+        "message": "Iniciando $1 pasos…"
+    },
+    "ae0_step_n": {
+        "message": "Paso $1"
+    },
+    "ae0_step_progress": {
+        "message": "Paso $1/$2: $3"
+    },
+    "agrad_amber_dark": {
+        "message": "Ámbar oscuro"
+    },
+    "agrad_amber_haze": {
+        "message": "Bruma ámbar"
+    },
+    "agrad_amber_mist": {
+        "message": "Neblina ámbar"
+    },
+    "agrad_arctic_rays": {
+        "message": "Rayos árticos"
+    },
+    "agrad_cherry_dark": {
+        "message": "Cereza oscuro"
+    },
+    "agrad_crystal_tide": {
+        "message": "Marea cristalina"
+    },
+    "agrad_deep_tide": {
+        "message": "Marea profunda"
+    },
+    "agrad_dusk_glow": {
+        "message": "Resplandor del ocaso"
+    },
+    "agrad_ember_glow": {
+        "message": "Resplandor de brasas"
+    },
+    "agrad_emerald_dusk": {
+        "message": "Ocaso esmeralda"
+    },
+    "agrad_lavender_rays": {
+        "message": "Rayos de lavanda"
+    },
+    "agrad_midnight_indigo": {
+        "message": "Índigo medianoche"
+    },
+    "agrad_ocean_bloom": {
+        "message": "Floración oceánica"
+    },
+    "agrad_ocean_curves": {
+        "message": "Curvas oceánicas"
+    },
+    "agrad_rose_dawn": {
+        "message": "Amanecer rosa"
+    },
+    "agrad_velvet_dream": {
+        "message": "Sueño de terciopelo"
+    },
+    "agrad_violet_night": {
+        "message": "Noche violeta"
+    },
+    "bg_context_menu_add": {
+        "message": "Añadir a ReadyTab"
+    },
+    "c29_custom": {
+        "message": "Personalizado"
+    },
+    "c29_invalid_css": {
+        "message": "Valor CSS no válido. Se restauró el último valor válido."
+    },
+    "c29_opacity": {
+        "message": "Opacidad"
+    },
+    "c29_reset_to_default": {
+        "message": "Restablecer al valor predeterminado del tema"
+    },
+    "c29_theme_default_opt": {
+        "message": "Predeterminado del tema"
+    },
+    "cl2_layout_compacted": {
+        "message": "Diseño compactado"
+    },
+    "cl2_nothing_to_arrange": {
+        "message": "Nada que organizar"
+    },
+    "cnt_btn_add_link": {
+        "message": "Añadir enlace"
+    },
+    "cnt_btn_add_link_button": {
+        "message": "Añadir botón de enlace"
+    },
+    "cnt_btn_cancel": {
+        "message": "Cancelar"
+    },
+    "cnt_error_loading": {
+        "message": "Error al cargar el contenido. Inténtalo de nuevo."
+    },
+    "cnt_label_button_text": {
+        "message": "Texto del botón"
+    },
+    "cnt_label_group": {
+        "message": "Grupo"
+    },
+    "cnt_label_link_name": {
+        "message": "Nombre del enlace"
+    },
+    "cnt_label_url": {
+        "message": "URL"
+    },
+    "cnt_label_workspace": {
+        "message": "Espacio de trabajo"
+    },
+    "cnt_modal_title": {
+        "message": "Añadir a ReadyTab"
+    },
+    "cnt_no_groups": {
+        "message": "No hay grupos disponibles"
+    },
+    "cnt_placeholder_link_name": {
+        "message": "Introduce el nombre del enlace"
+    },
+    "cnt_placeholder_url": {
+        "message": "Introduce la URL"
+    },
+    "cnt_tab_group_link": {
+        "message": "Enlace de grupo"
+    },
+    "cnt_tab_link_button": {
+        "message": "Botón de enlace"
+    },
+    "cnt_workspace_default": {
+        "message": "Inicio"
+    },
+    "csm1_action_failed": {
+        "message": "Error en la acción de sincronización en la nube: $1"
+    },
+    "csm1_autopull_failed": {
+        "message": "Error en la extracción automática: $1"
+    },
+    "csm1_autosync_failed": {
+        "message": "Error en la sincronización automática: $1"
+    },
+    "csm1_close": {
+        "message": "Cerrar"
+    },
+    "csm1_cloud_dashboard_fallback": {
+        "message": "Panel en la nube"
+    },
+    "csm1_cloud_updated": {
+        "message": "Panel en la nube actualizado"
+    },
+    "csm1_confirm_pull": {
+        "message": "Confirmar extracción"
+    },
+    "csm1_label_cloud": {
+        "message": "☁ Nube"
+    },
+    "csm1_label_local": {
+        "message": "💻 Local"
+    },
+    "csm1_looks_good": {
+        "message": "Todo correcto"
+    },
+    "csm1_missing_protected_warning": {
+        "message": "Este $1 es anterior a la compatibilidad con copias de seguridad de espacios de trabajo protegidos. ReadyTab restauró la pestaña del espacio de trabajo$2 de «$3», pero el contenido protegido no se incluyó. $4"
+    },
+    "csm1_msg_overwrite": {
+        "message": "Tu panel local tiene cambios sin sincronizar y el panel en la nube activo se actualizó en otro lugar. Revisa las diferencias, extrae la versión de la nube o sobrescribe la nube con tu estado local."
+    },
+    "csm1_msg_pull": {
+        "message": "El panel en la nube activo es más reciente que tu copia local. Revisa las diferencias o extrae la versión de la nube a este dispositivo."
+    },
+    "csm1_not_now": {
+        "message": "Ahora no"
+    },
+    "csm1_overwrite_cloud": {
+        "message": "Sobrescribir nube"
+    },
+    "csm1_overwrite_cloud_confirm": {
+        "message": "Sobrescribir nube"
+    },
+    "csm1_overwrite_title": {
+        "message": "Sobrescribir «$1»"
+    },
+    "csm1_pull_cloud": {
+        "message": "Extraer de la nube"
+    },
+    "csm1_pull_title": {
+        "message": "Extraer «$1»"
+    },
+    "csm1_pulled_newer": {
+        "message": "Se extrajo un estado más reciente de la nube"
+    },
+    "csm1_recovery_repush": {
+        "message": "Vuelve a enviar los datos desde el dispositivo original para recuperar los datos que faltan."
+    },
+    "csm1_resolve": {
+        "message": "Resolver"
+    },
+    "csm1_review": {
+        "message": "Revisar"
+    },
+    "csm1_review_diff": {
+        "message": "Revisar diferencias"
+    },
+    "csm1_review_title": {
+        "message": "Revisar «$1»"
+    },
+    "csm1_source_label_cloud_snapshot": {
+        "message": "instantánea de la nube"
+    },
+    "csm1_source_label_snapshot": {
+        "message": "instantánea"
+    },
+    "csm1_title_cloud_changed": {
+        "message": "La nube cambió en otro dispositivo"
+    },
+    "csm1_title_newer_cloud": {
+        "message": "Hay un estado de la nube más reciente disponible"
+    },
+    "dth10_enter_share_code": {
+        "message": "Introduce un código para compartir."
+    },
+    "dth10_fetching": {
+        "message": "Obteniendo…"
+    },
+    "dth10_import": {
+        "message": "Importar"
+    },
+    "dth10_import_failed": {
+        "message": "Error al importar: $1"
+    },
+    "dth10_import_success": {
+        "message": "¡Importación correcta!"
+    },
+    "dth10_locked_excluded": {
+        "message": "Nota: $1 espacio(s) de trabajo bloqueado(s) se excluyeron de la exportación: $2.\nDesbloquéalos primero si quieres incluirlos."
+    },
+    "dth10_no_bookmarks": {
+        "message": "Esta carpeta no tiene marcadores."
+    },
+    "dth10_no_valid_workspaces": {
+        "message": "Este archivo no contiene espacios de trabajo válidos."
+    },
+    "dth10_read_failed": {
+        "message": "No se pudo leer el archivo de importación."
+    },
+    "dth10_replace_confirm": {
+        "message": "Esto reemplazará TODOS los datos actuales de tu espacio de trabajo. ¿Continuar?"
+    },
+    "dth10_select_bookmark_folder": {
+        "message": "Selecciona una carpeta de marcadores."
+    },
+    "dth10_select_folder": {
+        "message": "Selecciona una carpeta…"
+    },
+    "dth10_untitled": {
+        "message": "Sin título"
+    },
+    "ega3_add_clipboard": {
+        "message": "Añadir portapapeles"
+    },
+    "ega3_add_launcher": {
+        "message": "Añadir lanzador"
+    },
+    "ega3_add_link": {
+        "message": "Añadir enlace"
+    },
+    "ega3_cancel": {
+        "message": "Cancelar"
+    },
+    "ega3_folder_empty": {
+        "message": "Esta carpeta no tiene marcadores."
+    },
+    "ega3_folder_read_error": {
+        "message": "No se pudo leer esa carpeta."
+    },
+    "ega3_import": {
+        "message": "Importar"
+    },
+    "ega3_import_bm": {
+        "message": "Importar desde marcadores"
+    },
+    "ega3_import_desc_prefix": {
+        "message": "Añade los enlaces de una carpeta de marcadores a "
+    },
+    "ega3_importing": {
+        "message": "Importando…"
+    },
+    "ega3_load_error": {
+        "message": "No se pudieron cargar los marcadores"
+    },
+    "ega3_loading_folders": {
+        "message": "Cargando carpetas…"
+    },
+    "ega3_select_folder": {
+        "message": "Selecciona una carpeta…"
+    },
+    "ega3_untitled": {
+        "message": "Sin título"
+    },
+    "grp_already_used_icons": {
+        "message": "Iconos ya utilizados"
+    },
+    "grp_avatar_url_label": {
+        "message": "URL de la imagen del avatar"
+    },
+    "grp_back": {
+        "message": "← Atrás"
+    },
+    "grp_bg_color_label": {
+        "message": "Color de fondo"
+    },
+    "grp_browse": {
+        "message": "Examinar…"
+    },
+    "grp_browse_title": {
+        "message": "Examinar…"
+    },
+    "grp_choose_type": {
+        "message": "Elige un tipo de elemento"
+    },
+    "grp_choose_type_hint": {
+        "message": "Elige el tipo de elemento que quieres añadir y luego configura sus detalles en el siguiente paso."
+    },
+    "grp_clear_icon": {
+        "message": "Quitar icono"
+    },
+    "grp_clear_icon_title": {
+        "message": "Quitar icono"
+    },
+    "grp_clipboard_content_label": {
+        "message": "Contenido a copiar"
+    },
+    "grp_clipboard_content_ph": {
+        "message": "Texto que se copiará al portapapeles al hacer clic"
+    },
+    "grp_color": {
+        "message": "Color"
+    },
+    "grp_content_label": {
+        "message": "Contenido"
+    },
+    "grp_content_ph": {
+        "message": "Escribe tu contenido"
+    },
+    "grp_element_type": {
+        "message": "Tipo de elemento"
+    },
+    "grp_ex_cursor": {
+        "message": "Abrir carpeta en Cursor"
+    },
+    "grp_ex_discord": {
+        "message": "Abrir Discord"
+    },
+    "grp_ex_obsidian": {
+        "message": "Abrir una bóveda de Obsidian"
+    },
+    "grp_ex_spotify": {
+        "message": "Abrir Spotify"
+    },
+    "grp_ex_steam": {
+        "message": "Iniciar un juego de Steam (por ID de aplicación)"
+    },
+    "grp_ex_teams": {
+        "message": "Abrir Microsoft Teams"
+    },
+    "grp_ex_vscode": {
+        "message": "Abrir carpeta en VS Code"
+    },
+    "grp_ex_windows": {
+        "message": "Configuración de pantalla de Windows"
+    },
+    "grp_examples": {
+        "message": "Ejemplos"
+    },
+    "grp_fa_brands": {
+        "message": "Marcas"
+    },
+    "grp_fa_regular": {
+        "message": "Regular"
+    },
+    "grp_fa_solid": {
+        "message": "Sólido"
+    },
+    "grp_file_url_label": {
+        "message": "URL del archivo"
+    },
+    "grp_font_size_label": {
+        "message": "Tamaño de fuente"
+    },
+    "grp_general": {
+        "message": "General"
+    },
+    "grp_icon_color_label": {
+        "message": "Color del icono"
+    },
+    "grp_icon_size_label": {
+        "message": "Tamaño del icono"
+    },
+    "grp_icon_title": {
+        "message": "Icono"
+    },
+    "grp_image_url_label": {
+        "message": "URL de la imagen"
+    },
+    "grp_launcher_kind_app": {
+        "message": "Aplicación — URI / protocolo"
+    },
+    "grp_launcher_kind_file": {
+        "message": "Archivo"
+    },
+    "grp_launcher_kind_folder": {
+        "message": "Carpeta"
+    },
+    "grp_launcher_kind_label": {
+        "message": "Tipo"
+    },
+    "grp_launcher_kind_ps": {
+        "message": "Comando / Script"
+    },
+    "grp_launcher_target_label": {
+        "message": "URI de destino"
+    },
+    "grp_linkcard_hint": {
+        "message": "Intentaremos obtener automáticamente el título, la descripción y la imagen de vista previa."
+    },
+    "grp_linkcard_url_label": {
+        "message": "URL del enlace"
+    },
+    "grp_name_label": {
+        "message": "Nombre del grupo"
+    },
+    "grp_name_ph": {
+        "message": "Nombre del grupo"
+    },
+    "grp_no_icon": {
+        "message": "¡Aún no se ha elegido ningún icono!"
+    },
+    "grp_opt_callout": {
+        "message": "Aviso"
+    },
+    "grp_opt_clipboard": {
+        "message": "Botón de portapapeles"
+    },
+    "grp_opt_code": {
+        "message": "Bloque de código"
+    },
+    "grp_opt_divider": {
+        "message": "Separador"
+    },
+    "grp_opt_file": {
+        "message": "Archivo"
+    },
+    "grp_opt_group": {
+        "message": "Grupo"
+    },
+    "grp_opt_heading": {
+        "message": "Encabezado"
+    },
+    "grp_opt_image": {
+        "message": "Imagen"
+    },
+    "grp_opt_launcher": {
+        "message": "Botón de lanzador"
+    },
+    "grp_opt_linkcard": {
+        "message": "Tarjeta de enlace"
+    },
+    "grp_opt_profile": {
+        "message": "Perfil"
+    },
+    "grp_opt_routine": {
+        "message": "Rutina"
+    },
+    "grp_opt_shortcut": {
+        "message": "Acceso directo"
+    },
+    "grp_opt_stepheading": {
+        "message": "Encabezado de paso"
+    },
+    "grp_opt_steps": {
+        "message": "Pasos"
+    },
+    "grp_opt_text": {
+        "message": "Texto"
+    },
+    "grp_opt_todolist": {
+        "message": "Lista de tareas"
+    },
+    "grp_optional": {
+        "message": "(opcional)"
+    },
+    "grp_preset_avatars": {
+        "message": "Avatares predefinidos"
+    },
+    "grp_routine_steps_label": {
+        "message": "Pasos"
+    },
+    "grp_save": {
+        "message": "Guardar grupo"
+    },
+    "grp_search_icons_ph": {
+        "message": "Buscar iconos…"
+    },
+    "grp_selected_label": {
+        "message": "Seleccionado:"
+    },
+    "grp_show_terminal": {
+        "message": "Mostrar ventana de terminal"
+    },
+    "grp_strip_svg": {
+        "message": "Eliminar los colores de relleno/trazo del SVG"
+    },
+    "grp_title_add": {
+        "message": "Añadir grupo"
+    },
+    "grp_type_locked_hint": {
+        "message": "El tipo de elemento no se puede cambiar después de crearlo."
+    },
+    "grp_url_label": {
+        "message": "URL"
+    },
+    "grp_display_label": {
+        "message": "Visualización"
+    },
+    "grp_display_standard": {
+        "message": "Botón estándar"
+    },
+    "grp_display_icon": {
+        "message": "Solo icono"
+    },
+    "grp_display_show_label": {
+        "message": "Mostrar etiqueta bajo el icono"
+    },
+    "gse21_accent_color": {
+        "message": "Color de acento"
+    },
+    "gse21_alpha_percent": {
+        "message": "$1 %"
+    },
+    "gse21_background": {
+        "message": "Fondo"
+    },
+    "gse21_border_color": {
+        "message": "Color del borde"
+    },
+    "gse21_card": {
+        "message": "Tarjeta"
+    },
+    "gse21_clear_override": {
+        "message": "Quitar personalización"
+    },
+    "gse21_group_header": {
+        "message": "Encabezado del grupo"
+    },
+    "gse21_group_style_title": {
+        "message": "Estilo del grupo"
+    },
+    "gse21_icon_color": {
+        "message": "Color del icono"
+    },
+    "gse21_links": {
+        "message": "Enlaces"
+    },
+    "gse21_none": {
+        "message": "ninguno"
+    },
+    "gse21_other": {
+        "message": "Otros"
+    },
+    "gse21_reset_all": {
+        "message": "Restablecer todas las personalizaciones"
+    },
+    "gse21_shadow": {
+        "message": "Sombra"
+    },
+    "gse21_text_color": {
+        "message": "Color del texto"
+    },
+    "gwr4_add_item": {
+        "message": "Añadir elemento"
+    },
+    "gwr4_add_item_title": {
+        "message": "Añadir $1"
+    },
+    "gwr4_add_task_aria": {
+        "message": "Añadir tarea a $1"
+    },
+    "gwr4_add_task_btn": {
+        "message": "Añadir tarea"
+    },
+    "gwr4_add_task_or_section": {
+        "message": "Añadir tarea o sección"
+    },
+    "gwr4_close_add_task": {
+        "message": "Cerrar el campo de añadir tarea"
+    },
+    "gwr4_collapse": {
+        "message": "Contraer"
+    },
+    "gwr4_confirm_delete_all_tasks": {
+        "message": "¿Eliminar las $1 tareas de «$2»?"
+    },
+    "gwr4_confirm_delete_group": {
+        "message": "¿Eliminar el grupo «$1»?"
+    },
+    "gwr4_copy_suffix": {
+        "message": "$1 (copia)"
+    },
+    "gwr4_copy_suffix_n": {
+        "message": "$1 (copia $2)"
+    },
+    "gwr4_delete_all_tasks": {
+        "message": "Eliminar todas las tareas"
+    },
+    "gwr4_group_deleted": {
+        "message": "«$1» eliminado"
+    },
+    "gwr4_group_options": {
+        "message": "Opciones del grupo"
+    },
+    "gwr4_menu_copy_style": {
+        "message": "Copiar estilo"
+    },
+    "gwr4_menu_delete": {
+        "message": "Eliminar"
+    },
+    "gwr4_menu_duplicate": {
+        "message": "Duplicar"
+    },
+    "gwr4_menu_edit": {
+        "message": "Editar"
+    },
+    "gwr4_menu_move_workspace": {
+        "message": "Mover a espacio de trabajo"
+    },
+    "gwr4_menu_open_all": {
+        "message": "Abrir todos los enlaces en una pestaña nueva"
+    },
+    "gwr4_menu_paste_style": {
+        "message": "Pegar estilo"
+    },
+    "gwr4_menu_style": {
+        "message": "Estilo"
+    },
+    "gwr4_no_icon_chosen": {
+        "message": "¡Aún no se ha elegido ningún icono!"
+    },
+    "gwr4_no_valid_links": {
+        "message": "No se encontraron enlaces válidos en «$1»."
+    },
+    "gwr4_todo_placeholder": {
+        "message": "¿Qué hay que hacer?"
+    },
+    "gwr4_type_clipboard": {
+        "message": "Portapapeles"
+    },
+    "gwr4_type_divider": {
+        "message": "Separador"
+    },
+    "gwr4_type_header": {
+        "message": "Encabezado"
+    },
+    "gwr4_type_item_fallback": {
+        "message": "Elemento"
+    },
+    "gwr4_type_launcher": {
+        "message": "Lanzador"
+    },
+    "gwr4_type_link": {
+        "message": "Enlace"
+    },
+    "gwr4_type_note": {
+        "message": "Nota"
+    },
+    "gwr4_type_routine": {
+        "message": "Rutina"
+    },
+    "gwr4_type_text": {
+        "message": "Texto"
+    },
+    "gwr4_type_todo": {
+        "message": "Tarea"
+    },
+    "hdr_auto_favicon": {
+        "message": "Obtener el favicon automáticamente al guardar el enlace"
+    },
+    "hdr_current_tab": {
+        "message": "Pestaña actual"
+    },
+    "hdr_design": {
+        "message": "Diseño"
+    },
+    "hdr_empty_add_group": {
+        "message": "+ Añadir grupo"
+    },
+    "hdr_empty_add_links": {
+        "message": "Añadir enlaces"
+    },
+    "hdr_empty_add_shortcut": {
+        "message": "Añadir acceso directo"
+    },
+    "hdr_empty_desc": {
+        "message": "Configura tu panel con un grupo nuevo, marcadores importados o sugerencias iniciales de grupos y sitios web populares."
+    },
+    "hdr_empty_import_bookmarks": {
+        "message": "Importar marcadores"
+    },
+    "hdr_empty_start_suggestions": {
+        "message": "Empezar con sugerencias"
+    },
+    "hdr_empty_suggestions_desc": {
+        "message": "Botones de vista previa de añadido rápido con iconos y un espaciado más compacto."
+    },
+    "hdr_empty_suggestions_title": {
+        "message": "Sugerencias de sitios web populares"
+    },
+    "hdr_empty_title": {
+        "message": "Este espacio de trabajo está vacío"
+    },
+    "hdr_essentials_desc": {
+        "message": "Un resumen rápido de las opciones más importantes de Ajustes para que puedas personalizar tu nueva pestaña de inmediato."
+    },
+    "hdr_essentials_title": {
+        "message": "Configura lo esencial"
+    },
+    "hdr_general": {
+        "message": "General"
+    },
+    "hdr_header_actions_aria": {
+        "message": "Acciones de la cabecera"
+    },
+    "hdr_logo_avatar": {
+        "message": "Logo / avatar"
+    },
+    "hdr_logo_desc": {
+        "message": "Marca opcional en la cabecera de tu panel."
+    },
+    "hdr_new_tab": {
+        "message": "Pestaña nueva"
+    },
+    "hdr_open_links_in": {
+        "message": "Abrir enlaces en"
+    },
+    "hdr_pro_desc": {
+        "message": "Desbloquea la sincronización automática cifrada entre dispositivos y publica o gestiona tableros compartidos directamente desde la pestaña Cuenta."
+    },
+    "hdr_pro_explore": {
+        "message": "Explorar Pro en Cuenta"
+    },
+    "hdr_pro_eyebrow": {
+        "message": "ReadyTab Pro"
+    },
+    "hdr_pro_list_1": {
+        "message": "Sincroniza automáticamente tu panel en la nube activo"
+    },
+    "hdr_pro_list_2": {
+        "message": "Extrae automáticamente los cambios más recientes de la nube"
+    },
+    "hdr_pro_list_3": {
+        "message": "Publica y gestiona tableros compartidos"
+    },
+    "hdr_pro_title": {
+        "message": "Sincronización automática y tableros compartidos"
+    },
+    "hdr_remove": {
+        "message": "Quitar"
+    },
+    "hdr_show_clock": {
+        "message": "Mostrar reloj en la cabecera"
+    },
+    "hdr_show_search_bar": {
+        "message": "Mostrar barra de búsqueda"
+    },
+    "hdr_spotlight_search": {
+        "message": "Búsqueda destacada"
+    },
+    "hdr_theme": {
+        "message": "Tema"
+    },
+    "hdr_upload": {
+        "message": "Subir"
+    },
+    "hdr_workspace_default_tab": {
+        "message": "Inicio"
+    },
+    "help_apply_from_workspace_body": {
+        "message": "Copia los ajustes visuales de otro espacio de trabajo al actual. Esto resulta útil cuando quieres que varios espacios de trabajo compartan el mismo tema, fondo y configuración de diseño sin recrearlo todo manualmente."
+    },
+    "help_apply_from_workspace_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_apply_from_workspace_title": {
+        "message": "Copiar de un espacio de trabajo"
+    },
+    "help_background_custom_css_body": {
+        "message": "Este campo es solo para el valor de fondo del espacio de trabajo. Usa cualquier valor de fondo CSS válido, como un degradado, la URL de una imagen o una propiedad abreviada de fondo. No inyecta CSS en toda la página y solo afecta al fondo del espacio de trabajo actual."
+    },
+    "help_background_custom_css_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_background_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_bookmarks_body": {
+        "message": "Importa una carpeta de marcadores de tu navegador como un nuevo grupo en ReadyTab. Esto resulta útil para convertir colecciones de marcadores existentes en grupos del panel sin tener que recrear los enlaces uno a uno."
+    },
+    "help_bookmarks_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_bookmarks_title": {
+        "message": "Importar desde marcadores"
+    },
+    "help_clock_body": {
+        "message": "El reloj aparece en la zona de la cabecera de tu página de nueva pestaña. Puedes mostrarlo u ocultarlo, alternar entre el formato de 24 y 12 horas y elegir si se muestran los segundos y la fecha."
+    },
+    "help_clock_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_clock_title": {
+        "message": "Reloj"
+    },
+    "help_cloud_sync_automation_body": {
+        "message": "La sincronización automática actualiza tu panel activo en la nube tras los cambios locales una vez que ReadyTab ha estado inactivo durante el retardo seleccionado. La descarga automática también puede aplicar automáticamente instantáneas más recientes de la nube, pero solo cuando tu panel local no tiene cambios sin sincronizar. Si tanto el estado local como el de la nube han cambiado, ReadyTab preguntará antes de sobrescribir nada."
+    },
+    "help_cloud_sync_automation_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_cloud_sync_automation_title": {
+        "message": "Automatización de la sincronización en la nube"
+    },
+    "help_cloud_sync_body": {
+        "message": "La sincronización en la nube almacena instantáneas cifradas del espacio de trabajo en tu cuenta de ReadyTab. Usa Subir para cargar tu estado local actual, Bajar para reemplazar el estado local con una instantánea de la nube, y mantén paneles separados para distintas configuraciones."
+    },
+    "help_cloud_sync_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_cloud_sync_title": {
+        "message": "Sincronización en la nube"
+    },
+    "help_companion_body": {
+        "message": "La aplicación complementaria ayuda a ReadyTab a conectarse con archivos, aplicaciones y flujos de trabajo de escritorio locales que una extensión de navegador no puede gestionar por sí sola. Úsala cuando quieras una integración más estrecha con tu sistema operativo y tus herramientas locales."
+    },
+    "help_companion_link": {
+        "message": "Abrir la guía de configuración de la aplicación complementaria"
+    },
+    "help_companion_title": {
+        "message": "Aplicación complementaria"
+    },
+    "help_design_custom_css_body": {
+        "message": "Este campo de Custom CSS inyecta CSS en toda la página del espacio de trabajo actual. Úsalo para aplicar estilos avanzados más allá de los controles de tema integrados. A diferencia de Fondo > Custom CSS, no se limita al valor del fondo."
+    },
+    "help_design_custom_css_link": {
+        "message": "Leer la documentación del editor de temas"
+    },
+    "help_design_custom_css_title": {
+        "message": "Custom CSS"
+    },
+    "help_design_reset_default_body": {
+        "message": "Restablecer a los valores predeterminados devuelve el espacio de trabajo actual por completo al aspecto integrado: borra tus personalizaciones del editor y el Custom CSS, cambia el tema base de nuevo a Simple y restablece las opciones de apariencia adicionales (subrayado de pestañas, descripciones, animación al pasar el cursor). Para un restablecimiento más ligero que conserve el tema base que elegiste, usa Restablecer tema en la tarjeta de acciones de tema. Ninguno de los dos elimina tus temas guardados."
+    },
+    "help_design_reset_default_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_design_reset_default_title": {
+        "message": "Restablecer a los valores predeterminados"
+    },
+    "help_import_from_code_body": {
+        "message": "Importa una copia local de un espacio de trabajo compartido pegando aquí su código de uso compartido. El espacio de trabajo importado se convierte en tu propia copia editable, por lo que los cambios posteriores de la fuente original no la sobrescribirán automáticamente."
+    },
+    "help_import_from_code_link": {
+        "message": "Abrir la documentación de espacios"
+    },
+    "help_import_from_code_title": {
+        "message": "Importar desde un código"
+    },
+    "help_link_behavior_body": {
+        "message": "Elige el destino predeterminado de tus enlaces guardados. La pestaña actual mantiene la navegación en la pestaña activa, mientras que Nueva pestaña abre los enlaces por separado. Este ajuste controla el comportamiento predeterminado que se usa en todo tu panel."
+    },
+    "help_link_behavior_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_link_behavior_title": {
+        "message": "Comportamiento de los enlaces"
+    },
+    "help_link_health_body": {
+        "message": "Cuando está activado, ReadyTab comprueba periódicamente tus enlaces HTTP y HTTPS guardados y marca los que no están accesibles con un indicador rojo. Esta función permanece desactivada hasta que la actives explícitamente."
+    },
+    "help_link_health_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_link_health_title": {
+        "message": "Estado de los enlaces"
+    },
+    "help_logo_body": {
+        "message": "Sube un logotipo personalizado para mostrarlo en la cabecera. ReadyTab mantiene intacta la relación de aspecto de la imagen y alinea el logotipo para que su borde inferior encaje limpiamente con las pestañas del espacio de trabajo. También puedes eliminarlo o cambiar su tamaño de visualización más adelante."
+    },
+    "help_logo_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_logo_title": {
+        "message": "Logotipo"
+    },
+    "help_managed_boards_body": {
+        "message": "Los paneles gestionados son espacios de trabajo de solo lectura publicados por un equipo o una agencia. Suscríbete con un token de panel para mantener ese espacio de trabajo actualizado sin mezclarlo con tus espacios locales editables."
+    },
+    "help_managed_boards_link": {
+        "message": "Leer la documentación de paneles gestionados"
+    },
+    "help_managed_boards_title": {
+        "message": "Paneles gestionados"
+    },
+    "help_save_current_window_body": {
+        "message": "Captura las pestañas compatibles de la ventana actual de tu navegador y guárdalas en un nuevo grupo de enlaces. Esto resulta práctico cuando quieres convertir un conjunto de pestañas de trabajo en algo permanente en tu panel."
+    },
+    "help_save_current_window_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_save_current_window_title": {
+        "message": "Guardar la ventana actual como grupo"
+    },
+    "help_saved_themes_body": {
+        "message": "Los temas guardados son ajustes predefinidos de diseño reutilizables. Almacenan un tema base junto con tus personalizaciones del editor para que puedas volver a aplicar rápidamente el mismo aspecto al espacio de trabajo actual sin tener que crearlo de nuevo desde cero."
+    },
+    "help_saved_themes_link": {
+        "message": "Leer la documentación del editor de temas"
+    },
+    "help_saved_themes_title": {
+        "message": "Temas guardados"
+    },
+    "help_session_recovery_body": {
+        "message": "ReadyTab mantiene una instantánea local ligera de las pestañas compatibles de tu sesión reciente del navegador para que puedas revisarlas o restaurarlas más tarde. Úsalo cuando quieras una red de seguridad ante cierres accidentales de ventanas o para reabrir una sesión de trabajo reciente."
+    },
+    "help_session_recovery_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_session_recovery_title": {
+        "message": "Recuperación de sesión"
+    },
+    "help_spaces_body": {
+        "message": "Reordena tus espacios arrastrándolos y soltándolos para controlar el orden de las pestañas que se muestra en la parte superior de la página. El espacio predeterminado siempre permanece el primero, mientras que el resto puede organizarse según tu forma de trabajar. También puedes usar las acciones de cada fila para renombrar un espacio, protegerlo, compartirlo o eliminarlo cuando lo necesites."
+    },
+    "help_spaces_link": {
+        "message": "Abrir la documentación de espacios"
+    },
+    "help_spaces_title": {
+        "message": "Espacios"
+    },
+    "help_spotlight_search_body": {
+        "message": "La búsqueda Spotlight te ayuda a encontrar rápidamente enlaces guardados desde el teclado. Puedes activarla fuera de la página de nueva pestaña e incluir opcionalmente los nombres de los grupos en los resultados para facilitar la navegación en paneles más grandes."
+    },
+    "help_spotlight_search_link": {
+        "message": "Abrir la documentación de Spotlight"
+    },
+    "help_spotlight_search_title": {
+        "message": "Búsqueda Spotlight"
+    },
+    "help_theme_actions_body": {
+        "message": "Guardar tema almacena el aspecto actual como un tema guardado reutilizable. Restablecer tema descarta tus personalizaciones del editor y el Custom CSS de este espacio de trabajo, pero conserva el tema base que seleccionaste. Exportar e Importar mueven tus temas guardados dentro y fuera como un archivo JSON. Para un restablecimiento completo que también revierta el tema base a Simple, usa Restablecer a los valores predeterminados más abajo."
+    },
+    "help_theme_actions_link": {
+        "message": "Leer la documentación del editor de temas"
+    },
+    "help_theme_actions_title": {
+        "message": "Acciones de tema"
+    },
+    "help_theme_body": {
+        "message": "Cambiar el tema actualiza el espacio de trabajo actual al aspecto predeterminado de ese tema, incluido su fondo predeterminado. ReadyTab mantiene una acción temporal de Revertir para que puedas restaurar el tema, el fondo y las personalizaciones de diseño anteriores si lo necesitas."
+    },
+    "help_theme_editor_body": {
+        "message": "El editor de temas te permite ajustar con precisión los tokens del tema, guardar temas con nombre reutilizables y mantener personalizaciones específicas de cada espacio de trabajo. La sección Custom CSS de Diseño inyecta CSS en toda la página del espacio de trabajo actual, a diferencia de Fondo > Custom CSS, que solo establece el valor del fondo."
+    },
+    "help_theme_editor_link": {
+        "message": "Leer la documentación del editor de temas"
+    },
+    "help_theme_editor_title": {
+        "message": "Editor de temas"
+    },
+    "help_theme_link": {
+        "message": "Leer la documentación de ajustes"
+    },
+    "help_theme_title": {
+        "message": "Tema"
+    },
+    "help_web_search_body": {
+        "message": "Muestra la barra de búsqueda directamente en el encabezado. Busca primero en tus elementos guardados; las búsquedas web usan el motor de búsqueda predeterminado de tu navegador, salvo que elijas uno explícitamente aquí. También puedes decidir si las búsquedas reemplazan la página actual o abren sus resultados en una pestaña nueva."
+    },
+    "help_web_search_link": {
+        "message": "Abrir la documentación de ajustes"
+    },
+    "help_web_search_title": {
+        "message": "Barra de búsqueda"
+    },
+    "ieuh11_add_clipboard": {
+        "message": "Añadir portapapeles"
+    },
+    "ieuh11_add_divider": {
+        "message": "Añadir separador"
+    },
+    "ieuh11_add_header": {
+        "message": "Añadir encabezado"
+    },
+    "ieuh11_add_item": {
+        "message": "Añadir elemento"
+    },
+    "ieuh11_add_launcher": {
+        "message": "Añadir lanzador"
+    },
+    "ieuh11_add_link": {
+        "message": "Añadir enlace"
+    },
+    "ieuh11_add_note": {
+        "message": "Añadir nota"
+    },
+    "ieuh11_add_text": {
+        "message": "Añadir texto"
+    },
+    "ieuh11_add_todo": {
+        "message": "Añadir tarea"
+    },
+    "ieuh11_divider_color": {
+        "message": "Color del separador"
+    },
+    "ieuh11_icon_color": {
+        "message": "Color del icono"
+    },
+    "ieuh11_label_name": {
+        "message": "Nombre"
+    },
+    "ieuh11_label_task": {
+        "message": "Tarea"
+    },
+    "ieuh11_label_title": {
+        "message": "Título"
+    },
+    "ieuh11_launcher_command": {
+        "message": "Comando"
+    },
+    "ieuh11_launcher_path": {
+        "message": "Ruta"
+    },
+    "ieuh11_launcher_target_uri": {
+        "message": "URI de destino"
+    },
+    "ieuh11_ph_label": {
+        "message": "Etiqueta"
+    },
+    "ieuh11_ph_name": {
+        "message": "Nombre"
+    },
+    "ieuh11_ph_section_title": {
+        "message": "Título de la sección"
+    },
+    "ieuh11_ph_task": {
+        "message": "Tarea"
+    },
+    "ieuh11_ph_text_content": {
+        "message": "Contenido de texto"
+    },
+    "ieuh11_picker_failed": {
+        "message": "No se pudo abrir el selector — ¿está instalada la aplicación complementaria?\n\nComprueba el estado en Ajustes → Cuenta → Aplicación complementaria."
+    },
+    "ip22_enter_url_first": {
+        "message": "Introduce primero una URL."
+    },
+    "ip22_failed_load_icons": {
+        "message": "No se pudieron cargar los iconos."
+    },
+    "ip22_invalid_url": {
+        "message": "URL no válida."
+    },
+    "ip22_loading_icons": {
+        "message": "Cargando iconos…"
+    },
+    "ip22_no_icon_chosen": {
+        "message": "¡Aún no se ha elegido ningún icono!"
+    },
+    "ip22_use_this_icon": {
+        "message": "Usar este icono"
+    },
+    "language_label": {
+        "message": "Idioma de la interfaz"
+    },
+    "language_section": {
+        "message": "Idioma"
+    },
+    "lbr5_content_copied": {
+        "message": "Contenido copiado"
+    },
+    "lbr5_convert_to_group": {
+        "message": "Convertir en $1 en el grupo"
+    },
+    "lbr5_copy_content": {
+        "message": "Copiar contenido"
+    },
+    "lbr5_copy_failed": {
+        "message": "Error al copiar"
+    },
+    "lbr5_copy_suffix": {
+        "message": "$1 (copia)"
+    },
+    "lbr5_copy_suffix_n": {
+        "message": "$1 (copia $2)"
+    },
+    "lbr5_copy_target": {
+        "message": "Copiar destino"
+    },
+    "lbr5_copy_url": {
+        "message": "Copiar URL"
+    },
+    "lbr5_copy_urls": {
+        "message": "Copiar URLs"
+    },
+    "lbr5_delete": {
+        "message": "Eliminar"
+    },
+    "lbr5_delete_confirm": {
+        "message": "¿Eliminar $1 «$2»?"
+    },
+    "lbr5_duplicate": {
+        "message": "Duplicar"
+    },
+    "lbr5_edit": {
+        "message": "Editar"
+    },
+    "lbr5_label_clipboard_button": {
+        "message": "Botón de portapapeles"
+    },
+    "lbr5_label_launcher_button": {
+        "message": "Botón de lanzador"
+    },
+    "lbr5_label_link_button": {
+        "message": "Botón de enlace"
+    },
+    "lbr5_label_routine": {
+        "message": "Rutina"
+    },
+    "lbr5_move_to_workspace": {
+        "message": "Mover a espacio de trabajo"
+    },
+    "lbr5_step_many": {
+        "message": "$1 pasos"
+    },
+    "lbr5_step_one": {
+        "message": "$1 paso"
+    },
+    "lbr5_target_copied": {
+        "message": "Destino copiado"
+    },
+    "lbr5_type_clipboard": {
+        "message": "Portapapeles"
+    },
+    "lbr5_type_launcher": {
+        "message": "Lanzador"
+    },
+    "lbr5_type_link": {
+        "message": "Enlace"
+    },
+    "lbr5_url_copied": {
+        "message": "URL copiada"
+    },
+    "lbr5_urls_copied": {
+        "message": "URLs copiadas"
+    },
+    "lbr5_widget_cap": {
+        "message": "Widget"
+    },
+    "lbr5_widget_deleted": {
+        "message": "«$1» eliminado"
+    },
+    "lbr5_widget_fallback": {
+        "message": "widget"
+    },
+    "lbr5_widget_options": {
+        "message": "Opciones de $1"
+    },
+    "lir6_convert_to": {
+        "message": "Convertir en botón de $1"
+    },
+    "lir6_copy_failed": {
+        "message": "Error al copiar"
+    },
+    "lir6_copy_style": {
+        "message": "Copiar estilo"
+    },
+    "lir6_copy_title": {
+        "message": "Copiar título"
+    },
+    "lir6_copy_url": {
+        "message": "Copiar URL"
+    },
+    "lir6_delete": {
+        "message": "Eliminar"
+    },
+    "lir6_duplicate": {
+        "message": "Duplicar"
+    },
+    "lir6_edit": {
+        "message": "Editar"
+    },
+    "lir6_edit_type": {
+        "message": "Editar $1"
+    },
+    "lir6_item_deleted": {
+        "message": "Elemento eliminado"
+    },
+    "lir6_item_fallback": {
+        "message": "Elemento"
+    },
+    "lir6_more_options": {
+        "message": "Más opciones"
+    },
+    "lir6_no_icon": {
+        "message": "¡Aún no se ha elegido ningún icono!"
+    },
+    "lir6_step_count_one": {
+        "message": "$1 paso"
+    },
+    "lir6_step_count_other": {
+        "message": "$1 pasos"
+    },
+    "lir6_style_applied": {
+        "message": "Estilo aplicado"
+    },
+    "lir6_title_copied": {
+        "message": "Título copiado"
+    },
+    "lir6_todo_mark_complete": {
+        "message": "Marcar tarea como completada"
+    },
+    "lir6_todo_mark_incomplete": {
+        "message": "Marcar tarea como no completada"
+    },
+    "lir6_type_clipboard": {
+        "message": "Portapapeles"
+    },
+    "lir6_type_divider": {
+        "message": "Separador"
+    },
+    "lir6_type_header": {
+        "message": "Encabezado"
+    },
+    "lir6_type_launcher": {
+        "message": "Lanzador"
+    },
+    "lir6_type_link": {
+        "message": "Enlace"
+    },
+    "lir6_type_note": {
+        "message": "Nota"
+    },
+    "lir6_type_routine": {
+        "message": "Rutina"
+    },
+    "lir6_type_text": {
+        "message": "Texto"
+    },
+    "lir6_type_todo": {
+        "message": "Tarea"
+    },
+    "lir6_update_item": {
+        "message": "Actualizar elemento"
+    },
+    "lir6_url_copied": {
+        "message": "URL copiada"
+    },
+    "lnk_add_link": {
+        "message": "Añadir enlace"
+    },
+    "lnk_align_center": {
+        "message": "Centro"
+    },
+    "lnk_align_left": {
+        "message": "Izquierda"
+    },
+    "lnk_align_right": {
+        "message": "Derecha"
+    },
+    "lnk_alignment": {
+        "message": "Alineación"
+    },
+    "lnk_autofetch_desc": {
+        "message": "Usa automáticamente el favicon del sitio al añadir un enlace."
+    },
+    "lnk_autofetch_title": {
+        "message": "Obtener icono automáticamente"
+    },
+    "lnk_browse_btn": {
+        "message": "Examinar…"
+    },
+    "lnk_browse_title": {
+        "message": "Examinar…"
+    },
+    "lnk_cat_brands": {
+        "message": "Marcas"
+    },
+    "lnk_cat_regular": {
+        "message": "Regular"
+    },
+    "lnk_cat_solid": {
+        "message": "Sólido"
+    },
+    "lnk_clear_icon_btn": {
+        "message": "Quitar icono"
+    },
+    "lnk_clear_icon_title": {
+        "message": "Quitar icono"
+    },
+    "lnk_clipboard_content_label": {
+        "message": "Contenido a copiar"
+    },
+    "lnk_clipboard_content_ph": {
+        "message": "Texto que se copiará al portapapeles al hacer clic"
+    },
+    "lnk_color": {
+        "message": "Color"
+    },
+    "lnk_desc_label": {
+        "message": "Descripción"
+    },
+    "lnk_desc_optional": {
+        "message": "(opcional)"
+    },
+    "lnk_desc_ph": {
+        "message": "Subtítulo breve que se muestra debajo del nombre del enlace"
+    },
+    "lnk_drawer_title": {
+        "message": "Añadir elemento"
+    },
+    "lnk_ex_cursor": {
+        "message": "Abrir carpeta en Cursor"
+    },
+    "lnk_ex_discord": {
+        "message": "Abrir Discord"
+    },
+    "lnk_ex_mssettings": {
+        "message": "Configuración de pantalla de Windows"
+    },
+    "lnk_ex_obsidian": {
+        "message": "Abrir un almacén de Obsidian"
+    },
+    "lnk_ex_spotify": {
+        "message": "Abrir Spotify"
+    },
+    "lnk_ex_steam": {
+        "message": "Iniciar un juego de Steam (por App ID)"
+    },
+    "lnk_ex_teams": {
+        "message": "Abrir Microsoft Teams"
+    },
+    "lnk_ex_vscode": {
+        "message": "Abrir carpeta en VS Code"
+    },
+    "lnk_examples": {
+        "message": "Ejemplos"
+    },
+    "lnk_general": {
+        "message": "General"
+    },
+    "lnk_icon": {
+        "message": "Icono"
+    },
+    "lnk_icon_color": {
+        "message": "Color del icono"
+    },
+    "lnk_icon_search_ph": {
+        "message": "Buscar iconos…"
+    },
+    "lnk_launcher_kind_app": {
+        "message": "Aplicación — URI / protocolo"
+    },
+    "lnk_launcher_kind_file": {
+        "message": "Archivo"
+    },
+    "lnk_launcher_kind_folder": {
+        "message": "Carpeta"
+    },
+    "lnk_launcher_kind_label": {
+        "message": "Tipo"
+    },
+    "lnk_launcher_kind_ps": {
+        "message": "Comando / script"
+    },
+    "lnk_launcher_target_label": {
+        "message": "URI de destino"
+    },
+    "lnk_name_label": {
+        "message": "Nombre"
+    },
+    "lnk_name_ph": {
+        "message": "Nombre"
+    },
+    "lnk_no_icon": {
+        "message": "¡Aún no has elegido ningún icono!"
+    },
+    "lnk_open_in_label": {
+        "message": "Abrir en"
+    },
+    "lnk_reset_overrides": {
+        "message": "Restablecer todas las anulaciones"
+    },
+    "lnk_selected": {
+        "message": "Seleccionado:"
+    },
+    "lnk_separator_lines": {
+        "message": "Líneas separadoras"
+    },
+    "lnk_show_terminal": {
+        "message": "Mostrar ventana de terminal"
+    },
+    "lnk_steps_label": {
+        "message": "Pasos"
+    },
+    "lnk_strip_colors": {
+        "message": "Quitar los colores de relleno/trazo del SVG"
+    },
+    "lnk_style_bold": {
+        "message": "Negrita"
+    },
+    "lnk_style_italic": {
+        "message": "Cursiva"
+    },
+    "lnk_style_label": {
+        "message": "Estilo"
+    },
+    "lnk_style_normal": {
+        "message": "Normal"
+    },
+    "lnk_target_blank": {
+        "message": "Pestaña nueva"
+    },
+    "lnk_target_global": {
+        "message": "Usar ajuste global"
+    },
+    "lnk_target_self": {
+        "message": "Misma pestaña"
+    },
+    "lnk_text_color": {
+        "message": "Color del texto"
+    },
+    "lnk_todo_completed": {
+        "message": "Marcar tarea como completada"
+    },
+    "lnk_url_label": {
+        "message": "URL"
+    },
+    "lnk_used_icons": {
+        "message": "Iconos ya utilizados"
+    },
+    "mbmm23_action_failed": {
+        "message": "$1 falló: $2"
+    },
+    "mbmm23_board_revoked": {
+        "message": "Tablero revocado"
+    },
+    "mbmm23_change": {
+        "message": "Cambiar"
+    },
+    "mbmm23_change_pw_prompt": {
+        "message": "Introduce una contraseña nueva para el tablero gestionado «$1»:"
+    },
+    "mbmm23_changing": {
+        "message": "Cambiando…"
+    },
+    "mbmm23_close": {
+        "message": "Cerrar"
+    },
+    "mbmm23_close_modal": {
+        "message": "Cerrar el cuadro de gestión del tablero"
+    },
+    "mbmm23_copy": {
+        "message": "Copiar"
+    },
+    "mbmm23_copy_failed": {
+        "message": "Error al copiar"
+    },
+    "mbmm23_copy_token": {
+        "message": "Copiar token"
+    },
+    "mbmm23_current": {
+        "message": "Actual"
+    },
+    "mbmm23_delete_perm": {
+        "message": "Eliminar permanentemente"
+    },
+    "mbmm23_delete_perm_confirm": {
+        "message": "¿Eliminar permanentemente el tablero revocado «$1»? Esta acción no se puede deshacer."
+    },
+    "mbmm23_deleting": {
+        "message": "Eliminando…"
+    },
+    "mbmm23_earlier_snapshot": {
+        "message": "Instantánea anterior"
+    },
+    "mbmm23_enable_again": {
+        "message": "Volver a activar el tablero"
+    },
+    "mbmm23_enabling": {
+        "message": "Activando…"
+    },
+    "mbmm23_history_desc": {
+        "message": "Restaurar una versión recrea el origen localmente; no sobrescribirá el tablero publicado."
+    },
+    "mbmm23_import_token": {
+        "message": "Importar token"
+    },
+    "mbmm23_in_sync_text": {
+        "message": "Tu origen local coincide con el tablero publicado; listo para publicar actualizaciones."
+    },
+    "mbmm23_latest_snapshot": {
+        "message": "Última instantánea"
+    },
+    "mbmm23_load_history": {
+        "message": "Cargar historial"
+    },
+    "mbmm23_loading": {
+        "message": "Cargando…"
+    },
+    "mbmm23_locked": {
+        "message": "bloqueado"
+    },
+    "mbmm23_manage_board": {
+        "message": "Gestionar tablero"
+    },
+    "mbmm23_managed_board": {
+        "message": "Tablero gestionado"
+    },
+    "mbmm23_missing_text": {
+        "message": "No puedes publicar actualizaciones hasta que el origen se restaure localmente. Restáuralo primero y entonces se habilitará Actualizar."
+    },
+    "mbmm23_more_pw_actions": {
+        "message": "Más acciones de contraseña"
+    },
+    "mbmm23_n_saved": {
+        "message": "$1 guardadas"
+    },
+    "mbmm23_none_saved": {
+        "message": "Ninguna guardada"
+    },
+    "mbmm23_not_supported": {
+        "message": "No compatible"
+    },
+    "mbmm23_open_board": {
+        "message": "Abrir tablero"
+    },
+    "mbmm23_password_copied": {
+        "message": "Contraseña copiada."
+    },
+    "mbmm23_password_protected": {
+        "message": "Protegido con contraseña"
+    },
+    "mbmm23_pw_none": {
+        "message": "Sin contraseña: cualquiera con el token puede suscribirse."
+    },
+    "mbmm23_pw_saved_this_device": {
+        "message": "La contraseña del creador guardada solo está disponible en este dispositivo."
+    },
+    "mbmm23_pw_set_replace_only": {
+        "message": "Establecida en este tablero: no se puede mostrar aquí, solo reemplazar."
+    },
+    "mbmm23_pw_updates_unavailable": {
+        "message": "Las actualizaciones de contraseña no están disponibles para este tablero."
+    },
+    "mbmm23_ready_to_publish": {
+        "message": "Listo para publicar"
+    },
+    "mbmm23_remove_password": {
+        "message": "Quitar contraseña"
+    },
+    "mbmm23_remove_pw_confirm": {
+        "message": "¿Quitar la contraseña del tablero gestionado «$1»?"
+    },
+    "mbmm23_removing": {
+        "message": "Quitando…"
+    },
+    "mbmm23_restore_as_source": {
+        "message": "Restaurar como origen"
+    },
+    "mbmm23_restore_desc": {
+        "message": "Restaurar recrea el origen localmente; el tablero publicado permanece igual."
+    },
+    "mbmm23_open_source": {
+        "message": "Abrir origen"
+    },
+    "mbmm23_restore_source_locally": {
+        "message": "Restaurar el origen localmente"
+    },
+    "mbmm23_restoring": {
+        "message": "Restaurando…"
+    },
+    "mbmm23_retry": {
+        "message": "Reintentar"
+    },
+    "mbmm23_reveal": {
+        "message": "Mostrar"
+    },
+    "mbmm23_revealing": {
+        "message": "Mostrando…"
+    },
+    "mbmm23_revoke": {
+        "message": "Revocar"
+    },
+    "mbmm23_revoke_confirm": {
+        "message": "¿Revocar este tablero? Los suscriptores perderán el acceso según la política de revocación del backend."
+    },
+    "mbmm23_revoke_desc": {
+        "message": "Elimina el acceso de los suscriptores según la política del backend. El origen local no se ve afectado."
+    },
+    "mbmm23_revoke_this_board": {
+        "message": "Revocar este tablero"
+    },
+    "mbmm23_revoked_text": {
+        "message": "Los suscriptores han perdido el acceso. Vuelve a activarlo o elimínalo permanentemente."
+    },
+    "mbmm23_revoking": {
+        "message": "Revocando…"
+    },
+    "mbmm23_saved_password": {
+        "message": "Contraseña guardada"
+    },
+    "mbmm23_set_password": {
+        "message": "Establecer contraseña"
+    },
+    "mbmm23_set_pw_prompt": {
+        "message": "Establece una contraseña para el tablero gestionado «$1»:"
+    },
+    "mbmm23_setting": {
+        "message": "Estableciendo…"
+    },
+    "mbmm23_source_in_sync": {
+        "message": "Origen sincronizado"
+    },
+    "mbmm23_source_missing": {
+        "message": "Falta el origen en este dispositivo"
+    },
+    "mbmm23_subscribe_other_device": {
+        "message": "Suscribirse en otro dispositivo"
+    },
+    "mbmm23_token_copied": {
+        "message": "Token copiado."
+    },
+    "mbmm23_token_hint": {
+        "message": "Ajustes → Espacios → Compartir → Tableros conectados → Unirse a un tablero"
+    },
+    "mbmm23_unavailable": {
+        "message": "No disponible"
+    },
+    "mbmm23_unknown_error": {
+        "message": "Error desconocido"
+    },
+    "mbmm23_update_now": {
+        "message": "Actualizar ahora"
+    },
+    "mbmm23_updating": {
+        "message": "Actualizando…"
+    },
+    "mbmm23_version_history": {
+        "message": "Historial de versiones"
+    },
+    "mbu24_already_subscribed": {
+        "message": "Ya estás suscrito a este tablero."
+    },
+    "mbu24_already_up_to_date": {
+        "message": "Ya está actualizado."
+    },
+    "mbu24_badge_ready": {
+        "message": "Listo"
+    },
+    "mbu24_badge_revoked": {
+        "message": "Revocado"
+    },
+    "mbu24_badge_source_missing": {
+        "message": "Falta el origen"
+    },
+    "mbu24_board_active_again": {
+        "message": "El tablero «$1» vuelve a estar activo."
+    },
+    "mbu24_board_count": {
+        "message": "$1 $2"
+    },
+    "mbu24_board_created": {
+        "message": "¡Tablero creado! Token: $1"
+    },
+    "mbu24_board_deleted_permanently": {
+        "message": "El tablero «$1» se eliminó permanentemente."
+    },
+    "mbu24_board_revoked": {
+        "message": "Tablero revocado."
+    },
+    "mbu24_board_revoked_removed": {
+        "message": "El tablero «$1» se revocó y se ha eliminado."
+    },
+    "mbu24_board_revoked_removed_short": {
+        "message": "El tablero «$1» se revocó y eliminó."
+    },
+    "mbu24_board_updated": {
+        "message": "Tablero actualizado."
+    },
+    "mbu24_board_updated_subscribers": {
+        "message": "Tablero actualizado. Los suscriptores verán el cambio en la próxima sincronización."
+    },
+    "mbu24_by": {
+        "message": "por"
+    },
+    "mbu24_close": {
+        "message": "Cerrar"
+    },
+    "mbu24_close_modal_aria": {
+        "message": "Cerrar el cuadro de tableros gestionados"
+    },
+    "mbu24_could_not_load": {
+        "message": "No se pudieron cargar los tableros: $1"
+    },
+    "mbu24_create_board": {
+        "message": "Crear tablero"
+    },
+    "mbu24_create_form_desc": {
+        "message": "Publica el espacio de trabajo seleccionado como un tablero de solo lectura. Las actualizaciones quedan vinculadas a ese espacio de trabajo de origen."
+    },
+    "mbu24_create_new_board": {
+        "message": "Crear tablero nuevo"
+    },
+    "mbu24_creating": {
+        "message": "Creando…"
+    },
+    "mbu24_creator_password_prompt": {
+        "message": "Introduce la contraseña del tablero gestionado «$1»:"
+    },
+    "mbu24_delete": {
+        "message": "Eliminar"
+    },
+    "mbu24_delete_revoked_confirm": {
+        "message": "¿Eliminar permanentemente el tablero revocado «$1»? Esta acción no se puede deshacer."
+    },
+    "mbu24_diff_local_source": {
+        "message": "💻 Origen local"
+    },
+    "mbu24_diff_publish_update": {
+        "message": "Publicar actualización"
+    },
+    "mbu24_diff_published_board": {
+        "message": "☁ Tablero publicado"
+    },
+    "mbu24_diff_update_title": {
+        "message": "Actualizar «$1»"
+    },
+    "mbu24_explain_revoked": {
+        "message": "Los tableros revocados no se pueden actualizar. Anula la revocación de este tablero para volver a publicar, o elimínalo permanentemente."
+    },
+    "mbu24_explain_source_mismatch": {
+        "message": "El espacio de trabajo de origen original ya no coincide con este espacio de trabajo local. Restaura el origen localmente antes de actualizar."
+    },
+    "mbu24_failed_generic": {
+        "message": "Error: $1"
+    },
+    "mbu24_failed_open_manage": {
+        "message": "No se pudo abrir la gestión del tablero: $1"
+    },
+    "mbu24_failed_to_subscribe": {
+        "message": "No se pudo suscribir."
+    },
+    "mbu24_historical_version": {
+        "message": "Versión histórica"
+    },
+    "mbu24_history_load_failed": {
+        "message": "No se pudo cargar el historial de versiones de este tablero."
+    },
+    "mbu24_label_revoke": {
+        "message": "Revocar"
+    },
+    "mbu24_label_revoked": {
+        "message": "Revocado"
+    },
+    "mbu24_loading_boards": {
+        "message": "Cargando tableros…"
+    },
+    "mbu24_manage": {
+        "message": "Gestionar"
+    },
+    "mbu24_managed_board_fallback": {
+        "message": "Tablero gestionado"
+    },
+    "mbu24_managed_boards_subtitle": {
+        "message": "Tableros de solo lectura que publicas para que otros se suscriban."
+    },
+    "mbu24_managed_boards_title": {
+        "message": "Tableros gestionados"
+    },
+    "mbu24_name_required": {
+        "message": "El nombre del tablero y el nombre de la agencia son obligatorios."
+    },
+    "mbu24_next": {
+        "message": "Siguiente"
+    },
+    "mbu24_no_boards_match": {
+        "message": "Ningún tablero coincide con «$1»."
+    },
+    "mbu24_no_boards_yet": {
+        "message": "Aún no hay tableros; crea uno abajo."
+    },
+    "mbu24_pager_info": {
+        "message": "Página $1 de $2 · $3 tableros"
+    },
+    "mbu24_password_changed": {
+        "message": "Contraseña del tablero cambiada."
+    },
+    "mbu24_password_changed_prompt": {
+        "message": "La contraseña de \"$1\" ha cambiado. Introduce la nueva contraseña para seguir sincronizando:"
+    },
+    "mbu24_password_needed": {
+        "message": "Se necesita una nueva contraseña para sincronizar este tablero."
+    },
+    "mbu24_password_removed": {
+        "message": "Contraseña del tablero eliminada."
+    },
+    "mbu24_password_set": {
+        "message": "Contraseña del tablero establecida."
+    },
+    "mbu24_password_unavailable": {
+        "message": "Hay una contraseña establecida, pero no se puede mostrar en este dispositivo. Puedes reemplazarla por una nueva."
+    },
+    "mbu24_ph_author_team": {
+        "message": "Nombre del autor / equipo"
+    },
+    "mbu24_ph_board_name": {
+        "message": "Nombre del tablero"
+    },
+    "mbu24_ph_password_optional": {
+        "message": "Contraseña (opcional)"
+    },
+    "mbu24_prev": {
+        "message": "Anterior"
+    },
+    "mbu24_publish_update_confirm": {
+        "message": "¿Publicar esta actualización en «$1»?\n\nAntes: $2 grupos / $3 elementos\nAhora: $4 grupos / $5 elementos\n\nLos suscriptores verán el cambio en su próxima sincronización."
+    },
+    "mbu24_remove": {
+        "message": "Quitar"
+    },
+    "mbu24_remove_subscription_confirm": {
+        "message": "¿Quitar la suscripción a «$1»?"
+    },
+    "mbu24_requires_pro": {
+        "message": "Los tableros de agencia requieren una licencia Pro."
+    },
+    "mbu24_restored_historical_toast": {
+        "message": "Se restauró una versión histórica de «$1» localmente. Vuelve a publicar cuando estés listo."
+    },
+    "mbu24_restored_label_suffix": {
+        "message": "Restaurado $1"
+    },
+    "mbu24_restored_source_suffix": {
+        "message": "Origen restaurado"
+    },
+    "mbu24_restored_source_toast": {
+        "message": "Se restauró el espacio de trabajo de origen de «$1»."
+    },
+    "mbu24_revoke_board_confirm": {
+        "message": "¿Revocar este tablero? Los suscriptores perderán el acceso según la política de revocación del backend."
+    },
+    "mbu24_search_boards_aria": {
+        "message": "Buscar tableros por nombre"
+    },
+    "mbu24_search_boards_ph": {
+        "message": "Buscar tableros por nombre…"
+    },
+    "mbu24_source_label": {
+        "message": "Origen:"
+    },
+    "mbu24_source_missing_lc": {
+        "message": "falta el origen"
+    },
+    "mbu24_source_prefix": {
+        "message": "origen: $1"
+    },
+    "mbu24_start_workspace": {
+        "message": "Inicio"
+    },
+    "mbu24_status_ready": {
+        "message": "Listo para actualizar desde $1."
+    },
+    "mbu24_status_restore_safe": {
+        "message": "Restaura el origen localmente para permitir actualizaciones seguras."
+    },
+    "mbu24_status_revoked": {
+        "message": "Tablero revocado: los suscriptores han perdido el acceso o lo perderán en la próxima sincronización según la política de revocación."
+    },
+    "mbu24_status_source_missing_restore": {
+        "message": "Falta el origen; restáuralo localmente antes de actualizar."
+    },
+    "mbu24_subscribe": {
+        "message": "Suscribirse"
+    },
+    "mbu24_subscribe_password_prompt": {
+        "message": "Este tablero está protegido con contraseña. Introduce la contraseña:"
+    },
+    "mbu24_subscribed_to": {
+        "message": "Suscrito a «$1»."
+    },
+    "mbu24_subscription_removed": {
+        "message": "Suscripción eliminada."
+    },
+    "mbu24_sync_failed": {
+        "message": "Error de sincronización: $1"
+    },
+    "mbu24_sync_now": {
+        "message": "Sincronizar ahora"
+    },
+    "mbu24_unrevoke": {
+        "message": "Anular revocación"
+    },
+    "mbu24_update": {
+        "message": "Actualizar"
+    },
+    "mbu24_update_failed": {
+        "message": "Error al actualizar: $1"
+    },
+    "modala_recover_prompt_dismiss": {
+        "message": "Descartar"
+    },
+    "modala_recover_prompt_restore": {
+        "message": "Restaurar"
+    },
+    "modala_recover_prompt_title": {
+        "message": "¿Restaurar la sesión anterior?"
+    },
+    "modala_recover_prompt_view": {
+        "message": "Ver"
+    },
+    "modala_recover_view_clear": {
+        "message": "Borrar instantánea"
+    },
+    "modala_recover_view_close": {
+        "message": "Cerrar"
+    },
+    "modala_recover_view_meta": {
+        "message": "Instantánea no disponible."
+    },
+    "modala_recover_view_restore": {
+        "message": "Restaurar la última sesión"
+    },
+    "modala_recover_view_title": {
+        "message": "Instantánea de la última sesión"
+    },
+    "modala_savewin_cancel": {
+        "message": "Cancelar"
+    },
+    "modala_savewin_confirm": {
+        "message": "Guardar grupo"
+    },
+    "modala_savewin_desc": {
+        "message": "Guarda las pestañas compatibles de la ventana actual del navegador en un nuevo grupo editable."
+    },
+    "modala_savewin_groupname": {
+        "message": "Nombre del grupo"
+    },
+    "modala_savewin_groupname_ph": {
+        "message": "Ventana actual"
+    },
+    "modala_savewin_loading": {
+        "message": "Cargando las pestañas de la ventana actual…"
+    },
+    "modala_savewin_skipdup": {
+        "message": "Omitir las URL duplicadas ya guardadas en este espacio de trabajo"
+    },
+    "modala_savewin_title": {
+        "message": "Guardar la ventana actual como grupo"
+    },
+    "modala_savewin_workspace": {
+        "message": "Espacio de trabajo de destino"
+    },
+    "modala_starter_apply": {
+        "message": "Añadir grupos seleccionados"
+    },
+    "modala_starter_desc": {
+        "message": "Elige grupos de inicio y accesos directos populares para crear tu primer panel más rápido. Todo sigue siendo editable después de crearlo."
+    },
+    "modala_starter_skip": {
+        "message": "Omitir por ahora"
+    },
+    "modala_starter_title": {
+        "message": "Sugerencias de inicio"
+    },
+    "modalb_applytheme_cancel": {
+        "message": "Cancelar"
+    },
+    "modalb_applytheme_desc_post": {
+        "message": "»:"
+    },
+    "modalb_applytheme_desc_pre": {
+        "message": "Selecciona qué espacios de trabajo deben usar «"
+    },
+    "modalb_applytheme_ok": {
+        "message": "Aplicar"
+    },
+    "modalb_applytheme_selectall": {
+        "message": "Seleccionar todo"
+    },
+    "modalb_applytheme_title": {
+        "message": "Aplicar tema a espacios de trabajo"
+    },
+    "modalb_convert_cancel": {
+        "message": "Cancelar"
+    },
+    "modalb_convert_desc_post": {
+        "message": "» en un grupo de este espacio de trabajo."
+    },
+    "modalb_convert_desc_pre": {
+        "message": "Mover «"
+    },
+    "modalb_convert_label": {
+        "message": "Buscar grupos"
+    },
+    "modalb_convert_list_aria": {
+        "message": "Grupos disponibles"
+    },
+    "modalb_convert_ok": {
+        "message": "Convertir"
+    },
+    "modalb_convert_search_ph": {
+        "message": "Buscar grupos…"
+    },
+    "modalb_convert_title": {
+        "message": "Convertir en elemento de grupo"
+    },
+    "modalb_movegroup_cancel": {
+        "message": "Cancelar"
+    },
+    "modalb_movegroup_desc_post": {
+        "message": "» a:"
+    },
+    "modalb_movegroup_desc_pre": {
+        "message": "Mover «"
+    },
+    "modalb_movegroup_ok": {
+        "message": "Mover"
+    },
+    "modalb_movegroup_title": {
+        "message": "Mover grupo"
+    },
+    "modalb_passphrase_cancel": {
+        "message": "Cancelar"
+    },
+    "modalb_passphrase_confirm_ph": {
+        "message": "Confirmar frase de contraseña"
+    },
+    "modalb_passphrase_desc": {
+        "message": "Introduce la frase de contraseña para desbloquear este espacio de trabajo."
+    },
+    "modalb_passphrase_ph": {
+        "message": "Frase de contraseña"
+    },
+    "modalb_passphrase_title": {
+        "message": "Espacio de trabajo protegido"
+    },
+    "modalb_passphrase_unlock": {
+        "message": "Desbloquear"
+    },
+    "nta30_delete_confirm": {
+        "message": "¿Eliminar este tema guardado?"
+    },
+    "p31_alert_import_failed": {
+        "message": "Error al importar: $1"
+    },
+    "p31_alert_import_success": {
+        "message": "¡Temas importados correctamente!"
+    },
+    "p31_btn_save_failed": {
+        "message": "¡Error al guardar!"
+    },
+    "p31_btn_save_theme": {
+        "message": "Guardar tema"
+    },
+    "p31_btn_saved": {
+        "message": "Guardado ✓"
+    },
+    "p31_confirm_import_custom_css": {
+        "message": "Este archivo contiene CSS personalizado. El CSS personalizado puede cambiar el comportamiento de la página — consérvalo solo si exportaste este archivo tú mismo.\n\n¿Conservar el CSS personalizado?"
+    },
+    "p31_confirm_reset_theme": {
+        "message": "¿Restablecer todas las personalizaciones de tema del espacio de trabajo actual?"
+    },
+    "p31_default_theme_name": {
+        "message": "Mi tema"
+    },
+    "p31_prompt_save_theme_as": {
+        "message": "Guardar tema como:"
+    },
+    "pbp25_aria_public_board_link": {
+        "message": "Enlace del tablero público"
+    },
+    "pbp25_board_published": {
+        "message": "¡Tablero publicado!"
+    },
+    "pbp25_cancel": {
+        "message": "Cancelar"
+    },
+    "pbp25_clipboard_count_notice": {
+        "message": "Este espacio de trabajo contiene $1 $2 de portapapeles. El contenido del portapapeles pasa a formar parte de la instantánea compartida y es visible para cualquiera que tenga el enlace."
+    },
+    "pbp25_close": {
+        "message": "Cerrar"
+    },
+    "pbp25_copied": {
+        "message": "¡Copiado!"
+    },
+    "pbp25_copy": {
+        "message": "Copiar"
+    },
+    "pbp25_could_not_publish": {
+        "message": "No se pudo publicar el tablero: $1\n\nSi el error persiste, es posible que el servicio de compartición no esté accesible."
+    },
+    "pbp25_could_not_recover_content": {
+        "message": "No se pudo recuperar el contenido de este tablero en este dispositivo."
+    },
+    "pbp25_could_not_update": {
+        "message": "No se pudo actualizar el tablero: $1"
+    },
+    "pbp25_dialog_desc_publish": {
+        "message": "Crea un enlace público de solo lectura a una instantánea congelada de este espacio de trabajo. Cualquiera con el enlace puede verlo, sin necesidad de la extensión. Las ediciones posteriores no cambiarán la copia publicada."
+    },
+    "pbp25_dialog_desc_update": {
+        "message": "Reemplaza la instantánea publicada con el estado actual de este espacio de trabajo. El enlace público existente se mantiene igual y se actualiza al instante para los espectadores."
+    },
+    "pbp25_dialog_title_publish": {
+        "message": "Publicar tablero público"
+    },
+    "pbp25_dialog_title_update": {
+        "message": "Actualizar tablero publicado"
+    },
+    "pbp25_done": {
+        "message": "Hecho"
+    },
+    "pbp25_encrypting_uploading": {
+        "message": "Cifrando y subiendo tu tablero."
+    },
+    "pbp25_expiry_30_days": {
+        "message": "De forma predeterminada, el enlace caduca en 30 días a menos que lo conserves permanentemente; gestiónalo en Ajustes → Espacios → Tableros publicados."
+    },
+    "pbp25_imported_board": {
+        "message": "Tablero importado"
+    },
+    "pbp25_imported_edit_then_update": {
+        "message": "Importado: edítalo y luego pulsa Actualizar para publicar tus cambios."
+    },
+    "pbp25_include_clipboard": {
+        "message": "Incluir elementos/contenido del portapapeles en el tablero público"
+    },
+    "pbp25_item_plural": {
+        "message": "elementos"
+    },
+    "pbp25_item_singular": {
+        "message": "elemento"
+    },
+    "pbp25_keep_until_delete": {
+        "message": "Conservar hasta que lo elimine (nunca caduca)"
+    },
+    "pbp25_label_description": {
+        "message": "Descripción"
+    },
+    "pbp25_label_title": {
+        "message": "Título"
+    },
+    "pbp25_label_title_desc_on_board": {
+        "message": "Título y descripción en el tablero"
+    },
+    "pbp25_launcher_css_stripped": {
+        "message": "Los botones de lanzador y el CSS personalizado se eliminan de la copia pública."
+    },
+    "pbp25_link_expiry_same": {
+        "message": "El enlace y su caducidad se mantienen igual."
+    },
+    "pbp25_open_link": {
+        "message": "Abrir enlace"
+    },
+    "pbp25_option_hidden": {
+        "message": "Oculto"
+    },
+    "pbp25_option_show_centered": {
+        "message": "Mostrar — centrado"
+    },
+    "pbp25_option_show_left": {
+        "message": "Mostrar — alineado a la izquierda"
+    },
+    "pbp25_optional": {
+        "message": "(opcional)"
+    },
+    "pbp25_protected_cannot_publish": {
+        "message": "Los espacios de trabajo protegidos no se pueden publicar."
+    },
+    "pbp25_protected_cannot_publish_unprotect": {
+        "message": "Los espacios de trabajo protegidos no se pueden publicar. Quítales la protección primero si quieres compartirlos públicamente."
+    },
+    "pbp25_public_board_link_copied": {
+        "message": "Enlace del tablero público copiado."
+    },
+    "pbp25_public_board_updated": {
+        "message": "Tablero público actualizado."
+    },
+    "pbp25_publish": {
+        "message": "Publicar"
+    },
+    "pbp25_publishing": {
+        "message": "Publicando…"
+    },
+    "pbp25_secret_in_link_hint": {
+        "message": "El secreto necesario para descifrar el tablero forma parte del enlace: mantén la URL completa junta. Puedes reabrirlo, copiarlo o revocarlo en cualquier momento desde Ajustes → Espacios → Tableros compartidos."
+    },
+    "pbp25_share_link_readonly": {
+        "message": "Comparte este enlace con quien quieras: abre una vista de solo lectura de tu tablero en cualquier navegador."
+    },
+    "pbp25_space_not_on_device_import": {
+        "message": "El espacio desde el que se publicó este tablero no está en este dispositivo.\n\n¿Importar una copia del tablero publicado para poder editarlo y luego actualizar el enlace con tus cambios?"
+    },
+    "pbp25_update": {
+        "message": "Actualizar"
+    },
+    "pbp25_workspace_empty_add_groups": {
+        "message": "Este espacio de trabajo está vacío: añade algunos grupos antes de publicar."
+    },
+    "pm7_cancel_title": {
+        "message": "Cancelar modo de pintura"
+    },
+    "pm7_pill_group": {
+        "message": "Haz clic en un encabezado de grupo para aplicar el estilo"
+    },
+    "pm7_pill_link": {
+        "message": "Haz clic en un enlace para aplicar el estilo"
+    },
+    "rse12_add_from_board": {
+        "message": "Añadir desde el tablero…"
+    },
+    "rse12_add_step_btn": {
+        "message": "+ Añadir paso"
+    },
+    "rse12_app_placeholder": {
+        "message": "p. ej. spotify:  o  vscode://"
+    },
+    "rse12_browse_btn": {
+        "message": "Examinar…"
+    },
+    "rse12_cancel": {
+        "message": "Cancelar"
+    },
+    "rse12_clipboard_placeholder": {
+        "message": "Texto a copiar"
+    },
+    "rse12_close_aria": {
+        "message": "Cerrar"
+    },
+    "rse12_companion_note": {
+        "message": "Necesita la aplicación complementaria instalada para ejecutar este paso."
+    },
+    "rse12_composer_add": {
+        "message": "Añadir paso"
+    },
+    "rse12_delay_placeholder": {
+        "message": "segundos"
+    },
+    "rse12_empty_steps": {
+        "message": "Aún no hay pasos. Añade uno para crear tu rutina."
+    },
+    "rse12_file_placeholder": {
+        "message": "C:\\ruta\\al\\archivo.pdf  (necesita la aplicación complementaria)"
+    },
+    "rse12_folder_placeholder": {
+        "message": "C:\\ruta\\a\\la\\carpeta  (necesita la aplicación complementaria)"
+    },
+    "rse12_kind_app_label": {
+        "message": "Iniciar aplicación"
+    },
+    "rse12_kind_app_tag": {
+        "message": "APP"
+    },
+    "rse12_kind_clipboard_label": {
+        "message": "Copiar al portapapeles"
+    },
+    "rse12_kind_clipboard_tag": {
+        "message": "COPIAR"
+    },
+    "rse12_kind_delay_label": {
+        "message": "Esperar"
+    },
+    "rse12_kind_delay_tag": {
+        "message": "ESPERA"
+    },
+    "rse12_kind_file_label": {
+        "message": "Abrir archivo"
+    },
+    "rse12_kind_file_tag": {
+        "message": "ARCHIVO"
+    },
+    "rse12_kind_folder_label": {
+        "message": "Abrir carpeta"
+    },
+    "rse12_kind_folder_tag": {
+        "message": "DIR"
+    },
+    "rse12_kind_url_label": {
+        "message": "Abrir URL"
+    },
+    "rse12_kind_url_tag": {
+        "message": "URL"
+    },
+    "rse12_kind_workspace_label": {
+        "message": "Cambiar de espacio"
+    },
+    "rse12_kind_workspace_tag": {
+        "message": "ESPACIO"
+    },
+    "rse12_label_clipboard": {
+        "message": "Portapapeles"
+    },
+    "rse12_label_copy": {
+        "message": "Copiar"
+    },
+    "rse12_label_group": {
+        "message": "grupo"
+    },
+    "rse12_picker_add": {
+        "message": "Añadir"
+    },
+    "rse12_picker_added": {
+        "message": "Añadido ✓"
+    },
+    "rse12_picker_alert": {
+        "message": "No se pudo abrir el selector: ¿está instalada la aplicación complementaria?\n\nComprueba el estado en Ajustes → Cuenta → Aplicación complementaria."
+    },
+    "rse12_picker_no_matches": {
+        "message": "Sin coincidencias."
+    },
+    "rse12_picker_none": {
+        "message": "No se encontraron enlaces, lanzadores ni elementos de portapapeles."
+    },
+    "rse12_picker_search": {
+        "message": "Buscar enlaces, lanzadores, portapapeles…"
+    },
+    "rse12_picker_title": {
+        "message": "Añadir pasos desde tus tableros"
+    },
+    "rse12_remove_step_aria": {
+        "message": "Quitar paso"
+    },
+    "rse12_stagger_label": {
+        "message": "Pausa entre pasos (segundos)"
+    },
+    "rse12_sub_clipboard": {
+        "message": "$1 · portapapeles"
+    },
+    "rse12_sub_group": {
+        "message": "$1 · $2"
+    },
+    "rse12_sub_launcher": {
+        "message": "$1 · lanzador"
+    },
+    "rse12_sub_shortcut": {
+        "message": "$1 · acceso directo"
+    },
+    "rse12_summary_copy": {
+        "message": "Copiar"
+    },
+    "rse12_summary_copy_text": {
+        "message": "Copiar «$1»"
+    },
+    "rse12_summary_launch_app": {
+        "message": "Iniciar aplicación"
+    },
+    "rse12_summary_launch_target": {
+        "message": "Iniciar $1"
+    },
+    "rse12_summary_open_file": {
+        "message": "Abrir archivo"
+    },
+    "rse12_summary_open_file_name": {
+        "message": "Abrir archivo $1"
+    },
+    "rse12_summary_open_folder": {
+        "message": "Abrir carpeta"
+    },
+    "rse12_summary_open_folder_name": {
+        "message": "Abrir carpeta $1"
+    },
+    "rse12_summary_open_host": {
+        "message": "Abrir $1"
+    },
+    "rse12_summary_open_url": {
+        "message": "Abrir URL"
+    },
+    "rse12_summary_step": {
+        "message": "Paso"
+    },
+    "rse12_summary_switch_to": {
+        "message": "Cambiar a $1"
+    },
+    "rse12_summary_switch_workspace": {
+        "message": "Cambiar de espacio de trabajo"
+    },
+    "rse12_summary_wait": {
+        "message": "Esperar $1 s"
+    },
+    "rse12_tag_step_fallback": {
+        "message": "PASO"
+    },
+    "rse12_ws_default": {
+        "message": "Predeterminado"
+    },
+    "s28_add": {
+        "message": "Añadir"
+    },
+    "s28_add_to_group": {
+        "message": "Añadir al grupo"
+    },
+    "s28_added_to": {
+        "message": "Añadido a «$1»"
+    },
+    "s28_cancel": {
+        "message": "Cancelar"
+    },
+    "s28_created_and_added": {
+        "message": "Se creó «$1» y se añadió el enlace"
+    },
+    "s28_group_exists": {
+        "message": "El grupo «$1» ya existe"
+    },
+    "s28_group_not_found": {
+        "message": "No se encontró el grupo «$1»"
+    },
+    "s28_hint_close": {
+        "message": "cerrar"
+    },
+    "s28_hint_navigate": {
+        "message": "navegar"
+    },
+    "s28_hint_open": {
+        "message": "abrir"
+    },
+    "s28_label_group": {
+        "message": "Grupo"
+    },
+    "s28_label_title": {
+        "message": "Título"
+    },
+    "s28_new_group_name_label": {
+        "message": "Nombre del grupo nuevo"
+    },
+    "s28_new_group_option": {
+        "message": "+ Grupo nuevo…"
+    },
+    "s28_new_group_placeholder": {
+        "message": "Introduce un nombre de grupo único"
+    },
+    "s28_no_matches": {
+        "message": "Sin coincidencias para «$1»"
+    },
+    "s28_search_placeholder": {
+        "message": "Buscar enlaces, lanzadores, marcadores…"
+    },
+    "s28_search_web_for": {
+        "message": "Buscar en la web «$1»"
+    },
+    "sbh15_default_workspace": {
+        "message": "Inicio"
+    },
+    "sbh15_image_too_large": {
+        "message": "La imagen es demasiado grande ($1 MB). El tamaño máximo es 2 MB."
+    },
+    "sbh15_quota_exceeded": {
+        "message": "No se pudo guardar el fondo: se superó la cuota de almacenamiento. Prueba con una imagen más pequeña (menos de 1 MB)."
+    },
+    "sbh15_section_fallback": {
+        "message": "Sección"
+    },
+    "sbh15_select_workspace": {
+        "message": "Selecciona un espacio…"
+    },
+    "sbm27_action_failed": {
+        "message": "Acción fallida"
+    },
+    "sbm27_close": {
+        "message": "Cerrar"
+    },
+    "sbm27_code": {
+        "message": "código"
+    },
+    "sbm27_codes": {
+        "message": "códigos"
+    },
+    "sbm27_confirm_delete_public_body": {
+        "message": "Cualquier persona con el enlace perderá el acceso al tablero publicado."
+    },
+    "sbm27_confirm_delete_public_title": {
+        "message": "Eliminar enlace público"
+    },
+    "sbm27_confirm_delete_share_body": {
+        "message": "Esto impide futuras importaciones con este código. Quienes ya importaron el tablero conservarán su copia."
+    },
+    "sbm27_confirm_delete_share_title": {
+        "message": "Eliminar código para compartir"
+    },
+    "sbm27_confirm_for_name": {
+        "message": " de «$1»"
+    },
+    "sbm27_copy_code": {
+        "message": "Copiar código"
+    },
+    "sbm27_copy_full_import_code": {
+        "message": "Copiar código de importación completo"
+    },
+    "sbm27_copy_link": {
+        "message": "Copiar enlace"
+    },
+    "sbm27_copy_public_link": {
+        "message": "Copiar enlace público"
+    },
+    "sbm27_copying": {
+        "message": "Copiando…"
+    },
+    "sbm27_created": {
+        "message": "Creado $1"
+    },
+    "sbm27_delete_code": {
+        "message": "Eliminar código"
+    },
+    "sbm27_delete_link": {
+        "message": "Eliminar enlace"
+    },
+    "sbm27_deleting": {
+        "message": "Eliminando…"
+    },
+    "sbm27_expired": {
+        "message": "Caducado"
+    },
+    "sbm27_expires_dash": {
+        "message": "Caduca —"
+    },
+    "sbm27_expires_date": {
+        "message": "Caduca $1"
+    },
+    "sbm27_expires_in_days": {
+        "message": "Caduca en $1 días"
+    },
+    "sbm27_expires_today": {
+        "message": "Caduca hoy"
+    },
+    "sbm27_extend_30_days": {
+        "message": "Ampliar 30 días"
+    },
+    "sbm27_extending": {
+        "message": "Ampliando…"
+    },
+    "sbm27_full_code_unavailable": {
+        "message": "El código completo no está disponible en este dispositivo."
+    },
+    "sbm27_full_code_unavailable_title": {
+        "message": "El código completo no está disponible en este dispositivo"
+    },
+    "sbm27_group": {
+        "message": "grupo"
+    },
+    "sbm27_groups": {
+        "message": "grupos"
+    },
+    "sbm27_link": {
+        "message": "enlace"
+    },
+    "sbm27_links": {
+        "message": "enlaces"
+    },
+    "sbm27_load_error_generic": {
+        "message": "No se han podido cargar los tableros compartidos o públicos. Inténtalo de nuevo."
+    },
+    "sbm27_more_actions": {
+        "message": "Más acciones"
+    },
+    "sbm27_never_expires": {
+        "message": "Nunca caduca"
+    },
+    "sbm27_next": {
+        "message": "Siguiente"
+    },
+    "sbm27_no_match": {
+        "message": "Ningún tablero coincide con «$1»."
+    },
+    "sbm27_no_name_set": {
+        "message": "Sin nombre establecido"
+    },
+    "sbm27_open": {
+        "message": "Abrir"
+    },
+    "sbm27_opening": {
+        "message": "Abriendo…"
+    },
+    "sbm27_pager_info": {
+        "message": "Página $1 de $2 · $3 tableros"
+    },
+    "sbm27_prev": {
+        "message": "Anterior"
+    },
+    "sbm27_public_board_link_copied": {
+        "message": "Enlace del tablero público copiado."
+    },
+    "sbm27_public_link_deleted": {
+        "message": "Enlace público eliminado."
+    },
+    "sbm27_public_link_extended": {
+        "message": "Enlace público ampliado 30 días."
+    },
+    "sbm27_public_link_unavailable": {
+        "message": "El enlace público no está disponible en este dispositivo."
+    },
+    "sbm27_public_link_unavailable_title": {
+        "message": "El enlace público no está disponible en este dispositivo"
+    },
+    "sbm27_published_close": {
+        "message": "Cerrar la ventana de tableros publicados"
+    },
+    "sbm27_published_empty_help": {
+        "message": "Publica un espacio de trabajo como un enlace público de solo lectura para compartirlo con cualquiera, sin necesidad de la extensión."
+    },
+    "sbm27_published_empty_title": {
+        "message": "Aún no hay tableros publicados."
+    },
+    "sbm27_published_error": {
+        "message": "No se han podido cargar los tableros publicados."
+    },
+    "sbm27_published_loading": {
+        "message": "Cargando tableros publicados…"
+    },
+    "sbm27_published_subtitle": {
+        "message": "Enlaces públicos de solo lectura que cualquiera puede abrir."
+    },
+    "sbm27_published_title": {
+        "message": "Tableros publicados"
+    },
+    "sbm27_search_aria": {
+        "message": "Buscar tableros por código o nombre"
+    },
+    "sbm27_search_placeholder": {
+        "message": "Buscar por código o nombre…"
+    },
+    "sbm27_share_code_copied": {
+        "message": "Código para compartir copiado."
+    },
+    "sbm27_share_code_deleted": {
+        "message": "Código para compartir eliminado."
+    },
+    "sbm27_share_code_extended": {
+        "message": "Código para compartir ampliado 30 días."
+    },
+    "sbm27_shared_close": {
+        "message": "Cerrar la ventana de tableros compartidos"
+    },
+    "sbm27_shared_empty_help": {
+        "message": "Comparte un espacio de trabajo para crear un código de importación temporal que otros puedan usar para importar su propia copia."
+    },
+    "sbm27_shared_empty_title": {
+        "message": "Aún no hay tableros compartidos."
+    },
+    "sbm27_shared_error": {
+        "message": "No se han podido cargar los tableros compartidos."
+    },
+    "sbm27_shared_loading": {
+        "message": "Cargando tableros compartidos…"
+    },
+    "sbm27_shared_subtitle": {
+        "message": "Los códigos permiten importar una copia independiente de tu tablero. Los cambios posteriores no se sincronizan."
+    },
+    "sbm27_shared_title": {
+        "message": "Tableros compartidos"
+    },
+    "sbm27_try_again": {
+        "message": "Reintentar"
+    },
+    "sbm27_unnamed": {
+        "message": "Sin nombre"
+    },
+    "sbm27_update_code": {
+        "message": "Actualizar código"
+    },
+    "sbm27_update_public_title": {
+        "message": "Sustituir la instantánea publicada por el tablero actual (mismo enlace)"
+    },
+    "sbm27_update_share_title": {
+        "message": "Volver a capturar este espacio de trabajo en el mismo código (solo nuevas importaciones)"
+    },
+    "sbm27_update_snapshot": {
+        "message": "Actualizar instantánea"
+    },
+    "sbm27_updating": {
+        "message": "Actualizando…"
+    },
+    "scwh13_choose_workspace": {
+        "message": "Elige primero un espacio de destino."
+    },
+    "scwh13_default_group_name": {
+        "message": "Ventana actual"
+    },
+    "scwh13_default_workspace_name": {
+        "message": "Inicio"
+    },
+    "scwh13_duplicates_skipped": {
+        "message": "$1 $2 duplicada(s) se omitirá(n)."
+    },
+    "scwh13_enter_group_name": {
+        "message": "Introduce un nombre de grupo."
+    },
+    "scwh13_group_name_exists": {
+        "message": "Ya existe un grupo con ese nombre en el espacio seleccionado."
+    },
+    "scwh13_items_saved_order": {
+        "message": "$1 $2 se guardarán en el orden de las pestañas."
+    },
+    "scwh13_loading_tabs": {
+        "message": "Cargando las pestañas de la ventana actual…"
+    },
+    "scwh13_no_supported_tabs": {
+        "message": "No hay pestañas compatibles disponibles para guardar de esta ventana."
+    },
+    "scwh13_no_tabs_left": {
+        "message": "No quedan pestañas compatibles para guardar con las opciones actuales."
+    },
+    "scwh13_read_tabs_error": {
+        "message": "No se pudieron leer las pestañas de la ventana actual: $1"
+    },
+    "scwh13_save_error_fallback": {
+        "message": "No se pudo guardar la ventana actual como grupo."
+    },
+    "scwh13_save_group": {
+        "message": "Guardar grupo"
+    },
+    "scwh13_saved_to_workspace": {
+        "message": "Se guardaron $1 $2 en «$3» en $4."
+    },
+    "scwh13_saving": {
+        "message": "Guardando…"
+    },
+    "scwh13_supported_found": {
+        "message": "$1 $2 compatible(s) encontrada(s) en la ventana actual."
+    },
+    "scwh13_unsupported_ignored": {
+        "message": "$1 $2 interna(s) o no compatible(s) se ignorará(n)."
+    },
+    "scwh13_untitled_tab": {
+        "message": "Pestaña sin título"
+    },
+    "search_type_bookmark": {
+        "message": "Marcador"
+    },
+    "search_type_clipboard": {
+        "message": "Portapapeles"
+    },
+    "search_type_launcher": {
+        "message": "Lanzador"
+    },
+    "search_type_link": {
+        "message": "Enlace"
+    },
+    "setacct_autopull_meta": {
+        "message": "Aplica el estado más reciente de la nube cuando tu panel local no tiene cambios sin sincronizar."
+    },
+    "setacct_autopull_title": {
+        "message": "Descargar automáticamente el estado más reciente de la nube"
+    },
+    "setacct_autosync_intro": {
+        "message": "La sincronización automática se aplica al panel de nube activo seleccionado arriba."
+    },
+    "setacct_autosync_row_meta": {
+        "message": "Envía los cambios locales al panel activo automáticamente."
+    },
+    "setacct_autosync_row_title": {
+        "message": "Sincronización automática con la nube"
+    },
+    "setacct_autosync_title": {
+        "message": "Sincronización automática ✦"
+    },
+    "setacct_companion_guide_link": {
+        "message": "Guía de configuración del complemento ↗"
+    },
+    "setacct_companion_help_aria": {
+        "message": "Ayuda sobre la aplicación complementaria"
+    },
+    "setacct_companion_help_title": {
+        "message": "Ayuda sobre la aplicación complementaria"
+    },
+    "setacct_companion_retry_aria": {
+        "message": "Reintentar la comprobación de estado del complemento"
+    },
+    "setacct_companion_retry_title": {
+        "message": "Reintentar"
+    },
+    "setacct_companion_status_meta": {
+        "message": "Necesario para los lanzadores de carpetas, archivos y comandos."
+    },
+    "setacct_companion_status_title": {
+        "message": "Estado del complemento de escritorio"
+    },
+    "setacct_companion_title": {
+        "message": "Aplicación complementaria"
+    },
+    "setacct_delay_1m": {
+        "message": "1 minuto"
+    },
+    "setacct_delay_2m": {
+        "message": "2 minutos"
+    },
+    "setacct_delay_30s": {
+        "message": "30 segundos"
+    },
+    "setacct_delay_5m": {
+        "message": "5 minutos"
+    },
+    "setacct_poll_10m": {
+        "message": "10 minutos"
+    },
+    "setacct_poll_1m": {
+        "message": "1 minuto"
+    },
+    "setacct_poll_3m": {
+        "message": "3 minutos"
+    },
+    "setacct_poll_5m": {
+        "message": "5 minutos"
+    },
+    "setacct_poll_meta": {
+        "message": "Con qué frecuencia comprobar si hay cambios en la nube."
+    },
+    "setacct_poll_title": {
+        "message": "Buscar actualizaciones"
+    },
+    "setacct_syncdelay_meta": {
+        "message": "Tras los cambios locales, esperar antes de enviarlos."
+    },
+    "setacct_syncdelay_title": {
+        "message": "Retardo de sincronización"
+    },
+    "setbg_advanced_heading": {
+        "message": "Degradados avanzados"
+    },
+    "setbg_anim_aurora_borealis": {
+        "message": "Aurora boreal"
+    },
+    "setbg_anim_aurora_dream": {
+        "message": "Sueño de aurora"
+    },
+    "setbg_anim_gentle_breeze": {
+        "message": "Brisa suave"
+    },
+    "setbg_anim_gentle_prism": {
+        "message": "Prisma suave"
+    },
+    "setbg_anim_liquid_motion": {
+        "message": "Movimiento líquido"
+    },
+    "setbg_anim_ocean_wave": {
+        "message": "Ola del océano"
+    },
+    "setbg_anim_prism_light": {
+        "message": "Luz de prisma"
+    },
+    "setbg_anim_shimmer": {
+        "message": "Destello"
+    },
+    "setbg_anim_sunset_flow": {
+        "message": "Flujo del atardecer"
+    },
+    "setbg_animated_heading": {
+        "message": "Fondos animados"
+    },
+    "setbg_custom_css_apply": {
+        "message": "Aplicar"
+    },
+    "setbg_custom_css_heading": {
+        "message": "CSS personalizado"
+    },
+    "setbg_custom_css_help_aria": {
+        "message": "Ayuda sobre CSS personalizado"
+    },
+    "setbg_custom_css_help_title": {
+        "message": "Ayuda sobre CSS personalizado"
+    },
+    "setbg_custom_css_placeholder": {
+        "message": "Cualquier valor de fondo CSS válido, p. ej.\nradial-gradient(circle, #ff6b6b, #4ecdc4)\nurl('https://...') center/cover"
+    },
+    "setbg_custom_image_heading": {
+        "message": "Imagen personalizada"
+    },
+    "setbg_gradient_heading": {
+        "message": "Fondo degradado"
+    },
+    "setbg_reset": {
+        "message": "Restablecer valores predeterminados"
+    },
+    "setbg_solid_heading": {
+        "message": "Color sólido"
+    },
+    "setbg_solid_pick_label": {
+        "message": "Elige un color de fondo"
+    },
+    "setbg_theme_dark": {
+        "message": "Oscuro predeterminado"
+    },
+    "setbg_theme_dark_title": {
+        "message": "Oscuro predeterminado"
+    },
+    "setbg_theme_defaults_heading": {
+        "message": "Valores predeterminados del tema"
+    },
+    "setbg_theme_lavender_sky": {
+        "message": "Cielo lavanda"
+    },
+    "setbg_theme_lavender_sky_title": {
+        "message": "Cielo lavanda"
+    },
+    "setbg_theme_light": {
+        "message": "Claro predeterminado"
+    },
+    "setbg_theme_light_title": {
+        "message": "Claro predeterminado"
+    },
+    "setbg_theme_luxury": {
+        "message": "Lujo"
+    },
+    "setbg_theme_luxury_title": {
+        "message": "Lujo"
+    },
+    "setbg_theme_midnight": {
+        "message": "Medianoche"
+    },
+    "setbg_theme_midnight_title": {
+        "message": "Medianoche"
+    },
+    "setbg_theme_nordic": {
+        "message": "Nórdico"
+    },
+    "setbg_theme_nordic_title": {
+        "message": "Nórdico"
+    },
+    "setbg_theme_ocean": {
+        "message": "Océano"
+    },
+    "setbg_theme_ocean_title": {
+        "message": "Océano"
+    },
+    "setbg_theme_pastel_sunset": {
+        "message": "Atardecer pastel"
+    },
+    "setbg_theme_pastel_sunset_title": {
+        "message": "Atardecer pastel"
+    },
+    "setbg_theme_professional": {
+        "message": "Profesional"
+    },
+    "setbg_theme_professional_title": {
+        "message": "Profesional"
+    },
+    "setbg_theme_sakura": {
+        "message": "Sakura"
+    },
+    "setbg_theme_sakura_title": {
+        "message": "Sakura"
+    },
+    "setbg_theme_simple": {
+        "message": "Simple (predeterminado)"
+    },
+    "setbg_theme_simple_title": {
+        "message": "Simple (predeterminado)"
+    },
+    "setbg_upload": {
+        "message": "Subir"
+    },
+    "setbg_tabs_aria": {
+        "message": "Tipo de fondo"
+    },
+    "setbg_tab_themes": {
+        "message": "Temas"
+    },
+    "setbg_tab_animated": {
+        "message": "Animados"
+    },
+    "setbg_tab_gradients": {
+        "message": "Degradados"
+    },
+    "setbg_tab_solid": {
+        "message": "Sólido"
+    },
+    "setbg_tab_image": {
+        "message": "Imagen"
+    },
+    "setbg_tab_css": {
+        "message": "CSS"
+    },
+    "setbg_scene_wave": {
+        "message": "Onda"
+    },
+    "setbg_scene_waves": {
+        "message": "Ondas"
+    },
+    "setbg_scene_swell": {
+        "message": "Oleaje"
+    },
+    "setbg_scene_constellation": {
+        "message": "Constelación"
+    },
+    "setbg_scene_grid": {
+        "message": "Cuadrícula"
+    },
+    "setbg_scene_drift": {
+        "message": "Burbujas"
+    },
+    "setbg_scene_leaves": {
+        "message": "Hojas"
+    },
+    "setbg_scene_maple": {
+        "message": "Arce"
+    },
+    "setbg_scene_snow": {
+        "message": "Nieve"
+    },
+    "setbg_scene_rain": {
+        "message": "Lluvia"
+    },
+    "setbg_scene_tint": {
+        "message": "Tono"
+    },
+    "setbg_scene_tint_custom": {
+        "message": "Tono personalizado"
+    },
+    "setbg_scene_tint_teal": {
+        "message": "Verde azulado"
+    },
+    "setbg_scene_tint_coral": {
+        "message": "Coral"
+    },
+    "setbg_scene_tint_moss": {
+        "message": "Musgo"
+    },
+    "setbg_scene_tint_indigo": {
+        "message": "Índigo"
+    },
+    "setbg_scene_tint_magenta": {
+        "message": "Magenta"
+    },
+    "setbg_scene_tint_amber": {
+        "message": "Ámbar"
+    },
+    "setbg_scene_variant": {
+        "message": "Apariencia"
+    },
+    "setbg_scene_variant_system": {
+        "message": "Sistema"
+    },
+    "setbg_scene_variant_dark": {
+        "message": "Oscuro"
+    },
+    "setbg_scene_variant_light": {
+        "message": "Claro"
+    },
+    "setbg_solid_sand": {
+        "message": "Arena"
+    },
+    "setbg_solid_sage": {
+        "message": "Salvia"
+    },
+    "setbg_solid_slate": {
+        "message": "Pizarra"
+    },
+    "setbg_solid_terracotta": {
+        "message": "Terracota"
+    },
+    "setbg_solid_ink": {
+        "message": "Tinta"
+    },
+    "setbg_solid_blush": {
+        "message": "Rubor"
+    },
+    "setbg_solid_custom": {
+        "message": "Personalizado"
+    },
+    "setbg_name_custom_color": {
+        "message": "Color personalizado"
+    },
+    "setbg_name_custom_image": {
+        "message": "Imagen personalizada"
+    },
+    "setbg_name_custom_css": {
+        "message": "CSS personalizado"
+    },
+    "setbg_name_gradient": {
+        "message": "Degradado"
+    },
+    "setbg_image_drop": {
+        "message": "Suelta una imagen o elige un archivo"
+    },
+    "setdata_backup": {
+        "message": "Copia de seguridad"
+    },
+    "setdata_bookmarks_help_aria": {
+        "message": "Ayuda sobre importar desde marcadores"
+    },
+    "setdata_bookmarks_help_title": {
+        "message": "Ayuda sobre importar desde marcadores"
+    },
+    "setdata_bring_links": {
+        "message": "Traer enlaces"
+    },
+    "setdata_choose_file": {
+        "message": "Elegir archivo"
+    },
+    "setdata_clear_btn": {
+        "message": "Borrar"
+    },
+    "setdata_export_btn": {
+        "message": "Exportar"
+    },
+    "setdata_export_desc": {
+        "message": "Espacios y ajustes en un archivo JSON"
+    },
+    "setdata_export_title": {
+        "message": "Exportar panel"
+    },
+    "setdata_from_bookmark_folder": {
+        "message": "Desde una carpeta de marcadores"
+    },
+    "setdata_import_bookmarks_btn": {
+        "message": "Importar"
+    },
+    "setdata_import_desc": {
+        "message": "Reemplaza los datos actuales"
+    },
+    "setdata_import_title": {
+        "message": "Importar panel"
+    },
+    "setdata_no_snapshot": {
+        "message": "Aún no se ha guardado ninguna instantánea"
+    },
+    "setdata_restore_btn": {
+        "message": "Restaurar"
+    },
+    "setdata_save_window_btn": {
+        "message": "Guardar"
+    },
+    "setdata_save_window_desc": {
+        "message": "Captura las pestañas abiertas como un grupo"
+    },
+    "setdata_save_window_title": {
+        "message": "Guardar ventana actual"
+    },
+    "setdata_select_folder": {
+        "message": "Selecciona una carpeta…"
+    },
+    "setdata_session_help_aria": {
+        "message": "Ayuda sobre la recuperación de sesión"
+    },
+    "setdata_session_help_title": {
+        "message": "Ayuda sobre la recuperación de sesión"
+    },
+    "setdata_session_recovery": {
+        "message": "Recuperación de sesión"
+    },
+    "setdata_snapshot_meta": {
+        "message": "Instantánea · Aún no hay instantánea"
+    },
+    "setdata_view_btn": {
+        "message": "Ver"
+    },
+    "setg_favicons_autofetch": {
+        "message": "Obtener favicon automáticamente al guardar el enlace"
+    },
+    "setg_favicons_get_all": {
+        "message": "Obtener favicons para todos los enlaces"
+    },
+    "setg_favicons_remove_all": {
+        "message": "Eliminar todos los iconos (este espacio)"
+    },
+    "setg_favicons_title": {
+        "message": "Favicons"
+    },
+    "setg_greeting_show": {
+        "message": "Mostrar saludo en la cabecera"
+    },
+    "setg_greeting_title": {
+        "message": "Saludo"
+    },
+    "setg_groups_autogrow": {
+        "message": "Ampliar grupos automáticamente al añadir elementos"
+    },
+    "setg_groups_title": {
+        "message": "Grupos"
+    },
+    "setg_link_health_check": {
+        "message": "Comprobar los enlaces guardados automáticamente"
+    },
+    "setg_link_health_help_aria": {
+        "message": "Ayuda sobre el estado de los enlaces"
+    },
+    "setg_link_health_help_title": {
+        "message": "Ayuda sobre el estado de los enlaces"
+    },
+    "setg_link_health_title": {
+        "message": "Estado de los enlaces ✦"
+    },
+    "setg_logo_desc": {
+        "message": "El logotipo mantiene su proporción y su alineación para que su parte inferior quede a la altura de las pestañas de espacios."
+    },
+    "setg_logo_help_aria": {
+        "message": "Ayuda sobre el logotipo"
+    },
+    "setg_logo_help_title": {
+        "message": "Ayuda sobre el logotipo"
+    },
+    "setg_logo_remove": {
+        "message": "Eliminar"
+    },
+    "setg_logo_size": {
+        "message": "Tamaño del logotipo"
+    },
+    "setg_logo_size_big": {
+        "message": "Grande — máx. 120px"
+    },
+    "setg_logo_size_middle": {
+        "message": "Mediano — máx. 80px"
+    },
+    "setg_logo_size_small": {
+        "message": "Pequeño — máx. 40px"
+    },
+    "setg_logo_title": {
+        "message": "Logotipo"
+    },
+    "setg_logo_upload": {
+        "message": "Subir logotipo"
+    },
+    "setg_overlay_title": {
+        "message": "Superposición en otras páginas"
+    },
+    "setg_searchbar_engine": {
+        "message": "Motor"
+    },
+    "setg_searchbar_engine_bing": {
+        "message": "Bing"
+    },
+    "setg_searchbar_engine_brave": {
+        "message": "Brave"
+    },
+    "setg_searchbar_engine_browser": {
+        "message": "Predeterminado del navegador"
+    },
+    "setg_searchbar_engine_duckduckgo": {
+        "message": "DuckDuckGo"
+    },
+    "setg_searchbar_engine_google": {
+        "message": "Google"
+    },
+    "setg_searchbar_engine_yahoo": {
+        "message": "Yahoo"
+    },
+    "setg_searchbar_help_aria": {
+        "message": "Ayuda sobre la barra de búsqueda"
+    },
+    "setg_searchbar_help_title": {
+        "message": "Ayuda sobre la barra de búsqueda"
+    },
+    "setg_searchbar_newtab": {
+        "message": "Abrir resultados en una pestaña nueva"
+    },
+    "setg_searchbar_show": {
+        "message": "Mostrar barra de búsqueda"
+    },
+    "setg_tasks_title": {
+        "message": "Tareas"
+    },
+    "setg_tasks_badge": {
+        "message": "Mostrar el número de tareas pendientes en el botón de tareas"
+    },
+    "setg_tasks_notifications": {
+        "message": "Task reminder notifications"
+    },
+    "setg_tasks_notif_blocked": {
+        "message": "Blocked by the browser. Allow notifications for this extension to receive task reminders."
+    },
+    "setg_searchbar_title": {
+        "message": "Barra de búsqueda"
+    },
+    "setg_session_desc": {
+        "message": "Controla si ReadyTab muestra el cuadro de recuperación al iniciar cuando hay una sesión guardada disponible."
+    },
+    "setg_session_show": {
+        "message": "Mostrar cuadro de recuperación al iniciar"
+    },
+    "setg_session_title": {
+        "message": "Recuperación de sesión"
+    },
+    "setg_show_date": {
+        "message": "Mostrar la fecha"
+    },
+    "setg_spotlight_all_pages": {
+        "message": "Activar en todas las páginas"
+    },
+    "setg_spotlight_appearance": {
+        "message": "Apariencia"
+    },
+    "setg_spotlight_gesture": {
+        "message": "Abrir con gesto del ratón"
+    },
+    "setg_spotlight_group_name": {
+        "message": "Buscar por nombre de grupo"
+    },
+    "setg_spotlight_help_aria": {
+        "message": "Ayuda sobre la búsqueda Spotlight"
+    },
+    "setg_spotlight_help_title": {
+        "message": "Ayuda sobre la búsqueda Spotlight"
+    },
+    "setg_spotlight_matching_tabs": {
+        "message": "Mostrar pestañas abiertas coincidentes en los resultados"
+    },
+    "setg_spotlight_shortcuts": {
+        "message": "Mostrar accesos directos"
+    },
+    "setg_spotlight_tabs": {
+        "message": "Mostrar cinta de pestañas"
+    },
+    "setg_spotlight_tabs_domain": {
+        "message": "Agrupar pestañas por dominio"
+    },
+    "setg_spotlight_tabs_orientation": {
+        "message": "Disposición de la cinta"
+    },
+    "setg_spotlight_tabs_orientation_left": {
+        "message": "Izquierda (vertical)"
+    },
+    "setg_spotlight_tabs_orientation_top": {
+        "message": "Arriba (horizontal)"
+    },
+    "setg_spotlight_theme_dark": {
+        "message": "Oscuro"
+    },
+    "setg_spotlight_theme_light": {
+        "message": "Claro"
+    },
+    "setg_spotlight_title": {
+        "message": "Búsqueda Spotlight"
+    },
+    "setg_tab_ribbon_title": {
+        "message": "Cinta de pestañas"
+    },
+    "setlay_apply_btn": {
+        "message": "Aplicar"
+    },
+    "setlay_apply_to_other": {
+        "message": "Aplicar a otros espacios..."
+    },
+    "setlay_autoarrange_desc": {
+        "message": "Agrupa todos los grupos hacia arriba para eliminar huecos y expande cualquier grupo cuyo contenido quede cortado."
+    },
+    "setlay_autoarrange_title": {
+        "message": "Organizar diseño automáticamente"
+    },
+    "setlay_background_title": {
+        "message": "Fondo"
+    },
+    "setlay_compact_btn": {
+        "message": "Diseño compacto"
+    },
+    "setlay_copy_from_ws_desc": {
+        "message": "Copia el fondo y el tema de otro espacio a este."
+    },
+    "setlay_copy_from_ws_help_aria": {
+        "message": "Ayuda sobre copiar desde un espacio"
+    },
+    "setlay_copy_from_ws_help_title": {
+        "message": "Ayuda sobre copiar desde un espacio"
+    },
+    "setlay_copy_from_ws_title": {
+        "message": "Copiar desde un espacio"
+    },
+    "setlay_current_theme_label": {
+        "message": "Tema actual"
+    },
+    "setlay_headsup_label": {
+        "message": "Aviso:"
+    },
+    "setlay_headsup_text": {
+        "message": "esto también copia el tema del espacio, no solo el fondo."
+    },
+    "setlay_theme_aurora": {
+        "message": "Cristal aurora"
+    },
+    "setlay_theme_dark": {
+        "message": "Oscuro"
+    },
+    "setlay_theme_frost": {
+        "message": "Escarcha"
+    },
+    "setlay_theme_help_aria": {
+        "message": "Ayuda sobre el tema"
+    },
+    "setlay_theme_help_title": {
+        "message": "Ayuda sobre el tema"
+    },
+    "setlay_theme_lavender": {
+        "message": "Cielo lavanda"
+    },
+    "setlay_theme_light": {
+        "message": "Claro"
+    },
+    "setlay_theme_luxury": {
+        "message": "Lujo"
+    },
+    "setlay_theme_midnight": {
+        "message": "Medianoche"
+    },
+    "setlay_theme_nordic": {
+        "message": "Nórdico"
+    },
+    "setlay_theme_ocean": {
+        "message": "Océano"
+    },
+    "setlay_theme_pastel": {
+        "message": "Atardecer pastel"
+    },
+    "setlay_theme_professional": {
+        "message": "Profesional"
+    },
+    "setlay_theme_sakura": {
+        "message": "Sakura"
+    },
+    "setlay_theme_simple": {
+        "message": "Simple (predeterminado)"
+    },
+    "setlay_theme_title": {
+        "message": "Tema"
+    },
+    "setspc_board_token_placeholder": {
+        "message": "Token del tablero"
+    },
+    "setspc_drag_reorder": {
+        "message": "Arrastra para reordenar"
+    },
+    "setspc_help_import_aria": {
+        "message": "Ayuda sobre importar desde un código"
+    },
+    "setspc_help_import_title": {
+        "message": "Ayuda sobre importar desde un código"
+    },
+    "setspc_help_managed_aria": {
+        "message": "Ayuda sobre los tableros gestionados"
+    },
+    "setspc_help_managed_title": {
+        "message": "Ayuda sobre los tableros gestionados"
+    },
+    "setspc_help_spaces_aria": {
+        "message": "Ayuda sobre los espacios"
+    },
+    "setspc_help_spaces_title": {
+        "message": "Ayuda sobre los espacios"
+    },
+    "setspc_import_btn": {
+        "message": "Importar"
+    },
+    "setspc_import_desc": {
+        "message": "Pega un código para compartir e importar una copia de un espacio que hayan compartido contigo."
+    },
+    "setspc_import_from_code": {
+        "message": "Importar desde un código"
+    },
+    "setspc_import_placeholder": {
+        "message": "p. ej. A3X9KZ.4F2A9C7D1E5B"
+    },
+    "setspc_managed_boards_desc": {
+        "message": "Tableros a los que otros pueden suscribirse: solo lectura por defecto, editables con una clave de edición compartida."
+    },
+    "setspc_managed_boards_row": {
+        "message": "Tableros gestionados"
+    },
+    "setspc_managed_boards_title": {
+        "message": "Tableros gestionados ✦"
+    },
+    "setspc_managed_manage_btn": {
+        "message": "Gestionar"
+    },
+    "setspc_pro_badge": {
+        "message": "✦ Pro"
+    },
+    "setspc_pro_note": {
+        "message": "Compartir un espacio mediante un código y publicar tableros en línea son funciones Pro. Importar un espacio que hayan compartido contigo siempre es gratis."
+    },
+    "setspc_published_boards": {
+        "message": "Tableros publicados"
+    },
+    "setspc_published_boards_desc": {
+        "message": "Enlaces públicos de solo lectura que has creado"
+    },
+    "setspc_published_manage_btn": {
+        "message": "Gestionar"
+    },
+    "setspc_rename_cancel": {
+        "message": "Cancelar"
+    },
+    "setspc_rename_error": {
+        "message": "Introduce un nombre para el espacio."
+    },
+    "setspc_rename_placeholder": {
+        "message": "Introduce el nombre del espacio"
+    },
+    "setspc_rename_save": {
+        "message": "Guardar"
+    },
+    "setspc_rename_title": {
+        "message": "Cambiar nombre del espacio"
+    },
+    "setspc_shared_boards": {
+        "message": "Tableros compartidos"
+    },
+    "setspc_shared_boards_desc": {
+        "message": "Los códigos permiten importar una copia independiente de tu tablero. Los cambios posteriores no se sincronizan."
+    },
+    "setspc_shared_manage_btn": {
+        "message": "Gestionar"
+    },
+    "setspc_subscribe_btn": {
+        "message": "Suscribirse"
+    },
+    "setspc_subscribe_title": {
+        "message": "Suscribirse a un tablero"
+    },
+    "setspc_workspaces": {
+        "message": "Espacios"
+    },
+    "settings_clock": {
+        "message": "Reloj"
+    },
+    "settings_clock_12h": {
+        "message": "12h (AM/PM)"
+    },
+    "settings_clock_format": {
+        "message": "Formato"
+    },
+    "settings_clock_help": {
+        "message": "Ayuda sobre el reloj"
+    },
+    "settings_help_about": {
+        "message": "Ayuda sobre $1"
+    },
+    "settings_help_this_setting": {
+        "message": "este ajuste"
+    },
+    "settings_link_behavior": {
+        "message": "Comportamiento de los enlaces"
+    },
+    "settings_link_behavior_help": {
+        "message": "Ayuda sobre el comportamiento de los enlaces"
+    },
+    "settings_link_current_tab": {
+        "message": "Pestaña actual"
+    },
+    "settings_link_new_tab": {
+        "message": "Pestaña nueva"
+    },
+    "settings_open_links_in": {
+        "message": "Abrir enlaces en"
+    },
+    "settings_show_clock": {
+        "message": "Mostrar reloj en la cabecera"
+    },
+    "settings_show_seconds": {
+        "message": "Mostrar segundos"
+    },
+    "settings_tab_account": {
+        "message": "Cuenta"
+    },
+    "settings_tab_data": {
+        "message": "Datos"
+    },
+    "settings_tab_design": {
+        "message": "Diseño"
+    },
+    "settings_tab_general": {
+        "message": "General"
+    },
+    "settings_tab_spaces": {
+        "message": "Espacios"
+    },
+    "settings_title": {
+        "message": "Ajustes"
+    },
+    "sgh_sync_applies": {
+        "message": "La sincronización automática se aplica al panel en la nube activo seleccionado en Cuenta."
+    },
+    "sgh_sync_choose_dashboard": {
+        "message": "Elige o crea un panel en la nube en Cuenta. La sincronización automática siempre se aplica al panel activo que haya allí."
+    },
+    "sgh_sync_connect_pro": {
+        "message": "Conecta tu cuenta Pro en Cuenta antes de que pueda ejecutarse la sincronización automática en la nube."
+    },
+    "sgh_sync_needs_pro": {
+        "message": "Se requiere ReadyTab Pro para sincronizar automáticamente tu panel en la nube."
+    },
+    "sgh_sync_uses": {
+        "message": "La sincronización automática usa el panel en la nube activo seleccionado en Cuenta."
+    },
+    "shadow_glow": {
+        "message": "Resplandor"
+    },
+    "shadow_medium": {
+        "message": "Media"
+    },
+    "shadow_none": {
+        "message": "Ninguna"
+    },
+    "shadow_strong": {
+        "message": "Fuerte"
+    },
+    "shadow_subtle": {
+        "message": "Sutil (papel)"
+    },
+    "sl26_activate": {
+        "message": "Activar"
+    },
+    "sl26_activating": {
+        "message": "Activando…"
+    },
+    "sl26_active": {
+        "message": "Activo"
+    },
+    "sl26_active_dashboard": {
+        "message": "panel activo"
+    },
+    "sl26_back": {
+        "message": "Atrás"
+    },
+    "sl26_backup_sync_desc": {
+        "message": "Haz copias de seguridad y sincroniza tus espacios entre dispositivos. Los datos del tablero se cifran antes de salir del navegador."
+    },
+    "sl26_close": {
+        "message": "Cerrar"
+    },
+    "sl26_cloud": {
+        "message": "Nube"
+    },
+    "sl26_cloud_dashboards": {
+        "message": "Paneles en la nube"
+    },
+    "sl26_cloud_sync": {
+        "message": "Sincronización en la nube"
+    },
+    "sl26_confirm_delete_dashboard": {
+        "message": "¿Eliminar este panel de nube? Esta acción no se puede deshacer."
+    },
+    "sl26_confirm_pull": {
+        "message": "Confirmar descarga"
+    },
+    "sl26_confirm_update": {
+        "message": "Confirmar actualización"
+    },
+    "sl26_connect_cloud_sync": {
+        "message": "Conectar la sincronización en la nube"
+    },
+    "sl26_connect_to_cloud": {
+        "message": "Conectar a la nube"
+    },
+    "sl26_connecting": {
+        "message": "Conectando…"
+    },
+    "sl26_copied": {
+        "message": "¡Copiado!"
+    },
+    "sl26_copy_key": {
+        "message": "Copiar clave"
+    },
+    "sl26_copy_key_aria": {
+        "message": "Copiar clave de licencia"
+    },
+    "sl26_dashboard_name_placeholder": {
+        "message": "Nombre del panel…"
+    },
+    "sl26_days_ago": {
+        "message": "hace $1 d"
+    },
+    "sl26_deactivates_pro": {
+        "message": "Elimina esta licencia y sus funciones de pago de este dispositivo."
+    },
+    "sl26_delete_dashboard": {
+        "message": "Eliminar panel"
+    },
+    "sl26_enter_dashboard_name": {
+        "message": "Introduce un nombre para el panel."
+    },
+    "sl26_get_pro": {
+        "message": "Comparar planes"
+    },
+    "sl26_have_license_key": {
+        "message": "¿Ya tienes una clave de licencia?"
+    },
+    "sl26_hours_ago": {
+        "message": "hace $1 h"
+    },
+    "sl26_just_now": {
+        "message": "ahora mismo"
+    },
+    "sl26_latest_snapshot": {
+        "message": "Última instantánea"
+    },
+    "sl26_license": {
+        "message": "Licencia"
+    },
+    "sl26_license_key": {
+        "message": "Clave de licencia"
+    },
+    "sl26_loading": {
+        "message": "Cargando…"
+    },
+    "sl26_local": {
+        "message": "Local"
+    },
+    "sl26_manage": {
+        "message": "Gestionar"
+    },
+    "sl26_min_ago": {
+        "message": "hace $1 min"
+    },
+    "sl26_missing_protected_warning": {
+        "message": "Esta $1 es anterior a la compatibilidad con copias de seguridad de espacios protegidos. ReadyTab restauró la pestaña de espacio$2 de «$3», pero no se incluyó el contenido protegido. $4"
+    },
+    "sl26_more_actions": {
+        "message": "Más acciones"
+    },
+    "sl26_my_dashboard": {
+        "message": "Mi panel"
+    },
+    "sl26_next": {
+        "message": "Siguiente"
+    },
+    "sl26_no_dashboards_yet": {
+        "message": "Aún no hay paneles en la nube. Sube tu espacio actual abajo para crear el primero."
+    },
+    "sl26_no_versions_yet": {
+        "message": "Aún no hay versiones guardadas. Las versiones se crean automáticamente cada vez que actualizas un panel (se conservan hasta 5)."
+    },
+    "sl26_not_synced": {
+        "message": "Sin sincronizar"
+    },
+    "sl26_page_of": {
+        "message": "Página $1 de $2"
+    },
+    "sl26_plan_annual": {
+        "message": "Licencia anual"
+    },
+    "sl26_plan_annual_expires": {
+        "message": "Licencia anual · caduca el $1"
+    },
+    "sl26_plan_lifetime": {
+        "message": "Licencia de por vida"
+    },
+    "sl26_preview_pull_local": {
+        "message": "Previsualizar cambios y descargar a local"
+    },
+    "sl26_preview_restore": {
+        "message": "Previsualizar y restaurar"
+    },
+    "sl26_preview_update_cloud": {
+        "message": "Previsualizar cambios y actualizar la nube"
+    },
+    "sl26_previous": {
+        "message": "Anterior"
+    },
+    "sl26_change_title": {
+        "message": "Antes de cambiar de licencia"
+    },
+    "sl26_change_warning": {
+        "message": "Al eliminar esta licencia se desconecta el acceso a la nube. Otra clave no puede acceder a sus paneles, ajustes ni historial en la nube. Permanecen asociados a la clave anterior y no se transfieren. Tus espacios locales permanecen en este dispositivo."
+    },
+    "sl26_change_backup": {
+        "message": "Antes de continuar, exporta tus datos actuales como JSON en Ajustes → Datos."
+    },
+    "sl26_change_export_scope": {
+        "message": "Esta exportación incluye los espacios locales actuales, no todos los paneles guardados en la nube ni su historial. Desbloquea primero los espacios protegidos; los bloqueados se excluyen."
+    },
+    "sl26_change_publishing": {
+        "message": "También perderás el acceso a la gestión de los tableros compartidos, publicados o alojados con esta licencia."
+    },
+    "sl26_change_continue": {
+        "message": "Activar otra licencia"
+    },
+    "sl26_change_export": {
+        "message": "Exportar datos actuales como JSON"
+    },
+    "sl26_sync_only": {
+        "message": "Solo sincronización"
+    },
+    "sl26_included": {
+        "message": "Incluido"
+    },
+    "sl26_not_included": {
+        "message": "No incluido"
+    },
+    "sl26_sharing_publishing_hosting": {
+        "message": "Compartir, publicar y alojar tableros de equipo"
+    },
+    "sl26_pro_active": {
+        "message": "Pro activo"
+    },
+    "sl26_pro_upsell_desc": {
+        "message": "Free incluye espacios locales ilimitados. Elige Sync para sincronización en la nube, o Full para sincronizar, compartir, publicar y alojar tableros de equipo."
+    },
+    "sl26_pull": {
+        "message": "Descargar"
+    },
+    "sl26_pull_named": {
+        "message": "Descargar «$1»"
+    },
+    "sl26_pulling": {
+        "message": "Descargando…"
+    },
+    "sl26_push_as_new": {
+        "message": "Subir como nuevo"
+    },
+    "sl26_push_new_dashboard": {
+        "message": "Subir un panel nuevo"
+    },
+    "sl26_push_new_dashboard_desc": {
+        "message": "Guarda el espacio actual como un nuevo panel en la nube."
+    },
+    "sl26_pushed_new_dashboard": {
+        "message": "Subido a un nuevo panel en la nube"
+    },
+    "sl26_pushing": {
+        "message": "Subiendo…"
+    },
+    "sl26_recovery_repush": {
+        "message": "Vuelve a subir desde el dispositivo original para recuperar los datos que faltan."
+    },
+    "sl26_recovery_restore_newer": {
+        "message": "Restaura una instantánea más reciente o vuelve a subir desde el dispositivo original para recuperar los datos que faltan."
+    },
+    "sl26_remove": {
+        "message": "Eliminar"
+    },
+    "sl26_remove_license": {
+        "message": "Eliminar licencia"
+    },
+    "sl26_removing": {
+        "message": "Eliminando…"
+    },
+    "sl26_restore_this_version": {
+        "message": "Restaurar esta versión"
+    },
+    "sl26_restore_version_of": {
+        "message": "Restaurar versión de «$1»"
+    },
+    "sl26_restored_version": {
+        "message": "versión restaurada"
+    },
+    "sl26_restoring": {
+        "message": "Restaurando…"
+    },
+    "sl26_show_hide": {
+        "message": "Mostrar / ocultar"
+    },
+    "sl26_show_hide_key_aria": {
+        "message": "Mostrar u ocultar la clave de licencia"
+    },
+    "sl26_snapshot": {
+        "message": "instantánea"
+    },
+    "sl26_something_wrong": {
+        "message": "Algo salió mal."
+    },
+    "sl26_synced_ago": {
+        "message": "Sincronizado $1"
+    },
+    "sl26_update": {
+        "message": "Actualizar"
+    },
+    "sl26_update_named": {
+        "message": "Actualizar «$1»"
+    },
+    "sl26_version": {
+        "message": "Versión"
+    },
+    "sl26_version_history": {
+        "message": "Historial de versiones"
+    },
+    "sl26_workspaces_backed_up": {
+        "message": "Los espacios se respaldan y sincronizan entre dispositivos. Los datos del tablero se cifran antes de salir del navegador."
+    },
+    "slh16_added_favicons": {
+        "message": "Se añadieron favicons a $1 enlace$2"
+    },
+    "slh16_could_not_fetch_favicons": {
+        "message": "No se pudieron obtener los favicons"
+    },
+    "slh16_could_not_remove_icons": {
+        "message": "No se pudieron eliminar los iconos"
+    },
+    "slh16_favicon_overwrite_confirm": {
+        "message": "¿Reemplazar también los iconos que ya están definidos?\n\nAceptar – volver a obtener los favicons de todos los enlaces (sobrescribe los iconos existentes)\nCancelar – añadir favicons solo a los enlaces que no tienen ninguno"
+    },
+    "slh16_fetching_favicons": {
+        "message": "Obteniendo favicons…"
+    },
+    "slh16_no_icons_to_remove": {
+        "message": "No hay iconos que eliminar en este espacio"
+    },
+    "slh16_no_links_with_url": {
+        "message": "No se encontraron enlaces con una URL"
+    },
+    "slh16_no_links_without_icon": {
+        "message": "No se encontraron enlaces sin icono"
+    },
+    "slh16_remove_all_icons_confirm": {
+        "message": "¿Eliminar todos los iconos de los enlaces del espacio actual?\n\nEsto solo afecta al espacio activo y no se puede deshacer."
+    },
+    "slh16_removed_icons": {
+        "message": "Se eliminaron $1 icono$2"
+    },
+    "slh16_removing_icons": {
+        "message": "Eliminando iconos…"
+    },
+    "slh16_revert": {
+        "message": "Deshacer"
+    },
+    "slh16_theme_changed": {
+        "message": "Tema cambiado a $1"
+    },
+    "slh16_updated_favicons": {
+        "message": "Se actualizaron los favicons de $1 enlace$2"
+    },
+    "smh17_checking": {
+        "message": "Comprobando…"
+    },
+    "smh17_connected": {
+        "message": "Conectado"
+    },
+    "smh17_connected_version": {
+        "message": "Conectado (v$1)"
+    },
+    "smh17_err_generic": {
+        "message": "Error: $1"
+    },
+    "smh17_err_host_crashed": {
+        "message": "El host se bloqueó — comprueba host.ps1 en busca de errores"
+    },
+    "smh17_err_id_mismatch": {
+        "message": "El ID de la extensión no coincide — vuelve a ejecutar install.ps1 con el -ProductionId o -DevId correcto"
+    },
+    "smh17_err_not_found": {
+        "message": "No encontrado — ejecuta install.ps1 y reinicia Chrome"
+    },
+    "smh17_no_error_msg": {
+        "message": "(no se devolvió ningún mensaje de error)"
+    },
+    "smh17_not_installed": {
+        "message": "No instalado"
+    },
+    "spc_add_link": {
+        "message": "Añadir enlace"
+    },
+    "spc_add_link_button": {
+        "message": "Añadir botón de enlace"
+    },
+    "spc_btn_add": {
+        "message": "Añadir"
+    },
+    "spc_err_add_link_button": {
+        "message": "No se ha podido añadir la página como botón de enlace."
+    },
+    "spc_err_add_to_group": {
+        "message": "No se ha podido añadir la página a ese grupo."
+    },
+    "spc_err_create_group": {
+        "message": "No se ha podido crear el nuevo grupo."
+    },
+    "spc_err_enter_new_group": {
+        "message": "Introduce un nombre para el nuevo grupo."
+    },
+    "spc_err_group_exists": {
+        "message": "El grupo \"$1\" ya existe."
+    },
+    "spc_footer_add": {
+        "message": "añadir"
+    },
+    "spc_footer_close": {
+        "message": "cerrar"
+    },
+    "spc_footer_navigate": {
+        "message": "navegar"
+    },
+    "spc_footer_next_field": {
+        "message": "campo siguiente"
+    },
+    "spc_footer_open": {
+        "message": "abrir"
+    },
+    "spc_label_group": {
+        "message": "Grupo"
+    },
+    "spc_label_new_group": {
+        "message": "Nombre del nuevo grupo"
+    },
+    "spc_label_title": {
+        "message": "Título"
+    },
+    "spc_label_workspace": {
+        "message": "Espacio de trabajo"
+    },
+    "spc_new_group_option": {
+        "message": "+ Nuevo grupo…"
+    },
+    "spc_no_results": {
+        "message": "Sin resultados para \"$1\""
+    },
+    "spc_placeholder_new_group": {
+        "message": "Introduce un nombre de grupo único"
+    },
+    "spc_placeholder_page_title": {
+        "message": "Título de la página"
+    },
+    "spc_search_placeholder": {
+        "message": "Buscar enlaces…"
+    },
+    "spc_search_web": {
+        "message": "Buscar \"$1\" en la web"
+    },
+    "spc_tab_current": {
+        "message": "ahora"
+    },
+    "spc_tab_group_link": {
+        "message": "Enlace de grupo"
+    },
+    "spc_tab_link_button": {
+        "message": "Botón de enlace"
+    },
+    "spc_tab_open_label": {
+        "message": "pestaña abierta"
+    },
+    "spc_tab_search": {
+        "message": "Buscar"
+    },
+    "spc_tab_switch": {
+        "message": "cambiar"
+    },
+    "spc_tab_close": {
+        "message": "Cerrar pestaña"
+    },
+    "spc_tabs_domain_other": {
+        "message": "Otras pestañas"
+    },
+    "spc_tabs_heading": {
+        "message": "Pestañas abiertas"
+    },
+    "spc_tabs_hint": {
+        "message": "haz clic en una tarjeta para cambiar"
+    },
+    "spc_tabs_matching": {
+        "message": "Pestañas abiertas coincidentes"
+    },
+    "spc_type_link": {
+        "message": "Enlace"
+    },
+    "spotlight_hint_title": {
+        "message": "Busca en tus enlaces guardados"
+    },
+    "sr8_add": {
+        "message": "Añadir"
+    },
+    "sr8_add_step": {
+        "message": "Añadir paso"
+    },
+    "sr8_alignment": {
+        "message": "Alineación"
+    },
+    "sr8_arrow_direction": {
+        "message": "Dirección de la flecha"
+    },
+    "sr8_callout_type": {
+        "message": "Tipo de aviso"
+    },
+    "sr8_change_avatar": {
+        "message": "Cambiar avatar"
+    },
+    "sr8_change_image": {
+        "message": "Cambiar imagen"
+    },
+    "sr8_change_thumbnail": {
+        "message": "Cambiar miniatura"
+    },
+    "sr8_copy": {
+        "message": "Copiar"
+    },
+    "sr8_delete": {
+        "message": "Eliminar"
+    },
+    "sr8_delete_element_confirm": {
+        "message": "¿Eliminar este elemento?"
+    },
+    "sr8_done": {
+        "message": "Hecho"
+    },
+    "sr8_drag_to_move": {
+        "message": "Arrastra para mover"
+    },
+    "sr8_edit": {
+        "message": "Editar"
+    },
+    "sr8_file_type": {
+        "message": "Tipo de archivo"
+    },
+    "sr8_fit": {
+        "message": "Ajuste"
+    },
+    "sr8_heading_level": {
+        "message": "Nivel de encabezado"
+    },
+    "sr8_or_paste_image_url": {
+        "message": "…o pega la URL de la imagen"
+    },
+    "sr8_panel_background": {
+        "message": "Fondo del panel"
+    },
+    "sr8_paste_image_url": {
+        "message": "Pega la URL de la imagen (https://…)"
+    },
+    "sr8_ph_callout_text": {
+        "message": "Texto de la nota…"
+    },
+    "sr8_ph_code": {
+        "message": "código…"
+    },
+    "sr8_ph_description": {
+        "message": "Descripción"
+    },
+    "sr8_ph_file_name": {
+        "message": "Nombre del archivo"
+    },
+    "sr8_ph_file_url": {
+        "message": "URL del archivo (https://…)"
+    },
+    "sr8_ph_heading": {
+        "message": "Encabezado"
+    },
+    "sr8_ph_link_url": {
+        "message": "URL del enlace (https://…)"
+    },
+    "sr8_ph_name": {
+        "message": "Nombre"
+    },
+    "sr8_ph_short_bio": {
+        "message": "Biografía breve"
+    },
+    "sr8_ph_step_title": {
+        "message": "Título del paso"
+    },
+    "sr8_ph_title": {
+        "message": "Título"
+    },
+    "sr8_ph_write_text": {
+        "message": "Escribe algún texto…"
+    },
+    "sr8_remove_last_step": {
+        "message": "Quitar el último paso"
+    },
+    "sr8_thickness": {
+        "message": "Grosor"
+    },
+    "srh14_card_meta": {
+        "message": "Instantánea · $1"
+    },
+    "srh14_card_ready": {
+        "message": "$1 $2 listas para restaurar"
+    },
+    "srh14_confirm_clear": {
+        "message": "¿Borrar la instantánea guardada de la última sesión?"
+    },
+    "srh14_last_updated": {
+        "message": "Última actualización: $1"
+    },
+    "srh14_no_snapshot_saved": {
+        "message": "Aún no hay ninguna instantánea guardada"
+    },
+    "srh14_no_snapshot_yet": {
+        "message": "Aún no hay instantánea"
+    },
+    "srh14_no_supported_tabs": {
+        "message": "Actualmente no hay pestañas compatibles almacenadas en la instantánea local."
+    },
+    "srh14_no_tabs_to_restore": {
+        "message": "No hay pestañas listas para restaurar"
+    },
+    "srh14_prompt_no_supported": {
+        "message": "ReadyTab encontró una instantánea local, pero actualmente no contiene ninguna pestaña compatible."
+    },
+    "srh14_restored": {
+        "message": "Se restauraron $1 $2."
+    },
+    "srh14_summary_ready": {
+        "message": "$1 $2 en $3 $4 están listas para inspeccionar o restaurar."
+    },
+    "srh14_unknown": {
+        "message": "Desconocido"
+    },
+    "srh14_untitled_tab": {
+        "message": "Pestaña sin título"
+    },
+    "srh14_view_empty": {
+        "message": "No hay pestañas guardadas disponibles en la instantánea actual."
+    },
+    "srh14_window_title": {
+        "message": "Ventana $1 · $2 $3"
+    },
+    "ss32_apply_title": {
+        "message": "Aplicar «$1» ($2)"
+    },
+    "ss32_deactivate_btn": {
+        "message": "Desactivar tema guardado"
+    },
+    "ss32_deactivate_title_active": {
+        "message": "Desactivar el tema guardado activo y restaurar el tema base seleccionado"
+    },
+    "ss32_deactivate_title_none": {
+        "message": "Actualmente no hay ningún tema guardado activo"
+    },
+    "ss32_delete_title": {
+        "message": "Eliminar"
+    },
+    "ss32_empty": {
+        "message": "Aún no hay temas guardados"
+    },
+    "ssh18_aria_reorder": {
+        "message": "Reordenar $1"
+    },
+    "ssh18_aria_stays_first": {
+        "message": "$1 permanece primero"
+    },
+    "ssh18_badge_current": {
+        "message": "Actual"
+    },
+    "ssh18_badge_first": {
+        "message": "Primero"
+    },
+    "ssh18_badge_managed": {
+        "message": "Gestionado"
+    },
+    "ssh18_badge_readonly": {
+        "message": "Solo lectura"
+    },
+    "ssh18_clear_board": {
+        "message": "Vaciar tablero"
+    },
+    "ssh18_default_start_name": {
+        "message": "Inicio"
+    },
+    "ssh18_default_stays_first": {
+        "message": "El espacio predeterminado permanece primero"
+    },
+    "ssh18_drag_to_reorder": {
+        "message": "Arrastra para reordenar"
+    },
+    "ssh18_err_enter_name": {
+        "message": "Introduce un nombre de espacio."
+    },
+    "ssh18_err_invalid_name": {
+        "message": "Introduce un nombre de espacio válido."
+    },
+    "ssh18_err_managed_no_rename": {
+        "message": "Los espacios gestionados no se pueden renombrar."
+    },
+    "ssh18_err_name_exists": {
+        "message": "Ya existe un espacio con ese nombre."
+    },
+    "ssh18_err_no_space": {
+        "message": "No hay ningún espacio seleccionado."
+    },
+    "ssh18_subtitle_default": {
+        "message": "predeterminado • siempre primero"
+    },
+    "ssh18_subtitle_managed": {
+        "message": "$1 • tablero gestionado • solo lectura"
+    },
+    "ssh18_title_workspaces": {
+        "message": "Espacios de trabajo"
+    },
+    "ssh19_add_n_items": {
+        "message": "Añadir $1 elementos"
+    },
+    "ssh19_add_n_links": {
+        "message": "Añadir $1 enlaces"
+    },
+    "ssh19_add_one_item": {
+        "message": "Añadir 1 elemento"
+    },
+    "ssh19_add_one_link": {
+        "message": "Añadir 1 enlace"
+    },
+    "ssh19_alert_select_one": {
+        "message": "Selecciona al menos una sugerencia."
+    },
+    "ssh19_group_devtools_desc": {
+        "message": "Documentación, repositorios, utilidades y las herramientas que te ayudan a crear."
+    },
+    "ssh19_group_devtools_name": {
+        "message": "Desarrollo / Herramientas"
+    },
+    "ssh19_group_finance_desc": {
+        "message": "Banca, presupuestos, facturas y paneles relacionados con el dinero."
+    },
+    "ssh19_group_finance_name": {
+        "message": "Finanzas"
+    },
+    "ssh19_group_personal_desc": {
+        "message": "Hogar, recados y enlaces del día a día que quieres tener a mano."
+    },
+    "ssh19_group_personal_name": {
+        "message": "Personal"
+    },
+    "ssh19_group_reading_desc": {
+        "message": "Artículos, referencias guardadas y cosas a las que quieres volver."
+    },
+    "ssh19_group_reading_name": {
+        "message": "Lectura"
+    },
+    "ssh19_group_shopping_desc": {
+        "message": "Listas de deseos, tiendas habituales y cosas que estás comparando."
+    },
+    "ssh19_group_shopping_name": {
+        "message": "Compras"
+    },
+    "ssh19_group_social_desc": {
+        "message": "Comunidades, mensajes y las redes que consultas."
+    },
+    "ssh19_group_social_name": {
+        "message": "Social"
+    },
+    "ssh19_group_work_desc": {
+        "message": "Proyectos, prioridades y los enlaces que revisas durante el día."
+    },
+    "ssh19_group_work_name": {
+        "message": "Trabajo"
+    },
+    "ssh19_section_groups_desc": {
+        "message": "Crea secciones listas para rellenar con las cosas que más organizas."
+    },
+    "ssh19_section_groups_title": {
+        "message": "Grupos iniciales"
+    },
+    "ssh19_section_sites_desc": {
+        "message": "Añade accesos directos a destinos habituales con los iconos ya incluidos."
+    },
+    "ssh19_section_sites_title": {
+        "message": "Sitios web populares"
+    },
+    "ssh19_select_site": {
+        "message": "Seleccionar $1"
+    },
+    "themed_accent_color": {
+        "message": "Color de acento"
+    },
+    "themed_accent_hover_color": {
+        "message": "Color de acento al pasar el cursor"
+    },
+    "themed_active_tab_bg": {
+        "message": "Fondo de pestaña activa"
+    },
+    "themed_active_tab_text": {
+        "message": "Texto de pestaña activa"
+    },
+    "themed_border_color": {
+        "message": "Color del borde"
+    },
+    "themed_border_radius": {
+        "message": "Radio del borde"
+    },
+    "themed_button_hover_background": {
+        "message": "Fondo del botón al pasar el cursor"
+    },
+    "themed_button_hover_text": {
+        "message": "Texto del botón al pasar el cursor"
+    },
+    "themed_button_idle_color": {
+        "message": "Color del botón inactivo"
+    },
+    "themed_card_background": {
+        "message": "Fondo"
+    },
+    "themed_clock_color": {
+        "message": "Color del reloj"
+    },
+    "themed_clock_shadow": {
+        "message": "Sombra del reloj"
+    },
+    "themed_clock_size": {
+        "message": "Tamaño del reloj"
+    },
+    "themed_collapse_btn_background": {
+        "message": "Fondo del botón de contraer"
+    },
+    "themed_collapse_btn_icon_color": {
+        "message": "Color del icono del botón de contraer"
+    },
+    "themed_custom_css_placeholder": {
+        "message": "Custom CSS for this workspace:\n.item { }\n.link-name { font-style: italic; }"
+    },
+    "themed_custom_css_title": {
+        "message": "CSS personalizado"
+    },
+    "themed_danger_color": {
+        "message": "Color de peligro"
+    },
+    "themed_date_opacity": {
+        "message": "Opacidad de la fecha"
+    },
+    "themed_enable_slide_movement": {
+        "message": "Activar movimiento deslizante de tarjetas/enlaces"
+    },
+    "themed_export": {
+        "message": "Exportar"
+    },
+    "themed_greeting_color": {
+        "message": "Color del saludo"
+    },
+    "themed_greeting_opacity": {
+        "message": "Opacidad del saludo"
+    },
+    "themed_group_card": {
+        "message": "Tarjeta"
+    },
+    "themed_group_links": {
+        "message": "Enlaces"
+    },
+    "themed_group_other": {
+        "message": "Otros"
+    },
+    "themed_group_spacing": {
+        "message": "Espaciado de grupos"
+    },
+    "themed_header_background": {
+        "message": "Fondo"
+    },
+    "themed_header_divider": {
+        "message": "Separador del encabezado"
+    },
+    "themed_header_font_size": {
+        "message": "Tamaño de fuente"
+    },
+    "themed_header_font_weight": {
+        "message": "Grosor de fuente"
+    },
+    "themed_header_text_color": {
+        "message": "Color del texto"
+    },
+    "themed_header_text_transform": {
+        "message": "Transformación del texto"
+    },
+    "themed_help_custom_css": {
+        "message": "Ayuda sobre el CSS personalizado en Diseño"
+    },
+    "themed_help_reset_default": {
+        "message": "Ayuda sobre Restablecer a valores predeterminados"
+    },
+    "themed_help_saved_themes": {
+        "message": "Ayuda sobre Temas guardados"
+    },
+    "themed_help_theme_actions": {
+        "message": "Ayuda sobre las acciones de tema"
+    },
+    "themed_help_theme_editor": {
+        "message": "Ayuda sobre el Editor de temas"
+    },
+    "themed_hover_border": {
+        "message": "Borde al pasar el cursor"
+    },
+    "themed_hover_movement": {
+        "message": "Movimiento al pasar el cursor"
+    },
+    "themed_hover_shadow": {
+        "message": "Sombra al pasar el cursor"
+    },
+    "themed_hover_speed": {
+        "message": "Velocidad al pasar el cursor"
+    },
+    "themed_icon_color": {
+        "message": "Color del icono"
+    },
+    "themed_import": {
+        "message": "Importar"
+    },
+    "themed_item_divider": {
+        "message": "Separador de elementos"
+    },
+    "themed_item_header_line": {
+        "message": "Línea del encabezado"
+    },
+    "themed_item_header_text": {
+        "message": "Texto del encabezado"
+    },
+    "themed_letter_spacing": {
+        "message": "Espaciado entre letras"
+    },
+    "themed_link_descriptions": {
+        "message": "Descripciones de enlaces"
+    },
+    "themed_link_font_size": {
+        "message": "Tamaño de fuente"
+    },
+    "themed_link_font_weight": {
+        "message": "Grosor de fuente"
+    },
+    "themed_link_hover_background": {
+        "message": "Fondo al pasar el cursor"
+    },
+    "themed_link_hover_text_color": {
+        "message": "Color del texto al pasar el cursor"
+    },
+    "themed_link_text_color": {
+        "message": "Color del texto"
+    },
+    "themed_new_button_background": {
+        "message": "Fondo del botón Nuevo"
+    },
+    "themed_new_button_shadow": {
+        "message": "Sombra del botón Nuevo"
+    },
+    "themed_new_button_text": {
+        "message": "Texto del botón Nuevo"
+    },
+    "themed_no_saved_themes": {
+        "message": "Aún no hay temas guardados"
+    },
+    "themed_note_text": {
+        "message": "Texto de la nota"
+    },
+    "themed_reset_theme": {
+        "message": "Restablecer tema"
+    },
+    "themed_reset_to_default_btn": {
+        "message": "Restablecer a valores predeterminados"
+    },
+    "themed_reset_to_default_title": {
+        "message": "Restablecer a valores predeterminados"
+    },
+    "themed_save_theme": {
+        "message": "Guardar tema"
+    },
+    "themed_saved_themes": {
+        "message": "Temas guardados"
+    },
+    "themed_search_background": {
+        "message": "Fondo de la búsqueda"
+    },
+    "themed_search_border": {
+        "message": "Borde de la búsqueda"
+    },
+    "themed_search_placeholder": {
+        "message": "Texto de ejemplo de la búsqueda"
+    },
+    "themed_search_shadow": {
+        "message": "Sombra de la búsqueda"
+    },
+    "themed_settings_button_background": {
+        "message": "Fondo del botón de ajustes"
+    },
+    "themed_settings_button_shadow": {
+        "message": "Sombra del botón de ajustes"
+    },
+    "themed_shadow": {
+        "message": "Sombra"
+    },
+    "themed_shortcut_background": {
+        "message": "Fondo del acceso directo"
+    },
+    "themed_show_description": {
+        "message": "Mostrar la descripción bajo el nombre del enlace"
+    },
+    "themed_sub_group_header": {
+        "message": "Encabezado del grupo"
+    },
+    "themed_sub_interface": {
+        "message": "Interfaz"
+    },
+    "themed_sub_item_types": {
+        "message": "Tipos de elemento"
+    },
+    "themed_sub_spacing": {
+        "message": "Espaciado"
+    },
+    "themed_sub_top_bar_buttons": {
+        "message": "Botones de la barra superior"
+    },
+    "themed_sub_workspace_tabs": {
+        "message": "Pestañas de espacios"
+    },
+    "themed_tab_background": {
+        "message": "Fondo de la pestaña"
+    },
+    "themed_tab_font_size": {
+        "message": "Tamaño de fuente"
+    },
+    "themed_tab_font_weight": {
+        "message": "Grosor de fuente"
+    },
+    "themed_tab_radius": {
+        "message": "Radio de la pestaña"
+    },
+    "themed_tab_style": {
+        "message": "Estilo de la pestaña"
+    },
+    "themed_tab_text": {
+        "message": "Texto de la pestaña"
+    },
+    "themed_tab_text_transform": {
+        "message": "Transformación del texto"
+    },
+    "themed_tabs_container_bg": {
+        "message": "Fondo del contenedor de pestañas"
+    },
+    "themed_tabs_container_border": {
+        "message": "Borde del contenedor de pestañas"
+    },
+    "themed_tabs_container_shadow": {
+        "message": "Sombra del contenedor de pestañas"
+    },
+    "themed_theme_actions": {
+        "message": "Acciones de tema"
+    },
+    "themed_theme_editor": {
+        "message": "Editor de temas"
+    },
+    "themed_underline_style": {
+        "message": "Estilo de subrayado (Material UI)"
+    },
+    "themed_unsaved": {
+        "message": "● sin guardar"
+    },
+    "u33_no_icon_chosen": {
+        "message": "Aún no se ha elegido ningún icono"
+    },
+    "wa37_clear_board_confirm": {
+        "message": "¿Vaciar el tablero de «$1»? Esto conserva el espacio en sí, pero elimina todo lo que hay en él: grupos, accesos directos y otros elementos."
+    },
+    "wa37_delete_ws_confirm": {
+        "message": "¿Eliminar el espacio de trabajo «$1»? Esta acción no se puede deshacer."
+    },
+    "wa37_delete_ws_managed": {
+        "message": "¿Eliminar el espacio de trabajo «$1»? Este espacio es el origen de $2 tablero(s) gestionado(s)$3. Eliminarlo no revocará esos tableros, pero las actualizaciones seguirán bloqueadas hasta que restaures el origen localmente."
+    },
+    "wa37_incorrect_passphrase": {
+        "message": "La frase de contraseña es incorrecta o los datos no se pudieron descifrar."
+    },
+    "wa37_managed_no_clear": {
+        "message": "Los espacios gestionados no se pueden vaciar."
+    },
+    "wa37_no_delete_default": {
+        "message": "No se puede eliminar el espacio de trabajo predeterminado"
+    },
+    "wa37_no_other_ws": {
+        "message": "No hay otros espacios de trabajo disponibles. Crea uno primero."
+    },
+    "wa37_passphrase_desc": {
+        "message": "Introduce la frase de contraseña para desbloquear «$1»."
+    },
+    "wa37_protected_locked_switch": {
+        "message": "Este espacio protegido está bloqueado. Cambia a él primero para desbloquearlo."
+    },
+    "wa37_protected_ws_title": {
+        "message": "Espacio de trabajo protegido"
+    },
+    "wa37_start": {
+        "message": "Inicio"
+    },
+    "wa37_ws_exists": {
+        "message": "El espacio de trabajo «$1» ya existe"
+    },
+    "wa37_ws_locked_switch": {
+        "message": "Este espacio de trabajo está bloqueado. Cambia a él primero para desbloquearlo."
+    },
+    "web_search_enter_hint": {
+        "message": "Enter"
+    },
+    "web_search_placeholder": {
+        "message": "Busca en tus elementos o en la web…"
+    },
+    "wih20_add_element": {
+        "message": "Añadir elemento"
+    },
+    "wih20_add_item": {
+        "message": "Añadir elemento"
+    },
+    "wih20_add_link": {
+        "message": "Añadir enlace"
+    },
+    "wih20_add_x": {
+        "message": "Añadir $1"
+    },
+    "wih20_added_x": {
+        "message": "$1 añadido"
+    },
+    "wih20_adds_immediately": {
+        "message": "Se añade de inmediato"
+    },
+    "wih20_alert_could_not_find_group_to_update": {
+        "message": "No se pudo encontrar el grupo que actualizar"
+    },
+    "wih20_alert_could_not_find_x_to_update": {
+        "message": "No se pudo encontrar $1 que actualizar"
+    },
+    "wih20_alert_fill_required": {
+        "message": "Rellena todos los campos obligatorios"
+    },
+    "wih20_alert_group_already_exists": {
+        "message": "El grupo ya existe"
+    },
+    "wih20_alert_launcher_target": {
+        "message": "Introduce un destino para el lanzador"
+    },
+    "wih20_alert_picker_no_companion": {
+        "message": "No se pudo abrir el selector: ¿está instalada la aplicación complementaria?\n\nConsulta el estado en Ajustes → Cuenta → Aplicación complementaria."
+    },
+    "wih20_alert_please_enter_x": {
+        "message": "Introduce un $1"
+    },
+    "wih20_alert_valid_avatar_url": {
+        "message": "Introduce una URL de imagen de avatar válida"
+    },
+    "wih20_alert_valid_file_url": {
+        "message": "Introduce una URL de archivo válida"
+    },
+    "wih20_alert_valid_image_url": {
+        "message": "Introduce una URL de imagen válida"
+    },
+    "wih20_alert_valid_link_url": {
+        "message": "Introduce una URL de enlace válida"
+    },
+    "wih20_alert_valid_link_url_scheme": {
+        "message": "Introduce una URL de enlace válida (http:// o https://)"
+    },
+    "wih20_alert_x_already_exists": {
+        "message": "$1 ya existe"
+    },
+    "wih20_can_contain": {
+        "message": "Puede contener"
+    },
+    "wih20_cat_actions": {
+        "message": "Acciones"
+    },
+    "wih20_cat_containers": {
+        "message": "Contenedores"
+    },
+    "wih20_cat_media": {
+        "message": "Multimedia / imágenes"
+    },
+    "wih20_cat_steps": {
+        "message": "Pasos"
+    },
+    "wih20_cat_structure": {
+        "message": "Estructura"
+    },
+    "wih20_cat_text": {
+        "message": "Texto"
+    },
+    "wih20_choose_target_group": {
+        "message": "Elige primero un grupo de destino."
+    },
+    "wih20_converted_button": {
+        "message": "Botón convertido"
+    },
+    "wih20_edit_x": {
+        "message": "Editar $1"
+    },
+    "wih20_fetching_preview": {
+        "message": "Obteniendo vista previa…"
+    },
+    "wih20_field_button_text": {
+        "message": "Texto del botón"
+    },
+    "wih20_field_callout_text": {
+        "message": "Texto de la nota"
+    },
+    "wih20_field_code": {
+        "message": "Código"
+    },
+    "wih20_field_first_step": {
+        "message": "Primer paso"
+    },
+    "wih20_field_group_name": {
+        "message": "Nombre del grupo"
+    },
+    "wih20_field_heading_text": {
+        "message": "Texto del encabezado"
+    },
+    "wih20_field_label_optional": {
+        "message": "Etiqueta (opcional)"
+    },
+    "wih20_field_text": {
+        "message": "Texto"
+    },
+    "wih20_label_arrow": {
+        "message": "Flecha"
+    },
+    "wih20_label_callout": {
+        "message": "Nota"
+    },
+    "wih20_label_code_block": {
+        "message": "Bloque de código"
+    },
+    "wih20_label_divider": {
+        "message": "Separador"
+    },
+    "wih20_label_file": {
+        "message": "Archivo"
+    },
+    "wih20_label_heading": {
+        "message": "Encabezado"
+    },
+    "wih20_label_image": {
+        "message": "Imagen"
+    },
+    "wih20_label_link_card": {
+        "message": "Tarjeta de enlace"
+    },
+    "wih20_label_profile_avatar": {
+        "message": "Perfil / Avatar"
+    },
+    "wih20_label_step_heading": {
+        "message": "Encabezado de paso"
+    },
+    "wih20_label_steps": {
+        "message": "Pasos"
+    },
+    "wih20_label_text": {
+        "message": "Texto"
+    },
+    "wih20_launcher_label_command": {
+        "message": "Comando"
+    },
+    "wih20_launcher_label_path": {
+        "message": "Ruta"
+    },
+    "wih20_launcher_label_target_uri": {
+        "message": "URI de destino"
+    },
+    "wih20_name": {
+        "message": "Nombre"
+    },
+    "wih20_name_button_text": {
+        "message": "texto del botón"
+    },
+    "wih20_name_group_name": {
+        "message": "nombre del grupo"
+    },
+    "wih20_no_icon_chosen": {
+        "message": "¡Aún no se ha elegido ningún icono!"
+    },
+    "wih20_no_matching_groups": {
+        "message": "No se encontraron grupos coincidentes."
+    },
+    "wih20_no_standard_groups": {
+        "message": "Aún no hay grupos estándar disponibles en este espacio de trabajo."
+    },
+    "wih20_opt_callout_desc": {
+        "message": "Resalta una nota o un consejo importante."
+    },
+    "wih20_opt_callout_label": {
+        "message": "Nota"
+    },
+    "wih20_opt_clipboard_desc": {
+        "message": "Copia texto con un solo clic."
+    },
+    "wih20_opt_clipboard_label": {
+        "message": "Botón de portapapeles"
+    },
+    "wih20_opt_code_desc": {
+        "message": "Muestra código o comandos con formato."
+    },
+    "wih20_opt_code_label": {
+        "message": "Bloque de código"
+    },
+    "wih20_opt_divider_desc": {
+        "message": "Separa el contenido con una línea horizontal."
+    },
+    "wih20_opt_divider_label": {
+        "message": "Separador"
+    },
+    "wih20_opt_file_desc": {
+        "message": "Muestra una tarjeta de recurso con estilo de archivo."
+    },
+    "wih20_opt_file_label": {
+        "message": "Archivo"
+    },
+    "wih20_opt_group_desc": {
+        "message": "Una tarjeta que puede contener varios elementos."
+    },
+    "wih20_opt_group_label": {
+        "message": "Grupo"
+    },
+    "wih20_opt_header_desc": {
+        "message": "Texto de encabezado grande para una sección."
+    },
+    "wih20_opt_header_label": {
+        "message": "Encabezado"
+    },
+    "wih20_opt_image_desc": {
+        "message": "Añade una tarjeta de imagen visual."
+    },
+    "wih20_opt_image_label": {
+        "message": "Imagen"
+    },
+    "wih20_opt_launcher_desc": {
+        "message": "Abre una app, un archivo, una carpeta o un comando."
+    },
+    "wih20_opt_launcher_label": {
+        "message": "Botón de lanzador"
+    },
+    "wih20_opt_linkcard_desc": {
+        "message": "Una vista previa más rica para un único enlace."
+    },
+    "wih20_opt_linkcard_label": {
+        "message": "Tarjeta de enlace"
+    },
+    "wih20_opt_profile_desc": {
+        "message": "Muestra un resumen de perfil compacto."
+    },
+    "wih20_opt_profile_label": {
+        "message": "Perfil"
+    },
+    "wih20_opt_routine_desc": {
+        "message": "Ejecuta varias acciones con un solo clic."
+    },
+    "wih20_opt_routine_label": {
+        "message": "Rutina"
+    },
+    "wih20_opt_shortcut_desc": {
+        "message": "Abre un enlace desde un botón de nivel superior."
+    },
+    "wih20_opt_iconlink_label": {
+        "message": "Enlace de icono"
+    },
+    "wih20_opt_iconlink_desc": {
+        "message": "Un icono grande que abre un enlace, con etiqueta opcional debajo"
+    },
+    "wih20_opt_shortcut_label": {
+        "message": "Acceso directo"
+    },
+    "wih20_opt_stepheader_desc": {
+        "message": "Un encabezado numerado para pasos guiados."
+    },
+    "wih20_opt_stepheader_label": {
+        "message": "Encabezado de paso"
+    },
+    "wih20_opt_steps_desc": {
+        "message": "Una lista numerada de pasos."
+    },
+    "wih20_opt_steps_label": {
+        "message": "Pasos"
+    },
+    "wih20_opt_text_desc": {
+        "message": "Un párrafo o bloque de texto de apoyo."
+    },
+    "wih20_opt_text_label": {
+        "message": "Texto"
+    },
+    "wih20_opt_todo_desc": {
+        "message": "Una lista de tareas que puedes ir marcando."
+    },
+    "wih20_opt_todo_label": {
+        "message": "Lista de tareas"
+    },
+    "wih20_ph_important_shortcut": {
+        "message": "Acceso directo importante"
+    },
+    "wih20_ph_write_code": {
+        "message": "Escribe tu código"
+    },
+    "wih20_ph_write_text": {
+        "message": "Escribe tu texto"
+    },
+    "wih20_preset_avatar_n": {
+        "message": "Avatar predefinido $1"
+    },
+    "wih20_save_x": {
+        "message": "Guardar $1"
+    },
+    "wih20_step_count": {
+        "message": "$1 paso$2"
+    },
+    "wih20_sup_clipboard": {
+        "message": "Portapapeles"
+    },
+    "wih20_sup_dividers": {
+        "message": "Separadores"
+    },
+    "wih20_sup_headings": {
+        "message": "Encabezados"
+    },
+    "wih20_sup_launchers": {
+        "message": "Lanzadores"
+    },
+    "wih20_sup_links": {
+        "message": "Enlaces"
+    },
+    "wih20_sup_tasks": {
+        "message": "Tareas"
+    },
+    "wih20_sup_text": {
+        "message": "Texto"
+    },
+    "wih20_untitled_group": {
+        "message": "Grupo sin título"
+    },
+    "wma38_default_workspace_name": {
+        "message": "Inicio"
+    },
+    "wma38_label_delete": {
+        "message": "Eliminar"
+    },
+    "wma38_label_protect": {
+        "message": "Proteger"
+    },
+    "wma38_label_protect_pro": {
+        "message": "Proteger ✦"
+    },
+    "wma38_label_publish_public_board": {
+        "message": "Publicar tablero público"
+    },
+    "wma38_label_publish_public_board_pro": {
+        "message": "Publicar tablero público ✦"
+    },
+    "wma38_label_remove_subscription": {
+        "message": "Cancelar suscripción"
+    },
+    "wma38_label_rename": {
+        "message": "Renombrar"
+    },
+    "wma38_label_share_workspace": {
+        "message": "Compartir espacio de trabajo"
+    },
+    "wma38_label_share_workspace_pro": {
+        "message": "Compartir espacio de trabajo ✦"
+    },
+    "wma38_label_unprotect": {
+        "message": "Desproteger"
+    },
+    "wma38_remove_subscription_confirm": {
+        "message": "¿Cancelar la suscripción a «$1»? Puedes volver a suscribirte más tarde."
+    },
+    "wma38_rename_prompt": {
+        "message": "Renombrar espacio de trabajo:"
+    },
+    "wma38_share_unavailable": {
+        "message": "Compartir este espacio de trabajo no está disponible ahora mismo."
+    },
+    "wp39_btn_protect": {
+        "message": "Proteger"
+    },
+    "wp39_btn_unlock": {
+        "message": "Desbloquear"
+    },
+    "wp39_decrypt_fail": {
+        "message": "La frase de contraseña es incorrecta o no se pudo descifrar: $1"
+    },
+    "wp39_default_desc": {
+        "message": "Introduce la frase de contraseña para desbloquear este espacio de trabajo."
+    },
+    "wp39_default_title": {
+        "message": "Espacio de trabajo protegido"
+    },
+    "wp39_err_empty": {
+        "message": "La frase de contraseña no puede estar vacía."
+    },
+    "wp39_err_min_length": {
+        "message": "La frase de contraseña debe tener al menos 4 caracteres."
+    },
+    "wp39_err_mismatch": {
+        "message": "Las frases de contraseña no coinciden."
+    },
+    "wp39_protect_desc": {
+        "message": "Establece una frase de contraseña para proteger «$1». La necesitarás cada vez que abras este espacio de trabajo tras recargar la página."
+    },
+    "wp39_protect_fail": {
+        "message": "No se pudo proteger el espacio de trabajo: $1"
+    },
+    "wp39_protect_title": {
+        "message": "Proteger espacio de trabajo"
+    },
+    "wp39_unprotect_desc": {
+        "message": "Introduce la frase de contraseña actual para eliminar la protección de «$1»."
+    },
+    "wp39_unprotect_title": {
+        "message": "Desproteger espacio de trabajo"
+    },
+    "ws34_no_matches": {
+        "message": "No hay coincidencias para «$1»"
+    },
+    "ws34_results_header": {
+        "message": "Resultados"
+    },
+    "ws34_search_web_for": {
+        "message": "Buscar en la web «$1»"
+    },
+    "ws36_cancel": {
+        "message": "Cancelar"
+    },
+    "ws36_close": {
+        "message": "Cerrar"
+    },
+    "ws36_code_updated": {
+        "message": "Código de uso compartido actualizado."
+    },
+    "ws36_copied": {
+        "message": "¡Copiado!"
+    },
+    "ws36_copy": {
+        "message": "Copiar"
+    },
+    "ws36_create_code_btn": {
+        "message": "Crear código"
+    },
+    "ws36_create_fail": {
+        "message": "No se pudo crear el código de uso compartido: $1"
+    },
+    "ws36_hint_expires": {
+        "message": "Este código caduca el $1. Gestiónalo desde Ajustes → Espacios → Tableros compartidos."
+    },
+    "ws36_hint_never": {
+        "message": "Este código nunca caduca. Gestiónalo desde Ajustes → Espacios → Tableros compartidos."
+    },
+    "ws36_import_btn": {
+        "message": "Importar"
+    },
+    "ws36_import_replace_hint": {
+        "message": "Si ya existe un espacio de trabajo con este nombre, se reemplazará."
+    },
+    "ws36_import_title": {
+        "message": "Importar espacio de trabajo compartido"
+    },
+    "ws36_imported_toast": {
+        "message": "Importado: edítalo y luego pulsa Actualizar para refrescar el código."
+    },
+    "ws36_name": {
+        "message": "Nombre"
+    },
+    "ws36_name_placeholder": {
+        "message": "p. ej. Enlaces de incorporación para el equipo de diseño"
+    },
+    "ws36_never_expire_checkbox": {
+        "message": "Conservar hasta que yo lo elimine (nunca caduca)"
+    },
+    "ws36_no_data": {
+        "message": "No hay datos del espacio de trabajo para compartir."
+    },
+    "ws36_optional": {
+        "message": "(opcional)"
+    },
+    "ws36_recover_fail": {
+        "message": "No se pudo recuperar el contenido de este código en este dispositivo."
+    },
+    "ws36_reimport_confirm": {
+        "message": "El espacio desde el que se compartió este código no está en este dispositivo.\n\n¿Importar una copia para poder editarlo y luego actualizar el código con tus cambios?"
+    },
+    "ws36_share_code_aria": {
+        "message": "Código de uso compartido"
+    },
+    "ws36_share_dialog_create_desc": {
+        "message": "Crea un código que otros pueden usar para importar una copia de este espacio de trabajo."
+    },
+    "ws36_share_dialog_create_hint": {
+        "message": "Un nombre te ayuda a reconocer el código más tarde en Ajustes → Espacios → Tableros compartidos. De forma predeterminada, el código caduca en 30 días."
+    },
+    "ws36_share_dialog_create_title": {
+        "message": "Compartir espacio de trabajo"
+    },
+    "ws36_share_dialog_update_desc": {
+        "message": "Reemplaza la instantánea de este código con el estado actual del espacio de trabajo. El código en sí permanece igual."
+    },
+    "ws36_share_dialog_update_hint": {
+        "message": "Atención: las personas que ya importaron este código conservan su propia copia; solo las <b>nuevas</b> importaciones obtienen la versión actualizada."
+    },
+    "ws36_share_dialog_update_title": {
+        "message": "Actualizar código de uso compartido"
+    },
+    "ws36_shared_desc": {
+        "message": "Cualquier persona con este código puede importar una copia de este espacio de trabajo en su ReadyTab."
+    },
+    "ws36_shared_title": {
+        "message": "¡Espacio de trabajo compartido!"
+    },
+    "ws36_update_code_btn": {
+        "message": "Actualizar código"
+    },
+    "ws36_update_fail": {
+        "message": "No se pudo actualizar el código: $1"
+    },
+    "ws36_workspace_name": {
+        "message": "Nombre del espacio de trabajo"
+    },
+    "wtu40_add_workspace": {
+        "message": "Añadir espacio de trabajo"
+    },
+    "wtu40_create_more_spaces_pro": {
+        "message": "Crea más de $1 espacios con Pro"
+    },
+    "wtu40_enter_workspace_name": {
+        "message": "Introduce el nombre del espacio de trabajo:"
+    },
+    "wtu40_managed_board_readonly": {
+        "message": "Tablero gestionado: solo lectura"
+    },
+    "wtu40_more": {
+        "message": "Más"
+    },
+    "wtu40_pro": {
+        "message": "Pro"
+    },
+    "wtu40_start": {
+        "message": "Inicio"
+    },
+    "sdm1_kind_group": {
+        "message": "Grupo"
+    },
+    "sdm1_kind_todo_list": {
+        "message": "Lista de tareas"
+    },
+    "sdm1_kind_shortcut": {
+        "message": "Acceso directo"
+    },
+    "sdm1_kind_clipboard_button": {
+        "message": "Botón de portapapeles"
+    },
+    "sdm1_kind_launcher": {
+        "message": "Lanzador"
+    },
+    "sdm1_kind_routine": {
+        "message": "Rutina"
+    },
+    "sdm1_kind_heading": {
+        "message": "Encabezado"
+    },
+    "sdm1_kind_step_heading": {
+        "message": "Encabezado de paso"
+    },
+    "sdm1_kind_text": {
+        "message": "Texto"
+    },
+    "sdm1_kind_divider": {
+        "message": "Separador"
+    },
+    "sdm1_kind_arrow": {
+        "message": "Flecha"
+    },
+    "sdm1_kind_callout": {
+        "message": "Aviso"
+    },
+    "sdm1_kind_code_block": {
+        "message": "Bloque de código"
+    },
+    "sdm1_kind_steps": {
+        "message": "Pasos"
+    },
+    "sdm1_kind_image": {
+        "message": "Imagen"
+    },
+    "sdm1_kind_profile": {
+        "message": "Perfil"
+    },
+    "sdm1_kind_link_card": {
+        "message": "Tarjeta de enlace"
+    },
+    "sdm1_kind_file": {
+        "message": "Archivo"
+    },
+    "sdm1_kind_note": {
+        "message": "Nota"
+    },
+    "sdm1_kind_task_list": {
+        "message": "Lista de tareas"
+    },
+    "sdm1_untitled_group": {
+        "message": "Grupo sin título"
+    },
+    "sdm1_untitled_note": {
+        "message": "Nota sin título"
+    },
+    "sdm1_untitled_list": {
+        "message": "Lista sin título"
+    },
+    "sdm1_notes_label": {
+        "message": "Notas"
+    },
+    "sdm1_tasks_label": {
+        "message": "Tareas"
+    },
+    "sdm1_protected_name": {
+        "message": "$1 (protegido)"
+    },
+    "sdm1_protected_preview": {
+        "message": "Bloqueado — contenido no visible"
+    },
+    "sdm1_done_ratio": {
+        "message": "$1/$2 completadas"
+    },
+    "sdm1_step_one": {
+        "message": "$1 paso"
+    },
+    "sdm1_step_many": {
+        "message": "$1 pasos"
+    },
+    "sdm1_element_one": {
+        "message": "$1 elemento"
+    },
+    "sdm1_element_many": {
+        "message": "$1 elementos"
+    },
+    "sdm1_item_one": {
+        "message": "$1 elemento"
+    },
+    "sdm1_item_many": {
+        "message": "$1 elementos"
+    },
+    "sdm1_task_one": {
+        "message": "$1 tarea"
+    },
+    "sdm1_task_many": {
+        "message": "$1 tareas"
+    },
+    "sdm1_target_fallback": {
+        "message": "destino"
+    },
+    "sdm1_close": {
+        "message": "Cerrar"
+    },
+    "sdm1_cancel": {
+        "message": "Cancelar"
+    },
+    "sdm1_identical": {
+        "message": "Sin diferencias — ambas versiones son idénticas."
+    },
+    "sdm1_chip_added": {
+        "message": "añadido"
+    },
+    "sdm1_chip_changed": {
+        "message": "cambiado"
+    },
+    "sdm1_chip_removed": {
+        "message": "eliminado"
+    },
+    "sdm1_ws_tag": {
+        "message": "espacio de trabajo"
+    },
+    "sdm1_ws_new": {
+        "message": "Nuevo espacio de trabajo — se añadirá a $1"
+    },
+    "sdm1_ws_only_in": {
+        "message": "Solo en $1 — se eliminará"
+    },
+    "sdm1_ws_entire": {
+        "message": "Todo el espacio de trabajo"
+    },
+    "sdm1_ws_unchanged": {
+        "message": "$1, sin cambios"
+    },
+    "sdm1_unchanged_inline": {
+        "message": "$1 sin cambios"
+    },
+    "sdm1_sec_added": {
+        "message": "Añadido a $1"
+    },
+    "sdm1_sec_changed": {
+        "message": "Cambiado"
+    },
+    "sdm1_sec_removed": {
+        "message": "Eliminado de $1"
+    },
+    "sdm1_row_new": {
+        "message": "Nuevo: $1 — aún no está en $2"
+    },
+    "sdm1_row_only_in": {
+        "message": "Solo en $1 — se eliminará"
+    },
+    "sdm1_row_count_differs": {
+        "message": "Ya está en $1 — el número de elementos difiere"
+    },
+    "sdm1_row_contents_edited": {
+        "message": "Ya está en $1 — contenido editado"
+    },
+    "sdm1_row_task_count_differs": {
+        "message": "Ya está en $1 — el número de tareas difiere"
+    },
+    "sdm1_row_tasks_edited": {
+        "message": "Ya está en $1 — tareas editadas"
+    },
+    "sdm1_row_edited_preview": {
+        "message": "$1 editado — $2"
+    },
+    "sdm1_row_edited": {
+        "message": "$1 editado"
+    },
+    "sdm1_pill_edited": {
+        "message": "editado"
+    },
+    "sdm1_count_now": {
+        "message": "ahora"
+    },
+    "sdm1_count_after": {
+        "message": "después"
+    },
+    "language_auto": {
+        "message": "Automático (navegador)"
+    },
+    "grp_display_tile": {
+        "message": "Mosaico"
+    },
+    "wih20_opt_tile_label": {
+        "message": "Mosaico"
+    },
+    "wih20_opt_tile_desc": {
+        "message": "Un botón de icono cuadrado con fondo de tarjeta."
+    },
+    "grp_display_tile2": {
+        "message": "Mosaico grande"
+    },
+    "wih20_opt_tile2_label": {
+        "message": "Mosaico grande"
+    },
+    "wih20_opt_tile2_desc": {
+        "message": "El botón de icono cuadrado, de dos columnas de ancho."
+    },
+    "lbr5_turn_into": {
+        "message": "Convertir en $1"
+    },
+    "grp_choose_style": {
+        "message": "Elige un estilo"
+    },
+    "grp_choose_style_hint": {
+        "message": "Elige cómo debe verse. Puedes cambiarlo luego desde el menú del elemento."
+    },
+    "wih20_opt_link_label": {
+        "message": "Enlace"
+    },
+    "wih20_opt_link_desc": {
+        "message": "Abrir un sitio web o URL."
+    },
+    "wih20_style_fam_buttons": {
+        "message": "Botones"
+    },
+    "wih20_style_fam_tiles": {
+        "message": "Mosaicos"
+    },
+    "wih20_style_standard_desc": {
+        "message": "Un botón de ancho completo con icono y etiqueta."
+    },
+    "wih20_style_icon_desc": {
+        "message": "Un icono simple con etiqueta opcional."
+    },
+    "wih20_style_tile_desc": {
+        "message": "Una tarjeta de icono cuadrada, de una columna."
+    },
+    "wih20_style_tile2_desc": {
+        "message": "Una tarjeta de icono cuadrada, de dos columnas, con etiqueta."
+    },
+    "sbe_invalid_key": {
+        "message": "Enter the complete edit key supplied by the board owner."
+    },
+    "sbe_subscribe_first": {
+        "message": "Subscribe to this board before entering its edit key."
+    },
+    "sbe_latest": {
+        "message": "Latest shared version"
+    },
+    "sbe_yours": {
+        "message": "Your changes"
+    },
+    "sbe_review": {
+        "message": "Review conflict"
+    },
+    "sbe_replace": {
+        "message": "Replace with my reviewed version"
+    },
+    "sbe_discard_confirm": {
+        "message": "Discard your unsaved changes and use the latest shared version?"
+    },
+    "sbe_status_checking": {
+        "message": "Checking editing access…"
+    },
+    "sbe_status_unsaved": {
+        "message": "Shared board · Unsaved changes"
+    },
+    "sbe_status_saving": {
+        "message": "Shared board · Saving…"
+    },
+    "sbe_status_saved": {
+        "message": "Shared board · Saved"
+    },
+    "sbe_status_conflict": {
+        "message": "This board changed elsewhere. Review before saving."
+    },
+    "sbe_status_error": {
+        "message": "Changes are unsaved. Try saving again."
+    },
+    "sbe_status_denied": {
+        "message": "Editing access is unavailable. Export any unsaved changes before leaving."
+    },
+    "sbe_use_latest": {
+        "message": "Use latest version"
+    },
+    "sbe_save": {
+        "message": "Save changes"
+    },
+    "sbe_export": {
+        "message": "Export my changes"
+    },
+    "sbe_enter_key": {
+        "message": "Enter edit key"
+    },
+    "sbe_key_prompt": {
+        "message": "Enter the shared edit key from the board owner:"
+    },
+    "sbe_connected": {
+        "message": "Shared board editing enabled."
+    },
+    "sbe_edit_key": {
+        "message": "Shared edit key"
+    },
+    "sbe_key_help": {
+        "message": "Send this same edit key to everyone who should edit the board, together with the read token and any board password. Keep your license key private. Replacing the edit key removes access for everyone using the old key."
+    },
+    "sbe_read_token": {
+        "message": "Read token"
+    },
+    "sbe_rotate_key": {
+        "message": "Replace edit key"
+    },
+    "sbe_generate_key": {
+        "message": "Generate edit key"
+    },
+    "sbe_rotate_confirm": {
+        "message": "Replace the shared edit key? Everyone using the old key will need the new one."
+    },
+    "sbe_key_generated": {
+        "message": "Key created. Copy it and send the same key to your editors."
+    },
+    "sbe_copy_key": {
+        "message": "Copy edit key"
+    },
+    "sbe_copied": {
+        "message": "Copied."
+    },
+    "sbe_open_board": {
+        "message": "Open shared board"
+    },
+    "sbe_generate_first": {
+        "message": "Generate an edit key first."
+    },
+    "sbe_disable": {
+        "message": "Disable editing"
+    },
+    "sbe_disable_confirm": {
+        "message": "Disable editing for everyone using the shared key?"
+    },
+    "sbe_disabled": {
+        "message": "Shared-key editing is disabled."
+    },
+    "sbe_close": {
+        "message": "Close"
+    },
+    "sbe_editor": {
+        "message": "Shared board · Editor"
+    },
+    "bmi_title": {
+        "message": "Importar marcadores"
+    },
+    "bmi_description": {
+        "message": "Selecciona carpetas a la izquierda y coloca y ordena los grupos en tus espacios."
+    },
+    "bmi_from_browser": {
+        "message": "Desde los marcadores del navegador"
+    },
+    "bmi_choose": {
+        "message": "Elegir marcadores"
+    },
+    "bmi_close": {
+        "message": "Cerrar"
+    },
+    "bmi_select_all": {
+        "message": "Seleccionar todo"
+    },
+    "bmi_clear": {
+        "message": "Borrar selección"
+    },
+    "bmi_preview": {
+        "message": "Vista previa"
+    },
+    "bmi_workspaces": {
+        "message": "Espacios"
+    },
+    "bmi_cancel": {
+        "message": "Cancelar"
+    },
+    "bmi_import": {
+        "message": "Importar y abrir el panel"
+    },
+    "bmi_trust": {
+        "message": "Copia enlaces a ReadyTab. Los marcadores del navegador no se modifican."
+    },
+    "bmi_loading": {
+        "message": "Cargando marcadores del navegador…"
+    },
+    "bmi_quick_links": {
+        "message": "Enlaces rápidos"
+    },
+    "bmi_skipped": {
+        "message": "Se omitieron $1 URL de marcadores no compatibles."
+    },
+    "bmi_no_destination": {
+        "message": "Crea o desbloquea un espacio local antes de importar marcadores."
+    },
+    "bmi_read_failed": {
+        "message": "No se pudieron leer los marcadores del navegador."
+    },
+    "bmi_read_retry": {
+        "message": "Comprueba el acceso a los marcadores y vuelve a abrir esta ventana."
+    },
+    "bmi_empty": {
+        "message": "No se encontraron marcadores para importar. Guarda primero marcadores en el navegador."
+    },
+    "bmi_collapse": {
+        "message": "Contraer $1"
+    },
+    "bmi_expand": {
+        "message": "Expandir $1"
+    },
+    "bmi_preview_empty": {
+        "message": "Aún no hay grupos en este espacio. Selecciona una carpeta o mueve un grupo aquí."
+    },
+    "bmi_earlier": {
+        "message": "Mover $1 antes"
+    },
+    "bmi_later": {
+        "message": "Mover $1 después"
+    },
+    "bmi_links": {
+        "message": "$1 enlaces"
+    },
+    "bmi_destination": {
+        "message": "Destino de $1"
+    },
+    "bmi_summary": {
+        "message": "$1 grupos en $2 espacios · $3 enlaces"
+    },
+    "bmi_importing": {
+        "message": "Importando marcadores…"
+    },
+    "bmi_save_failed": {
+        "message": "No se pudo guardar la importación. Comprueba el almacenamiento y el acceso al espacio e inténtalo de nuevo. Tu selección se conserva."
+    },
+    "bmi_done": {
+        "message": "Se importaron $1 marcadores en $2 grupos."
+    },
+    "bmi_layout_failed": {
+        "message": "Se importaron los marcadores, pero no se pudo guardar su distribución. Usa la distribución compacta."
+    },
+    "start_layout_failed": {
+        "message": "Se añadieron los sitios, pero no se pudo guardar su distribución. Usa Diseño compacto para organizarlos."
+    },
+    "start_title": {
+        "message": "Llenemos tu primer tablero"
+    },
+    "start_workspace_title": {
+        "message": "Llenemos este espacio de trabajo"
+    },
+    "start_intro": {
+        "message": "Elige cómo empezar. Tu tablero se abre en cuanto añades algo."
+    },
+    "start_recommended": {
+        "message": "Recomendado"
+    },
+    "start_checking": {
+        "message": "Comprobando tus marcadores…"
+    },
+    "start_choose": {
+        "message": "Elegir carpetas"
+    },
+    "start_sites": {
+        "message": "Sitios populares"
+    },
+    "start_sites_desc": {
+        "message": "Elige entre 18 sitios habituales como accesos directos o en grupos."
+    },
+    "start_browse": {
+        "message": "Explorar sitios"
+    },
+    "start_blank": {
+        "message": "Empezar de cero"
+    },
+    "start_blank_desc": {
+        "message": "Crea un grupo vacío y llénalo a tu gusto."
+    },
+    "start_add_group": {
+        "message": "Añadir grupo"
+    },
+    "start_picker_desc": {
+        "message": "Elige un destino y luego los sitios. Pulsa de nuevo para quitar un sitio."
+    },
+    "start_destination": {
+        "message": "Añadir sitios a"
+    },
+    "start_live": {
+        "message": "En vivo"
+    },
+    "start_live_desc": {
+        "message": "Los cambios se aplican a la página al instante."
+    },
+    "start_all_settings": {
+        "message": "Todos los ajustes →"
+    },
+    "start_plans_desc": {
+        "message": "Elige Sync para tus dispositivos, o Full para publicar y gestionar también tableros compartidos."
+    },
+    "start_sync_benefit": {
+        "message": "Sync: sincronización cifrada entre dispositivos"
+    },
+    "start_full_benefit": {
+        "message": "Full: sincronización, publicación y tableros compartidos"
+    },
+    "start_free_benefit": {
+        "message": "Gratis: espacios de trabajo locales ilimitados"
+    },
+    "start_undo_failed": {
+        "message": "No se pudo deshacer. Comprueba que los espacios de destino sigan disponibles y desbloqueados."
+    },
+    "start_undo": {
+        "message": "Deshacer"
+    },
+    "start_bookmarks_failed": {
+        "message": "No se pudieron comprobar tus marcadores. Elige carpetas para volver a intentarlo."
+    },
+    "start_bookmarks_found": {
+        "message": "Se encontraron $1 marcadores en $2 carpetas del navegador. Las carpetas se convierten en grupos."
+    },
+    "start_no_bookmarks": {
+        "message": "No se encontraron marcadores. Puedes importarlos cuando quieras desde los ajustes."
+    },
+    "start_nothing": {
+        "message": "Nada que importar"
+    },
+    "start_shortcuts": {
+        "message": "Accesos directos"
+    },
+    "start_favorites": {
+        "message": "Favoritos"
+    },
+    "start_new_group": {
+        "message": "+ Nuevo grupo"
+    },
+    "start_group_number": {
+        "message": "Grupo $1"
+    },
+    "start_selection": {
+        "message": "$1 accesos directos · $2 enlaces en grupos"
+    },
+    "start_add_sites": {
+        "message": "Añadir $1 sitios"
+    },
+    "start_empty_group": {
+        "message": "Nuevo grupo"
+    },
+    "start_added": {
+        "message": "Tu tablero está listo."
+    },
+    "start_back": {
+        "message": "Atrás"
+    },
+    "sbe_live_help": {
+        "message": "Al crear una clave se abre el tablero compartido. Los cambios se guardan automáticamente; los de otras personas aparecen cada 30 segundos mientras está abierto. Los conflictos requieren revisión. Usa esta pestaña para colaborar; una fuente restaurada es una copia local independiente."
+    },
+    "sbe_status_offline": {
+        "message": "Tablero compartido · Conexión interrumpida. Reintentando automáticamente…"
+    },
+    "sharing_title": {
+        "message": "Compartir"
+    },
+    "sharing_subtitle": {
+        "message": "Comparte tableros o importa uno que hayan compartido contigo"
+    },
+    "sharing_codes": {
+        "message": "Códigos"
+    },
+    "sharing_links": {
+        "message": "Enlaces públicos"
+    },
+    "sharing_live": {
+        "message": "Tableros conectados"
+    },
+    "sharing_new_code": {
+        "message": "Nuevo código"
+    },
+    "sharing_new_link": {
+        "message": "Nuevo enlace público"
+    },
+    "sharing_new_live": {
+        "message": "Nuevo tablero conectado"
+    },
+    "sharing_import": {
+        "message": "Importar código"
+    },
+    "sharing_join": {
+        "message": "Unirse a un tablero"
+    },
+    "sharing_source": {
+        "message": "Espacio de origen"
+    },
+    "sharing_joined": {
+        "message": "Tableros a los que te uniste"
+    },
+    "sharing_settings_description": {
+        "message": "Códigos, enlaces públicos y tableros conectados"
+    },
+    "sharing_codes_description": {
+        "message": "Los destinatarios importan una copia editable en ReadyTab. Los cambios posteriores no se sincronizan."
+    },
+    "sharing_links_description": {
+        "message": "Cualquiera con el enlace puede ver el tablero en un navegador sin extensión. Publica los cambios para actualizarlo."
+    },
+    "sharing_live_description": {
+        "message": "Los suscriptores reciben un tablero conectado en ReadyTab, de solo lectura salvo que permitas editarlo. Las ediciones del tablero conectado se sincronizan; los cambios en un origen independiente deben publicarse."
+    },
+    "sharing_join_description": {
+        "message": "Introduce el token del tablero y su contraseña, si el propietario proporcionó una."
+    },
+    "sharing_publish_required": {
+        "message": "Crear y gestionar contenido compartido requiere Full. Importar una copia y unirse a un tablero es gratis."
+    },
+    "sharing_no_source": {
+        "message": "Elige un espacio local sin protección para compartir."
+    },
+    "sbe_edit_keys": {
+        "message": "Claves de edición"
+    },
+    "sbe_key_name": {
+        "message": "Nombre de la clave"
+    },
+    "sbe_add_key": {
+        "message": "Añadir clave"
+    },
+    "sbe_rename_key": {
+        "message": "Renombrar"
+    },
+    "sbe_revoke_key": {
+        "message": "Revocar"
+    },
+    "sbe_replace_named_confirm": {
+        "message": "¿Reemplazar «$1»? Su clave actual dejará de funcionar. Las demás seguirán funcionando."
+    },
+    "sbe_revoke_named_confirm": {
+        "message": "¿Revocar «$1»? Quienes usen esta clave perderán el acceso de edición."
+    },
+    "sbe_key_other_device": {
+        "message": "Esta clave no está guardada en este dispositivo. Reemplázala para obtener una nueva copia."
+    },
+    "sbe_named_help": {
+        "message": "Crea claves con nombre para personas o grupos. Cada clave se puede reemplazar o revocar por separado. Quien tenga una clave puede editar; revocarla no elimina el acceso de lectura."
+    },
+    "sbe_status_recovered": {
+        "message": "Cambios pendientes recuperados. Revísalos antes de guardar."
+    },
+    "sbe_draft_error": {
+        "message": "No se pudo guardar la recuperación local. Mantén esta pestaña abierta y exporta tus cambios."
+    },
+    "sbe_discard_draft": {
+        "message": "Descartar cambios pendientes"
+    },
+    "sbe_unfinished_text": {
+        "message": "Texto sin terminar"
+    },
+    "sbe_discard_text": {
+        "message": "Descartar este texto"
+    },
+    "sbe_saved_locally": {
+        "message": "Guardado en este dispositivo. Pendiente de compartir."
+    },
+    "sbe_incorrect_password": {
+        "message": "Contraseña del tablero incorrecta. Inténtalo de nuevo."
+    },
+    "bmi_choose_file": {
+        "message": "Choose bookmark file…"
+    },
+    "bmi_choose_file_hint": {
+        "message": "Export bookmarks from your browser as HTML, then choose the file to preview it here."
+    },
+    "bmi_from_file": {
+        "message": "Bookmark file"
+    },
+    "ega3_choose_file_hint": {
+        "message": "Choose a bookmark HTML export first."
+    },
+    "greet_night": {
+        "message": "Buenas noches"
+    },
+    "greet_morning": {
+        "message": "Buenos días"
+    },
+    "greet_afternoon": {
+        "message": "Buenas tardes"
+    },
+    "greet_evening": {
+        "message": "Buenas noches"
+    },
+    "greet_night_name": {
+        "message": "Buenas noches, $1"
+    },
+    "greet_morning_name": {
+        "message": "Buenos días, $1"
+    },
+    "greet_afternoon_name": {
+        "message": "Buenas tardes, $1"
+    },
+    "greet_evening_name": {
+        "message": "Buenas noches, $1"
+    },
+    "setg_greeting_name_label": {
+        "message": "Tu nombre"
+    },
+    "setg_greeting_name_ph": {
+        "message": "p. ej. Alex"
+    },
+    "clock_toggle_format_title": {
+        "message": "Clic para cambiar 12h / 24h"
+    },
+    "setg_favicons_remote": {
+        "message": "Cargar favicons de la web"
+    },
+    "setg_favicons_remote_desc": {
+        "message": "Si está desactivado, los enlaces muestran avatares con letras y no se hacen peticiones de iconos."
+    },
+    "ip22_cat_custom": {
+        "message": "Personalizado"
+    },
+    "ip22_custom_url_ph": {
+        "message": "Pega un enlace SVG o PNG…"
+    },
+    "ip22_custom_use": {
+        "message": "Usar icono"
+    },
+    "ip22_custom_invalid": {
+        "message": "Introduce un enlace de imagen válido (http/https)"
+    },
+    "ip22_custom_failed": {
+        "message": "No se pudo cargar esa imagen"
+    }
+}

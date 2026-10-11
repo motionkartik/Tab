@@ -1,0 +1,504 @@
+/* Routines — step-count badge, steps editor, and run-progress toast.
+   Uses the shared CSS-var theme contract so it inherits per-theme colors. */
+
+/* Step-count badge on routine buttons / items */
+.routine-step-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1em 0.5em;
+    border-radius: 999px;
+    background: var(--link-hover-bg, rgba(127, 127, 127, 0.18));
+    color: var(--text-secondary, inherit);
+    opacity: 0.85;
+    white-space: nowrap;
+    margin-left: auto;
+}
+
+/* In-group routine item: step count sits before the label, not pushed right. */
+.item-type-routine .routine-step-badge {
+    margin-left: 0;
+}
+
+/* ── Steps editor (inside modals) ──────────────────────────────────────── */
+.routine-steps-host {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.routine-steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 0;
+}
+
+.routine-steps-empty {
+    font-size: 0.82rem;
+    opacity: 0.65;
+    padding: 0.6rem 0.5rem;
+    border: 1px dashed var(--border-color, rgba(127, 127, 127, 0.3));
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Static, non-editable step chip — reorder by drag, remove by ✕ */
+.routine-step-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid var(--border-color, rgba(127, 127, 127, 0.28));
+    border-radius: 8px;
+    background: var(--link-hover-bg, rgba(127, 127, 127, 0.08));
+    cursor: grab;
+    user-select: none;
+}
+
+.routine-step-chip.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+
+.routine-step-chip.drag-over {
+    border-color: var(--accent-color, #6ea8fe);
+    box-shadow: inset 0 2px 0 var(--accent-color, #6ea8fe);
+}
+
+.routine-step-grip {
+    flex: 0 0 auto;
+    color: var(--text-secondary, inherit);
+    opacity: 0.5;
+    font-size: 0.9rem;
+    line-height: 1;
+    cursor: grab;
+}
+
+.routine-step-tag {
+    flex: 0 0 auto;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.15em 0.45em;
+    border-radius: 4px;
+    background: var(--accent-color, #6ea8fe);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.routine-step-tag--clipboard {
+    background: #d08c3a;
+}
+.routine-step-tag--workspace {
+    background: #6a9a55;
+}
+.routine-step-tag--delay {
+    background: #8a8a8a;
+}
+.routine-step-tag--app {
+    background: #9a6ad0;
+}
+.routine-step-tag--file {
+    background: #3a86c0;
+}
+.routine-step-tag--folder {
+    background: #c0903a;
+}
+
+.routine-step-summary {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.85rem;
+}
+
+.routine-step-remove {
+    flex: 0 0 auto;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    line-height: 1;
+    opacity: 0.6;
+}
+
+.routine-step-remove:hover {
+    background: var(--link-hover-bg, rgba(127, 127, 127, 0.18));
+    opacity: 1;
+}
+
+/* Composer — build one new step, then commit it as a chip.
+   Two rows: inputs on top, actions on their own line below. */
+.routine-step-composer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    min-width: 0;
+    padding: 0.7rem;
+    border: 1px solid var(--card-border-color, rgba(127, 127, 127, 0.3));
+    border-radius: 8px;
+    background: var(--input-bg, rgba(127, 127, 127, 0.06));
+}
+
+.routine-composer-input-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 0;
+}
+
+.routine-composer-kind {
+    flex: 0 0 auto;
+    min-width: 9rem;
+}
+
+.routine-composer-value {
+    flex: 1 1 12rem;
+    min-width: 0;
+}
+
+.routine-composer-value input,
+.routine-composer-value select,
+.routine-composer-value textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.routine-composer-value textarea {
+    resize: vertical;
+}
+
+.routine-composer-browse {
+    flex: 0 0 auto;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid
+        var(--btn-secondary-border, var(--card-border-color, rgba(127, 127, 127, 0.3)));
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    background: var(--btn-secondary-bg, var(--card-bg, #fff));
+    color: var(--btn-secondary-text, inherit);
+}
+
+.routine-composer-browse:hover {
+    filter: brightness(0.96);
+}
+
+.routine-composer-note {
+    font-size: 0.76rem;
+    opacity: 0.75;
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+.routine-composer-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4rem;
+}
+
+.routine-composer-add,
+.routine-composer-cancel {
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.83rem;
+}
+
+.routine-composer-cancel {
+    border: 1px solid
+        var(--btn-secondary-border, var(--card-border-color, rgba(127, 127, 127, 0.3)));
+    background: var(--btn-secondary-bg, var(--card-bg, #fff));
+    color: var(--btn-secondary-text, inherit);
+}
+
+.routine-composer-cancel:hover {
+    filter: brightness(0.96);
+}
+
+.routine-composer-add {
+    background: var(--accent-color, #6ea8fe);
+    border: 1px solid var(--accent-color, #6ea8fe);
+    color: #fff;
+    font-weight: 600;
+}
+
+.routine-composer-add:hover {
+    filter: brightness(1.05);
+}
+
+.routine-composer-invalid .routine-composer-value :is(input, select, textarea) {
+    outline: 1px solid #e0566f;
+}
+
+.routine-steps-controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.routine-add-step-btn,
+.routine-add-existing-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid
+        var(--btn-secondary-border, var(--card-border-color, rgba(127, 127, 127, 0.3)));
+    border-radius: 6px;
+    background: var(--btn-secondary-bg, var(--card-bg, #fff));
+    color: var(--btn-secondary-text, inherit);
+    cursor: pointer;
+    font-size: 0.82rem;
+}
+
+.routine-add-step-btn:hover,
+.routine-add-existing-btn:hover {
+    filter: brightness(0.96);
+}
+
+/* Layout handled by .link-form-field; input styling inherited from the
+   shared modal input rule (see modals/link-drawer.css). Just add spacing. */
+.routine-stagger-field {
+    margin-top: 0.25rem;
+}
+
+/* ── "Add from board" — centered modal, matched to the app's modals ────── */
+.routine-picker-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.routine-picker-modal {
+    width: 100%;
+    max-width: 600px;
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--board-modal-bg, var(--modal-bg, var(--overlay-bg, #fff)));
+    color: var(--overlay-text, var(--link-color));
+    border-radius: var(--border-radius);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+}
+
+.routine-picker-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 1rem 1.125rem 0.875rem;
+    border-bottom: 1px solid var(--card-border-color);
+    flex-shrink: 0;
+}
+
+.routine-picker-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--overlay-text, var(--link-color));
+}
+
+.routine-picker-close {
+    flex: 0 0 auto;
+    width: 1.9rem;
+    height: 1.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background: none;
+    color: var(--overlay-muted-text, var(--icon-color));
+    cursor: pointer;
+}
+
+.routine-picker-close:hover {
+    background: var(--card-hover-bg, rgba(128, 128, 128, 0.12));
+    color: var(--overlay-text, var(--link-color));
+}
+
+/* Match the app's modal input styling exactly (the picker lives on
+   document.body, outside #group/#link .settings-content, so it can't
+   inherit those rules — replicate the same tokens here). */
+.routine-picker-search {
+    margin: 0.875rem 1.125rem;
+    box-sizing: border-box;
+    min-height: 40px;
+    padding: 0.625rem 0.8rem;
+    border: 1px solid
+        var(
+            --smodal-input-border,
+            color-mix(in srgb, var(--overlay-text, #3c352a) 16%, transparent)
+        );
+    border-radius: 12px;
+    background: var(--smodal-input-bg, var(--input-bg, #fff));
+    color: var(--smodal-input-text, var(--overlay-text, #101828));
+    font-size: 0.92rem;
+    font-family: inherit;
+    transition:
+        border-color 0.2s,
+        box-shadow 0.2s,
+        background 0.2s;
+}
+
+.routine-picker-search:focus {
+    outline: none;
+    background: var(--smodal-raised-bg, var(--input-bg, #fff));
+    border-color: var(
+        --smodal-accent,
+        color-mix(
+            in srgb,
+            var(--accent-color, #4a7bff) 60%,
+            var(--overlay-border-color, rgba(0, 0, 0, 0.12))
+        )
+    );
+    box-shadow: 0 0 0 3px
+        color-mix(in srgb, var(--accent-color, #4a7bff) 22%, transparent);
+}
+
+.routine-picker-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 0 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.routine-picker-empty {
+    padding: 1.5rem 0.6rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--overlay-muted-text, var(--icon-color));
+}
+
+.routine-picker-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "label add" "sub add";
+    align-items: center;
+    column-gap: 0.75rem;
+    row-gap: 0.35rem;
+    width: 100%;
+    text-align: left;
+    padding: 0.7rem 0.625rem;
+    border: none;
+    border-bottom: 1px solid
+        var(--overlay-separator-color, rgba(148, 163, 184, 0.2));
+    border-radius: 0;
+    background: transparent;
+    color: var(--overlay-text, var(--link-color));
+    cursor: pointer;
+}
+
+.routine-picker-item:last-child {
+    border-bottom: none;
+}
+
+.routine-picker-item:hover {
+    background: var(--card-hover-bg, rgba(128, 128, 128, 0.12));
+}
+
+.routine-picker-item.added {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+.routine-picker-item-label {
+    grid-area: label;
+    font-size: 0.9rem;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.routine-picker-item-sub {
+    grid-area: sub;
+    font-size: 0.74rem;
+    color: var(--overlay-muted-text, var(--icon-color));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.routine-picker-item.added .routine-picker-item-sub {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Real secondary-button look for the Add affordance */
+.routine-picker-item-add {
+    grid-area: add;
+    align-self: center;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border-radius: 8px;
+    border: 1px solid
+        var(--btn-secondary-border, var(--card-border-color, rgba(127, 127, 127, 0.3)));
+    background: var(--btn-secondary-bg, var(--card-bg, #fff));
+    color: var(--btn-secondary-text, inherit);
+}
+
+.routine-picker-item:hover .routine-picker-item-add {
+    filter: brightness(0.96);
+}
+
+.routine-picker-item.added .routine-picker-item-add {
+    background: #fff;
+    color: var(--accent-color);
+    border-color: #fff;
+}
+
+/* ── Run-progress toast ────────────────────────────────────────────────── */
+.routine-progress-toast {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    z-index: 10000;
+    min-width: 14rem;
+    max-width: 22rem;
+    padding: 0.7rem 0.95rem;
+    border-radius: 10px;
+    background: var(--board-modal-bg, var(--modal-bg, var(--overlay-bg, #1f1f1f)));
+    color: var(--overlay-text, var(--link-color));
+    border: 1px solid var(--card-border-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    transform: translateY(8px);
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.routine-progress-toast.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.routine-progress-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.routine-progress-status {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
