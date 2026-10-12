@@ -129,6 +129,13 @@
     height: fit-content !important;
 }
 
+/* Keep the card stretched to the animated GridStack item while hover-collapse
+   runs. The collapsed fit-content height is restored after GridStack's 300ms
+   height transition completes. */
+.grid-stack-item-content.is-hover-collapsing:has(> .item.is-collapsed) {
+    height: 100% !important;
+}
+
 .item.is-collapsed .collapse-group-button svg {
     transform: rotate(-90deg);
 }

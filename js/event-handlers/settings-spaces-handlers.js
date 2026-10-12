@@ -72,14 +72,11 @@ const getOrderedWorkspaceIds = () => {
         seen.add(workspaceId);
     };
 
-    appendWorkspaceId("default");
     workspaceOrder.forEach(appendWorkspaceId);
+    appendWorkspaceId("default");
 
     return orderedIds;
 };
-
-const getOrderedNonDefaultWorkspaceIds = () =>
-    getOrderedWorkspaceIds().filter((workspaceId) => workspaceId !== "default");
 
 const showRenameError = (message) => {
     const errorEl = getRenameError();
@@ -189,20 +186,12 @@ const createSpaceRow = (workspaceId) => {
     const handle = document.createElement("button");
     handle.type = "button";
     handle.className = "spaces-item-handle settings-btn-secondary";
-    handle.title = isDefault
-        ? t("ssh18_default_stays_first")
-        : t("ssh18_drag_to_reorder");
+    handle.title = t("ssh18_drag_to_reorder");
     handle.setAttribute(
         "aria-label",
-        isDefault
-            ? t("ssh18_aria_stays_first", [getWorkspaceDisplayName(workspaceId)])
-            : t("ssh18_aria_reorder", [getWorkspaceDisplayName(workspaceId)]),
+        t("ssh18_aria_reorder", [getWorkspaceDisplayName(workspaceId)]),
     );
     handle.innerHTML = HANDLE_ICON;
-    if (isDefault) {
-        handle.disabled = true;
-        handle.classList.add("is-disabled");
-    }
 
     const content = document.createElement("div");
     content.className = "spaces-item-content";
@@ -217,10 +206,6 @@ const createSpaceRow = (workspaceId) => {
 
     if (workspaceId === currentWorkspace) {
         titleRow.appendChild(buildBadge(t("ssh18_badge_current"), "is-current"));
-    }
-
-    if (isDefault) {
-        titleRow.appendChild(buildBadge(t("ssh18_badge_first"), "is-default"));
     }
 
     if (managedBoardIds.has(workspaceId)) {
@@ -262,28 +247,25 @@ const createSpaceRow = (workspaceId) => {
 const initSortable = (list) => {
     destroySortable();
 
-    if (!list || getOrderedNonDefaultWorkspaceIds().length <= 1) return;
+    if (!list || getOrderedWorkspaceIds().length <= 1) return;
     if (!window.Sortable) return;
 
     sortableInstance = new window.Sortable(list, {
         animation: 150,
         handle: ".spaces-item-handle",
-        draggable: '.spaces-item:not([data-workspace="default"])',
+        draggable: ".spaces-item",
         ghostClass: "spaces-item-ghost",
         chosenClass: "spaces-item-chosen",
         dragClass: "spaces-item-dragging",
         onEnd: async () => {
-            const orderedIds = [...list.querySelectorAll(".spaces-item")]
-                .map((item) => item.dataset.workspace)
-                .filter((workspaceId) => workspaceId !== "default");
-
+            const orderedIds = [...list.querySelectorAll(".spaces-item")].map(
+                (item) => item.dataset.workspace,
+            );
             const remainingIds = workspaceOrder.filter(
-                (workspaceId) =>
-                    workspaceId !== "default" &&
-                    !orderedIds.includes(workspaceId),
+                (workspaceId) => !orderedIds.includes(workspaceId),
             );
 
-            setWorkspaceOrder(["default", ...orderedIds, ...remainingIds]);
+            setWorkspaceOrder([...orderedIds, ...remainingIds]);
             await saveWorkspacesToStorage();
             renderWorkspaceTabs();
             renderSpacesSettings();

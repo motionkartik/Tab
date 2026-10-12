@@ -7,6 +7,7 @@ import {
     protectedIds,
     sessionKeys,
     managedBoardIds,
+    setCurrentWorkspace,
     setWorkspaceOrder,
     setWorkspaceNames,
     setProtectedIds,
@@ -151,7 +152,6 @@ export const applyStorageResult = (result) => {
         }
 
         workspacesData.workspaces = workspaces;
-        workspacesData.activeWorkspace = "default";
 
         const newOrder = Array.isArray(result.workspaceOrder)
             ? result.workspaceOrder.filter((id) => id in workspaces)
@@ -165,6 +165,16 @@ export const applyStorageResult = (result) => {
         for (const id of managedBoardIds) {
             if (!newOrder.includes(id)) newOrder.push(id);
         }
+
+        const activeWorkspace =
+            typeof result.activeWorkspace === "string" &&
+            workspaces[result.activeWorkspace] !== undefined
+                ? result.activeWorkspace
+                : workspaces.default !== undefined
+                  ? "default"
+                  : Object.keys(workspaces)[0] || "default";
+        workspacesData.activeWorkspace = activeWorkspace;
+        setCurrentWorkspace(activeWorkspace);
 
         workspacesData.workspaceVisuals = {
             ...migrateWorkspaceVisualsIfNeeded(result, Object.keys(workspaces)),
@@ -592,6 +602,3 @@ export const reloadFromStorage = () => {
         );
     });
 };
-
-import { setCurrentWorkspace } from "./workspace-state.js";
-

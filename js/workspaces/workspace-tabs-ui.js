@@ -102,14 +102,13 @@ const getOrderedWorkspaceIds = () => {
     const uniqueIds = [];
     const seen = new Set();
 
-    uniqueIds.push("default");
-    seen.add("default");
-
     workspaceOrder.forEach((workspaceId) => {
         if (!workspaceId || seen.has(workspaceId)) return;
         uniqueIds.push(workspaceId);
         seen.add(workspaceId);
     });
+
+    if (!seen.has("default")) uniqueIds.push("default");
 
     return uniqueIds;
 };
@@ -123,13 +122,11 @@ const partitionWorkspaceIds = () => {
         };
     }
 
-    const nonDefaultIds = orderedIds.filter(
-        (workspaceId) => workspaceId !== "default",
-    );
+    const visibleCount = MAX_VISIBLE_TABS_WITHOUT_OVERFLOW - 1;
 
     return {
-        visibleWorkspaceIds: ["default", ...nonDefaultIds.slice(0, 2)],
-        overflowWorkspaceIds: nonDefaultIds.slice(2),
+        visibleWorkspaceIds: orderedIds.slice(0, visibleCount),
+        overflowWorkspaceIds: orderedIds.slice(visibleCount),
     };
 };
 

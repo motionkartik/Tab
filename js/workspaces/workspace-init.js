@@ -5,6 +5,8 @@ import {
     setWorkspaceOrder,
     workspaceOrder,
     workspaceNames,
+    protectedIds,
+    sessionKeys,
     updateWorkspaceVisualSettings,
 } from "./workspace-state.js";
 import {
@@ -19,6 +21,7 @@ import {
 import {
     handleMoveGroupRequest,
     applyWorkspaceBackground,
+    switchWorkspace,
 } from "./workspace-actions.js";
 import { renderWorkspaceTabs } from "./workspace-tabs-ui.js";
 import { loadProtectedIds } from "./workspace-protection.js";
@@ -48,6 +51,7 @@ export const initWorkspaces = async () => {
             "_icons",
             "workspaceOrder",
             "workspaceNames",
+            "activeWorkspace",
             "workspaceVisuals",
             GRID_COLS_STORAGE_KEY,
         ],
@@ -171,9 +175,21 @@ export const initWorkspaces = async () => {
                 ),
             );
 
+            const rememberedWorkspace = workspacesData.activeWorkspace;
+            const needsProtectedUnlock =
+                protectedIds.includes(rememberedWorkspace) &&
+                !sessionKeys.has(rememberedWorkspace);
+            if (needsProtectedUnlock) {
+                // Render a safe board behind the passphrase prompt; a locked
+                // workspace must not look like an empty, editable workspace.
+                setCurrentWorkspace("default");
+                workspacesData.activeWorkspace = "default";
+            }
+
             renderWorkspaceTabs();
             loadCurrentWorkspace();
             applyWorkspaceBackground(currentWorkspace);
+            if (needsProtectedUnlock) void switchWorkspace(rememberedWorkspace);
         },
     );
 };

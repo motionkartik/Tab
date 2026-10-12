@@ -103,7 +103,9 @@ export function initWebSearchBar() {
             return;
         }
 
-        const { results } = await getSearchResults(query, { limit: 10 });
+        // Keep local matches compact so Google suggestions remain visible in
+        // the dropdown without scrolling past a long list of saved items.
+        const { results } = await getSearchResults(query, { limit: 5 });
         if (
             requestId !== renderRequestId ||
             webSearchInput.value.trim() !== query

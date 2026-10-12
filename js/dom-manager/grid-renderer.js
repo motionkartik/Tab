@@ -789,9 +789,15 @@ export const addWidgetToGrid = (widgetData, canEdit = true, targetGrid) => {
     }
 
     let hoverTimer = null;
+    let collapseAnimationTimer = null;
+    const contentWrapper = widget.querySelector(
+        ":scope > .grid-stack-item-content",
+    );
 
     widget.addEventListener("mouseenter", () => {
         if (!contentNode.classList.contains("is-collapsed")) return;
+        clearTimeout(collapseAnimationTimer);
+        contentWrapper?.classList.remove("is-hover-collapsing");
         hoverTimer = setTimeout(() => {
             if (!contentNode.classList.contains("is-collapsed")) return;
             const collapseBtn = contentNode.querySelector(
@@ -823,11 +829,16 @@ export const addWidgetToGrid = (widgetData, canEdit = true, targetGrid) => {
         const todoFooter2 = contentNode.querySelector(".todo-group-footer");
         const currentH = widget?.gridstackNode?.h || 12;
         if (collapseBtn) collapseBtn.dataset.prevH = currentH;
+        contentWrapper?.classList.add("is-hover-collapsing");
         contentNode.classList.add("is-collapsed");
         if (itemsContainer2) itemsContainer2.style.display = "none";
         if (todoFooter2) todoFooter2.style.display = "none";
         const currentGrid = getGrid();
         if (currentGrid) currentGrid.update(widget, { h: 9, minH: 9 });
+        collapseAnimationTimer = setTimeout(() => {
+            contentWrapper?.classList.remove("is-hover-collapsing");
+            collapseAnimationTimer = null;
+        }, 320);
     });
 
     return itemsContainer ? { itemsContainer, groupData } : null;

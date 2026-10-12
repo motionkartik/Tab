@@ -1,4 +1,5 @@
 import {
+    getCurrentWorkspace,
     getWorkspacesData,
     workspaceNames,
 } from "./workspaces/workspace-state.js";
@@ -76,17 +77,20 @@ function normalizeWorkspaceEntryType(rawType) {
     return "link";
 }
 
-function scoreSearchEntry(entry, term) {
-    const secondaryText =
-        entry.resultType === "clipboard"
-            ? entry.content || ""
-            : entry.resultType === "launcher"
-              ? entry.target || ""
-              : entry.url || "";
+function getSearchDomain(value) {
+    try {
+        const url = new URL(String(value || ""));
+        if (url.protocol !== "http:" && url.protocol !== "https:") return "";
+        return url.hostname.replace(/^www\./i, "");
+    } catch {
+        return "";
+    }
+}
 
+function scoreSearchEntry(entry, term, title = entry.name) {
     return (
-        fuzzyScore(entry.name, term) * 10 +
-        fuzzyScore(secondaryText, term, { stripProtocol: true })
+        fuzzyScore(title, term) * 10 +
+        fuzzyScore(getSearchDomain(entry.url), term) * 10
     );
 }
 
@@ -137,7 +141,10 @@ function buildWorkspaceResult(rawEntry, workspaceId, rawType, groupName) {
 
 function collectWorkspaceResults(term) {
     const allWorkspaces = getWorkspacesData().workspaces || {};
-    const workspaceIds = Object.keys(allWorkspaces);
+    const activeWorkspaceId = getCurrentWorkspace();
+    const workspaceIds = allWorkspaces[activeWorkspaceId]
+        ? [activeWorkspaceId]
+        : [];
     const matches = [];
 
     workspaceIds.forEach((workspaceId) => {
@@ -153,7 +160,7 @@ function collectWorkspaceResults(term) {
                     group.type,
                     "Shortcut",
                 );
-                const score = scoreSearchEntry(result, term);
+                const score = scoreSearchEntry(result, term, group.name || "");
                 if (score > 0) matches.push({ ...result, score });
                 return;
             }
@@ -171,7 +178,7 @@ function collectWorkspaceResults(term) {
                         item.type,
                         group.name,
                     );
-                    const score = scoreSearchEntry(result, term);
+                    const score = scoreSearchEntry(result, term, item.name || "");
                     if (score > 0) matches.push({ ...result, score });
                 });
         });

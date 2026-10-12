@@ -115,7 +115,6 @@ const deriveWorkspaceOrder = (data, workspaces) => {
         seen.add(workspaceId);
     };
 
-    appendWorkspaceId("default");
     explicitOrder.forEach(appendWorkspaceId);
     workspaceIds.forEach(appendWorkspaceId);
 
